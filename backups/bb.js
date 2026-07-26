@@ -1,5 +1,5 @@
 backup_data = {
-  "title": "blazeblack",
+  "title": "voltwhite",
   "pok_replacements": {},
   "move_replacements": {},
   "ability_replacements": {},
@@ -83,7 +83,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 4,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -96,7 +96,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 5,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -109,7 +109,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -159,7 +159,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 50,
-      "sf": true
+      "secondaries": true
     },
     "Cut": {
       "type": "Grass",
@@ -214,7 +214,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Slam": {
       "type": "Normal",
@@ -291,7 +291,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Headbutt": {
       "type": "Normal",
@@ -350,7 +350,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Wrap": {
       "type": "Normal",
@@ -360,7 +360,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Take Down": {
       "type": "Normal",
@@ -406,7 +406,7 @@ backup_data = {
       "priority": 0,
       "e_id": 19,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Poison Sting": {
       "type": "Poison",
@@ -416,7 +416,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Twineedle": {
       "type": "Bug",
@@ -430,7 +430,7 @@ backup_data = {
         2,
         2
       ],
-      "sf": true
+      "secondaries": true
     },
     "Pin Missile": {
       "type": "Bug",
@@ -454,7 +454,7 @@ backup_data = {
       "priority": 0,
       "e_id": 19,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bite": {
       "type": "Dark",
@@ -474,7 +474,7 @@ backup_data = {
       "priority": 0,
       "e_id": 18,
       "target": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -499,7 +499,7 @@ backup_data = {
       "accuracy": 55,
       "priority": 0,
       "e_id": 1,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -512,7 +512,7 @@ backup_data = {
       "accuracy": 55,
       "priority": 0,
       "e_id": 49,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -533,7 +533,8 @@ backup_data = {
       "pp": 20,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 86
+      "e_id": 86,
+      "secondaries": true
     },
     "Acid": {
       "type": "Poison",
@@ -544,7 +545,7 @@ backup_data = {
       "priority": 0,
       "e_id": 72,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Ember": {
       "type": "Fire",
@@ -554,7 +555,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Flamethrower": {
       "type": "Fire",
@@ -564,7 +565,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Mist": {
       "type": "Ice",
@@ -611,7 +612,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 5,
-      "sf": true
+      "secondaries": true
     },
     "Blizzard": {
       "type": "Ice",
@@ -622,7 +623,7 @@ backup_data = {
       "priority": 0,
       "e_id": 260,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Psybeam": {
       "type": "Psychic",
@@ -632,7 +633,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Bubble Beam": {
       "type": "Water",
@@ -642,7 +643,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Aurora Beam": {
       "type": "Ice",
@@ -652,7 +653,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 68,
-      "sf": true
+      "secondaries": true
     },
     "Hyper Beam": {
       "type": "Normal",
@@ -756,7 +757,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 84,
-      "sf": true
+      "secondaries": true
     },
     "Growth": {
       "type": "Normal",
@@ -766,7 +767,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 316,
-      "sf": true
+      "secondaries": true
     },
     "Razor Leaf": {
       "type": "Grass",
@@ -795,7 +796,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 66,
-      "sf": true
+      "secondaries": true
     },
     "Stun Spore": {
       "type": "Grass",
@@ -805,7 +806,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Sleep Powder": {
       "type": "Grass",
@@ -815,7 +816,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Petal Dance": {
       "type": "Grass",
@@ -835,7 +836,7 @@ backup_data = {
       "priority": 0,
       "e_id": 20,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Dragon Rage": {
       "type": "Dragon",
@@ -854,7 +855,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Thunder Shock": {
       "type": "Electric",
@@ -864,7 +865,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Thunderbolt": {
       "type": "Electric",
@@ -874,7 +875,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Thunder Wave": {
       "type": "Electric",
@@ -884,7 +885,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Thunder": {
       "type": "Electric",
@@ -894,7 +895,7 @@ backup_data = {
       "accuracy": 70,
       "priority": 0,
       "e_id": 152,
-      "sf": true
+      "secondaries": true
     },
     "Rock Throw": {
       "type": "Rock",
@@ -941,7 +942,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 33,
-      "sf": true
+      "secondaries": true
     },
     "Confusion": {
       "type": "Psychic",
@@ -951,7 +952,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Psychic": {
       "type": "Psychic",
@@ -961,7 +962,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Hypnosis": {
       "type": "Psychic",
@@ -971,7 +972,7 @@ backup_data = {
       "accuracy": 60,
       "priority": 0,
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Meditate": {
       "type": "Psychic",
@@ -981,7 +982,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Agility": {
       "type": "Psychic",
@@ -991,7 +992,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 52,
-      "sf": true
+      "secondaries": true
     },
     "Quick Attack": {
       "type": "Normal",
@@ -1046,7 +1047,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 59,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -1059,7 +1060,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 16,
-      "sf": true
+      "secondaries": true
     },
     "Recover": {
       "type": "Normal",
@@ -1078,7 +1079,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 11,
-      "sf": true
+      "secondaries": true
     },
     "Minimize": {
       "type": "Normal",
@@ -1088,7 +1089,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 108,
-      "sf": true
+      "secondaries": true
     },
     "Smokescreen": {
       "type": "Normal",
@@ -1098,7 +1099,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Confuse Ray": {
       "type": "Ghost",
@@ -1108,7 +1109,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 49,
-      "sf": true
+      "secondaries": true
     },
     "Withdraw": {
       "type": "Water",
@@ -1118,7 +1119,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 11,
-      "sf": true
+      "secondaries": true
     },
     "Defense Curl": {
       "type": "Normal",
@@ -1128,7 +1129,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 156,
-      "sf": true
+      "secondaries": true
     },
     "Barrier": {
       "type": "Psychic",
@@ -1138,7 +1139,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Light Screen": {
       "type": "Psychic",
@@ -1230,7 +1231,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Smog": {
       "type": "Poison",
@@ -1240,7 +1241,7 @@ backup_data = {
       "accuracy": 70,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Sludge": {
       "type": "Poison",
@@ -1250,7 +1251,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Bone Club": {
       "type": "Ground",
@@ -1269,7 +1270,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Waterfall": {
       "type": "Water",
@@ -1288,7 +1289,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Swift": {
       "type": "Normal",
@@ -1330,7 +1331,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Amnesia": {
       "type": "Psychic",
@@ -1340,7 +1341,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 54,
-      "sf": true
+      "secondaries": true
     },
     "Kinesis": {
       "type": "Psychic",
@@ -1350,7 +1351,7 @@ backup_data = {
       "accuracy": 80,
       "priority": 0,
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Soft-Boiled": {
       "type": "Normal",
@@ -1378,7 +1379,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 67,
-      "sf": true
+      "secondaries": true
     },
     "Dream Eater": {
       "type": "Psychic",
@@ -1398,7 +1399,7 @@ backup_data = {
       "priority": 0,
       "e_id": 66,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Barrage": {
       "type": "Normal",
@@ -1430,7 +1431,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Sky Attack": {
       "type": "Flying",
@@ -1459,7 +1460,7 @@ backup_data = {
       "priority": 0,
       "e_id": 70,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Dizzy Punch": {
       "type": "Normal",
@@ -1469,7 +1470,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 76,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -1482,7 +1483,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 1,
-      "sf": true
+      "secondaries": true
     },
     "Flash": {
       "type": "Normal",
@@ -1492,7 +1493,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 23,
-      "sf": true
+      "secondaries": true
     },
     "Psywave": {
       "type": "Psychic",
@@ -1520,7 +1521,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Crabhammer": {
       "type": "Water",
@@ -1603,7 +1604,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Conversion": {
       "type": "Normal",
@@ -1622,7 +1623,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 36,
-      "sf": true
+      "secondaries": true
     },
     "Super Fang": {
       "type": "Normal",
@@ -1717,7 +1718,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 107,
-      "sf": true
+      "secondaries": true
     },
     "Flame Wheel": {
       "type": "Fire",
@@ -1727,7 +1728,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 125,
-      "sf": true
+      "secondaries": true
     },
     "Snore": {
       "type": "Normal",
@@ -1785,7 +1786,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 60,
-      "sf": true
+      "secondaries": true
     },
     "Reversal": {
       "type": "Fighting",
@@ -1814,7 +1815,7 @@ backup_data = {
       "priority": 0,
       "e_id": 5,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Protect": {
       "type": "Normal",
@@ -1845,7 +1846,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 60,
-      "sf": true
+      "secondaries": true
     },
     "Feint Attack": {
       "type": "Dark",
@@ -1864,7 +1865,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 49,
-      "sf": true
+      "secondaries": true
     },
     "Belly Drum": {
       "type": "Normal",
@@ -1883,7 +1884,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Mud-Slap": {
       "type": "Ground",
@@ -1893,7 +1894,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Octazooka": {
       "type": "Water",
@@ -1903,7 +1904,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Spikes": {
       "type": "Ground",
@@ -1922,7 +1923,7 @@ backup_data = {
       "accuracy": 50,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Foresight": {
       "type": "Normal",
@@ -1932,7 +1933,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 113,
-      "sf": true
+      "secondaries": true
     },
     "Destiny Bond": {
       "type": "Ghost",
@@ -1951,7 +1952,6 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 114,
-      "sf": true,
       "flags": {
         "sound": true
       }
@@ -1965,7 +1965,7 @@ backup_data = {
       "priority": 0,
       "e_id": 70,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Detect": {
       "type": "Fighting",
@@ -2042,7 +2042,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 58,
-      "sf": true
+      "secondaries": true
     },
     "Rollout": {
       "type": "Rock",
@@ -2070,7 +2070,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 118,
-      "sf": true
+      "secondaries": true
     },
     "Milk Drink": {
       "type": "Normal",
@@ -2089,7 +2089,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Fury Cutter": {
       "type": "Bug",
@@ -2108,7 +2108,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 138,
-      "sf": true
+      "secondaries": true
     },
     "Mean Look": {
       "type": "Normal",
@@ -2127,7 +2127,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 120,
-      "sf": true
+      "secondaries": true
     },
     "Sleep Talk": {
       "type": "Normal",
@@ -2203,7 +2203,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 125,
-      "sf": true
+      "secondaries": true
     },
     "Magnitude": {
       "type": "Ground",
@@ -2223,7 +2223,7 @@ backup_data = {
       "accuracy": 50,
       "priority": 0,
       "e_id": 76,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -2245,7 +2245,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Baton Pass": {
       "type": "Normal",
@@ -2292,7 +2292,7 @@ backup_data = {
       "priority": 0,
       "e_id": 24,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Iron Tail": {
       "type": "Steel",
@@ -2302,7 +2302,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Metal Claw": {
       "type": "Steel",
@@ -2312,7 +2312,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 139,
-      "sf": true
+      "secondaries": true
     },
     "Vital Throw": {
       "type": "Fighting",
@@ -2404,7 +2404,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Mirror Coat": {
       "type": "Psychic",
@@ -2441,7 +2441,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Ball": {
       "type": "Ghost",
@@ -2451,7 +2451,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Future Sight": {
       "type": "Psychic",
@@ -2470,7 +2470,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Whirlpool": {
       "type": "Water",
@@ -2480,7 +2480,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 261,
-      "sf": true
+      "secondaries": true
     },
     "Beat Up": {
       "type": "Dark",
@@ -2552,7 +2552,7 @@ backup_data = {
       "priority": 0,
       "e_id": 4,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Hail": {
       "type": "Ice",
@@ -2571,7 +2571,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 165,
-      "sf": true
+      "secondaries": true
     },
     "Flatter": {
       "type": "Dark",
@@ -2581,7 +2581,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 166,
-      "sf": true
+      "secondaries": true
     },
     "Will-O-Wisp": {
       "type": "Fire",
@@ -2591,7 +2591,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 167,
-      "sf": true
+      "secondaries": true
     },
     "Memento": {
       "type": "Dark",
@@ -2658,7 +2658,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 174,
-      "sf": true
+      "secondaries": true
     },
     "Taunt": {
       "type": "Dark",
@@ -2721,8 +2721,7 @@ backup_data = {
       "pp": 20,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 181,
-      "sf": true
+      "e_id": 181
     },
     "Superpower": {
       "type": "Fighting",
@@ -2731,8 +2730,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 182,
-      "sf": true
+      "e_id": 182
     },
     "Magic Coat": {
       "type": "Psychic",
@@ -2778,7 +2776,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 187,
-      "sf": true
+      "secondaries": true
     },
     "Knock Off": {
       "type": "Dark",
@@ -2901,7 +2899,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 321,
-      "sf": true
+      "secondaries": true
     },
     "Luster Purge": {
       "type": "Psychic",
@@ -2911,7 +2909,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Mist Ball": {
       "type": "Psychic",
@@ -2921,7 +2919,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 71,
-      "sf": true
+      "secondaries": true
     },
     "Featherdance": {
       "type": "Flying",
@@ -2931,7 +2929,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 58,
-      "sf": true
+      "secondaries": true
     },
     "Teeter Dance": {
       "type": "Normal",
@@ -2942,7 +2940,7 @@ backup_data = {
       "priority": 0,
       "e_id": 199,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Blaze Kick": {
       "type": "Fire",
@@ -2952,7 +2950,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 200,
-      "sf": true
+      "secondaries": true
     },
     "Mud Sport": {
       "type": "Ground",
@@ -3011,7 +3009,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 202,
-      "sf": true
+      "secondaries": true
     },
     "Crush Claw": {
       "type": "Normal",
@@ -3021,7 +3019,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Blast Burn": {
       "type": "Fire",
@@ -3049,7 +3047,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 139,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "punch": true
       }
@@ -3089,7 +3087,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 62,
-      "sf": true
+      "secondaries": true
     },
     "Air Cutter": {
       "type": "Flying",
@@ -3108,8 +3106,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 90,
       "priority": 0,
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Odor Sleuth": {
       "type": "Normal",
@@ -3119,7 +3116,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 113,
-      "sf": true
+      "secondaries": true
     },
     "Rock Tomb": {
       "type": "Rock",
@@ -3129,7 +3126,7 @@ backup_data = {
       "accuracy": 80,
       "priority": 0,
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Silver Wind": {
       "type": "Bug",
@@ -3139,7 +3136,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Metal Sound": {
       "type": "Steel",
@@ -3149,7 +3146,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 62,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -3162,7 +3159,7 @@ backup_data = {
       "accuracy": 55,
       "priority": 0,
       "e_id": 1,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -3175,7 +3172,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 205,
-      "sf": true
+      "secondaries": true
     },
     "Cosmic Power": {
       "type": "Psychic",
@@ -3185,7 +3182,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 206,
-      "sf": true
+      "secondaries": true
     },
     "Water Spout": {
       "type": "Water",
@@ -3205,7 +3202,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Punch": {
       "type": "Ghost",
@@ -3248,7 +3245,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Sheer Cold": {
       "type": "Ice",
@@ -3268,7 +3265,7 @@ backup_data = {
       "priority": 0,
       "e_id": 73,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bullet Seed": {
       "type": "Grass",
@@ -3313,7 +3310,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 51,
-      "sf": true
+      "secondaries": true
     },
     "Block": {
       "type": "Normal",
@@ -3332,7 +3329,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 10,
-      "sf": true
+      "secondaries": true
     },
     "Dragon Claw": {
       "type": "Dragon",
@@ -3360,7 +3357,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 208,
-      "sf": true
+      "secondaries": true
     },
     "Bounce": {
       "type": "Flying",
@@ -3370,7 +3367,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 263,
-      "sf": true
+      "secondaries": true
     },
     "Mud Shot": {
       "type": "Ground",
@@ -3380,7 +3377,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 70,
-      "sf": true
+      "secondaries": true
     },
     "Poison Tail": {
       "type": "Poison",
@@ -3390,7 +3387,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 209,
-      "sf": true
+      "secondaries": true
     },
     "Covet": {
       "type": "Normal",
@@ -3413,7 +3410,7 @@ backup_data = {
         33,
         100
       ],
-      "sf": true
+      "secondaries": true
     },
     "Magical Leaf": {
       "type": "Grass",
@@ -3441,7 +3438,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 211,
-      "sf": true
+      "secondaries": true
     },
     "Leaf Blade": {
       "type": "Grass",
@@ -3460,7 +3457,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 212,
-      "sf": true
+      "secondaries": true
     },
     "Rock Blast": {
       "type": "Rock",
@@ -3492,7 +3489,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Doom Desire": {
       "type": "Steel",
@@ -3510,8 +3507,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 90,
       "priority": 0,
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Roost": {
       "type": "Flying",
@@ -3539,7 +3535,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 216,
-      "sf": true
+      "secondaries": true
     },
     "Wake-Up Slap": {
       "type": "Fighting",
@@ -3558,7 +3554,6 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 218,
-      "sf": true,
       "flags": {
         "punch": true
       }
@@ -3660,8 +3655,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 229,
-      "sf": true
+      "e_id": 229
     },
     "Payback": {
       "type": "Dark",
@@ -3689,7 +3683,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 232,
-      "sf": true
+      "secondaries": true
     },
     "Fling": {
       "type": "Dark",
@@ -3727,7 +3721,7 @@ backup_data = {
       "priority": 0,
       "e_id": 236,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Wring Out": {
       "type": "Normal",
@@ -3885,7 +3879,7 @@ backup_data = {
         33,
         100
       ],
-      "sf": true
+      "secondaries": true
     },
     "Force Palm": {
       "type": "Fighting",
@@ -3895,7 +3889,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Aura Sphere": {
       "type": "Fighting",
@@ -3914,7 +3908,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 52,
-      "sf": true
+      "secondaries": true
     },
     "Poison Jab": {
       "type": "Poison",
@@ -3924,7 +3918,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Dark Pulse": {
       "type": "Dark",
@@ -3988,7 +3982,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -4049,7 +4043,7 @@ backup_data = {
       "accuracy": 70,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Energy Ball": {
       "type": "Grass",
@@ -4059,7 +4053,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Brave Bird": {
       "type": "Flying",
@@ -4082,7 +4076,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Switcheroo": {
       "type": "Dark",
@@ -4110,7 +4104,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 53,
-      "sf": true
+      "secondaries": true
     },
     "Bullet Punch": {
       "type": "Steel",
@@ -4159,7 +4153,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 275,
-      "sf": true
+      "secondaries": true
     },
     "Ice Fang": {
       "type": "Ice",
@@ -4169,7 +4163,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 274,
-      "sf": true
+      "secondaries": true
     },
     "Fire Fang": {
       "type": "Fire",
@@ -4179,7 +4173,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 273,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Sneak": {
       "type": "Ghost",
@@ -4198,7 +4192,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Psycho Cut": {
       "type": "Psychic",
@@ -4226,7 +4220,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Flash Cannon": {
       "type": "Steel",
@@ -4236,7 +4230,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 72,
-      "sf": true
+      "secondaries": true
     },
     "Rock Climb": {
       "type": "Normal",
@@ -4246,7 +4240,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 76,
-      "sf": true
+      "secondaries": true
     },
     "Defog": {
       "type": "Flying",
@@ -4273,8 +4267,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 90,
       "priority": 0,
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Discharge": {
       "type": "Electric",
@@ -4285,7 +4278,7 @@ backup_data = {
       "priority": 0,
       "e_id": 6,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Lava Plume": {
       "type": "Fire",
@@ -4296,7 +4289,7 @@ backup_data = {
       "priority": 0,
       "e_id": 4,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Leaf Storm": {
       "type": "Grass",
@@ -4305,8 +4298,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 90,
       "priority": 0,
-      "e_id": 204,
-      "sf": true
+      "e_id": 204
     },
     "Power Whip": {
       "type": "Grass",
@@ -4334,7 +4326,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 209,
-      "sf": true
+      "secondaries": true
     },
     "Gunk Shot": {
       "type": "Poison",
@@ -4344,7 +4336,7 @@ backup_data = {
       "accuracy": 70,
       "priority": 0,
       "e_id": 2,
-      "sf": true
+      "secondaries": true
     },
     "Iron Head": {
       "type": "Steel",
@@ -4382,7 +4374,7 @@ backup_data = {
       "priority": 0,
       "e_id": 265,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Stealth Rock": {
       "type": "Rock",
@@ -4410,7 +4402,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 267,
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -4441,7 +4433,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 276,
-      "sf": true
+      "secondaries": true
     },
     "Wood Hammer": {
       "type": "Grass",
@@ -4482,7 +4474,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 206,
-      "sf": true
+      "secondaries": true
     },
     "Heal Order": {
       "type": "Bug",
@@ -4563,7 +4555,7 @@ backup_data = {
       "accuracy": 75,
       "priority": 0,
       "e_id": 42,
-      "sf": true
+      "secondaries": true
     },
     "Dark Void": {
       "type": "Dark",
@@ -4574,7 +4566,7 @@ backup_data = {
       "priority": 0,
       "e_id": 1,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Seed Flare": {
       "type": "Grass",
@@ -4584,7 +4576,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 271,
-      "sf": true
+      "secondaries": true
     },
     "Ominous Wind": {
       "type": "Ghost",
@@ -4594,7 +4586,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 140,
-      "sf": true
+      "secondaries": true
     },
     "Shadow Force": {
       "type": "Ghost",
@@ -4613,7 +4605,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 277,
-      "sf": true
+      "secondaries": true
     },
     "Wide Guard": {
       "type": "Rock",
@@ -4677,7 +4669,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 284,
-      "sf": true
+      "secondaries": true
     },
     "Rage Powder": {
       "type": "Bug",
@@ -4696,7 +4688,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 285,
-      "sf": true
+      "secondaries": true
     },
     "Magic Room": {
       "type": "Psychic",
@@ -4714,7 +4706,8 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 287
+      "e_id": 287,
+      "secondaries": true
     },
     "Storm Throw": {
       "type": "Fighting",
@@ -4744,7 +4737,7 @@ backup_data = {
       "priority": 0,
       "e_id": 2,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Quiver Dance": {
       "type": "Bug",
@@ -4754,7 +4747,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 290,
-      "sf": true
+      "secondaries": true
     },
     "Heavy Slam": {
       "type": "Steel",
@@ -4801,7 +4794,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 295,
-      "sf": true
+      "secondaries": true
     },
     "Coil": {
       "type": "Poison",
@@ -4811,7 +4804,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 322,
-      "sf": true
+      "secondaries": true
     },
     "Low Sweep": {
       "type": "Fighting",
@@ -4821,7 +4814,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 20,
-      "sf": true
+      "secondaries": true
     },
     "Acid Spray": {
       "type": "Poison",
@@ -4831,7 +4824,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 296,
-      "sf": true
+      "secondaries": true
     },
     "Foul Play": {
       "type": "Dark",
@@ -4946,7 +4939,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Shell Smash": {
       "type": "Normal",
@@ -4992,7 +4985,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 312,
-      "sf": true
+      "secondaries": true
     },
     "Circle Throw": {
       "type": "Fighting",
@@ -5075,7 +5068,7 @@ backup_data = {
       "accuracy": 50,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Water Pledge": {
       "type": "Water",
@@ -5122,7 +5115,7 @@ backup_data = {
       "priority": 0,
       "e_id": 71,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bulldoze": {
       "type": "Ground",
@@ -5133,7 +5126,7 @@ backup_data = {
       "priority": 0,
       "e_id": 70,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Frost Breath": {
       "type": "Ice",
@@ -5162,7 +5155,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 327,
-      "sf": true
+      "secondaries": true
     },
     "Electroweb": {
       "type": "Electric",
@@ -5173,7 +5166,7 @@ backup_data = {
       "priority": 0,
       "e_id": 20,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Wild Charge": {
       "type": "Electric",
@@ -5245,7 +5238,7 @@ backup_data = {
       "accuracy": 95,
       "priority": 0,
       "e_id": 69,
-      "sf": true
+      "secondaries": true
     },
     "Heat Crash": {
       "type": "Fire",
@@ -5264,7 +5257,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Steamroller": {
       "type": "Bug",
@@ -5283,7 +5276,7 @@ backup_data = {
       "accuracy": 101,
       "priority": 0,
       "e_id": 328,
-      "sf": true
+      "secondaries": true
     },
     "Night Daze": {
       "type": "Dark",
@@ -5293,7 +5286,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 73,
-      "sf": true
+      "secondaries": true
     },
     "Psystrike": {
       "type": "Psychic",
@@ -5325,7 +5318,7 @@ backup_data = {
       "accuracy": 70,
       "priority": 0,
       "e_id": 337,
-      "sf": true
+      "secondaries": true
     },
     "Head Charge": {
       "type": "Normal",
@@ -5362,7 +5355,7 @@ backup_data = {
       "priority": 0,
       "e_id": 4,
       "target": "allAdjacent",
-      "sf": true
+      "secondaries": true
     },
     "Techno Blast": {
       "type": "Normal",
@@ -5382,7 +5375,7 @@ backup_data = {
       "priority": 0,
       "e_id": 329,
       "target": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -5405,7 +5398,7 @@ backup_data = {
       "priority": 0,
       "e_id": 330,
       "target": "allAdjacentFoes",
-      "sf": true
+      "secondaries": true
     },
     "Bolt Strike": {
       "type": "Electric",
@@ -5415,7 +5408,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 6,
-      "sf": true
+      "secondaries": true
     },
     "Blue Flare": {
       "type": "Fire",
@@ -5425,7 +5418,7 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 4,
-      "sf": true
+      "secondaries": true
     },
     "Fiery Dance": {
       "type": "Fire",
@@ -5435,7 +5428,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 276,
-      "sf": true
+      "secondaries": true
     },
     "Freeze Shock": {
       "type": "Ice",
@@ -5445,7 +5438,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 331,
-      "sf": true
+      "secondaries": true
     },
     "Ice Burn": {
       "type": "Ice",
@@ -5455,7 +5448,7 @@ backup_data = {
       "accuracy": 90,
       "priority": 0,
       "e_id": 332,
-      "sf": true
+      "secondaries": true
     },
     "Snarl": {
       "type": "Dark",
@@ -5466,7 +5459,7 @@ backup_data = {
       "priority": 0,
       "e_id": 71,
       "target": "allAdjacentFoes",
-      "sf": true,
+      "secondaries": true,
       "flags": {
         "sound": true
       }
@@ -5487,8 +5480,7 @@ backup_data = {
       "pp": 5,
       "accuracy": 95,
       "priority": 0,
-      "e_id": 334,
-      "sf": true
+      "e_id": 334
     },
     "Fusion Flare": {
       "type": "Fire",
@@ -8985,8 +8977,8 @@ backup_data = {
         "Sand Rush"
       ]
     },
-    "Nidoran F": {
-      "name": "Nidoran F",
+    "Nidoran-F": {
+      "name": "Nidoran-F",
       "num": 29,
       "types": [
         "Poison"
@@ -9365,8 +9357,8 @@ backup_data = {
         "Sheer Force"
       ]
     },
-    "Nidoran M": {
-      "name": "Nidoran M",
+    "Nidoran-M": {
+      "name": "Nidoran-M",
       "num": 32,
       "types": [
         "Poison"
@@ -91961,8 +91953,145 @@ backup_data = {
         ""
       ]
     },
-    "": {
-      "name": "",
+    "Deoxys-Attack": {
+      "name": "Deoxys-Attack",
+      "num": 650,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 180,
+        "df": 20,
+        "sa": 180,
+        "sd": 20,
+        "sp": 150
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Teleport"
+          ],
+          [
+            25,
+            "Taunt"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Superpower"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Cosmic Power"
+          ],
+          [
+            81,
+            "Zap Cannon"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Hyper Beam"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Defense": {
+      "name": "Deoxys-Defense",
       "num": 651,
       "types": [
         "Psychic"
@@ -92106,86 +92235,1947 @@ backup_data = {
         ""
       ]
     },
-    "Alt Form": {
-      "name": "Alt Form",
-      "num": 668,
+    "Deoxys-Speed": {
+      "name": "Deoxys-Speed",
+      "num": 652,
       "types": [
-        "231",
-        "Poison"
+        "Psychic"
       ],
       "items": [
-        "999",
-        "999",
-        "999"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
-        "hp": 231,
-        "at": 3,
-        "df": 231,
-        "sa": 231,
-        "sd": 3,
-        "sp": 3
+        "hp": 50,
+        "at": 95,
+        "df": 90,
+        "sa": 95,
+        "sd": 90,
+        "sp": 180
       },
       "learnset_info": {
-        "learnset": [],
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Double Team"
+          ],
+          [
+            25,
+            "Knock Off"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Swift"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Agility"
+          ],
+          [
+            81,
+            "Recover"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Extreme Speed"
+          ]
+        ],
         "tms": [
-          "Hone Claws",
-          "Dragon Claw",
           "Psyshock",
+          "Calm Mind",
           "Toxic",
-          "Hail",
-          "Bulk Up",
-          "Venoshock",
           "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
           "Protect",
           "Rain Dance",
           "Telekinesis",
+          "Safeguard",
+          "Frustration",
           "Solar Beam",
-          "Smack Down",
           "Thunderbolt",
           "Thunder",
-          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
           "Reflect",
-          "Sludge Wave",
-          "Flamethrower",
-          "Fire Blast",
           "Rock Tomb",
           "Aerial Ace",
           "Torment",
           "Facade",
-          "Echoed Voice",
-          "Overheat",
+          "Rest",
+          "Low Sweep",
+          "Round",
           "Ally Switch",
-          "False Swipe",
-          "Scald",
+          "Focus Blast",
+          "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Sky Drop",
-          "Shadow Claw",
-          "Payback",
-          "Retaliate",
+          "Giga Impact",
           "Flash",
-          "Stone Edge",
-          "Volt Switch",
           "Thunder Wave",
-          "Gyro Ball",
-          "X-Scissor",
-          "Dragon Tail",
-          "Work Up",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
           "Grass Knot",
           "Swagger",
-          "Pluck",
-          "U-turn",
           "Substitute",
-          "Fly",
-          "Surf",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
           "Strength"
         ]
       },
       "abs": [
-        "231",
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Wormadam-Sandy": {
+      "name": "Wormadam-Sandy",
+      "num": 653,
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "items": [
+        "None",
+        "Silver Powder",
+        "None"
+      ],
+      "bs": {
+        "hp": 60,
+        "at": 99,
+        "df": 125,
+        "sa": 59,
+        "sd": 85,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Protect"
+          ],
+          [
+            15,
+            "Bug Bite"
+          ],
+          [
+            20,
+            "Hidden Power"
+          ],
+          [
+            23,
+            "Confusion"
+          ],
+          [
+            26,
+            "Rock Blast"
+          ],
+          [
+            29,
+            "Harden"
+          ],
+          [
+            32,
+            "Psybeam"
+          ],
+          [
+            35,
+            "Captivate"
+          ],
+          [
+            38,
+            "Flail"
+          ],
+          [
+            41,
+            "Attract"
+          ],
+          [
+            44,
+            "Psychic"
+          ],
+          [
+            47,
+            "Fissure"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Anticipation",
+        "Sand Veil",
+        "Overcoat"
+      ]
+    },
+    "Wormadam-Trash": {
+      "name": "Wormadam-Trash",
+      "num": 654,
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "items": [
+        "None",
+        "Silver Powder",
+        "None"
+      ],
+      "bs": {
+        "hp": 60,
+        "at": 69,
+        "df": 115,
+        "sa": 69,
+        "sd": 115,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Protect"
+          ],
+          [
+            15,
+            "Bug Bite"
+          ],
+          [
+            20,
+            "Hidden Power"
+          ],
+          [
+            23,
+            "Confusion"
+          ],
+          [
+            26,
+            "Mirror Shot"
+          ],
+          [
+            29,
+            "Metal Sound"
+          ],
+          [
+            32,
+            "Psybeam"
+          ],
+          [
+            35,
+            "Captivate"
+          ],
+          [
+            38,
+            "Flail"
+          ],
+          [
+            41,
+            "Attract"
+          ],
+          [
+            44,
+            "Psychic"
+          ],
+          [
+            47,
+            "Iron Head"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ]
+      },
+      "abs": [
+        "Anticipation",
+        "Sturdy",
+        "Overcoat"
+      ]
+    },
+    "Shaymin-Sky": {
+      "name": "Shaymin-Sky",
+      "num": 655,
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 103,
+        "df": 75,
+        "sa": 120,
+        "sd": 75,
+        "sp": 127
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Growth"
+          ],
+          [
+            10,
+            "Magical Leaf"
+          ],
+          [
+            19,
+            "Leech Seed"
+          ],
+          [
+            28,
+            "Quick Attack"
+          ],
+          [
+            37,
+            "Sweet Scent"
+          ],
+          [
+            46,
+            "Natural Gift"
+          ],
+          [
+            55,
+            "Worry Seed"
+          ],
+          [
+            64,
+            "Air Slash"
+          ],
+          [
+            73,
+            "Energy Ball"
+          ],
+          [
+            82,
+            "Sweet Kiss"
+          ],
+          [
+            91,
+            "Leaf Storm"
+          ],
+          [
+            100,
+            "Seed Flare"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
+      ]
+    },
+    "Giratina-Origin": {
+      "name": "Giratina-Origin",
+      "num": 656,
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 150,
+        "at": 120,
+        "df": 100,
+        "sa": 120,
+        "sd": 100,
+        "sp": 90
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Dragon Breath"
+          ],
+          [
+            1,
+            "Scary Face"
+          ],
+          [
+            6,
+            "Ominous Wind"
+          ],
+          [
+            10,
+            "Ancient Power"
+          ],
+          [
+            15,
+            "Slash"
+          ],
+          [
+            19,
+            "Shadow Sneak"
+          ],
+          [
+            24,
+            "Destiny Bond"
+          ],
+          [
+            28,
+            "Dragon Claw"
+          ],
+          [
+            33,
+            "Earth Power"
+          ],
+          [
+            37,
+            "Aura Sphere"
+          ],
+          [
+            42,
+            "Shadow Claw"
+          ],
+          [
+            46,
+            "Shadow Force"
+          ],
+          [
+            50,
+            "Hex"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Cut",
+          "Fly",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "Levitate",
+        "Levitate"
+      ]
+    },
+    "Rotom-Heat": {
+      "name": "Rotom-Heat",
+      "num": 657,
+      "types": [
+        "Electric",
+        "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Lava Plume"
+          ],
+          [
+            1,
+            "Trick"
+          ],
+          [
+            1,
+            "Astonish"
+          ],
+          [
+            1,
+            "Thunder Wave"
+          ],
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Confuse Ray"
+          ],
+          [
+            8,
+            "Uproar"
+          ],
+          [
+            15,
+            "Double Team"
+          ],
+          [
+            22,
+            "Shock Wave"
+          ],
+          [
+            29,
+            "Ominous Wind"
+          ],
+          [
+            36,
+            "Substitute"
+          ],
+          [
+            43,
+            "Electro Ball"
+          ],
+          [
+            50,
+            "Hex"
+          ],
+          [
+            57,
+            "Charge"
+          ],
+          [
+            64,
+            "Discharge"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "Levitate",
+        ""
+      ]
+    },
+    "Rotom-Wash": {
+      "name": "Rotom-Wash",
+      "num": 658,
+      "types": [
+        "Electric",
+        "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Scald"
+          ],
+          [
+            1,
+            "Trick"
+          ],
+          [
+            1,
+            "Astonish"
+          ],
+          [
+            1,
+            "Thunder Wave"
+          ],
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Confuse Ray"
+          ],
+          [
+            8,
+            "Uproar"
+          ],
+          [
+            15,
+            "Double Team"
+          ],
+          [
+            22,
+            "Shock Wave"
+          ],
+          [
+            29,
+            "Ominous Wind"
+          ],
+          [
+            36,
+            "Substitute"
+          ],
+          [
+            43,
+            "Electro Ball"
+          ],
+          [
+            50,
+            "Hex"
+          ],
+          [
+            57,
+            "Charge"
+          ],
+          [
+            64,
+            "Discharge"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "Levitate",
+        ""
+      ]
+    },
+    "Rotom-Frost": {
+      "name": "Rotom-Frost",
+      "num": 659,
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Glaciate"
+          ],
+          [
+            1,
+            "Trick"
+          ],
+          [
+            1,
+            "Astonish"
+          ],
+          [
+            1,
+            "Thunder Wave"
+          ],
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Confuse Ray"
+          ],
+          [
+            8,
+            "Uproar"
+          ],
+          [
+            15,
+            "Double Team"
+          ],
+          [
+            22,
+            "Shock Wave"
+          ],
+          [
+            29,
+            "Ominous Wind"
+          ],
+          [
+            36,
+            "Substitute"
+          ],
+          [
+            43,
+            "Electro Ball"
+          ],
+          [
+            50,
+            "Hex"
+          ],
+          [
+            57,
+            "Charge"
+          ],
+          [
+            64,
+            "Discharge"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "Levitate",
+        ""
+      ]
+    },
+    "Rotom-Fan": {
+      "name": "Rotom-Fan",
+      "num": 660,
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Hurricane"
+          ],
+          [
+            1,
+            "Trick"
+          ],
+          [
+            1,
+            "Astonish"
+          ],
+          [
+            1,
+            "Thunder Wave"
+          ],
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Confuse Ray"
+          ],
+          [
+            8,
+            "Uproar"
+          ],
+          [
+            15,
+            "Double Team"
+          ],
+          [
+            22,
+            "Shock Wave"
+          ],
+          [
+            29,
+            "Ominous Wind"
+          ],
+          [
+            36,
+            "Substitute"
+          ],
+          [
+            43,
+            "Electro Ball"
+          ],
+          [
+            50,
+            "Hex"
+          ],
+          [
+            57,
+            "Charge"
+          ],
+          [
+            64,
+            "Discharge"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
         "Speed Boost",
-        "231"
+        "Motor Drive",
+        ""
+      ]
+    },
+    "Rotom-Mow": {
+      "name": "Rotom-Mow",
+      "num": 661,
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Energy Ball"
+          ],
+          [
+            1,
+            "Trick"
+          ],
+          [
+            1,
+            "Astonish"
+          ],
+          [
+            1,
+            "Thunder Wave"
+          ],
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Confuse Ray"
+          ],
+          [
+            8,
+            "Uproar"
+          ],
+          [
+            15,
+            "Double Team"
+          ],
+          [
+            22,
+            "Shock Wave"
+          ],
+          [
+            29,
+            "Ominous Wind"
+          ],
+          [
+            36,
+            "Substitute"
+          ],
+          [
+            43,
+            "Electro Ball"
+          ],
+          [
+            50,
+            "Hex"
+          ],
+          [
+            57,
+            "Charge"
+          ],
+          [
+            64,
+            "Discharge"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "Levitate",
+        ""
+      ]
+    },
+    "Castform-Sunny": {
+      "name": "Castform-Sunny",
+      "num": 662,
+      "types": [
+        "Fire"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 80,
+        "df": 60,
+        "sa": 100,
+        "sd": 60,
+        "sp": 100
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Castform-Rainy": {
+      "name": "Castform-Rainy",
+      "num": 663,
+      "types": [
+        "Water"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 80,
+        "df": 60,
+        "sa": 100,
+        "sd": 60,
+        "sp": 100
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Castform-Snowy": {
+      "name": "Castform-Snowy",
+      "num": 664,
+      "types": [
+        "Ice"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 80,
+        "df": 60,
+        "sa": 100,
+        "sd": 60,
+        "sp": 100
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Basculin-Blue-Striped": {
+      "name": "Basculin-Blue-Striped",
+      "num": 665,
+      "types": [
+        "Water"
+      ],
+      "items": [
+        "None",
+        "DeepSeaScale",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 102,
+        "df": 65,
+        "sa": 80,
+        "sd": 55,
+        "sp": 108
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Revenge"
+          ],
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Water Gun"
+          ],
+          [
+            4,
+            "Uproar"
+          ],
+          [
+            7,
+            "Headbutt"
+          ],
+          [
+            10,
+            "Bite"
+          ],
+          [
+            13,
+            "Aqua Jet"
+          ],
+          [
+            16,
+            "Chip Away"
+          ],
+          [
+            20,
+            "Take Down"
+          ],
+          [
+            24,
+            "Crunch"
+          ],
+          [
+            28,
+            "Aqua Tail"
+          ],
+          [
+            32,
+            "Soak"
+          ],
+          [
+            36,
+            "Double-Edge"
+          ],
+          [
+            41,
+            "Scary Face"
+          ],
+          [
+            46,
+            "Flail"
+          ],
+          [
+            51,
+            "Final Gambit"
+          ],
+          [
+            56,
+            "Thrash"
+          ],
+          [
+            61,
+            "Super Fang"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Substitute",
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ]
+      },
+      "abs": [
+        "Rock Head",
+        "Adaptability",
+        "Mold Breaker"
+      ]
+    },
+    "Darmanitan-Zen": {
+      "name": "Darmanitan-Zen",
+      "num": 666,
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 105,
+        "at": 30,
+        "df": 105,
+        "sa": 140,
+        "sd": 105,
+        "sp": 55
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Rollout"
+          ],
+          [
+            1,
+            "Incinerate"
+          ],
+          [
+            1,
+            "Rage"
+          ],
+          [
+            3,
+            "Rollout"
+          ],
+          [
+            6,
+            "Incinerate"
+          ],
+          [
+            9,
+            "Rage"
+          ],
+          [
+            11,
+            "Fire Fang"
+          ],
+          [
+            14,
+            "Headbutt"
+          ],
+          [
+            17,
+            "Swagger"
+          ],
+          [
+            19,
+            "Facade"
+          ],
+          [
+            22,
+            "Fire Punch"
+          ],
+          [
+            25,
+            "Work Up"
+          ],
+          [
+            27,
+            "Thrash"
+          ],
+          [
+            30,
+            "Belly Drum"
+          ],
+          [
+            33,
+            "Flare Blitz"
+          ],
+          [
+            35,
+            "Hammer Arm"
+          ],
+          [
+            39,
+            "Taunt"
+          ],
+          [
+            47,
+            "Superpower"
+          ],
+          [
+            54,
+            "Overheat"
+          ]
+        ],
+        "tms": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Sheer Force",
+        "",
+        "Zen Mode"
+      ]
+    },
+    "Meloetta-Pirouette": {
+      "name": "Meloetta-Pirouette",
+      "num": 667,
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 128,
+        "df": 90,
+        "sa": 77,
+        "sd": 77,
+        "sp": 128
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Round"
+          ],
+          [
+            6,
+            "Quick Attack"
+          ],
+          [
+            11,
+            "Confusion"
+          ],
+          [
+            16,
+            "Sing"
+          ],
+          [
+            21,
+            "Teeter Dance"
+          ],
+          [
+            26,
+            "Acrobatics"
+          ],
+          [
+            31,
+            "Psybeam"
+          ],
+          [
+            36,
+            "Echoed Voice"
+          ],
+          [
+            43,
+            "U-turn"
+          ],
+          [
+            50,
+            "Wake-Up Slap"
+          ],
+          [
+            57,
+            "Psychic"
+          ],
+          [
+            64,
+            "Hyper Voice"
+          ],
+          [
+            71,
+            "Role Play"
+          ],
+          [
+            78,
+            "Close Combat"
+          ],
+          [
+            85,
+            "Perish Song"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
       ]
     }
   },
@@ -92208,6 +94198,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hypnosis",
@@ -92242,6 +94233,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bug Bite",
@@ -92276,6 +94268,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Bite",
@@ -92307,6 +94300,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Bide",
@@ -92339,6 +94333,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Bide",
@@ -92371,6 +94366,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Bide",
@@ -92403,6 +94399,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Bide",
@@ -92435,6 +94432,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Bide",
@@ -92467,6 +94465,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Bide",
@@ -92482,7 +94481,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 2": {
+      "Lvl 10 Pkmn Trainer 2": {
         "level": 10,
         "ai": 0,
         "noCh": false,
@@ -92499,6 +94498,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Bide",
@@ -92531,6 +94531,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bide",
@@ -92563,6 +94564,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bide",
@@ -92595,6 +94597,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Bide",
@@ -92627,6 +94630,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Bide",
@@ -92659,6 +94663,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bide",
@@ -92691,6 +94696,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bide",
@@ -92723,6 +94729,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bide",
@@ -92755,6 +94762,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Bide",
@@ -92787,6 +94795,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Bide",
@@ -92819,6 +94828,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bide",
@@ -92834,7 +94844,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 3": {
+      "Lvl 10 Pkmn Trainer 3": {
         "level": 10,
         "ai": 7,
         "noCh": false,
@@ -92851,6 +94861,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Bide",
@@ -92866,7 +94877,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 4": {
+      "Lvl 10 Pkmn Trainer 4": {
         "level": 10,
         "ai": 7,
         "noCh": false,
@@ -92883,6 +94894,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Bide",
@@ -92898,7 +94910,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 5": {
+      "Lvl 10 Pkmn Trainer 5": {
         "level": 10,
         "ai": 7,
         "noCh": false,
@@ -92915,6 +94927,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bide",
@@ -92947,6 +94960,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Bide",
@@ -92979,6 +94993,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bide",
@@ -93011,6 +95026,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Bide",
@@ -93043,6 +95059,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bide",
@@ -93058,7 +95075,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 6": {
+      "Lvl 10 Pkmn Trainer 6": {
         "level": 10,
         "ai": 7,
         "noCh": false,
@@ -93075,6 +95092,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bide",
@@ -93090,7 +95108,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 7": {
+      "Lvl 10 Pkmn Trainer 7": {
         "level": 10,
         "ai": 7,
         "noCh": false,
@@ -93107,6 +95125,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Bide",
@@ -93122,7 +95141,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 8": {
+      "Lvl 10 Pkmn Trainer 8": {
         "level": 10,
         "ai": 0,
         "noCh": false,
@@ -93139,6 +95158,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Bide",
@@ -93154,7 +95174,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer 9": {
+      "Lvl 10 Pkmn Trainer 9": {
         "level": 10,
         "ai": 0,
         "noCh": false,
@@ -93171,6 +95191,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Bide",
@@ -93203,6 +95224,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Bide",
@@ -93235,6 +95257,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Bide",
@@ -93269,6 +95292,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Tail Whip",
@@ -93302,6 +95326,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Bite",
@@ -93316,7 +95341,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 PkMn Trainer Bianca10": {
+      "Lvl 9 Pkmn Trainer Bianca10 - Castelia City": {
         "level": 9,
         "ai": 39,
         "noCh": false,
@@ -93333,6 +95358,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Fake Out",
@@ -93348,7 +95374,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 PkMn Trainer Bianca11 - Route 2": {
+      "Lvl 9 Pkmn Trainer Bianca11 - Route 2": {
         "level": 9,
         "ai": 39,
         "noCh": false,
@@ -93365,6 +95391,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Fake Out",
@@ -93380,7 +95407,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 PkMn Trainer Bianca12 - Route 2": {
+      "Lvl 9 Pkmn Trainer Bianca12 - Route 2": {
         "level": 9,
         "ai": 39,
         "noCh": false,
@@ -93397,6 +95424,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Fake Out",
@@ -93431,6 +95459,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Sand Attack",
@@ -93465,6 +95494,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Struggle Bug",
@@ -93499,6 +95529,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Thunder Wave",
@@ -93531,6 +95562,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Discharge",
@@ -93565,6 +95597,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Thunder Wave",
@@ -93599,6 +95632,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Thunder Wave",
@@ -93631,6 +95665,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Electro Ball",
@@ -93665,6 +95700,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Rollout",
@@ -93699,6 +95735,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Feint Attack",
@@ -93733,6 +95770,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Heart Stamp",
@@ -93767,6 +95805,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Howl",
@@ -93801,6 +95840,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bulk Up",
@@ -93833,6 +95873,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Rock Slide",
@@ -93865,6 +95906,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Stone Edge",
@@ -93899,6 +95941,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Revenge",
@@ -93931,6 +95974,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Revenge",
@@ -93963,6 +96007,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Scary Face",
@@ -93995,6 +96040,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Cross Chop",
@@ -94027,6 +96073,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Cross Chop",
@@ -94061,6 +96108,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Flame Wheel",
@@ -94095,6 +96143,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Quick Attack",
@@ -94129,6 +96178,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Attract",
@@ -94163,6 +96213,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Wing Attack",
@@ -94178,7 +96229,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Cheren10": {
+      "Lvl 11 Pkmn Trainer Cheren10 - Striaton City": {
         "level": 11,
         "ai": 39,
         "noCh": false,
@@ -94195,6 +96246,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Wing Attack",
@@ -94210,7 +96262,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Cheren11 - Striaton City": {
+      "Lvl 11 Pkmn Trainer Cheren11 - Striaton City": {
         "level": 11,
         "ai": 39,
         "noCh": false,
@@ -94227,6 +96279,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Wing Attack",
@@ -94242,7 +96295,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Cheren12": {
+      "Lvl 11 Pkmn Trainer Cheren12 - Striaton City": {
         "level": 11,
         "ai": 39,
         "noCh": false,
@@ -94259,6 +96312,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Wing Attack",
@@ -94293,6 +96347,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Bubble",
@@ -94308,7 +96363,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -94325,6 +96380,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Sing",
@@ -94359,6 +96415,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Water Gun",
@@ -94393,6 +96450,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Double Kick",
@@ -94427,6 +96485,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Stun Spore",
@@ -94442,7 +96501,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -94459,6 +96518,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Giga Drain",
@@ -94493,6 +96553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Poison Powder",
@@ -94527,6 +96588,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Rock Throw",
@@ -94559,6 +96621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Flame Burst",
@@ -94591,6 +96654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Flame Burst",
@@ -94625,6 +96689,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Water Gun",
@@ -94659,6 +96724,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Tackle",
@@ -94691,6 +96757,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Heat Crash",
@@ -94706,7 +96773,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Cheren - Driftveil City": {
+      "Lvl 5 Pkmn Trainer Cheren - Driftveil City": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -94723,6 +96790,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Tail Whip",
@@ -94736,7 +96804,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 PkMn Trainer Cheren4": {
+      "Lvl 16 Pkmn Trainer Cheren4 - Route 3": {
         "level": 16,
         "ai": 129,
         "noCh": false,
@@ -94753,6 +96821,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Flame Charge",
@@ -94768,7 +96837,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Bianca3": {
+      "Lvl 5 Pkmn Trainer Bianca3 - Nuvema Town": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -94785,6 +96854,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Tail Whip",
@@ -94798,7 +96868,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 PkMn Trainer Cheren10": {
+      "Lvl 12 Pkmn Trainer Cheren10 - Striaton City": {
         "level": 12,
         "ai": 39,
         "noCh": false,
@@ -94815,6 +96885,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Odor Sleuth",
@@ -94830,7 +96901,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer Bianca12 - Route 2": {
+      "Lvl 10 Pkmn Trainer Bianca12 - Route 2": {
         "level": 10,
         "ai": 39,
         "noCh": false,
@@ -94847,6 +96918,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Odor Sleuth",
@@ -94881,6 +96953,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Scratch",
@@ -94913,6 +96986,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Dragon Rage",
@@ -94947,6 +97021,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Quick Attack",
@@ -94979,6 +97054,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Flame Wheel",
@@ -95013,6 +97089,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Low Kick",
@@ -95045,6 +97122,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Peck",
@@ -95079,6 +97157,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Assist",
@@ -95094,7 +97173,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 PkMn Ranger Forrest - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Forrest - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -95111,6 +97190,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Flame Wheel",
@@ -95145,6 +97225,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Nasty Plot",
@@ -95160,7 +97241,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 14 Pkmn Trainer Cheren5 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -95177,6 +97258,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Flame Burst",
@@ -95209,6 +97291,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Fire Pledge",
@@ -95241,6 +97324,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Yawn",
@@ -95275,6 +97359,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Tackle",
@@ -95307,6 +97392,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Slam",
@@ -95322,7 +97408,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Cheren3": {
+      "Lvl 5 Pkmn Trainer Cheren3 - Nuvema Town": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -95339,6 +97425,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Leer",
@@ -95352,7 +97439,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 16 Pkmn Trainer Cheren6 - Route 3": {
         "level": 16,
         "ai": 129,
         "noCh": false,
@@ -95369,6 +97456,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Leaf Tornado",
@@ -95384,7 +97472,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Bianca2 - Castelia City": {
+      "Lvl 5 Pkmn Trainer Bianca2 - Castelia City": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -95401,6 +97489,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Leer",
@@ -95414,7 +97503,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 PkMn Trainer Cheren12": {
+      "Lvl 12 Pkmn Trainer Cheren12 - Striaton City": {
         "level": 12,
         "ai": 39,
         "noCh": false,
@@ -95431,6 +97520,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Wrap",
@@ -95446,7 +97536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer Bianca11 - Route 2": {
+      "Lvl 10 Pkmn Trainer Bianca11 - Route 2": {
         "level": 10,
         "ai": 39,
         "noCh": false,
@@ -95463,6 +97553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Wrap",
@@ -95497,6 +97588,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Secret Power",
@@ -95512,7 +97604,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 PkMn Ranger Audra - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Audra - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -95529,6 +97621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Sweet Scent",
@@ -95563,6 +97656,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Wring Out",
@@ -95578,7 +97672,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 PkMn Ranger Irene - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Irene - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -95595,6 +97689,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Magical Leaf",
@@ -95629,6 +97724,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Grass Whistle",
@@ -95661,6 +97757,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Screech",
@@ -95695,6 +97792,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Tackle",
@@ -95710,7 +97808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 PkMn Ranger Miguel - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Miguel - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -95727,6 +97825,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Bite",
@@ -95761,6 +97860,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Work Up",
@@ -95776,7 +97876,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren4": {
+      "Lvl 14 Pkmn Trainer Cheren4 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -95793,6 +97893,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Magical Leaf",
@@ -95825,6 +97926,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Grass Pledge",
@@ -95857,6 +97959,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Growth",
@@ -95891,6 +97994,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Tackle",
@@ -95923,6 +98027,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Focus Energy",
@@ -95938,7 +98043,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Cheren2": {
+      "Lvl 5 Pkmn Trainer Cheren2 - Nuvema Town": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -95955,6 +98060,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Tail Whip",
@@ -95968,7 +98074,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 16 Pkmn Trainer Cheren5 - Route 3": {
         "level": 16,
         "ai": 129,
         "noCh": false,
@@ -95985,6 +98091,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Focus Energy",
@@ -96000,7 +98107,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 5 PkMn Trainer Bianca - Nuvema Town": {
+      "Lvl 5 Pkmn Trainer Bianca - Nuvema Town": {
         "level": 5,
         "ai": 39,
         "noCh": false,
@@ -96017,6 +98124,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Tail Whip",
@@ -96030,7 +98138,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 PkMn Trainer Cheren11 - Striaton City": {
+      "Lvl 12 Pkmn Trainer Cheren11 - Striaton City": {
         "level": 12,
         "ai": 39,
         "noCh": false,
@@ -96047,6 +98155,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Water Sport",
@@ -96062,7 +98171,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer Bianca10": {
+      "Lvl 10 Pkmn Trainer Bianca10 - Castelia City": {
         "level": 10,
         "ai": 39,
         "noCh": false,
@@ -96079,6 +98188,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Water Gun",
@@ -96112,6 +98222,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Tackle",
@@ -96144,6 +98255,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Water Gun",
@@ -96178,6 +98290,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Scratch",
@@ -96210,6 +98323,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Bite",
@@ -96244,6 +98358,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Tackle",
@@ -96276,6 +98391,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Water Gun",
@@ -96310,6 +98426,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Pound",
@@ -96342,6 +98459,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Brine",
@@ -96376,6 +98494,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Oran Berry",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Nasty Plot",
@@ -96391,7 +98510,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 14 Pkmn Trainer Cheren6 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -96408,6 +98527,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Water Pulse",
@@ -96440,6 +98560,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Water Pledge",
@@ -96472,6 +98593,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Tickle",
@@ -96506,6 +98628,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Yawn",
@@ -96540,6 +98663,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Confusion",
@@ -96574,6 +98698,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Teleport",
@@ -96608,6 +98733,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Imprison",
@@ -96623,7 +98749,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca13 - Castelia Gate": {
+      "Lvl 29 Pkmn Trainer Bianca13 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -96640,6 +98766,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Nightmare",
@@ -96655,7 +98782,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca14": {
+      "Lvl 29 Pkmn Trainer Bianca14 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -96672,6 +98799,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Nightmare",
@@ -96687,7 +98815,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca15 - Castelia Gate": {
+      "Lvl 29 Pkmn Trainer Bianca15 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -96704,6 +98832,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Nightmare",
@@ -96720,7 +98849,7 @@ backup_data = {
         }
       }
     },
-    "Shellos": {
+    "Shellos-East": {
       "Lvl 14 Preschooler Tully - Route 3": {
         "level": 14,
         "ai": 0,
@@ -96738,6 +98867,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Mud Bomb",
@@ -96772,6 +98902,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Disable",
@@ -96788,7 +98919,7 @@ backup_data = {
         }
       }
     },
-    "Nidoran F": {
+    "Nidoran-F": {
       "Lvl 14 Twins Kumi & Amy - Route 3": {
         "level": 14,
         "ai": 128,
@@ -96806,6 +98937,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Poison Sting",
@@ -96822,7 +98954,7 @@ backup_data = {
         }
       }
     },
-    "Nidoran M": {
+    "Nidoran-M": {
       "Lvl 14 Twins Kumi & Amy - Route 3": {
         "level": 14,
         "ai": 128,
@@ -96840,6 +98972,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Poison Sting",
@@ -96857,7 +98990,7 @@ backup_data = {
       }
     },
     "Serperior": {
-      "Lvl 50 PkMn Breeder Galen - Route 3": {
+      "Lvl 50 Pkmn Breeder Galen - Route 3": {
         "level": 50,
         "ai": 5,
         "noCh": false,
@@ -96874,6 +99007,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Lum Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Dragon Pulse",
@@ -96889,7 +99023,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Cheren9": {
+      "Lvl 38 Pkmn Trainer Cheren9 - Driftveil City": {
         "level": 38,
         "ai": 129,
         "noCh": false,
@@ -96906,6 +99040,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Coil",
@@ -96938,6 +99073,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Yache Berry",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Leaf Storm",
@@ -96953,7 +99089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Bianca5": {
+      "Lvl 43 Pkmn Trainer Bianca5 - Driftveil City": {
         "level": 43,
         "ai": 39,
         "noCh": false,
@@ -96970,6 +99106,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Coil",
@@ -96985,7 +99122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca8": {
+      "Lvl 65 Pkmn Trainer Bianca8 - Route 8": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -97002,6 +99139,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Leaf Blade",
@@ -97017,7 +99155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 55 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 55,
         "ai": 39,
         "noCh": false,
@@ -97034,6 +99172,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Leaf Blade",
@@ -97049,7 +99188,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 68 Pkmn Trainer Cheren21 - Route 10": {
         "level": 68,
         "ai": 39,
         "noCh": false,
@@ -97066,6 +99205,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Leaf Blade",
@@ -97081,7 +99221,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 90 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 90,
         "ai": 135,
         "noCh": false,
@@ -97098,6 +99238,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Leaf Storm",
@@ -97113,7 +99254,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Bianca17": {
+      "Lvl 90 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 90,
         "ai": 39,
         "noCh": false,
@@ -97130,6 +99271,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Leaf Storm",
@@ -97147,7 +99289,7 @@ backup_data = {
       }
     },
     "Samurott": {
-      "Lvl 50 PkMn Breeder Galen - Route 3": {
+      "Lvl 50 Pkmn Breeder Galen - Route 3": {
         "level": 50,
         "ai": 5,
         "noCh": false,
@@ -97164,6 +99306,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Lum Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Retaliate",
@@ -97179,7 +99322,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Cheren8": {
+      "Lvl 38 Pkmn Trainer Cheren8 - Route 5": {
         "level": 38,
         "ai": 129,
         "noCh": false,
@@ -97196,6 +99339,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Encore",
@@ -97228,6 +99372,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Hydro Pump",
@@ -97260,6 +99405,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Wacan Berry",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Shell Smash",
@@ -97275,7 +99421,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Bianca4": {
+      "Lvl 43 Pkmn Trainer Bianca4 - Driftveil City": {
         "level": 43,
         "ai": 39,
         "noCh": false,
@@ -97292,6 +99438,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Encore",
@@ -97307,7 +99454,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 65 Pkmn Trainer Bianca7 - Route 8": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -97324,6 +99471,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Scald",
@@ -97339,7 +99487,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Cheren17": {
+      "Lvl 55 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 55,
         "ai": 39,
         "noCh": false,
@@ -97356,6 +99504,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Scald",
@@ -97371,7 +99520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 PkMn Trainer Cheren20": {
+      "Lvl 68 Pkmn Trainer Cheren20 - Route 10": {
         "level": 68,
         "ai": 39,
         "noCh": false,
@@ -97388,6 +99537,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hydro Pump",
@@ -97403,7 +99553,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 90 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 90,
         "ai": 135,
         "noCh": false,
@@ -97420,6 +99570,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Hydro Pump",
@@ -97435,7 +99586,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 90 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 90,
         "ai": 39,
         "noCh": false,
@@ -97452,6 +99603,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hydro Pump",
@@ -97469,7 +99621,7 @@ backup_data = {
       }
     },
     "Emboar": {
-      "Lvl 50 PkMn Breeder Galen - Route 3": {
+      "Lvl 50 Pkmn Breeder Galen - Route 3": {
         "level": 50,
         "ai": 5,
         "noCh": false,
@@ -97486,6 +99638,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Lum Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Head Smash",
@@ -97501,7 +99654,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 38 Pkmn Trainer Cheren7 - Route 5": {
         "level": 38,
         "ai": 129,
         "noCh": false,
@@ -97518,6 +99671,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Assurance",
@@ -97533,7 +99687,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Bianca6 - Driftveil City": {
+      "Lvl 43 Pkmn Trainer Bianca6 - Driftveil City": {
         "level": 43,
         "ai": 39,
         "noCh": false,
@@ -97550,6 +99704,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Flamethrower",
@@ -97565,7 +99720,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca9": {
+      "Lvl 65 Pkmn Trainer Bianca9 - Route 8": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -97582,6 +99737,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Heat Crash",
@@ -97597,7 +99753,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Cheren16": {
+      "Lvl 55 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 55,
         "ai": 39,
         "noCh": false,
@@ -97614,6 +99770,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Heat Crash",
@@ -97646,6 +99803,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Passho Berry",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Flare Blitz",
@@ -97661,7 +99819,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 PkMn Trainer Cheren19": {
+      "Lvl 68 Pkmn Trainer Cheren19 - Route 10": {
         "level": 68,
         "ai": 39,
         "noCh": false,
@@ -97678,6 +99836,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Flare Blitz",
@@ -97693,7 +99852,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 90 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 90,
         "ai": 135,
         "noCh": false,
@@ -97710,6 +99869,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Flare Blitz",
@@ -97725,7 +99885,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Trainer Bianca18": {
+      "Lvl 90 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 90,
         "ai": 39,
         "noCh": false,
@@ -97742,6 +99902,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Fire Blast",
@@ -97759,7 +99920,7 @@ backup_data = {
       }
     },
     "Igglybuff": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -97776,6 +99937,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Pound",
@@ -97791,7 +99953,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -97808,6 +99970,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Petal Dance",
@@ -97823,7 +99986,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 PkMn Breeder Eustace - Route 12": {
+      "Lvl 80 Pkmn Breeder Eustace - Route 12": {
         "level": 80,
         "ai": 5,
         "noCh": false,
@@ -97840,6 +100003,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Petal Dance",
@@ -97857,7 +100021,7 @@ backup_data = {
       }
     },
     "Cleffa": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -97874,6 +100038,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Sweet Kiss",
@@ -97889,7 +100054,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -97906,6 +100071,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Petal Dance",
@@ -97923,7 +100089,7 @@ backup_data = {
       }
     },
     "Pichu": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -97940,6 +100106,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Thunder Wave",
@@ -97972,6 +100139,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Petal Dance",
@@ -97987,7 +100155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -98004,6 +100172,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Dizzy Punch",
@@ -98021,7 +100190,7 @@ backup_data = {
       }
     },
     "Magby": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -98038,6 +100207,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Smokescreen",
@@ -98053,7 +100223,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -98070,6 +100240,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Fire Blast",
@@ -98087,7 +100258,7 @@ backup_data = {
       }
     },
     "Elekid": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -98104,6 +100275,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Low Kick",
@@ -98119,7 +100291,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -98136,6 +100308,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Thunder",
@@ -98153,7 +100326,7 @@ backup_data = {
       }
     },
     "Smoochum": {
-      "Lvl 12 PkMn Breeder Adelaide - Route 3": {
+      "Lvl 12 Pkmn Breeder Adelaide - Route 3": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -98170,6 +100343,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Oran Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Powder Snow",
@@ -98185,7 +100359,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Brooke": {
+      "Lvl 84 Pkmn Breeder Brooke": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -98202,6 +100376,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Nasty Plot",
@@ -98236,6 +100411,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Retaliate",
@@ -98251,7 +100427,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Ranger Mary - Route 7": {
+      "Lvl 44 Pkmn Ranger Mary - Route 7": {
         "level": 44,
         "ai": 7,
         "noCh": false,
@@ -98268,6 +100444,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Aspear Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Jump Kick",
@@ -98300,6 +100477,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Megahorn",
@@ -98332,6 +100510,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Megahorn",
@@ -98364,6 +100543,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Megahorn",
@@ -98398,6 +100578,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Retaliate",
@@ -98432,6 +100613,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Retaliate",
@@ -98464,6 +100646,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Follow Me",
@@ -98496,6 +100679,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Hyper Voice",
@@ -98530,6 +100714,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Retaliate",
@@ -98562,6 +100747,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Double-Edge",
@@ -98594,6 +100780,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Double-Edge",
@@ -98628,6 +100815,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Retaliate",
@@ -98660,6 +100848,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Baton Pass",
@@ -98692,6 +100881,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Zen Headbutt",
@@ -98724,6 +100914,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Zen Headbutt",
@@ -98756,6 +100947,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "After You",
@@ -98788,6 +100980,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "After You",
@@ -98820,6 +101013,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Super Fang",
@@ -98854,6 +101048,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Retaliate",
@@ -98886,6 +101081,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Giga Impact",
@@ -98918,6 +101114,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Giga Impact",
@@ -98950,6 +101147,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Giga Impact",
@@ -98982,6 +101180,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Giga Impact",
@@ -99014,6 +101213,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Choice Band",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Head Charge",
@@ -99029,7 +101229,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Biker Jeremy": {
+      "Lvl 60 Biker Jeremy - Tubeline Bridge": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -99046,6 +101246,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Swords Dance",
@@ -99078,6 +101279,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Head Charge",
@@ -99112,6 +101314,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Scald",
@@ -99144,6 +101347,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Hurricane",
@@ -99176,6 +101380,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hurricane",
@@ -99210,6 +101415,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Acrobatics",
@@ -99242,6 +101448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Destiny Bond",
@@ -99257,7 +101464,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Baker Chris": {
+      "Lvl 80 Baker Chris - Village Bridge": {
         "level": 80,
         "ai": 1,
         "noCh": false,
@@ -99274,6 +101481,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Destiny Bond",
@@ -99308,6 +101516,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Flame Orb",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Brick Break",
@@ -99323,7 +101532,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 PkMn Ranger Forrest - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Forrest - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -99340,6 +101549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Brick Break",
@@ -99372,6 +101582,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Horn Drill",
@@ -99404,6 +101615,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Horn Drill",
@@ -99438,6 +101650,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Protect",
@@ -99470,6 +101683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Bug Buzz",
@@ -99502,6 +101716,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bug Buzz",
@@ -99534,6 +101749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Bug Buzz",
@@ -99566,6 +101782,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Occa Berry",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Bug Buzz",
@@ -99598,6 +101815,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Bug Buzz",
@@ -99630,6 +101848,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Bug Buzz",
@@ -99662,6 +101881,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Air Slash",
@@ -99696,6 +101916,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Toxic",
@@ -99728,6 +101949,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Rock Climb",
@@ -99760,6 +101982,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Superpower",
@@ -99792,6 +102015,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Superpower",
@@ -99824,6 +102048,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Liechi Berry",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Megahorn",
@@ -99856,6 +102081,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Superpower",
@@ -99890,6 +102116,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Protect",
@@ -99905,7 +102132,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 PkMn Ranger Richard - Route 6": {
+      "Lvl 34 Pkmn Ranger Richard - Route 6": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -99922,6 +102149,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Cheri Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Helping Hand",
@@ -99954,6 +102182,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Agility",
@@ -99986,6 +102215,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "X-Scissor",
@@ -100003,7 +102233,7 @@ backup_data = {
       }
     },
     "Emolga": {
-      "Lvl 36 Leader Elesa": {
+      "Lvl 36 Leader Elesa - Nimbasa City": {
         "level": 36,
         "ai": 39,
         "noCh": false,
@@ -100020,6 +102250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Wild Charge",
@@ -100052,6 +102283,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Light Screen",
@@ -100067,7 +102299,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Shanti - Route 6": {
+      "Lvl 35 Pkmn Ranger Shanti - Route 6": {
         "level": 35,
         "ai": 7,
         "noCh": false,
@@ -100084,6 +102316,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Cheri Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Light Screen",
@@ -100116,6 +102349,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Discharge",
@@ -100148,6 +102382,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Discharge",
@@ -100180,6 +102415,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Starf Berry",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Baton Pass",
@@ -100212,6 +102448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Discharge",
@@ -100229,7 +102466,7 @@ backup_data = {
       }
     },
     "Manectric": {
-      "Lvl 36 Leader Elesa": {
+      "Lvl 36 Leader Elesa - Nimbasa City": {
         "level": 36,
         "ai": 39,
         "noCh": false,
@@ -100246,6 +102483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Thunderbolt",
@@ -100278,6 +102516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Thunder",
@@ -100295,7 +102534,7 @@ backup_data = {
       }
     },
     "Ampharos": {
-      "Lvl 36 Leader Elesa": {
+      "Lvl 36 Leader Elesa - Nimbasa City": {
         "level": 36,
         "ai": 39,
         "noCh": false,
@@ -100312,6 +102551,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Thunderbolt",
@@ -100344,6 +102584,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Thunderbolt",
@@ -100376,6 +102617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Zap Cannon",
@@ -100408,6 +102650,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Signal Beam",
@@ -100440,6 +102683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Zap Cannon",
@@ -100457,7 +102701,7 @@ backup_data = {
       }
     },
     "Raichu": {
-      "Lvl 36 Leader Elesa": {
+      "Lvl 36 Leader Elesa - Nimbasa City": {
         "level": 36,
         "ai": 39,
         "noCh": false,
@@ -100474,6 +102718,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Wild Charge",
@@ -100506,6 +102751,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Volt Tackle",
@@ -100538,6 +102784,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Volt Tackle",
@@ -100570,6 +102817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Volt Tackle",
@@ -100602,6 +102850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Volt Tackle",
@@ -100634,6 +102883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Volt Tackle",
@@ -100651,7 +102901,7 @@ backup_data = {
       }
     },
     "Galvantula": {
-      "Lvl 36 Leader Elesa": {
+      "Lvl 36 Leader Elesa - Nimbasa City": {
         "level": 36,
         "ai": 39,
         "noCh": false,
@@ -100668,6 +102918,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Thunder",
@@ -100700,6 +102951,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Thunder",
@@ -100732,6 +102984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Bug Buzz",
@@ -100764,6 +103017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Wide Lens",
+        "gender": "Female",
         "nature": "Naughty",
         "moves": [
           "Thunder",
@@ -100779,7 +103033,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Roughneck Johnny": {
+      "Lvl 88 Roughneck Johnny - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -100796,6 +103050,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Bug Buzz",
@@ -100813,7 +103068,7 @@ backup_data = {
       }
     },
     "Zebstrika": {
-      "Lvl 38 Leader Elesa": {
+      "Lvl 38 Leader Elesa - Nimbasa City": {
         "level": 38,
         "ai": 39,
         "noCh": false,
@@ -100830,6 +103085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Wild Charge",
@@ -100862,6 +103118,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Wild Charge",
@@ -100894,6 +103151,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Wild Charge",
@@ -100926,6 +103184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Thrash",
@@ -100958,6 +103217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Volt Tackle",
@@ -100990,6 +103250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Volt Tackle",
@@ -101022,6 +103283,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Volt Tackle",
@@ -101054,6 +103316,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Volt Tackle",
@@ -101086,6 +103349,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Volt Tackle",
@@ -101118,6 +103382,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Volt Tackle",
@@ -101150,6 +103415,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Thrash",
@@ -101182,6 +103448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Volt Tackle",
@@ -101199,7 +103466,7 @@ backup_data = {
       }
     },
     "Hippowdon": {
-      "Lvl 42 Leader Clay": {
+      "Lvl 42 Leader Clay - Driftveil City": {
         "level": 42,
         "ai": 39,
         "noCh": false,
@@ -101216,6 +103483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Bulldoze",
@@ -101248,6 +103516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Earthquake",
@@ -101280,6 +103549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Passho Berry",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Earthquake",
@@ -101312,6 +103582,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Superpower",
@@ -101329,7 +103600,7 @@ backup_data = {
       }
     },
     "Seismitoad": {
-      "Lvl 42 Leader Clay": {
+      "Lvl 42 Leader Clay - Driftveil City": {
         "level": 42,
         "ai": 39,
         "noCh": false,
@@ -101346,6 +103617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Chesto Berry",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Earth Power",
@@ -101378,6 +103650,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Rindo Berry",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Earthquake",
@@ -101393,7 +103666,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Harry - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Harry - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -101410,6 +103683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Hydro Pump",
@@ -101427,7 +103701,7 @@ backup_data = {
       }
     },
     "Steelix": {
-      "Lvl 42 Leader Clay": {
+      "Lvl 42 Leader Clay - Driftveil City": {
         "level": 42,
         "ai": 39,
         "noCh": false,
@@ -101444,6 +103718,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Passho Berry",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Earthquake",
@@ -101459,7 +103734,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 89 PkMn Ranger Alain": {
+      "Lvl 89 Pkmn Ranger Alain": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -101476,6 +103751,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Stone Edge",
@@ -101508,6 +103784,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Earthquake",
@@ -101540,6 +103817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Stone Edge",
@@ -101572,6 +103850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Stone Edge",
@@ -101604,6 +103883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Stone Edge",
@@ -101636,6 +103916,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Stone Edge",
@@ -101653,7 +103934,7 @@ backup_data = {
       }
     },
     "Marowak": {
-      "Lvl 42 Leader Clay": {
+      "Lvl 42 Leader Clay - Driftveil City": {
         "level": 42,
         "ai": 39,
         "noCh": false,
@@ -101670,6 +103951,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Thick Club",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Earthquake",
@@ -101702,6 +103984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Double-Edge",
@@ -101734,6 +104017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Perish Song",
@@ -101749,7 +104033,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -101766,6 +104050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Perish Song",
@@ -101783,7 +104068,7 @@ backup_data = {
       }
     },
     "Krookodile": {
-      "Lvl 42 Leader Clay": {
+      "Lvl 42 Leader Clay - Driftveil City": {
         "level": 42,
         "ai": 39,
         "noCh": false,
@@ -101800,6 +104085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Persim Berry",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Earthquake",
@@ -101832,6 +104118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Outrage",
@@ -101864,6 +104151,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Earthquake",
@@ -101896,6 +104184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Outrage",
@@ -101911,7 +104200,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Grunt26": {
+      "Lvl 57 Team Plasma Grunt26 - Dragonspiral Tower": {
         "level": 57,
         "ai": 1,
         "noCh": false,
@@ -101928,6 +104217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Earthquake",
@@ -101960,6 +104250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Sucker Punch",
@@ -101992,6 +104283,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Earthquake",
@@ -102024,6 +104316,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Sucker Punch",
@@ -102039,7 +104332,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Roughneck Johnny": {
+      "Lvl 88 Roughneck Johnny - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -102056,6 +104349,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Sucker Punch",
@@ -102073,7 +104367,7 @@ backup_data = {
       }
     },
     "Excadrill": {
-      "Lvl 44 Leader Clay": {
+      "Lvl 44 Leader Clay - Driftveil City": {
         "level": 44,
         "ai": 39,
         "noCh": false,
@@ -102090,6 +104384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Earthquake",
@@ -102122,6 +104417,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Sandstorm",
@@ -102154,6 +104450,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Earthquake",
@@ -102186,6 +104483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Fissure",
@@ -102218,6 +104516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Earthquake",
@@ -102233,7 +104532,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Backpacker Kiyo": {
+      "Lvl 88 Backpacker Kiyo - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -102250,6 +104549,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Fissure",
@@ -102267,7 +104567,7 @@ backup_data = {
       }
     },
     "Mandibuzz": {
-      "Lvl 54 Leader Skyla - Route 2": {
+      "Lvl 54 Leader Skyla - Battle Subway": {
         "level": 54,
         "ai": 135,
         "noCh": false,
@@ -102284,6 +104584,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Chesto Berry",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Brave Bird",
@@ -102301,7 +104602,7 @@ backup_data = {
       }
     },
     "Skarmory": {
-      "Lvl 54 Leader Skyla - Route 2": {
+      "Lvl 54 Leader Skyla - Battle Subway": {
         "level": 54,
         "ai": 135,
         "noCh": false,
@@ -102318,6 +104619,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Occa Berry",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Brave Bird",
@@ -102350,6 +104652,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Toxic",
@@ -102382,6 +104685,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Brave Bird",
@@ -102414,6 +104718,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Brave Bird",
@@ -102446,6 +104751,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Brave Bird",
@@ -102478,6 +104784,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Brave Bird",
@@ -102510,6 +104817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Brave Bird",
@@ -102527,7 +104835,7 @@ backup_data = {
       }
     },
     "Braviary": {
-      "Lvl 54 Leader Skyla - Route 2": {
+      "Lvl 54 Leader Skyla - Battle Subway": {
         "level": 54,
         "ai": 135,
         "noCh": false,
@@ -102544,6 +104852,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Brave Bird",
@@ -102576,6 +104885,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Extreme Speed",
@@ -102608,6 +104918,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Brave Bird",
@@ -102640,6 +104951,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Crush Claw",
@@ -102657,7 +104969,7 @@ backup_data = {
       }
     },
     "Archeops": {
-      "Lvl 56 Leader Skyla - Route 2": {
+      "Lvl 56 Leader Skyla - Battle Subway": {
         "level": 56,
         "ai": 135,
         "noCh": false,
@@ -102674,6 +104986,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Acrobatics",
@@ -102706,6 +105019,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Rock Slide",
@@ -102721,7 +105035,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Annie - Route 8": {
+      "Lvl 58 Pkmn Ranger Annie - Route 8": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -102738,6 +105052,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Head Smash",
@@ -102770,6 +105085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Acrobatics",
@@ -102787,7 +105103,7 @@ backup_data = {
       }
     },
     "Gliscor": {
-      "Lvl 56 Leader Skyla - Route 2": {
+      "Lvl 56 Leader Skyla - Battle Subway": {
         "level": 56,
         "ai": 135,
         "noCh": false,
@@ -102804,6 +105120,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Toxic Orb",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Acrobatics",
@@ -102836,6 +105153,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Fire Fang",
@@ -102868,6 +105186,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Guillotine",
@@ -102900,6 +105219,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Toxic Orb",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Earthquake",
@@ -102932,6 +105252,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Guillotine",
@@ -102949,7 +105270,7 @@ backup_data = {
       }
     },
     "Swanna": {
-      "Lvl 56 Leader Skyla - Route 2": {
+      "Lvl 56 Leader Skyla - Battle Subway": {
         "level": 56,
         "ai": 135,
         "noCh": false,
@@ -102966,6 +105287,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hurricane",
@@ -102998,6 +105320,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Hurricane",
@@ -103030,6 +105353,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Hurricane",
@@ -103062,6 +105386,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hurricane",
@@ -103094,6 +105419,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Surf",
@@ -103111,7 +105437,7 @@ backup_data = {
       }
     },
     "Dunsparce": {
-      "Lvl 22 PkMn Ranger Forrest - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Forrest - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103128,6 +105454,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Spite",
@@ -103160,6 +105487,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Flail",
@@ -103177,7 +105505,7 @@ backup_data = {
       }
     },
     "Roselia": {
-      "Lvl 22 PkMn Ranger Irene - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Irene - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103194,6 +105522,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Grass Whistle",
@@ -103211,7 +105540,7 @@ backup_data = {
       }
     },
     "Pinsir": {
-      "Lvl 22 PkMn Ranger Irene - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Irene - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103228,6 +105557,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Brick Break",
@@ -103260,6 +105590,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Superpower",
@@ -103292,6 +105623,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Megahorn",
@@ -103324,6 +105656,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Horn Leech",
@@ -103356,6 +105689,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Horn Leech",
@@ -103373,7 +105707,7 @@ backup_data = {
       }
     },
     "Vigoroth": {
-      "Lvl 22 PkMn Ranger Miguel - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Miguel - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103390,6 +105724,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Fury Swipes",
@@ -103407,7 +105742,7 @@ backup_data = {
       }
     },
     "Mothim": {
-      "Lvl 22 PkMn Ranger Miguel - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Miguel - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103424,6 +105759,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Air Cutter",
@@ -103441,7 +105777,7 @@ backup_data = {
       }
     },
     "Tangela": {
-      "Lvl 22 PkMn Ranger Audra - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Audra - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103458,6 +105794,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Bind",
@@ -103475,7 +105812,7 @@ backup_data = {
       }
     },
     "Scyther": {
-      "Lvl 22 PkMn Ranger Audra - Pinwheel Forest": {
+      "Lvl 22 Pkmn Ranger Audra - Pinwheel Forest": {
         "level": 22,
         "ai": 7,
         "noCh": false,
@@ -103492,6 +105829,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Wing Attack",
@@ -103524,6 +105862,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Double Hit",
@@ -103556,6 +105895,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Air Slash",
@@ -103588,6 +105928,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Feint",
@@ -103620,6 +105961,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Bug Bite",
@@ -103654,6 +105996,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Extreme Speed",
@@ -103686,6 +106029,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Rest",
@@ -103718,6 +106062,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Fling",
@@ -103752,6 +106097,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Confusion",
@@ -103784,6 +106130,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Synchronoise",
@@ -103816,6 +106163,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Nasty Plot",
@@ -103848,6 +106196,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Nasty Plot",
@@ -103880,6 +106229,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Nasty Plot",
@@ -103914,6 +106264,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Scary Face",
@@ -103948,6 +106299,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Rollout",
@@ -103980,6 +106332,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Sand Tomb",
@@ -104014,6 +106367,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Roost",
@@ -104048,6 +106402,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Razor Leaf",
@@ -104082,6 +106437,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Razor Leaf",
@@ -104116,6 +106472,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Poison Tail",
@@ -104150,6 +106507,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Razor Leaf",
@@ -104184,6 +106542,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Magical Leaf",
@@ -104218,6 +106577,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Headbutt",
@@ -104252,6 +106612,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Mega Drain",
@@ -104286,6 +106647,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Clear Smog",
@@ -104320,6 +106682,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Twister",
@@ -104354,6 +106717,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Aqua Jet",
@@ -104388,6 +106752,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Power Gem",
@@ -104420,6 +106785,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Stone Edge",
@@ -104435,7 +106801,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren13": {
+      "Lvl 31 Pkmn Trainer Cheren13 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -104452,6 +106818,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Rock Slide",
@@ -104467,7 +106834,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 31 Pkmn Trainer Cheren14 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -104484,6 +106851,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Rock Slide",
@@ -104499,7 +106867,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren15": {
+      "Lvl 31 Pkmn Trainer Cheren15 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -104516,6 +106884,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Rock Slide",
@@ -104548,6 +106917,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Rock Slide",
@@ -104582,6 +106952,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Rock Blast",
@@ -104614,6 +106985,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Bulldoze",
@@ -104646,6 +107018,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Self-Destruct",
@@ -104680,6 +107053,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Sand Tomb",
@@ -104695,7 +107069,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -104712,6 +107086,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Crunch",
@@ -104746,6 +107121,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Crunch",
@@ -104778,6 +107154,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Chip Away",
@@ -104812,6 +107189,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Metal Claw",
@@ -104844,6 +107222,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Super Fang",
@@ -104876,6 +107255,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Sandstorm",
@@ -104908,6 +107288,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Sandstorm",
@@ -104940,6 +107321,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Sandstorm",
@@ -104974,6 +107356,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Close Combat",
@@ -105006,6 +107389,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Force Palm",
@@ -105038,6 +107422,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Endure",
@@ -105070,6 +107455,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Heavy Slam",
@@ -105102,6 +107488,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Cross Chop",
@@ -105136,6 +107523,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Earthquake",
@@ -105168,6 +107556,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Earth Power",
@@ -105200,6 +107589,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Earth Power",
@@ -105232,6 +107622,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Fissure",
@@ -105264,6 +107655,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Fissure",
@@ -105296,6 +107688,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Fissure",
@@ -105330,6 +107723,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Air Slash",
@@ -105362,6 +107756,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hurricane",
@@ -105396,6 +107791,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Mirror Shot",
@@ -105428,6 +107824,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Sheer Cold",
@@ -105462,6 +107859,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Iron Defense",
@@ -105496,6 +107894,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Calm Mind",
@@ -105528,6 +107927,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Drain Punch",
@@ -105543,7 +107943,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca4": {
+      "Lvl 41 Pkmn Trainer Bianca4 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -105560,6 +107960,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "U-turn",
@@ -105575,7 +107976,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca5": {
+      "Lvl 41 Pkmn Trainer Bianca5 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -105592,6 +107993,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "U-turn",
@@ -105607,7 +108009,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca6 - Driftveil City": {
+      "Lvl 41 Pkmn Trainer Bianca6 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -105624,6 +108026,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "U-turn",
@@ -105658,6 +108061,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Sunny Day",
@@ -105692,6 +108096,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Taunt",
@@ -105726,6 +108131,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Thrash",
@@ -105760,6 +108166,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Jump Kick",
@@ -105794,6 +108201,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Mud Shot",
@@ -105828,6 +108236,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Focus Energy",
@@ -105862,6 +108271,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Tackle",
@@ -105896,6 +108306,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Twister",
@@ -105930,6 +108341,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Mist",
@@ -105964,6 +108376,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Endure",
@@ -105998,6 +108411,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Captivate",
@@ -106032,6 +108446,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Water Pulse",
@@ -106066,6 +108481,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Take Down",
@@ -106100,6 +108516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Dragon Pulse",
@@ -106134,6 +108551,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Grass Whistle",
@@ -106149,7 +108567,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Shanti - Route 6": {
+      "Lvl 35 Pkmn Ranger Shanti - Route 6": {
         "level": 35,
         "ai": 7,
         "noCh": false,
@@ -106166,6 +108584,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Cheri Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Tailwind",
@@ -106198,6 +108617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Grass Whistle",
@@ -106230,6 +108650,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Grass Whistle",
@@ -106262,6 +108683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Grass Whistle",
@@ -106277,7 +108699,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren17": {
+      "Lvl 53 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -106294,6 +108716,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Energy Ball",
@@ -106309,7 +108732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren20": {
+      "Lvl 66 Pkmn Trainer Cheren20 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -106326,6 +108749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Leech Seed",
@@ -106341,7 +108765,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -106358,6 +108782,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Leech Seed",
@@ -106392,6 +108817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Earth Power",
@@ -106424,6 +108850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Petal Dance",
@@ -106456,6 +108883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Quiver Dance",
@@ -106488,6 +108916,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Earth Power",
@@ -106520,6 +108949,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Earth Power",
@@ -106535,7 +108965,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 63 Pkmn Trainer Bianca7 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -106552,6 +108982,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Petal Dance",
@@ -106567,7 +108998,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Chloris - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Chloris - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -106584,6 +109015,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Petal Dance",
@@ -106599,7 +109031,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 88 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -106616,6 +109048,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Petal Dance",
@@ -106650,6 +109083,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Rock Slide",
@@ -106684,6 +109118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Leaf Tornado",
@@ -106716,6 +109151,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Leaf Storm",
@@ -106748,6 +109184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Leaf Storm",
@@ -106780,6 +109217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Leaf Storm",
@@ -106795,7 +109233,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 The Riches Zillion": {
+      "Lvl 86 The Riches Zillion - Undella Town": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -106812,6 +109250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Leaf Storm",
@@ -106829,7 +109268,7 @@ backup_data = {
       }
     },
     "Wigglytuff": {
-      "Lvl 33 Musician Preston": {
+      "Lvl 33 Musician Preston - Route 5": {
         "level": 33,
         "ai": 1,
         "noCh": false,
@@ -106846,6 +109285,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Gravity",
@@ -106878,6 +109318,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Heal Bell",
@@ -106910,6 +109351,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Heal Bell",
@@ -106942,6 +109384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Heal Bell",
@@ -106957,7 +109400,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Breeder Eustace - Route 12": {
+      "Lvl 90 Pkmn Breeder Eustace - Route 12": {
         "level": 90,
         "ai": 5,
         "noCh": false,
@@ -106974,6 +109417,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Heal Bell",
@@ -107006,6 +109450,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Heal Bell",
@@ -107040,6 +109485,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Calm Mind",
@@ -107072,6 +109518,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Magical Leaf",
@@ -107106,6 +109553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Nature Power",
@@ -107138,6 +109586,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hydro Pump",
@@ -107170,6 +109619,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Hydro Pump",
@@ -107204,6 +109654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Muddy Water",
@@ -107236,6 +109687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Flail",
@@ -107270,6 +109722,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Aqua Jet",
@@ -107304,6 +109757,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Shell Smash",
@@ -107336,6 +109790,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Spore",
@@ -107368,6 +109823,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Confuse Ray",
@@ -107383,7 +109839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Scientist Satomi": {
+      "Lvl 18 Scientist Satomi - Nacrene City": {
         "level": 18,
         "ai": 5,
         "noCh": false,
@@ -107400,6 +109856,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Substitute",
@@ -107432,6 +109889,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Fire Blast",
@@ -107466,6 +109924,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Endeavor",
@@ -107498,6 +109957,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Endeavor",
@@ -107532,6 +109992,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Swallow",
@@ -107547,7 +110008,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -107564,6 +110025,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Self-Destruct",
@@ -107596,6 +110058,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Chip Away",
@@ -107628,6 +110091,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Stockpile",
@@ -107662,6 +110126,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Hex",
@@ -107696,6 +110161,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Simple Beam",
@@ -107730,6 +110196,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Synchronoise",
@@ -107762,6 +110229,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Cosmic Power",
@@ -107777,7 +110245,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -107794,6 +110262,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Synchronoise",
@@ -107826,6 +110295,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Protect",
@@ -107858,6 +110328,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hurricane",
@@ -107890,6 +110361,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Hurricane",
@@ -107922,6 +110394,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Hurricane",
@@ -107954,6 +110427,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Psychic",
@@ -107988,6 +110462,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Dark Pulse",
@@ -108020,6 +110495,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Dark Pulse",
@@ -108054,6 +110530,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Confuse Ray",
@@ -108086,6 +110563,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Confuse Ray",
@@ -108103,7 +110581,7 @@ backup_data = {
       }
     },
     "Staravia": {
-      "Lvl 14 PkMn Trainer Cheren4": {
+      "Lvl 14 Pkmn Trainer Cheren4 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108120,6 +110598,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Double Team",
@@ -108135,7 +110614,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 14 Pkmn Trainer Cheren5 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108152,6 +110631,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Double Team",
@@ -108167,7 +110647,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 14 Pkmn Trainer Cheren6 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108184,6 +110664,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Double Team",
@@ -108199,7 +110680,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren13": {
+      "Lvl 31 Pkmn Trainer Cheren13 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -108216,6 +110697,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Aerial Ace",
@@ -108231,7 +110713,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 31 Pkmn Trainer Cheren14 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -108248,6 +110730,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Aerial Ace",
@@ -108263,7 +110746,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren15": {
+      "Lvl 31 Pkmn Trainer Cheren15 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -108280,6 +110763,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Aerial Ace",
@@ -108312,6 +110796,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Aerial Ace",
@@ -108329,7 +110814,7 @@ backup_data = {
       }
     },
     "Roggenrola": {
-      "Lvl 14 PkMn Trainer Cheren4": {
+      "Lvl 14 Pkmn Trainer Cheren4 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108346,6 +110831,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Rock Blast",
@@ -108361,7 +110847,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 14 Pkmn Trainer Cheren5 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108378,6 +110864,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Rock Blast",
@@ -108393,7 +110880,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 14 Pkmn Trainer Cheren6 - Route 3": {
         "level": 14,
         "ai": 129,
         "noCh": false,
@@ -108410,6 +110897,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Rock Blast",
@@ -108442,6 +110930,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Mud-Slap",
@@ -108476,6 +110965,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Bite",
@@ -108510,6 +111000,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Toxic Spikes",
@@ -108544,6 +111035,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Bite",
@@ -108578,6 +111070,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Hardy",
         "moves": [
           "Rollout",
@@ -108612,6 +111105,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Scary Face",
@@ -108646,6 +111140,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Torment",
@@ -108678,6 +111173,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Swords Dance",
@@ -108710,6 +111206,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Metal Sound",
@@ -108727,7 +111224,7 @@ backup_data = {
       }
     },
     "Nincada": {
-      "Lvl 6 PkMn Trainer N - Accumula Town": {
+      "Lvl 6 Pkmn Trainer N - Castelia City": {
         "level": 6,
         "ai": 39,
         "noCh": false,
@@ -108744,6 +111241,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Leech Life",
@@ -108761,7 +111259,7 @@ backup_data = {
       }
     },
     "Purrloin": {
-      "Lvl 6 PkMn Trainer N - Accumula Town": {
+      "Lvl 6 Pkmn Trainer N - Castelia City": {
         "level": 6,
         "ai": 39,
         "noCh": false,
@@ -108778,6 +111276,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Assist",
@@ -108794,7 +111293,7 @@ backup_data = {
       }
     },
     "Mankey": {
-      "Lvl 6 PkMn Trainer N - Accumula Town": {
+      "Lvl 6 Pkmn Trainer N - Castelia City": {
         "level": 6,
         "ai": 39,
         "noCh": false,
@@ -108811,6 +111310,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Focus Energy",
@@ -108828,7 +111328,7 @@ backup_data = {
       }
     },
     "Drilbur": {
-      "Lvl 19 PkMn Trainer N2 - Nacrene City": {
+      "Lvl 19 Pkmn Trainer N2 - Nacrene City": {
         "level": 19,
         "ai": 129,
         "noCh": false,
@@ -108845,6 +111345,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Dig",
@@ -108877,6 +111378,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Earthquake",
@@ -108894,7 +111396,7 @@ backup_data = {
       }
     },
     "Bronzor": {
-      "Lvl 19 PkMn Trainer N2 - Nacrene City": {
+      "Lvl 19 Pkmn Trainer N2 - Nacrene City": {
         "level": 19,
         "ai": 129,
         "noCh": false,
@@ -108911,6 +111413,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Rash",
         "moves": [
           "Extrasensory",
@@ -108928,7 +111431,7 @@ backup_data = {
       }
     },
     "Tympole": {
-      "Lvl 19 PkMn Trainer N2 - Nacrene City": {
+      "Lvl 19 Pkmn Trainer N2 - Nacrene City": {
         "level": 19,
         "ai": 129,
         "noCh": false,
@@ -108945,6 +111448,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Mud Shot",
@@ -108962,7 +111466,7 @@ backup_data = {
       }
     },
     "Vulpix": {
-      "Lvl 19 PkMn Trainer N2 - Nacrene City": {
+      "Lvl 19 Pkmn Trainer N2 - Nacrene City": {
         "level": 19,
         "ai": 129,
         "noCh": false,
@@ -108979,6 +111483,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Confuse Ray",
@@ -108996,7 +111501,7 @@ backup_data = {
       }
     },
     "Zorua": {
-      "Lvl 19 PkMn Trainer N2 - Nacrene City": {
+      "Lvl 19 Pkmn Trainer N2 - Nacrene City": {
         "level": 19,
         "ai": 129,
         "noCh": false,
@@ -109013,6 +111518,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Feint Attack",
@@ -109047,6 +111553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Thunder Wave",
@@ -109079,6 +111586,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Uproar",
@@ -109111,6 +111619,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Uproar",
@@ -109145,6 +111654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Electro Ball",
@@ -109179,6 +111689,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Feint",
@@ -109211,6 +111722,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Double Team",
@@ -109243,6 +111755,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Volt Tackle",
@@ -109258,7 +111771,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -109275,6 +111788,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Volt Tackle",
@@ -109307,6 +111821,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Volt Tackle",
@@ -109341,6 +111856,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Pin Missile",
@@ -109356,7 +111872,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Rich Boy Rolan": {
+      "Lvl 34 Rich Boy Rolan - Nimbasa City": {
         "level": 34,
         "ai": 1,
         "noCh": false,
@@ -109373,6 +111889,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Pin Missile",
@@ -109405,6 +111922,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Volt Tackle",
@@ -109437,6 +111955,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Volt Tackle",
@@ -109469,6 +111988,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Volt Tackle",
@@ -109501,6 +112021,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Starf Berry",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Thunder",
@@ -109533,6 +112054,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Volt Tackle",
@@ -109565,6 +112087,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Thunder",
@@ -109597,6 +112120,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Volt Tackle",
@@ -109629,6 +112153,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Thunder",
@@ -109646,7 +112171,7 @@ backup_data = {
       }
     },
     "Luxray": {
-      "Lvl 34 Rich Boy Rolan": {
+      "Lvl 34 Rich Boy Rolan - Nimbasa City": {
         "level": 34,
         "ai": 1,
         "noCh": false,
@@ -109663,6 +112188,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Dark Pulse",
@@ -109695,6 +112221,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Volt Tackle",
@@ -109727,6 +112254,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Volt Tackle",
@@ -109759,6 +112287,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Volt Tackle",
@@ -109776,7 +112305,7 @@ backup_data = {
       }
     },
     "Magneton": {
-      "Lvl 34 Rich Boy Rolan": {
+      "Lvl 34 Rich Boy Rolan - Nimbasa City": {
         "level": 34,
         "ai": 1,
         "noCh": false,
@@ -109793,6 +112322,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Mild",
         "moves": [
           "Magnet Bomb",
@@ -109825,6 +112355,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Serious",
         "moves": [
           "Magnet Bomb",
@@ -109857,6 +112388,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quiet",
         "moves": [
           "Magnet Bomb",
@@ -109874,7 +112406,7 @@ backup_data = {
       }
     },
     "Electrode": {
-      "Lvl 34 Rich Boy Rolan": {
+      "Lvl 34 Rich Boy Rolan - Nimbasa City": {
         "level": 34,
         "ai": 1,
         "noCh": false,
@@ -109891,6 +112423,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Serious",
         "moves": [
           "Electro Ball",
@@ -109923,6 +112456,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Hardy",
         "moves": [
           "Electro Ball",
@@ -109955,6 +112489,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Mirror Coat",
@@ -109987,6 +112522,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Brave",
         "moves": [
           "Mirror Coat",
@@ -110019,6 +112555,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Mirror Coat",
@@ -110051,6 +112588,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Mild",
         "moves": [
           "Mirror Coat",
@@ -110068,7 +112606,7 @@ backup_data = {
       }
     },
     "Lanturn": {
-      "Lvl 34 Rich Boy Rolan": {
+      "Lvl 34 Rich Boy Rolan - Nimbasa City": {
         "level": 34,
         "ai": 1,
         "noCh": false,
@@ -110085,6 +112623,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Electro Ball",
@@ -110117,6 +112656,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Charge",
@@ -110149,6 +112689,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Aqua Ring",
@@ -110181,6 +112722,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Charge",
@@ -110213,6 +112755,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Charge",
@@ -110245,6 +112788,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Charge",
@@ -110279,6 +112823,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Swift",
@@ -110313,6 +112858,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Swift",
@@ -110347,6 +112893,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Electro Ball",
@@ -110381,6 +112928,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Charge Beam",
@@ -110415,6 +112963,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Bounce",
@@ -110447,6 +112996,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Flail",
@@ -110481,6 +113031,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Careful",
         "moves": [
           "Ominous Wind",
@@ -110496,39 +113047,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 87 Ace Trainer Mariana": {
-        "level": 87,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 205,
-        "diff": 0,
-        "ivs": {
-          "hp": 18,
-          "at": 18,
-          "df": 18,
-          "sa": 18,
-          "sd": 18,
-          "sp": 18
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Sassy",
-        "moves": [
-          "Discharge",
-          "Charge",
-          "Hex",
-          "Electro Ball"
-        ],
-        "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/ace_trainer.png",
-        "form": 2,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2": {
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
         "level": 47,
         "ai": 39,
         "noCh": false,
@@ -110545,6 +113064,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Discharge",
@@ -110556,166 +113076,6 @@ backup_data = {
         "ability": "Levitate",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2 2": {
-        "level": 47,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 218,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Thunderbolt",
-          "Lava Plume",
-          "Shadow Ball",
-          "Thunder Wave"
-        ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2 3": {
-        "level": 47,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 218,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Thunder",
-          "Rain Dance",
-          "Scald",
-          "Shadow Ball"
-        ],
-        "sub_index": 2,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 2,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2 4": {
-        "level": 47,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 218,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Thunderbolt",
-          "Glaciate",
-          "Shadow Ball",
-          "Thunder Wave"
-        ],
-        "sub_index": 3,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 3,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2 5": {
-        "level": 47,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 218,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Thunder",
-          "Hurricane",
-          "Shadow Ball",
-          "Substitute"
-        ],
-        "sub_index": 4,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 4,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma N2 6": {
-        "level": 47,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 218,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Thunderbolt",
-          "Leaf Storm",
-          "Energy Ball",
-          "Confuse Ray"
-        ],
-        "sub_index": 5,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 5,
         "evs": {
           "df": 0
         }
@@ -110739,6 +113099,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Synchronoise",
@@ -110771,6 +113132,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Heat Wave",
@@ -110803,6 +113165,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Heat Wave",
@@ -110837,6 +113200,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Swagger",
@@ -110869,6 +113233,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Tailwind",
@@ -110901,6 +113266,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Hurricane",
@@ -110933,6 +113299,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Hurricane",
@@ -110967,6 +113334,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Fake Out",
@@ -110999,6 +113367,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Seed Bomb",
@@ -111031,6 +113400,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Blizzard",
@@ -111063,6 +113433,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Tailwind",
@@ -111097,6 +113468,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "U-turn",
@@ -111129,6 +113501,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Acrobatics",
@@ -111161,6 +113534,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Sleep Powder",
@@ -111193,6 +113567,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Aromatherapy",
@@ -111225,6 +113600,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Aromatherapy",
@@ -111259,6 +113635,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Stored Power",
@@ -111291,6 +113668,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Stored Power",
@@ -111306,7 +113684,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -111323,6 +113701,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Psychic",
@@ -111355,6 +113734,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Psychic",
@@ -111389,6 +113769,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Tailwind",
@@ -111421,6 +113802,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Blizzard",
@@ -111453,6 +113835,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hurricane",
@@ -111485,6 +113868,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Hurricane",
@@ -111517,6 +113901,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hurricane",
@@ -111549,6 +113934,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hurricane",
@@ -111583,6 +113969,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Double-Edge",
@@ -111615,6 +114002,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Baton Pass",
@@ -111649,6 +114037,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Extrasensory",
@@ -111683,6 +114072,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Chip Away",
@@ -111717,6 +114107,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Wood Hammer",
@@ -111749,6 +114140,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Seed Bomb",
@@ -111781,6 +114173,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Ice Shard",
@@ -111815,6 +114208,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Night Slash",
@@ -111847,6 +114241,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Flail",
@@ -111879,6 +114274,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Rock Wrecker",
@@ -111911,6 +114307,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Shell Smash",
@@ -111945,6 +114342,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Flame Charge",
@@ -111977,6 +114375,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Swift",
@@ -112011,6 +114410,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Ice Punch",
@@ -112043,6 +114443,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Aqua Tail",
@@ -112075,6 +114476,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Aqua Tail",
@@ -112109,6 +114511,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Mild",
         "moves": [
           "Headbutt",
@@ -112143,6 +114546,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Mild",
         "moves": [
           "Psychic",
@@ -112175,6 +114579,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Serious",
         "moves": [
           "Zen Headbutt",
@@ -112207,6 +114612,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Serious",
         "moves": [
           "Hyper Beam",
@@ -112241,6 +114647,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Sweet Scent",
@@ -112275,6 +114682,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Ice Punch",
@@ -112307,6 +114715,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Crunch",
@@ -112341,6 +114750,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Fury Attack",
@@ -112373,6 +114783,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Fury Attack",
@@ -112405,6 +114816,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Blizzard",
@@ -112439,6 +114851,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Sheer Cold",
@@ -112471,6 +114884,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Blizzard",
@@ -112503,6 +114917,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Sheer Cold",
@@ -112535,6 +114950,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Sheer Cold",
@@ -112569,6 +114985,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Rock Wrecker",
@@ -112601,6 +115018,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Blizzard",
@@ -112633,6 +115051,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Blizzard",
@@ -112665,6 +115084,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Occa Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -112697,6 +115117,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Rock Wrecker",
@@ -112714,7 +115135,7 @@ backup_data = {
       }
     },
     "Haunter": {
-      "Lvl 35 Team Plasma Grunt3": {
+      "Lvl 35 Team Plasma Grunt3 - Driftveil City": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -112731,6 +115152,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Shadow Ball",
@@ -112763,6 +115185,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hex",
@@ -112795,6 +115218,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Nightmare",
@@ -112827,6 +115251,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Payback",
@@ -112844,7 +115269,7 @@ backup_data = {
       }
     },
     "Arbok": {
-      "Lvl 35 Team Plasma Grunt3": {
+      "Lvl 35 Team Plasma Grunt3 - Driftveil City": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -112861,6 +115286,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Acid Spray",
@@ -112893,6 +115319,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Coil",
@@ -112925,6 +115352,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Gunk Shot",
@@ -112957,6 +115385,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Mud Bomb",
@@ -112989,6 +115418,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Poison Tail",
@@ -113023,6 +115453,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Venoshock",
@@ -113038,7 +115469,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Harlequin Rick": {
+      "Lvl 26 Harlequin Rick - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -113055,6 +115486,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Bug Bite",
@@ -113089,6 +115521,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Giga Impact",
@@ -113121,6 +115554,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Giga Impact",
@@ -113153,6 +115587,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Reversal",
@@ -113185,6 +115620,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Giga Impact",
@@ -113217,6 +115653,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Giga Impact",
@@ -113249,6 +115686,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Giga Impact",
@@ -113281,6 +115719,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Return",
@@ -113315,6 +115754,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Explosion",
@@ -113330,7 +115770,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 36 Pkmn Trainer Cheren7 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -113347,6 +115787,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Stealth Rock",
@@ -113362,7 +115803,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren8": {
+      "Lvl 36 Pkmn Trainer Cheren8 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -113379,6 +115820,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Stealth Rock",
@@ -113394,7 +115836,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren9": {
+      "Lvl 36 Pkmn Trainer Cheren9 - Driftveil City": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -113411,6 +115853,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Stealth Rock",
@@ -113443,6 +115886,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Explosion",
@@ -113475,6 +115919,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Stone Edge",
@@ -113507,6 +115952,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Explosion",
@@ -113539,6 +115985,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Explosion",
@@ -113571,6 +116018,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Stone Edge",
@@ -113586,7 +116034,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren16": {
+      "Lvl 53 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -113603,6 +116051,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Stone Edge",
@@ -113618,7 +116067,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren17": {
+      "Lvl 53 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -113635,6 +116084,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Stone Edge",
@@ -113650,7 +116100,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 53 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -113667,6 +116117,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Stone Edge",
@@ -113682,7 +116133,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren19": {
+      "Lvl 66 Pkmn Trainer Cheren19 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -113699,6 +116150,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Stone Edge",
@@ -113714,7 +116166,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren20": {
+      "Lvl 66 Pkmn Trainer Cheren20 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -113731,6 +116183,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Stone Edge",
@@ -113746,7 +116199,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 66 Pkmn Trainer Cheren21 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -113763,6 +116216,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Hard Stone",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Stone Edge",
@@ -113778,7 +116232,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -113795,6 +116249,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Custap Berry",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Stone Edge",
@@ -113810,7 +116265,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -113827,6 +116282,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Custap Berry",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Stone Edge",
@@ -113842,7 +116298,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -113859,6 +116315,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Custap Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Explosion",
@@ -113893,6 +116350,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Spark",
@@ -113927,6 +116385,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Double Kick",
@@ -113961,6 +116420,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Foul Play",
@@ -113995,6 +116455,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Fury Swipes",
@@ -114027,6 +116488,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Zen Headbutt",
@@ -114061,6 +116523,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Odor Sleuth",
@@ -114094,6 +116557,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Growl",
@@ -114126,6 +116590,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bug Bite",
@@ -114158,6 +116623,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bug Bite",
@@ -114192,6 +116658,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Poison Tail",
@@ -114226,6 +116693,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Fury Swipes",
@@ -114260,6 +116728,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Lick",
@@ -114294,6 +116763,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Encore",
@@ -114328,6 +116798,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Wrap",
@@ -114343,7 +116814,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Claude - Route 1": {
+      "Lvl 52 Pkmn Ranger Claude - Route 1": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -114360,6 +116831,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Persim Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Screech",
@@ -114392,6 +116864,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Disable",
@@ -114426,6 +116899,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Quick Attack",
@@ -114460,6 +116934,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Follow Me",
@@ -114494,6 +116969,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Round",
@@ -114509,7 +116985,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 85 PkMn Breeder Eustace - Route 12": {
+      "Lvl 85 Pkmn Breeder Eustace - Route 12": {
         "level": 85,
         "ai": 5,
         "noCh": false,
@@ -114526,6 +117002,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Double-Edge",
@@ -114560,6 +117037,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Double Slap",
@@ -114592,6 +117070,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Wish",
@@ -114607,7 +117086,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -114624,6 +117103,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Double-Edge",
@@ -114656,6 +117136,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Double-Edge",
@@ -114673,7 +117154,7 @@ backup_data = {
       }
     },
     "Ditto": {
-      "Lvl 18 Scientist Satomi": {
+      "Lvl 18 Scientist Satomi - Nacrene City": {
         "level": 18,
         "ai": 5,
         "noCh": false,
@@ -114690,6 +117171,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Transform",
@@ -114722,6 +117204,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Calm",
         "moves": [
           "Transform"
@@ -114736,7 +117219,7 @@ backup_data = {
       }
     },
     "Porygon": {
-      "Lvl 18 Scientist Satomi": {
+      "Lvl 18 Scientist Satomi - Nacrene City": {
         "level": 18,
         "ai": 5,
         "noCh": false,
@@ -114753,6 +117236,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Naive",
         "moves": [
           "Psybeam",
@@ -114785,6 +117269,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Docile",
         "moves": [
           "Tri Attack",
@@ -114802,7 +117287,7 @@ backup_data = {
       }
     },
     "Castform": {
-      "Lvl 18 Scientist Satomi": {
+      "Lvl 18 Scientist Satomi - Nacrene City": {
         "level": 18,
         "ai": 5,
         "noCh": false,
@@ -114819,6 +117304,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Weather Ball",
@@ -114851,6 +117337,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Weather Ball",
@@ -114866,7 +117353,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -114883,6 +117370,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Blizzard",
@@ -114900,7 +117388,7 @@ backup_data = {
       }
     },
     "Maractus": {
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -114917,6 +117405,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Ingrain",
@@ -114932,7 +117421,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Ranger Lewis - Route 8": {
+      "Lvl 57 Pkmn Ranger Lewis - Route 8": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -114949,6 +117438,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "After You",
@@ -114981,6 +117471,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Spikes",
@@ -114998,7 +117489,7 @@ backup_data = {
       }
     },
     "Gligar": {
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -115015,6 +117506,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Screech",
@@ -115047,6 +117539,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Slash",
@@ -115064,7 +117557,7 @@ backup_data = {
       }
     },
     "Larvesta": {
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -115081,6 +117574,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Flame Charge",
@@ -115098,7 +117592,7 @@ backup_data = {
       }
     },
     "Golett": {
-      "Lvl 33 Team Plasma N": {
+      "Lvl 33 Team Plasma N - Nimbasa City": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -115115,6 +117609,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Dynamic Punch",
@@ -115147,6 +117642,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Brave",
         "moves": [
           "Magnitude",
@@ -115164,7 +117660,7 @@ backup_data = {
       }
     },
     "Staraptor": {
-      "Lvl 36 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 36 Pkmn Trainer Cheren7 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115181,6 +117677,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Close Combat",
@@ -115196,7 +117693,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren8": {
+      "Lvl 36 Pkmn Trainer Cheren8 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115213,6 +117710,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Close Combat",
@@ -115228,7 +117726,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren9": {
+      "Lvl 36 Pkmn Trainer Cheren9 - Driftveil City": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115245,6 +117743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Close Combat",
@@ -115277,6 +117776,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Brave Bird",
@@ -115309,6 +117809,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Double-Edge",
@@ -115324,7 +117825,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren16": {
+      "Lvl 53 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115341,6 +117842,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Brave Bird",
@@ -115356,7 +117858,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren17": {
+      "Lvl 53 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115373,6 +117875,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Brave Bird",
@@ -115388,7 +117891,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 53 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115405,6 +117908,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Brave Bird",
@@ -115437,6 +117941,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Double-Edge",
@@ -115452,7 +117957,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren19": {
+      "Lvl 66 Pkmn Trainer Cheren19 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -115469,6 +117974,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Brave Bird",
@@ -115484,7 +117990,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren20": {
+      "Lvl 66 Pkmn Trainer Cheren20 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -115501,6 +118007,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Brave Bird",
@@ -115516,7 +118023,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 66 Pkmn Trainer Cheren21 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -115533,6 +118040,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sharp Beak",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Brave Bird",
@@ -115548,7 +118056,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -115565,6 +118073,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Brave Bird",
@@ -115580,7 +118089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -115597,6 +118106,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Brave Bird",
@@ -115612,7 +118122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -115629,6 +118139,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Brave Bird",
@@ -115646,7 +118157,7 @@ backup_data = {
       }
     },
     "Alakazam": {
-      "Lvl 36 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 36 Pkmn Trainer Cheren7 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115663,6 +118174,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Recover",
@@ -115678,7 +118190,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren8": {
+      "Lvl 36 Pkmn Trainer Cheren8 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115695,6 +118207,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Recover",
@@ -115710,7 +118223,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren9": {
+      "Lvl 36 Pkmn Trainer Cheren9 - Driftveil City": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -115727,6 +118240,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Recover",
@@ -115759,6 +118273,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Future Sight",
@@ -115791,6 +118306,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Psychic",
@@ -115823,6 +118339,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Aura Sphere",
@@ -115838,7 +118355,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren16": {
+      "Lvl 53 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115855,6 +118372,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Psychic",
@@ -115870,7 +118388,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren17": {
+      "Lvl 53 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115887,6 +118405,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Psychic",
@@ -115902,7 +118421,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 53 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -115919,6 +118438,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Psychic",
@@ -115934,7 +118454,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren19": {
+      "Lvl 66 Pkmn Trainer Cheren19 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -115951,6 +118471,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Psychic",
@@ -115966,7 +118487,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren20": {
+      "Lvl 66 Pkmn Trainer Cheren20 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -115983,6 +118504,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Psychic",
@@ -115998,7 +118520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 66 Pkmn Trainer Cheren21 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -116015,6 +118537,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Psychic",
@@ -116030,7 +118553,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -116047,6 +118570,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Psychic",
@@ -116062,7 +118586,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -116079,6 +118603,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Psychic",
@@ -116094,7 +118619,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -116111,6 +118636,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Psychic",
@@ -116128,7 +118654,7 @@ backup_data = {
       }
     },
     "Simisage": {
-      "Lvl 36 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 36 Pkmn Trainer Cheren7 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -116145,6 +118671,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Seed Bomb",
@@ -116177,6 +118704,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Leaf Storm",
@@ -116209,6 +118737,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Seed Bomb",
@@ -116241,6 +118770,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Leaf Storm",
@@ -116273,6 +118803,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Leaf Storm",
@@ -116288,7 +118819,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren13": {
+      "Lvl 31 Pkmn Trainer Cheren13 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -116305,6 +118836,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Seed Bomb",
@@ -116337,6 +118869,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Liechi Berry",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Leaf Storm",
@@ -116352,7 +118885,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca6 - Driftveil City": {
+      "Lvl 41 Pkmn Trainer Bianca6 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -116369,6 +118902,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Seed Bomb",
@@ -116384,7 +118918,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca9": {
+      "Lvl 63 Pkmn Trainer Bianca9 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -116401,6 +118935,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Work Up",
@@ -116416,7 +118951,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca15 - Castelia Gate": {
+      "Lvl 29 Pkmn Trainer Bianca15 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -116433,6 +118968,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Seed Bomb",
@@ -116465,6 +119001,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Leaf Storm",
@@ -116480,7 +119017,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren16": {
+      "Lvl 53 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -116497,6 +119034,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Iron Ball",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Seed Bomb",
@@ -116512,7 +119050,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren19": {
+      "Lvl 66 Pkmn Trainer Cheren19 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -116529,6 +119067,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Acrobatics",
@@ -116544,7 +119083,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -116561,6 +119100,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Work Up",
@@ -116576,7 +119116,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca18": {
+      "Lvl 88 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -116593,6 +119133,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Work Up",
@@ -116608,7 +119149,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Dancer Mickey": {
+      "Lvl 25 Dancer Mickey - Castelia City": {
         "level": 25,
         "ai": 1,
         "noCh": false,
@@ -116625,6 +119166,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Seed Bomb",
@@ -116642,7 +119184,7 @@ backup_data = {
       }
     },
     "Simisear": {
-      "Lvl 36 PkMn Trainer Cheren8": {
+      "Lvl 36 Pkmn Trainer Cheren8 - Route 5": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -116659,6 +119201,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Flame Burst",
@@ -116691,6 +119234,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Flame Burst",
@@ -116723,6 +119267,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Overheat",
@@ -116755,6 +119300,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Overheat",
@@ -116770,7 +119316,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 31 Pkmn Trainer Cheren14 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -116787,6 +119333,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Flame Burst",
@@ -116802,7 +119349,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca4": {
+      "Lvl 41 Pkmn Trainer Bianca4 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -116819,6 +119366,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Flame Burst",
@@ -116834,7 +119382,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 63 Pkmn Trainer Bianca7 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -116851,6 +119399,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Work Up",
@@ -116866,7 +119415,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca13 - Castelia Gate": {
+      "Lvl 29 Pkmn Trainer Bianca13 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -116883,6 +119432,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Flame Burst",
@@ -116898,7 +119448,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren17": {
+      "Lvl 53 Pkmn Trainer Cheren17 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -116915,6 +119465,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Iron Ball",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Flame Burst",
@@ -116947,6 +119498,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Petaya Berry",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Fire Blast",
@@ -116962,7 +119514,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren20": {
+      "Lvl 66 Pkmn Trainer Cheren20 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -116979,6 +119531,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Work Up",
@@ -116994,7 +119547,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren23 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -117011,6 +119564,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Work Up",
@@ -117026,7 +119580,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 88 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -117043,6 +119597,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Work Up",
@@ -117075,6 +119630,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Flame Burst",
@@ -117092,7 +119648,7 @@ backup_data = {
       }
     },
     "Simipour": {
-      "Lvl 36 PkMn Trainer Cheren9": {
+      "Lvl 36 Pkmn Trainer Cheren9 - Driftveil City": {
         "level": 36,
         "ai": 129,
         "noCh": false,
@@ -117109,6 +119665,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Scald",
@@ -117141,6 +119698,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Scald",
@@ -117173,6 +119731,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Water Spout",
@@ -117205,6 +119764,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Water Spout",
@@ -117220,7 +119780,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren15": {
+      "Lvl 31 Pkmn Trainer Cheren15 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -117237,6 +119797,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Scald",
@@ -117269,6 +119830,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Petaya Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Hydro Pump",
@@ -117284,7 +119846,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca5": {
+      "Lvl 41 Pkmn Trainer Bianca5 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -117301,6 +119863,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Scald",
@@ -117316,7 +119879,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8": {
+      "Lvl 63 Pkmn Trainer Bianca8 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -117333,6 +119896,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Work Up",
@@ -117348,7 +119912,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 PkMn Trainer Bianca14": {
+      "Lvl 29 Pkmn Trainer Bianca14 - Castelia Gate": {
         "level": 29,
         "ai": 129,
         "noCh": false,
@@ -117365,6 +119929,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Scald",
@@ -117380,7 +119945,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 53 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -117397,6 +119962,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Iron Ball",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Scald",
@@ -117412,7 +119978,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 66 Pkmn Trainer Cheren21 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -117429,6 +119995,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Work Up",
@@ -117444,7 +120011,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -117461,6 +120028,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Work Up",
@@ -117476,7 +120044,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca17": {
+      "Lvl 88 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -117493,6 +120061,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Work Up",
@@ -117525,6 +120094,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Scald",
@@ -117559,6 +120129,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Body Slam",
@@ -117593,6 +120164,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Flail",
@@ -117627,6 +120199,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Signal Beam",
@@ -117661,6 +120234,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Bubble Beam",
@@ -117693,6 +120267,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Superpower",
@@ -117727,6 +120302,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Confusion",
@@ -117759,6 +120335,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Leaf Storm",
@@ -117793,6 +120370,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Acid",
@@ -117825,6 +120403,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Acid",
@@ -117859,6 +120438,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Mega Drain",
@@ -117891,6 +120471,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Teeter Dance",
@@ -117925,6 +120506,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Screech",
@@ -117959,6 +120541,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Dark Pulse",
@@ -117993,6 +120576,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Body Slam",
@@ -118025,6 +120609,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Superpower",
@@ -118040,7 +120625,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 The Riches Susan": {
+      "Lvl 84 The Riches Susan - Undella Town": {
         "level": 84,
         "ai": 7,
         "noCh": false,
@@ -118057,6 +120642,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Superpower",
@@ -118089,6 +120675,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Superpower",
@@ -118123,6 +120710,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Assurance",
@@ -118155,6 +120743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Custap Berry",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Earthquake",
@@ -118187,6 +120776,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Head Smash",
@@ -118221,6 +120811,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Magic Coat",
@@ -118236,7 +120827,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Janitor Geoff": {
+      "Lvl 26 Janitor Geoff - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -118253,6 +120844,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Tail Slap",
@@ -118268,7 +120860,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Annie - Route 8": {
+      "Lvl 58 Pkmn Ranger Annie - Route 8": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -118285,6 +120877,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Endeavor",
@@ -118317,6 +120910,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Endeavor",
@@ -118332,7 +120926,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Nursery Aide Briana": {
+      "Lvl 88 Nursery Aide Briana - White Forest": {
         "level": 88,
         "ai": 129,
         "noCh": false,
@@ -118349,6 +120943,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Endeavor",
@@ -118383,6 +120978,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Poison Powder",
@@ -118415,6 +121011,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Solar Beam",
@@ -118447,6 +121044,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Earth Power",
@@ -118479,6 +121077,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Solar Beam",
@@ -118513,6 +121112,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Aqua Tail",
@@ -118545,6 +121145,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Rain Dance",
@@ -118577,6 +121178,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Mirror Coat",
@@ -118609,6 +121211,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Mirror Coat",
@@ -118641,6 +121244,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Mirror Coat",
@@ -118656,7 +121260,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -118673,6 +121277,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Mirror Coat",
@@ -118705,6 +121310,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Mirror Coat",
@@ -118720,7 +121326,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca9": {
+      "Lvl 63 Pkmn Trainer Bianca9 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -118737,6 +121343,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Surf",
@@ -118752,7 +121359,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 95 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 95 Pkmn Trainer Cynthia - Undella Town": {
         "level": 95,
         "ai": 39,
         "noCh": false,
@@ -118769,6 +121376,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sea Incense",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Hydro Pump",
@@ -118784,7 +121392,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca18": {
+      "Lvl 88 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -118801,6 +121409,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Surf",
@@ -118835,6 +121444,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Hex",
@@ -118867,6 +121477,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Charcoal",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Shadow Ball",
@@ -118882,7 +121493,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8": {
+      "Lvl 63 Pkmn Trainer Bianca8 - Route 8": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -118899,6 +121510,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Flamethrower",
@@ -118914,7 +121526,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Nursery Aide Briana": {
+      "Lvl 88 Nursery Aide Briana - White Forest": {
         "level": 88,
         "ai": 129,
         "noCh": false,
@@ -118931,6 +121543,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hex",
@@ -118963,6 +121576,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Shadow Ball",
@@ -118995,6 +121609,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Hex",
@@ -119010,7 +121625,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca17": {
+      "Lvl 88 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -119027,6 +121642,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Flamethrower",
@@ -119061,6 +121677,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Hyper Voice",
@@ -119076,7 +121693,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Ranger Lewis - Route 8": {
+      "Lvl 57 Pkmn Ranger Lewis - Route 8": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -119093,6 +121710,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hyper Voice",
@@ -119125,6 +121743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Swagger",
@@ -119157,6 +121776,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Hyper Voice",
@@ -119191,6 +121811,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Wish",
@@ -119223,6 +121844,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Wish",
@@ -119255,6 +121877,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Wish",
@@ -119287,6 +121910,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Wish",
@@ -119319,6 +121943,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Belly Drum",
@@ -119351,6 +121976,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Wish",
@@ -119385,6 +122011,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hydro Pump",
@@ -119417,6 +122044,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hydro Pump",
@@ -119449,6 +122077,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hydro Pump",
@@ -119483,6 +122112,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Tri Attack",
@@ -119515,6 +122145,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Nasty Plot",
@@ -119547,6 +122178,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Nasty Plot",
@@ -119562,7 +122194,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 95 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 95 Pkmn Trainer Cynthia - Undella Town": {
         "level": 95,
         "ai": 39,
         "noCh": false,
@@ -119579,6 +122211,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Scope Lens",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Thunder Wave",
@@ -119613,6 +122246,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Earthquake",
@@ -119628,7 +122262,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Leader Iris": {
+      "Lvl 63 Leader Iris - Opelucid City": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -119645,6 +122279,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Wacan Berry",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Dragon Dance",
@@ -119660,7 +122295,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Team Plasma Ghetsis": {
+      "Lvl 75 Team Plasma Ghetsis - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -119677,6 +122312,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Aqua Tail",
@@ -119709,6 +122345,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Outrage",
@@ -119741,6 +122378,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Outrage",
@@ -119773,6 +122411,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Outrage",
@@ -119805,6 +122444,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Crunch",
@@ -119837,6 +122477,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Outrage",
@@ -119869,6 +122510,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Outrage",
@@ -119901,6 +122543,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Outrage",
@@ -119916,7 +122559,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren16": {
+      "Lvl 53 Pkmn Trainer Cheren16 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -119933,6 +122576,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Aqua Tail",
@@ -119948,7 +122592,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren19": {
+      "Lvl 66 Pkmn Trainer Cheren19 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -119965,6 +122609,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Aqua Tail",
@@ -119980,7 +122625,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren22 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -119997,6 +122642,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Aqua Tail",
@@ -120031,6 +122677,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Frost Breath",
@@ -120063,6 +122710,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Never-Melt Ice",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Blizzard",
@@ -120095,6 +122743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Red Card",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Frost Breath",
@@ -120127,6 +122776,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -120142,7 +122792,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Nursery Aide Briana": {
+      "Lvl 88 Nursery Aide Briana - White Forest": {
         "level": 88,
         "ai": 129,
         "noCh": false,
@@ -120159,6 +122809,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Sheer Cold",
@@ -120193,6 +122844,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Naughty",
         "moves": [
           "Hyper Beam",
@@ -120225,6 +122877,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Tri Attack",
@@ -120240,7 +122893,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Chloris - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Chloris - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -120257,6 +122910,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "",
         "nature": "Docile",
         "moves": [
           "Magic Coat",
@@ -120272,7 +122926,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N3": {
+      "Lvl 73 Team Plasma N3 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -120289,6 +122943,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Normal Gem",
+        "gender": "",
         "nature": "Serious",
         "moves": [
           "Tri Attack",
@@ -120304,7 +122959,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N4": {
+      "Lvl 73 Team Plasma N4 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -120321,6 +122976,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Normal Gem",
+        "gender": "",
         "nature": "Brave",
         "moves": [
           "Tri Attack",
@@ -120355,6 +123011,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Acrobatics",
@@ -120387,6 +123044,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Close Combat",
@@ -120421,6 +123079,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Psycho Cut",
@@ -120453,6 +123112,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Future Sight",
@@ -120487,6 +123147,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Extreme Speed",
@@ -120519,6 +123180,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Flare Blitz",
@@ -120551,6 +123213,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Flare Blitz",
@@ -120583,6 +123246,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Flare Blitz",
@@ -120598,7 +123262,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -120615,6 +123279,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Flare Blitz",
@@ -120647,6 +123312,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Flare Blitz",
@@ -120681,6 +123347,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Dragon Rush",
@@ -120715,6 +123382,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Hammer Arm",
@@ -120747,6 +123415,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Stone Edge",
@@ -120779,6 +123448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Double-Edge",
@@ -120811,6 +123481,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Double-Edge",
@@ -120845,6 +123516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Wood Hammer",
@@ -120877,6 +123549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Leaf Storm",
@@ -120909,6 +123582,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Egg Bomb",
@@ -120941,6 +123615,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Leaf Storm",
@@ -120973,6 +123648,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Leaf Storm",
@@ -121005,6 +123681,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Leaf Storm",
@@ -121039,6 +123716,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Hex",
@@ -121071,6 +123749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Hex",
@@ -121103,6 +123782,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Nightmare",
@@ -121135,6 +123815,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Aura Sphere",
@@ -121167,6 +123848,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Aura Sphere",
@@ -121199,6 +123881,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Aura Sphere",
@@ -121231,6 +123914,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Aura Sphere",
@@ -121263,6 +123947,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Aura Sphere",
@@ -121295,6 +123980,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Focus Blast",
@@ -121329,6 +124015,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Haze",
@@ -121361,6 +124048,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Haze",
@@ -121393,6 +124081,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Roost",
@@ -121427,6 +124116,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Power Whip",
@@ -121459,6 +124149,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Leaf Storm",
@@ -121491,6 +124182,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Wring Out",
@@ -121523,6 +124215,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Leaf Storm",
@@ -121555,6 +124248,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Leaf Storm",
@@ -121589,6 +124283,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Magma Storm",
@@ -121621,6 +124316,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Aura Sphere",
@@ -121653,6 +124349,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Hyper Beam",
@@ -121685,6 +124382,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Hyper Beam",
@@ -121717,6 +124415,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Hyper Beam",
@@ -121732,7 +124431,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N4": {
+      "Lvl 73 Team Plasma N4 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -121749,6 +124448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Fire Gem",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Thunderbolt",
@@ -121783,6 +124483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Bullet Punch",
@@ -121815,6 +124516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Bug Bite",
@@ -121847,6 +124549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Bug Bite",
@@ -121879,6 +124582,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Bullet Punch",
@@ -121911,6 +124615,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Bug Bite",
@@ -121943,6 +124648,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Iron Head",
@@ -121977,6 +124683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Scary Face",
@@ -122011,6 +124718,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Detect",
@@ -122043,6 +124751,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Extreme Speed",
@@ -122077,6 +124786,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Recover",
@@ -122109,6 +124819,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Toxic",
@@ -122141,6 +124852,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Earth Power",
@@ -122175,6 +124887,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Taunt",
@@ -122209,6 +124922,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Aqua Tail",
@@ -122241,6 +124955,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Dragon Dance",
@@ -122273,6 +124988,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Safeguard",
@@ -122305,6 +125021,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Safeguard",
@@ -122337,6 +125054,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Hyper Beam",
@@ -122369,6 +125087,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hyper Beam",
@@ -122401,6 +125120,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Hyper Beam",
@@ -122435,6 +125155,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Iron Tail",
@@ -122467,6 +125188,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Sand Tomb",
@@ -122499,6 +125221,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Smack Down",
@@ -122531,6 +125254,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Stealth Rock",
@@ -122563,6 +125287,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Stone Edge",
@@ -122597,6 +125322,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Detect",
@@ -122629,6 +125355,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Close Combat",
@@ -122661,6 +125388,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Detect",
@@ -122693,6 +125421,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Close Combat",
@@ -122725,6 +125454,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Close Combat",
@@ -122757,6 +125487,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Counter",
@@ -122789,6 +125520,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Counter",
@@ -122823,6 +125555,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Mega Kick",
@@ -122855,6 +125588,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Wide Guard",
@@ -122887,6 +125621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Bounce",
@@ -122902,7 +125637,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -122919,6 +125654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Bounce",
@@ -122951,6 +125687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Bounce",
@@ -122983,6 +125720,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Bounce",
@@ -123015,6 +125753,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Reversal",
@@ -123047,6 +125786,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Reversal",
@@ -123081,6 +125821,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Dynamic Punch",
@@ -123113,6 +125854,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Scary Face",
@@ -123145,6 +125887,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Dynamic Punch",
@@ -123177,6 +125920,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Close Combat",
@@ -123209,6 +125953,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Close Combat",
@@ -123241,6 +125986,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Close Combat",
@@ -123273,6 +126019,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Close Combat",
@@ -123305,6 +126052,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Close Combat",
@@ -123339,6 +126087,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Giga Impact",
@@ -123354,7 +126103,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -123371,6 +126120,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Self-Destruct",
@@ -123386,7 +126136,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -123403,6 +126153,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Self-Destruct",
@@ -123435,6 +126186,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Self-Destruct",
@@ -123450,7 +126202,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Baker Chris": {
+      "Lvl 80 Baker Chris - Village Bridge": {
         "level": 80,
         "ai": 1,
         "noCh": false,
@@ -123467,6 +126219,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Self-Destruct",
@@ -123499,6 +126252,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Self-Destruct",
@@ -123533,6 +126287,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Power Gem",
@@ -123565,6 +126320,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Psyshock",
@@ -123597,6 +126353,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bounce",
@@ -123631,6 +126388,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Counter",
@@ -123663,6 +126421,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Vital Throw",
@@ -123695,6 +126454,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Counter",
@@ -123727,6 +126487,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Flame Orb",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Superpower",
@@ -123759,6 +126520,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Superpower",
@@ -123791,6 +126553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Counter",
@@ -123823,6 +126586,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Counter",
@@ -123857,6 +126621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Low Kick",
@@ -123889,6 +126654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Low Sweep",
@@ -123921,6 +126687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Low Kick",
@@ -123953,6 +126720,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Salac Berry",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Close Combat",
@@ -123985,6 +126753,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Close Combat",
@@ -124017,6 +126786,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Low Kick",
@@ -124049,6 +126819,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Low Kick",
@@ -124083,6 +126854,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Metronome",
@@ -124117,6 +126889,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Mind Reader",
@@ -124151,6 +126924,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Feint",
@@ -124185,6 +126959,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Charm",
@@ -124219,6 +126994,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Metronome",
@@ -124252,6 +127028,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Safeguard",
@@ -124286,6 +127063,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Hypnosis",
@@ -124320,6 +127098,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Bashful",
         "moves": [
           "Spark",
@@ -124354,6 +127133,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Hex",
@@ -124388,6 +127168,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Last Resort",
@@ -124403,7 +127184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -124420,6 +127201,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Hyper Voice",
@@ -124454,6 +127236,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Block",
@@ -124488,6 +127271,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Roost",
@@ -124520,6 +127304,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Drill Run",
@@ -124554,6 +127339,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Wing Attack",
@@ -124586,6 +127372,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Tailwind",
@@ -124618,6 +127405,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Brave Bird",
@@ -124650,6 +127438,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Brave Bird",
@@ -124682,6 +127471,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Brave Bird",
@@ -124716,6 +127506,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Feint Attack",
@@ -124750,6 +127541,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Reflect",
@@ -124784,6 +127576,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Magic Coat",
@@ -124818,6 +127611,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Iron Head",
@@ -124852,6 +127646,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Power Whip",
@@ -124884,6 +127679,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Explosion",
@@ -124918,6 +127714,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Curse",
@@ -124952,6 +127749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Grudge",
@@ -124984,6 +127782,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Metal Burst",
@@ -125016,6 +127815,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eject Button",
+        "gender": "Female",
         "nature": "Timid",
         "moves": [
           "Will-O-Wisp",
@@ -125050,6 +127850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Nasty Plot",
@@ -125082,6 +127883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Destiny Bond",
@@ -125114,6 +127916,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Spell Tag",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Shadow Ball",
@@ -125146,6 +127949,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Destiny Bond",
@@ -125178,6 +127982,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Destiny Bond",
@@ -125210,6 +128015,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Destiny Bond",
@@ -125242,6 +128048,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Destiny Bond",
@@ -125276,6 +128083,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Psychic",
@@ -125308,6 +128116,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Light Clay",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Trick Room",
@@ -125340,6 +128149,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Psychic",
@@ -125372,6 +128182,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Psychic",
@@ -125387,7 +128198,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca4": {
+      "Lvl 41 Pkmn Trainer Bianca4 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -125404,6 +128215,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Psychic",
@@ -125419,7 +128231,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca5": {
+      "Lvl 41 Pkmn Trainer Bianca5 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -125436,6 +128248,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Psychic",
@@ -125451,7 +128264,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca6 - Driftveil City": {
+      "Lvl 41 Pkmn Trainer Bianca6 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -125468,6 +128281,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Psychic",
@@ -125483,7 +128297,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 59 Pkmn Trainer Bianca7 - Route 8": {
         "level": 59,
         "ai": 135,
         "noCh": false,
@@ -125500,6 +128314,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Kasib Berry",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Hypnosis",
@@ -125515,7 +128330,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Bianca8": {
+      "Lvl 59 Pkmn Trainer Bianca8 - Route 8": {
         "level": 59,
         "ai": 135,
         "noCh": false,
@@ -125532,6 +128347,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Kasib Berry",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hypnosis",
@@ -125547,7 +128363,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Bianca9": {
+      "Lvl 59 Pkmn Trainer Bianca9 - Route 8": {
         "level": 59,
         "ai": 135,
         "noCh": false,
@@ -125564,6 +128380,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Kasib Berry",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Hypnosis",
@@ -125596,6 +128413,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Chesto Berry",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Yawn",
@@ -125611,7 +128429,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 88 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -125628,6 +128446,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Psychic Gem",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hypnosis",
@@ -125643,7 +128462,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca17": {
+      "Lvl 88 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -125660,6 +128479,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Psychic Gem",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Hypnosis",
@@ -125675,7 +128495,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca18": {
+      "Lvl 88 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -125692,6 +128512,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Psychic Gem",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hypnosis",
@@ -125726,6 +128547,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Memento",
@@ -125758,6 +128580,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Pain Split",
@@ -125790,6 +128613,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Pain Split",
@@ -125805,7 +128629,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 95 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 95 Pkmn Trainer Cynthia - Undella Town": {
         "level": 95,
         "ai": 39,
         "noCh": false,
@@ -125822,6 +128646,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Lax Incense",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Nasty Plot",
@@ -125856,6 +128681,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Hex",
@@ -125888,6 +128714,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Toxic",
@@ -125920,6 +128747,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Trick",
@@ -125954,6 +128782,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Perish Song",
@@ -125988,6 +128817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Calm Mind",
@@ -126020,6 +128850,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Wise Glasses",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Trick Room",
@@ -126052,6 +128883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Nasty Plot",
@@ -126086,6 +128918,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Endeavor",
@@ -126118,6 +128951,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Endeavor",
@@ -126150,6 +128984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Stored Power",
@@ -126182,6 +129017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Air Slash",
@@ -126214,6 +129050,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Psychic",
@@ -126248,6 +129085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Imprison",
@@ -126280,6 +129118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Aura Sphere",
@@ -126312,6 +129151,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Aura Sphere",
@@ -126327,7 +129167,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -126344,6 +129184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Aura Sphere",
@@ -126376,6 +129217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Aura Sphere",
@@ -126408,6 +129250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Psychic Gem",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Psychic",
@@ -126442,6 +129285,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Telekinesis",
@@ -126474,6 +129318,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Trick Room",
@@ -126506,6 +129351,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naughty",
         "moves": [
           "Magic Room",
@@ -126538,6 +129384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Dark Gem",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Dark Pulse",
@@ -126553,7 +129400,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Roughneck Johnny": {
+      "Lvl 88 Roughneck Johnny - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -126570,6 +129417,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Magic Room",
@@ -126604,6 +129452,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Sludge Bomb",
@@ -126636,6 +129485,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Gunk Shot",
@@ -126670,6 +129520,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Power Trick",
@@ -126702,6 +129553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Power Trick",
@@ -126734,6 +129586,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Recover",
@@ -126768,6 +129621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Sucker Punch",
@@ -126800,6 +129654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Double-Edge",
@@ -126832,6 +129687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Outrage",
@@ -126866,6 +129722,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Superpower",
@@ -126898,6 +129755,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Taunt",
@@ -126930,6 +129788,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Superpower",
@@ -126962,6 +129821,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Superpower",
@@ -126994,6 +129854,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Focus Punch",
@@ -127026,6 +129887,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Focus Punch",
@@ -127058,6 +129920,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Focus Punch",
@@ -127090,6 +129953,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Focus Punch",
@@ -127122,6 +129986,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Focus Punch",
@@ -127156,6 +130021,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Hydro Pump",
@@ -127188,6 +130054,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Mirror Coat",
@@ -127220,6 +130087,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Mirror Coat",
@@ -127254,6 +130122,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Poison Fang",
@@ -127286,6 +130155,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Brave Bird",
@@ -127318,6 +130188,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Air Slash",
@@ -127350,6 +130221,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Brave Bird",
@@ -127382,6 +130254,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Brave Bird",
@@ -127416,6 +130289,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Flamethrower",
@@ -127448,6 +130322,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Salac Berry",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Belly Drum",
@@ -127480,6 +130355,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Sunny Day",
@@ -127512,6 +130388,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Belly Drum",
@@ -127544,6 +130421,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Inferno",
@@ -127576,6 +130454,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Belly Drum",
@@ -127608,6 +130487,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Belly Drum",
@@ -127640,6 +130520,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Belly Drum",
@@ -127672,6 +130553,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Charti Berry",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Fire Blast",
@@ -127704,6 +130586,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Dragon Pulse",
@@ -127736,6 +130619,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Dragon Pulse",
@@ -127770,6 +130654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Foul Play",
@@ -127802,6 +130687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Brave Bird",
@@ -127834,6 +130720,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Scope Lens",
+        "gender": "Female",
         "nature": "Naughty",
         "moves": [
           "Thunder Wave",
@@ -127866,6 +130753,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Drill Peck",
@@ -127898,6 +130786,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Brave Bird",
@@ -127930,6 +130819,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Dark Pulse",
@@ -127962,6 +130852,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Brave Bird",
@@ -127994,6 +130885,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Brave Bird",
@@ -128028,6 +130920,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Outrage",
@@ -128043,7 +130936,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Leader Iris": {
+      "Lvl 63 Leader Iris - Opelucid City": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -128060,6 +130953,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Yache Berry",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Cotton Guard",
@@ -128075,7 +130969,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Ranger Mary - Route 7": {
+      "Lvl 44 Pkmn Ranger Mary - Route 7": {
         "level": 44,
         "ai": 7,
         "noCh": false,
@@ -128092,6 +130986,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Aspear Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hyper Voice",
@@ -128124,6 +131019,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Dragon Pulse",
@@ -128156,6 +131052,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Dragon Pulse",
@@ -128188,6 +131085,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Outrage",
@@ -128203,7 +131101,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Shelly - Route 15": {
+      "Lvl 88 Pkmn Ranger Shelly - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -128220,6 +131118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Sky Attack",
@@ -128252,6 +131151,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Sky Attack",
@@ -128286,6 +131186,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shadow Ball",
@@ -128318,6 +131219,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shadow Ball",
@@ -128333,7 +131235,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 89 PkMn Ranger Heidi": {
+      "Lvl 89 Pkmn Ranger Heidi": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -128350,6 +131252,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Hurricane",
@@ -128382,6 +131285,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Flame Orb",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Tailwind",
@@ -128414,6 +131318,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Hypnosis",
@@ -128446,6 +131351,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hurricane",
@@ -128461,7 +131367,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -128478,6 +131384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Hurricane",
@@ -128510,6 +131417,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Hurricane",
@@ -128542,6 +131450,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Hurricane",
@@ -128557,7 +131466,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Claude - Route 1": {
+      "Lvl 52 Pkmn Ranger Claude - Route 1": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -128574,6 +131483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Persim Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Shadow Ball",
@@ -128608,6 +131518,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Air Slash",
@@ -128640,6 +131551,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Magical Leaf",
@@ -128655,7 +131567,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Annie - Route 8": {
+      "Lvl 58 Pkmn Ranger Annie - Route 8": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -128672,6 +131584,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Bestow",
@@ -128704,6 +131617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hurricane",
@@ -128736,6 +131650,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Power Herb",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Leaf Blade",
@@ -128768,6 +131683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Hurricane",
@@ -128802,6 +131718,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Agility",
@@ -128834,6 +131751,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Brave Bird",
@@ -128866,6 +131784,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Brave Bird",
@@ -128898,6 +131817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Brave Bird",
@@ -128913,7 +131833,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 PkMn Ranger Jaden - Desert Resort": {
+      "Lvl 32 Pkmn Ranger Jaden - Desert Resort": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -128930,6 +131850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Rawst Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Endeavor",
@@ -128964,6 +131885,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Sky Drop",
@@ -128996,6 +131918,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Iron Head",
@@ -129011,7 +131934,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -129028,6 +131951,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Head Smash",
@@ -129060,6 +131984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Dragon Dance",
@@ -129092,6 +132017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Dragon Dance",
@@ -129107,7 +132033,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N3": {
+      "Lvl 73 Team Plasma N3 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -129124,6 +132050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Rock Gem",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Earthquake",
@@ -129139,7 +132066,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N4": {
+      "Lvl 73 Team Plasma N4 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -129156,6 +132083,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Rock Gem",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Earthquake",
@@ -129190,6 +132118,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Blizzard",
@@ -129222,6 +132151,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -129254,6 +132184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Wood Hammer",
@@ -129286,6 +132217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Seed Bomb",
@@ -129318,6 +132250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Seed Bomb",
@@ -129350,6 +132283,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Blizzard",
@@ -129365,7 +132299,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Shelly - Route 15": {
+      "Lvl 88 Pkmn Ranger Shelly - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -129382,6 +132316,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Seed Bomb",
@@ -129414,6 +132349,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Seed Bomb",
@@ -129446,6 +132382,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Seed Bomb",
@@ -129480,6 +132417,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Choice Scarf",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Blizzard",
@@ -129512,6 +132450,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Hail",
@@ -129544,6 +132483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -129576,6 +132516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Sheer Cold",
@@ -129591,7 +132532,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 The Riches Zillion": {
+      "Lvl 86 The Riches Zillion - Undella Town": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -129608,6 +132549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Sheer Cold",
@@ -129642,6 +132584,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Blizzard",
@@ -129674,6 +132617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Blizzard",
@@ -129706,6 +132650,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Never-Melt Ice",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Shadow Ball",
@@ -129738,6 +132683,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Hail",
@@ -129770,6 +132716,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Destiny Bond",
@@ -129802,6 +132749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Destiny Bond",
@@ -129834,6 +132782,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Destiny Bond",
@@ -129866,6 +132815,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Destiny Bond",
@@ -129900,6 +132850,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -129932,6 +132883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Night Slash",
@@ -129964,6 +132916,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "",
         "nature": "Brave",
         "moves": [
           "Blizzard",
@@ -129998,6 +132951,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Icicle Crash",
@@ -130030,6 +132984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Close Combat",
@@ -130062,6 +133017,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Icicle Crash",
@@ -130077,7 +133033,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Backpacker Kiyo": {
+      "Lvl 88 Backpacker Kiyo - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -130094,6 +133050,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Sheer Cold",
@@ -130111,7 +133068,7 @@ backup_data = {
       }
     },
     "Druddigon": {
-      "Lvl 63 Leader Iris": {
+      "Lvl 63 Leader Iris - Opelucid City": {
         "level": 63,
         "ai": 135,
         "noCh": false,
@@ -130128,6 +133085,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Rocky Helmet",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Outrage",
@@ -130160,6 +133118,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Rocky Helmet",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Outrage",
@@ -130192,6 +133151,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Glare",
@@ -130224,6 +133184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Outrage",
@@ -130256,6 +133217,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Outrage",
@@ -130288,6 +133250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Outrage",
@@ -130320,6 +133283,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Outrage",
@@ -130352,6 +133316,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Rocky Helmet",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Outrage",
@@ -130369,7 +133334,7 @@ backup_data = {
       }
     },
     "Dragonite": {
-      "Lvl 65 Leader Iris": {
+      "Lvl 65 Leader Iris - Opelucid City": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -130386,6 +133351,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Stone Edge",
@@ -130418,6 +133384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Dragon Dance",
@@ -130450,6 +133417,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Outrage",
@@ -130482,6 +133450,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Outrage",
@@ -130514,6 +133483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hurricane",
@@ -130546,6 +133516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Hyper Beam",
@@ -130561,7 +133532,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -130578,6 +133549,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hurricane",
@@ -130595,7 +133567,7 @@ backup_data = {
       }
     },
     "Kingdra": {
-      "Lvl 65 Leader Iris": {
+      "Lvl 65 Leader Iris - Opelucid City": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -130612,6 +133584,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Rain Dance",
@@ -130644,6 +133617,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Draco Meteor",
@@ -130676,6 +133650,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hydro Pump",
@@ -130708,6 +133683,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Frost Breath",
@@ -130740,6 +133716,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Outrage",
@@ -130772,6 +133749,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Damp Rock",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Rain Dance",
@@ -130804,6 +133782,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Outrage",
@@ -130821,7 +133800,7 @@ backup_data = {
       }
     },
     "Haxorus": {
-      "Lvl 65 Leader Iris": {
+      "Lvl 65 Leader Iris - Opelucid City": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -130838,6 +133817,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Dragon Gem",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Dragon Dance",
@@ -130870,6 +133850,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Dragon Dance",
@@ -130902,6 +133883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Dragon Gem",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Outrage",
@@ -130934,6 +133916,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Dragon Claw",
@@ -130966,6 +133949,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Choice Band",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Outrage",
@@ -131000,6 +133984,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Yache Berry",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Quiver Dance",
@@ -131032,6 +134017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Dragon Pulse",
@@ -131064,6 +134050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Earthquake",
@@ -131096,6 +134083,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Dragon Tail",
@@ -131128,6 +134116,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Dragon Tail",
@@ -131160,6 +134149,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Yache Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Draco Meteor",
@@ -131194,6 +134184,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Outrage",
@@ -131226,6 +134217,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Draco Meteor",
@@ -131258,6 +134250,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Dragon Claw",
@@ -131290,6 +134283,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Outrage",
@@ -131305,7 +134299,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -131322,6 +134316,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Outrage",
@@ -131356,6 +134351,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Gravity",
@@ -131388,6 +134384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Gravity",
@@ -131420,6 +134417,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Aromatherapy",
@@ -131454,6 +134452,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Focus Punch",
@@ -131486,6 +134485,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Focus Punch",
@@ -131518,6 +134518,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Focus Punch",
@@ -131550,6 +134551,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Facade",
@@ -131582,6 +134584,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Crunch",
@@ -131597,7 +134600,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Grunt26": {
+      "Lvl 57 Team Plasma Grunt26 - Dragonspiral Tower": {
         "level": 57,
         "ai": 1,
         "noCh": false,
@@ -131614,6 +134617,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Sucker Punch",
@@ -131646,6 +134650,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Dragon Dance",
@@ -131678,6 +134683,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Dragon Dance",
@@ -131710,6 +134716,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Sucker Punch",
@@ -131725,7 +134732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 Team Plasma Grunt43": {
+      "Lvl 84 Team Plasma Grunt43 - Chargestone Cave": {
         "level": 84,
         "ai": 1,
         "noCh": false,
@@ -131742,6 +134749,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Dragon Dance",
@@ -131776,6 +134784,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Explosion",
@@ -131808,6 +134817,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Gunk Shot",
@@ -131840,6 +134850,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Toxic",
@@ -131872,6 +134883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Gunk Shot",
@@ -131887,7 +134899,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 Team Plasma Grunt41": {
+      "Lvl 84 Team Plasma Grunt41 - Chargestone Cave": {
         "level": 84,
         "ai": 1,
         "noCh": false,
@@ -131904,6 +134916,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Self-Destruct",
@@ -131936,6 +134949,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Toxic",
@@ -131970,6 +134984,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Teeter Dance",
@@ -132002,6 +135017,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Cotton Spore",
@@ -132034,6 +135050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Spikes",
@@ -132049,7 +135066,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 Team Plasma Grunt41": {
+      "Lvl 84 Team Plasma Grunt41 - Chargestone Cave": {
         "level": 84,
         "ai": 1,
         "noCh": false,
@@ -132066,6 +135083,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Teeter Dance",
@@ -132100,6 +135118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Foul Play",
@@ -132132,6 +135151,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Memento",
@@ -132164,6 +135184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Foul Play",
@@ -132198,6 +135219,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Guillotine",
@@ -132230,6 +135252,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Night Slash",
@@ -132262,6 +135285,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Guillotine",
@@ -132279,7 +135303,7 @@ backup_data = {
       }
     },
     "Gastly": {
-      "Lvl 26 Janitor Geoff": {
+      "Lvl 26 Janitor Geoff - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -132296,6 +135320,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Payback",
@@ -132313,7 +135338,7 @@ backup_data = {
       }
     },
     "Skiploom": {
-      "Lvl 26 Janitor Geoff": {
+      "Lvl 26 Janitor Geoff - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -132330,6 +135355,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Leech Seed",
@@ -132347,7 +135373,7 @@ backup_data = {
       }
     },
     "Lopunny": {
-      "Lvl 26 Janitor Geoff": {
+      "Lvl 26 Janitor Geoff - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -132364,6 +135390,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Baton Pass",
@@ -132396,6 +135423,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Healing Wish",
@@ -132430,6 +135458,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Dragon Rush",
@@ -132464,6 +135493,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Slash",
@@ -132496,6 +135526,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Flare Blitz",
@@ -132528,6 +135559,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Liechi Berry",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Protect",
@@ -132560,6 +135592,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Payapa Berry",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Flare Blitz",
@@ -132592,6 +135625,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Flare Blitz",
@@ -132626,6 +135660,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Gyro Ball",
@@ -132658,6 +135693,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Double-Edge",
@@ -132690,6 +135726,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Double-Edge",
@@ -132724,6 +135761,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Psychic",
@@ -132756,6 +135794,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Surf",
@@ -132788,6 +135827,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Aura Sphere",
@@ -132820,6 +135860,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Aura Sphere",
@@ -132852,6 +135893,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Aura Sphere",
@@ -132867,7 +135909,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N3": {
+      "Lvl 73 Team Plasma N3 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -132884,6 +135926,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Water Gem",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "Surf",
@@ -132918,6 +135961,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Crunch",
@@ -132950,6 +135994,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Nasty Plot",
@@ -132982,6 +136027,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Nasty Plot",
@@ -133014,6 +136060,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Nasty Plot",
@@ -133048,6 +136095,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Ice Beam",
@@ -133080,6 +136128,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Soak",
@@ -133114,6 +136163,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Sweet Scent",
@@ -133146,6 +136196,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Petal Dance",
@@ -133178,6 +136229,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Petal Dance",
@@ -133210,6 +136262,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Petal Dance",
@@ -133225,7 +136278,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 95 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 95 Pkmn Trainer Cynthia - Undella Town": {
         "level": 95,
         "ai": 39,
         "noCh": false,
@@ -133242,6 +136295,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Rose Incense",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Sleep Powder",
@@ -133276,6 +136330,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Swagger",
@@ -133308,6 +136363,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Final Gambit",
@@ -133340,6 +136396,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Final Gambit",
@@ -133372,6 +136429,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Final Gambit",
@@ -133406,6 +136464,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Aqua Jet",
@@ -133421,7 +136480,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 33 Pkmn Trainer Cheren14 - Route 4": {
         "level": 33,
         "ai": 39,
         "noCh": false,
@@ -133438,6 +136497,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Aqua Jet",
@@ -133453,7 +136513,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca13 - Castelia Gate": {
+      "Lvl 31 Pkmn Trainer Bianca13 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -133470,6 +136530,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Revenge",
@@ -133504,6 +136565,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Power Gem",
@@ -133536,6 +136598,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Feint",
@@ -133551,7 +136614,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca4": {
+      "Lvl 41 Pkmn Trainer Bianca4 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -133568,6 +136631,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Slash",
@@ -133583,7 +136647,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca5": {
+      "Lvl 41 Pkmn Trainer Bianca5 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -133600,6 +136664,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Slash",
@@ -133615,7 +136680,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Bianca6 - Driftveil City": {
+      "Lvl 41 Pkmn Trainer Bianca6 - Driftveil City": {
         "level": 41,
         "ai": 39,
         "noCh": false,
@@ -133632,6 +136697,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Slash",
@@ -133647,7 +136713,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 61 Pkmn Trainer Bianca7 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -133664,6 +136730,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Nasty Plot",
@@ -133679,7 +136746,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca8": {
+      "Lvl 61 Pkmn Trainer Bianca8 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -133696,6 +136763,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Nasty Plot",
@@ -133711,7 +136779,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca9": {
+      "Lvl 61 Pkmn Trainer Bianca9 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -133728,6 +136796,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Nasty Plot",
@@ -133743,7 +136812,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca13 - Castelia Gate": {
+      "Lvl 31 Pkmn Trainer Bianca13 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -133760,6 +136829,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Foul Play",
@@ -133775,7 +136845,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca14": {
+      "Lvl 31 Pkmn Trainer Bianca14 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -133792,6 +136862,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Foul Play",
@@ -133807,7 +136878,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca15 - Castelia Gate": {
+      "Lvl 31 Pkmn Trainer Bianca15 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -133824,6 +136895,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Foul Play",
@@ -133856,6 +136928,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Feint",
@@ -133871,7 +136944,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 88 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -133888,6 +136961,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Normal Gem",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Nasty Plot",
@@ -133903,7 +136977,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca17": {
+      "Lvl 88 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -133920,6 +136994,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Normal Gem",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Nasty Plot",
@@ -133935,7 +137010,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca18": {
+      "Lvl 88 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -133952,6 +137027,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Normal Gem",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Nasty Plot",
@@ -133986,6 +137062,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Leaf Blade",
@@ -134001,7 +137078,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 PkMn Trainer Cheren15": {
+      "Lvl 33 Pkmn Trainer Cheren15 - Route 4": {
         "level": 33,
         "ai": 39,
         "noCh": false,
@@ -134018,6 +137095,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Leaf Blade",
@@ -134033,7 +137111,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca14": {
+      "Lvl 31 Pkmn Trainer Bianca14 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -134050,6 +137128,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Slam",
@@ -134084,6 +137163,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Take Down",
@@ -134116,6 +137196,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Giga Impact",
@@ -134148,6 +137229,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Giga Impact",
@@ -134180,6 +137262,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Giga Impact",
@@ -134212,6 +137295,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Thrash",
@@ -134246,6 +137330,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Bug Buzz",
@@ -134280,6 +137365,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Seed Bomb",
@@ -134312,6 +137398,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Spore",
@@ -134344,6 +137431,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Spore",
@@ -134376,6 +137464,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Drain Punch",
@@ -134408,6 +137497,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Focus Punch",
@@ -134440,6 +137530,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Focus Punch",
@@ -134472,6 +137563,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Focus Punch",
@@ -134504,6 +137596,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Focus Punch",
@@ -134536,6 +137629,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Focus Punch",
@@ -134568,6 +137662,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Toxic Orb",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Protect",
@@ -134602,6 +137697,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Bug Bite",
@@ -134636,6 +137732,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Mach Punch",
@@ -134670,6 +137767,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Electroweb",
@@ -134704,6 +137802,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Fury Attack",
@@ -134738,6 +137837,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Quiver Dance",
@@ -134770,6 +137870,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Zen Headbutt",
@@ -134802,6 +137903,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Starf Berry",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Quiver Dance",
@@ -134834,6 +137936,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Quiver Dance",
@@ -134868,6 +137971,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Final Gambit",
@@ -134900,6 +138004,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Me First",
@@ -134932,6 +138037,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Final Gambit",
@@ -134964,6 +138070,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Final Gambit",
@@ -134996,6 +138103,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Crunch",
@@ -135011,7 +138119,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Team Plasma Grunt44": {
+      "Lvl 36 Team Plasma Grunt44 - Cold Storage": {
         "level": 36,
         "ai": 1,
         "noCh": false,
@@ -135028,6 +138136,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Super Fang",
@@ -135062,6 +138171,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Thrash",
@@ -135077,7 +138187,42 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Bruce - Route 8 2": {
+      "Lvl 90 Swimmer  F Larissa - Undella Bay": {
+        "level": 90,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 573,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "Male",
+        "nature": "Hardy",
+        "moves": [
+          "Super Fang",
+          "Thrash",
+          "Final Gambit",
+          "Flail"
+        ],
+        "sub_index": 0,
+        "ability": "Reckless",
+        "sprite": "/images/trainer_sprites/swimmer_f.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Basculin-Blue-Striped": {
+      "Lvl 58 Fisherman Bruce - Route 8": {
         "level": 58,
         "ai": 1,
         "noCh": false,
@@ -135094,6 +138239,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Thrash",
@@ -135102,7 +138248,7 @@ backup_data = {
           "Scary Face"
         ],
         "sub_index": 1,
-        "ability": "Reckless",
+        "ability": "Rock Head",
         "sprite": "/images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -135126,6 +138272,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Final Gambit",
@@ -135134,7 +138281,7 @@ backup_data = {
           "Double-Edge"
         ],
         "sub_index": 0,
-        "ability": "Reckless",
+        "ability": "Rock Head",
         "sprite": "/images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -135158,38 +138305,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Super Fang",
-          "Thrash",
-          "Final Gambit",
-          "Flail"
-        ],
-        "sub_index": 0,
-        "ability": "Reckless",
-        "sprite": "/images/trainer_sprites/swimmer_f.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 90 Swimmer  F Larissa - Undella Bay 2": {
-        "level": 90,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 573,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Super Fang",
@@ -135198,7 +138314,7 @@ backup_data = {
           "Flail"
         ],
         "sub_index": 1,
-        "ability": "Reckless",
+        "ability": "Rock Head",
         "sprite": "/images/trainer_sprites/swimmer_f.png",
         "form": 1,
         "evs": {
@@ -135224,6 +138340,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Crabhammer",
@@ -135256,6 +138373,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Crabhammer",
@@ -135288,6 +138406,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Slam",
@@ -135320,6 +138439,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Superpower",
@@ -135352,6 +138472,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Slam",
@@ -135384,6 +138505,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Crabhammer",
@@ -135418,6 +138540,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Fissure",
@@ -135450,6 +138573,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Aqua Tail",
@@ -135482,6 +138606,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Hydro Pump",
@@ -135516,6 +138641,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hydro Pump",
@@ -135548,6 +138674,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Crunch",
@@ -135580,6 +138707,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Hydro Pump",
@@ -135614,6 +138742,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Soak",
@@ -135646,6 +138775,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "U-turn",
@@ -135678,6 +138808,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Soak",
@@ -135712,6 +138843,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Dizzy Punch",
@@ -135744,6 +138876,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Psychic",
@@ -135776,6 +138909,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Trick Room",
@@ -135808,6 +138942,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Wonder Room",
@@ -135840,6 +138975,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Wonder Room",
@@ -135872,6 +139008,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Wonder Room",
@@ -135904,6 +139041,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Psychic",
@@ -135938,6 +139076,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Wring Out",
@@ -135970,6 +139109,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bold",
         "moves": [
           "Perish Song",
@@ -136002,6 +139142,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Perish Song",
@@ -136034,6 +139175,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -136066,6 +139208,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Fake Tears",
@@ -136098,6 +139241,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naughty",
         "moves": [
           "Psycho Boost",
@@ -136130,6 +139274,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Serious",
         "moves": [
           "Psycho Boost",
@@ -136162,6 +139307,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Psycho Boost",
@@ -136194,6 +139340,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Psycho Boost",
@@ -136209,7 +139356,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 The Riches Susan": {
+      "Lvl 84 The Riches Susan - Undella Town": {
         "level": 84,
         "ai": 7,
         "noCh": false,
@@ -136226,6 +139373,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Psycho Boost",
@@ -136260,6 +139408,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Safeguard",
@@ -136292,6 +139441,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Safeguard",
@@ -136324,6 +139474,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Safeguard",
@@ -136356,6 +139507,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Safeguard",
@@ -136388,6 +139540,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Safeguard",
@@ -136422,6 +139575,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Mimic",
@@ -136454,6 +139608,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Mimic",
@@ -136488,6 +139643,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Last Resort",
@@ -136503,7 +139659,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 89 PkMn Ranger Heidi": {
+      "Lvl 89 Pkmn Ranger Heidi": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -136520,6 +139676,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Aura Sphere",
@@ -136552,6 +139709,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Morning Sun",
@@ -136567,7 +139725,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -136584,6 +139742,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Aura Sphere",
@@ -136616,6 +139775,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Aura Sphere",
@@ -136650,6 +139810,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Adamant",
         "moves": [
           "Light Screen",
@@ -136682,6 +139843,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Jolly",
         "moves": [
           "Gravity",
@@ -136714,6 +139876,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Gravity",
@@ -136746,6 +139909,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Impish",
         "moves": [
           "Gravity",
@@ -136780,6 +139944,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Confuse Ray",
@@ -136814,6 +139979,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Ice Fang",
@@ -136848,6 +140014,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Aurora Beam",
@@ -136882,6 +140049,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Bounce",
@@ -136914,6 +140082,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bounce",
@@ -136946,6 +140115,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Horn Drill",
@@ -136978,6 +140148,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Horn Drill",
@@ -137010,6 +140181,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Horn Drill",
@@ -137042,6 +140214,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Horn Drill",
@@ -137074,6 +140247,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Horn Drill",
@@ -137106,6 +140280,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Horn Drill",
@@ -137140,6 +140315,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Quick Attack",
@@ -137172,6 +140348,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Hurricane",
@@ -137206,6 +140383,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Bite",
@@ -137240,6 +140418,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Agility",
@@ -137274,6 +140453,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Odor Sleuth",
@@ -137308,6 +140488,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Aqua Jet",
@@ -137342,6 +140523,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Dragon Pulse",
@@ -137374,6 +140556,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Extreme Speed",
@@ -137406,6 +140589,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "High Jump Kick",
@@ -137421,7 +140605,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 95 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 95 Pkmn Trainer Cynthia - Undella Town": {
         "level": 95,
         "ai": 39,
         "noCh": false,
@@ -137438,6 +140622,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Nasty Plot",
@@ -137472,6 +140657,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Drain Punch",
@@ -137504,6 +140690,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Superpower",
@@ -137536,6 +140723,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Chesto Berry",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Mach Punch",
@@ -137568,6 +140756,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Drain Punch",
@@ -137600,6 +140789,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Drain Punch",
@@ -137632,6 +140822,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Drain Punch",
@@ -137664,6 +140855,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Mach Punch",
@@ -137698,6 +140890,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Fire Punch",
@@ -137730,6 +140923,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Flare Blitz",
@@ -137762,6 +140956,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Acrobatics",
@@ -137794,6 +140989,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Coba Berry",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Overheat",
@@ -137828,6 +141024,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Bounce",
@@ -137860,6 +141057,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Acrobatics",
@@ -137892,6 +141090,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Reversal",
@@ -137924,6 +141123,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Aura Sphere",
@@ -137939,7 +141139,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca7 - Route 8": {
+      "Lvl 61 Pkmn Trainer Bianca7 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -137956,6 +141156,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Coba Berry",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "High Jump Kick",
@@ -137971,7 +141172,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca8": {
+      "Lvl 61 Pkmn Trainer Bianca8 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -137988,6 +141189,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Coba Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "High Jump Kick",
@@ -138003,7 +141205,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 PkMn Trainer Bianca9": {
+      "Lvl 61 Pkmn Trainer Bianca9 - Route 8": {
         "level": 61,
         "ai": 135,
         "noCh": false,
@@ -138020,6 +141222,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Coba Berry",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "High Jump Kick",
@@ -138052,6 +141255,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "High Jump Kick",
@@ -138067,7 +141271,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca16 - Nuvema Town": {
+      "Lvl 88 Pkmn Trainer Bianca16 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -138084,6 +141288,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "High Jump Kick",
@@ -138099,7 +141304,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca17": {
+      "Lvl 88 Pkmn Trainer Bianca17 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -138116,6 +141321,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "High Jump Kick",
@@ -138131,7 +141337,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Bianca18": {
+      "Lvl 88 Pkmn Trainer Bianca18 - Nuvema Town": {
         "level": 88,
         "ai": 39,
         "noCh": false,
@@ -138148,6 +141354,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "High Jump Kick",
@@ -138182,6 +141389,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Rock Throw",
@@ -138216,6 +141424,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Feint Attack",
@@ -138250,6 +141459,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Foresight",
@@ -138265,7 +141475,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -138282,6 +141492,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Foresight",
@@ -138316,6 +141527,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Soak",
@@ -138348,6 +141560,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Hydro Pump",
@@ -138380,6 +141593,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Hydro Pump",
@@ -138412,6 +141626,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Hydro Pump",
@@ -138446,6 +141661,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Ancient Power",
@@ -138478,6 +141694,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Earth Power",
@@ -138512,6 +141729,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Hydro Pump",
@@ -138544,6 +141762,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Mystic Water",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Shadow Ball",
@@ -138576,6 +141795,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Calm",
         "moves": [
           "Water Spout",
@@ -138608,6 +141828,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Hex",
@@ -138640,6 +141861,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Hydro Pump",
@@ -138672,6 +141894,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Water Spout",
@@ -138706,6 +141929,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Scary Face",
@@ -138738,6 +141962,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Flare Blitz",
@@ -138770,6 +141995,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Fire Blast",
@@ -138802,6 +142028,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Fire Blast",
@@ -138836,6 +142063,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Supersonic",
@@ -138870,6 +142098,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Bite",
@@ -138904,6 +142133,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Horn Attack",
@@ -138938,6 +142168,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Feint Attack",
@@ -138972,6 +142203,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Amnesia",
@@ -139004,6 +142236,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Recover",
@@ -139036,6 +142269,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Recover",
@@ -139070,6 +142304,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Rage",
@@ -139104,6 +142339,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Sand Attack",
@@ -139138,6 +142374,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Rock Slide",
@@ -139170,6 +142407,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Fissure",
@@ -139204,6 +142442,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Synthesis",
@@ -139236,6 +142475,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Crunch",
@@ -139268,6 +142508,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Occa Berry",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Earthquake",
@@ -139283,7 +142524,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -139300,6 +142541,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shell Smash",
@@ -139332,6 +142574,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Shell Smash",
@@ -139366,6 +142609,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Docile",
         "moves": [
           "Extrasensory",
@@ -139398,6 +142642,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Explosion",
@@ -139430,6 +142675,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Explosion",
@@ -139462,6 +142708,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Explosion",
@@ -139496,6 +142743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Recover",
@@ -139507,38 +142755,6 @@ backup_data = {
         "ability": "Sticky Hold",
         "sprite": "/images/trainer_sprites/clerk_m.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 34 Scientist Maria - Route 6": {
-        "level": 34,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 258,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Mild",
-        "moves": [
-          "Body Slam",
-          "Rain Dance",
-          "Brine",
-          "Hidden Power"
-        ],
-        "sub_index": 0,
-        "ability": "Sticky Hold",
-        "sprite": "/images/trainer_sprites/scientist.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -139562,6 +142778,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Barrier",
@@ -139596,6 +142813,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Metronome",
@@ -139630,6 +142848,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Mud Bomb",
@@ -139664,6 +142883,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Earthquake",
@@ -139696,6 +142916,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Double-Edge",
@@ -139728,6 +142949,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Earthquake",
@@ -139760,6 +142982,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Megahorn",
@@ -139794,6 +143017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Drill Run",
@@ -139809,7 +143033,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Ranger Lewis - Route 8": {
+      "Lvl 57 Pkmn Ranger Lewis - Route 8": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -139826,6 +143050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Giga Impact",
@@ -139860,6 +143085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Fire Blast",
@@ -139892,6 +143118,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Morning Sun",
@@ -139924,6 +143151,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Hypnosis",
@@ -139956,6 +143184,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Morning Sun",
@@ -139990,6 +143219,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Iron Head",
@@ -140022,6 +143252,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Iron Head",
@@ -140054,6 +143285,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Black Glasses",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Sucker Punch",
@@ -140086,6 +143318,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Sucker Punch",
@@ -140118,6 +143351,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Guillotine",
@@ -140150,6 +143384,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Iron Head",
@@ -140167,7 +143402,7 @@ backup_data = {
       }
     },
     "Pignite": {
-      "Lvl 34 PkMn Ranger Richard - Route 6": {
+      "Lvl 34 Pkmn Ranger Richard - Route 6": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -140184,6 +143419,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Cheri Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Bulldoze",
@@ -140199,7 +143435,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 PkMn Trainer Cheren13": {
+      "Lvl 33 Pkmn Trainer Cheren13 - Route 4": {
         "level": 33,
         "ai": 39,
         "noCh": false,
@@ -140216,6 +143452,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Heat Crash",
@@ -140231,7 +143468,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Bianca15 - Castelia Gate": {
+      "Lvl 31 Pkmn Trainer Bianca15 - Castelia Gate": {
         "level": 31,
         "ai": 129,
         "noCh": false,
@@ -140248,6 +143485,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Heat Crash",
@@ -140265,7 +143503,7 @@ backup_data = {
       }
     },
     "Sealeo": {
-      "Lvl 34 PkMn Ranger Richard - Route 6": {
+      "Lvl 34 Pkmn Ranger Richard - Route 6": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -140282,6 +143520,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Cheri Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Swagger",
@@ -140314,6 +143553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Sheer Cold",
@@ -140331,7 +143571,7 @@ backup_data = {
       }
     },
     "Deino": {
-      "Lvl 45 PkMn Ranger Pedro - Route 7": {
+      "Lvl 45 Pkmn Ranger Pedro - Route 7": {
         "level": 45,
         "ai": 7,
         "noCh": false,
@@ -140348,6 +143588,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Aspear Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Earth Power",
@@ -140365,7 +143606,7 @@ backup_data = {
       }
     },
     "Heatmor": {
-      "Lvl 45 PkMn Ranger Pedro - Route 7": {
+      "Lvl 45 Pkmn Ranger Pedro - Route 7": {
         "level": 45,
         "ai": 7,
         "noCh": false,
@@ -140382,6 +143623,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Aspear Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Slash",
@@ -140397,7 +143639,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 Backpacker Kiyo": {
+      "Lvl 88 Backpacker Kiyo - Black City": {
         "level": 88,
         "ai": 1,
         "noCh": false,
@@ -140414,6 +143656,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Heat Wave",
@@ -140431,7 +143674,7 @@ backup_data = {
       }
     },
     "Ambipom": {
-      "Lvl 89 PkMn Ranger Alain": {
+      "Lvl 89 Pkmn Ranger Alain": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -140448,6 +143691,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Fake Out",
@@ -140463,7 +143707,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Ranger Mary - Route 7": {
+      "Lvl 44 Pkmn Ranger Mary - Route 7": {
         "level": 44,
         "ai": 7,
         "noCh": false,
@@ -140480,6 +143724,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Aspear Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Last Resort",
@@ -140512,6 +143757,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Fake Out",
@@ -140544,6 +143790,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Fake Out",
@@ -140576,6 +143823,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Scope Lens",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Double Hit",
@@ -140593,7 +143841,7 @@ backup_data = {
       }
     },
     "Carnivine": {
-      "Lvl 89 PkMn Ranger Alain": {
+      "Lvl 89 Pkmn Ranger Alain": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -140610,6 +143858,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Leaf Storm",
@@ -140642,6 +143891,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Ingrain",
@@ -140674,6 +143924,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Leaf Storm",
@@ -140691,7 +143942,7 @@ backup_data = {
       }
     },
     "Umbreon": {
-      "Lvl 89 PkMn Ranger Heidi": {
+      "Lvl 89 Pkmn Ranger Heidi": {
         "level": 89,
         "ai": 7,
         "noCh": false,
@@ -140708,6 +143959,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Power Trick",
@@ -140740,6 +143992,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Power Trick",
@@ -140755,7 +144008,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Harry - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Harry - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -140772,6 +144025,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Screech",
@@ -140806,6 +144060,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Quiver Dance",
@@ -140838,6 +144093,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Earth Power",
@@ -140870,6 +144126,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Earth Power",
@@ -140902,6 +144159,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Earth Power",
@@ -140936,6 +144194,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Discharge",
@@ -140968,6 +144227,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Power Gem",
@@ -141000,6 +144260,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Head Smash",
@@ -141032,6 +144293,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Sandstorm",
@@ -141066,6 +144328,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Naive",
         "moves": [
           "Gyro Ball",
@@ -141098,6 +144361,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Chesto Berry",
+        "gender": "",
         "nature": "Impish",
         "moves": [
           "Trick Room",
@@ -141130,6 +144394,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Heavy Slam",
@@ -141162,6 +144427,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Bold",
         "moves": [
           "Heavy Slam",
@@ -141194,6 +144460,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Heavy Slam",
@@ -141228,6 +144495,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Mud Sport",
@@ -141260,6 +144528,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Double-Edge",
@@ -141292,6 +144561,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Head Smash",
@@ -141324,6 +144594,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Head Smash",
@@ -141358,6 +144629,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Curse",
@@ -141392,6 +144664,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Harden",
@@ -141424,6 +144697,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Harden",
@@ -141456,6 +144730,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Harden",
@@ -141488,6 +144763,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Harden",
@@ -141520,6 +144796,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Spore",
@@ -141554,6 +144831,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Protect",
@@ -141588,6 +144866,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Counter",
@@ -141622,6 +144901,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Signal Beam",
@@ -141656,6 +144936,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Psybeam",
@@ -141673,7 +144954,7 @@ backup_data = {
       }
     },
     "Surskit": {
-      "Lvl 26 Harlequin Kerry": {
+      "Lvl 26 Harlequin Kerry - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141690,6 +144971,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Bubble Beam",
@@ -141707,7 +144989,7 @@ backup_data = {
       }
     },
     "Butterfree": {
-      "Lvl 26 Harlequin Kerry": {
+      "Lvl 26 Harlequin Kerry - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141724,6 +145006,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Giga Drain",
@@ -141756,6 +145039,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Baton Pass",
@@ -141788,6 +145072,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Baton Pass",
@@ -141805,7 +145090,7 @@ backup_data = {
       }
     },
     "Beautifly": {
-      "Lvl 26 Harlequin Kerry": {
+      "Lvl 26 Harlequin Kerry - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141822,6 +145107,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Mega Drain",
@@ -141854,6 +145140,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Air Slash",
@@ -141871,7 +145158,7 @@ backup_data = {
       }
     },
     "Volbeat": {
-      "Lvl 26 Harlequin Kerry": {
+      "Lvl 26 Harlequin Kerry - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141888,6 +145175,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Signal Beam",
@@ -141905,7 +145193,7 @@ backup_data = {
       }
     },
     "Illumise": {
-      "Lvl 26 Harlequin Kerry": {
+      "Lvl 26 Harlequin Kerry - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141922,6 +145210,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Encore",
@@ -141954,6 +145243,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Tailwind",
@@ -141971,7 +145261,7 @@ backup_data = {
       }
     },
     "Dwebble": {
-      "Lvl 26 Harlequin Rick": {
+      "Lvl 26 Harlequin Rick - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -141988,6 +145278,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Stealth Rock",
@@ -142005,7 +145296,7 @@ backup_data = {
       }
     },
     "Karrablast": {
-      "Lvl 26 Harlequin Rick": {
+      "Lvl 26 Harlequin Rick - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -142022,6 +145313,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "False Swipe",
@@ -142039,7 +145331,7 @@ backup_data = {
       }
     },
     "Shelmet": {
-      "Lvl 26 Harlequin Rick": {
+      "Lvl 26 Harlequin Rick - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -142056,6 +145348,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Yawn",
@@ -142073,7 +145366,7 @@ backup_data = {
       }
     },
     "Swadloon": {
-      "Lvl 26 Harlequin Rick": {
+      "Lvl 26 Harlequin Rick - Castelia City": {
         "level": 26,
         "ai": 1,
         "noCh": false,
@@ -142090,6 +145383,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Synthesis",
@@ -142124,6 +145418,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Foul Play",
@@ -142139,7 +145434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 21 Team Plasma Grunt16": {
+      "Lvl 21 Team Plasma Grunt16 - Pinwheel Forest": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -142156,6 +145451,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Mud-Slap",
@@ -142190,6 +145486,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Dragon Rush",
@@ -142224,6 +145521,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Thrash",
@@ -142258,6 +145556,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Dragon Dance",
@@ -142292,6 +145591,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Payback",
@@ -142326,6 +145626,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Dragon Claw",
@@ -142337,6 +145638,74 @@ backup_data = {
         "ability": "Sand Veil",
         "sprite": "/images/trainer_sprites/worker.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Wash": {
+      "Lvl 87 Ace Trainer Mariana": {
+        "level": 87,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 205,
+        "diff": 0,
+        "ivs": {
+          "hp": 18,
+          "at": 18,
+          "df": 18,
+          "sa": 18,
+          "sd": 18,
+          "sp": 18
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Sassy",
+        "moves": [
+          "Discharge",
+          "Charge",
+          "Hex",
+          "Electro Ball"
+        ],
+        "sub_index": 0,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/ace_trainer.png",
+        "form": 2,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
+        "level": 47,
+        "ai": 39,
+        "noCh": false,
+        "tr_id": 218,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Thunder",
+          "Rain Dance",
+          "Scald",
+          "Shadow Ball"
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 2,
         "evs": {
           "df": 0
         }
@@ -142360,6 +145729,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Fissure",
@@ -142392,6 +145762,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Dive",
@@ -142424,6 +145795,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Fissure",
@@ -142456,6 +145828,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Fissure",
@@ -142488,6 +145861,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Fissure",
@@ -142520,6 +145894,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Fissure",
@@ -142552,6 +145927,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Fissure",
@@ -142584,6 +145960,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Fissure",
@@ -142616,6 +145993,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Fissure",
@@ -142648,6 +146026,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Fissure",
@@ -142680,6 +146059,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Fissure",
@@ -142714,6 +146094,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Super Fang",
@@ -142746,6 +146127,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Attract",
@@ -142778,6 +146160,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Super Fang",
@@ -142810,6 +146193,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Gentle",
         "moves": [
           "Super Fang",
@@ -142844,6 +146228,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Close Combat",
@@ -142876,6 +146261,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Wacan Berry",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Waterfall",
@@ -142908,6 +146294,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Close Combat",
@@ -142940,6 +146327,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Close Combat",
@@ -142972,6 +146360,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Close Combat",
@@ -142987,7 +146376,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -143004,6 +146393,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Close Combat",
@@ -143036,6 +146426,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Close Combat",
@@ -143051,7 +146442,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Motorcyclist Charles": {
+      "Lvl 35 Motorcyclist Charles - Driftveil City": {
         "level": 35,
         "ai": 135,
         "noCh": false,
@@ -143068,6 +146459,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Dynamic Punch",
@@ -143100,6 +146492,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Dynamic Punch",
@@ -143134,6 +146527,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Inferno",
@@ -143166,6 +146560,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Dark Pulse",
@@ -143198,6 +146593,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Inferno",
@@ -143230,6 +146626,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Fire Fang",
@@ -143262,6 +146659,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Inferno",
@@ -143294,6 +146692,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Inferno",
@@ -143326,6 +146725,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Inferno",
@@ -143341,7 +146741,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 53 Pkmn Trainer Cheren18 - Twist Mountain": {
         "level": 53,
         "ai": 39,
         "noCh": false,
@@ -143358,6 +146758,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Flamethrower",
@@ -143390,6 +146791,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Beat Up",
@@ -143422,6 +146824,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Power Herb",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Nasty Plot",
@@ -143437,7 +146840,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 66 Pkmn Trainer Cheren21 - Route 10": {
         "level": 66,
         "ai": 39,
         "noCh": false,
@@ -143454,6 +146857,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Flamethrower",
@@ -143469,7 +146873,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 88 Pkmn Trainer Cheren24 - Victory Road": {
         "level": 88,
         "ai": 135,
         "noCh": false,
@@ -143486,6 +146890,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Leftovers",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Flamethrower",
@@ -143501,7 +146906,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 Team Plasma Grunt43": {
+      "Lvl 84 Team Plasma Grunt43 - Chargestone Cave": {
         "level": 84,
         "ai": 1,
         "noCh": false,
@@ -143518,6 +146923,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Inferno",
@@ -143552,6 +146958,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Aqua Tail",
@@ -143584,6 +146991,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Hail",
@@ -143616,6 +147024,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lonely",
         "moves": [
           "Aqua Tail",
@@ -143648,6 +147057,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Hail",
@@ -143682,6 +147092,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Icicle Crash",
@@ -143714,6 +147125,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hydro Pump",
@@ -143748,6 +147160,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Psychic",
@@ -143780,6 +147193,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Amnesia",
@@ -143812,6 +147226,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Heal Pulse",
@@ -143844,6 +147259,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Heal Pulse",
@@ -143859,7 +147275,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N4": {
+      "Lvl 73 Team Plasma N4 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -143876,6 +147292,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Water Gem",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Surf",
@@ -143910,6 +147327,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Dragon Dance",
@@ -143942,6 +147360,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Female",
         "nature": "Adamant",
         "moves": [
           "Blizzard",
@@ -143974,6 +147393,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Hydro Pump",
@@ -144006,6 +147426,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shell Smash",
@@ -144038,6 +147459,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Shell Smash",
@@ -144072,6 +147494,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Amnesia",
@@ -144104,6 +147527,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Icy Wind",
@@ -144138,6 +147562,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Blizzard",
@@ -144170,6 +147595,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Icicle Crash",
@@ -144202,6 +147628,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Scary Face",
@@ -144217,7 +147644,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -144234,6 +147661,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Scary Face",
@@ -144266,6 +147694,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Scary Face",
@@ -144298,6 +147727,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Scary Face",
@@ -144332,6 +147762,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Thrash",
@@ -144364,6 +147795,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Charm",
@@ -144398,6 +147830,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Low Kick",
@@ -144430,6 +147863,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Low Kick",
@@ -144462,6 +147896,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Low Kick",
@@ -144494,6 +147929,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Low Kick",
@@ -144526,6 +147962,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Low Kick",
@@ -144558,6 +147995,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Low Kick",
@@ -144590,6 +148028,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "Female",
         "nature": "Brave",
         "moves": [
           "Rock Smash",
@@ -144601,6 +148040,146 @@ backup_data = {
         "ability": "Pickpocket",
         "sprite": "/images/trainer_sprites/elite_four.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Heat": {
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
+        "level": 47,
+        "ai": 39,
+        "noCh": false,
+        "tr_id": 218,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Thunderbolt",
+          "Lava Plume",
+          "Shadow Ball",
+          "Thunder Wave"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Frost": {
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
+        "level": 47,
+        "ai": 39,
+        "noCh": false,
+        "tr_id": 218,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Thunderbolt",
+          "Glaciate",
+          "Shadow Ball",
+          "Thunder Wave"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 3,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Fan": {
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
+        "level": 47,
+        "ai": 39,
+        "noCh": false,
+        "tr_id": 218,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Thunder",
+          "Hurricane",
+          "Shadow Ball",
+          "Substitute"
+        ],
+        "sub_index": 4,
+        "ability": "Speed Boost",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 4,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Mow": {
+      "Lvl 47 Team Plasma N2 - Chargestone Cave": {
+        "level": 47,
+        "ai": 39,
+        "noCh": false,
+        "tr_id": 218,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Thunderbolt",
+          "Leaf Storm",
+          "Energy Ball",
+          "Confuse Ray"
+        ],
+        "sub_index": 5,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 5,
         "evs": {
           "df": 0
         }
@@ -144624,6 +148203,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Cross Poison",
@@ -144656,6 +148236,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Sucker Punch",
@@ -144690,6 +148271,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Sludge Bomb",
@@ -144722,6 +148304,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Gunk Shot",
@@ -144754,6 +148337,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Double Hit",
@@ -144788,6 +148372,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Gunk Shot",
@@ -144820,6 +148405,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Gunk Shot",
@@ -144852,6 +148438,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Memento",
@@ -144884,6 +148471,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Memento",
@@ -144918,6 +148506,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Venoshock",
@@ -144933,7 +148522,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Team Plasma Ghetsis": {
+      "Lvl 75 Team Plasma Ghetsis - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -144950,6 +148539,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Scope Lens",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Night Slash",
@@ -144965,7 +148555,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Team Plasma Grunt28": {
+      "Lvl 60 Team Plasma Grunt28 - Dragonspiral Tower": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -144982,6 +148572,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Venoshock",
@@ -145014,6 +148605,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Cross Poison",
@@ -145046,6 +148638,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Cross Poison",
@@ -145080,6 +148673,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Sucker Punch",
@@ -145112,6 +148706,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Liechi Berry",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Thunder Wave",
@@ -145144,6 +148739,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Sucker Punch",
@@ -145176,6 +148772,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Fake Out",
@@ -145208,6 +148805,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Dark Pulse",
@@ -145223,7 +148821,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 Team Plasma Grunt41": {
+      "Lvl 84 Team Plasma Grunt41 - Chargestone Cave": {
         "level": 84,
         "ai": 1,
         "noCh": false,
@@ -145240,6 +148838,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Dark Pulse",
@@ -145274,6 +148873,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Sludge Wave",
@@ -145306,6 +148906,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Acupressure",
@@ -145338,6 +148939,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hydro Pump",
@@ -145372,6 +148974,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Venoshock",
@@ -145404,6 +149007,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Gunk Shot",
@@ -145436,6 +149040,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Poison Jab",
@@ -145470,6 +149075,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Soft Sand",
+        "gender": "",
         "nature": "Calm",
         "moves": [
           "Earthquake",
@@ -145502,6 +149108,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "",
         "nature": "Mild",
         "moves": [
           "Dynamic Punch",
@@ -145534,6 +149141,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Hardy",
         "moves": [
           "Earthquake",
@@ -145568,6 +149176,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Rocky Helmet",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Protect",
@@ -145583,7 +149192,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Team Plasma Grunt12": {
+      "Lvl 35 Team Plasma Grunt12 - Cold Storage": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -145600,6 +149209,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Aqua Jet",
@@ -145632,6 +149242,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Hydro Pump",
@@ -145647,7 +149258,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Ranger Ralph": {
+      "Lvl 84 Pkmn Ranger Ralph": {
         "level": 84,
         "ai": 7,
         "noCh": false,
@@ -145664,6 +149275,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hydro Pump",
@@ -145696,6 +149308,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Protect",
@@ -145730,6 +149343,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Scope Lens",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Megahorn",
@@ -145762,6 +149376,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Superpower",
@@ -145794,6 +149409,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Superpower",
@@ -145809,7 +149425,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Brenda - Route 1": {
+      "Lvl 52 Pkmn Ranger Brenda - Route 1": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -145826,6 +149442,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Persim Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Night Slash",
@@ -145843,7 +149460,7 @@ backup_data = {
       }
     },
     "Dusknoir": {
-      "Lvl 75 Team Plasma Ghetsis": {
+      "Lvl 75 Team Plasma Ghetsis - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -145860,6 +149477,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Payback",
@@ -145892,6 +149510,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Payback",
@@ -145924,6 +149543,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Trick",
@@ -145956,6 +149576,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Trick",
@@ -145973,7 +149594,7 @@ backup_data = {
       }
     },
     "Eelektross": {
-      "Lvl 75 Team Plasma Ghetsis": {
+      "Lvl 75 Team Plasma Ghetsis - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -145990,6 +149611,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Acrobatics",
@@ -146022,6 +149644,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Thunder",
@@ -146054,6 +149677,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Coil",
@@ -146086,6 +149710,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Flying Gem",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Acrobatics",
@@ -146103,7 +149728,7 @@ backup_data = {
       }
     },
     "Genesect": {
-      "Lvl 75 Team Plasma Ghetsis": {
+      "Lvl 75 Team Plasma Ghetsis - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -146120,6 +149745,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Bug Buzz",
@@ -146137,7 +149763,7 @@ backup_data = {
       }
     },
     "Hydreigon": {
-      "Lvl 77 Team Plasma Ghetsis": {
+      "Lvl 77 Team Plasma Ghetsis - N's Castle": {
         "level": 77,
         "ai": 39,
         "noCh": false,
@@ -146154,6 +149780,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Draco Meteor",
@@ -146186,6 +149813,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Earth Power",
@@ -146201,7 +149829,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -146218,6 +149846,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Outrage",
@@ -146252,6 +149881,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Destiny Bond",
@@ -146267,7 +149897,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Breeder Owen": {
+      "Lvl 84 Pkmn Breeder Owen": {
         "level": 84,
         "ai": 5,
         "noCh": false,
@@ -146284,6 +149914,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Destiny Bond",
@@ -146318,6 +149949,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Hyper Voice",
@@ -146350,6 +149982,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Healing Wish",
@@ -146384,6 +150017,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Curse",
@@ -146416,6 +150050,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Nasty Plot",
@@ -146450,6 +150085,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Curse",
@@ -146484,6 +150120,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Feint Attack",
@@ -146518,6 +150155,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Flatter",
@@ -146552,6 +150190,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Endeavor",
@@ -146586,6 +150225,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Wish",
@@ -146620,6 +150260,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Petal Dance",
@@ -146652,6 +150293,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Solar Beam",
@@ -146684,6 +150326,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Leaf Storm",
@@ -146716,6 +150359,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Modest",
         "moves": [
           "Leaf Storm",
@@ -146748,6 +150392,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Leaf Storm",
@@ -146782,6 +150427,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Attract",
@@ -146814,6 +150460,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Safeguard",
@@ -146846,6 +150493,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Safeguard",
@@ -146880,6 +150528,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Magnitude",
@@ -146914,6 +150563,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Slash",
@@ -146946,6 +150596,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Recover",
@@ -146980,6 +150631,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Roar",
@@ -147012,6 +150664,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Close Combat",
@@ -147044,6 +150697,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Chople Berry",
+        "gender": "Female",
         "nature": "Rash",
         "moves": [
           "Thunder Wave",
@@ -147078,6 +150732,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Ice Shard",
@@ -147112,6 +150767,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Slash",
@@ -147146,6 +150802,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Punishment",
@@ -147180,6 +150837,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Protect",
@@ -147214,6 +150872,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Brine",
@@ -147248,6 +150907,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Bold",
         "moves": [
           "Screech",
@@ -147280,6 +150940,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Metal Sound",
@@ -147314,6 +150975,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Hammer Arm",
@@ -147346,6 +151008,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Self-Destruct",
@@ -147378,6 +151041,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Self-Destruct",
@@ -147393,7 +151057,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 PkMn Ranger Jaden - Desert Resort": {
+      "Lvl 32 Pkmn Ranger Jaden - Desert Resort": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -147410,6 +151074,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Rawst Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Rock Tomb",
@@ -147442,6 +151107,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Self-Destruct",
@@ -147476,6 +151142,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Rock Slide",
@@ -147508,6 +151175,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Fire Blast",
@@ -147540,6 +151208,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Power Gem",
@@ -147574,6 +151243,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Muddy Water",
@@ -147606,6 +151276,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Rindo Berry",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Earthquake",
@@ -147621,7 +151292,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -147638,6 +151309,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Superpower",
@@ -147653,7 +151325,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 The Riches Zillion": {
+      "Lvl 86 The Riches Zillion - Undella Town": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -147670,6 +151342,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Superpower",
@@ -147685,7 +151358,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Chloris - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Chloris - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -147702,6 +151375,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Earthquake",
@@ -147736,6 +151410,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Payback",
@@ -147768,6 +151443,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Heavy Slam",
@@ -147783,7 +151459,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Motorcyclist Charles": {
+      "Lvl 35 Motorcyclist Charles - Driftveil City": {
         "level": 35,
         "ai": 135,
         "noCh": false,
@@ -147800,6 +151476,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Autotomize",
@@ -147832,6 +151509,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Autotomize",
@@ -147866,6 +151544,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Blizzard",
@@ -147898,6 +151577,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Pain Split",
@@ -147930,6 +151610,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Hasty",
         "moves": [
           "Aura Sphere",
@@ -147962,6 +151643,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Careful",
         "moves": [
           "Aura Sphere",
@@ -147996,6 +151678,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Hydro Pump",
@@ -148028,6 +151711,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Magic Room",
@@ -148060,6 +151744,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Cosmic Power",
@@ -148092,6 +151777,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Impish",
         "moves": [
           "Magic Room",
@@ -148124,6 +151810,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Magic Room",
@@ -148158,6 +151845,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Fire Blast",
@@ -148190,6 +151878,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hurricane",
@@ -148222,6 +151911,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Fiery Dance",
@@ -148256,6 +151946,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Impish",
         "moves": [
           "Flare Blitz",
@@ -148288,6 +151979,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Wonder Room",
@@ -148320,6 +152012,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "",
         "nature": "Bashful",
         "moves": [
           "Cosmic Power",
@@ -148352,6 +152045,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Hardy",
         "moves": [
           "Wonder Room",
@@ -148386,6 +152080,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Crunch",
@@ -148418,6 +152113,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Giga Impact",
@@ -148450,6 +152146,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Dragon Dance",
@@ -148482,6 +152179,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Giga Impact",
@@ -148514,6 +152212,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Giga Impact",
@@ -148546,6 +152245,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Giga Impact",
@@ -148561,7 +152261,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -148578,6 +152278,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Giga Impact",
@@ -148612,6 +152313,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Earthquake",
@@ -148644,6 +152346,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Hammer Arm",
@@ -148676,6 +152379,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Hammer Arm",
@@ -148708,6 +152412,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Earthquake",
@@ -148740,6 +152445,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Hammer Arm",
@@ -148772,6 +152478,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Hammer Arm",
@@ -148806,6 +152513,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Outrage",
@@ -148838,6 +152546,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Outrage",
@@ -148870,6 +152579,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Yache Berry",
+        "gender": "Female",
         "nature": "Sassy",
         "moves": [
           "Outrage",
@@ -148902,6 +152612,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Extreme Speed",
@@ -148917,7 +152628,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -148934,6 +152645,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Extreme Speed",
@@ -148949,7 +152661,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 100 PkMn Trainer Cynthia - Undella Town": {
+      "Lvl 100 Pkmn Trainer Cynthia - Undella Town": {
         "level": 100,
         "ai": 39,
         "noCh": false,
@@ -148966,6 +152678,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Outrage",
@@ -149000,6 +152713,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Heavy Slam",
@@ -149032,6 +152746,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Metal Burst",
@@ -149064,6 +152779,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Iron Tail",
@@ -149096,6 +152812,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Metal Burst",
@@ -149128,6 +152845,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Metal Burst",
@@ -149160,6 +152878,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Metal Burst",
@@ -149194,6 +152913,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Sassy",
         "moves": [
           "Zen Headbutt",
@@ -149226,6 +152946,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Hyper Beam",
@@ -149258,6 +152979,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Sassy",
         "moves": [
           "Hyper Beam",
@@ -149273,7 +152995,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 The Riches Miles": {
+      "Lvl 88 The Riches Miles - Undella Town": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -149290,6 +153012,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Gentle",
         "moves": [
           "Hyper Beam",
@@ -149322,6 +153045,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "",
         "nature": "Naughty",
         "moves": [
           "Meteor Mash",
@@ -149356,6 +153080,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Wish",
@@ -149388,6 +153113,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Gravity",
@@ -149420,6 +153146,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Gravity",
@@ -149452,6 +153179,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Gravity",
@@ -149484,6 +153212,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Gravity",
@@ -149516,6 +153245,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Attract",
@@ -149550,6 +153280,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Aromatherapy",
@@ -149582,6 +153313,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Kebia Berry",
+        "gender": "Female",
         "nature": "Bashful",
         "moves": [
           "Aromatherapy",
@@ -149597,7 +153329,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -149614,6 +153346,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Leaf Storm",
@@ -149646,6 +153379,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Light Screen",
@@ -149680,6 +153414,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Shadow Claw",
@@ -149712,6 +153447,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Flail",
@@ -149746,6 +153482,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Grass Gem",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Leaf Storm",
@@ -149778,6 +153515,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Tanga Berry",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Energy Ball",
@@ -149810,6 +153548,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Detect",
@@ -149842,6 +153581,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Leaf Storm",
@@ -149876,6 +153616,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Sassy",
         "moves": [
           "Metal Sound",
@@ -149908,6 +153649,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Metal Sound",
@@ -149942,6 +153684,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Iron Head",
@@ -149957,7 +153700,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -149974,6 +153717,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Heavy Slam",
@@ -150006,6 +153750,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Heavy Slam",
@@ -150017,6 +153762,41 @@ backup_data = {
         "ability": "Sturdy",
         "sprite": "/images/trainer_sprites/roughneck.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Gastrodon-East": {
+      "Lvl 34 Scientist Maria - Route 6": {
+        "level": 34,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 258,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "Male",
+        "nature": "Mild",
+        "moves": [
+          "Body Slam",
+          "Rain Dance",
+          "Brine",
+          "Hidden Power"
+        ],
+        "sub_index": 0,
+        "ability": "Sticky Hold",
+        "sprite": "/images/trainer_sprites/scientist.png",
+        "form": 1,
         "evs": {
           "df": 0
         }
@@ -150040,6 +153820,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Slash",
@@ -150072,6 +153853,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "X-Scissor",
@@ -150087,7 +153869,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 88 PkMn Breeder Crystal - Route 12": {
+      "Lvl 88 Pkmn Breeder Crystal - Route 12": {
         "level": 88,
         "ai": 5,
         "noCh": false,
@@ -150104,6 +153886,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Relaxed",
         "moves": [
           "X-Scissor",
@@ -150138,6 +153921,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Bashful",
         "moves": [
           "Gravity",
@@ -150170,6 +153954,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Gentle",
         "moves": [
           "Tri Attack",
@@ -150204,6 +153989,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Wonder Room",
@@ -150236,6 +154022,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Wonder Room",
@@ -150268,6 +154055,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Psych Up",
@@ -150300,6 +154088,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Wonder Room",
@@ -150334,6 +154123,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Feint",
@@ -150366,6 +154156,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Stored Power",
@@ -150398,6 +154189,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Stored Power",
@@ -150430,6 +154222,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Stored Power",
@@ -150464,6 +154257,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Zen Headbutt",
@@ -150496,6 +154290,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hammer Arm",
@@ -150528,6 +154323,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Hammer Arm",
@@ -150562,6 +154358,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Head Smash",
@@ -150594,6 +154391,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Head Smash",
@@ -150628,6 +154426,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quiet",
         "moves": [
           "Mirror Shot",
@@ -150660,6 +154459,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Zap Cannon",
@@ -150692,6 +154492,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Zap Cannon",
@@ -150724,6 +154525,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Bold",
         "moves": [
           "Zap Cannon",
@@ -150758,6 +154560,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Outrage",
@@ -150773,7 +154576,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Ranger Harry - Moor of Icirrus": {
+      "Lvl 58 Pkmn Ranger Harry - Moor of Icirrus": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -150790,6 +154593,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Guillotine",
@@ -150807,7 +154611,7 @@ backup_data = {
       }
     },
     "Grimer": {
-      "Lvl 35 Team Plasma Grunt11": {
+      "Lvl 35 Team Plasma Grunt11 - Cold Storage": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -150824,6 +154628,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Screech",
@@ -150856,6 +154661,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Disable",
@@ -150873,7 +154679,7 @@ backup_data = {
       }
     },
     "Swalot": {
-      "Lvl 35 Team Plasma Grunt11": {
+      "Lvl 35 Team Plasma Grunt11 - Cold Storage": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -150890,6 +154696,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Toxic",
@@ -150922,6 +154729,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Gunk Shot",
@@ -150954,6 +154762,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Gunk Shot",
@@ -150971,7 +154780,7 @@ backup_data = {
       }
     },
     "Trubbish": {
-      "Lvl 35 Team Plasma Grunt12": {
+      "Lvl 35 Team Plasma Grunt12 - Cold Storage": {
         "level": 35,
         "ai": 1,
         "noCh": false,
@@ -150988,6 +154797,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Clear Smog",
@@ -151003,7 +154813,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 Team Plasma Grunt14": {
+      "Lvl 14 Team Plasma Grunt14 - Dreamyard": {
         "level": 14,
         "ai": 1,
         "noCh": false,
@@ -151020,6 +154830,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Double Slap",
@@ -151054,6 +154865,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Baton Pass",
@@ -151086,6 +154898,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Metal Burst",
@@ -151118,6 +154931,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Feint Attack",
@@ -151152,6 +154966,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Knock Off",
@@ -151184,6 +154999,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Metal Burst",
@@ -151216,6 +155032,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Shadow Sneak",
@@ -151248,6 +155065,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Recover",
@@ -151282,6 +155100,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Take Down",
@@ -151314,6 +155133,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Take Down",
@@ -151348,6 +155168,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Giga Drain",
@@ -151382,6 +155203,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Mud Bomb",
@@ -151416,6 +155238,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Razor Leaf",
@@ -151450,6 +155273,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Mist",
@@ -151484,6 +155308,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Belly Drum",
@@ -151518,6 +155343,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Naughty",
         "moves": [
           "Self-Destruct",
@@ -151552,6 +155378,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Assurance",
@@ -151586,6 +155413,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Calm",
         "moves": [
           "Slam",
@@ -151620,6 +155448,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Mirror Move",
@@ -151654,6 +155483,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Nature Power",
@@ -151688,6 +155518,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Natural Gift",
@@ -151705,7 +155536,7 @@ backup_data = {
       }
     },
     "Ekans": {
-      "Lvl 14 Team Plasma Grunt14": {
+      "Lvl 14 Team Plasma Grunt14 - Dreamyard": {
         "level": 14,
         "ai": 1,
         "noCh": false,
@@ -151722,6 +155553,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Glare",
@@ -151739,7 +155571,7 @@ backup_data = {
       }
     },
     "Drowzee": {
-      "Lvl 15 Team Plasma Grunt14": {
+      "Lvl 15 Team Plasma Grunt14 - Dreamyard": {
         "level": 15,
         "ai": 1,
         "noCh": false,
@@ -151756,6 +155588,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Zen Headbutt",
@@ -151773,7 +155606,7 @@ backup_data = {
       }
     },
     "Gulpin": {
-      "Lvl 15 Team Plasma Grunt15": {
+      "Lvl 15 Team Plasma Grunt15 - Wellspring Cave": {
         "level": 15,
         "ai": 1,
         "noCh": false,
@@ -151790,6 +155623,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Sludge",
@@ -151807,7 +155641,7 @@ backup_data = {
       }
     },
     "Numel": {
-      "Lvl 15 Team Plasma Grunt15": {
+      "Lvl 15 Team Plasma Grunt15 - Wellspring Cave": {
         "level": 15,
         "ai": 1,
         "noCh": false,
@@ -151824,6 +155658,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Focus Energy",
@@ -151841,7 +155676,7 @@ backup_data = {
       }
     },
     "Houndour": {
-      "Lvl 15 Team Plasma Grunt15": {
+      "Lvl 15 Team Plasma Grunt15 - Wellspring Cave": {
         "level": 15,
         "ai": 1,
         "noCh": false,
@@ -151858,6 +155693,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Roar",
@@ -151875,7 +155711,7 @@ backup_data = {
       }
     },
     "Skorupi": {
-      "Lvl 21 Team Plasma Grunt16": {
+      "Lvl 21 Team Plasma Grunt16 - Pinwheel Forest": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -151892,6 +155728,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Acupressure",
@@ -151909,7 +155746,7 @@ backup_data = {
       }
     },
     "Foongus": {
-      "Lvl 21 Team Plasma Grunt16": {
+      "Lvl 21 Team Plasma Grunt16 - Pinwheel Forest": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -151926,6 +155763,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Feint Attack",
@@ -151960,6 +155798,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Sucker Punch",
@@ -151994,6 +155833,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Fury Swipes",
@@ -152028,6 +155868,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Crunch",
@@ -152060,6 +155901,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Take Down",
@@ -152092,6 +155934,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Scary Face",
@@ -152107,7 +155950,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 PkMn Ranger Ruby - Route 11": {
+      "Lvl 86 Pkmn Ranger Ruby - Route 11": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -152124,6 +155967,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Sucker Punch",
@@ -152158,6 +156002,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Payback",
@@ -152190,6 +156035,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Crunch",
@@ -152222,6 +156068,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Payback",
@@ -152256,6 +156103,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Pursuit",
@@ -152288,6 +156136,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Toxic Spikes",
@@ -152322,6 +156171,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Scary Face",
@@ -152356,6 +156206,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Crunch",
@@ -152390,6 +156241,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shadow Ball",
@@ -152422,6 +156274,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Gunk Shot",
@@ -152456,6 +156309,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Smokescreen",
@@ -152490,6 +156344,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Leech Seed",
@@ -152524,6 +156379,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Night Shade",
@@ -152556,6 +156412,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Night Shade",
@@ -152590,6 +156447,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Crunch",
@@ -152622,6 +156480,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Hyper Beam",
@@ -152656,6 +156515,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Flamethrower",
@@ -152688,6 +156548,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Nature Power",
@@ -152720,6 +156581,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Eruption",
@@ -152752,6 +156614,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Eruption",
@@ -152784,6 +156647,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Flamethrower",
@@ -152816,6 +156680,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Shuca Berry",
+        "gender": "Female",
         "nature": "Mild",
         "moves": [
           "Eruption",
@@ -152850,6 +156715,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Outrage",
@@ -152882,6 +156748,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Crunch",
@@ -152916,6 +156783,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Heal Bell",
@@ -152948,6 +156816,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Heal Bell",
@@ -152980,6 +156849,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Hydro Pump",
@@ -152995,7 +156865,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Brenda - Route 1": {
+      "Lvl 52 Pkmn Ranger Brenda - Route 1": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -153012,6 +156882,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Persim Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Last Resort",
@@ -153044,6 +156915,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Acid Armor",
@@ -153076,6 +156948,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Hydro Pump",
@@ -153110,6 +156983,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Leaf Blade",
@@ -153142,6 +157016,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Leaf Blade",
@@ -153174,6 +157049,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Crunch",
@@ -153208,6 +157084,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Stealth Rock",
@@ -153240,6 +157117,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naughty",
         "moves": [
           "Stealth Rock",
@@ -153255,7 +157133,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Motorcyclist Charles": {
+      "Lvl 35 Motorcyclist Charles - Driftveil City": {
         "level": 35,
         "ai": 135,
         "noCh": false,
@@ -153272,6 +157150,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Body Slam",
@@ -153304,6 +157183,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Body Slam",
@@ -153338,6 +157218,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Lucky Chant",
@@ -153370,6 +157251,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Worry Seed",
@@ -153402,6 +157284,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Lucky Chant",
@@ -153434,6 +157317,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Lucky Chant",
@@ -153468,6 +157352,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Screech",
@@ -153500,6 +157385,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Dragon Dance",
@@ -153532,6 +157418,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Wacan Berry",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Dragon Dance",
@@ -153549,7 +157436,7 @@ backup_data = {
       }
     },
     "Kadabra": {
-      "Lvl 31 PkMn Trainer Cheren13": {
+      "Lvl 31 Pkmn Trainer Cheren13 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -153566,6 +157453,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Reflect",
@@ -153581,7 +157469,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 31 Pkmn Trainer Cheren14 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -153598,6 +157486,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Reflect",
@@ -153613,7 +157502,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 PkMn Trainer Cheren15": {
+      "Lvl 31 Pkmn Trainer Cheren15 - Route 4": {
         "level": 31,
         "ai": 39,
         "noCh": false,
@@ -153630,6 +157519,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "Twisted Spoon",
+        "gender": "Male",
         "nature": "Timid",
         "moves": [
           "Reflect",
@@ -153664,6 +157554,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Acrobatics",
@@ -153698,6 +157589,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Mega Drain",
@@ -153732,6 +157624,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Heat Wave",
@@ -153766,6 +157659,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Tickle",
@@ -153798,6 +157692,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Earth Power",
@@ -153830,6 +157725,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Earth Power",
@@ -153864,6 +157760,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Metal Sound",
@@ -153896,6 +157793,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Night Slash",
@@ -153930,6 +157828,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Endeavor",
@@ -153962,6 +157861,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Endeavor",
@@ -153977,7 +157877,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 84 PkMn Ranger Eliza": {
+      "Lvl 84 Pkmn Ranger Eliza": {
         "level": 84,
         "ai": 7,
         "noCh": false,
@@ -153994,6 +157894,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Endeavor",
@@ -154026,6 +157927,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Gyro Ball",
@@ -154058,6 +157960,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Endeavor",
@@ -154090,6 +157993,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Endeavor",
@@ -154124,6 +158028,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Perish Song",
@@ -154158,6 +158063,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Brave Bird",
@@ -154190,6 +158096,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Agility",
@@ -154224,6 +158131,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Poison Jab",
@@ -154256,6 +158164,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Pain Split",
@@ -154290,6 +158199,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Rindo Berry",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Shell Smash",
@@ -154322,6 +158232,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Shell Smash",
@@ -154354,6 +158265,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Careful",
         "moves": [
           "Shell Smash",
@@ -154386,6 +158298,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Serious",
         "moves": [
           "Shell Smash",
@@ -154418,6 +158331,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quirky",
         "moves": [
           "Skull Bash",
@@ -154450,6 +158364,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Skull Bash",
@@ -154484,6 +158399,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Shuca Berry",
+        "gender": "Female",
         "nature": "Quiet",
         "moves": [
           "Hydro Pump",
@@ -154516,6 +158432,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Drill Peck",
@@ -154548,6 +158465,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Hardy",
         "moves": [
           "Hydro Pump",
@@ -154580,6 +158498,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hydro Pump",
@@ -154614,6 +158533,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Bashful",
         "moves": [
           "Torment",
@@ -154648,6 +158568,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Solar Beam",
@@ -154680,6 +158601,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Spore",
@@ -154714,6 +158636,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Payapa Berry",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Growth",
@@ -154729,7 +158652,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 90 PkMn Ranger Red - Route 11": {
+      "Lvl 90 Pkmn Ranger Red - Route 11": {
         "level": 90,
         "ai": 7,
         "noCh": false,
@@ -154746,6 +158669,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Leppa Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Bold",
         "moves": [
           "Leaf Storm",
@@ -154778,6 +158702,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Leaf Storm",
@@ -154810,6 +158735,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Synthesis",
@@ -154842,6 +158768,7 @@ backup_data = {
         "battle_type": "Rotation",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Synthesis",
@@ -154876,6 +158803,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Slash",
@@ -154908,6 +158836,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "X-Scissor",
@@ -154942,6 +158871,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Charge Beam",
@@ -154974,6 +158904,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Shift Gear",
@@ -155008,6 +158939,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Fury Attack",
@@ -155042,6 +158974,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Brave",
         "moves": [
           "Knock Off",
@@ -155076,6 +159009,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Close Combat",
@@ -155108,6 +159042,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Sitrus Berry",
+        "gender": "Male",
         "nature": "Hasty",
         "moves": [
           "Volt Tackle",
@@ -155140,6 +159075,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Giga Impact",
@@ -155172,6 +159108,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Giga Impact",
@@ -155187,7 +159124,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N3": {
+      "Lvl 73 Team Plasma N3 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -155204,6 +159141,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Electric Gem",
+        "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Earthquake",
@@ -155221,7 +159159,7 @@ backup_data = {
       }
     },
     "Lickilicky": {
-      "Lvl 88 PkMn Ranger Diamond - Route 15": {
+      "Lvl 88 Pkmn Ranger Diamond - Route 15": {
         "level": 88,
         "ai": 7,
         "noCh": false,
@@ -155238,6 +159176,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Sitrus Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Hammer Arm",
@@ -155270,6 +159209,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Hardy",
         "moves": [
           "Hammer Arm",
@@ -155285,7 +159225,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 86 The Riches Zillion": {
+      "Lvl 86 The Riches Zillion - Undella Town": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -155302,6 +159242,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Gentle",
         "moves": [
           "Hammer Arm",
@@ -155336,6 +159277,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Rash",
         "moves": [
           "Snore",
@@ -155368,6 +159310,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Close Combat",
@@ -155383,7 +159326,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Baker Chris": {
+      "Lvl 80 Baker Chris - Village Bridge": {
         "level": 80,
         "ai": 1,
         "noCh": false,
@@ -155400,6 +159343,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lax",
         "moves": [
           "Hammer Arm",
@@ -155434,6 +159378,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Shadow Ball",
@@ -155466,6 +159411,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "",
         "nature": "Docile",
         "moves": [
           "Mind Reader",
@@ -155500,6 +159446,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Rollout",
@@ -155534,6 +159481,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Iron Defense",
@@ -155568,6 +159516,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Wing Attack",
@@ -155602,6 +159551,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Swagger",
@@ -155636,6 +159586,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Jolly",
         "moves": [
           "Dragon Dance",
@@ -155670,6 +159621,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Horn Drill",
@@ -155702,6 +159654,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Modest",
         "moves": [
           "Bounce",
@@ -155734,6 +159687,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Careful",
         "moves": [
           "Agility",
@@ -155751,7 +159705,7 @@ backup_data = {
       }
     },
     "Victini": {
-      "Lvl 95 GAME FREAK Morimoto": {
+      "Lvl 95 GAME FREAK Morimoto - Castelia City": {
         "level": 95,
         "ai": 135,
         "noCh": false,
@@ -155768,6 +159722,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "",
         "nature": "Sassy",
         "moves": [
           "V-create",
@@ -155785,7 +159740,7 @@ backup_data = {
       }
     },
     "Celebi": {
-      "Lvl 95 GAME FREAK Morimoto": {
+      "Lvl 95 GAME FREAK Morimoto - Castelia City": {
         "level": 95,
         "ai": 135,
         "noCh": false,
@@ -155802,6 +159757,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Nasty Plot",
@@ -155819,7 +159775,7 @@ backup_data = {
       }
     },
     "Jirachi": {
-      "Lvl 95 GAME FREAK Morimoto": {
+      "Lvl 95 GAME FREAK Morimoto - Castelia City": {
         "level": 95,
         "ai": 135,
         "noCh": false,
@@ -155836,6 +159792,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "",
         "nature": "Quirky",
         "moves": [
           "Thunder Wave",
@@ -155853,7 +159810,7 @@ backup_data = {
       }
     },
     "Manaphy": {
-      "Lvl 95 GAME FREAK Morimoto": {
+      "Lvl 95 GAME FREAK Morimoto - Castelia City": {
         "level": 95,
         "ai": 135,
         "noCh": false,
@@ -155870,6 +159827,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Damp Rock",
+        "gender": "",
         "nature": "Timid",
         "moves": [
           "Rain Dance",
@@ -155887,7 +159845,7 @@ backup_data = {
       }
     },
     "Shaymin": {
-      "Lvl 95 GAME FREAK Morimoto": {
+      "Lvl 95 GAME FREAK Morimoto - Castelia City": {
         "level": 95,
         "ai": 135,
         "noCh": false,
@@ -155904,6 +159862,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Lum Berry",
+        "gender": "",
         "nature": "Lax",
         "moves": [
           "Seed Flare",
@@ -155921,7 +159880,7 @@ backup_data = {
       }
     },
     "Mew": {
-      "Lvl 100 GAME FREAK Morimoto": {
+      "Lvl 100 GAME FREAK Morimoto - Castelia City": {
         "level": 100,
         "ai": 135,
         "noCh": false,
@@ -155938,6 +159897,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Expert Belt",
+        "gender": "",
         "nature": "Adamant",
         "moves": [
           "Psychic",
@@ -155972,6 +159932,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Last Resort",
@@ -155989,7 +159950,7 @@ backup_data = {
       }
     },
     "Lairon": {
-      "Lvl 32 PkMn Ranger Mylene - Desert Resort": {
+      "Lvl 32 Pkmn Ranger Mylene - Desert Resort": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -156006,6 +159967,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Rawst Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Iron Head",
@@ -156023,7 +159985,7 @@ backup_data = {
       }
     },
     "Ninjask": {
-      "Lvl 32 PkMn Ranger Mylene - Desert Resort": {
+      "Lvl 32 Pkmn Ranger Mylene - Desert Resort": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -156040,6 +160002,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Rawst Berry",
         "item": "None",
+        "gender": "Male",
         "nature": "Docile",
         "moves": [
           "Slash",
@@ -156074,6 +160037,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Lonely",
         "moves": [
           "Psybeam",
@@ -156106,6 +160070,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
+        "gender": "Male",
         "nature": "Relaxed",
         "moves": [
           "Psybeam",
@@ -156140,6 +160105,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
+        "gender": "Female",
         "nature": "Hasty",
         "moves": [
           "Night Daze",
@@ -156155,7 +160121,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N3": {
+      "Lvl 73 Team Plasma N3 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -156172,6 +160138,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Dark Gem",
+        "gender": "Female",
         "nature": "Quirky",
         "moves": [
           "Night Daze",
@@ -156187,7 +160154,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Team Plasma N4": {
+      "Lvl 73 Team Plasma N4 - N's Castle": {
         "level": 73,
         "ai": 39,
         "noCh": false,
@@ -156204,6 +160171,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Dark Gem",
+        "gender": "Female",
         "nature": "Naive",
         "moves": [
           "Night Daze",
@@ -156221,7 +160189,7 @@ backup_data = {
       }
     },
     "Reshiram": {
-      "Lvl 75 Team Plasma N3": {
+      "Lvl 75 Team Plasma N3 - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -156238,6 +160206,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "White Herb",
+        "gender": "",
         "nature": "Lonely",
         "moves": [
           "Dragon Pulse",
@@ -156255,7 +160224,7 @@ backup_data = {
       }
     },
     "Zekrom": {
-      "Lvl 75 Team Plasma N4": {
+      "Lvl 75 Team Plasma N4 - N's Castle": {
         "level": 75,
         "ai": 39,
         "noCh": false,
@@ -156272,7 +160241,8 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
-        "nature": "Docile",
+        "gender": "",
+        "nature": "Timid",
         "moves": [
           "Dragon Claw",
           "Bolt Strike",
