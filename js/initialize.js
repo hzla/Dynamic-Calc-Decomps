@@ -1865,6 +1865,23 @@ function loadPoksData() {
 
 }
 
+function scrubPlatinumKaizoRemovedRecoil(title, moveTable, moveTablesByGeneration) {
+  if (title !== "Platinum Kaizo") return
+
+  // PKCalc explicitly removes the vanilla recoil inherited by Submission.
+  if (moveTable && moveTable.Submission) {
+    delete moveTable.Submission.recoil
+  }
+
+  if (!Array.isArray(moveTablesByGeneration)) return
+  for (var moveGen = 0; moveGen < moveTablesByGeneration.length; moveGen++) {
+    var generationMoves = moveTablesByGeneration[moveGen]
+    if (generationMoves && generationMoves.submission) {
+      delete generationMoves.submission.recoil
+    }
+  }
+}
+
 function loadMovesData() {
   for (move in moves) {
     var moveId = cleanString(move)
@@ -2068,12 +2085,7 @@ function loadMovesData() {
 
     }
 
-    if (TITLE == "Platinum Kaizo") {
-
-        // moves["Take Down"]["recoil"] = [1,4]
-        // MOVES_BY_ID[g].takedown["recoil"] = [1,4]
-
-    }
+    scrubPlatinumKaizoRemovedRecoil(TITLE, moves, MOVES_BY_ID)
 }
 
 function loadDataSource(data) {
