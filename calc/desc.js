@@ -401,6 +401,14 @@ var TRAPPING = [
     'Bind', 'Clamp', 'Fire Spin', 'Infestation', 'Magma Storm', 'Sand Tomb',
     'Thunder Cage', 'Whirlpool', 'Wrap', 'G-Max Sandblast', 'G-Max Centiferno',
 ];
+var PLATINUM_KAIZO_TRAPPING = [
+    'Vise Grip', 'Submission', 'Twister', 'Swallow', 'Crush Grip',
+];
+function isTrappingMove(move) {
+    return TRAPPING.includes(move.name) ||
+        (typeof TITLE === 'string' && TITLE === 'Platinum Kaizo' &&
+            PLATINUM_KAIZO_TRAPPING.includes(move.name));
+}
 function getHazards(gen, defender, defenderSide) {
     var damage = 0;
     var texts = [];
@@ -581,7 +589,7 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         damage -= Math.floor(defender.maxHP() / 8);
         texts.push('Bad Dreams');
     }
-    if (!defender.hasAbility('Magic Guard') && TRAPPING.includes(move.name) && gen.num > 1) {
+    if (!defender.hasAbility('Magic Guard') && isTrappingMove(move) && gen.num > 1) {
         if (attacker.hasItem('Binding Band')) {
             damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 6) : Math.floor(defender.maxHP() / 8);
             texts.push('trapping damage');

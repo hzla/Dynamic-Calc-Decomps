@@ -67,6 +67,12 @@ function calcResult(ctx, title, spec) {
     });
 }
 
+function calcDescription(ctx, title, spec) {
+    return withGlobals(title, ctx.gen, function () {
+        return ctx.calculate(spec.attacker(ctx), spec.defender(ctx), spec.move(ctx), spec.field ? spec.field(ctx) : ctx.Field({})).fullDesc();
+    });
+}
+
 describe("romhack mechanics profiles", function () {
     test("registry resolves expected profiles", function () {
         expect((0, romhacks_1.getMechanicsProfile)("Unknown", 6).id).toBe("vanilla");
@@ -100,6 +106,27 @@ describe("romhack mechanics profiles", function () {
             var kaizo = calcResult(ctx, "Platinum Kaizo", lowHpSpec);
             expect(vanilla.rawDesc.moveBP).toBeLessThan(150);
             expect(kaizo.rawDesc.moveBP || kaizo.move.bp).toBe(150);
+        });
+
+        test("Platinum Kaizo Crush Grip is fixed at 150 base power", function () {
+            var fullHpSpec = {
+                attacker: function (c) { return P(c, "Mew"); },
+                defender: function (c) { return P(c, "Mew"); },
+                move: function (c) { return M(c, "Crush Grip", { basePower: 150 }); }
+            };
+            var lowHpSpec = {
+                attacker: function (c) { return P(c, "Mew"); },
+                defender: function (c) { return P(c, "Mew", { curHP: 1 }); },
+                move: function (c) { return M(c, "Crush Grip", { basePower: 150 }); }
+            };
+            var kaizoFull = calcResult(ctx, "Platinum Kaizo", fullHpSpec);
+            var kaizoLow = calcResult(ctx, "Platinum Kaizo", lowHpSpec);
+            var vanillaFull = calcResult(ctx, "NONE", fullHpSpec);
+
+            expect(kaizoFull.rawDesc.moveBP).toBe(150);
+            expect(kaizoLow.rawDesc.moveBP).toBe(150);
+            expect(vanillaFull.rawDesc.moveBP).toBe(121);
+            expect(kaizoFull.range()[0]).toBeGreaterThan(vanillaFull.range()[0]);
         });
 
         test("Platinum Kaizo Wring Out uses Brine-style half HP boost", function () {
@@ -173,6 +200,24 @@ describe("romhack mechanics profiles", function () {
             expect(vanillaRatio).toBeLessThan(1.35);
             expect(kaizoRatio).toBeGreaterThan(1.4);
         });
+
+        test.each(["Vise Grip", "Submission", "Twister", "Swallow", "Crush Grip"])(
+            "Platinum Kaizo %s reports trapping damage",
+            function (moveName) {
+                var spec = {
+                    attacker: function (c) { return P(c, "Mew", { level: 50 }); },
+                    defender: function (c) { return P(c, "Mew", { level: 50 }); },
+                    move: function (c) {
+                        return M(c, moveName, {
+                            overrides: { basePower: 100, category: "Physical", type: "Normal" }
+                        });
+                    }
+                };
+
+                expect(calcDescription(ctx, "Platinum Kaizo", spec)).toContain("trapping damage");
+                expect(calcDescription(ctx, "NONE", spec)).not.toContain("trapping damage");
+            }
+        );
 
         test("Platinum Redux item modifiers are profile-driven", function () {
             var profile = (0, romhacks_1.getMechanicsProfile)("Platinum Redux 2.6", 4);
