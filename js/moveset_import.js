@@ -602,7 +602,7 @@ function normalizeImportedMoveName(move, importOptions) {
 			move = canonicalizeImportedMoveReplacement(titleReplacement)
 		}
 
-		if (backup_data["move_replacements"]) {
+		if (typeof backup_data !== "undefined" && backup_data && backup_data["move_replacements"]) {
 			let backupReplacement = getNamedReplacement(backup_data["move_replacements"], move)
 			if (backupReplacement) {
 				move = canonicalizeImportedMoveReplacement(backupReplacement)
@@ -612,6 +612,11 @@ function normalizeImportedMoveName(move, importOptions) {
 
 	if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
 		move = move.replace("HP ", "Hidden Power")
+	}
+
+	// "Vice Grip" is a common misspelling of the canonical move name.
+	if (cleanString(move) === "vicegrip") {
+		move = "Vise Grip"
 	}
 
 	return resolveImportedMoveNameFromDex(move);

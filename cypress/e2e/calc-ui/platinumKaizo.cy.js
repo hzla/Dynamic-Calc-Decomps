@@ -31,4 +31,10 @@ describe('Platinum Kaizo calc configuration', () => {
     )
     cy.get('#ai-container').should('not.be.visible').and('be.empty')
   })
+
+  it('corrects Vice Grip imports to Vise Grip', () => {
+    cy.window().then((win) => {
+      expect(win.eval('normalizeImportedMoveName("Vice Grip", { applyRomReplacements: true })')).to.eq('Vise Grip')
+    })
+  })
 })
