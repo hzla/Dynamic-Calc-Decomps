@@ -2340,7 +2340,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 2,
-      "accuracy": 100,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 118,
       "sf": true
@@ -2860,7 +2860,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 2,
-      "accuracy": 100,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 166,
       "sf": true
@@ -4881,7 +4881,7 @@ backup_data = {
     },
     "Double Hit": {
       "type": "Normal",
-      "basePower": 45,
+      "basePower": 40,
       "category": "Physical",
       "pp": 10,
       "accuracy": 100,
@@ -5007,7 +5007,7 @@ backup_data = {
     },
     "Triple Axel": {
       "type": "Ice",
-      "basePower": 35,
+      "basePower": 40,
       "category": "Physical",
       "pp": 10,
       "accuracy": 95,
@@ -6986,7 +6986,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Water Gun"
+            "Brine"
           ],
           [
             1,
@@ -7002,19 +7002,19 @@ backup_data = {
           ],
           [
             13,
-            "Brine"
-          ],
-          [
-            16,
             "Mirror Coat"
           ],
           [
-            19,
+            16,
             "Metal Claw"
           ],
           [
-            22,
+            19,
             "Mist"
+          ],
+          [
+            22,
+            "Liquidation"
           ],
           [
             27,
@@ -7034,7 +7034,7 @@ backup_data = {
           ],
           [
             42,
-            "Scald"
+            "Hydro Pump"
           ],
           [
             45,
@@ -7046,7 +7046,7 @@ backup_data = {
           ],
           [
             53,
-            "Hydro Pump"
+            "Wave Crash"
           ],
           [
             57,
@@ -7058,7 +7058,7 @@ backup_data = {
           ],
           [
             66,
-            "Wave Crash"
+            "Steel Beam"
           ],
           [
             70,
@@ -7195,19 +7195,19 @@ backup_data = {
           ],
           [
             13,
-            "Brine"
-          ],
-          [
-            16,
             "Mirror Coat"
           ],
           [
-            19,
+            16,
             "Metal Claw"
           ],
           [
-            22,
+            19,
             "Mist"
+          ],
+          [
+            22,
+            "Liquidation"
           ],
           [
             27,
@@ -7227,7 +7227,7 @@ backup_data = {
           ],
           [
             42,
-            "Scald"
+            "Hydro Pump"
           ],
           [
             45,
@@ -7239,7 +7239,7 @@ backup_data = {
           ],
           [
             53,
-            "Hydro Pump"
+            "Wave Crash"
           ],
           [
             57,
@@ -7251,7 +7251,7 @@ backup_data = {
           ],
           [
             66,
-            "Wave Crash"
+            "Steel Beam"
           ],
           [
             70,
@@ -7390,19 +7390,19 @@ backup_data = {
           ],
           [
             13,
-            "Brine"
-          ],
-          [
-            16,
             "Mirror Coat"
           ],
           [
-            19,
+            16,
             "Metal Claw"
           ],
           [
-            22,
+            19,
             "Mist"
+          ],
+          [
+            22,
+            "Liquidation"
           ],
           [
             27,
@@ -7422,7 +7422,7 @@ backup_data = {
           ],
           [
             42,
-            "Scald"
+            "Hydro Pump"
           ],
           [
             45,
@@ -7434,7 +7434,7 @@ backup_data = {
           ],
           [
             53,
-            "Hydro Pump"
+            "Wave Crash"
           ],
           [
             57,
@@ -7446,7 +7446,7 @@ backup_data = {
           ],
           [
             66,
-            "Wave Crash"
+            "Steel Beam"
           ],
           [
             70,
@@ -15463,7 +15463,7 @@ backup_data = {
           ],
           [
             48,
-            "Brutal Swing"
+            "Wicked Blow"
           ],
           [
             51,
@@ -18884,7 +18884,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 110,
+        "at": 120,
         "df": 70,
         "sa": 80,
         "sd": 80,
@@ -19753,7 +19753,7 @@ backup_data = {
         "hp": 72,
         "at": 65,
         "df": 80,
-        "sa": 103,
+        "sa": 113,
         "sd": 90,
         "sp": 85
       },
@@ -19962,7 +19962,7 @@ backup_data = {
           ],
           [
             17,
-            "Double Kick"
+            "Double Hit"
           ],
           [
             20,
@@ -19974,7 +19974,7 @@ backup_data = {
           ],
           [
             25,
-            "Submission"
+            "Jump Kick"
           ],
           [
             29,
@@ -19990,23 +19990,23 @@ backup_data = {
           ],
           [
             39,
-            "Jump Kick"
-          ],
-          [
-            43,
             "Double-Edge"
           ],
           [
-            46,
+            43,
             "Drill Peck"
           ],
           [
-            50,
+            46,
             "Acupressure"
           ],
           [
+            50,
+            "Head Charge"
+          ],
+          [
             54,
-            "High Horsepower"
+            "Earthquake"
           ],
           [
             59,
@@ -20129,7 +20129,7 @@ backup_data = {
           ],
           [
             17,
-            "Double Kick"
+            "Double Hit"
           ],
           [
             20,
@@ -20141,7 +20141,7 @@ backup_data = {
           ],
           [
             25,
-            "Submission"
+            "Jump Kick"
           ],
           [
             29,
@@ -20157,23 +20157,23 @@ backup_data = {
           ],
           [
             39,
-            "Jump Kick"
-          ],
-          [
-            43,
             "Double-Edge"
           ],
           [
-            46,
+            43,
             "Drill Peck"
           ],
           [
-            50,
+            46,
             "Acupressure"
           ],
           [
+            50,
+            "Head Charge"
+          ],
+          [
             54,
-            "High Horsepower"
+            "Earthquake"
           ],
           [
             59,
@@ -21452,7 +21452,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 45,
-        "at": 95,
+        "at": 100,
         "df": 45,
         "sa": 115,
         "sd": 55,
@@ -21630,7 +21630,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 110,
+        "at": 115,
         "df": 60,
         "sa": 130,
         "sd": 75,
@@ -23148,7 +23148,7 @@ backup_data = {
       "abs": [
         "Gourmand",
         "Chlorophyll",
-        "Berserk"
+        "Shell Armor"
       ],
       "evos": [
         "Exeggutor",
@@ -23178,9 +23178,9 @@ backup_data = {
       "bs": {
         "hp": 95,
         "at": 95,
-        "df": 120,
+        "df": 115,
         "sa": 125,
-        "sd": 75,
+        "sd": 90,
         "sp": 55
       },
       "learnset_info": {
@@ -23198,12 +23198,12 @@ backup_data = {
             "Defense Curl"
           ],
           [
-            5,
+            1,
             "Reflect"
           ],
           [
-            12,
-            "Seed Bomb"
+            1,
+            "Hyper Beam"
           ],
           [
             15,
@@ -23255,19 +23255,19 @@ backup_data = {
           ],
           [
             54,
-            "Sunny Day"
+            "Spit Up"
           ],
           [
             60,
-            "Leaf Storm"
-          ],
-          [
-            64,
             "Skull Bash"
           ],
           [
+            64,
+            "Sunny Day"
+          ],
+          [
             68,
-            "Hyper Beam"
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -23340,7 +23340,7 @@ backup_data = {
       "abs": [
         "Gourmand",
         "Chlorophyll",
-        "Berserk"
+        "Shell Armor"
       ],
       "evoType": "level",
       "evoItem": "Leaf Stone",
@@ -23353,9 +23353,9 @@ backup_data = {
         "Ground"
       ],
       "items": [
-        "Thick Club",
-        "Thick Club",
-        "Thick Club"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -23530,9 +23530,9 @@ backup_data = {
         "Ghost"
       ],
       "items": [
-        "Thick Club",
-        "Thick Club",
-        "Thick Club"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -29462,7 +29462,7 @@ backup_data = {
           ],
           [
             32,
-            "Razor Shell"
+            "Liquidation"
           ],
           [
             36,
@@ -29646,7 +29646,7 @@ backup_data = {
           ],
           [
             32,
-            "Razor Shell"
+            "Liquidation"
           ],
           [
             36,
@@ -32756,7 +32756,7 @@ backup_data = {
           ],
           [
             51,
-            "Spiky Shield"
+            "Liquidation"
           ],
           [
             55,
@@ -32947,7 +32947,7 @@ backup_data = {
           ],
           [
             51,
-            "Spiky Shield"
+            "Liquidation"
           ],
           [
             55,
@@ -36436,7 +36436,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 90,
-        "at": 100,
+        "at": 110,
         "df": 85,
         "sa": 115,
         "sd": 100,
@@ -36982,8 +36982,8 @@ backup_data = {
             "Encore"
           ],
           [
-            1,
-            "Brutal Swing"
+            6,
+            "Sing"
           ],
           [
             8,
@@ -43041,9 +43041,9 @@ backup_data = {
         "hp": 80,
         "at": 70,
         "df": 55,
-        "sa": 60,
+        "sa": 65,
         "sd": 50,
-        "sp": 65
+        "sp": 60
       },
       "learnset_info": {
         "learnset": [
@@ -43201,7 +43201,7 @@ backup_data = {
         "hp": 100,
         "at": 100,
         "df": 80,
-        "sa": 80,
+        "sa": 90,
         "sd": 60,
         "sp": 80
       },
@@ -44400,7 +44400,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 45,
-        "at": 70,
+        "at": 75,
         "df": 30,
         "sa": 80,
         "sd": 50,
@@ -44644,11 +44644,11 @@ backup_data = {
           ],
           [
             54,
-            "Will-O-Wisp"
+            "Dark Pulse"
           ],
           [
             60,
-            "Brutal Swing"
+            "Scary Face"
           ],
           [
             65,
@@ -46003,7 +46003,7 @@ backup_data = {
           ],
           [
             35,
-            "Refresh"
+            "Rapid Spin"
           ],
           [
             39,
@@ -46843,7 +46843,7 @@ backup_data = {
           ],
           [
             67,
-            "Brutal Swing"
+            "Egg Bomb"
           ],
           [
             75,
@@ -48330,7 +48330,7 @@ backup_data = {
         "at": 65,
         "df": 35,
         "sa": 65,
-        "sd": 50,
+        "sd": 55,
         "sp": 70
       },
       "learnset_info": {
@@ -48365,7 +48365,7 @@ backup_data = {
           ],
           [
             22,
-            "Trop Kick"
+            "Leaf Tornado"
           ],
           [
             25,
@@ -48381,11 +48381,11 @@ backup_data = {
           ],
           [
             36,
-            "Giga Drain"
+            "Trop Kick"
           ],
           [
             38,
-            "Synthesis"
+            "Weather Ball"
           ],
           [
             42,
@@ -48541,7 +48541,7 @@ backup_data = {
           ],
           [
             22,
-            "Trop Kick"
+            "Leaf Tornado"
           ],
           [
             25,
@@ -48557,11 +48557,11 @@ backup_data = {
           ],
           [
             36,
-            "Giga Drain"
+            "Trop Kick"
           ],
           [
             38,
-            "Synthesis"
+            "Weather Ball"
           ],
           [
             42,
@@ -48703,7 +48703,7 @@ backup_data = {
           ],
           [
             1,
-            "Wood Hammer"
+            "Solar Blade"
           ],
           [
             1,
@@ -48727,7 +48727,7 @@ backup_data = {
           ],
           [
             22,
-            "Trop Kick"
+            "Leaf Tornado"
           ],
           [
             25,
@@ -48743,11 +48743,11 @@ backup_data = {
           ],
           [
             36,
-            "Giga Drain"
+            "Trop Kick"
           ],
           [
             38,
-            "Synthesis"
+            "Weather Ball"
           ],
           [
             42,
@@ -48855,7 +48855,7 @@ backup_data = {
       "abs": [
         "Hyper Cutter",
         "Overgrow",
-        "Unburden"
+        "Solar Power"
       ],
       "evoType": "level",
       "evoLevel": 36
@@ -56120,7 +56120,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 95,
+        "at": 100,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -56130,11 +56130,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growth"
+            "Starburst"
           ],
           [
             1,
-            "Starburst"
+            "Retaliate"
           ],
           [
             7,
@@ -59296,7 +59296,7 @@ backup_data = {
           ],
           [
             1,
-            "Triple Dive"
+            "Earthquake"
           ],
           [
             15,
@@ -59320,7 +59320,7 @@ backup_data = {
           ],
           [
             29,
-            "Bubble Beam"
+            "Surf"
           ],
           [
             33,
@@ -59336,7 +59336,7 @@ backup_data = {
           ],
           [
             44,
-            "Surf"
+            "Triple Dive"
           ],
           [
             47,
@@ -59356,7 +59356,7 @@ backup_data = {
           ],
           [
             64,
-            "Brutal Swing"
+            "Wave Crash"
           ]
         ],
         "tms": [
@@ -62103,7 +62103,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Brutal Swing"
+            "Toxic"
           ],
           [
             1,
@@ -62155,7 +62155,7 @@ backup_data = {
           ],
           [
             39,
-            "Counter"
+            "Curse"
           ],
           [
             43,
@@ -62167,7 +62167,7 @@ backup_data = {
           ],
           [
             49,
-            "Toxic"
+            "Counter"
           ],
           [
             54,
@@ -62303,7 +62303,7 @@ backup_data = {
           ],
           [
             19,
-            "Breaking Swipe"
+            "Bind"
           ],
           [
             23,
@@ -62334,12 +62334,12 @@ backup_data = {
             "Swagger"
           ],
           [
-            44,
+            43,
             "Aqua Tail"
           ],
           [
-            44,
-            "Iron Tail"
+            47,
+            "Dark Pulse"
           ],
           [
             49,
@@ -62347,7 +62347,7 @@ backup_data = {
           ],
           [
             53,
-            "Crunch"
+            "Power Whip"
           ],
           [
             58,
@@ -63375,15 +63375,15 @@ backup_data = {
           ],
           [
             57,
-            "Brutal Swing"
-          ],
-          [
-            60,
             "Night Shade"
           ],
           [
-            66,
+            60,
             "Guillotine"
+          ],
+          [
+            66,
+            "Brutal Swing"
           ],
           [
             71,
@@ -66248,7 +66248,7 @@ backup_data = {
           ],
           [
             49,
-            "Perish Song"
+            "Healing Wish"
           ],
           [
             54,
@@ -66264,7 +66264,7 @@ backup_data = {
           ],
           [
             69,
-            "Brutal Swing"
+            "Perish Song"
           ],
           [
             75,
@@ -66826,7 +66826,7 @@ backup_data = {
           ],
           [
             22,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             25,
@@ -66834,15 +66834,15 @@ backup_data = {
           ],
           [
             30,
-            "Aqua Ring"
+            "Surf"
           ],
           [
             35,
-            "Ice Fang"
+            "Aqua Ring"
           ],
           [
             39,
-            "Surf"
+            "Liquidation"
           ],
           [
             43,
@@ -66992,7 +66992,7 @@ backup_data = {
           ],
           [
             22,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             25,
@@ -67000,15 +67000,15 @@ backup_data = {
           ],
           [
             30,
-            "Aqua Ring"
+            "Surf"
           ],
           [
             35,
-            "Ice Fang"
+            "Aqua Ring"
           ],
           [
             39,
-            "Surf"
+            "Liquidation"
           ],
           [
             43,
@@ -67160,7 +67160,7 @@ backup_data = {
           ],
           [
             22,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             25,
@@ -67168,15 +67168,15 @@ backup_data = {
           ],
           [
             30,
-            "Aqua Ring"
+            "Surf"
           ],
           [
             35,
-            "Ice Fang"
+            "Aqua Ring"
           ],
           [
             39,
-            "Surf"
+            "Liquidation"
           ],
           [
             43,
@@ -75585,7 +75585,7 @@ backup_data = {
           ],
           [
             20,
-            "Scald"
+            "Liquidation"
           ],
           [
             23,
@@ -75721,16 +75721,16 @@ backup_data = {
             "Rain Dance"
           ],
           [
-            4,
+            1,
             "Detect"
           ],
           [
-            7,
-            "Tail Slap"
+            1,
+            "Frost Breath"
           ],
           [
-            10,
-            "Water Pulse"
+            1,
+            "Head Charge"
           ],
           [
             14,
@@ -75742,7 +75742,7 @@ backup_data = {
           ],
           [
             20,
-            "Scald"
+            "Liquidation"
           ],
           [
             23,
@@ -75770,15 +75770,15 @@ backup_data = {
           ],
           [
             44,
-            "Tri Attack"
+            "Double-Edge"
           ],
           [
             48,
-            "Dive"
+            "Surf"
           ],
           [
             53,
-            "Double-Edge"
+            "Double Hit"
           ],
           [
             55,
@@ -75791,6 +75791,10 @@ backup_data = {
           [
             63,
             "Wave Crash"
+          ],
+          [
+            68,
+            "Triple Dive"
           ]
         ],
         "tms": [
@@ -83484,7 +83488,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 128,
+        "at": 123,
         "df": 102,
         "sa": 95,
         "sd": 85,
@@ -84730,7 +84734,7 @@ backup_data = {
         "df": 80,
         "sa": 110,
         "sd": 60,
-        "sp": 80
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -93139,7 +93143,7 @@ backup_data = {
             "Solar Beam"
           ],
           [
-            49,
+            48,
             "Morning Sun"
           ]
         ],
@@ -93298,7 +93302,7 @@ backup_data = {
           ],
           [
             51,
-            "Self-Destruct"
+            "Energy Ball"
           ],
           [
             54,
@@ -93461,12 +93465,12 @@ backup_data = {
             "Solar Beam"
           ],
           [
-            49,
+            48,
             "Morning Sun"
           ],
           [
             51,
-            "Self-Destruct"
+            "Energy Ball"
           ],
           [
             54,
@@ -95566,7 +95570,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Dual Chop"
+            "Karate Chop"
           ],
           [
             1,
@@ -95582,7 +95586,7 @@ backup_data = {
           ],
           [
             20,
-            "Lunge"
+            "Dual Chop"
           ],
           [
             24,
@@ -95626,7 +95630,7 @@ backup_data = {
           ],
           [
             61,
-            "Brutal Swing"
+            "Wicked Blow"
           ],
           [
             65,
@@ -95814,8 +95818,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Swarm",
         "Resilient",
+        "Swarm",
         "Filter"
       ],
       "evos": [
@@ -95884,7 +95888,7 @@ backup_data = {
           ],
           [
             36,
-            "Trop Kick"
+            "Leaf Blade"
           ],
           [
             40,
@@ -95952,7 +95956,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Swarm",
+        "Resilient",
         "Regenerator",
         "Filter"
       ],
@@ -96027,7 +96031,7 @@ backup_data = {
           ],
           [
             36,
-            "Trop Kick"
+            "Leaf Blade"
           ],
           [
             40,
@@ -96035,7 +96039,7 @@ backup_data = {
           ],
           [
             43,
-            "Leaf Storm"
+            "Triple Kick"
           ],
           [
             46,
@@ -96047,7 +96051,7 @@ backup_data = {
           ],
           [
             51,
-            "Leaf Blade"
+            "Leaf Storm"
           ],
           [
             55,
@@ -96063,7 +96067,7 @@ backup_data = {
           ],
           [
             68,
-            "Power Whip"
+            "Sticky Web"
           ],
           [
             75,
@@ -96131,7 +96135,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Hyper Cutter",
+        "Resilient",
         "Regenerator",
         "Savant"
       ],
@@ -104163,7 +104167,7 @@ backup_data = {
           ],
           [
             41,
-            "Brutal Swing"
+            "Dark Pulse"
           ],
           [
             44,
@@ -104322,7 +104326,7 @@ backup_data = {
           ],
           [
             41,
-            "Brutal Swing"
+            "Dark Pulse"
           ],
           [
             44,
@@ -105400,7 +105404,7 @@ backup_data = {
           ],
           [
             1,
-            "Brutal Swing"
+            "Acid Spray"
           ],
           [
             14,
@@ -107618,7 +107622,7 @@ backup_data = {
           ],
           [
             1,
-            "Brutal Swing"
+            "Draco Meteor"
           ],
           [
             15,
@@ -108476,8 +108480,8 @@ backup_data = {
             "Close Combat"
           ],
           [
-            1,
-            "Brutal Swing"
+            5,
+            "Yawn"
           ],
           [
             10,
@@ -108601,8 +108605,8 @@ backup_data = {
       },
       "abs": [
         "Swarm",
-        "Infiltrator",
-        "Dry Skin"
+        "Dry Skin",
+        "Infiltrator"
       ],
       "evoType": "trade"
     },
@@ -108864,7 +108868,7 @@ backup_data = {
           ],
           [
             53,
-            "Detect"
+            "Fake Out"
           ],
           [
             58,
@@ -108971,7 +108975,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Focus Energy"
+            "Fairy Wind"
           ],
           [
             1,
@@ -108983,11 +108987,11 @@ backup_data = {
           ],
           [
             1,
-            "Fake Out"
+            "Brutal Swing"
           ],
           [
-            1,
-            "Brutal Swing"
+            17,
+            "Force Palm"
           ],
           [
             20,
@@ -109035,7 +109039,7 @@ backup_data = {
           ],
           [
             53,
-            "Detect"
+            "Fake Out"
           ],
           [
             58,
@@ -110756,7 +110760,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Brutal Swing"
+            "Toxic"
           ],
           [
             1,
@@ -128501,7 +128505,7 @@ backup_data = {
         "item": "Wacan Berry",
         "nature": "Bashful",
         "moves": [
-          "Chilling Water",
+          "Frost Breath",
           "Tail Slap",
           "Natural Gift",
           "Flip Turn"
@@ -128754,7 +128758,7 @@ backup_data = {
           "Earthquake",
           "Muddy Water",
           "Volt Tackle",
-          "Swagger"
+          "Dragon Dance"
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
@@ -128939,13 +128943,13 @@ backup_data = {
         "item": "Light Ball",
         "nature": "Rash",
         "moves": [
-          "Hyper Voice",
+          "Slam",
           "Present",
           "Surf",
-          "Iron Tail"
+          "Quick Attack"
         ],
         "sub_index": 2,
-        "ability": "Static",
+        "ability": "Galvanize",
         "sprite": "trainer_sprites/schoolkid.png",
         "form": 0,
         "evs": {
@@ -129124,7 +129128,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Weakness Policy",
         "nature": "Modest",
         "moves": [
           "Thunder",
@@ -132767,7 +132771,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -132798,7 +132802,7 @@ backup_data = {
           "Swords Dance"
         ],
         "sub_index": 3,
-        "ability": "Hyper Cutter",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -132860,7 +132864,7 @@ backup_data = {
           "Swords Dance"
         ],
         "sub_index": 2,
-        "ability": "Hyper Cutter",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/bosstrainer.png",
         "form": 0,
         "evs": {
@@ -132953,7 +132957,7 @@ backup_data = {
           ""
         ],
         "sub_index": 4,
-        "ability": "Hyper Cutter",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -133046,7 +133050,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -144729,7 +144733,7 @@ backup_data = {
           "Dragon Claw"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -147954,7 +147958,7 @@ backup_data = {
         "moves": [
           "Double-Edge",
           "Quick Attack",
-          "Focus Blast",
+          "Cross Chop",
           "Temper Flare"
         ],
         "sub_index": 4,
@@ -164277,7 +164281,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Swarm",
+        "ability": "Resilient",
         "sprite": "trainer_sprites/nurseryaide.png",
         "form": 0,
         "evs": {
@@ -183840,7 +183844,7 @@ backup_data = {
           "Quick Attack"
         ],
         "sub_index": 0,
-        "ability": "Resilient",
+        "ability": "Swarm",
         "sprite": "trainer_sprites/pokefanf.png",
         "form": 0,
         "evs": {
@@ -183871,7 +183875,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Resilient",
+        "ability": "Swarm",
         "sprite": "trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -199422,7 +199426,7 @@ backup_data = {
           "Ancient Power"
         ],
         "sub_index": 0,
-        "ability": "Berserk",
+        "ability": "Shell Armor",
         "sprite": "trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
