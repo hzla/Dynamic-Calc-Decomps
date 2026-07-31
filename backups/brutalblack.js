@@ -6007,10 +6007,6 @@ backup_data = {
             "Overheat"
           ],
           [
-            62,
-            "Leaf Storm"
-          ],
-          [
             65,
             "Draco Meteor"
           ],
@@ -6146,10 +6142,6 @@ backup_data = {
           [
             62,
             "Overheat"
-          ],
-          [
-            62,
-            "Leaf Storm"
           ],
           [
             65,
@@ -6288,10 +6280,6 @@ backup_data = {
           [
             62,
             "Overheat"
-          ],
-          [
-            62,
-            "Leaf Storm"
           ],
           [
             65,
@@ -8148,7 +8136,7 @@ backup_data = {
       },
       "abs": [
         "Intimidate",
-        "Unnerve",
+        "Intimidate",
         "Unnerve"
       ],
       "evos": [
@@ -8275,7 +8263,7 @@ backup_data = {
       },
       "abs": [
         "Intimidate",
-        "Unnerve",
+        "Intimidate",
         "Unnerve"
       ]
     },
@@ -12345,6 +12333,10 @@ backup_data = {
             "Night Slash"
           ],
           [
+            40,
+            "Drain Punch"
+          ],
+          [
             44,
             "Submission"
           ],
@@ -12477,6 +12469,10 @@ backup_data = {
           [
             35,
             "Night Slash"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -13074,6 +13070,10 @@ backup_data = {
             "Mach Punch"
           ],
           [
+            1,
+            "Pound"
+          ],
+          [
             5,
             "Water Gun"
           ],
@@ -13100,6 +13100,10 @@ backup_data = {
           [
             35,
             "Waterfall"
+          ],
+          [
+            39,
+            "Drain Punch"
           ],
           [
             43,
@@ -15196,11 +15200,11 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement",
-        "Trade with Held Item"
+        "Item Use"
       ],
       "evoParams": [
         37,
-        "King's Rock"
+        "Water Stone"
       ]
     },
     "Slowbro": {
@@ -18434,6 +18438,10 @@ backup_data = {
           [
             40,
             "Detect"
+          ],
+          [
+            42,
+            "Drain Punch"
           ],
           [
             44,
@@ -32914,7 +32922,7 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 105,
-        "df": 50,
+        "df": 60,
         "sa": 115,
         "sd": 80,
         "sp": 100
@@ -33210,7 +33218,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Quick Feet",
+        "Battle Armor",
         "Battle Armor",
         "Sand Veil"
       ],
@@ -33241,7 +33249,7 @@ backup_data = {
         "df": 120,
         "sa": 60,
         "sd": 60,
-        "sp": 65
+        "sp": 50
       },
       "learnset_info": {
         "learnset": [
@@ -33322,7 +33330,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Quick Feet",
+        "Battle Armor",
         "Battle Armor",
         "Sand Veil"
       ]
@@ -35678,10 +35686,6 @@ backup_data = {
       },
       "learnset_info": {
         "learnset": [
-          [
-            1,
-            "Fake Out"
-          ],
           [
             1,
             "Pound"
@@ -41032,8 +41036,12 @@ backup_data = {
             "Rock Slide"
           ],
           [
-            40,
+            35,
             "Shadow Punch"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -41154,8 +41162,12 @@ backup_data = {
             "Rock Slide"
           ],
           [
-            40,
+            35,
             "Shadow Punch"
+          ],
+          [
+            40,
+            "Drain Punch"
           ],
           [
             44,
@@ -42395,6 +42407,10 @@ backup_data = {
             "Low Kick"
           ],
           [
+            50,
+            "Drain Punch"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -42527,6 +42543,10 @@ backup_data = {
           [
             45,
             "Low Kick"
+          ],
+          [
+            50,
+            "Drain Punch"
           ],
           [
             62,
@@ -45809,7 +45829,7 @@ backup_data = {
       "abs": [
         "Toxic Boost",
         "",
-        "Toxic Boost"
+        "Scrappy"
       ]
     },
     "Seviper": {
@@ -46271,7 +46291,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Mold Breaker",
+        "Adaptability",
         "Adaptability",
         "Hydration"
       ],
@@ -46387,7 +46407,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Mold Breaker",
+        "Adaptability",
         "Adaptability",
         "Drizzle"
       ]
@@ -47668,11 +47688,7 @@ backup_data = {
           ],
           [
             40,
-            "Thunderbolt"
-          ],
-          [
-            40,
-            "Aeroblast"
+            "Ice Beam"
           ],
           [
             40,
@@ -47680,7 +47696,15 @@ backup_data = {
           ],
           [
             40,
-            "Ice Beam"
+            "Thunderbolt"
+          ],
+          [
+            40,
+            "Aeroblast"
+          ],
+          [
+            50,
+            "Blizzard"
           ],
           [
             50,
@@ -47693,10 +47717,6 @@ backup_data = {
           [
             50,
             "Fire Blast"
-          ],
-          [
-            50,
-            "Blizzard"
           ],
           [
             50,
@@ -47744,7 +47764,7 @@ backup_data = {
       "abs": [
         "Forecast",
         "",
-        ""
+        "Trace"
       ]
     },
     "Kecleon": {
@@ -48645,7 +48665,6 @@ backup_data = {
           "Grass Knot",
           "Swagger",
           "Natural Gift",
-          "Flash Cannon",
           "Trick Room"
         ]
       },
@@ -52532,15 +52551,15 @@ backup_data = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Ice Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -52552,7 +52571,7 @@ backup_data = {
           ],
           [
             44,
-            "Taunt"
+            "Drain Punch"
           ],
           [
             50,
@@ -52690,15 +52709,15 @@ backup_data = {
           ],
           [
             32,
-            "Ice Punch"
-          ],
-          [
-            32,
             "Fire Punch"
           ],
           [
             32,
             "Thunder Punch"
+          ],
+          [
+            32,
+            "Ice Punch"
           ],
           [
             36,
@@ -52710,7 +52729,7 @@ backup_data = {
           ],
           [
             44,
-            "Taunt"
+            "Drain Punch"
           ],
           [
             50,
@@ -53405,7 +53424,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        34
+        36
       ]
     },
     "Staraptor": {
@@ -57360,6 +57379,7 @@ backup_data = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Snarl",
           "Cut"
         ]
       },
@@ -57498,6 +57518,7 @@ backup_data = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Snarl",
           "Cut"
         ]
       },
@@ -59306,7 +59327,7 @@ backup_data = {
           ],
           [
             21,
-            "Rock Smash"
+            "Drain Punch"
           ],
           [
             26,
@@ -59441,7 +59462,7 @@ backup_data = {
           ],
           [
             21,
-            "Rock Smash"
+            "Drain Punch"
           ],
           [
             26,
@@ -63304,7 +63325,7 @@ backup_data = {
       "abs": [
         "Levitate",
         "",
-        ""
+        "Levitate"
       ]
     },
     "Uxie": {
@@ -65225,7 +65246,7 @@ backup_data = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -65370,7 +65391,7 @@ backup_data = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -65460,8 +65481,8 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 90,
-        "at": 45,
+        "hp": 75,
+        "at": 60,
         "df": 95,
         "sa": 112,
         "sd": 95,
@@ -65515,7 +65536,7 @@ backup_data = {
           ],
           [
             42,
-            "Helping Hand"
+            "Fling"
           ],
           [
             46,
@@ -69806,6 +69827,10 @@ backup_data = {
             "Soft-Boiled"
           ],
           [
+            40,
+            "Wish"
+          ],
+          [
             44,
             "Icy Wind"
           ],
@@ -72128,7 +72153,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Rock Head",
+        "Mold Breaker",
         "Adaptability",
         "Mold Breaker"
       ]
@@ -74160,8 +74185,8 @@ backup_data = {
             "Rock Climb"
           ],
           [
-            44,
-            "Fly"
+            45,
+            "Fling"
           ],
           [
             50,
@@ -74206,6 +74231,7 @@ backup_data = {
           "Rest",
           "Attract",
           "Round",
+          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Rock Polish",
@@ -74249,11 +74275,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 140,
+        "at": 150,
         "df": 65,
-        "sa": 112,
+        "sa": 110,
         "sd": 65,
-        "sp": 110
+        "sp": 112
       },
       "learnset_info": {
         "learnset": [
@@ -74294,8 +74320,8 @@ backup_data = {
             "Rock Climb"
           ],
           [
-            44,
-            "Fly"
+            45,
+            "Fling"
           ],
           [
             50,
@@ -74342,6 +74368,7 @@ backup_data = {
           "Attract",
           "Round",
           "Focus Blast",
+          "Fling",
           "Acrobatics",
           "Shadow Claw",
           "Giga Impact",
@@ -88808,8 +88835,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -88826,7 +88853,7 @@ backup_data = {
         "reward_item": "Zoom Lens",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Relaxed",
+        "nature": "Lax",
         "moves": [
           "Hydro Pump",
           "Hurricane",
@@ -89396,7 +89423,7 @@ backup_data = {
           "Superpower",
           "Focus Punch",
           "Close Combat",
-          "Shadow Punch"
+          "Drain Punch"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
@@ -90832,7 +90859,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Life Orb",
         "gender": "Male",
         "nature": "Naive",
         "moves": [
@@ -91075,7 +91102,7 @@ backup_data = {
           "Sludge Wave"
         ],
         "sub_index": 3,
-        "ability": "Shadow Tag",
+        "ability": "Levitate",
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -91372,8 +91399,8 @@ backup_data = {
         "moves": [
           "Thunderbolt",
           "Flash Cannon",
-          "Tri Attack",
-          "Signal Beam"
+          "Supersonic",
+          "Magnet Rise"
         ],
         "sub_index": 2,
         "ability": "Analytic",
@@ -92263,12 +92290,12 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Black Glasses",
+        "item": "Dark Gem",
         "gender": "Male",
         "nature": "Timid",
         "moves": [
-          "V-create",
-          "Sucker Punch",
+          "Flare Blitz",
+          "Hammer Arm",
           "Knock Off",
           "Stone Edge"
         ],
@@ -93243,8 +93270,8 @@ backup_data = {
       }
     },
     "Cleffa": {
-      "Lvl 27 Twins Kumi & Amy - Route 3": {
-        "level": 27,
+      "Lvl 25 Twins Kumi & Amy - Route 3": {
+        "level": 25,
         "ai": 135,
         "noCh": false,
         "tr_id": 18,
@@ -93261,7 +93288,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Female",
-        "nature": "Timid",
+        "nature": "Quiet",
         "moves": [
           "Hyper Voice",
           "Ice Beam",
@@ -93311,8 +93338,8 @@ backup_data = {
       }
     },
     "Igglybuff": {
-      "Lvl 27 Twins Kumi & Amy - Route 3": {
-        "level": 27,
+      "Lvl 25 Twins Kumi & Amy - Route 3": {
+        "level": 25,
         "ai": 135,
         "noCh": false,
         "tr_id": 18,
@@ -93329,7 +93356,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Female",
-        "nature": "Serious",
+        "nature": "Impish",
         "moves": [
           "Hyper Voice",
           "Moonlight",
@@ -93379,8 +93406,8 @@ backup_data = {
       }
     },
     "Togepi": {
-      "Lvl 27 Twins Kumi & Amy - Route 3": {
-        "level": 27,
+      "Lvl 25 Twins Kumi & Amy - Route 3": {
+        "level": 25,
         "ai": 135,
         "noCh": false,
         "tr_id": 18,
@@ -93397,7 +93424,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Adamant",
+        "nature": "Timid",
         "moves": [
           "Swift",
           "Defense Curl",
@@ -93414,8 +93441,8 @@ backup_data = {
       }
     },
     "Pichu": {
-      "Lvl 27 Twins Kumi & Amy - Route 3": {
-        "level": 27,
+      "Lvl 25 Twins Kumi & Amy - Route 3": {
+        "level": 25,
         "ai": 135,
         "noCh": false,
         "tr_id": 18,
@@ -93432,7 +93459,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Impish",
+        "nature": "Naive",
         "moves": [
           "Thunderbolt",
           "Earth Power",
@@ -98879,7 +98906,7 @@ backup_data = {
           "Power Whip"
         ],
         "sub_index": 1,
-        "ability": "Intimidate",
+        "ability": "Moxie",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -99220,39 +99247,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 78 Veteran TFG - Victory Road": {
-        "level": 78,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 248,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "gender": "Male",
-        "nature": "Lonely",
-        "moves": [
-          "Quiver Dance",
-          "Energy Ball",
-          "Bug Buzz",
-          "Heat Wave"
-        ],
-        "sub_index": 1,
-        "ability": "Flash Fire",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 73 Ace Trainer Clara - Opelucid City": {
         "level": 73,
         "ai": 135,
@@ -99276,7 +99270,7 @@ backup_data = {
           "Fiery Dance",
           "Bug Buzz",
           "Giga Drain",
-          "Thunderbolt"
+          "Psychic"
         ],
         "sub_index": 5,
         "ability": "Flash Fire",
@@ -103308,6 +103302,39 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 81 Elite Four Caitlin - Pokemon League": {
+        "level": 81,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 231,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "gender": "Male",
+        "nature": "Bashful",
+        "moves": [
+          "Sky Uppercut",
+          "Flare Blitz",
+          "Rock Slide",
+          "Zen Headbutt"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/elite_four.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 40 Linebacker Dan3": {
         "level": 40,
         "ai": 7,
@@ -103800,7 +103827,7 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 1,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103833,7 +103860,7 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103866,7 +103893,7 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 2,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103899,7 +103926,7 @@ backup_data = {
           "Ice Beam"
         ],
         "sub_index": 2,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -103932,7 +103959,7 @@ backup_data = {
           "Screech"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103965,7 +103992,7 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -103998,7 +104025,7 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 2,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -104031,7 +104058,7 @@ backup_data = {
           "Bite"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -104165,6 +104192,39 @@ backup_data = {
           ""
         ],
         "sub_index": 3,
+        "ability": "Prankster",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 78 Veteran TFG - Victory Road": {
+        "level": 78,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 248,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Iron Ball",
+        "gender": "Male",
+        "nature": "Modest",
+        "moves": [
+          "Trick",
+          "Tailwind",
+          "Leech Seed",
+          "Energy Ball"
+        ],
+        "sub_index": 1,
         "ability": "Prankster",
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
@@ -104421,7 +104481,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Wide Lens",
         "gender": "Female",
         "nature": "Adamant",
         "moves": [
@@ -106434,8 +106494,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -106452,7 +106512,7 @@ backup_data = {
         "reward_item": "Zoom Lens",
         "item": "Expert Belt",
         "gender": "Male",
-        "nature": "Calm",
+        "nature": "Sassy",
         "moves": [
           "Focus Blast",
           "Hurricane",
@@ -107062,7 +107122,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Charti Berry",
+        "item": "Lum Berry",
         "gender": "Male",
         "nature": "Relaxed",
         "moves": [
@@ -109823,7 +109883,7 @@ backup_data = {
         "gender": "",
         "nature": "Jolly",
         "moves": [
-          "Self-Destruct",
+          "Explosion",
           "Thunderbolt",
           "Flash Cannon",
           "Thunder Wave"
@@ -109954,6 +110014,39 @@ backup_data = {
         "item": "Air Balloon",
         "gender": "",
         "nature": "Timid",
+        "moves": [
+          "Thunderbolt",
+          "Flash Cannon",
+          "Energy Ball",
+          "Light Screen"
+        ],
+        "sub_index": 2,
+        "ability": "Static",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 84 Team Plasma N4 - N's Castle": {
+        "level": 84,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 587,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "gender": "",
+        "nature": "Hardy",
         "moves": [
           "Thunderbolt",
           "Flash Cannon",
@@ -110926,7 +111019,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Air Balloon",
+        "item": "Shuca Berry",
         "gender": "Male",
         "nature": "Quirky",
         "moves": [
@@ -111138,7 +111231,7 @@ backup_data = {
           "Hex"
         ],
         "sub_index": 0,
-        "ability": "",
+        "ability": "Levitate",
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 2,
         "evs": {
@@ -112134,7 +112227,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Focus Sash",
+        "item": "Expert Belt",
         "gender": "Male",
         "nature": "Brave",
         "moves": [
@@ -112301,7 +112394,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Air Balloon",
+        "item": "Sitrus Berry",
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
@@ -113253,39 +113346,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 50 Team Plasma N4 - N's Castle": {
-        "level": 50,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 587,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "gender": "Male",
-        "nature": "Naive",
-        "moves": [
-          "Frost Breath",
-          "Blizzard",
-          "Hail",
-          "Flash Cannon"
-        ],
-        "sub_index": 2,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Ninetales": {
@@ -113338,12 +113398,12 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Eject Button",
         "gender": "Female",
         "nature": "Lonely",
         "moves": [
-          "Sunny Day",
-          "Flamethrower",
+          "Psychic",
+          "Heat Wave",
           "Shadow Ball",
           "Will-O-Wisp"
         ],
@@ -114109,7 +114169,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Focus Sash",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Lax",
         "moves": [
           "Zap Cannon",
           "Attack Order",
@@ -114412,7 +114472,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Leftovers",
         "gender": "Male",
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Avalanche",
           "Razor Shell",
@@ -115602,33 +115662,33 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma N4 - N's Castle": {
-        "level": 50,
-        "ai": 39,
+      "Lvl 84 Team Plasma N4 - N's Castle": {
+        "level": 84,
+        "ai": 7,
         "noCh": false,
         "tr_id": 587,
         "diff": 0,
         "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Focus Sash",
         "gender": "Male",
-        "nature": "Bashful",
+        "nature": "Bold",
         "moves": [
-          "Night Slash",
-          "Flamethrower",
+          "Nasty Plot",
+          "Night Daze",
           "Focus Blast",
-          "Retaliate"
+          "Dark Void"
         ],
-        "sub_index": 4,
-        "ability": "Infiltrator",
+        "sub_index": 0,
+        "ability": "Illusion",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -115686,9 +115746,9 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Quirky",
+        "nature": "Bashful",
         "moves": [
           "Scald",
           "Protect",
@@ -115857,7 +115917,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Rash",
         "moves": [
-          "Dynamic Punch",
+          "Focus Blast",
           "Stone Edge",
           "Earthquake",
           "Shadow Punch"
@@ -117164,13 +117224,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Chople Berry",
+        "item": "Haban Berry",
         "gender": "Female",
         "nature": "Lax",
         "moves": [
           "Fake Out",
-          "Outrage",
-          "Thrash",
+          "Dragon Claw",
+          "Body Slam",
           "Fire Punch"
         ],
         "sub_index": 2,
@@ -118914,7 +118974,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 3,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -119009,10 +119069,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Adamant",
         "moves": [
-          "Earth Power",
-          "Flamethrower",
+          "Mud Bomb",
+          "Lava Plume",
           "Rock Slide",
-          "Flash Cannon"
+          "Focus Energy"
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
@@ -119378,9 +119438,9 @@ backup_data = {
         "gender": "Male",
         "nature": "Bashful",
         "moves": [
-          "Head Smash",
-          "U-turn",
-          "Stealth Rock",
+          "Rock Slide",
+          "Leech Life",
+          "Aqua Jet",
           "Drill Run"
         ],
         "sub_index": 2,
@@ -120622,7 +120682,7 @@ backup_data = {
           "Superpower",
           "Focus Punch",
           "Close Combat",
-          "Shadow Punch"
+          "Drain Punch"
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
@@ -120825,13 +120885,13 @@ backup_data = {
         "gender": "Male",
         "nature": "Impish",
         "moves": [
-          "Hammer Arm",
+          "Drain Punch",
           "Shadow Punch",
           "Thunder Punch",
-          "Ice Punch"
+          "Will-O-Wisp"
         ],
         "sub_index": 0,
-        "ability": "Iron Fist",
+        "ability": "Levitate",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -120893,10 +120953,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Bashful",
         "moves": [
-          "Energy Ball",
-          "Psychic",
+          "Giga Drain",
+          "Psyshock",
           "Earth Power",
-          "Sleep Powder"
+          "Leech Seed"
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
@@ -120994,13 +121054,13 @@ backup_data = {
         "gender": "Male",
         "nature": "Quirky",
         "moves": [
-          "Rock Slide",
+          "Strength",
           "Aqua Tail",
-          "Superpower",
+          "Iron Defense",
           "Zen Headbutt"
         ],
         "sub_index": 4,
-        "ability": "Shell Armor",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -121035,39 +121095,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Shell Armor",
         "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 Team Plasma N4 - N's Castle": {
-        "level": 50,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 587,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "gender": "Male",
-        "nature": "Adamant",
-        "moves": [
-          "Aqua Jet",
-          "Waterfall",
-          "Stone Edge",
-          "Crunch"
-        ],
-        "sub_index": 1,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -121230,7 +121257,7 @@ backup_data = {
         "nature": "Quirky",
         "moves": [
           "Close Combat",
-          "Reversal",
+          "Ice Punch",
           "Retaliate",
           "Stone Edge"
         ],
@@ -121409,8 +121436,8 @@ backup_data = {
       }
     },
     "Druddigon": {
-      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -121528,7 +121555,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
-          "Outrage",
+          "Dragon Claw",
           "Hammer Arm",
           "",
           ""
@@ -121576,8 +121603,8 @@ backup_data = {
       }
     },
     "Lairon": {
-      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -121611,8 +121638,8 @@ backup_data = {
       }
     },
     "Gurdurr": {
-      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -121629,7 +121656,7 @@ backup_data = {
         "reward_item": "Wide Lens",
         "item": "Zoom Lens",
         "gender": "Male",
-        "nature": "Relaxed",
+        "nature": "Bashful",
         "moves": [
           "Cross Chop",
           "Stone Edge",
@@ -121877,8 +121904,8 @@ backup_data = {
       }
     },
     "Duosion": {
-      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -121895,7 +121922,7 @@ backup_data = {
         "reward_item": "Wide Lens",
         "item": "Zoom Lens",
         "gender": "Male",
-        "nature": "Docile",
+        "nature": "Quiet",
         "moves": [
           "Focus Blast",
           "Psyshock",
@@ -122404,7 +122431,7 @@ backup_data = {
           "Surf",
           "Ice Beam",
           "Flash Cannon",
-          "Shell Smash"
+          "Iron Defense"
         ],
         "sub_index": 1,
         "ability": "No Guard",
@@ -122414,11 +122441,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 71 Pkmn Trainer Bianca9 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca8 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 496,
+        "tr_id": 495,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -122432,9 +122459,9 @@ backup_data = {
         "reward_item": "None",
         "item": "Leftovers",
         "gender": "Male",
-        "nature": "Careful",
+        "nature": "Quiet",
         "moves": [
-          "Muddy Water",
+          "Scald",
           "Flash Cannon",
           "Icy Wind",
           "Follow Me"
@@ -122839,7 +122866,7 @@ backup_data = {
         "nature": "Calm",
         "moves": [
           "Psychic",
-          "Hurricane",
+          "Air Slash",
           "Heat Wave",
           "Energy Ball"
         ],
@@ -123539,7 +123566,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Quick Claw",
         "gender": "Male",
-        "nature": "Jolly",
+        "nature": "Bold",
         "moves": [
           "Cross Chop",
           "Crush Claw",
@@ -123888,11 +123915,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 71 Pkmn Trainer Bianca8 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca9 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 495,
+        "tr_id": 496,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -123906,7 +123933,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Bashful",
+        "nature": "Careful",
         "moves": [
           "Waterfall",
           "Dragon Claw",
@@ -124510,7 +124537,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Chople Berry",
+        "item": "Lum Berry",
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
@@ -124795,6 +124822,39 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 78 Veteran TFG - Victory Road": {
+        "level": 78,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 248,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "White Herb",
+        "gender": "Male",
+        "nature": "Timid",
+        "moves": [
+          "Draco Meteor",
+          "Flamethrower",
+          "Tailwind",
+          "Earth Power"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 64 Scientist Nathan - P2 Laboratory": {
         "level": 64,
         "ai": 7,
@@ -124828,11 +124888,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 71 Pkmn Trainer Bianca8 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca7 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 495,
+        "tr_id": 494,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -124846,7 +124906,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fire Gem",
         "gender": "Male",
-        "nature": "Hardy",
+        "nature": "Rash",
         "moves": [
           "Fire Blast",
           "Dragon Pulse",
@@ -128301,8 +128361,8 @@ backup_data = {
         "moves": [
           "Follow Me",
           "Icy Wind",
-          "Soft-Boiled",
-          "Hyper Beam"
+          "Wish",
+          "Soft-Boiled"
         ],
         "sub_index": 0,
         "ability": "Regenerator",
@@ -128334,8 +128394,8 @@ backup_data = {
         "moves": [
           "Follow Me",
           "Icy Wind",
-          "Soft-Boiled",
-          "Hyper Beam"
+          "Wish",
+          "Soft-Boiled"
         ],
         "sub_index": 0,
         "ability": "Regenerator",
@@ -129219,8 +129279,8 @@ backup_data = {
       }
     },
     "Machoke": {
-      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -129237,7 +129297,7 @@ backup_data = {
         "reward_item": "Zoom Lens",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Serious",
+        "nature": "Brave",
         "moves": [
           "Cross Chop",
           "Stone Edge",
@@ -129254,8 +129314,8 @@ backup_data = {
       }
     },
     "Monferno": {
-      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 31,
+      "Lvl 28 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 28,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -129272,7 +129332,7 @@ backup_data = {
         "reward_item": "Zoom Lens",
         "item": "Wise Glasses",
         "gender": "Male",
-        "nature": "Hasty",
+        "nature": "Jolly",
         "moves": [
           "Fire Blast",
           "Focus Blast",
@@ -129846,7 +129906,7 @@ backup_data = {
         "nature": "Timid",
         "moves": [
           "Surf",
-          "Hurricane",
+          "Aeroblast",
           "Roost",
           "Tailwind"
         ],
@@ -130193,39 +130253,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 50 Team Plasma N4 - N's Castle": {
-        "level": 50,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 587,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "gender": "Male",
-        "nature": "Impish",
-        "moves": [
-          "Dragon Claw",
-          "Acrobatics",
-          "Stone Edge",
-          "Crunch"
-        ],
-        "sub_index": 3,
-        "ability": "Klutz",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Golem": {
@@ -130518,7 +130545,7 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Leech Life",
-          "Payback",
+          "Feint Attack",
           "Zen Headbutt",
           "Poison Jab"
         ],
@@ -130546,12 +130573,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Normal Gem",
         "gender": "Male",
         "nature": "Sassy",
         "moves": [
           "Payback",
-          "Explosion",
+          "Giga Impact",
           "Screech",
           "U-turn"
         ],
@@ -131220,7 +131247,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Water Gem",
         "gender": "Male",
-        "nature": "Gentle",
+        "nature": "Naive",
         "moves": [
           "Bullet Punch",
           "Crabhammer",
@@ -131519,7 +131546,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Muscle Band",
         "gender": "Male",
         "nature": "Bold",
         "moves": [
@@ -132849,11 +132876,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 71 Pkmn Trainer Bianca7 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca8 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 494,
+        "tr_id": 495,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -132867,7 +132894,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fire Gem",
         "gender": "Male",
-        "nature": "Rash",
+        "nature": "Hardy",
         "moves": [
           "Flare Blitz",
           "Drill Run",
@@ -132910,7 +132937,7 @@ backup_data = {
           "Ice Beam"
         ],
         "sub_index": 0,
-        "ability": "",
+        "ability": "Drizzle",
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 2,
         "evs": {
@@ -133086,11 +133113,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 71 Pkmn Trainer Bianca9 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca7 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 496,
+        "tr_id": 494,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -133104,7 +133131,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Brave",
         "moves": [
           "Psychic",
           "Energy Ball",
@@ -133508,13 +133535,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Water Gem",
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
-          "Explosion",
-          "Water Spout",
           "Destiny Bond",
+          "Water Spout",
+          "Pain Split",
           "Gunk Shot"
         ],
         "sub_index": 1,
@@ -134848,14 +134875,14 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Dark Gem",
+        "item": "Choice Band",
         "gender": "Male",
         "nature": "Naive",
         "moves": [
           "Pursuit",
-          "Crunch",
-          "Drill Run",
-          "Wild Charge"
+          "",
+          "",
+          ""
         ],
         "sub_index": 5,
         "ability": "Intimidate",
@@ -134883,7 +134910,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Hardy",
+        "nature": "Sassy",
         "moves": [
           "Knock Off",
           "Night Slash",
@@ -135399,39 +135426,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma N4 - N's Castle": {
-        "level": 50,
-        "ai": 39,
-        "noCh": false,
-        "tr_id": 587,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "gender": "",
-        "nature": "Rash",
-        "moves": [
-          "Thunderbolt",
-          "Flash Cannon",
-          "Hyper Beam",
-          "Metal Sound"
-        ],
-        "sub_index": 5,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 65 Ace Trainer Glinda - Bridge Gate": {
         "level": 65,
         "ai": 135,
@@ -135827,7 +135821,7 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "Battle Armor",
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -136029,7 +136023,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Lax",
         "moves": [
-          "Gunk Shot",
+          "Poison Jab",
           "Dragon Claw",
           "Fire Fang",
           "Glare"
@@ -136058,7 +136052,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "King's Rock",
+        "item": "Air Balloon",
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
@@ -136399,7 +136393,7 @@ backup_data = {
           "Close Combat",
           "Aqua Tail",
           "Ice Punch",
-          "Waterfall"
+          "Drain Punch"
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
@@ -138051,6 +138045,39 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 84 Team Plasma N4 - N's Castle": {
+        "level": 84,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 587,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rindo Berry",
+        "gender": "Male",
+        "nature": "Quiet",
+        "moves": [
+          "Rock Polish",
+          "Earthquake",
+          "Stone Edge",
+          "Megahorn"
+        ],
+        "sub_index": 4,
+        "ability": "Solid Rock",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Bronzong": {
@@ -138981,7 +139008,7 @@ backup_data = {
         "moves": [
           "Night Slash",
           "Cross Poison",
-          "X-Scissor",
+          "Aqua Tail",
           "Focus Energy"
         ],
         "sub_index": 2,
@@ -139221,41 +139248,6 @@ backup_data = {
         "ability": "Unnerve",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Darmanitan-Zen": {
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 231,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "gender": "Male",
-        "nature": "Bashful",
-        "moves": [
-          "Psychic",
-          "Fire Blast",
-          "Focus Blast",
-          "Yawn"
-        ],
-        "sub_index": 1,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/elite_four.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -140171,39 +140163,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 78 Veteran TFG - Victory Road": {
-        "level": 78,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 248,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "gender": "Male",
-        "nature": "Gentle",
-        "moves": [
-          "Flare Blitz",
-          "Sunny Day",
-          "Wild Charge",
-          "Close Combat"
-        ],
-        "sub_index": 4,
-        "ability": "Flash Fire",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 53 Team Plasma Grunt15 - Chargestone Cave": {
         "level": 53,
         "ai": 7,
@@ -140626,9 +140585,9 @@ backup_data = {
         "reward_item": "None",
         "item": "Griseous Orb",
         "gender": "",
-        "nature": "Calm",
+        "nature": "Brave",
         "moves": [
-          "Dragon Pulse",
+          "Dragon Claw",
           "Shadow Force",
           "Protect",
           "Weather Ball"
@@ -140661,11 +140620,11 @@ backup_data = {
         "reward_item": "None",
         "item": "Lustrous Orb",
         "gender": "",
-        "nature": "Lonely",
+        "nature": "Docile",
         "moves": [
-          "Hydro Pump",
+          "Scald",
           "Spacial Rend",
-          "Thunder",
+          "Thunderbolt",
           "Protect"
         ],
         "sub_index": 2,
@@ -140729,7 +140688,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Adamant Orb",
         "gender": "",
-        "nature": "Hasty",
+        "nature": "Relaxed",
         "moves": [
           "Roar of Time",
           "Flash Cannon",
@@ -140797,7 +140756,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Leftovers",
         "gender": "Male",
-        "nature": "Mild",
+        "nature": "Modest",
         "moves": [
           "Coil",
           "Protect",
@@ -140969,7 +140928,7 @@ backup_data = {
           "Thunder",
           "Hurricane",
           "U-turn",
-          "Energy Ball"
+          "Ancient Power"
         ],
         "sub_index": 1,
         "ability": "Lightning Rod",
@@ -140997,7 +140956,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Fire Gem",
+        "item": "Expert Belt",
         "gender": "",
         "nature": "Relaxed",
         "moves": [
@@ -141015,7 +140974,7 @@ backup_data = {
         }
       }
     },
-    "Groudon": {
+    "Darmanitan-Zen": {
       "Lvl 78 Veteran TFG - Victory Road": {
         "level": 78,
         "ai": 135,
@@ -141032,19 +140991,19 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Expert Belt",
-        "gender": "",
-        "nature": "Modest",
+        "item": "Life Orb",
+        "gender": "Male",
+        "nature": "Lonely",
         "moves": [
-          "Earth Power",
-          "Heat Crash",
-          "Stone Edge",
-          "Hammer Arm"
+          "Light Screen",
+          "Flamethrower",
+          "Extrasensory",
+          "Reflect"
         ],
-        "sub_index": 3,
-        "ability": "Drought",
+        "sub_index": 4,
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
+        "form": 1,
         "evs": {
           "df": 0
         }
@@ -141172,7 +141131,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Twisted Spoon",
         "gender": "",
-        "nature": "Brave",
+        "nature": "Calm",
         "moves": [
           "Mist Ball",
           "Future Sight",
@@ -141240,7 +141199,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Naughty",
+        "nature": "Quirky",
         "moves": [
           "Hurricane",
           "Dragon Pulse",
@@ -141780,7 +141739,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Mild",
         "moves": [
-          "Hurricane",
+          "Air Slash",
           "Dragon Pulse",
           "Heat Wave",
           "Cotton Guard"
@@ -145104,6 +145063,39 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 84 Team Plasma N4 - N's Castle": {
+        "level": 84,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 587,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "gender": "",
+        "nature": "Lonely",
+        "moves": [
+          "Hydro Pump",
+          "Thunder",
+          "Blizzard",
+          "Luster Purge"
+        ],
+        "sub_index": 1,
+        "ability": "No Guard",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Hitmonlee": {
@@ -145896,7 +145888,7 @@ backup_data = {
           "Focus Punch",
           "Close Combat",
           "Sky Uppercut",
-          "Detect"
+          "Drain Punch"
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
@@ -146570,6 +146562,39 @@ backup_data = {
         "item": "Expert Belt",
         "gender": "Male",
         "nature": "Lax",
+        "moves": [
+          "Focus Blast",
+          "Hurricane",
+          "Featherdance",
+          "Thunder"
+        ],
+        "sub_index": 3,
+        "ability": "No Guard",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 84 Team Plasma N4 - N's Castle": {
+        "level": 84,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 587,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Expert Belt",
+        "gender": "Male",
+        "nature": "Quirky",
         "moves": [
           "Focus Blast",
           "Hurricane",
@@ -147432,7 +147457,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -147872,9 +147897,9 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Close Combat",
+          "Drain Punch",
           "Low Kick",
-          "Submission",
-          "Zen Headbutt"
+          "Submission"
         ],
         "sub_index": 0,
         "ability": "Pure Power",
@@ -147907,9 +147932,9 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Close Combat",
+          "Drain Punch",
           "Low Kick",
-          "Submission",
-          "Zen Headbutt"
+          "Submission"
         ],
         "sub_index": 1,
         "ability": "Pure Power",
@@ -148522,7 +148547,7 @@ backup_data = {
           "Rapid Spin"
         ],
         "sub_index": 4,
-        "ability": "Quick Feet",
+        "ability": "Battle Armor",
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -148706,11 +148731,11 @@ backup_data = {
       }
     },
     "Venusaur": {
-      "Lvl 71 Pkmn Trainer Bianca7 - Route 8": {
+      "Lvl 71 Pkmn Trainer Bianca9 - Route 8": {
         "level": 71,
         "ai": 135,
         "noCh": false,
-        "tr_id": 494,
+        "tr_id": 496,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -148724,7 +148749,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Brave",
+        "nature": "Jolly",
         "moves": [
           "Energy Ball",
           "Sludge Bomb",
@@ -148732,7 +148757,7 @@ backup_data = {
           "Sleep Powder"
         ],
         "sub_index": 3,
-        "ability": "Thick Fat",
+        "ability": "Chlorophyll",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -149679,32 +149704,32 @@ backup_data = {
       }
     },
     "Zekrom": {
-      "Lvl 52 Team Plasma N4 - N's Castle": {
-        "level": 52,
-        "ai": 39,
+      "Lvl 85 Team Plasma N4 - N's Castle": {
+        "level": 85,
+        "ai": 7,
         "noCh": false,
         "tr_id": 587,
         "diff": 0,
         "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "White Herb",
         "gender": "",
-        "nature": "Timid",
+        "nature": "Calm",
         "moves": [
-          "Zen Headbutt",
-          "Giga Impact",
-          "Light Screen",
-          "Fusion Bolt"
+          "Dragon Rush",
+          "Focus Blast",
+          "Hone Claws",
+          "Bolt Strike"
         ],
-        "sub_index": 0,
+        "sub_index": 5,
         "ability": "Teravolt",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
