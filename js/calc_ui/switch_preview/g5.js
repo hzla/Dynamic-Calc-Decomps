@@ -469,7 +469,7 @@ function g5BuildCascadePhase2Rankings(trainerPoks, player, cascadeContext, apply
                 moveBp *= 1.5
             }
 
-            if (opposing.hasAbility("Tenacity") && cascadeContext.baseTypeInfo[moveType] < 1) {
+            if ((opposing.hasAbility("Tenacity") || opposing.hasAbility("Tinted Lens")) && cascadeContext.baseTypeInfo[moveType] < 1) {
                 moveBp *= 2
             }
 
@@ -558,7 +558,7 @@ function g5BuildCascadePhase2Rankings(trainerPoks, player, cascadeContext, apply
             }
 
             var typeInfo = g5GetCascadePhase2TypeInfo(opposing, moveName, cascadeContext.playerType1, cascadeContext.playerType2)
-            if (typeInfo[moveType] < 1 && opposing.hasAbility("Tenacity")) {
+            if (typeInfo[moveType] < 1 && (opposing.hasAbility("Tenacity") || opposing.hasAbility("Tinted Lens"))) {
                 moveBp *= 2
             }
 
