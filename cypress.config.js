@@ -1,4 +1,9 @@
 const { defineConfig } = require("cypress");
+const path = require("path");
+const {
+  formatBackupValidationReport,
+  validateBackupDataSources,
+} = require("./cypress/support/backupDataValidation");
 
 module.exports = defineConfig({
   e2e: {
@@ -7,6 +12,14 @@ module.exports = defineConfig({
         warn(message) {
           console.warn(`⚠️ Warning: ${message}`);
           return null;
+        },
+        validateBackupDataSources(canonicalNames) {
+          const report = validateBackupDataSources({
+            backupsDir: path.join(__dirname, "backups"),
+            canonicalNames,
+          });
+          console.log(formatBackupValidationReport(report));
+          return report;
         }
       });
     },
