@@ -231,10 +231,21 @@
         return typeof window.isBattleLogEnabledForTitle === "function" && window.isBattleLogEnabledForTitle();
     }
 
+    function isFragsheetEnabledForTitle(title) {
+        return String(title || "") !== "Emerald but Bad";
+    }
+
+    function isFragsheetAvailable() {
+        return isFragsheetEnabledForTitle(typeof window.TITLE === "string" ? window.TITLE : "");
+    }
+
     function normalizeRequestedView(viewName) {
         const requested = String(viewName || "calculator");
         if (requested === "battle-log" && !isBattleLogAvailable()) {
-            return "fragsheet";
+            return isFragsheetAvailable() ? "fragsheet" : "calculator";
+        }
+        if (requested === "fragsheet" && !isFragsheetAvailable()) {
+            return "calculator";
         }
         if (["calculator", "dex", "box", "fragsheet", "battle-log"].includes(requested)) {
             return requested;
@@ -348,13 +359,21 @@
             dexTab.style.display = state.showDex ? "inline-flex" : "none";
         }
 
+        const fragsheetTab = document.querySelector('.main-view-tab[data-view="fragsheet"]');
+        const showFragsheet = state.showFragsheet !== false;
+        if (fragsheetTab) {
+            fragsheetTab.style.display = showFragsheet ? "inline-flex" : "none";
+        }
+
         const battleLogTab = document.getElementById("main-nav-battle-log");
         if (battleLogTab) {
             battleLogTab.style.display = state.showBattleLog ? "inline-flex" : "none";
         }
 
-        if (currentMainPageView === "battle-log" && !state.showBattleLog) {
-            setMainPageView("fragsheet", { replaceHistory: true });
+        if (currentMainPageView === "fragsheet" && !showFragsheet) {
+            setMainPageView("calculator", { replaceHistory: true });
+        } else if (currentMainPageView === "battle-log" && !state.showBattleLog) {
+            setMainPageView(showFragsheet ? "fragsheet" : "calculator", { replaceHistory: true });
         }
     }
 
@@ -416,6 +435,7 @@
     };
     window.updateMainPageHeaderState = updateMainPageHeaderState;
     window.updateMainPageTitle = updateMainPageTitle;
+    window.isFragsheetEnabledForTitle = isFragsheetEnabledForTitle;
 
     document.addEventListener("DOMContentLoaded", initializeMainNav);
 })();

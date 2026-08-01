@@ -1,111 +1,51 @@
-// Tests to make sure there are no invalid/mispelled moves, pokemon, or items in the set data
-// TO RUN: npx cypress run --spec "cypress/e2e/calc-ui/dataValidation.cy.js"
+// Validates exact Pokemon, move, and item display names across every top-level
+// backup data source. Run with validationReportOnly=true to audit without failing.
 
+describe('Backup data name validation', () => {
+  before(() => {
+    cy.on('uncaught:exception', () => false)
+    cy.viewport(1920, 1080)
+    cy.visit('./index.html?data=badem&dmgGen=3&gen=3&switchIn=3&types=3&view=calculator')
+    cy.window().its('backup_data.title').should('eq', 'Emerald but Bad')
+  })
 
-let skipNextSetup = false;
+  it('uses canonical or explicitly defined custom names in every backup', () => {
+    cy.window().then((win) => {
+      const canonicalNames = {
+        species: Object.keys(win.calc.SPECIES[8] || {}),
+        moves: Object.keys(win.calc.MOVES[8] || {}),
+        items: win.calc.ITEMS[8] || [],
+      }
 
-let calcs = Cypress.env('calcs')
+      cy.task('validateBackupDataSources', canonicalNames).then((report) => {
+        const hasIssue = (file, kind, name) => report.issues.some((issue) => (
+          issue.file === file && issue.kind === kind && issue.name === name
+        ))
+        const invalidNameCount = report.totals.species.unique
+          + report.totals.moves.unique
+          + report.totals.items.unique
+        const totalErrors = invalidNameCount + report.loadErrors.length
+        const reportOnly = ['1', 'true'].includes(String(Cypress.env('validationReportOnly')).toLowerCase())
 
+        expect(canonicalNames.species).to.include('Ting-Lu')
+        expect(canonicalNames.species).not.to.include('Tinglu')
+        expect(canonicalNames.species).to.include('Ho-Oh')
+        expect(canonicalNames.species).not.to.include('Ho-oh')
+        expect(canonicalNames.moves).to.include('Vise Grip')
+        expect(canonicalNames.moves).not.to.include('Vice Grip')
+        expect(canonicalNames.moves).to.include('Self-Destruct')
+        expect(canonicalNames.moves).not.to.include('Selfdestruct')
+        expect(canonicalNames.moves).not.to.include('Tussle')
 
-for (let calc of calcs) {
-  describe(calc.title, () => {
-    before(() => {
-        
-      cy.on('uncaught:exception', (err, runnable) => {
-        // returning false here prevents Cypress from
-        // failing the test
-        return false
+        expect(hasIssue('imp.js', 'moves', 'Vice Grip')).to.eq(true)
+        expect(hasIssue('imp.js', 'moves', 'Self Destruct')).to.eq(true)
+        expect(hasIssue('ax.js', 'moves', 'Tussle')).to.eq(false)
+        expect(hasIssue('aetherwhite.js', 'moves', '0')).to.eq(false)
+        expect(report.filesScanned + report.loadErrors.length).to.eq(report.filesFound)
+        if (!reportOnly) {
+          expect(totalErrors, 'backup validation errors; see the terminal report').to.eq(0)
+        }
       })
-      cy.viewport(1920, 1080)
-      cy.visit(calc.url)
-      // Visit Renegade Platinum Calc
-      
     })
-    
-    it('has fully valid named pokemon in set data', () => {
-      cy.get('#clearSets').click()
-      let isFullValid = true
-
-      const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-
-      cy.window().then((win) => {
-
-        let sets = win.setdex
-
-        for (let pok in sets) {
-          let pokId = cleanString(pok)
-
-          // Make sure mon exists
-          if (typeof win.SPECIES_BY_ID[8][pokId] == "undefined" && typeof win.pokedex[pok] == "undefined") {
-            isFullValid = false
-            console.log(pok)
-            assert.fail(`Invalid pok found: ${pok}`);
-          }
-          if (isFullValid == false) {
-            break
-          }
-        }
-      });
-    })
-
-    it('has fully valid moves and items in set data', () => {
-      cy.get('#clearSets').click()
-      let isFullValid = true
-
-      const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-
-      cy.window().then((win) => {
-
-        let sets = win.setdex
-
-        let itemOptions = cy.get('#itemR1').find('option')
-
-        for (let pok in sets) {
-          
-          let pok_sets = sets[pok]
-
-          for (let set in pok_sets) {
-            let moves = pok_sets[set]["moves"]
-
-            for (let move of moves) {
-              if (typeof win.moves[move] == "undefined" && move != "") {
-                isFullValid = false
-                console.log(move)
-                assert.fail(`Invalid move found: ${move} on ${set}`)
-              }
-            }
-
-            let item = pok_sets[set]["item"]
-
-            if (item) {
-              let itemId = cleanString(item)
-
-              if (typeof win.ITEMS_BY_ID[8][itemId] == "undefined" && item != "None" && item != "-" && win.items.indexOf(item) == -1 ) {
-                isFullValid = false
-                cy.task('warn', `Invalid item found: ${item} on ${set}`)
-              }
-            }
-            
-          }
-          // Make sure move exists
-          if (isFullValid == false) {
-            break
-          }
-        }
-      });
-    })
-  })  
-}
-
-
-
-
-
-
-
-
-
-// check to make sure every listed move exists
-
-
-
+  })
+})

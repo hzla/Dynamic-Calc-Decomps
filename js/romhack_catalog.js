@@ -138,6 +138,21 @@
                 }
             ]
         },
+        "emerald-but-bad": {
+            id: "emerald-but-bad",
+            title: "Emerald but Bad",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Emerald but Bad",
+            variants: [
+                {
+                    label: "Emerald Base Rom",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=badem&dmgGen=3&gen=3&switchIn=3&types=3&view=calculator",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "emerald-imperium-1-3": {
             id: "emerald-imperium-1-3",
             title: "Emerald Imperium",
@@ -751,6 +766,7 @@
                 "blinding-white-2",
                 "brutal-black",
                 "cascade-white",
+                "emerald-but-bad",
                 "little-emerald",
                 "luminescent-platinum",
                 "maximum-platinum",

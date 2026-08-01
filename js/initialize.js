@@ -822,6 +822,7 @@ function updateHeaderShellState() {
   window.updateMainPageHeaderState({
     title: typeof TITLE === "string" ? TITLE : "",
     showDex,
+    showFragsheet: typeof window.isFragsheetEnabledForTitle !== "function" || window.isFragsheetEnabledForTitle(TITLE),
     showBattleLog: (syncMasterVisible || syncLuaVisible) && battleLogEnabled,
     showMainNav: true
   })
@@ -1372,8 +1373,12 @@ function setGameSettings(title) {
     showDex = false
     showAI = false
     $('label[for="snow"]').hide()
-  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red" || isPokemonColorsTitle(TITLE)) {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Emerald but Bad" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red" || isPokemonColorsTitle(TITLE)) {
     gameGen = 3
+    if (TITLE == "Emerald but Bad") {
+        settings.gen = 3;
+        settings.physSpecSplit = false;
+    }
     settings.gameSwitchIn = 3; 
     settings.switchIn = 3
     settings.damageGen = 3;
@@ -1382,11 +1387,12 @@ function setGameSettings(title) {
     settings.critGen = 5;
     save_expansion = false
     settings.hasMastersheet = false;
-    if (TITLE == "Autumn Red") {
+    if (TITLE == "Autumn Red" || TITLE == "Emerald but Bad") {
         showDex = true
     } else {
         showDex = false
     }
+    showAI = false
     $('label[for="snow"]').hide()
   }else if (title == "Blinding White 2") {
     gameGen = 5
