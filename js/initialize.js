@@ -819,15 +819,18 @@ function updateHeaderShellState() {
   const syncMasterVisible = $('#sync-master').is(':visible');
   const syncLuaVisible = $('#sync-lua').is(':visible');
   const battleLogEnabled = typeof window.isBattleLogEnabledForTitle !== "function" || window.isBattleLogEnabledForTitle();
+  const saveFileBattleLogAvailable = typeof window.hasSaveFileBattleLogData === "function" && window.hasSaveFileBattleLogData();
 
   window.updateMainPageHeaderState({
     title: currentTitle,
     showDex,
     showFragsheet: typeof window.isFragsheetEnabledForTitle !== "function" || window.isFragsheetEnabledForTitle(currentTitle),
-    showBattleLog: (syncMasterVisible || syncLuaVisible) && battleLogEnabled,
+    showBattleLog: battleLogEnabled && (syncMasterVisible || syncLuaVisible || saveFileBattleLogAvailable),
     showMainNav: true
   })
 }
+
+window.refreshMainPageHeaderState = updateHeaderShellState
 
 function getMastersheetSourceForTitle(title) {
   if (typeof title !== "string" || !title) {

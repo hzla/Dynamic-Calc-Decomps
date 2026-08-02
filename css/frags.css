@@ -614,6 +614,33 @@ a:visited {
     padding: 12px;
 }
 
+#battle-log-source-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 12px 0;
+}
+
+.battle-log-source-tab {
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #222628;
+    color: #ddd;
+    cursor: pointer;
+    padding: 8px 12px;
+    font: inherit;
+    font-weight: 600;
+}
+
+.battle-log-source-tab:hover {
+    background: #2a2f32;
+}
+
+.battle-log-source-tab.active {
+    background: #f1f1f1;
+    color: #000;
+}
+
 .battle-log-edit-toggle-row {
     display: flex;
     justify-content: flex-end;
@@ -983,6 +1010,10 @@ a:visited {
 .battle-team-card.ko {
     background: rgba(140, 20, 20, 0.35);
     border-color: #FF5555;
+}
+
+.battle-team-card.no-moves {
+    min-height: 0;
 }
 
 .battle-team-sprite-wrap {
