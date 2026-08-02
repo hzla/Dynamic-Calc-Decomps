@@ -815,14 +815,15 @@ function updateHeaderShellState() {
 
   updateMastersheetLink();
 
+  const currentTitle = typeof TITLE === "string" ? TITLE : "";
   const syncMasterVisible = $('#sync-master').is(':visible');
   const syncLuaVisible = $('#sync-lua').is(':visible');
   const battleLogEnabled = typeof window.isBattleLogEnabledForTitle !== "function" || window.isBattleLogEnabledForTitle();
 
   window.updateMainPageHeaderState({
-    title: typeof TITLE === "string" ? TITLE : "",
+    title: currentTitle,
     showDex,
-    showFragsheet: typeof window.isFragsheetEnabledForTitle !== "function" || window.isFragsheetEnabledForTitle(TITLE),
+    showFragsheet: typeof window.isFragsheetEnabledForTitle !== "function" || window.isFragsheetEnabledForTitle(currentTitle),
     showBattleLog: (syncMasterVisible || syncLuaVisible) && battleLogEnabled,
     showMainNav: true
   })
