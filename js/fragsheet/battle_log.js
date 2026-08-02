@@ -1,6 +1,9 @@
 ﻿(function () {
     const BATTLE_LOG_STORAGE_KEY = "battleLogs";
     const BATTLE_LOG_SOURCE_META_KEY = "battleLogSourceMeta";
+    const SAVE_FILE_BATTLE_LOG_STORAGE_KEY = "saveFileBattleLogs";
+    const SAVE_FILE_BATTLE_LOG_SOURCE_META_KEY = "saveFileBattleLogSourceMeta";
+    const BATTLE_LOG_ACTIVE_SOURCE_KEY = "battleLogActiveSource";
     const BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY = "battleLogImportantTrainersOnly";
     const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/battle_log";
     const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
@@ -16,6 +19,9 @@
     let battleLogUiInitialized = false;
     let editableAttemptFileState = null;
     let battleLogEditModeEnabled = true;
+    let activeBattleLogSource = localStorage.getItem(BATTLE_LOG_ACTIVE_SOURCE_KEY) === "save-file"
+        ? "save-file"
+        : "emulator";
     let battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
     const BATTLE_LOG_ID_PLACEHOLDERS = {
         species: "Unknown",
@@ -61,9 +67,22 @@
         return `./img/pokesprite/${slug}.png`;
     }
 
+    function animatedFrontSpritePath(species) {
+        const slug = String(species ?? "")
+            .toLowerCase()
+            .replace(/♀/g, "-f")
+            .replace(/♂/g, "-m")
+            .replace(/[’'.:]/g, "")
+            .replace(/[\s_]+/g, "")
+            .replace(/[^a-z0-9-]/g, "")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "");
+        return `./img/front/${slug}.gif`;
+    }
+
     function itemSpritePath(itemName) {
         const trimmed = String(itemName ?? "").trim();
-        if (!trimmed) {
+        if (!trimmed || trimmed.toLowerCase() === "none" || trimmed === "-") {
             return "";
         }
         const slug = trimmed
@@ -229,21 +248,71 @@
         return (customLeadsMap && typeof customLeadsMap === "object") ? customLeadsMap : null;
     }
 
+    function hasSaveFileBattleLogData() {
+        const payload = readLocalStorageJson(SAVE_FILE_BATTLE_LOG_STORAGE_KEY);
+        const records = getBattleLogRecordsArray(payload);
+        return Array.isArray(records) && records.some((record) => record && record.type === "session_start");
+    }
+
+    function normalizeActiveBattleLogSource() {
+        if (activeBattleLogSource === "save-file" && !hasSaveFileBattleLogData()) {
+            activeBattleLogSource = "emulator";
+        }
+        return activeBattleLogSource;
+    }
+
+    function setActiveBattleLogSource(source, renderNow) {
+        activeBattleLogSource = source === "save-file" && hasSaveFileBattleLogData()
+            ? "save-file"
+            : "emulator";
+        try {
+            localStorage.setItem(BATTLE_LOG_ACTIVE_SOURCE_KEY, activeBattleLogSource);
+        } catch (_err) {
+        }
+        renderBattleLogSourceTabs();
+        updateBattleLogToolbarState();
+        if (renderNow !== false) {
+            renderBattleLogView(true);
+        }
+    }
+
+    function renderBattleLogSourceTabs() {
+        const tabs = document.getElementById("battle-log-source-tabs");
+        if (!tabs) return;
+
+        const hasSaveLogs = hasSaveFileBattleLogData();
+        const source = normalizeActiveBattleLogSource();
+        tabs.style.display = hasSaveLogs ? "flex" : "none";
+        tabs.querySelectorAll(".battle-log-source-tab").forEach((tab) => {
+            const tabSource = tab.getAttribute("data-battle-log-source");
+            if (tabSource === "save-file") {
+                tab.style.display = hasSaveLogs ? "inline-flex" : "none";
+            }
+            tab.classList.toggle("active", tabSource === source);
+            tab.setAttribute("aria-selected", tabSource === source ? "true" : "false");
+        });
+    }
+
     function resolveBattleLogSource() {
-        const data = readLocalStorageJson(BATTLE_LOG_STORAGE_KEY);
+        const sourceType = normalizeActiveBattleLogSource();
+        const storageKey = sourceType === "save-file" ? SAVE_FILE_BATTLE_LOG_STORAGE_KEY : BATTLE_LOG_STORAGE_KEY;
+        const metaKey = sourceType === "save-file" ? SAVE_FILE_BATTLE_LOG_SOURCE_META_KEY : BATTLE_LOG_SOURCE_META_KEY;
+        const data = readLocalStorageJson(storageKey);
         if (data == null) {
             return { source: null, data: null };
         }
-        const meta = readLocalStorageJson(BATTLE_LOG_SOURCE_META_KEY);
+        const meta = readLocalStorageJson(metaKey);
         const source = (meta && typeof meta === "object" && meta.label)
             ? String(meta.label)
-            : `localStorage:${BATTLE_LOG_STORAGE_KEY}`;
-        return { source, data };
+            : `localStorage:${storageKey}`;
+        return { source, sourceType, data };
     }
 
     function getBattleLogStorageFingerprint() {
-        const raw = localStorage.getItem(BATTLE_LOG_STORAGE_KEY);
-        return raw == null ? "" : raw;
+        const sourceType = normalizeActiveBattleLogSource();
+        const storageKey = sourceType === "save-file" ? SAVE_FILE_BATTLE_LOG_STORAGE_KEY : BATTLE_LOG_STORAGE_KEY;
+        const raw = localStorage.getItem(storageKey);
+        return `${sourceType}:${raw == null ? "" : raw}`;
     }
 
     function cloneBattleLogValue(value) {
@@ -330,6 +399,9 @@
     }
 
     function hasEditableAttemptFileState() {
+        if (normalizeActiveBattleLogSource() !== "emulator") {
+            return false;
+        }
         if (!editableAttemptFileState) {
             return false;
         }
@@ -349,9 +421,15 @@
     }
 
     function updateBattleLogToolbarState() {
+        const usingSaveFile = normalizeActiveBattleLogSource() === "save-file";
+        const syncBtn = document.getElementById("sync-battle-log");
+        const loadBtn = document.getElementById("load-battle-log-file");
         const downloadBtn = document.getElementById("download-edited-battle-log-file");
-        if (!downloadBtn) return;
-        downloadBtn.style.display = hasEditableAttemptFileState() ? "inline-flex" : "none";
+        const uploadStatus = document.getElementById("battle-log-upload-status");
+        if (syncBtn) syncBtn.style.display = usingSaveFile ? "none" : "inline-flex";
+        if (loadBtn) loadBtn.style.display = usingSaveFile ? "none" : "inline-flex";
+        if (downloadBtn) downloadBtn.style.display = !usingSaveFile && hasEditableAttemptFileState() ? "inline-flex" : "none";
+        if (uploadStatus && usingSaveFile) uploadStatus.style.display = "none";
     }
 
     function renderBattleLogEditModeToggle() {
@@ -686,7 +764,293 @@
 
     function isBattleLogEnabledForTitle() {
         const adapter = getActiveBattleLogRomAdapter();
-        return !!(adapter && adapter.enabled);
+        return !!(adapter && adapter.enabled) || hasSaveFileBattleLogData();
+    }
+
+    function resolveGen5SaveLogSpeciesName(speciesId) {
+        const numericId = Number(speciesId);
+        if (!Number.isInteger(numericId) || numericId <= 0) {
+            return "Unknown";
+        }
+
+        const saveSpeciesNames = typeof sav_pok_names !== "undefined" && Array.isArray(sav_pok_names)
+            ? sav_pok_names
+            : (Array.isArray(window.sav_pok_names) ? window.sav_pok_names : []);
+        let speciesName = saveSpeciesNames[numericId];
+        if (typeof speciesName !== "string" || !speciesName.trim()) {
+            return "Unknown";
+        }
+
+        try {
+            const activeGen = typeof gen === "number" ? gen : window.gen;
+            const speciesById = typeof SPECIES_BY_ID !== "undefined" ? SPECIES_BY_ID : window.SPECIES_BY_ID;
+            const normalized = typeof cleanString === "function"
+                ? cleanString(speciesName)
+                : cleanSpeciesKey(speciesName);
+            if (speciesById && speciesById[activeGen] && speciesById[activeGen][normalized]) {
+                speciesName = speciesById[activeGen][normalized].name || speciesName;
+            }
+        } catch (_err) {
+        }
+        return String(speciesName).trim() || "Unknown";
+    }
+
+    function getSaveLogSpeciesFamilyKeys(speciesName) {
+        let family = [];
+        if (typeof window.getSpeciesFamilyMembers === "function") {
+            try {
+                family = window.getSpeciesFamilyMembers(speciesName);
+            } catch (_err) {
+            }
+        }
+        if (!Array.isArray(family) || !family.length) {
+            family = [speciesName];
+        }
+        return family.map(cleanSpeciesKey).filter(Boolean);
+    }
+
+    function createCurrentSaveMonResolver(saveMons) {
+        const candidates = (Array.isArray(saveMons) ? saveMons : [])
+            .filter((mon) => mon && mon.species)
+            .sort((left, right) => (left.storage === "party" ? -1 : 0) - (right.storage === "party" ? -1 : 0));
+        const bySpeciesId = new Map();
+        const bySpeciesName = new Map();
+        const byFamilyKey = new Map();
+
+        candidates.forEach((mon) => {
+            const speciesId = Number(mon.rawSpeciesId);
+            const speciesNameKey = cleanSpeciesKey(mon.species);
+            if (Number.isInteger(speciesId) && !bySpeciesId.has(speciesId)) {
+                bySpeciesId.set(speciesId, mon);
+            }
+            if (speciesNameKey && !bySpeciesName.has(speciesNameKey)) {
+                bySpeciesName.set(speciesNameKey, mon);
+            }
+            getSaveLogSpeciesFamilyKeys(mon.species).forEach((familyKey) => {
+                if (!byFamilyKey.has(familyKey)) {
+                    byFamilyKey.set(familyKey, mon);
+                }
+            });
+        });
+
+        return function resolveCurrentSaveMon(speciesId, loggedSpecies) {
+            const numericSpeciesId = Number(speciesId);
+            const exactNameKey = cleanSpeciesKey(loggedSpecies);
+            const exact = bySpeciesId.get(numericSpeciesId) || bySpeciesName.get(exactNameKey);
+            if (exact) return exact;
+
+            const familyKeys = getSaveLogSpeciesFamilyKeys(loggedSpecies);
+            for (let index = 0; index < familyKeys.length; index += 1) {
+                const familyMatch = byFamilyKey.get(familyKeys[index]);
+                if (familyMatch) return familyMatch;
+            }
+            return null;
+        };
+    }
+
+    function createImportedSaveSetAbilityResolver() {
+        let importedSets = null;
+        try {
+            importedSets = JSON.parse(localStorage.getItem("customsets") || "{}");
+        } catch (_err) {
+            importedSets = null;
+        }
+        const abilityBySpeciesKey = new Map();
+        if (importedSets && typeof importedSets === "object") {
+            for (const importedSpecies in importedSets) {
+                if (!Object.prototype.hasOwnProperty.call(importedSets, importedSpecies)) continue;
+                const speciesKey = cleanSpeciesKey(importedSpecies);
+                if (!speciesKey || abilityBySpeciesKey.has(speciesKey)) continue;
+                const importedSet = importedSets[importedSpecies] && importedSets[importedSpecies]["My Box"];
+                const ability = importedSet && typeof importedSet.ability === "string"
+                    ? importedSet.ability.trim()
+                    : "";
+                if (ability && ability !== "Unknown") {
+                    abilityBySpeciesKey.set(speciesKey, ability);
+                }
+            }
+        }
+
+        return function resolveImportedSaveSetAbility(speciesName) {
+            const speciesKey = cleanSpeciesKey(speciesName);
+            if (!speciesKey) return "";
+            return abilityBySpeciesKey.get(speciesKey) || "";
+        };
+    }
+
+    function buildSaveLogPartyMon(speciesId, resolveCurrentSaveMon, resolveImportedSaveSetAbility) {
+        const loggedSpecies = resolveGen5SaveLogSpeciesName(speciesId);
+        const savedMon = resolveCurrentSaveMon(speciesId, loggedSpecies);
+        if (!savedMon) {
+            return {
+                species: loggedSpecies,
+                rawSpeciesId: speciesId,
+                heldItem: "None",
+                ability: "Unknown",
+                nature: "Unknown",
+                moves: [],
+            };
+        }
+
+        const importedAbility = resolveImportedSaveSetAbility(savedMon.species);
+
+        return {
+            species: savedMon.species || loggedSpecies,
+            loggedSpecies,
+            rawSpeciesId: savedMon.rawSpeciesId || speciesId,
+            nickname: savedMon.nickname || "",
+            gender: savedMon.gender || "",
+            heldItem: "None",
+            ability: importedAbility || savedMon.ability || "Unknown",
+            nature: savedMon.nature || "Unknown",
+            level: savedMon.level,
+            evs: savedMon.evs || null,
+            ivs: savedMon.ivs || null,
+            met: savedMon.met || "",
+            storage: savedMon.storage || "",
+            partySlot: savedMon.partySlot,
+            box: savedMon.box,
+            boxSlot: savedMon.boxSlot,
+            moves: [],
+        };
+    }
+
+    function createTrainerSpeciesResolver() {
+        const activeSetdex = typeof setdex !== "undefined" && setdex && typeof setdex === "object"
+            ? setdex
+            : window.setdex;
+        const speciesByTrainerId = new Map();
+        if (!activeSetdex || typeof activeSetdex !== "object") {
+            return function () { return []; };
+        }
+
+        Object.keys(activeSetdex).forEach((speciesName) => {
+            const speciesSets = activeSetdex[speciesName];
+            if (!speciesSets || typeof speciesSets !== "object") return;
+            Object.keys(speciesSets).forEach((setName) => {
+                const setData = speciesSets[setName];
+                if (!setData) return;
+                const trainerId = Number(setData.tr_id);
+                const subIndex = Number(setData.sub_index);
+                if (!Number.isInteger(trainerId) || trainerId <= 0
+                    || !Number.isInteger(subIndex) || subIndex < 0 || subIndex >= 6) return;
+                if (!speciesByTrainerId.has(trainerId)) {
+                    speciesByTrainerId.set(trainerId, []);
+                }
+                const speciesBySubIndex = speciesByTrainerId.get(trainerId);
+                if (!speciesBySubIndex[subIndex]) {
+                    speciesBySubIndex[subIndex] = speciesName;
+                }
+            });
+        });
+        return function resolveTrainerSpecies(trainerId) {
+            return speciesByTrainerId.get(Number(trainerId)) || [];
+        };
+    }
+
+    function buildSaveFileBattleLogPayload(parsedLog, saveMons) {
+        const records = parsedLog && Array.isArray(parsedLog.records) ? parsedLog.records : [];
+        const events = [];
+        const resolveCurrentSaveMon = createCurrentSaveMonResolver(saveMons);
+        const resolveImportedSaveSetAbility = createImportedSaveSetAbilityResolver();
+        const resolveTrainerSpecies = createTrainerSpeciesResolver();
+
+        records.forEach((record, recordIndex) => {
+            const playerCount = Math.min(6, Math.max(0, Number(record.playerCount) || 0));
+            if (!playerCount) return;
+            const party = record.playerSpeciesIds.slice(0, playerCount)
+                .map((speciesId) => buildSaveLogPartyMon(
+                    speciesId,
+                    resolveCurrentSaveMon,
+                    resolveImportedSaveSetAbility
+                ));
+            const enemySpecies = resolveTrainerSpecies(record.trainerId);
+
+            events.push({
+                type: "session_start",
+                enemyTrainerIdA: record.trainerId,
+                pParty: party,
+                hideMoves: true,
+                hideHeldItems: true,
+                saveFileRecordIndex: recordIndex,
+            });
+
+            record.playerKoCreditsByEnemy.forEach((playerCredit, enemyIndex) => {
+                const playerIndex = Number(playerCredit) - 1;
+                if (playerIndex < 0 || playerIndex >= party.length) return;
+                events.push({
+                    type: "pKo",
+                    turn: enemyIndex,
+                    pSlot: playerIndex,
+                    pSpecies: party[playerIndex].species,
+                    aiSpecies: enemySpecies[enemyIndex] || "Unknown",
+                    aiPartySlot: enemyIndex,
+                });
+            });
+
+            record.aiKoCreditsByPlayer.slice(0, playerCount).forEach((enemyCredit, playerIndex) => {
+                const enemyIndex = Number(enemyCredit) - 1;
+                if (enemyIndex < 0 || enemyIndex >= 6) return;
+                events.push({
+                    type: "aiKo",
+                    turn: playerIndex,
+                    pSlot: playerIndex,
+                    pSpecies: party[playerIndex].species,
+                    aiSpecies: enemySpecies[enemyIndex] || "Unknown",
+                    aiPartySlot: enemyIndex,
+                });
+            });
+
+            events.push({ type: "session_end" });
+        });
+
+        return {
+            version: "gen5-save-v2",
+            sourceType: "save-file",
+            preserveDuplicateTrainers: true,
+            overflow: !!(parsedLog && parsedLog.overflow),
+            recordCount: records.length,
+            events,
+        };
+    }
+
+    function updateSaveFileBattleLog(parsedLog, saveMons, fileName) {
+        const hasLogs = !!(parsedLog && parsedLog.valid && parsedLog.hasLogs && Array.isArray(parsedLog.records));
+        try {
+            if (!hasLogs) {
+                localStorage.removeItem(SAVE_FILE_BATTLE_LOG_STORAGE_KEY);
+                localStorage.removeItem(SAVE_FILE_BATTLE_LOG_SOURCE_META_KEY);
+                if (activeBattleLogSource === "save-file") {
+                    activeBattleLogSource = "emulator";
+                    localStorage.setItem(BATTLE_LOG_ACTIVE_SOURCE_KEY, activeBattleLogSource);
+                }
+            } else {
+                const payload = buildSaveFileBattleLogPayload(parsedLog, saveMons);
+                localStorage.setItem(SAVE_FILE_BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload));
+                localStorage.setItem(SAVE_FILE_BATTLE_LOG_SOURCE_META_KEY, JSON.stringify({
+                    type: "save_file",
+                    fileName: String(fileName || "save file"),
+                    label: `Source: ${String(fileName || "uploaded save")} (save file)`,
+                    loadedAt: Date.now(),
+                    recordCount: parsedLog.records.length,
+                    overflow: !!parsedLog.overflow,
+                }));
+                activeBattleLogSource = "save-file";
+                localStorage.setItem(BATTLE_LOG_ACTIVE_SOURCE_KEY, activeBattleLogSource);
+            }
+        } catch (err) {
+            console.error("Failed to store save-file battle logs", err);
+        }
+
+        renderBattleLogSourceTabs();
+        applyBattleLogTabVisibility();
+        updateBattleLogToolbarState();
+        if (typeof window.refreshMainPageHeaderState === "function") {
+            window.refreshMainPageHeaderState();
+        }
+        if (document.getElementById("battle-log-container")) {
+            renderBattleLogView(true);
+        }
     }
 
     function decodePackedBattleLogPayload(payloadBytes) {
@@ -1035,7 +1399,9 @@
 
                 const nextMon = { ...mon };
                 const speciesId = Number(nextMon.species);
-                nextMon.species = decodeEnumId(speciesId, "species");
+                nextMon.species = Number.isInteger(speciesId)
+                    ? decodeEnumId(speciesId, "species")
+                    : nextMon.species;
                 nextMon.heldItem = decodeEnumId(nextMon.heldItem, "item");
                 if (Number.isInteger(nextMon.natureId)) {
                     nextMon.nature = decodeNatureId(nextMon.natureId, adapter);
@@ -1061,6 +1427,13 @@
                         speciesId,
                         Number(nextMon.abilitySlot)
                     );
+                } else if (
+                    payloadVersion === "gen5-save-v2"
+                    && (!nextMon.ability || nextMon.ability === "Unknown")
+                    && context
+                    && typeof context.resolveImportedSaveSetAbility === "function"
+                ) {
+                    nextMon.ability = context.resolveImportedSaveSetAbility(nextMon.species) || "Unknown";
                 } else {
                     nextMon.ability = decodeEnumId(nextMon.ability, "ability");
                 }
@@ -1297,10 +1670,17 @@
     function buildBattleLogSessionsFromPayload(payload) {
         const records = getBattleLogRecordsArray(payload);
         const rawSessions = groupRawSessions(records);
+        const payloadVersion = getBattleLogPayloadVersion(payload);
         const context = {
-            payloadVersion: getBattleLogPayloadVersion(payload)
+            payloadVersion,
+            resolveImportedSaveSetAbility: payloadVersion === "gen5-save-v2"
+                ? createImportedSaveSetAbilityResolver()
+                : null,
         };
-        return dedupeSessionsByTrainerId(rawSessions.map((rawSession) => decodeRawSession(rawSession, context)));
+        const sessions = rawSessions.map((rawSession) => decodeRawSession(rawSession, context));
+        return payload && payload.preserveDuplicateTrainers
+            ? sessions
+            : dedupeSessionsByTrainerId(sessions);
     }
 
     function getSessionTrainerId(session) {
@@ -2196,6 +2576,8 @@
 
     function renderTeam(session, editable) {
         const team = Array.isArray(session.start && session.start.pParty) ? session.start.pParty : [];
+        const hideMoves = !!(session.start && session.start.hideMoves);
+        const hideHeldItems = hideMoves || !!(session.start && session.start.hideHeldItems);
         if (!team.length) {
             return '<div class="battle-team-empty">No player party snapshot found for this battle.</div>';
         }
@@ -2207,7 +2589,7 @@
                 moves.push("");
             }
             const speciesName = String(mon.species || "Unknown");
-            const itemPath = itemSpritePath(mon.heldItem);
+            const itemPath = hideHeldItems ? "" : itemSpritePath(mon.heldItem);
             const isFainted = !!koLookup[idx];
             const editButton = editable
                 ? `
@@ -2222,14 +2604,14 @@
                 : "";
 
             return `
-                <div class="battle-team-card${koLookup[idx] ? " ko" : ""}">
+                <div class="battle-team-card${koLookup[idx] ? " ko" : ""}${hideMoves ? " no-moves" : ""}">
                     ${editButton}
                     <div class="battle-team-sprite-wrap">
                         <img
                             class="battle-team-sprite"
-                            src="${spritePath(mon.species)}"
+                            src="${animatedFrontSpritePath(mon.species)}"
                             alt="${escHtml(speciesName)}"
-                            onerror="this.style.visibility='hidden'"
+                            onerror="if(!this.dataset.staticFallback){this.dataset.staticFallback='1';this.src='${spritePath(mon.species)}'}else{this.style.visibility='hidden'}"
                         >
                         ${itemPath ? `
                             <img
@@ -2244,9 +2626,11 @@
                     <div class="battle-team-meta">
                         ${[mon.ability || "Unknown", mon.nature || "Unknown"].map((value) => escHtml(value)).join(' <span class="battle-team-info-sep">|</span> ')}
                     </div>
-                    <div class="battle-team-moves">
-                        ${moves.map(renderBattleLogMoveChip).join("")}
-                    </div>
+                    ${hideMoves ? "" : `
+                        <div class="battle-team-moves">
+                            ${moves.map(renderBattleLogMoveChip).join("")}
+                        </div>
+                    `}
                 </div>
             `;
         }).join("");
@@ -2764,6 +3148,7 @@
         const container = document.getElementById("battle-log-container");
         if (!container) return;
         const uiState = snapshotBattleLogUiState();
+        renderBattleLogSourceTabs();
         updateBattleLogToolbarState();
         ensureBattleLogSpeciesDatalist();
 
@@ -2821,6 +3206,9 @@
         html += renderBattleLogEditModeToggle();
         if (resolved.source) {
             html += `<div class="battle-log-note">${escHtml(resolved.source)}</div>`;
+        }
+        if (resolved.sourceType === "save-file" && resolved.data.overflow) {
+            html += '<div class="battle-log-note">This save reached the 600-battle log limit; newer battles may not be present.</div>';
         }
         if (hasEditableAttempt && editable) {
             html += '<div class="battle-log-note">Editing enabled for this uploaded attempt. Use the party buttons and KO editor below, then download the updated attempt JSON.</div>';
@@ -2979,6 +3367,10 @@
             setViewMode($(this).attr("data-view"));
         });
 
+        $(document).on("click", ".battle-log-source-tab", function () {
+            setActiveBattleLogSource($(this).attr("data-battle-log-source"), true);
+        });
+
         $(document).on("click", ".battle-session-header", function () {
             const $session = $(this).closest(".battle-session");
             const nextExpanded = !$session.hasClass("expanded");
@@ -2998,8 +3390,21 @@
             if (event.key === BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY) {
                 battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
                 syncImportantTrainerToggleUi();
-            } else if (event.key !== BATTLE_LOG_STORAGE_KEY && event.key !== "customLeads") {
+            } else if (
+                event.key !== BATTLE_LOG_STORAGE_KEY
+                && event.key !== SAVE_FILE_BATTLE_LOG_STORAGE_KEY
+                && event.key !== BATTLE_LOG_ACTIVE_SOURCE_KEY
+                && event.key !== "customLeads"
+            ) {
                 return;
+            }
+            if (event.key === BATTLE_LOG_ACTIVE_SOURCE_KEY) {
+                activeBattleLogSource = event.newValue === "save-file" ? "save-file" : "emulator";
+            }
+            renderBattleLogSourceTabs();
+            applyBattleLogTabVisibility();
+            if (typeof window.refreshMainPageHeaderState === "function") {
+                window.refreshMainPageHeaderState();
             }
             if (document.body.classList.contains("battle-log-mode")) {
                 renderBattleLogView(false);
@@ -3007,28 +3412,41 @@
         });
 
         let lastBattleLogRaw = getBattleLogStorageFingerprint();
+        let lastSaveFileBattleLogRaw = localStorage.getItem(SAVE_FILE_BATTLE_LOG_STORAGE_KEY);
+        let lastActiveBattleLogSourceRaw = localStorage.getItem(BATTLE_LOG_ACTIVE_SOURCE_KEY);
         let lastCustomLeadsRaw = localStorage.getItem("customLeads");
         let lastSyncLuaRaw = localStorage.getItem("syncLua");
         let lastImportantTrainerOnlyRaw = localStorage.getItem(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY);
         setInterval(function () {
             const nextBattleLogRaw = getBattleLogStorageFingerprint();
+            const nextSaveFileBattleLogRaw = localStorage.getItem(SAVE_FILE_BATTLE_LOG_STORAGE_KEY);
+            const nextActiveBattleLogSourceRaw = localStorage.getItem(BATTLE_LOG_ACTIVE_SOURCE_KEY);
             const nextCustomLeadsRaw = localStorage.getItem("customLeads");
             const nextSyncLuaRaw = localStorage.getItem("syncLua");
             const nextImportantTrainerOnlyRaw = localStorage.getItem(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY);
             const changed =
                 nextBattleLogRaw !== lastBattleLogRaw ||
+                nextSaveFileBattleLogRaw !== lastSaveFileBattleLogRaw ||
+                nextActiveBattleLogSourceRaw !== lastActiveBattleLogSourceRaw ||
                 nextCustomLeadsRaw !== lastCustomLeadsRaw ||
                 nextSyncLuaRaw !== lastSyncLuaRaw ||
                 nextImportantTrainerOnlyRaw !== lastImportantTrainerOnlyRaw;
             if (!changed) return;
 
             lastBattleLogRaw = nextBattleLogRaw;
+            lastSaveFileBattleLogRaw = nextSaveFileBattleLogRaw;
+            lastActiveBattleLogSourceRaw = nextActiveBattleLogSourceRaw;
+            activeBattleLogSource = nextActiveBattleLogSourceRaw === "save-file" ? "save-file" : "emulator";
             lastCustomLeadsRaw = nextCustomLeadsRaw;
             lastSyncLuaRaw = nextSyncLuaRaw;
             lastImportantTrainerOnlyRaw = nextImportantTrainerOnlyRaw;
             battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
             syncImportantTrainerToggleUi();
+            renderBattleLogSourceTabs();
             applyBattleLogTabVisibility();
+            if (typeof window.refreshMainPageHeaderState === "function") {
+                window.refreshMainPageHeaderState();
+            }
 
             if (document.body.classList.contains("battle-log-mode")) {
                 renderBattleLogView(false);
@@ -3128,6 +3546,7 @@
     function initializeBattleLogUi() {
         bindUi();
         logActiveBattleLogRomAdapter("DOMContentLoaded");
+        renderBattleLogSourceTabs();
         applyBattleLogTabVisibility();
         updateBattleLogToolbarState();
         syncImportantTrainerToggleUi();
@@ -3149,6 +3568,8 @@
     };
     window.handleBattleLogSplitHeaderImageError = handleBattleLogSplitHeaderImageError;
     window.isBattleLogEnabledForTitle = isBattleLogEnabledForTitle;
+    window.hasSaveFileBattleLogData = hasSaveFileBattleLogData;
+    window.updateSaveFileBattleLog = updateSaveFileBattleLog;
     window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
     window.getBattleLogPlayerPartyReconstructionSets = getBattleLogPlayerPartyReconstructionSets;
 

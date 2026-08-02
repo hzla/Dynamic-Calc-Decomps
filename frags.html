@@ -6,7 +6,7 @@
     <title>Pokémon Nuzlocke Tracker</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/31.0.1/ag-grid-community.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
-    <link type="text/css" rel="stylesheet" href="./css/frags.css?2f51c9704" />
+    <link type="text/css" rel="stylesheet" href="./css/frags.css?gen5savelogs2" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
@@ -53,6 +53,10 @@
         <div id="myGrid" class="ag-theme-alpine-dark"></div>
 
         <div id="battle-log-view">
+            <div id="battle-log-source-tabs" role="tablist" aria-label="Battle log source" style="display:none;">
+                <button type="button" class="battle-log-source-tab active" data-battle-log-source="emulator" role="tab" aria-selected="true">Emulator Battle Logs</button>
+                <button type="button" class="battle-log-source-tab" data-battle-log-source="save-file" role="tab" aria-selected="false">Save File Battle Logs</button>
+            </div>
             <div id="battle-log-toolbar">
                 <button type="button" id="sync-battle-log" class="battle-log-toolbar-btn">Sync</button>
                 <button type="button" id="load-battle-log-file" class="battle-log-toolbar-btn">Load Battle Log (from Desmume Save Folder "Battery/Dumps")</button>
@@ -95,6 +99,6 @@
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?100008"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?100000"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
-    <script type="text/javascript" src="./js/fragsheet/battle_log.js?6cf677ab"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?gen5savelogs3"></script>
 </body>
 </html>

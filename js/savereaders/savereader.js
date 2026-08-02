@@ -3,8 +3,11 @@
 const DS_SAVE_SLOTS_PER_BOX = 30
 const GEN5_BOXES_TO_IMPORT = 7
 const GEN5_BOX_SLOT_COUNT = GEN5_BOXES_TO_IMPORT * DS_SAVE_SLOTS_PER_BOX
+const GEN5_TOTAL_BOXES = 24
+const GEN5_TOTAL_BOX_SLOT_COUNT = GEN5_TOTAL_BOXES * DS_SAVE_SLOTS_PER_BOX
 
 var invalidSavSpeciesDebugCount = 0
+var gen5SaveBattleLogMons = []
 
 function isHgeSaveReaderMode() {
     return (
@@ -286,6 +289,7 @@ $(document).ready(function() {
                     partyMons = {}
                     partySlotMetadata = []
                     partyPIDs = []
+                    gen5SaveBattleLogMons = []
 
 
                     // Step 2: Loop 'n' times to read and decrypt each 236-byte chunk       
@@ -298,7 +302,10 @@ $(document).ready(function() {
                     for (let i = 0; i < n; i++) {
                         // Extract the chunk of 236 bytes from the binary data
                        chunk = view.slice(offset, offset + CHUNK_SIZE);
-                       showdownImport += parsePKM(chunk, true)
+                       showdownImport += parsePKM(chunk, true, offset, {
+                           storage: "party",
+                           partySlot: i,
+                       })
                        offset += CHUNK_SIZE                 
                     }
 
@@ -314,7 +321,7 @@ $(document).ready(function() {
 
                     if (baseGame == "BW") {
                         liveBoxSlotCount = GEN5_BOX_SLOT_COUNT
-                        totalBoxSlotCount = GEN5_BOX_SLOT_COUNT
+                        totalBoxSlotCount = GEN5_TOTAL_BOX_SLOT_COUNT
                     } else if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
                         totalBoxSlotCount = 540
                     }
@@ -337,10 +344,15 @@ $(document).ready(function() {
                        }
                       
                        chunk = view.slice(offset, offset + CHUNK_SIZE);
-                       const showdownBlock = parsePKM(chunk, false, offset)
+                       const showdownBlock = parsePKM(chunk, false, offset, {
+                           storage: "box",
+                           box: Math.floor(i / DS_SAVE_SLOTS_PER_BOX) + 1,
+                           boxSlot: (i % DS_SAVE_SLOTS_PER_BOX) + 1,
+                           collectOnly: i >= liveBoxSlotCount,
+                       })
                        if (i < liveBoxSlotCount) {
                            showdownImport += showdownBlock
-                       } else {
+                       } else if (baseGame != "BW") {
                            const deadMon = buildDsSaveDeadMonFromShowdown(showdownBlock, Math.floor(i / DS_SAVE_SLOTS_PER_BOX) + 1, (i % DS_SAVE_SLOTS_PER_BOX) + 1)
                            if (deadMon) {
                                deadMons.push(deadMon)
@@ -348,6 +360,11 @@ $(document).ready(function() {
                        }
                        offset += CHUNK_SIZE                 
                     }
+                    var gen5BattleLogData = null
+                    if (baseGame == "BW" && window.Gen5SaveBattleLog && typeof window.Gen5SaveBattleLog.parse === "function") {
+                        gen5BattleLogData = window.Gen5SaveBattleLog.parse(view, { baseVersion: baseVersion || "BW" })
+                    }
+
                     return {
                         showdownImport: showdownImport,
                         deadMons: deadMons,
@@ -356,6 +373,9 @@ $(document).ready(function() {
                         trainerId: importedTrainerId,
                         secretId: importedSecretId,
                         trainerIdSecret: importedTrainerIdSecret,
+                        gen5BattleLogData: gen5BattleLogData,
+                        gen5BattleLogMons: gen5SaveBattleLogMons.slice(),
+                        saveFileName: saveFileName,
                     }
                     
                 } catch (error) {
@@ -398,6 +418,13 @@ $(document).ready(function() {
                     window.applyImportedSnapshot(importedSnapshot)
                 } else {
                     $('.import-team-text').val(importedSnapshot.showdownImport)
+                }
+                if (typeof window.updateSaveFileBattleLog === 'function') {
+                    window.updateSaveFileBattleLog(
+                        baseGame == "BW" ? importedSnapshot.gen5BattleLogData : null,
+                        baseGame == "BW" ? importedSnapshot.gen5BattleLogMons : [],
+                        importedSnapshot.saveFileName || saveFileName
+                    )
                 }
             });
         };
@@ -1064,7 +1091,7 @@ function toLittleEndian(value) {
     return littleEndianValue;
 }
 
-function parsePKM(chunk, is_party=false, offset=0) {
+function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
 
     var showdownString = ""
 
@@ -1290,7 +1317,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
             valid: true,
             isEgg: isEgg,
         });
-    } else {
+    } else if (!(parseContext && parseContext.collectOnly)) {
         boxPokOffsets[mon_name] = {}
         boxPokOffsets[mon_name]["offset"] = offset
         boxPokOffsets[mon_name]["decryptedData"] = decryptedData
@@ -1328,6 +1355,47 @@ function parsePKM(chunk, is_party=false, offset=0) {
         level = get_level(exp_table, exp);
     }
     var ability = sav_abilities[(decryptedData[mon_data_offset + 6] >> 8 & 0xFF) ]
+    var parsedMoveNames = []
+    for (let i = 0; i < 4; i++) {
+        parsedMoveNames.push(sav_move_names[decryptedData[move_data_offset + i]])
+    }
+
+    if (baseGame == "BW" && parseContext && !isEgg) {
+        gen5SaveBattleLogMons.push({
+            rawSpeciesId: rawSpeciesId,
+            species: mon_name,
+            nickname: nn,
+            gender: gender,
+            heldItem: item_name,
+            ability: ability || "Unknown",
+            nature: nature || "Unknown",
+            level: level,
+            evs: {
+                hp: hp_ev,
+                atk: atk_ev,
+                def: def_ev,
+                spa: spa_ev,
+                spd: spd_ev,
+                spe: spe_ev,
+            },
+            ivs: {
+                hp: ivs[0],
+                atk: ivs[1],
+                def: ivs[2],
+                spa: ivs[3],
+                spd: ivs[4],
+                spe: ivs[5],
+            },
+            met: met_location || "",
+            storage: parseContext.storage || (is_party ? "party" : "box"),
+            partySlot: Number.isInteger(parseContext.partySlot) ? parseContext.partySlot : null,
+            box: Number.isInteger(parseContext.box) ? parseContext.box : null,
+            boxSlot: Number.isInteger(parseContext.boxSlot) ? parseContext.boxSlot : null,
+            moves: parsedMoveNames.filter(function(moveName) {
+                return typeof moveName === "string" && moveName && moveName !== "-----"
+            }),
+        })
+    }
 
 
     showdownString += `Level: ${level}\n`
@@ -1345,9 +1413,8 @@ function parsePKM(chunk, is_party=false, offset=0) {
     showdownString += `EVs: ${hp_ev} HP / ${atk_ev} Atk / ${def_ev} Def / ${spa_ev} SpA / ${spd_ev} SpD / ${spe_ev} Spe\n`
     showdownString += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[4]} SpA / ${ivs[5]} SpD / ${ivs[3]} Spe\n`
 
-    for (let i = 0; i < 4; i++) {
-        var move_name = sav_move_names[decryptedData[move_data_offset + i]]
-        showdownString += `- ${move_name}\n`
+    for (let i = 0; i < parsedMoveNames.length; i++) {
+        showdownString += `- ${parsedMoveNames[i]}\n`
     }
 
     showdownString += `Met: ${met_location}\n`
