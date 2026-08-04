@@ -736,7 +736,7 @@ function getHealingChipDamage(poke, maxHp) {
 			healing += Math.floor(maxHp / 16);
 			sources.push("Rain Dish");
 		}
-	} else if ((weather === "Hail" || weather === "Snow") && pokeInfoHasAbility(poke, "Ice Body") && pokeInfoHasType(poke, "Ice")) {
+	} else if ((weather === "Hail" || weather === "Snow") && pokeInfoHasAbility(poke, "Ice Body")) {
 		healing += Math.floor(maxHp / 16);
 		sources.push("Ice Body");
 	}
@@ -2209,7 +2209,7 @@ function renderTrainerPreviewPok(next_pok) {
 
 		pok += `<div class="exp-bar">
 			<div class="exp-bar-fill" style="width:${(expRatio * 100).toFixed(1)}%"></div>
-			<div class="exp-bar-label">+${expGain} EXP</div>
+			<div class="exp-bar-label"><span class="exp-bar-sign">+</span><span class="exp-bar-value">${expGain}</span><span class="exp-bar-unit"> EXP</span></div>
 		</div>`
 	}
 
@@ -2420,7 +2420,7 @@ function refresh_next_in() {
 		trpok_html += `<div class="trainer-preview-warning">Please mark fainted pokemon for fully accurate phase 2 dmg simulations for this trainer</div>`
 	}
 	if (hasRenderedExpBar && expTotal !== null) {
-		trpok_html += `<div class="trainer-preview-exp-total">Total: ${expTotal} EXP</div>`
+		trpok_html += `<div class="trainer-preview-exp-total"><span class="trainer-preview-exp-total-label">Total: </span><span class="trainer-preview-exp-total-value">${expTotal}</span><span class="trainer-preview-exp-total-unit"> EXP</span></div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 	if (typeof refreshEnemyPreviewBoxFiltersSafely === "function") {

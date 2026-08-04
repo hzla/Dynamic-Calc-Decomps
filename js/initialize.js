@@ -855,7 +855,7 @@ function updateMastersheetLink() {
   }
 
   const currentTitle = typeof TITLE === "string" ? TITLE : "";
-  const targetUrl = new URL("./mastersheet.html", window.location.href);
+  const targetUrl = new URL("./mastersheet", window.location.href);
   targetUrl.searchParams.set("data", getMastersheetSourceForTitle(currentTitle));
   mastersheetLink.href = targetUrl.toString();
 }

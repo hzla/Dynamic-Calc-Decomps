@@ -12,19 +12,16 @@
  *
  */
 
-// POKEWEB MODE or Use LIVE CALC MODE if not serving dex and calc locally
-// clicking on trainers will not update calc when testing locally (need same domain)
-// IMAGE_FOLDER = "images"
-// DEX_URL = "http://localhost:3000" 
-// CALC_URL = "http://localhost:3002?data=casc"
+function mastersheetDexBaseUrl() {
+  const hostname = window.location.hostname.toLowerCase()
+  const isLocalhost = hostname === "localhost" || hostname.endsWith(".localhost") || hostname === "127.0.0.1" || hostname === "[::1]"
+  return isLocalhost ? "http://localhost:3000" : "https://ddex-chi.vercel.app"
+}
 
-// LIVE CALC MODE
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
-  DEX_URL = `https://ddex-chi.vercel.app`
-  // DEX_URL = `http://localhost:3000`
+  DEX_URL = mastersheetDexBaseUrl()
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
-  // CALC_URL = `http://localhost:3001?data=${gameDataSlug}`
 })
 
 
@@ -172,6 +169,7 @@ function renderTrainerCard(masterEl, trainer, elementIndex) {
 
   const battleType = trainer.type
   const shouldShowBattleType = (battleType == "Doubles" || battleType == "Triples")
+  const isMandatory = String(masterEl.class ?? "").split(/\s+/).includes("mand")
 
   let html = "";
   html += `<div class="expanded-field filterable ms-trainer ${msClass} " data-index="${escapeAttr(
@@ -185,22 +183,30 @@ function renderTrainerCard(masterEl, trainer, elementIndex) {
 
   for (const n of notes) html += `        ${escapeHtml(String(n))}\n`;
 
-  if (shouldShowBattleType) {
-    html += `<br>(${battleType})\n`
-  }
-
- 
-
   html += `      </div>\n`;
   html += `    </div>\n`;
   html += `  </div>\n\n`;
 
+  if (shouldShowBattleType) html += renderBattleFormatIcon(battleType)
   html += `  <div class="expanded-card-content expanded-docs">\n`;
   html += renderTrainerDocs(trainer);
   html += `  </div>\n`;
+  if (isMandatory) html += `  <span class="mandatory-tag">Mandatory</span>\n`;
   html += `</div>\n`;
 
   return html;
+}
+
+function renderBattleFormatIcon(battleType) {
+  const count = battleType === "Triples" ? 3 : 2;
+  const width = count * 20;
+  let people = "";
+
+  for (let index = 0; index < count; index++) {
+    people += `<g transform="translate(${index * 20 + 1} 1)"><circle cx="9" cy="6" r="5.5"></circle><path d="M0 30v-8.5C0 15.2 3.7 11 9 11s9 4.2 9 10.5V30H0Z"></path></g>`;
+  }
+
+  return `<span class="battle-format-icon battle-format-icon--${battleType.toLowerCase()}" role="img" aria-label="${battleType} battle"><svg viewBox="0 0 ${width} 32" aria-hidden="true" focusable="false">${people}</svg></span>\n`;
 }
 
 function renderTrainerDocs(trainer) {
@@ -209,7 +215,7 @@ function renderTrainerDocs(trainer) {
   const count = Number(trainer.count ?? 0);
   if (!Number.isFinite(count) || count <= 0) return ``;
 
-  // Wrap text in a span that forces bold + italic if highlighted
+  // Major/new changes keep the yellow treatment; minor move tuning is italic-only.
   function maybeEmphasize(rawName, displayText) {
     const key = cleanString(String(rawName ?? ""));
     const safeText = escapeHtml(String(displayText ?? ""));
@@ -217,13 +223,14 @@ function renderTrainerDocs(trainer) {
     if (!key) return safeText;
 
     const h = (typeof highlights === "object" && highlights) ? highlights : null;
-    const isHighlighted =
+    const isMajor =
       (h?.changed && h.changed[key] === 1) ||
       (h?.new && h.new[key] === 1);
 
-    if (!isHighlighted) return safeText;
-
-    return `<span style="font-style: italic;color: #f1fa8c";>${safeText}</span>`;
+    if (isMajor) return `<span class="mastersheet-highlight">${safeText}</span>`;
+    return h?.minor && h.minor[key] === 1
+      ? `<span class="mastersheet-highlight-minor">${safeText}</span>`
+      : safeText;
   }
 
   let html = "";
@@ -971,7 +978,3 @@ $(document).on("click", ".trainer-name", async function () {
   $('.filter-title').removeClass('active')
   $('.calc-tab').addClass('active')
 });
-
-
-
-
