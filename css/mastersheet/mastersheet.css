@@ -1,8 +1,14 @@
+:root {
+	--mastersheet-sidebar-width: 18vw;
+}
+
 #mastersheet {
 	color:  #f1f1f1;
 	padding-top:  20px;
-	max-width: calc(82vw - 40px);
-	margin-left: calc(18vw + 20px);
+	width: calc(100vw - var(--mastersheet-sidebar-width) - 40px);
+	max-width: calc(100vw - var(--mastersheet-sidebar-width) - 40px);
+	margin-left: calc(var(--mastersheet-sidebar-width) + 20px);
+	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
@@ -20,16 +26,59 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 18vw;
+	width: var(--mastersheet-sidebar-width);
+	overflow: visible;
 }
 
 #toc {
 	position: fixed;
 	left: 0;
 	top: 44px;
-	width: 18vw;
+	width: var(--mastersheet-sidebar-width);
 	overflow: scroll;
 	height: calc(100vh - 44px);
+	box-sizing: border-box;
+}
+
+.master-sidebar-resize-handle {
+	background: transparent;
+	border: 0;
+	bottom: 0;
+	cursor: col-resize;
+	left: calc(var(--mastersheet-sidebar-width) - 5px);
+	padding: 0;
+	position: fixed;
+	top: 0;
+	touch-action: none;
+	width: 10px;
+	z-index: 1000001;
+}
+
+.master-sidebar-resize-handle::after {
+	background: transparent;
+	bottom: 0;
+	content: "";
+	left: 4px;
+	position: absolute;
+	top: 0;
+	transition: background-color 120ms ease;
+	width: 2px;
+}
+
+.master-sidebar-resize-handle:hover::after,
+.master-sidebar-resize-handle:focus-visible::after,
+body.master-sidebar-resizing .master-sidebar-resize-handle::after {
+	background: #bd93f9;
+}
+
+.master-sidebar-resize-handle:focus-visible {
+	outline: 2px solid #f1f1f1;
+	outline-offset: -2px;
+}
+
+body.master-sidebar-resizing {
+	cursor: col-resize;
+	user-select: none;
 }
 
 #mastersheet .filterable, #mastersheet .expanded-card-content {
@@ -192,7 +241,8 @@
 }
 
 
-.mandatory-tag {
+.mandatory-tag,
+.dodgeable-tag {
 	background: #ff5555;
 	border-radius: 3px;
 	bottom: 8px;
@@ -205,6 +255,10 @@
 	pointer-events: none;
 	position: absolute;
 	z-index: 1;
+}
+
+.dodgeable-tag {
+	background: #469e62;
 }
 
 .battle-format-icon {
@@ -258,6 +312,12 @@
 
 .ms-trainer .trainer-name, #mastersheet img {
 	width: 160px;
+}
+
+.ms-trainer .trainer-name > img {
+	height: 160px;
+	object-fit: contain;
+	object-position: center bottom;
 }
 
 #mastersheet img {
@@ -477,7 +537,7 @@
 }
 
 #filter-tabs {
-    width: 18vw;
+    width: var(--mastersheet-sidebar-width);
     cursor: pointer;
     height: 44px;
     position: fixed;
@@ -486,6 +546,7 @@
     line-height: 44px;
     padding: 0;
     display: flex;
+	box-sizing: border-box;
 }
 
 #filter-tabs .filter-title {

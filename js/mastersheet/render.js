@@ -18,6 +18,170 @@ function mastersheetDexBaseUrl() {
   return isLocalhost ? "http://localhost:3000" : "https://ddex-chi.vercel.app"
 }
 
+const MASTERSHEET_SIDEBAR_WIDTH_KEY = "dynamicCalcMastersheetSidebarWidth";
+const MASTERSHEET_SIDEBAR_MIN_WIDTH = 180;
+const MASTERSHEET_SIDEBAR_MAX_WIDTH = 720;
+
+function getMastersheetSidebarMaximumWidth() {
+  return Math.max(
+    MASTERSHEET_SIDEBAR_MIN_WIDTH,
+    Math.min(MASTERSHEET_SIDEBAR_MAX_WIDTH, window.innerWidth * 0.6)
+  );
+}
+
+function clampMastersheetSidebarWidth(width) {
+  return Math.min(
+    getMastersheetSidebarMaximumWidth(),
+    Math.max(MASTERSHEET_SIDEBAR_MIN_WIDTH, Number(width))
+  );
+}
+
+function readStoredMastersheetSidebarWidth() {
+  try {
+    const storedWidth = Number(window.localStorage.getItem(MASTERSHEET_SIDEBAR_WIDTH_KEY));
+    return Number.isFinite(storedWidth) && storedWidth > 0 ? storedWidth : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function writeStoredMastersheetSidebarWidth(width) {
+  try {
+    window.localStorage.setItem(MASTERSHEET_SIDEBAR_WIDTH_KEY, String(Math.round(width)));
+  } catch (error) {
+    // Resizing still works when storage is unavailable.
+  }
+}
+
+function clearStoredMastersheetSidebarWidth() {
+  try {
+    window.localStorage.removeItem(MASTERSHEET_SIDEBAR_WIDTH_KEY);
+  } catch (error) {
+    // Resetting the visible width is still useful when storage is unavailable.
+  }
+}
+
+function setMastersheetSidebarWidth(width, { persist = false } = {}) {
+  const clampedWidth = clampMastersheetSidebarWidth(width);
+  document.documentElement.style.setProperty(
+    "--mastersheet-sidebar-width",
+    `${clampedWidth}px`
+  );
+
+  if (persist) writeStoredMastersheetSidebarWidth(clampedWidth);
+  return clampedWidth;
+}
+
+function resetMastersheetSidebarWidth() {
+  document.documentElement.style.removeProperty("--mastersheet-sidebar-width");
+  clearStoredMastersheetSidebarWidth();
+}
+
+function restoreMastersheetSidebarWidth() {
+  const storedWidth = readStoredMastersheetSidebarWidth();
+  if (storedWidth !== null) setMastersheetSidebarWidth(storedWidth);
+}
+
+function initializeMastersheetSidebarResizer() {
+  const sidebar = document.querySelector(".master-sidebar");
+  if (!sidebar || document.querySelector(".master-sidebar-resize-handle")) return;
+
+  const handle = document.createElement("div");
+  handle.className = "master-sidebar-resize-handle";
+  handle.tabIndex = 0;
+  handle.setAttribute("role", "separator");
+  handle.setAttribute("aria-label", "Resize mastersheet sidebar");
+  handle.setAttribute("aria-orientation", "vertical");
+  handle.title = "Drag to resize the sidebar. Double-click to reset.";
+  document.body.appendChild(handle);
+
+  let activePointerId = null;
+  let dragStartX = 0;
+  let dragStartWidth = 0;
+
+  function updateAccessibleValue(width) {
+    handle.setAttribute("aria-valuemin", String(MASTERSHEET_SIDEBAR_MIN_WIDTH));
+    handle.setAttribute("aria-valuemax", String(Math.round(getMastersheetSidebarMaximumWidth())));
+    handle.setAttribute("aria-valuenow", String(Math.round(width)));
+  }
+
+  function recomputeTocLayout() {
+    if (tocStacking) tocStacking.recompute();
+  }
+
+  function resizeTo(width, persist = false) {
+    const resizedWidth = setMastersheetSidebarWidth(width, { persist });
+    updateAccessibleValue(resizedWidth);
+    window.requestAnimationFrame(recomputeTocLayout);
+    return resizedWidth;
+  }
+
+  updateAccessibleValue(sidebar.getBoundingClientRect().width);
+
+  handle.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
+
+    activePointerId = event.pointerId;
+    dragStartX = event.clientX;
+    dragStartWidth = sidebar.getBoundingClientRect().width;
+    try {
+      handle.setPointerCapture(activePointerId);
+    } catch (error) {
+      // Some embedded browsers do not expose pointer capture during synthetic input.
+    }
+    document.body.classList.add("master-sidebar-resizing");
+    event.preventDefault();
+  });
+
+  handle.addEventListener("pointermove", (event) => {
+    if (event.pointerId !== activePointerId) return;
+    resizeTo(dragStartWidth + event.clientX - dragStartX);
+  });
+
+  function finishResize(event) {
+    if (event.pointerId !== activePointerId) return;
+
+    const width = sidebar.getBoundingClientRect().width;
+    activePointerId = null;
+    document.body.classList.remove("master-sidebar-resizing");
+    resizeTo(width, true);
+  }
+
+  handle.addEventListener("pointerup", finishResize);
+  handle.addEventListener("pointercancel", finishResize);
+
+  handle.addEventListener("keydown", (event) => {
+    if (event.key === "Home") {
+      resetMastersheetSidebarWidth();
+      updateAccessibleValue(sidebar.getBoundingClientRect().width);
+      window.requestAnimationFrame(recomputeTocLayout);
+      event.preventDefault();
+      return;
+    }
+
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+
+    const direction = event.key === "ArrowLeft" ? -1 : 1;
+    const step = event.shiftKey ? 48 : 16;
+    resizeTo(sidebar.getBoundingClientRect().width + direction * step, true);
+    event.preventDefault();
+  });
+
+  handle.addEventListener("dblclick", () => {
+    resetMastersheetSidebarWidth();
+    updateAccessibleValue(sidebar.getBoundingClientRect().width);
+    window.requestAnimationFrame(recomputeTocLayout);
+  });
+
+  window.addEventListener("resize", () => {
+    const storedWidth = readStoredMastersheetSidebarWidth();
+    if (storedWidth !== null) resizeTo(storedWidth);
+    else updateAccessibleValue(sidebar.getBoundingClientRect().width);
+  });
+}
+
+restoreMastersheetSidebarWidth();
+
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
   DEX_URL = mastersheetDexBaseUrl()
@@ -170,6 +334,7 @@ function renderTrainerCard(masterEl, trainer, elementIndex) {
   const battleType = trainer.type
   const shouldShowBattleType = (battleType == "Doubles" || battleType == "Triples")
   const isMandatory = String(masterEl.class ?? "").split(/\s+/).includes("mand")
+  const isDodgeable = notes.some((note) => /\(DODGEABLE\)/i.test(String(note)))
 
   let html = "";
   html += `<div class="expanded-field filterable ms-trainer ${msClass} " data-index="${escapeAttr(
@@ -181,7 +346,10 @@ function renderTrainerCard(masterEl, trainer, elementIndex) {
   html += `${trainerDisplayName}\n`;
   html += `      <div class="tr-notes">\n`;
 
-  for (const n of notes) html += `        ${escapeHtml(String(n))}\n`;
+  for (const note of notes) {
+    const visibleNote = String(note).replace(/\(DODGEABLE\),?/gi, "").trim();
+    if (visibleNote) html += `        ${escapeHtml(visibleNote)}\n`;
+  }
 
   html += `      </div>\n`;
   html += `    </div>\n`;
@@ -192,6 +360,7 @@ function renderTrainerCard(masterEl, trainer, elementIndex) {
   html += renderTrainerDocs(trainer);
   html += `  </div>\n`;
   if (isMandatory) html += `  <span class="mandatory-tag">Mandatory</span>\n`;
+  if (isDodgeable) html += `  <span class="dodgeable-tag">Dodgeable</span>\n`;
   html += `</div>\n`;
 
   return html;
@@ -597,7 +766,7 @@ function loadDex(url) {
   iframe.style.position = 'fixed';
   iframe.style.top = '44px';
   iframe.style.left = '0%';
-  iframe.style.width = '18vw';
+  iframe.style.width = 'var(--mastersheet-sidebar-width)';
   iframe.style.height = 'calc(100vh - 44px)';
   iframe.style.border = '2px solid #333';
   iframe.style.zIndex = '999999';
@@ -753,6 +922,7 @@ function sanitizeUrl(url) {
 $(document).ready(function() {
     document.querySelector("#mastersheet").innerHTML = renderMasterData(masterData, trainersById, encountersById);
     constructToc()
+    initializeMastersheetSidebarResizer()
 
     loadDex(`?game=${dexDataSlug}`)
 
@@ -829,9 +999,6 @@ $(document).ready(function() {
             console.log('Target element with data-link="' + targetDataLink + '" not found.');
         }
     });
-
-    const toc = document.getElementById('toc');
-    window.addEventListener("resize", layoutPile);
 })
 
 /* ------------------------------ Tab Communications ---------------------------- */
@@ -886,7 +1053,7 @@ function loadCalc(url) {
     position: 'fixed',
     top: '0',
     right: '0',
-    width: '82vw',
+    width: 'calc(100vw - var(--mastersheet-sidebar-width))',
     height: '100vh',
     zIndex: '999999',
     overflow: 'hidden',
