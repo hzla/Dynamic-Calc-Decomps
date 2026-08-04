@@ -200,6 +200,47 @@
         return typeof window.TITLE === "string" ? window.TITLE : "";
     }
 
+    function getBattleLogProgressionConfig() {
+        const rules = window.battleLogSplitRules;
+        return rules && typeof rules.getProgressionForTitle === "function"
+            ? rules.getProgressionForTitle(getCurrentTitle())
+            : null;
+    }
+
+    function getCurrentTrainerOrder() {
+        const currentData = window.npoint_data && typeof window.npoint_data === "object"
+            ? window.npoint_data
+            : null;
+        const backupData = window.backup_data && typeof window.backup_data === "object"
+            ? window.backup_data
+            : null;
+        if (currentData && currentData.order && typeof currentData.order === "object") {
+            return currentData.order;
+        }
+        if (backupData && backupData.order && typeof backupData.order === "object") {
+            return backupData.order;
+        }
+        return null;
+    }
+
+    function assignSaveFileBattleLogSplitIndexes(sessions) {
+        const rules = window.battleLogSplitRules;
+        const progression = getBattleLogProgressionConfig();
+        if (!rules || typeof rules.assignSplitIndexes !== "function" || !progression) {
+            return;
+        }
+
+        const normalizedSessions = Array.isArray(sessions) ? sessions : [];
+        const splitIndexes = rules.assignSplitIndexes(
+            normalizedSessions.map(getSessionTrainerId),
+            getCurrentTrainerOrder(),
+            progression
+        );
+        normalizedSessions.forEach((session, index) => {
+            session.saveFileSplitIndex = splitIndexes[index];
+        });
+    }
+
     function cleanSpeciesKey(speciesName) {
         return String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
     }
@@ -1410,7 +1451,17 @@
                     nextMon.nature = decodeNatureId(nextMon.nature, adapter);
                 }
 
-                if (payloadVersion === "pokeemerald-expansion") {
+                if (payloadVersion === "gen5-save-v2") {
+                    const storedAbility = decodeEnumId(nextMon.ability, "ability");
+                    const hasStoredAbility = typeof storedAbility === "string"
+                        && storedAbility.trim()
+                        && storedAbility !== "Unknown";
+                    nextMon.ability = hasStoredAbility
+                        ? storedAbility
+                        : context && typeof context.resolveImportedSaveSetAbility === "function"
+                            ? context.resolveImportedSaveSetAbility(nextMon.species) || "Unknown"
+                            : "Unknown";
+                } else if (payloadVersion === "pokeemerald-expansion") {
                     nextMon.ability = resolvePokeemeraldExpansionAbilityNameForBattleLog(
                         speciesId,
                         Number(nextMon.abilitySlot),
@@ -1427,13 +1478,6 @@
                         speciesId,
                         Number(nextMon.abilitySlot)
                     );
-                } else if (
-                    payloadVersion === "gen5-save-v2"
-                    && (!nextMon.ability || nextMon.ability === "Unknown")
-                    && context
-                    && typeof context.resolveImportedSaveSetAbility === "function"
-                ) {
-                    nextMon.ability = context.resolveImportedSaveSetAbility(nextMon.species) || "Unknown";
                 } else {
                     nextMon.ability = decodeEnumId(nextMon.ability, "ability");
                 }
@@ -1678,9 +1722,13 @@
                 : null,
         };
         const sessions = rawSessions.map((rawSession) => decodeRawSession(rawSession, context));
-        return payload && payload.preserveDuplicateTrainers
+        const normalizedSessions = payload && payload.preserveDuplicateTrainers
             ? sessions
             : dedupeSessionsByTrainerId(sessions);
+        if (payloadVersion === "gen5-save-v2") {
+            assignSaveFileBattleLogSplitIndexes(normalizedSessions);
+        }
+        return normalizedSessions;
     }
 
     function getSessionTrainerId(session) {
@@ -1941,6 +1989,11 @@
     }
 
     function getBattleLogSessionSplitIndex(session) {
+        const saveFileSplitIndex = Number(session && session.saveFileSplitIndex);
+        if (Number.isInteger(saveFileSplitIndex) && saveFileSplitIndex >= 0) {
+            return saveFileSplitIndex;
+        }
+
         const badgeSplitIndex = getBattleLogSplitIndexForBadgeCount(getBattleLogSessionBadgeCount(session));
         if (badgeSplitIndex != null) {
             return badgeSplitIndex;
@@ -1961,10 +2014,16 @@
 
     function getBattleLogSplitTabsConfig() {
         if (typeof window.TITLE !== "string" || !window.TITLE) return null;
-        if (!window.splitData || !window.splitData[window.TITLE]) return null;
 
-        const splitCfg = window.splitData[window.TITLE];
-        const titlesRaw = splitCfg && splitCfg.titles;
+        const splitCfg = window.splitData && window.splitData[window.TITLE]
+            ? window.splitData[window.TITLE]
+            : null;
+        const progression = normalizeActiveBattleLogSource() === "save-file"
+            ? getBattleLogProgressionConfig()
+            : null;
+        const titlesRaw = splitCfg && splitCfg.titles
+            ? splitCfg.titles
+            : progression && progression.splitTitles;
         if (!titlesRaw) return null;
 
         const entries = [];

@@ -2703,10 +2703,23 @@ input {
     background: transparent;
     color: #bb86fc;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 1;
     text-align: center;
     cursor: pointer;
     margin-bottom: 20px;
+    appearance: none;
+    font-family: inherit;
+    position: relative;
+}
+
+.trainer-preview-mobile-actions .nav-tag .trainer-preview-action-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    pointer-events: none;
 }
 
 .trainer-preview-mobile-actions .nav-tag:hover {
@@ -5818,6 +5831,35 @@ table.field {
 
     #nav-tags .next {
         top: 536px;
+    }
+
+    .exp-bar {
+        height: 14px;
+        margin-top: 6px;
+        font-size: 10px;
+    }
+
+    .exp-bar::before,
+    .exp-bar-fill {
+        height: 3px;
+    }
+
+    .exp-bar-label {
+        font-size: 10px;
+        transform: translateY(9px);
+    }
+
+    .exp-bar-sign,
+    .exp-bar-unit,
+    .trainer-preview-exp-total-label,
+    .trainer-preview-exp-total-unit {
+        display: none;
+    }
+
+    .trainer-preview-exp-total {
+        margin-top: 12px;
+        font-size: 11px;
+        line-height: 1.1;
     }
 
     .info-group.top, .info-group.top.opp {

@@ -6,7 +6,7 @@
 		<script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script> 
 
     	<link type="text/css" rel="stylesheet" href="./css/mastersheet/main.css?2f51c9690" />
-        <link type="text/css" rel="stylesheet" href="./css/mastersheet/mastersheet.css?2f51c969e" />
+		<link type="text/css" rel="stylesheet" href="./css/mastersheet/mastersheet.css?20260804a" />
 		<link type="text/css" rel="stylesheet" href="./css/mastersheet/external.css?2f51c9699" />
 
 		<script src="./js/calc_ui/utility_functions.js"></script>
@@ -21,7 +21,7 @@
                     },
                     cascadewhite2: {
                         gameDataSlug: "casc2",
-                        dexDataSlug: "cascadewhite"
+                        dexDataSlug: "cascadewhitedev"
                     },
                     vintagewhiteplus: {
                         gameDataSlug: "vwplus",
@@ -61,9 +61,9 @@
                     applySourceConfig(sourceName);
 
                     appendScript(
-                        `./js/mastersheet/data/${sourceName}.js?1`,
+                        `./js/mastersheet/data/${sourceName}.js?2`,
                         function () {
-                            appendScript("./js/mastersheet/render.js?b");
+                            appendScript("./js/mastersheet/render.js?20260803d");
                         },
                         function () {
                             if (allowFallback && sourceName !== DEFAULT_MASTERSHEET_SOURCE) {
