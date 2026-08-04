@@ -1,30 +1,14 @@
 masterData =
 [
   {
-    "content": "Cascade White Dev",
+    "content": "Cascade White Dev August",
     "content_parts": [
       {
         "type": "text",
-        "text": "Cascade White Dev"
+        "text": "Cascade White Dev August"
       }
     ],
     "tag": "h1"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -42,22 +26,6 @@ masterData =
         "text": "Thank you for playing Cascade White! A brief overview of major changes not immediately obvious in this mastersheet is provided below."
       }
     ],
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
     "tag": "p"
   },
   {
@@ -1403,60 +1371,44 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Green Shards: Screech, Fake Tears, Sparkle, Defog, Chilling Water, Low Sweep, Incinerate, Icy Wind, Electroweb, Snarl, Breaking Swipe, Struggle Bug, Take Down, Uproar",
+    "content": "Green Shards: Screech, Fake Tears, Seismic Toss, Defog, Chilling Water, Swift, Breaking Swipe, Magic Coat, Take Down, Snore, Low Sweep, Icy Wind, Electroweb, Endeavor, Natural Gift",
     "content_parts": [
       {
         "type": "text",
-        "text": "Green Shards: Screech, Fake Tears, Sparkle, Defog, Chilling Water, Low Sweep, Incinerate, Icy Wind, Electroweb, Snarl, Breaking Swipe, Struggle Bug, Take Down, Uproar"
+        "text": "Green Shards: Screech, Fake Tears, Seismic Toss, Defog, Chilling Water, Swift, Breaking Swipe, Magic Coat, Take Down, Snore, Low Sweep, Icy Wind, Electroweb, Endeavor, Natural Gift"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Red Shards: Seed Bomb, U-Turn, Drill Run, Bounce, Signal Beam, Iron Head, Skill Swap, Seething Cold, Psychic Noise, Torment, Low Kick, Cross Poison, Fire Punch, Thunder Punch, Ice Punch",
+    "content": "Red Shards: Seed Bomb, Signal Beam, Counter, Drill Run, Bounce, Psychic Noise, Ice Punch, Fire Punch, Thunderpunch, Safeguard, Foul Play, Focus Punch, Cross Poison, Skill Swap, U-Turn",
     "content_parts": [
       {
         "type": "text",
-        "text": "Red Shards: Seed Bomb, U-Turn, Drill Run, Bounce, Signal Beam, Iron Head, Skill Swap, Seething Cold, Psychic Noise, Torment, Low Kick, Cross Poison, Fire Punch, Thunder Punch, Ice Punch"
+        "text": "Red Shards: Seed Bomb, Signal Beam, Counter, Drill Run, Bounce, Psychic Noise, Ice Punch, Fire Punch, Thunderpunch, Safeguard, Foul Play, Focus Punch, Cross Poison, Skill Swap, U-Turn"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Blue Shards: Explosion, Self Destruct, Zen Headbutt, Magic Coat, Barrier, Defense Curl, Sweet Scent, Gastro Acid, Iron Tail, Aqua Tail, Earth Power, Psyblade, Foul Play, Focus Punch, Gravity, Follow Me, Protect",
+    "content": "Blue Shards: Recycle, Knock Off, Roost, Earth Power, Heat Wave, Muddy Water, Barrier, Defense Curl, Sweet Scent, Gastro Acid, Psyblade, Scary Face, Double-Edge, Body Press, Gravity, Helping Hand, Detect",
     "content_parts": [
       {
         "type": "text",
-        "text": "Blue Shards: Explosion, Self Destruct, Zen Headbutt, Magic Coat, Barrier, Defense Curl, Sweet Scent, Gastro Acid, Iron Tail, Aqua Tail, Earth Power, Psyblade, Foul Play, Focus Punch, Gravity, Follow Me, Protect"
+        "text": "Blue Shards: Recycle, Knock Off, Roost, Earth Power, Heat Wave, Muddy Water, Barrier, Defense Curl, Sweet Scent, Gastro Acid, Psyblade, Scary Face, Double-Edge, Body Press, Gravity, Helping Hand, Detect"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Yellow Shards: Double-Edge, Heal Pulse, Healing Wish, Lucky Chant, Synthesis, Roost, Head Smash, Helping Hand, Overheat, Outrage, Superpower, Toxic, Rest",
+    "content": "Yellow Shards: Last Resort, Heavy Slam, Lucky Chant, Worry Seed, Healing Wish, Brutal Swing, Trick Room, Head Smash, Outrage, Superpower, Overheat, Toxic, Rest",
     "content_parts": [
       {
         "type": "text",
-        "text": "Yellow Shards: Double-Edge, Heal Pulse, Healing Wish, Lucky Chant, Synthesis, Roost, Head Smash, Helping Hand, Overheat, Outrage, Superpower, Toxic, Rest"
+        "text": "Yellow Shards: Last Resort, Heavy Slam, Lucky Chant, Worry Seed, Healing Wish, Brutal Swing, Trick Room, Head Smash, Outrage, Superpower, Overheat, Toxic, Rest"
       }
     ],
     "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -1833,11 +1785,11 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Sparkle (2 shards)",
+    "content": "Seismic Toss (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Sparkle (2 shards)"
+        "text": "Seismic Toss (2 shards)"
       }
     ],
     "tag": "li"
@@ -1853,41 +1805,61 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Low Sweep (4 shards)",
+    "content": "Chilling Water (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Low Sweep (4 shards)"
+        "text": "Chilling Water (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Incinerate (4 shards)",
+    "content": "Swift (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Incinerate (4 shards)"
+        "text": "Swift (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Take Down (4 shards)",
+    "content": "Breaking Swipe (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Take Down (4 shards)"
+        "text": "Breaking Swipe (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Uproar (4 shards)",
+    "content": "Magic Coat (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Uproar (4 shards)"
+        "text": "Magic Coat (4 shards)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Take Down (5 shards)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Take Down (5 shards)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Low Sweep (6 shards)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Low Sweep (6 shards)"
       }
     ],
     "tag": "li"
@@ -1913,41 +1885,11 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Snarl (6 shards)",
+    "content": "Endeavor (8 Shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Snarl (6 shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Chilling Water (6 shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Chilling Water (6 shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Breaking Swipe (6 shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Breaking Swipe (6 shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Struggle Bug (6 shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Struggle Bug (6 shards)"
+        "text": "Endeavor (8 Shards)"
       }
     ],
     "tag": "li"
@@ -2148,6 +2090,7 @@ masterData =
       "wiseglasses",
       "white herb",
       "tm normal",
+      "tm fire",
       "great ball"
     ],
     "itemDescriptions": [
@@ -2158,6 +2101,7 @@ masterData =
       "WiseGlasses - Reward for defeating Youngster Kenny",
       "White Herb x2 — reward for defeating Pkm Breeder Alice",
       "TM10 Hidden Power — reward for defeating Benga",
+      "TM90 Incinerate — found in northeastern forest",
       "Great Ball x2 — found past Youngster Kenny"
     ]
   },
@@ -2313,16 +2257,16 @@ masterData =
   {
     "id": 2,
     "notes": [
-      "(Spinner:",
+      "(DODGEABLE)",
       "Rewards",
       "2x",
       "White",
-      "Herbs)"
+      "Herbs"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Spinner: Rewards 2x White Herbs)"
+        "text": "(DODGEABLE) Rewards 2x White Herbs"
       }
     ],
     "tag": "trainer"
@@ -2366,15 +2310,15 @@ masterData =
   {
     "id": 180,
     "notes": [
-      "(Spinner:",
+      "(DODGEABLE)",
       "Rewards",
       "Wise",
-      "Glasses)"
+      "Glasses"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Spinner: Rewards Wise Glasses)"
+        "text": "(DODGEABLE) Rewards Wise Glasses"
       }
     ],
     "tag": "trainer"
@@ -2781,13 +2725,15 @@ masterData =
       "chilan berry",
       "rowap berry",
       "jaboca berry",
-      "tm normal"
+      "tm normal",
+      "tm flying"
     ],
     "itemDescriptions": [
       "3x Chilan Berries (given by Gym Guide upon entering)",
       "3x Rowap Berries (speak to the School Kid inside the and defeat them in battle)",
       "3x Jaboca Berries (speak to the School Kid inside the and defeat them in battle)",
-      "TM67 Secret Power (reward for defeating Cheren)"
+      "TM67 Secret Power (reward for defeating Cheren)",
+      "TM49 Pluck (found in the classroom)"
     ]
   },
   {
@@ -3197,7 +3143,7 @@ masterData =
   {
     "id": 176,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "Rewards",
       "Mystic",
       "Water"
@@ -3205,7 +3151,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) Rewards Mystic Water"
+        "text": "(DODGEABLE) Rewards Mystic Water"
       }
     ],
     "tag": "trainer"
@@ -3630,7 +3576,7 @@ masterData =
   {
     "id": 112,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "Rewards",
       "Miracle",
       "Seed"
@@ -3638,7 +3584,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) Rewards Miracle Seed"
+        "text": "(DODGEABLE) Rewards Miracle Seed"
       }
     ],
     "tag": "trainer"
@@ -3711,7 +3657,7 @@ masterData =
   {
     "id": 555,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "Rewards",
       "TM15",
       "Psycho",
@@ -3720,7 +3666,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) Rewards TM15 Psycho Cut"
+        "text": "(DODGEABLE) Rewards TM15 Psycho Cut"
       }
     ],
     "tag": "trainer"
@@ -3827,7 +3773,7 @@ masterData =
   {
     "id": 738,
     "notes": [
-      "(Spinner)",
+      "(DODGEABLE)",
       "Rewards",
       "TM39",
       "Rock",
@@ -3836,7 +3782,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Spinner) Rewards TM39 Rock Tomb"
+        "text": "(DODGEABLE) Rewards TM39 Rock Tomb"
       }
     ],
     "tag": "trainer"
@@ -3852,14 +3798,14 @@ masterData =
   {
     "id": 645,
     "notes": [
-      "(Spinner)",
+      "(DODGEABLE)",
       "Rewards",
       "Magnet"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Spinner) Rewards Magnet"
+        "text": "(DODGEABLE) Rewards Magnet"
       }
     ],
     "tag": "trainer"
@@ -3875,7 +3821,7 @@ masterData =
   {
     "id": 135,
     "notes": [
-      "(Spinner)",
+      "(DODGEABLE)",
       "Rewards",
       "15x",
       "green",
@@ -3884,7 +3830,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Spinner) Rewards 15x green shards"
+        "text": "(DODGEABLE) Rewards 15x green shards"
       }
     ],
     "tag": "trainer"
@@ -4022,7 +3968,7 @@ masterData =
   {
     "id": 138,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "Rewards",
       "1x",
       "Kebia",
@@ -4031,7 +3977,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) Rewards 1x Kebia Berry"
+        "text": "(DODGEABLE) Rewards 1x Kebia Berry"
       }
     ],
     "tag": "trainer"
@@ -4222,7 +4168,7 @@ masterData =
   {
     "id": 106,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "(Rewards",
       "3x",
       "Cheri",
@@ -4231,7 +4177,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) (Rewards 3x Cheri Berries)"
+        "text": "(DODGEABLE) (Rewards 3x Cheri Berries)"
       }
     ],
     "tag": "trainer"
@@ -4247,7 +4193,7 @@ masterData =
   {
     "id": 300,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "(Rewards",
       "3x",
       "Pecha",
@@ -4256,7 +4202,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) (Rewards 3x Pecha Berries)"
+        "text": "(DODGEABLE) (Rewards 3x Pecha Berries)"
       }
     ],
     "tag": "trainer"
@@ -4466,7 +4412,7 @@ masterData =
       "Persim Berry x3 (reward for defeating Harlequin Flops)",
       "Micle Berry x3 (reward for defeating Harlequin Yoncy)",
       "Blunder Policy x1 (reward for defeating Harlequin Jangles)",
-      "Trickster Herb x1 (reward for beating all three harlequins)"
+      "Trickster Herb x2 (reward for beating all three harlequins)"
     ]
   },
   {
@@ -4643,14 +4589,14 @@ masterData =
       "3",
       "clowns:",
       "Rewards",
-      "1x",
+      "2x",
       "Trickster",
       "Steb)"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Fought after beating all 3 clowns: Rewards 1x Trickster Steb)"
+        "text": "(Fought after beating all 3 clowns: Rewards 2x Trickster Steb)"
       }
     ],
     "tag": "trainer"
@@ -4748,7 +4694,7 @@ masterData =
   {
     "id": 336,
     "notes": [
-      "(SPINNER)",
+      "(DODGEABLE)",
       "(Rewards",
       "3x",
       "Aspear",
@@ -4757,7 +4703,7 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "(SPINNER) (Rewards 3x Aspear Berries)"
+        "text": "(DODGEABLE) (Rewards 3x Aspear Berries)"
       }
     ],
     "tag": "trainer"
@@ -4869,18 +4815,20 @@ masterData =
       "sticky barb",
       "stable mulch",
       "tm ghost",
-      "dusk ball"
+      "dusk ball",
+      "red shards"
     ],
     "itemDescriptions": [
       "Black Sludge (found west of the Plasma Grunts after beating them)",
       "Enigma Berry x3 (found after the Janitor Tag)",
       "Lagging Tail (found after the Workers)",
       "Mental Herb x3 (found past the healthcare tag)",
-      "Green Shards x15 (found after the Policeman tag)",
+      "Green Shards x10 (found after the Policeman tag)",
       "Sticky Barb (found after the Scientist tag)",
       "1x Serious Mint (reward for Defeating the Plasma Grunts)",
       "TM37 Hex (encountered behind the Grimers once you beat the grunts)",
-      "Dusk Ball (x3) (found near entrance)"
+      "Dusk Ball (x3) (found near entrance)",
+      "0x-10x Red Shards (2x per tag battle)"
     ]
   },
   {
@@ -4906,7 +4854,7 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "WARNING",
-    "text": "Each pair of trainers in Castelia Sewers can be fought as either a Back to Back battle or a Tag battle (except for the Sewer Grunts). Hugh will NOT heal you between the back to backs!",
+    "text": "Each pair of trainers in Castelia Sewers can be fought as either a Back to Back battle or a Tag battle (except for the Sewer Grunts). Hugh will NOT heal you between the back to backs! If fought as a Tag,each battle rewards 2x Red Shards.",
     "fontColor": "#f26253"
   },
   {
@@ -5817,41 +5765,21 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Iron Head (2 shards)",
+    "content": "Signal Beam (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Iron Head (2 shards)"
+        "text": "Signal Beam (2 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Fire Punch (2 Shards)",
+    "content": "Counter (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Fire Punch (2 Shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Thunder Punch (2 Shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Thunder Punch (2 Shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Ice Punch (2 Shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Ice Punch (2 Shards)"
+        "text": "Counter (2 shards)"
       }
     ],
     "tag": "li"
@@ -5877,61 +5805,71 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Signal Beam (4 shards)",
+    "content": "Psychic Noise (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Signal Beam (4 shards)"
+        "text": "Psychic Noise (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Iron Head (6 shards)",
+    "content": "Ice Punch (5 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Iron Head (6 shards)"
+        "text": "Ice Punch (5 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Seething Cold (6 shards)",
+    "content": "Fire Punch (5 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Seething Cold (6 shards)"
+        "text": "Fire Punch (5 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Psychic Noise (6 shards)",
+    "content": "Thunderpunch (5 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Psychic Noise (6 shards)"
+        "text": "Thunderpunch (5 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Torment (6 shards)",
+    "content": "Safeguard (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Torment (6 shards)"
+        "text": "Safeguard (6 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Low Kick (8 shards)",
+    "content": "Foul Play (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Low Kick (8 shards)"
+        "text": "Foul Play (6 shards)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Focus Punch (8 shards)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Focus Punch (8 shards)"
       }
     ],
     "tag": "li"
@@ -5947,21 +5885,21 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Skill Swap (10 shards)",
+    "content": "Skill Swap (8 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Skill Swap (10 shards)"
+        "text": "Skill Swap (8 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "U-Turn (10 Shards)",
+    "content": "U-Turn (10 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "U-Turn (10 Shards)"
+        "text": "U-Turn (10 shards)"
       }
     ],
     "tag": "li"
@@ -7721,10 +7659,18 @@ masterData =
     "itemsTitle": "TM Vendor",
     "itemsDescription": "",
     "itemList": [
-      "tm normal"
+      "tm electric",
+      "tm rock",
+      "tm psychic",
+      "tm flying",
+      "tm fire"
     ],
     "itemDescriptions": [
-      "TM27 Return"
+      "TM73 Thunder Wave",
+      "TM39 Rock Tomb",
+      "TM15 Psycho Cut",
+      "TM49 Pluck",
+      "TM90 Incinerate"
     ]
   },
   {
@@ -8533,14 +8479,12 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "tm fairy",
-      "normal gem",
-      "tm normal",
+      "tm dark",
       "eject button"
     ],
     "itemDescriptions": [
       "TM08 Dizzy Punch (past Cyclists)",
-      "x2 Normal Gem (past Art & Stu)",
-      "TM49 Snore (past Art & Stu)",
+      "TM95 Torment (past Art & Stu)",
       "x2 Eject Pack (past Roughneck Silvester)"
     ]
   },
@@ -8639,17 +8583,13 @@ masterData =
     "id": 257,
     "notes": [
       "Guards",
-      "TM49",
-      "Snore",
-      "and",
-      "2x",
-      "Normal",
-      "Gems"
+      "TM95",
+      "Torment"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Guards TM49 Snore and 2x Normal Gems"
+        "text": "Guards TM95 Torment"
       }
     ],
     "tag": "trainer"
@@ -8666,14 +8606,14 @@ masterData =
     "id": 217,
     "notes": [
       "Guards",
-      "3x",
-      "Absorb",
-      "Bulbs"
+      "2x",
+      "Eject",
+      "Pack"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Guards 3x Absorb Bulbs"
+        "text": "Guards 2x Eject Pack"
       }
     ],
     "tag": "trainer"
@@ -8882,13 +8822,11 @@ masterData =
     "itemsDescription": "Speak with Bellossom to receive 2x of each Resist Berry",
     "itemList": [
       "wacan berry",
-      "tm grass",
-      "red shard"
+      "tm grass"
     ],
     "itemDescriptions": [
       "1x each Resist Berry",
-      "TM06 Magical Leaf",
-      "x10 Red Shards"
+      "TM06 Magical Leaf"
     ]
   },
   {
@@ -8930,9 +8868,53 @@ masterData =
     "tag": "h2"
   },
   {
+    "tag": "items",
+    "itemsTitle": "Items",
+    "itemsDescription": "",
+    "itemList": [
+      "red shard"
+    ],
+    "itemDescriptions": [
+      "10x Red Shards (defeat Lass Patty)"
+    ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 621,
     "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 116,
+    "notes": [
+      "(DODGEABLE)",
+      "Rewards",
+      "10x",
+      "Red",
+      "Shards"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE) Rewards 10x Red Shards"
+      }
+    ],
     "tag": "trainer"
   },
   {
@@ -8981,11 +8963,11 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "cell battery",
-      "tm electric"
+      "tm fairy"
     ],
     "itemDescriptions": [
       "x3 Cell Battery (given by Gym Guide upon entering)",
-      "TM73 Thunder Wave (reward for defeating Elesa)"
+      "TM32 Dazzling Gleam (reward for defeating Elesa)"
     ]
   },
   {
@@ -9095,6 +9077,16 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "Nimbasa Board Harlequin Rewards",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Nimbasa Board Harlequin Rewards"
+      }
+    ],
+    "tag": "li"
+  },
+  {
     "content": "",
     "content_parts": {
       "type": "text",
@@ -9107,14 +9099,14 @@ masterData =
     "id": 153,
     "notes": [
       "Rewards",
-      "TM73",
-      "Thunder",
-      "Wave"
+      "TM32",
+      "Dazzling",
+      "Gleam"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Rewards TM73 Thunder Wave"
+        "text": "Rewards TM32 Dazzling Gleam"
       }
     ],
     "tag": "trainer"
@@ -9687,20 +9679,24 @@ masterData =
     "itemList": [
       "expert belt",
       "tm grass",
-      "tm fairy",
+      "tm normal",
       "tm fighting",
+      "tm flying",
+      "tm dragon",
       "red shard",
       "white herb",
-      "kasib berry"
+      "micle berry"
     ],
     "itemDescriptions": [
       "Expert Belt (found in the market, vanilla location)",
-      "TM819 Giga Drain (south of Musician Preston)",
-      "TM90 Draining Kiss (Past Backers Ava and Aya)",
+      "TM19 Giga Drain (south of Musician Preston)",
+      "TM20 Hyper Voice (Past Backers Ava and Aya)",
       "TM31 Brick Break (reward for defeating Duke)",
+      "TM62 Acrobatics (defeat Harlequin Chester)",
+      "TM43 Dragon Pulse (show a dragon type to the maid in the Hotel)",
       "x10 Red Shard (past Dancer Brian)",
       "x2 White Herb (in the Market)",
-      "x1 Trickster Herb (in the market)"
+      "x2 Micle Berry (in the Market)"
     ]
   },
   {
@@ -9781,61 +9777,61 @@ masterData =
     "text": "The Blue Move Tutor is present,past Dancer Brian,and teaches:"
   },
   {
-    "content": "Explosion (1 shards)",
+    "content": "Recycle (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Explosion (1 shards)"
+        "text": "Recycle (2 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Self Destruct (1 shards)",
+    "content": "Knock Off (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Self Destruct (1 shards)"
+        "text": "Knock Off (2 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Zen Headbutt (2 shards)",
+    "content": "Roost (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Zen Headbutt (2 shards)"
+        "text": "Roost (2 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Magic Coat (2 shards)",
+    "content": "Earth Power (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Magic Coat (2 shards)"
+        "text": "Earth Power (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Iron Tail (4 shards)",
+    "content": "Heat Wave (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Iron Tail (4 shards)"
+        "text": "Heat Wave (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Aqua Tail (4 shards)",
+    "content": "Muddy Water (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Aqua Tail (4 shards)"
+        "text": "Muddy Water (4 shards)"
       }
     ],
     "tag": "li"
@@ -9881,41 +9877,41 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Earth Power (8 shards)",
+    "content": "Psyblade (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Earth Power (8 shards)"
+        "text": "Psyblade (6 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Psyblade (8 shards)",
+    "content": "Scary Face (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Psyblade (8 shards)"
+        "text": "Scary Face (6 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Foul Play (8 shards)",
+    "content": "Double-Edge (8 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Foul Play (8 shards)"
+        "text": "Double-Edge (8 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Focus Punch (10 shards)",
+    "content": "Body Press (10 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Focus Punch (10 shards)"
+        "text": "Body Press (10 shards)"
       }
     ],
     "tag": "li"
@@ -9931,21 +9927,21 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Follow Me (10 shards)",
+    "content": "Helping Hand (10 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Follow Me (10 shards)"
+        "text": "Helping Hand (10 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Protect (10 shards)",
+    "content": "Detect (10 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Protect (10 shards)"
+        "text": "Detect (10 shards)"
       }
     ],
     "tag": "li"
@@ -9988,14 +9984,37 @@ masterData =
     "id": 252,
     "notes": [
       "Guards",
-      "TM90",
-      "Draining",
-      "Kiss"
+      "TM20",
+      "Hyper",
+      "Voice"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Guards TM90 Draining Kiss"
+        "text": "Guards TM20 Hyper Voice"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 107,
+    "notes": [
+      "Guards",
+      "TM62",
+      "Acrobatics"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Guards TM62 Acrobatics"
       }
     ],
     "tag": "trainer"
@@ -10115,14 +10134,6 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "Janine",
     "content_parts": [
       {
@@ -10142,34 +10153,22 @@ masterData =
     "id": 768,
     "notes": [
       "Rewards",
-      "2x",
+      "1x",
       "Each",
       "Gem,",
-      "Aerial",
-      "Ace",
+      "Payback",
       "TM,",
       "Clay",
       "Tunnel",
-      "Encounter,",
-      "10x",
-      "Blue",
-      "Shards"
+      "Encounter"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Rewards 2x Each Gem, Aerial Ace TM, Clay Tunnel Encounter, 10x Blue Shards"
+        "text": "Rewards 1x Each Gem, Payback TM, Clay Tunnel Encounter"
       }
     ],
     "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -10203,13 +10202,11 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "poison gem",
-      "tm flying",
-      "blue shard"
+      "tm dark"
     ],
     "itemDescriptions": [
       "1x Each Gem (Speak with Sableye)",
-      "TM40 Aerial Ace",
-      "10x Blue Shards"
+      "TM05 Payback"
     ]
   },
   {
@@ -10376,14 +10373,16 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "eject button",
-      "hm fighting",
+      "tm normal",
+      "tm normal",
       "blue shard",
       "blue shard",
       "blue shard"
     ],
     "itemDescriptions": [
       "x3 Eject Button (given by Gym Guide)",
-      "HM04 Strength (reward for defeating Clay)",
+      "TM76 Selfdestruct (reward for beating Clay)",
+      "TM79 Explosion (reward for defeating Clay)",
       "x5 Blue Shard (reward for defeating Herman)",
       "x5 Blue Shard (reward for defeating Tyler)",
       "x5 Blue Shard (reward for defeating Gus)"
@@ -10634,11 +10633,21 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "content": "Janine Opt. Boss (rewards Clay Tunnel encounter, 2x of each gem, 10x Blue shards)",
+    "content": "Janine Opt. Boss (rewards Clay Tunnel encounter, 1x of each gem, TM05 Payback)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Janine Opt. Boss (rewards Clay Tunnel encounter, 2x of each gem, 10x Blue shards)"
+        "text": "Janine Opt. Boss (rewards Clay Tunnel encounter, 1x of each gem, TM05 Payback)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Driftveil Gym Optionals (15x Blue Shards)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Driftveil Gym Optionals (15x Blue Shards)"
       }
     ],
     "tag": "li"
@@ -10656,13 +10665,16 @@ masterData =
     "id": 158,
     "notes": [
       "Rewards",
-      "HM04",
-      "Strength"
+      "TM76",
+      "Selfdestruct",
+      "&",
+      "TM79",
+      "Explosion"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Rewards HM04 Strength"
+        "text": "Rewards TM76 Selfdestruct & TM79 Explosion"
       }
     ],
     "tag": "trainer"
@@ -10794,7 +10806,7 @@ masterData =
       "old gateau"
     ],
     "itemDescriptions": [
-      "3x Heart Scales can be found by the Move Reminder.",
+      "3x Heart Scales (given by Benga)",
       "Proto Booster (reward for defeating Colress)",
       "IV Enhancer x3 (reward for defeating Colress)"
     ]
@@ -10996,7 +11008,7 @@ masterData =
       "TM91 Flash Cannon (defeat Hiker Keith)",
       "x10 Red Shard (defeat Hiker Tobias)",
       "x5 Red Shard (past Hiker Tobias)",
-      "x3 Blue Shard (past Hiker Keith)",
+      "x2 Blue Shard (past Hiker Keith)",
       "x10 Sitrus Berry (defeat Backpacker Annie)",
       "x1 Heart Scale (defeat Scientist Lucy)",
       "x15 Ultra Ball (found past Backpacker Annie)",
@@ -12215,14 +12227,16 @@ masterData =
       "tm ground",
       "ground gem",
       "shuca berry",
-      "tm fire"
+      "tm fire",
+      "colbur berry"
     ],
     "itemDescriptions": [
-      "6x Blue Shards",
+      "3x Blue Shards",
       "TM28 Dig (reward for defeating Roxanne)",
       "x1 Ground Gem (reward for defeating Roxanne)",
       "x1 Shuca Berry (reward for defeating Roxanne)",
-      "TM59 Temper Flare (reward for beating Geoff)"
+      "TM59 Temper Flare (reward for beating Geoff)",
+      "1x Colbur Berry (defeat Worker Cairn)"
     ]
   },
   {
@@ -12236,7 +12250,8 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "WARNING",
-    "text": "This shares a met location with Clay Tunnel accessible by beating Janine. If you skipped that fight,you can get an encounter here. #f26253"
+    "text": "This shares a met location with Clay Tunnel accessible by beating Janine. If you skipped that fight,you can get an encounter here.",
+    "fontColor": "#f26253"
   },
   {
     "id": 85,
@@ -12792,7 +12807,8 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "WARNING",
-    "text": "Volkner can only be fought within this Gauntlet. You cannot return to him later. #f26253"
+    "text": "Volkner can only be fought within this Gauntlet. You cannot return to him later.",
+    "fontColor": "#f26253"
   },
   {
     "tag": "notif",
@@ -12815,12 +12831,14 @@ masterData =
     "itemList": [
       "tm poison",
       "tm electric",
+      "tm normal",
       "electric gem",
       "wacan berry"
     ],
     "itemDescriptions": [
       "TM36 Sludge Bomb (found before Gauntlet)",
       "TM72 Volt Switch (reward for beating Volkner)",
+      "TM27 Return (reward for defeating Bianca)",
       "x1 Electric Gem (reward for beating Volkner)",
       "x1 Wacan Berry (reward for beating Volkner)"
     ]
@@ -13213,11 +13231,27 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "tm psychic",
-      "tm psychic"
+      "tm psychic",
+      "tm ground",
+      "tm rock",
+      "tm normal",
+      "tm poison",
+      "tm grass",
+      "tm rock",
+      "tm psychic",
+      "tm fairy"
     ],
     "itemDescriptions": [
       "TM33 Reflect",
-      "TM16 Light Screen"
+      "TM16 Light Screen",
+      "TM18 Scorching Sands",
+      "TM66 Power Gem",
+      "TM83 Endure",
+      "TM84 Poison Jab",
+      "TM86 Grass Knot",
+      "TM80 Rock Slide",
+      "TM02 Psyshock",
+      "TM08 Dizzy Punch"
     ]
   },
   {
@@ -13283,7 +13317,6 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "heart scale",
-      "tm fairy",
       "tm flying",
       "weakness policy",
       "green shard",
@@ -13293,7 +13326,6 @@ masterData =
     ],
     "itemDescriptions": [
       "Heart Scale (found past Sola & Ana)",
-      "TM32 Dazzling Gleam (found past Sola & Ana)",
       "TM11 Air Slash (past Holly)",
       "x2 Blunder Policies (past Harlequins)",
       "x15 Green Shard (defeatin Youngster Nicholas)",
@@ -13522,17 +13554,13 @@ masterData =
     "id": 274,
     "notes": [
       "Guards",
-      "TM32",
-      "Dazzling",
-      "Gleam",
-      "and",
       "Heart",
       "Scale"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Guards TM32 Dazzling Gleam and Heart Scale"
+        "text": "Guards Heart Scale"
       }
     ],
     "tag": "trainer"
@@ -13948,11 +13976,13 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "air balloon",
-      "hm flying"
+      "hm flying",
+      "tm water"
     ],
     "itemDescriptions": [
       "x3 Air Balloon (given by Gym Guide)",
-      "HM02 Fly (given by Skyla)"
+      "HM02 Fly (given by Skyla)",
+      "TM88 Aqua Tail (defeat Pilot Leonard)"
     ]
   },
   {
@@ -14020,6 +14050,31 @@ masterData =
     "tag": "p"
   },
   {
+    "id": 109,
+    "notes": [
+      "(DODGEABLE)",
+      "Rewards",
+      "TM88",
+      "Aqua",
+      "Tail"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE) Rewards TM88 Aqua Tail"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 151,
     "notes": [],
@@ -14064,11 +14119,11 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "content": "Relic Sanctum Guardian (rewards a Life Orb)",
+    "content": "Relic Sanctum Guardian (rewards Rocky Helmet)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Relic Sanctum Guardian (rewards a Life Orb)"
+        "text": "Relic Sanctum Guardian (rewards Rocky Helmet)"
       }
     ],
     "tag": "li"
@@ -14084,11 +14139,11 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Sabrina Miniboss (rewards 1x IV Enhancers, Covert Cloak, Rooftop Encounter)",
+    "content": "Sabrina Miniboss (rewards 5x IV Enhancers, Covert Cloak, Rooftop Encounter)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Sabrina Miniboss (rewards 1x IV Enhancers, Covert Cloak, Rooftop Encounter)"
+        "text": "Sabrina Miniboss (rewards 5x IV Enhancers, Covert Cloak, Rooftop Encounter)"
       }
     ],
     "tag": "li"
@@ -14109,6 +14164,16 @@ masterData =
       {
         "type": "text",
         "text": "Morty Miniboss (rewards Ghost Gems, Kasib Berries, TM30 Shadow Ball)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Mistralton Optional Trainer (rewards TM88 Aqua Tail)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Mistralton Optional Trainer (rewards TM88 Aqua Tail)"
       }
     ],
     "tag": "li"
@@ -14250,10 +14315,10 @@ masterData =
     "itemsTitle": "Items",
     "itemsDescription": "",
     "itemList": [
-      "blue shard"
+      "quick ball"
     ],
     "itemDescriptions": [
-      "x5 Blue Shard"
+      "x10 Quick Balls"
     ]
   },
   {
@@ -14495,18 +14560,24 @@ masterData =
       "heart scale",
       "red shard",
       "sitrus berry",
+      "blue shard",
+      "blue shard",
       "tm fire",
       "fire gem",
-      "occa berry"
+      "occa berry",
+      "hm fighting"
     ],
     "itemDescriptions": [
       "TM02 Dragon Claw",
       "x1 Heart Scale",
       "x15 Red Shard",
       "x10 Sitrus Berries",
+      "5x Blue Shards (defeat Backpacker Corin)",
+      "0x-12x Blue Shards (2x rewarded for each battle fought as a tag)",
       "TM35 Flamethrower (Reward for defeating Flannery, can be fought after Benga leaves you)",
       "x1 Fire Gem (Reward for defeating Flannery, can be fought after Benga leaves you)",
-      "x1 Occa Berry (Reward for defeating Flannery, can be fought after Benga leaves you)"
+      "x1 Occa Berry (Reward for defeating Flannery, can be fought after Benga leaves you)",
+      "HM04 Strength (given by Benga at exit)"
     ]
   },
   {
@@ -14545,7 +14616,7 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "WARNING",
-    "text": "Each pair of trainers in Reversal Mountain can be fought as either a Back to Back battle or a Tag battle. Benga will NOT heal you between the back to backs!",
+    "text": "Each pair of trainers in Reversal Mountain can be fought as either a Back to Back battle or a Tag battle. Benga will NOT heal you between the back to backs! If fought as a tag,rewards 2x Blue Shards.",
     "fontColor": "#f26253"
   },
   {
@@ -14660,6 +14731,31 @@ masterData =
       {
         "type": "text",
         "text": "(Second)"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 656,
+    "notes": [
+      "(DODGEABLE)",
+      "Awards",
+      "5x",
+      "Blue",
+      "Shards"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE) Awards 5x Blue Shards"
       }
     ],
     "tag": "trainer"
@@ -14964,7 +15060,7 @@ masterData =
     ],
     "itemDescriptions": [
       "x2 Custap Berry (found at the end of the gauntlet)",
-      "TM62 Acrobatics (reward for defeating Falkner)",
+      "TM58 Hurricane (reward for defeating Falkner)",
       "x1 Flying Gems (reward for defeating Falkner)",
       "x1 Coba Berry (reward for defeating Falkner)"
     ]
@@ -15301,14 +15397,6 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "End of Gauntlet",
     "content_parts": [
       {
@@ -15408,11 +15496,13 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "repel",
-      "ability capsule"
+      "ability capsule",
+      "tm dark"
     ],
     "itemDescriptions": [
       "x3 Throat Spray (Blocked by Musician Kinsley)",
-      "x1 Ability Patch (Guarded by B2B Fight)"
+      "x1 Ability Patch (Guarded by B2B Fight)",
+      "TM90 Dark Pulse (defeat Policeman Lester)"
     ]
   },
   {
@@ -15436,6 +15526,31 @@ masterData =
       {
         "type": "text",
         "text": "Optional, Guards the Throat Sprays"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 127,
+    "notes": [
+      "(DODGEABLE),",
+      "Guards",
+      "TM90",
+      "Dark",
+      "Pulse"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE), Guards TM90 Dark Pulse"
       }
     ],
     "tag": "trainer"
@@ -15734,14 +15849,6 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "tag": "notif",
     "notificationTitle": "SPLIT-LOCKED",
     "text": "Blaine is an optional mini-boss that can only be fought before defeating Marlon. This content is locked off afterwards.",
@@ -15815,14 +15922,6 @@ masterData =
     "tag": "notif",
     "notificationTitle": "ULTIMATE MOVE TUTOR",
     "text": "The ultimate tutor for starters can be found here and will teach Blast Burn,Frenzy Plant,and Hydro Cannon to starters."
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -16001,11 +16100,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Shadow Triad Ambush #4: Binding",
+    "content": "Shadow Triad Ambush #5: Binding",
     "content_parts": [
       {
         "type": "text",
-        "text": "Shadow Triad Ambush #4: Binding"
+        "text": "Shadow Triad Ambush #5: Binding"
       }
     ],
     "tag": "h3"
@@ -16153,7 +16252,7 @@ masterData =
       "x1 Heart Scale (in middle of town shallows)",
       "x5 Yellow Shards (Northwest dock)",
       "x1 Ability Capsule (Defeat the B2B Trainers)",
-      "x2 IV Enhancer (reward for defeating Evan)"
+      "x2 IV Enhancer (reward for defeating Preschooler Evan)"
     ]
   },
   {
@@ -16170,31 +16269,21 @@ masterData =
     "text": "The yellow shard move tutor is in their original location,and teaches:"
   },
   {
-    "content": "Double-Edge (2 shards)",
+    "content": "Last Resort (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Double-Edge (2 shards)"
+        "text": "Last Resort (2 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Heal Pulse (2 shards)",
+    "content": "Heavy Slam (2 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Heal Pulse (2 shards)"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "Healing Wish (4 shards)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Healing Wish (4 shards)"
+        "text": "Heavy Slam (2 shards)"
       }
     ],
     "tag": "li"
@@ -16210,51 +16299,51 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "Synthesis (6 shards)",
+    "content": "Worry Seed (4 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Synthesis (6 shards)"
+        "text": "Worry Seed (4 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Roost (6 shards)",
+    "content": "Healing Wish (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Roost (6 shards)"
+        "text": "Healing Wish (6 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Head Smash (6 shards)",
+    "content": "Brutal Swing (6 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Head Smash (6 shards)"
+        "text": "Brutal Swing (6 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Helping Hand (6 shards)",
+    "content": "Trick Room (8 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Helping Hand (6 shards)"
+        "text": "Trick Room (8 shards)"
       }
     ],
     "tag": "li"
   },
   {
-    "content": "Overheat (8 shards)",
+    "content": "Head Smash (8 shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Overheat (8 shards)"
+        "text": "Head Smash (8 shards)"
       }
     ],
     "tag": "li"
@@ -16275,6 +16364,16 @@ masterData =
       {
         "type": "text",
         "text": "Superpower (8 shards)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "Overheat (10 shards)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Overheat (10 shards)"
       }
     ],
     "tag": "li"
@@ -16466,12 +16565,18 @@ masterData =
     "itemList": [
       "tm electric",
       "blue shard",
-      "heart scale"
+      "heart scale",
+      "tm steel",
+      "babiri berry",
+      "steel gem"
     ],
     "itemDescriptions": [
       "TM24 Thunderbolt (requires beating either Swimmer Y or Swimmer Z)",
-      "x10 Blue Shard (requires beating Fisherman Sid)",
-      "x1 Heart Scale (found on the beach by Seaside Cave entrance)"
+      "x5 Blue Shard (requires beating Fisherman Sid)",
+      "x1 Heart Scale (found on the beach by Seaside Cave entrance)",
+      "TM70 Iron Tail (defeat Jasmine)",
+      "x1 Babiri Berry (defeat Jasmine)",
+      "x1 Steel Gem (defeat Jasmine)"
     ]
   },
   {
@@ -16615,6 +16720,44 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "Optional Mini-Boss: Jasmine",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Optional Mini-Boss: Jasmine"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "tag": "notif",
+    "notificationTitle": "SPLIT-LOCKED",
+    "text": "Jasmine,and her Rewards,can only be accessed prior to defeating Marlon",
+    "fontColor": "#af74b3"
+  },
+  {
+    "id": 186,
+    "notes": [
+      "Awards",
+      "1x",
+      "Babiri",
+      "Berry,",
+      "1x",
+      "Steel",
+      "Gem,",
+      "TM70",
+      "Iron",
+      "Tail"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Awards 1x Babiri Berry, 1x Steel Gem, TM70 Iron Tail"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
     "content": "",
     "content_parts": {
       "type": "text",
@@ -16639,13 +16782,23 @@ masterData =
     "itemList": [
       "green shard",
       "ganlon berry",
-      "sitrus berry"
+      "sitrus berry",
+      "tm rock"
     ],
     "itemDescriptions": [
       "x15 Green Shard",
       "x2 Ganlon and Spelon Berries (Blocked by Breeder M)",
-      "x10 Sitrus Berries (navigate the railings)"
+      "x10 Sitrus Berries (navigate the railings)",
+      "TM71 Stone Edge (defeat Backpacker Clifford and navigate around to the top right)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "",
@@ -16681,6 +16834,30 @@ masterData =
   {
     "id": 130,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 213,
+    "notes": [
+      "Guards",
+      "TM71",
+      "Stone",
+      "Edge"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Guards TM71 Stone Edge"
+      }
+    ],
+    "tag": "trainer"
   },
   {
     "content": "",
@@ -16781,10 +16958,10 @@ masterData =
     "itemDescriptions": [
       "x1 Grass Gem (Reward for defeating Gardenia)",
       "x1 Rindo Berry (Reward for defeating Gardenia)",
-      "TM53: Energy Ball (Reward for defeating Gardenia)",
+      "TM53 Energy Ball (Reward for defeating Gardenia)",
       "x1 Bug Gem  (Reward for defeating Bugsy)",
       "x1 Tanga Berry (Reward for defeating Bugsy)",
-      "TM45: Lunge (Reward for defeating Bugsy)",
+      "TM45 Lunge (Reward for defeating Bugsy)",
       "Choice Specs (Reward for defeating Virizion)"
     ]
   },
@@ -16917,7 +17094,7 @@ masterData =
     ],
     "itemDescriptions": [
       "x3 Absorb Bulb (Given by Gym Guide upon entering)",
-      "HM06 Dive (reward for defeating Marlon)"
+      "HM03 Surf (reward for defeating Marlon)"
     ]
   },
   {
@@ -17063,6 +17240,16 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "Jasmine Miniboss in Route 22 (rewards Steel Gem, Babiri Berry, TM70 Iron Tail)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Jasmine Miniboss in Route 22 (rewards Steel Gem, Babiri Berry, TM70 Iron Tail)"
+      }
+    ],
+    "tag": "li"
+  },
+  {
     "content": "Virizion Side Quest in Pinwheel Forest (rewards Pinwheel Forest encounter, Choice Specs)",
     "content_parts": [
       {
@@ -17105,16 +17292,24 @@ masterData =
     "id": 160,
     "notes": [
       "Rewards",
-      "HM06",
-      "Dive"
+      "HM03",
+      "Surf"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "Rewards HM06 Dive"
+        "text": "Rewards HM03 Surf"
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "",
@@ -17192,7 +17387,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -17204,7 +17399,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(rewards",
       "a",
@@ -17244,7 +17439,7 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "2x",
@@ -17292,7 +17487,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17378,7 +17573,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -17390,7 +17585,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(rewards",
       "the",
@@ -17425,7 +17620,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17535,7 +17730,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -17547,7 +17742,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "TTM92",
@@ -17571,7 +17766,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "Fossils)"
@@ -17593,7 +17788,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "TM01",
@@ -17617,7 +17812,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "blue",
@@ -17656,7 +17851,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "Life",
@@ -17768,35 +17963,22 @@ masterData =
     "fontColor": "#4e86d4"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 1,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17809,7 +17991,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17822,7 +18004,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17835,7 +18017,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17848,7 +18030,20 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -17871,7 +18066,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Hugh's",
       "Team",
@@ -17897,7 +18092,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Hugh's",
       "Team",
@@ -17923,7 +18118,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Hugh's",
       "Team",
@@ -17950,7 +18145,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Left",
       "Side"
@@ -17965,7 +18160,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Right",
       "Side"
@@ -18082,7 +18277,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -18095,7 +18290,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Right",
       "Side"
@@ -18110,7 +18305,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Left",
       "Side"
@@ -18133,7 +18328,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "the",
@@ -18158,7 +18353,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18174,7 +18369,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18197,7 +18392,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "TM27",
@@ -18213,7 +18408,7 @@ masterData =
     "tag": "trainer"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "(Guards",
       "TM57",
@@ -18238,7 +18433,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -18252,7 +18447,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18268,7 +18463,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18307,7 +18502,7 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "2x",
@@ -18478,7 +18673,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -18602,7 +18797,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -18725,7 +18920,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18741,7 +18936,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18775,7 +18970,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -18799,7 +18994,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18815,7 +19010,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18849,7 +19044,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18865,7 +19060,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -18898,7 +19093,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "2x",
@@ -18939,7 +19134,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19027,17 +19222,17 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19060,7 +19255,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19073,7 +19268,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -19174,7 +19369,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19187,7 +19382,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -19363,7 +19558,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19376,7 +19571,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Guards",
       "X"
@@ -19414,7 +19609,7 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Guards",
       "Challenger's",
@@ -19469,7 +19664,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -19534,7 +19729,7 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "access",
@@ -19641,7 +19836,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19664,7 +19859,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19693,7 +19888,7 @@ masterData =
     "fontColor": "#4e86d4"
   },
   {
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19704,7 +19899,7 @@ masterData =
     "fontColor": "#469e62"
   },
   {
-    "id": 1,
+    "id": 2,
     "tag": "encounter"
   },
   {
@@ -19786,7 +19981,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19800,7 +19995,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19816,7 +20011,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19840,7 +20035,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [],
     "tag": "trainer"
   },
@@ -19854,7 +20049,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19870,7 +20065,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19894,7 +20089,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19910,7 +20105,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19934,7 +20129,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -19950,7 +20145,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Choose",
       "One",
@@ -20068,7 +20263,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 1,
+    "id": 4,
     "notes": [
       "Rewards",
       "TM82",
@@ -20082,6 +20277,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "",
@@ -22798,7 +23001,7 @@ trainersById =
     "nature_3": "Lax",
     "ability_name_3": "-",
     "nature_4": "Sassy",
-    "ability_name_4": "Torrent",
+    "ability_name_4": "-",
     "raw": null,
     "raw_species_id_0": 620,
     "raw_species_id_1": 128,
@@ -23047,11 +23250,11 @@ trainersById =
     "nature_1": "Hasty",
     "ability_name_1": "Illusion",
     "nature_2": "Gentle",
-    "ability_name_2": "Intimidate",
+    "ability_name_2": "-",
     "nature_3": "Careful",
-    "ability_name_3": "Gooey",
+    "ability_name_3": "-",
     "nature_4": "Quiet",
-    "ability_name_4": "Intimidate",
+    "ability_name_4": "-",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 97,
@@ -23131,7 +23334,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/worker.png",
     "name": "Matthew",
     "nature_1": "Docile",
-    "ability_name_1": "Illumination",
+    "ability_name_1": "Patient",
     "nature_2": "Serious",
     "ability_name_2": "Sturdy",
     "nature_3": "Gentle",
@@ -23501,9 +23704,9 @@ trainersById =
     "nature_3": "Impish",
     "ability_name_3": "Rock Head",
     "nature_4": "Adamant",
-    "ability_name_4": "Levitate",
+    "ability_name_4": "Ice Body",
     "nature_5": "Quirky",
-    "ability_name_5": "Scrappy",
+    "ability_name_5": "Hustle",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 76,
@@ -23660,33 +23863,33 @@ trainersById =
     "type": "Singles"
   },
   {
-    "ivs_0": 255,
+    "ivs_0": 250,
     "ability_0": 4,
-    "level_0": 40,
+    "level_0": 41,
     "padding_0": 0,
     "species_id_0": "BLAZIKEN",
     "form_0": 0,
     "item_id_0": "Focus Sash",
     "move_1_0": "ACROBATICS",
     "move_2_0": "REVERSAL",
-    "move_3_0": "THUNDERPUNCH",
+    "move_3_0": "AIR SLASH",
     "move_4_0": "BLAZE KICK",
     "ivs_1": 255,
     "ability_1": 2,
-    "level_1": 41,
+    "level_1": 42,
     "padding_1": 0,
     "species_id_1": "ELECTRODE",
     "form_1": 0,
     "item_id_1": "Air Balloon",
     "move_1_1": "ZING ZAP",
-    "move_2_1": "FLASH CANNON",
-    "move_3_1": "DOUBLE-EDGE",
+    "move_2_1": "SPIN OUT",
+    "move_3_1": "FLASH CANNON",
     "move_4_1": "SIGNAL BEAM",
     "count": 2,
     "gender_0": "Default",
     "gender_1": "Default",
     "template": 3,
-    "nature_0": "Careful",
+    "nature_0": "Quirky",
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Roberto",
@@ -25676,9 +25879,9 @@ trainersById =
     "move_2_1": "ICE PUNCH",
     "move_3_1": "PSYCHIC",
     "move_4_1": "POWER GEM",
-    "ivs_2": 255,
+    "ivs_2": 254,
     "ability_2": 3,
-    "level_2": 41,
+    "level_2": 42,
     "padding_2": 0,
     "species_id_2": "FARFETCH'D",
     "form_2": 0,
@@ -26120,7 +26323,7 @@ trainersById =
   {
     "ivs_0": 255,
     "ability_0": 2,
-    "level_0": 40,
+    "level_0": 41,
     "padding_0": 0,
     "species_id_0": "HITMONLEE",
     "form_0": 0,
@@ -26129,27 +26332,27 @@ trainersById =
     "move_2_0": "ACROBATICS",
     "move_3_0": "DOUBLE KICK",
     "move_4_0": "DOUBLE-EDGE",
-    "ivs_1": 255,
-    "ability_1": 5,
-    "level_1": 41,
+    "ivs_1": 251,
+    "ability_1": 3,
+    "level_1": 42,
     "padding_1": 0,
     "species_id_1": "SCEPTILE",
     "form_1": 0,
-    "item_id_1": "Yache Berry",
-    "move_1_1": "GIGA DRAIN",
-    "move_2_1": "TWISTER",
-    "move_3_1": "DOUBLE KICK",
-    "move_4_1": "NATURAL GIFT",
+    "item_id_1": "Grass Gem",
+    "move_1_1": "LEAF BLADE",
+    "move_2_1": "ENERGY BALL",
+    "move_3_1": "TWISTER",
+    "move_4_1": "SLAM",
     "count": 2,
     "gender_0": "Default",
     "gender_1": "Default",
     "template": 3,
-    "nature_0": "Lax",
+    "nature_0": "Impish",
     "ability_name_0": "Unburden",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Marco",
-    "nature_1": "Calm",
-    "ability_name_1": "Sniper",
+    "nature_1": "Docile",
+    "ability_name_1": "Exploit",
     "raw": null,
     "raw_species_id_0": 106,
     "raw_species_id_1": 254,
@@ -26374,7 +26577,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
     "move_1_0": "RAZOR SHELL",
-    "move_2_0": "DOUBLE KICK",
+    "move_2_0": "SACRED SWORD",
     "move_3_0": "AQUA JET",
     "move_4_0": "X-SCISSOR",
     "ivs_1": 255,
@@ -26384,19 +26587,19 @@ trainersById =
     "species_id_1": "DRUDDIGON",
     "form_1": 0,
     "item_id_1": "Rocky Helmet",
-    "move_1_1": "DRAGON CLAW",
+    "move_1_1": "DEVOUR",
     "move_2_1": "POISON FANG",
     "move_3_1": "ROCK TOMB",
     "move_4_1": "AMNESIA",
     "ivs_2": 255,
     "ability_2": 2,
-    "level_2": 41,
+    "level_2": 42,
     "padding_2": 0,
     "species_id_2": "NIDOKING",
     "form_2": 0,
     "item_id_2": "Life Orb",
     "move_1_2": "POISON JAB",
-    "move_2_2": "BULLDOZE",
+    "move_2_2": "SCORCHING SANDS",
     "move_3_2": "LUNGE",
     "move_4_2": "ICE PUNCH",
     "count": 3,
@@ -26410,7 +26613,7 @@ trainersById =
     "name": "Jonah",
     "nature_1": "Rash",
     "ability_name_1": "Rough Skin",
-    "nature_2": "Bashful",
+    "nature_2": "Lonely",
     "ability_name_2": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 503,
@@ -26478,11 +26681,11 @@ trainersById =
     "item_id_1": "Eviolite",
     "move_1_1": "ICE BEAM",
     "move_2_1": "EARTHQUAKE",
-    "move_3_1": "ANCIENTPOWER",
+    "move_3_1": "YAWN",
     "move_4_1": "STRENGTH",
-    "ivs_2": 255,
+    "ivs_2": 252,
     "ability_2": 2,
-    "level_2": 41,
+    "level_2": 42,
     "padding_2": 0,
     "species_id_2": "HARIYAMA",
     "form_2": 0,
@@ -26490,7 +26693,7 @@ trainersById =
     "move_1_2": "ROCK SMASH",
     "move_2_2": "ROCK SLIDE",
     "move_3_2": "IRON HEAD",
-    "move_4_2": "BULLET PUNCH",
+    "move_4_2": "BLOCK",
     "count": 3,
     "gender_0": "Default",
     "gender_1": "Default",
@@ -26502,7 +26705,7 @@ trainersById =
     "name": "Dan",
     "nature_1": "Quiet",
     "ability_name_1": "Thick Fat",
-    "nature_2": "Bold",
+    "nature_2": "Adamant",
     "ability_name_2": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 500,
@@ -26603,7 +26806,7 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 2,
+    "ability_0": 6,
     "level_0": 41,
     "padding_0": 0,
     "species_id_0": "PRIMEAPE",
@@ -26615,24 +26818,24 @@ trainersById =
     "move_4_0": "SCREECH",
     "ivs_1": 255,
     "ability_1": 2,
-    "level_1": 41,
+    "level_1": 42,
     "padding_1": 0,
     "species_id_1": "MR. MIME",
     "form_1": 0,
     "item_id_1": "BrightPowder",
     "move_1_1": "DOUBLESLAP",
     "move_2_1": "ZEN HEADBUTT",
-    "move_3_1": "MEGA PUNCH",
+    "move_3_1": "FOCUS PUNCH",
     "move_4_1": "SCREECH",
     "count": 2,
     "gender_0": "Default",
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Docile",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Tinted Lens",
     "tr_sprite": "trainer_sprites/hoopster.png",
     "name": "Lamarcus",
-    "nature_1": "Lax",
+    "nature_1": "Relaxed",
     "ability_name_1": "Technician",
     "raw": null,
     "raw_species_id_0": 57,
@@ -26757,7 +26960,7 @@ trainersById =
     "type": "Singles"
   },
   {
-    "ivs_0": 255,
+    "ivs_0": 251,
     "ability_0": 2,
     "level_0": 41,
     "padding_0": 0,
@@ -26765,25 +26968,25 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Poison Gem",
     "move_1_0": "LEAF BLADE",
-    "move_2_0": "SLUDGE BOMB",
+    "move_2_0": "POISON JAB",
     "move_3_0": "CRUNCH",
     "move_4_0": "SLEEP POWDER",
-    "ivs_1": 255,
+    "ivs_1": 254,
     "ability_1": 3,
-    "level_1": 41,
+    "level_1": 42,
     "padding_1": 0,
     "species_id_1": "ELECTIVIRE",
     "form_1": 0,
     "item_id_1": "Blunder Policy",
     "move_1_1": "HYPER VOICE",
     "move_2_1": "FLAMETHROWER",
-    "move_3_1": "FOCUS PUNCH",
+    "move_3_1": "FOCUS BLAST",
     "move_4_1": "QUICK ATTACK",
     "count": 2,
     "gender_0": "Default",
     "gender_1": "Default",
     "template": 3,
-    "nature_0": "Modest",
+    "nature_0": "Serious",
     "ability_name_0": "Corrosion",
     "tr_sprite": "trainer_sprites/hoopster.png",
     "name": "Bobby",
@@ -29472,38 +29675,90 @@ trainersById =
     "type": "Singles"
   },
   {
-    "ivs_0": 0,
-    "ability_0": 0,
-    "level_0": 61,
+    "ivs_0": 255,
+    "ability_0": 1,
+    "level_0": 56,
     "padding_0": 0,
-    "species_id_0": "ARCANINE",
+    "species_id_0": "MANDIBUZZ",
     "form_0": 0,
-    "ivs_1": 0,
-    "ability_1": 0,
-    "level_1": 61,
+    "item_id_0": "Choice Scarf",
+    "move_1_0": "BRUTAL SWING",
+    "move_2_0": "-----",
+    "move_3_0": "-----",
+    "move_4_0": "-----",
+    "ivs_1": 254,
+    "ability_1": 3,
+    "level_1": 56,
     "padding_1": 0,
-    "species_id_1": "MIENSHAO",
+    "species_id_1": "SUDOWOODO",
     "form_1": 0,
-    "count": 2,
+    "item_id_1": "Babiri Berry",
+    "move_1_1": "ROCK SLIDE",
+    "move_2_1": "HEART STAMP",
+    "move_3_1": "STEALTH ROCK",
+    "move_4_1": "LIGHT SCREEN",
+    "ivs_2": 255,
+    "ability_2": 3,
+    "level_2": 55,
+    "padding_2": 0,
+    "species_id_2": "ESCAVALIER",
+    "form_2": 0,
+    "item_id_2": "Dark Gem",
+    "move_1_2": "BRUTAL SWING",
+    "move_2_2": "IRON HEAD",
+    "move_3_2": "X-SCISSOR",
+    "move_4_2": "1ST IMPRESSION",
+    "ivs_3": 255,
+    "ability_3": 3,
+    "level_3": 55,
+    "padding_3": 0,
+    "species_id_3": "GALLADE",
+    "form_3": 0,
+    "item_id_3": "Kee Berry",
+    "move_1_3": "BRUTAL SWING",
+    "move_2_3": "PSYCHO CUT",
+    "move_3_3": "ROLLING KICK",
+    "move_4_3": "REFLECT",
+    "ivs_4": 255,
+    "ability_4": 3,
+    "level_4": 55,
+    "padding_4": 0,
+    "species_id_4": "CRAWDAUNT",
+    "form_4": 0,
+    "item_id_4": "BrightPowder",
+    "move_1_4": "BRUTAL SWING",
+    "move_2_4": "CRABHAMMER",
+    "move_3_4": "PURSUIT",
+    "move_4_4": "POWER TRIP",
+    "count": 5,
     "gender_0": "Default",
     "gender_1": "Default",
-    "template": 0,
-    "nature_0": "Bashful",
-    "ability_name_0": "Intimidate",
+    "gender_2": "Default",
+    "gender_3": "Default",
+    "gender_4": "Default",
+    "template": 3,
+    "nature_0": "Adamant",
+    "ability_name_0": "Strong Body",
     "tr_sprite": "trainer_sprites/policeman.png",
-    "name": "Jeff",
-    "nature_1": "Bold",
-    "ability_name_1": "Reckless",
+    "name": "Lester",
+    "nature_1": "Jolly",
+    "ability_name_1": "Rattled",
+    "nature_2": "Naive",
+    "ability_name_2": "Justified",
+    "nature_3": "Hasty",
+    "ability_name_3": "Justified",
+    "nature_4": "Jolly",
+    "ability_name_4": "Weak Armor",
     "raw": null,
-    "raw_species_id_0": 59,
-    "raw_species_id_1": 620,
-    "raw_species_id_2": null,
-    "raw_species_id_3": null,
-    "raw_species_id_4": null,
+    "raw_species_id_0": 630,
+    "raw_species_id_1": 185,
+    "raw_species_id_2": 589,
+    "raw_species_id_3": 475,
+    "raw_species_id_4": 342,
     "raw_species_id_5": null,
     "index": 127,
     "class": "Policeman",
-    "type": "Singles"
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -29731,16 +29986,16 @@ trainersById =
     "move_2_2": "ANCIENTPOWER",
     "move_3_2": "EARTH POWER",
     "move_4_2": "RECOVER",
-    "ivs_3": 250,
+    "ivs_3": 255,
     "ability_3": 2,
-    "level_3": 60,
+    "level_3": 61,
     "padding_3": 0,
     "species_id_3": "NUZLEAF",
     "form_3": 0,
     "item_id_3": "Life Orb",
     "move_1_3": "SOLAR BLADE",
     "move_2_3": "FINAL GAMBIT",
-    "move_3_3": "PURSUIT",
+    "move_3_3": "GRASS KNOT",
     "move_4_3": "OVERHEAT",
     "ivs_4": 255,
     "ability_4": 2,
@@ -29768,7 +30023,7 @@ trainersById =
     "ability_name_1": "Chlorophyll",
     "nature_2": "Rash",
     "ability_name_2": "Solid Rock",
-    "nature_3": "Naughty",
+    "nature_3": "Lonely",
     "ability_name_3": "Chlorophyll",
     "nature_4": "Lonely",
     "ability_name_4": "Solar Power",
@@ -31226,8 +31481,8 @@ trainersById =
     "form_4": 0,
     "item_id_4": "Lum Berry",
     "move_1_4": "RETALIATE",
-    "move_2_4": "DOUBLE KICK",
-    "move_3_4": "ROLLING KICK",
+    "move_2_4": "ROLLING KICK",
+    "move_3_4": "LOW KICK",
     "move_4_4": "HEART STAMP",
     "ivs_5": 240,
     "ability_5": 2,
@@ -31374,7 +31629,7 @@ trainersById =
     "type": "Doubles"
   },
   {
-    "ivs_0": 250,
+    "ivs_0": 253,
     "ability_0": 4,
     "level_0": 54,
     "padding_0": 0,
@@ -31406,19 +31661,19 @@ trainersById =
     "move_1_2": "SKY ATTACK",
     "move_2_2": "STEEL WING",
     "move_3_2": "DRILL PECK",
-    "move_4_2": "STEALTH ROCK",
+    "move_4_2": "ROCK SLIDE",
     "ivs_3": 253,
     "ability_3": 1,
     "level_3": 54,
     "padding_3": 0,
     "species_id_3": "ALTARIA",
     "form_3": 0,
-    "item_id_3": "Flying Gem",
+    "item_id_3": "Sharp Beak",
     "move_1_3": "FAIRY WIND",
     "move_2_3": "TWISTER",
     "move_3_3": "HEAT WAVE",
     "move_4_3": "WHIRLWIND",
-    "ivs_4": 254,
+    "ivs_4": 255,
     "ability_4": 3,
     "level_4": 54,
     "padding_4": 0,
@@ -31428,7 +31683,7 @@ trainersById =
     "move_1_4": "BRAVE BIRD",
     "move_2_4": "OVERHEAT",
     "move_3_4": "SUPERPOWER",
-    "move_4_4": "EARTHQUAKE",
+    "move_4_4": "DETECT",
     "ivs_5": 252,
     "ability_5": 2,
     "level_5": 55,
@@ -31448,7 +31703,7 @@ trainersById =
     "gender_4": "Default",
     "gender_5": "Default",
     "template": 3,
-    "nature_0": "Quirky",
+    "nature_0": "Serious",
     "ability_name_0": "Lightning Rod",
     "tr_sprite": "trainer_sprites/skyla.png",
     "name": "Skyla",
@@ -31458,7 +31713,7 @@ trainersById =
     "ability_name_2": "Tinted Lens",
     "nature_3": "Docile",
     "ability_name_3": "Levitate",
-    "nature_4": "Lonely",
+    "nature_4": "Quiet",
     "ability_name_4": "Rock Head",
     "nature_5": "Mild",
     "ability_name_5": "Friend Guard",
@@ -34899,7 +35154,7 @@ trainersById =
     "move_1_3": "ZING ZAP",
     "move_2_3": "LEAF TORNADO",
     "move_3_3": "FLAMETHROWER",
-    "move_4_3": "DRAGON PULSE",
+    "move_4_3": "GRASS KNOT",
     "count": 4,
     "gender_0": "Default",
     "gender_1": "Default",
@@ -34978,7 +35233,7 @@ trainersById =
     "padding_4": 0,
     "species_id_4": "EMOLGA",
     "form_4": 0,
-    "item_id_4": "Focus Sash",
+    "item_id_4": "Flying Gem",
     "move_1_4": "ACROBATICS",
     "move_2_4": "ZING ZAP",
     "move_3_4": "U-TURN",
@@ -35428,7 +35683,7 @@ trainersById =
     "species_id_3": "POLIWRATH",
     "form_3": 0,
     "item_id_3": "Sitrus Berry",
-    "move_1_3": "BARRAGE",
+    "move_1_3": "WATERFALL",
     "move_2_3": "SKY UPPERCUT",
     "move_3_3": "LUNGE",
     "move_4_3": "BULK UP",
@@ -35515,7 +35770,7 @@ trainersById =
     "move_1_1": "FACADE",
     "move_2_1": "QUICK ATTACK",
     "move_3_1": "X-SCISSOR",
-    "move_4_1": "ROLLING KICK",
+    "move_4_1": "LOW KICK",
     "ivs_2": 215,
     "ability_2": 1,
     "level_2": 39,
@@ -36325,7 +36580,7 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 3,
+    "ability_0": 1,
     "level_0": 58,
     "padding_0": 0,
     "species_id_0": "FLYGON",
@@ -36333,10 +36588,10 @@ trainersById =
     "item_id_0": "Throat Spray",
     "move_1_0": "CLANGING SCALES",
     "move_2_0": "BUG BUZZ",
-    "move_3_0": "UPROAR",
+    "move_3_0": "BOOMBURST",
     "move_4_0": "TAILWIND",
     "ivs_1": 255,
-    "ability_1": 3,
+    "ability_1": 2,
     "level_1": 58,
     "padding_1": 0,
     "species_id_1": "GARDEVOIR",
@@ -36353,10 +36608,10 @@ trainersById =
     "species_id_2": "EXPLOUD",
     "form_2": 0,
     "item_id_2": "Throat Spray",
-    "move_1_2": "RELIC SONG",
-    "move_2_2": "ICY WIND",
-    "move_3_2": "UPROAR",
-    "move_4_2": "HOWL",
+    "move_1_2": "BOOMBURST",
+    "move_2_2": "-----",
+    "move_3_2": "-----",
+    "move_4_2": "-----",
     "ivs_3": 255,
     "ability_3": 1,
     "level_3": 58,
@@ -36365,8 +36620,8 @@ trainersById =
     "form_3": 0,
     "item_id_3": "Throat Spray",
     "move_1_3": "BUG BUZZ",
-    "move_2_3": "HYPER VOICE",
-    "move_3_3": "ALLURING VOICE",
+    "move_2_3": "BOOMBURST",
+    "move_3_3": "SING",
     "move_4_3": "SILK TRAP",
     "count": 4,
     "gender_0": "Default",
@@ -36375,11 +36630,11 @@ trainersById =
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Jolly",
-    "ability_name_0": "Amplifier",
+    "ability_name_0": "Tinted Lens",
     "tr_sprite": "trainer_sprites/musician.png",
     "name": "Ray",
     "nature_1": "Timid",
-    "ability_name_1": "Pixilate",
+    "ability_name_1": "Friend Guard",
     "nature_2": "Impish",
     "ability_name_2": "Scrappy",
     "nature_3": "Serious",
@@ -36610,7 +36865,7 @@ trainersById =
     "item_id_3": "Red Card",
     "move_1_3": "CIRCLE THROW",
     "move_2_3": "THRASH",
-    "move_3_3": "ROLLING KICK",
+    "move_3_3": "LOW KICK",
     "move_4_3": "-----",
     "count": 4,
     "gender_0": "Default",
@@ -37356,7 +37611,7 @@ trainersById =
     "move_4_1": "DOUBLE-EDGE",
     "ivs_2": 255,
     "ability_2": 2,
-    "level_2": 41,
+    "level_2": 42,
     "padding_2": 0,
     "species_id_2": "GALVANTULA",
     "form_2": 0,
@@ -37376,7 +37631,7 @@ trainersById =
     "name": "Aspen",
     "nature_1": "Timid",
     "ability_name_1": "Reckless",
-    "nature_2": "Docile",
+    "nature_2": "Bashful",
     "ability_name_2": "Technician",
     "raw": null,
     "raw_species_id_0": 275,
@@ -37422,7 +37677,7 @@ trainersById =
     "move_1_2": "SUCKER PUNCH",
     "move_2_2": "PURSUIT",
     "move_3_2": "SCREECH",
-    "move_4_2": "DOUBLESLAP",
+    "move_4_2": "LOW KICK",
     "ivs_3": 255,
     "ability_3": 1,
     "level_3": 58,
@@ -37803,7 +38058,7 @@ trainersById =
     "move_1_3": "FAKE OUT",
     "move_2_3": "DOUBLE KICK",
     "move_3_3": "SPIN OUT",
-    "move_4_3": "ROLLING KICK",
+    "move_4_3": "LOW KICK",
     "count": 4,
     "gender_0": "Default",
     "gender_1": "Default",
@@ -37945,7 +38200,7 @@ trainersById =
     "form_3": 0,
     "item_id_3": "Eviolite",
     "move_1_3": "RAGE",
-    "move_2_3": "PURSUIT",
+    "move_2_3": "CHIP AWAY",
     "move_3_3": "SLACK OFF",
     "move_4_3": "AMNESIA",
     "count": 4,
@@ -40278,11 +40533,11 @@ trainersById =
     "padding_3": 0,
     "species_id_3": "POLIWRATH",
     "form_3": 0,
-    "item_id_3": "Loaded Dice",
-    "move_1_3": "ARM THRUST",
+    "item_id_3": "Rindo Berry",
+    "move_1_3": "DRAIN PUNCH",
     "move_2_3": "BARRAGE",
     "move_3_3": "ICE PUNCH",
-    "move_4_3": "POISON JAB",
+    "move_4_3": "HYPNOSIS",
     "count": 4,
     "gender_0": "Default",
     "gender_1": "Default",
@@ -40339,7 +40594,7 @@ trainersById =
     "padding_2": 0,
     "species_id_2": "GASTRODON",
     "form_2": 0,
-    "item_id_2": "Eviolite",
+    "item_id_2": "None",
     "move_1_2": "MUDDY WATER",
     "move_2_2": "BULLDOZE",
     "move_3_2": "SUPERSONIC",
@@ -40730,7 +40985,7 @@ trainersById =
     "move_1_0": "FAKE OUT",
     "move_2_0": "PROTECT",
     "move_3_0": "HELPING HAND",
-    "move_4_0": "BLIZZARD",
+    "move_4_0": "SOLARBEAM",
     "ivs_1": 253,
     "ability_1": 1,
     "level_1": 59,
@@ -40883,7 +41138,7 @@ trainersById =
     "ivs_4": 247,
     "ability_4": 2,
     "level_4": 59,
-    "padding_4": 1,
+    "padding_4": 0,
     "species_id_4": "RELICANTH",
     "form_4": 0,
     "item_id_4": "Rindo Berry",
@@ -41019,7 +41274,7 @@ trainersById =
     "ivs_2": 255,
     "ability_2": 1,
     "level_2": 58,
-    "padding_2": 11,
+    "padding_2": 0,
     "species_id_2": "SIMISAGE",
     "form_2": 0,
     "item_id_2": "Focus Sash",
@@ -41041,7 +41296,7 @@ trainersById =
     "ivs_4": 255,
     "ability_4": 3,
     "level_4": 59,
-    "padding_4": 17,
+    "padding_4": 0,
     "species_id_4": "KINGLER",
     "form_4": 0,
     "item_id_4": "Big Root",
@@ -41935,7 +42190,7 @@ trainersById =
     "item_id_4": "Tera Eviolite",
     "move_1_4": "QUICK ATTACK",
     "move_2_4": "RAZOR WINDS",
-    "move_3_4": "ROLLING KICK",
+    "move_3_4": "LOW KICK",
     "move_4_4": "SWORDS DANCE",
     "count": 5,
     "gender_0": "Default",
@@ -42631,9 +42886,9 @@ trainersById =
     "species_id_4": "ARBOK",
     "form_4": 0,
     "item_id_4": "Life Orb",
-    "move_1_4": "DRAGON CLAW",
+    "move_1_4": "DRAGON RUSH",
     "move_2_4": "POISON TAIL",
-    "move_3_4": "STRENGTH",
+    "move_3_4": "TEMPER FLARE",
     "move_4_4": "CRUNCH",
     "count": 5,
     "gender_0": "Default",
@@ -45679,7 +45934,7 @@ trainersById =
     "species_id_0": "MANKEY",
     "form_0": 0,
     "move_1_0": "KARATE CHOP",
-    "move_2_0": "LOW KICK",
+    "move_2_0": "LEER",
     "move_3_0": "FURY SWIPES",
     "move_4_0": "COVET",
     "ivs_1": 255,
@@ -49132,7 +49387,7 @@ trainersById =
     "item_id_1": "Eviolite",
     "move_1_1": "RETURN",
     "move_2_1": "BRICK BREAK",
-    "move_3_1": "ROLLING KICK",
+    "move_3_1": "LOW KICK",
     "move_4_1": "LIGHT SCREEN",
     "ivs_2": 224,
     "ability_2": 3,
@@ -49938,7 +50193,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Chople Berry",
     "move_1_0": "FACADE",
-    "move_2_0": "PURSUIT",
+    "move_2_0": "THRASH",
     "move_3_0": "BRICK BREAK",
     "move_4_0": "PARTING SHOT",
     "ivs_1": 255,
@@ -49970,9 +50225,9 @@ trainersById =
     "species_id_3": "FLYGON",
     "form_3": 0,
     "item_id_3": "Bug Gem",
-    "move_1_3": "INFESTATION",
+    "move_1_3": "SCORCHING SWARM",
     "move_2_3": "DRAGON RUSH",
-    "move_3_3": "EARTH POWER",
+    "move_3_3": "FIRE BLAST",
     "move_4_3": "SING",
     "ivs_4": 248,
     "ability_4": 1,
@@ -49993,9 +50248,9 @@ trainersById =
     "form_5": 0,
     "item_id_5": "Focus Band",
     "move_1_5": "FLARE BLITZ",
-    "move_2_5": "NIGHT DAZE",
+    "move_2_5": "BRUTAL SWING",
     "move_3_5": "HEAD SMASH",
-    "move_4_5": "WILL-O-WISP",
+    "move_4_5": "PURSUIT",
     "count": 6,
     "gender_0": "Male",
     "gender_1": "Default",
@@ -50038,7 +50293,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Chople Berry",
     "move_1_0": "FACADE",
-    "move_2_0": "PURSUIT",
+    "move_2_0": "THRASH",
     "move_3_0": "BRICK BREAK",
     "move_4_0": "PARTING SHOT",
     "ivs_1": 250,
@@ -50050,7 +50305,7 @@ trainersById =
     "item_id_1": "Starf Berry",
     "move_1_1": "OVERHEAT",
     "move_2_1": "DRAGON RUSH",
-    "move_3_1": "DOUBLE-EDGE",
+    "move_3_1": "FIRE LASH",
     "move_4_1": "SUBSTITUTE",
     "ivs_2": 235,
     "ability_2": 5,
@@ -50070,9 +50325,9 @@ trainersById =
     "species_id_3": "FLYGON",
     "form_3": 0,
     "item_id_3": "Bug Gem",
-    "move_1_3": "INFESTATION",
+    "move_1_3": "SCORCHING SWARM",
     "move_2_3": "DRAGON RUSH",
-    "move_3_3": "EARTH POWER",
+    "move_3_3": "FIRE BLAST",
     "move_4_3": "SING",
     "ivs_4": 247,
     "ability_4": 1,
@@ -50094,7 +50349,7 @@ trainersById =
     "item_id_5": "Focus Band",
     "move_1_5": "SACRED SWORD",
     "move_2_5": "RAZOR SHELL",
-    "move_3_5": "HORN DRILL",
+    "move_3_5": "LOW KICK",
     "move_4_5": "MEGAHORN",
     "count": 6,
     "gender_0": "Male",
@@ -50138,7 +50393,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Chople Berry",
     "move_1_0": "FACADE",
-    "move_2_0": "PURSUIT",
+    "move_2_0": "THRASH",
     "move_3_0": "BRICK BREAK",
     "move_4_0": "PARTING SHOT",
     "ivs_1": 255,
@@ -50170,9 +50425,9 @@ trainersById =
     "species_id_3": "FLYGON",
     "form_3": 0,
     "item_id_3": "Bug Gem",
-    "move_1_3": "INFESTATION",
+    "move_1_3": "SCORCHING SWARM",
     "move_2_3": "DRAGON RUSH",
-    "move_3_3": "EARTH POWER",
+    "move_3_3": "FIRE BLAST",
     "move_4_3": "SING",
     "ivs_4": 246,
     "ability_4": 1,
@@ -50193,9 +50448,9 @@ trainersById =
     "form_5": 0,
     "item_id_5": "Focus Band",
     "move_1_5": "ENERGY BALL",
-    "move_2_5": "ELECTRO BALL",
+    "move_2_5": "DISCHARGE",
     "move_3_5": "ATTRACT",
-    "move_4_5": "HURRICANE",
+    "move_4_5": "GRASS KNOT",
     "count": 6,
     "gender_0": "Male",
     "gender_1": "Default",
@@ -50317,15 +50572,15 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 2,
+    "ability_0": 6,
     "level_0": 53,
-    "padding_0": 0,
-    "species_id_0": "EMPOLEON",
+    "padding_0": 3,
+    "species_id_0": "BASTIODON",
     "form_0": 0,
-    "item_id_0": "Chople Berry",
-    "move_1_0": "SURF",
-    "move_2_0": "AIR SLASH",
-    "move_3_0": "ICE BEAM",
+    "item_id_0": "Red Card",
+    "move_1_0": "HEAD SMASH",
+    "move_2_0": "BODY PRESS",
+    "move_3_0": "GYRO BALL",
     "move_4_0": "STEALTH ROCK",
     "ivs_1": 255,
     "ability_1": 2,
@@ -50336,41 +50591,41 @@ trainersById =
     "item_id_1": "Life Orb",
     "move_1_1": "SLUDGE BOMB",
     "move_2_1": "EARTH POWER",
-    "move_3_1": "SUPER FANG",
-    "move_4_1": "ENERGY BALL",
+    "move_3_1": "TOXIC SPIKES",
+    "move_4_1": "ICE BEAM",
     "ivs_2": 255,
     "ability_2": 3,
-    "level_2": 53,
-    "padding_2": 0,
-    "species_id_2": "SKARMORY",
+    "level_2": 52,
+    "padding_2": 8,
+    "species_id_2": "SAWK",
     "form_2": 0,
-    "item_id_2": "Loaded Dice",
-    "move_1_2": "RAZOR WINDS",
-    "move_2_2": "SPIKE CANNON",
-    "move_3_2": "BONE RUSH",
-    "move_4_2": "SPIKES",
-    "ivs_3": 255,
+    "item_id_2": "Expert Belt",
+    "move_1_2": "RETALIATE",
+    "move_2_2": "STRENGTH",
+    "move_3_2": "U-TURN",
+    "move_4_2": "KNOCK OFF",
+    "ivs_3": 252,
     "ability_3": 3,
-    "level_3": 52,
+    "level_3": 53,
     "padding_3": 0,
-    "species_id_3": "SAWK",
+    "species_id_3": "AGGRON",
     "form_3": 0,
-    "item_id_3": "Muscle Band",
-    "move_1_3": "RETALIATE",
-    "move_2_3": "STRENGTH",
-    "move_3_3": "U-TURN",
-    "move_4_3": "KNOCK OFF",
+    "item_id_3": "Power Herb",
+    "move_1_3": "METEOR BEAM",
+    "move_2_3": "WHIRLPOOL",
+    "move_3_3": "DRAGON PULSE",
+    "move_4_3": "THUNDERBOLT",
     "ivs_4": 255,
-    "ability_4": 6,
+    "ability_4": 2,
     "level_4": 53,
     "padding_4": 0,
-    "species_id_4": "BASTIODON",
+    "species_id_4": "GALLADE",
     "form_4": 0,
-    "item_id_4": "Weakness Policy",
-    "move_1_4": "STONE EDGE",
-    "move_2_4": "SUBMISSION",
-    "move_3_4": "GYRO BALL",
-    "move_4_4": "SLACK OFF",
+    "item_id_4": "Kee Berry",
+    "move_1_4": "SACRED SWORD",
+    "move_2_4": "PSYBLADE",
+    "move_3_4": "LEAF BLADE",
+    "move_4_4": "WILL-O-WISP",
     "ivs_5": 255,
     "ability_5": 1,
     "level_5": 58,
@@ -50390,26 +50645,26 @@ trainersById =
     "gender_4": "Default",
     "gender_5": "Default",
     "template": 3,
-    "nature_0": "Calm",
-    "ability_name_0": "Torrent",
+    "nature_0": "Brave",
+    "ability_name_0": "Solid Rock",
     "tr_sprite": "trainer_sprites/cobalion.png",
     "name": "Cobalion",
     "nature_1": "Jolly",
     "ability_name_1": "Sheer Force",
-    "nature_2": "Careful",
-    "ability_name_2": "Sturdy",
-    "nature_3": "Relaxed",
-    "ability_name_3": "Quick Feet",
-    "nature_4": "Brave",
-    "ability_name_4": "Solid Rock",
+    "nature_2": "Relaxed",
+    "ability_name_2": "Quick Feet",
+    "nature_3": "Bold",
+    "ability_name_3": "Filter",
+    "nature_4": "Calm",
+    "ability_name_4": "Majestic Ward",
     "nature_5": "Quiet",
     "ability_name_5": "Intimidate",
     "raw": null,
-    "raw_species_id_0": 395,
+    "raw_species_id_0": 411,
     "raw_species_id_1": 31,
-    "raw_species_id_2": 227,
-    "raw_species_id_3": 539,
-    "raw_species_id_4": 411,
+    "raw_species_id_2": 539,
+    "raw_species_id_3": 306,
+    "raw_species_id_4": 475,
     "raw_species_id_5": 638,
     "index": 491,
     "class": "Guardian of Unova",
@@ -51407,8 +51662,8 @@ trainersById =
     "item_id_3": "Tera Gem",
     "move_1_3": "ANCIENTPOWER",
     "move_2_3": "SEED FLARE",
-    "move_3_3": "ZEN HEADBUTT",
-    "move_4_3": "EARTH POWER",
+    "move_3_3": "AEROBLAST",
+    "move_4_3": "GRASS KNOT",
     "ivs_4": 255,
     "ability_4": 3,
     "level_4": 60,
@@ -52612,7 +52867,7 @@ trainersById =
     "item_id_1": "BrightPowder",
     "move_1_1": "POWER TRIP",
     "move_2_1": "ACUPRESSURE",
-    "move_3_1": "ROLLING KICK",
+    "move_3_1": "LOW KICK",
     "move_4_1": "SLACK OFF",
     "ivs_2": 255,
     "ability_2": 4,
@@ -53131,7 +53386,7 @@ trainersById =
     "move_1_0": "CRUNCH",
     "move_2_0": "PSYCHIC FANGS",
     "move_3_0": "THUNDER FANG",
-    "move_4_0": "ICE FANG",
+    "move_4_0": "SUPER FANG",
     "ivs_1": 255,
     "ability_1": 1,
     "level_1": 48,
@@ -53140,7 +53395,7 @@ trainersById =
     "form_1": 0,
     "item_id_1": "Throat Spray",
     "move_1_1": "IRON TAIL",
-    "move_2_1": "THUNDER",
+    "move_2_1": "WILD CHARGE",
     "move_3_1": "NIGHT DAZE",
     "move_4_1": "HOWL",
     "ivs_2": 255,
@@ -53314,7 +53569,7 @@ trainersById =
     "move_4_2": "PIN MISSILE",
     "ivs_3": 255,
     "ability_3": 2,
-    "level_3": 48,
+    "level_3": 49,
     "padding_3": 0,
     "species_id_3": "GIGALITH",
     "form_3": 0,
@@ -53337,7 +53592,7 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Docile",
     "ability_name_2": "Sand Force",
-    "nature_3": "Bashful",
+    "nature_3": "Hasty",
     "ability_name_3": "Chlorophyll",
     "raw": null,
     "raw_species_id_0": 565,
@@ -53963,7 +54218,7 @@ trainersById =
     "item_id_2": "Eviolite",
     "move_1_2": "GIGA IMPACT",
     "move_2_2": "HEADLONG RUSH",
-    "move_3_2": "PURSUIT",
+    "move_3_2": "SUBSTITUTE",
     "move_4_2": "HONE CLAWS",
     "ivs_3": 255,
     "ability_3": 2,
@@ -53973,7 +54228,7 @@ trainersById =
     "form_3": 0,
     "item_id_3": "Flame Orb",
     "move_1_3": "PSYCHO BOOST",
-    "move_2_3": "HEX",
+    "move_2_3": "MOONLIGHT",
     "move_3_3": "PSYCHO SHIFT",
     "move_4_3": "TORMENT",
     "ivs_4": 255,
@@ -54040,16 +54295,16 @@ trainersById =
     "move_2_1": "CLOSE COMBAT",
     "move_3_1": "SPIN OUT",
     "move_4_1": "HEADLONG RUSH",
-    "ivs_2": 254,
+    "ivs_2": 253,
     "ability_2": 1,
-    "level_2": 51,
+    "level_2": 53,
     "padding_2": 0,
     "species_id_2": "SMOOCHUM",
     "form_2": 0,
     "item_id_2": "Eviolite",
     "move_1_2": "BLIZZARD",
     "move_2_2": "IMPRISON",
-    "move_3_2": "FAKE OUT",
+    "move_3_2": "SEETHING COLD",
     "move_4_2": "FOCUS BLAST",
     "ivs_3": 255,
     "ability_3": 1,
@@ -54086,7 +54341,7 @@ trainersById =
     "name": "Georgia",
     "nature_1": "Hardy",
     "ability_name_1": "Contrary",
-    "nature_2": "Hardy",
+    "nature_2": "Modest",
     "ability_name_2": "Majestic Ward",
     "nature_3": "Lonely",
     "ability_name_3": "Normalize",
@@ -58131,7 +58386,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Chople Berry",
     "move_1_0": "GIGA IMPACT",
-    "move_2_0": "CHIP AWAY",
+    "move_2_0": "SUPERPOWER",
     "move_3_0": "COIL",
     "move_4_0": "FAKE OUT",
     "ivs_1": 253,
@@ -58157,21 +58412,33 @@ trainersById =
     "move_3_2": "SHADOW BALL",
     "move_4_2": "EARTHQUAKE",
     "ivs_3": 255,
-    "ability_3": 3,
-    "level_3": 47,
+    "ability_3": 2,
+    "level_3": 49,
     "padding_3": 0,
-    "species_id_3": "PORYGON2",
+    "species_id_3": "ILLUMISE",
     "form_3": 0,
-    "item_id_3": "Eviolite",
-    "move_1_3": "ICE BEAM",
-    "move_2_3": "VOLT SWITCH",
-    "move_3_3": "SWIFT",
-    "move_4_3": "RECOVER",
-    "count": 4,
+    "item_id_3": "Choice Band",
+    "move_1_3": "CHIP AWAY",
+    "move_2_3": "-----",
+    "move_3_3": "-----",
+    "move_4_3": "-----",
+    "ivs_4": 255,
+    "ability_4": 3,
+    "level_4": 48,
+    "padding_4": 13,
+    "species_id_4": "PORYGON2",
+    "form_4": 0,
+    "item_id_4": "Eviolite",
+    "move_1_4": "ICE BEAM",
+    "move_2_4": "VOLT SWITCH",
+    "move_3_4": "SWIFT",
+    "move_4_4": "RECOVER",
+    "count": 5,
     "gender_0": "Default",
     "gender_1": "Default",
     "gender_2": "Default",
     "gender_3": "Default",
+    "gender_4": "Default",
     "template": 3,
     "nature_0": "Modest",
     "ability_name_0": "Scrappy",
@@ -58181,14 +58448,16 @@ trainersById =
     "ability_name_1": "Inner Focus",
     "nature_2": "Docile",
     "ability_name_2": "Corrosion",
-    "nature_3": "Serious",
-    "ability_name_3": "Normalize",
+    "nature_3": "Adamant",
+    "ability_name_3": "Pixilate",
+    "nature_4": "Docile",
+    "ability_name_4": "Normalize",
     "raw": null,
     "raw_species_id_0": 162,
     "raw_species_id_1": 64,
     "raw_species_id_2": 317,
-    "raw_species_id_3": 233,
-    "raw_species_id_4": null,
+    "raw_species_id_3": 314,
+    "raw_species_id_4": 233,
     "raw_species_id_5": null,
     "index": 627,
     "class": "Harlequin",
@@ -64579,10 +64848,10 @@ trainersById =
     "padding_1": 0,
     "species_id_1": "GRANBULL",
     "form_1": 0,
-    "item_id_1": "Rowap Berry",
+    "item_id_1": "Clear Amulet",
     "move_1_1": "PLAY ROUGH",
-    "move_2_1": "BRICK BREAK",
-    "move_3_1": "BULK UP",
+    "move_2_1": "SUPERPOWER",
+    "move_3_1": "AGILITY",
     "move_4_1": "THUNDERPUNCH",
     "ivs_2": 255,
     "ability_2": 2,
@@ -64660,13 +64929,13 @@ trainersById =
     "ability_2": 1,
     "level_2": 49,
     "padding_2": 0,
-    "species_id_2": "GALLADE",
+    "species_id_2": "RAICHU",
     "form_2": 0,
-    "item_id_2": "Blunder Policy",
-    "move_1_2": "CLOSE COMBAT",
-    "move_2_2": "PSYCHO CUT",
-    "move_3_2": "ATTRACT",
-    "move_4_2": "NIGHT SLASH",
+    "item_id_2": "Rindo Berry",
+    "move_1_2": "EARTH POWER",
+    "move_2_2": "THUNDERBOLT",
+    "move_3_2": "SIGNAL BEAM",
+    "move_4_2": "VOLT SWITCH",
     "ivs_3": 255,
     "ability_3": 1,
     "level_3": 50,
@@ -64690,14 +64959,14 @@ trainersById =
     "name": "Monika",
     "nature_1": "Quirky",
     "ability_name_1": "Serene Grace",
-    "nature_2": "Careful",
-    "ability_name_2": "Hyper Cutter",
+    "nature_2": "Bold",
+    "ability_name_2": "Teravolt",
     "nature_3": "Impish",
     "ability_name_3": "Prankster",
     "raw": null,
     "raw_species_id_0": 36,
     "raw_species_id_1": 468,
-    "raw_species_id_2": 475,
+    "raw_species_id_2": 26,
     "raw_species_id_3": 417,
     "raw_species_id_4": null,
     "raw_species_id_5": null,
@@ -66051,7 +66320,7 @@ trainersById =
     "move_1_1": "PHANTOM STRIKE",
     "move_2_1": "DOUBLE-EDGE",
     "move_3_1": "PURSUIT",
-    "move_4_1": "PLAY ROUGH",
+    "move_4_1": "ICE PUNCH",
     "ivs_2": 255,
     "ability_2": 2,
     "level_2": 53,
@@ -66062,7 +66331,7 @@ trainersById =
     "move_1_2": "FOCUS BLAST",
     "move_2_2": "HURRICANE",
     "move_3_2": "OMINOUS WIND",
-    "move_4_2": "ACUPRESSURE",
+    "move_4_2": "FOCUS ENERGY",
     "ivs_3": 255,
     "ability_3": 2,
     "level_3": 53,
@@ -66076,7 +66345,7 @@ trainersById =
     "move_4_3": "MOONLIGHT",
     "ivs_4": 254,
     "ability_4": 4,
-    "level_4": 53,
+    "level_4": 52,
     "padding_4": 0,
     "species_id_4": "MAROWAK",
     "form_4": 0,
@@ -66084,7 +66353,7 @@ trainersById =
     "move_1_4": "EARTHQUAKE",
     "move_2_4": "SHADOW FORCE",
     "move_3_4": "TEMPER FLARE",
-    "move_4_4": "DRAIN PUNCH",
+    "move_4_4": "LOW KICK",
     "ivs_5": 255,
     "ability_5": 1,
     "level_5": 54,
@@ -66114,7 +66383,7 @@ trainersById =
     "ability_name_2": "Keen Senses",
     "nature_3": "Docile",
     "ability_name_3": "Magic Bounce",
-    "nature_4": "Serious",
+    "nature_4": "Bold",
     "ability_name_4": "Quick Draw",
     "nature_5": "Hardy",
     "ability_name_5": "Magic Guard",
@@ -68760,9 +69029,13 @@ trainersById =
 
 
 
+
 highlights =
 {
   "new": {
+    "assaultvest": 1,
+    "wickedblow": 1,
+
     "unusualcandies": 1,
     "fairydust": 1,
     "tricksterherb": 1,
@@ -68778,7 +69051,6 @@ highlights =
     "teraeviolite": 1,
     "mysterydevice": 1,
     "clrsarmor": 1,
-    "assaultvest": 1,
     "clrsbooster": 1,
     "protobooster": 1,
     "teraspecs": 1,
@@ -68816,14 +69088,13 @@ highlights =
     "phantomstrike": 1,
     "sparkle": 1,
     "infernalparade": 1,
-    "snaptrap": 1,
     "seethingcold": 1,
     "bittermalice": 1,
     "weathercrash": 1,
     "barbbarrage": 1,
     "dazzlinggleam": 1,
     "esperwing": 1,
-    "wickedblow": 1,
+    
     "alluringvoice": 1,
     "psyblade": 1,
     "starburst": 1,
@@ -68839,6 +69110,7 @@ highlights =
     "berserk": 1,
     "merciless": 1,
     "amplifier": 1,
+    
     "slushrush": 1,
     "exploit": 1,
     "distracting": 1,
@@ -68846,6 +69118,7 @@ highlights =
     "tenacity": 1,
     "majesticward": 1,
     "gourmand": 1,
+    "permafrost": 1,
     "savant": 1,
     "patient": 1,
     "contagious": 1,
@@ -68875,16 +69148,21 @@ highlights =
     "icyrock": 1,
     "smoothrock": 1,
     "heatrock": 1,
+    "assurance": 1, 
+    "doomdesire": 1,
     "damprock": 1,
     "megapunch": 1,
     "payday": 1,
     "guillotine": 1,
     "whirlwind": 1,
+    "sacredsword": 1,
     "fly": 1,
     "slam": 1,
     "vinewhip": 1,
     "jumpkick": 1,
-    "rollingkick": 1,
+    "lowkick": 1,
+    "grassknot": 1,
+    "strength": 1,
     "sandattack": 1,
     "horndrill": 1,
     "takedown": 1,
@@ -68910,12 +69188,13 @@ highlights =
     "harden": 1,
     "defensecurl": 1,
     "barrier": 1,
+    "torment": 1, 
     "focusenergy": 1,
     "mirrormove": 1,
     "smog": 1,
     "swift": 1,
     "skullbash": 1,
-    "highjumpkick": 1,
+    "hijumpkick": 1,
     "dreameater": 1,
     "barrage": 1,
     "skyattack": 1,
@@ -69032,6 +69311,7 @@ highlights =
     "chlorophyll": 1,
     "trace": 1,
     "innerfocus": 1,
+    "magnetrise": 1, 
     "raindish": 1,
     "thickfat": 1,
     "runaway": 1,
@@ -69082,6 +69362,9 @@ highlights =
     "solidrock": 1,
     "filter": 1, 
     "cometpunch": 1, 
+    "avalanche": 1, 
+    "revenge": 1, 
+    "shadowforce": 1,
 
   }
 }
