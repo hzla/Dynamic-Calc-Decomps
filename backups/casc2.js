@@ -1317,7 +1317,7 @@ backup_data = {
       "type": "Rock",
       "basePower": 0,
       "category": "Status",
-      "pp": 2,
+      "pp": 1,
       "accuracy": 101,
       "priority": 0,
       "e_id": 11,
@@ -1369,7 +1369,7 @@ backup_data = {
       "type": "Normal",
       "basePower": 0,
       "category": "Status",
-      "pp": 2,
+      "pp": 1,
       "accuracy": 101,
       "priority": 0,
       "e_id": 156,
@@ -1379,7 +1379,7 @@ backup_data = {
       "type": "Psychic",
       "basePower": 0,
       "category": "Status",
-      "pp": 2,
+      "pp": 1,
       "accuracy": 101,
       "priority": 0,
       "e_id": 14,
@@ -8350,7 +8350,7 @@ backup_data = {
         "hp": 63,
         "at": 60,
         "df": 63,
-        "sa": 85,
+        "sa": 84,
         "sd": 58,
         "sp": 81
       },
@@ -8513,7 +8513,7 @@ backup_data = {
         "hp": 83,
         "at": 80,
         "df": 75,
-        "sa": 111,
+        "sa": 110,
         "sd": 70,
         "sp": 101
       },
@@ -8680,7 +8680,7 @@ backup_data = {
         "at": 66,
         "df": 50,
         "sa": 25,
-        "sd": 50,
+        "sd": 60,
         "sp": 92
       },
       "learnset_info": {
@@ -8844,7 +8844,7 @@ backup_data = {
         "at": 101,
         "df": 60,
         "sa": 50,
-        "sd": 70,
+        "sd": 80,
         "sp": 117
       },
       "learnset_info": {
@@ -9045,7 +9045,7 @@ backup_data = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Retaliate"
           ],
           [
             23,
@@ -9061,7 +9061,7 @@ backup_data = {
           ],
           [
             33,
-            "Dual Wingbeat"
+            "Aerial Ace"
           ],
           [
             37,
@@ -9177,7 +9177,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 101,
+        "at": 111,
         "df": 65,
         "sa": 61,
         "sd": 61,
@@ -9215,7 +9215,7 @@ backup_data = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Retaliate"
           ],
           [
             23,
@@ -9231,7 +9231,7 @@ backup_data = {
           ],
           [
             33,
-            "Dual Wingbeat"
+            "Aerial Ace"
           ],
           [
             37,
@@ -10790,7 +10790,7 @@ backup_data = {
       "bs": {
         "hp": 90,
         "at": 92,
-        "df": 102,
+        "df": 97,
         "sa": 85,
         "sd": 100,
         "sp": 76
@@ -11418,7 +11418,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 81,
-        "at": 117,
+        "at": 112,
         "df": 77,
         "sa": 100,
         "sd": 75,
@@ -17156,15 +17156,15 @@ backup_data = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -17172,7 +17172,7 @@ backup_data = {
           ],
           [
             46,
-            "Helping Hand"
+            "Storm Throw"
           ]
         ],
         "tms": [
@@ -17324,15 +17324,15 @@ backup_data = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -17340,7 +17340,7 @@ backup_data = {
           ],
           [
             46,
-            "Focus Blast"
+            "Storm Throw"
           ],
           [
             49,
@@ -17466,7 +17466,7 @@ backup_data = {
         "hp": 90,
         "at": 130,
         "df": 80,
-        "sa": 85,
+        "sa": 65,
         "sd": 85,
         "sp": 75
       },
@@ -17518,15 +17518,15 @@ backup_data = {
           ],
           [
             38,
-            "Blizzard"
+            "Ice Punch"
           ],
           [
             38,
-            "Fire Blast"
+            "Fire Punch"
           ],
           [
             38,
-            "Thunder"
+            "Thunder Punch"
           ],
           [
             43,
@@ -17534,7 +17534,7 @@ backup_data = {
           ],
           [
             46,
-            "Focus Blast"
+            "Storm Throw"
           ],
           [
             49,
@@ -17882,7 +17882,7 @@ backup_data = {
           ],
           [
             51,
-            "Spore"
+            "Sleep Powder"
           ],
           [
             55,
@@ -18061,7 +18061,7 @@ backup_data = {
           ],
           [
             51,
-            "Spore"
+            "Sleep Powder"
           ],
           [
             55,
@@ -19205,7 +19205,7 @@ backup_data = {
           ],
           [
             1,
-            "Growl"
+            "Flame Charge"
           ],
           [
             9,
@@ -19554,7 +19554,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 125,
+        "at": 120,
         "df": 110,
         "sa": 75,
         "sd": 80,
@@ -20067,7 +20067,7 @@ backup_data = {
         "at": 65,
         "df": 80,
         "sa": 113,
-        "sd": 90,
+        "sd": 82,
         "sp": 85
       },
       "learnset_info": {
@@ -21283,7 +21283,7 @@ backup_data = {
         "hp": 40,
         "at": 65,
         "df": 150,
-        "sa": 45,
+        "sa": 30,
         "sd": 25,
         "sp": 50
       },
@@ -21307,7 +21307,7 @@ backup_data = {
           ],
           [
             11,
-            "Icicle Spear"
+            "Aqua Jet"
           ],
           [
             15,
@@ -21327,7 +21327,7 @@ backup_data = {
           ],
           [
             28,
-            "Frost Breath"
+            "Icicle Spear"
           ],
           [
             31,
@@ -21335,7 +21335,7 @@ backup_data = {
           ],
           [
             35,
-            "Surf"
+            "Liquidation"
           ],
           [
             38,
@@ -21347,11 +21347,11 @@ backup_data = {
           ],
           [
             46,
-            "Hydro Pump"
+            "Clamp"
           ],
           [
             48,
-            "Ice Beam"
+            "Icicle Crash"
           ],
           [
             51,
@@ -21445,7 +21445,7 @@ backup_data = {
         "hp": 70,
         "at": 105,
         "df": 180,
-        "sa": 85,
+        "sa": 55,
         "sd": 45,
         "sp": 70
       },
@@ -21457,7 +21457,7 @@ backup_data = {
           ],
           [
             1,
-            "Sheer Cold"
+            "Chilling Water"
           ],
           [
             4,
@@ -21469,7 +21469,7 @@ backup_data = {
           ],
           [
             11,
-            "Icicle Spear"
+            "Aqua Jet"
           ],
           [
             15,
@@ -21489,7 +21489,7 @@ backup_data = {
           ],
           [
             28,
-            "Frost Breath"
+            "Icicle Spear"
           ],
           [
             31,
@@ -21497,7 +21497,7 @@ backup_data = {
           ],
           [
             35,
-            "Surf"
+            "Liquidation"
           ],
           [
             38,
@@ -21509,11 +21509,11 @@ backup_data = {
           ],
           [
             46,
-            "Hydro Pump"
+            "Clamp"
           ],
           [
             48,
-            "Ice Beam"
+            "Icicle Crash"
           ],
           [
             51,
@@ -21521,7 +21521,7 @@ backup_data = {
           ],
           [
             54,
-            "Clamp"
+            "Spin Out"
           ],
           [
             60,
@@ -21529,14 +21529,14 @@ backup_data = {
           ],
           [
             65,
-            "Hydro Cannon"
+            "Spiky Shield"
           ],
           [
             72,
             "Body Press"
           ],
           [
-            81,
+            82,
             "Shell Smash"
           ]
         ],
@@ -22361,23 +22361,23 @@ backup_data = {
           ],
           [
             25,
-            "Night Shade"
+            "Psywave"
           ],
           [
             27,
-            "Focus Punch"
+            "Force Palm"
           ],
           [
             30,
             "Assist"
           ],
           [
-            33,
-            "Dream Eater"
+            32,
+            "Smog"
           ],
           [
-            36,
-            "Smog"
+            35,
+            "Dream Eater"
           ],
           [
             39,
@@ -22389,15 +22389,31 @@ backup_data = {
           ],
           [
             45,
-            "Meditate"
+            "Night Shade"
           ],
           [
             48,
-            "Spirit Break"
+            "Meditate"
           ],
           [
             52,
             "Psychic"
+          ],
+          [
+            55,
+            "Swagger"
+          ],
+          [
+            60,
+            "Sludge Wave"
+          ],
+          [
+            65,
+            "Dark Void"
+          ],
+          [
+            81,
+            "Nasty Plot"
           ]
         ],
         "tms": [
@@ -22509,9 +22525,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 85,
-        "at": 93,
+        "at": 73,
         "df": 70,
-        "sa": 103,
+        "sa": 113,
         "sd": 115,
         "sp": 67
       },
@@ -22555,23 +22571,23 @@ backup_data = {
           ],
           [
             25,
-            "Night Shade"
+            "Psywave"
           ],
           [
             27,
-            "Focus Punch"
+            "Force Palm"
           ],
           [
             30,
             "Assist"
           ],
           [
-            33,
-            "Dream Eater"
+            32,
+            "Smog"
           ],
           [
-            36,
-            "Smog"
+            35,
+            "Dream Eater"
           ],
           [
             39,
@@ -22583,11 +22599,11 @@ backup_data = {
           ],
           [
             45,
-            "Meditate"
+            "Night Shade"
           ],
           [
             48,
-            "Spirit Break"
+            "Meditate"
           ],
           [
             52,
@@ -22604,6 +22620,10 @@ backup_data = {
           [
             65,
             "Dark Void"
+          ],
+          [
+            81,
+            "Nasty Plot"
           ]
         ],
         "tms": [
@@ -23195,7 +23215,7 @@ backup_data = {
         "hp": 60,
         "at": 105,
         "df": 70,
-        "sa": 105,
+        "sa": 100,
         "sd": 80,
         "sp": 135
       },
@@ -24622,7 +24642,7 @@ backup_data = {
           ],
           [
             7,
-            "Psywave"
+            "Psybeam"
           ],
           [
             10,
@@ -24646,7 +24666,7 @@ backup_data = {
           ],
           [
             25,
-            "Flame Burst"
+            "Psywave"
           ],
           [
             28,
@@ -24654,7 +24674,7 @@ backup_data = {
           ],
           [
             32,
-            "Toxic"
+            "Haze"
           ],
           [
             36,
@@ -24785,7 +24805,7 @@ backup_data = {
           ],
           [
             7,
-            "Psywave"
+            "Psybeam"
           ],
           [
             10,
@@ -24809,7 +24829,7 @@ backup_data = {
           ],
           [
             25,
-            "Flame Burst"
+            "Psywave"
           ],
           [
             28,
@@ -24817,7 +24837,7 @@ backup_data = {
           ],
           [
             32,
-            "Toxic"
+            "Haze"
           ],
           [
             36,
@@ -24932,7 +24952,7 @@ backup_data = {
         "at": 110,
         "df": 105,
         "sa": 30,
-        "sd": 55,
+        "sd": 50,
         "sp": 25
       },
       "learnset_info": {
@@ -25118,7 +25138,7 @@ backup_data = {
         "at": 130,
         "df": 120,
         "sa": 45,
-        "sd": 65,
+        "sd": 60,
         "sp": 40
       },
       "learnset_info": {
@@ -26524,7 +26544,7 @@ backup_data = {
         "hp": 50,
         "at": 45,
         "df": 55,
-        "sa": 95,
+        "sa": 90,
         "sd": 55,
         "sp": 95
       },
@@ -26576,7 +26596,7 @@ backup_data = {
           ],
           [
             32,
-            "Minimize"
+            "Psywave"
           ],
           [
             34,
@@ -26608,7 +26628,7 @@ backup_data = {
           ],
           [
             64,
-            "Psystrike"
+            "Minimize"
           ],
           [
             68,
@@ -26717,7 +26737,7 @@ backup_data = {
         "hp": 80,
         "at": 60,
         "df": 85,
-        "sa": 115,
+        "sa": 110,
         "sd": 85,
         "sp": 115
       },
@@ -26769,7 +26789,7 @@ backup_data = {
           ],
           [
             32,
-            "Minimize"
+            "Psywave"
           ],
           [
             34,
@@ -26801,7 +26821,7 @@ backup_data = {
           ],
           [
             64,
-            "Psystrike"
+            "Minimize"
           ],
           [
             68,
@@ -26901,7 +26921,7 @@ backup_data = {
         "hp": 55,
         "at": 100,
         "df": 105,
-        "sa": 40,
+        "sa": 35,
         "sd": 120,
         "sp": 90
       },
@@ -26964,20 +26984,24 @@ backup_data = {
             "Heart Stamp"
           ],
           [
-            38,
-            "Wide Guard"
+            39,
+            "Psywave"
           ],
           [
-            40,
+            42,
             "Teeter Dance"
           ],
           [
-            44,
+            45,
             "Zen Headbutt"
           ],
           [
             48,
             "Double Slap"
+          ],
+          [
+            52,
+            "Wide Guard"
           ],
           [
             55,
@@ -27809,12 +27833,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 75,
+        "hp": 65,
         "at": 125,
         "df": 100,
         "sa": 55,
         "sd": 70,
-        "sp": 85
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -28388,10 +28412,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 130,
-        "at": 95,
-        "df": 90,
+        "at": 85,
+        "df": 80,
         "sa": 95,
-        "sd": 105,
+        "sd": 95,
         "sp": 60
       },
       "learnset_info": {
@@ -28867,10 +28891,6 @@ backup_data = {
           [
             70,
             "Hydro Cannon"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -29040,10 +29060,6 @@ backup_data = {
           [
             70,
             "Zap Cannon"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -29213,10 +29229,6 @@ backup_data = {
           [
             70,
             "Blast Burn"
-          ],
-          [
-            80,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -29374,7 +29386,11 @@ backup_data = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -32071,7 +32087,7 @@ backup_data = {
           ],
           [
             57,
-            "Extreme Speed"
+            "Flame Charge"
           ]
         ],
         "tms": [
@@ -32248,7 +32264,7 @@ backup_data = {
           ],
           [
             57,
-            "Blast Burn"
+            "Flame Charge"
           ],
           [
             64,
@@ -34620,9 +34636,9 @@ backup_data = {
       "bs": {
         "hp": 125,
         "at": 58,
-        "df": 73,
-        "sa": 91,
-        "sd": 86,
+        "df": 68,
+        "sa": 86,
+        "sd": 91,
         "sp": 67
       },
       "learnset_info": {
@@ -35456,7 +35472,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 55,
-        "at": 70,
+        "at": 40,
         "df": 85,
         "sa": 80,
         "sd": 105,
@@ -35490,7 +35506,7 @@ backup_data = {
           ],
           [
             22,
-            "Heart Stamp"
+            "Draining Kiss"
           ],
           [
             25,
@@ -36337,7 +36353,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 90,
-        "at": 110,
+        "at": 100,
         "df": 85,
         "sa": 115,
         "sd": 100,
@@ -36423,7 +36439,7 @@ backup_data = {
           ],
           [
             58,
-            "Supercell Slam"
+            "Thunder"
           ]
         ],
         "tms": [
@@ -36531,7 +36547,7 @@ backup_data = {
           ],
           [
             1,
-            "Growth"
+            "Triple Axel"
           ],
           [
             4,
@@ -36571,7 +36587,7 @@ backup_data = {
           ],
           [
             43,
-            "Double Slap"
+            "Heart Stamp"
           ],
           [
             45,
@@ -36583,11 +36599,11 @@ backup_data = {
           ],
           [
             51,
-            "Play Rough"
+            "Weather Crash"
           ],
           [
             55,
-            "Weather Crash"
+            "Play Rough"
           ],
           [
             60,
@@ -38225,7 +38241,7 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 75,
-        "df": 65,
+        "df": 75,
         "sa": 105,
         "sd": 105,
         "sp": 70
@@ -38950,10 +38966,6 @@ backup_data = {
           [
             70,
             "Psycho Boost"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -39129,10 +39141,6 @@ backup_data = {
           [
             70,
             "Night Daze"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -39389,7 +39397,7 @@ backup_data = {
         "hp": 95,
         "at": 75,
         "df": 80,
-        "sa": 125,
+        "sa": 120,
         "sd": 110,
         "sp": 30
       },
@@ -39645,7 +39653,7 @@ backup_data = {
           ],
           [
             46,
-            "Aura Sphere"
+            "Psywave"
           ],
           [
             50,
@@ -41227,7 +41235,7 @@ backup_data = {
       "bs": {
         "hp": 90,
         "at": 120,
-        "df": 95,
+        "df": 90,
         "sa": 60,
         "sd": 60,
         "sp": 70
@@ -44536,7 +44544,7 @@ backup_data = {
           ],
           [
             1,
-            "Leer"
+            "Flame Charge"
           ],
           [
             5,
@@ -44616,7 +44624,7 @@ backup_data = {
           ],
           [
             71,
-            "Overheat"
+            "Blue Flare"
           ]
         ],
         "tms": [
@@ -45263,7 +45271,11 @@ backup_data = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -52802,7 +52814,7 @@ backup_data = {
       "bs": {
         "hp": 50,
         "at": 30,
-        "df": 50,
+        "df": 49,
         "sa": 85,
         "sd": 80,
         "sp": 80
@@ -52931,7 +52943,7 @@ backup_data = {
       "bs": {
         "hp": 70,
         "at": 60,
-        "df": 70,
+        "df": 69,
         "sa": 105,
         "sd": 100,
         "sp": 100
@@ -53246,7 +53258,7 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 130,
-        "df": 95,
+        "df": 90,
         "sa": 60,
         "sd": 80,
         "sp": 80
@@ -54070,7 +54082,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 61,
-        "at": 119,
+        "at": 120,
         "df": 45,
         "sa": 50,
         "sd": 50,
@@ -54080,15 +54092,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Spin Out"
+          ],
+          [
+            19,
+            "Final Gambit"
           ],
           [
             20,
             "Razor Winds"
-          ],
-          [
-            20,
-            "Quick Attack"
           ],
           [
             23,
@@ -54099,7 +54111,7 @@ backup_data = {
             "Double Team"
           ],
           [
-            31,
+            32,
             "Night Slash"
           ],
           [
@@ -54112,7 +54124,7 @@ backup_data = {
           ],
           [
             40,
-            "Spin Out"
+            "Dig"
           ],
           [
             42,
@@ -54220,10 +54232,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 31,
-        "at": 90,
+        "hp": 51,
+        "at": 70,
         "df": 70,
-        "sa": 129,
+        "sa": 130,
         "sd": 70,
         "sp": 95
       },
@@ -54231,11 +54243,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Aura Sphere"
           ],
           [
-            20,
-            "Shadow Claw"
+            19,
+            "Final Gambit"
           ],
           [
             20,
@@ -54250,7 +54262,7 @@ backup_data = {
             "Safeguard"
           ],
           [
-            31,
+            32,
             "Scorching Sands"
           ],
           [
@@ -54259,7 +54271,7 @@ backup_data = {
           ],
           [
             37,
-            "Bug Buzz"
+            "Silver Wind"
           ],
           [
             40,
@@ -54279,11 +54291,11 @@ backup_data = {
           ],
           [
             50,
-            "Flail"
+            "Healing Wish"
           ],
           [
             54,
-            "Shadow Ball"
+            "Ominous Wind"
           ],
           [
             59,
@@ -54379,7 +54391,7 @@ backup_data = {
         "hp": 64,
         "at": 51,
         "df": 53,
-        "sa": 76,
+        "sa": 81,
         "sd": 53,
         "sp": 58
       },
@@ -54415,7 +54427,7 @@ backup_data = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -54543,9 +54555,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 84,
-        "at": 71,
+        "at": 61,
         "df": 63,
-        "sa": 86,
+        "sa": 91,
         "sd": 63,
         "sp": 68
       },
@@ -54581,7 +54593,7 @@ backup_data = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -54731,9 +54743,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 104,
-        "at": 91,
+        "at": 71,
         "df": 83,
-        "sa": 106,
+        "sa": 111,
         "sd": 83,
         "sp": 88
       },
@@ -54769,7 +54781,7 @@ backup_data = {
           ],
           [
             20,
-            "Rage"
+            "Supersonic"
           ],
           [
             22,
@@ -57225,11 +57237,11 @@ backup_data = {
           ],
           [
             13,
-            "Dig"
+            "Eerie Impulse"
           ],
           [
             15,
-            "Eerie Impulse"
+            "Charge"
           ],
           [
             17,
@@ -57237,7 +57249,7 @@ backup_data = {
           ],
           [
             20,
-            "Charge"
+            "Dig"
           ],
           [
             23,
@@ -57365,7 +57377,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Leer"
+            "Flame Charge"
           ],
           [
             1,
@@ -57385,11 +57397,11 @@ backup_data = {
           ],
           [
             13,
-            "Dig"
+            "Eerie Impulse"
           ],
           [
             15,
-            "Eerie Impulse"
+            "Charge"
           ],
           [
             17,
@@ -57397,7 +57409,7 @@ backup_data = {
           ],
           [
             20,
-            "Charge"
+            "Dig"
           ],
           [
             23,
@@ -57530,7 +57542,7 @@ backup_data = {
       "bs": {
         "hp": 80,
         "at": 50,
-        "df": 85,
+        "df": 75,
         "sa": 105,
         "sd": 75,
         "sp": 120
@@ -57705,9 +57717,9 @@ backup_data = {
       "bs": {
         "hp": 95,
         "at": 40,
-        "df": 95,
+        "df": 90,
         "sa": 95,
-        "sd": 95,
+        "sd": 90,
         "sp": 95
       },
       "learnset_info": {
@@ -57883,7 +57895,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 75,
+        "at": 72,
         "df": 95,
         "sa": 75,
         "sd": 95,
@@ -58752,7 +58764,7 @@ backup_data = {
         "hp": 45,
         "at": 90,
         "df": 20,
-        "sa": 85,
+        "sa": 80,
         "sd": 20,
         "sp": 85
       },
@@ -58909,7 +58921,7 @@ backup_data = {
         "hp": 70,
         "at": 120,
         "df": 40,
-        "sa": 115,
+        "sa": 110,
         "sd": 40,
         "sp": 105
       },
@@ -59912,7 +59924,7 @@ backup_data = {
         "hp": 70,
         "at": 70,
         "df": 70,
-        "sa": 45,
+        "sa": 25,
         "sd": 80,
         "sp": 60
       },
@@ -59940,7 +59952,7 @@ backup_data = {
           ],
           [
             13,
-            "Dark Pulse"
+            "Pursuit"
           ],
           [
             15,
@@ -59964,7 +59976,7 @@ backup_data = {
           ],
           [
             32,
-            "Night Daze"
+            "Feint Attack"
           ],
           [
             35,
@@ -60084,7 +60096,7 @@ backup_data = {
         "hp": 95,
         "at": 105,
         "df": 80,
-        "sa": 65,
+        "sa": 45,
         "sd": 110,
         "sp": 90
       },
@@ -60112,7 +60124,7 @@ backup_data = {
           ],
           [
             13,
-            "Dark Pulse"
+            "Pursuit"
           ],
           [
             15,
@@ -60136,7 +60148,7 @@ backup_data = {
           ],
           [
             32,
-            "Night Daze"
+            "Feint Attack"
           ],
           [
             35,
@@ -60986,7 +60998,7 @@ backup_data = {
         "df": 40,
         "sa": 95,
         "sd": 40,
-        "sp": 75
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -61159,7 +61171,7 @@ backup_data = {
         "df": 60,
         "sa": 115,
         "sd": 60,
-        "sp": 95
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -61522,7 +61534,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 100,
+        "at": 95,
         "df": 105,
         "sa": 100,
         "sd": 110,
@@ -62086,7 +62098,7 @@ backup_data = {
           ],
           [
             1,
-            "Sand Tomb"
+            "Rock Polish"
           ],
           [
             1,
@@ -62102,11 +62114,11 @@ backup_data = {
           ],
           [
             17,
-            "Rock Polish"
+            "Teleport"
           ],
           [
             20,
-            "Teleport"
+            "Psywave"
           ],
           [
             25,
@@ -62134,11 +62146,11 @@ backup_data = {
           ],
           [
             50,
-            "Starburst"
+            "Imprison"
           ],
           [
             53,
-            "Psychic"
+            "Starburst"
           ],
           [
             57,
@@ -62255,7 +62267,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Imprison"
+            "Rock Polish"
           ],
           [
             1,
@@ -62275,11 +62287,11 @@ backup_data = {
           ],
           [
             17,
-            "Rock Polish"
+            "Scorching Sands"
           ],
           [
             20,
-            "Scorching Sands"
+            "Reflect Type"
           ],
           [
             25,
@@ -62299,7 +62311,7 @@ backup_data = {
           ],
           [
             42,
-            "Reflect Type"
+            "Psywave"
           ],
           [
             46,
@@ -62311,7 +62323,7 @@ backup_data = {
           ],
           [
             53,
-            "Psychic"
+            "Imprison"
           ],
           [
             57,
@@ -63605,7 +63617,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 116,
-        "at": 81,
+        "at": 61,
         "df": 97,
         "sa": 96,
         "sd": 107,
@@ -65606,7 +65618,7 @@ backup_data = {
         "df": 90,
         "sa": 100,
         "sd": 95,
-        "sp": 95
+        "sp": 85
       },
       "learnset_info": {
         "learnset": [
@@ -65787,7 +65799,7 @@ backup_data = {
       "bs": {
         "hp": 65,
         "at": 130,
-        "df": 100,
+        "df": 95,
         "sa": 95,
         "sd": 75,
         "sp": 95
@@ -69059,10 +69071,6 @@ backup_data = {
           ],
           [
             1,
-            "Mega Drain"
-          ],
-          [
-            1,
             "Harden"
           ],
           [
@@ -69070,20 +69078,8 @@ backup_data = {
             "Razor Leaf"
           ],
           [
-            7,
-            "Razor Leaf"
-          ],
-          [
             10,
             "Stomp"
-          ],
-          [
-            10,
-            "Stomp"
-          ],
-          [
-            13,
-            "Bite"
           ],
           [
             13,
@@ -69094,20 +69090,8 @@ backup_data = {
             "Stompin Tantrum"
           ],
           [
-            16,
-            "Stompin Tantrum"
-          ],
-          [
             19,
             "Giga Drain"
-          ],
-          [
-            19,
-            "Giga Drain"
-          ],
-          [
-            22,
-            "Razor Shell"
           ],
           [
             22,
@@ -69118,28 +69102,12 @@ backup_data = {
             "Crunch"
           ],
           [
-            25,
-            "Crunch"
-          ],
-          [
-            29,
-            "Seed Bomb"
-          ],
-          [
             29,
             "Seed Bomb"
           ],
           [
             32,
             "Wide Guard"
-          ],
-          [
-            32,
-            "Wide Guard"
-          ],
-          [
-            36,
-            "Head Charge"
           ],
           [
             36,
@@ -70458,7 +70426,7 @@ backup_data = {
         "df": 88,
         "sa": 111,
         "sd": 101,
-        "sp": 85
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -70917,7 +70885,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 85,
         "at": 120,
         "df": 70,
         "sa": 50,
@@ -71547,8 +71515,8 @@ backup_data = {
         "hp": 77,
         "at": 90,
         "df": 51,
-        "sa": 95,
-        "sd": 75,
+        "sa": 94,
+        "sd": 65,
         "sp": 107
       },
       "learnset_info": {
@@ -72356,8 +72324,8 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 70,
-        "df": 55,
-        "sa": 125,
+        "df": 65,
+        "sa": 135,
         "sd": 105,
         "sp": 105
       },
@@ -73794,7 +73762,7 @@ backup_data = {
         "df": 130,
         "sa": 95,
         "sd": 130,
-        "sp": 40
+        "sp": 10
       },
       "learnset_info": {
         "learnset": [
@@ -75417,9 +75385,9 @@ backup_data = {
       "bs": {
         "hp": 150,
         "at": 100,
-        "df": 55,
+        "df": 54,
         "sa": 105,
-        "sd": 65,
+        "sd": 64,
         "sp": 80
       },
       "learnset_info": {
@@ -75945,8 +75913,8 @@ backup_data = {
             "Dream Eater"
           ],
           [
-            6,
-            "Disarming Voice"
+            1,
+            "Aura Sphere"
           ],
           [
             11,
@@ -75990,7 +75958,7 @@ backup_data = {
           ],
           [
             46,
-            "Aura Sphere"
+            "Psywave"
           ],
           [
             50,
@@ -76593,7 +76561,7 @@ backup_data = {
         "df": 60,
         "sa": 70,
         "sd": 65,
-        "sp": 65
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -77081,7 +77049,7 @@ backup_data = {
           ],
           [
             3,
-            "Confuse Ray"
+            "Sparkle"
           ],
           [
             7,
@@ -77117,7 +77085,7 @@ backup_data = {
           ],
           [
             31,
-            "Heal Bell"
+            "Confuse Ray"
           ],
           [
             33,
@@ -77137,11 +77105,11 @@ backup_data = {
           ],
           [
             45,
-            "Iron Defense"
+            "Psywave"
           ],
           [
             47,
-            "Future Sight"
+            "Heal Bell"
           ],
           [
             50,
@@ -77249,11 +77217,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Future Sight"
           ],
           [
             3,
-            "Confuse Ray"
+            "Sparkle"
           ],
           [
             7,
@@ -77289,7 +77257,7 @@ backup_data = {
           ],
           [
             31,
-            "Heal Bell"
+            "Confuse Ray"
           ],
           [
             33,
@@ -77309,11 +77277,11 @@ backup_data = {
           ],
           [
             45,
-            "Iron Defense"
+            "Psywave"
           ],
           [
             47,
-            "Future Sight"
+            "Heal Bell"
           ],
           [
             50,
@@ -77675,11 +77643,11 @@ backup_data = {
             "Heart Stamp"
           ],
           [
-            38,
-            "Wide Guard"
+            39,
+            "Psywave"
           ],
           [
-            40,
+            42,
             "Teeter Dance"
           ]
         ],
@@ -77934,9 +77902,9 @@ backup_data = {
       "bs": {
         "hp": 76,
         "at": 65,
-        "df": 65,
+        "df": 60,
         "sa": 117,
-        "sd": 65,
+        "sd": 60,
         "sp": 106
       },
       "learnset_info": {
@@ -80891,11 +80859,11 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
-        "at": 75,
+        "hp": 75,
+        "at": 82,
         "df": 70,
-        "sa": 75,
-        "sd": 80,
+        "sa": 82,
+        "sd": 75,
         "sp": 40
       },
       "learnset_info": {
@@ -81052,10 +81020,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 110,
-        "at": 105,
-        "df": 100,
-        "sa": 105,
+        "hp": 105,
+        "at": 112,
+        "df": 95,
+        "sa": 112,
         "sd": 100,
         "sp": 60
       },
@@ -81403,7 +81371,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 80,
         "at": 70,
         "df": 115,
         "sa": 130,
@@ -81766,7 +81734,7 @@ backup_data = {
         "at": 140,
         "df": 130,
         "sa": 55,
-        "sd": 75,
+        "sd": 70,
         "sp": 40
       },
       "learnset_info": {
@@ -82496,7 +82464,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 85,
-        "at": 80,
+        "at": 50,
         "df": 95,
         "sa": 120,
         "sd": 115,
@@ -82530,7 +82498,7 @@ backup_data = {
           ],
           [
             22,
-            "Heart Stamp"
+            "Draining Kiss"
           ],
           [
             25,
@@ -82674,7 +82642,7 @@ backup_data = {
       "bs": {
         "hp": 86,
         "at": 76,
-        "df": 106,
+        "df": 86,
         "sa": 116,
         "sd": 76,
         "sp": 95
@@ -82833,7 +82801,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 65,
         "at": 150,
         "df": 95,
         "sa": 60,
@@ -82917,10 +82885,6 @@ backup_data = {
           [
             70,
             "Frenzy Plant"
-          ],
-          [
-            80,
-            "Giga Impact"
           ]
         ],
         "tms": [
@@ -83101,10 +83065,6 @@ backup_data = {
           [
             70,
             "Sheer Cold"
-          ],
-          [
-            80,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -83605,7 +83565,11 @@ backup_data = {
             "Double-Edge"
           ],
           [
-            44,
+            42,
+            "Psywave"
+          ],
+          [
+            45,
             "Foul Play"
           ],
           [
@@ -89436,6 +89400,10 @@ backup_data = {
             "Healing Wish"
           ],
           [
+            45,
+            "Psywave"
+          ],
+          [
             47,
             "Moonlight"
           ],
@@ -89603,6 +89571,10 @@ backup_data = {
           [
             42,
             "Healing Wish"
+          ],
+          [
+            45,
+            "Psywave"
           ],
           [
             47,
@@ -91807,10 +91779,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 90,
-        "df": 75,
+        "at": 95,
+        "df": 80,
         "sa": 25,
-        "sd": 60,
+        "sd": 55,
         "sp": 35
       },
       "learnset_info": {
@@ -91964,9 +91936,9 @@ backup_data = {
       "bs": {
         "hp": 85,
         "at": 105,
-        "df": 85,
+        "df": 90,
         "sa": 40,
-        "sd": 70,
+        "sd": 65,
         "sp": 40
       },
       "learnset_info": {
@@ -92126,9 +92098,9 @@ backup_data = {
       "bs": {
         "hp": 105,
         "at": 140,
-        "df": 125,
+        "df": 115,
         "sa": 55,
-        "sd": 80,
+        "sd": 75,
         "sp": 45
       },
       "learnset_info": {
@@ -92820,11 +92792,11 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 130,
+        "hp": 120,
         "at": 110,
-        "df": 95,
+        "df": 100,
         "sa": 30,
-        "sd": 95,
+        "sd": 100,
         "sp": 45
       },
       "learnset_info": {
@@ -92981,7 +92953,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 85,
         "at": 125,
         "df": 90,
         "sa": 30,
@@ -95825,8 +95797,8 @@ backup_data = {
         "hp": 75,
         "at": 86,
         "df": 67,
-        "sa": 116,
-        "sd": 107,
+        "sa": 117,
+        "sd": 97,
         "sp": 84
       },
       "learnset_info": {
@@ -96045,7 +96017,7 @@ backup_data = {
           ],
           [
             37,
-            "Counter"
+            "Refresh"
           ],
           [
             42,
@@ -96053,7 +96025,7 @@ backup_data = {
           ],
           [
             46,
-            "Rest"
+            "Earthquake"
           ],
           [
             49,
@@ -96168,7 +96140,7 @@ backup_data = {
         "hp": 70,
         "at": 105,
         "df": 145,
-        "sa": 45,
+        "sa": 65,
         "sd": 75,
         "sp": 45
       },
@@ -96224,7 +96196,7 @@ backup_data = {
           ],
           [
             37,
-            "Counter"
+            "Refresh"
           ],
           [
             42,
@@ -96232,7 +96204,7 @@ backup_data = {
           ],
           [
             46,
-            "Rest"
+            "Earthquake"
           ],
           [
             49,
@@ -96530,7 +96502,7 @@ backup_data = {
         "df": 115,
         "sa": 45,
         "sd": 115,
-        "sp": 70
+        "sp": 68
       },
       "learnset_info": {
         "learnset": [
@@ -96737,7 +96709,7 @@ backup_data = {
           ],
           [
             22,
-            "Scorching Sands"
+            "Psywave"
           ],
           [
             25,
@@ -99506,7 +99478,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Telekinesis"
           ],
           [
             5,
@@ -99534,7 +99506,7 @@ backup_data = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -99546,7 +99518,7 @@ backup_data = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -99676,7 +99648,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Stored Power"
+            "Telekinesis"
           ],
           [
             5,
@@ -99704,7 +99676,7 @@ backup_data = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -99716,7 +99688,7 @@ backup_data = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -99744,7 +99716,7 @@ backup_data = {
           ],
           [
             53,
-            "Psystrike"
+            "Imprison"
           ],
           [
             58,
@@ -99888,7 +99860,7 @@ backup_data = {
           ],
           [
             20,
-            "Telekinesis"
+            "Psywave"
           ],
           [
             24,
@@ -99900,7 +99872,7 @@ backup_data = {
           ],
           [
             31,
-            "Imprison"
+            "Psyshock"
           ],
           [
             35,
@@ -99928,7 +99900,7 @@ backup_data = {
           ],
           [
             53,
-            "Psystrike"
+            "Imprison"
           ],
           [
             58,
@@ -101190,10 +101162,10 @@ backup_data = {
       "bs": {
         "hp": 55,
         "at": 115,
-        "df": 70,
-        "sa": 122,
-        "sd": 70,
-        "sp": 103
+        "df": 60,
+        "sa": 117,
+        "sd": 60,
+        "sp": 113
       },
       "learnset_info": {
         "learnset": [
@@ -102938,7 +102910,7 @@ backup_data = {
       },
       "abs": [
         "Iron Barbs",
-        " -",
+        "Sturdy",
         " -"
       ],
       "evos": [
@@ -103107,7 +103079,7 @@ backup_data = {
       },
       "abs": [
         "Iron Barbs",
-        " -",
+        "Sturdy",
         " -"
       ],
       "evoType": "level",
@@ -105016,7 +104988,7 @@ backup_data = {
       "abs": [
         "Mold Breaker",
         "Rivalry",
-        "Hyper Cutter"
+        "Unnerve"
       ],
       "evos": [
         "Fraxure"
@@ -105193,7 +105165,7 @@ backup_data = {
       "abs": [
         "Mold Breaker",
         "Rivalry",
-        "Hyper Cutter"
+        "Unnerve"
       ],
       "evoType": "level",
       "evoLevel": 38,
@@ -105768,7 +105740,7 @@ backup_data = {
       "bs": {
         "hp": 80,
         "at": 50,
-        "df": 80,
+        "df": 50,
         "sa": 105,
         "sd": 135,
         "sp": 105
@@ -107153,7 +107125,7 @@ backup_data = {
         "df": 80,
         "sa": 55,
         "sd": 80,
-        "sp": 85
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -107974,9 +107946,9 @@ backup_data = {
       "bs": {
         "hp": 100,
         "at": 123,
-        "df": 100,
+        "df": 105,
         "sa": 57,
-        "sd": 85,
+        "sd": 75,
         "sp": 80
       },
       "learnset_info": {
@@ -108289,7 +108261,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 110,
-        "at": 100,
+        "at": 95,
         "df": 105,
         "sa": 55,
         "sd": 95,
@@ -108450,9 +108422,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 85,
-        "at": 109,
+        "at": 113,
         "df": 85,
-        "sa": 105,
+        "sa": 60,
         "sd": 96,
         "sp": 75
       },
@@ -108464,7 +108436,7 @@ backup_data = {
           ],
           [
             1,
-            "Magma Storm"
+            "Flame Charge"
           ],
           [
             7,
@@ -108472,7 +108444,7 @@ backup_data = {
           ],
           [
             10,
-            "Incinerate"
+            "Flame Wheel"
           ],
           [
             13,
@@ -108488,7 +108460,7 @@ backup_data = {
           ],
           [
             23,
-            "Grudge"
+            "Dig"
           ],
           [
             26,
@@ -108507,32 +108479,28 @@ backup_data = {
             "Swallow"
           ],
           [
-            34,
-            "Spit Up"
-          ],
-          [
-            38,
+            37,
             "Sucker Punch"
           ],
           [
-            41,
+            40,
             "Cross Chop"
           ],
           [
-            44,
+            43,
             "Iron Tail"
           ],
           [
-            47,
-            "Fire Spin"
+            46,
+            "Fire Lash"
           ],
           [
-            52,
-            "Hone Claws"
+            50,
+            "Haze"
           ],
           [
             57,
-            "Steel Beam"
+            "Meteor Mash"
           ],
           [
             60,
@@ -108540,7 +108508,7 @@ backup_data = {
           ],
           [
             65,
-            "Overheat"
+            "Blast Burn"
           ]
         ],
         "tms": [
@@ -108640,7 +108608,7 @@ backup_data = {
         "at": 109,
         "df": 112,
         "sa": 48,
-        "sd": 88,
+        "sd": 68,
         "sp": 119
       },
       "learnset_info": {
@@ -116403,8 +116371,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Gilligan - Castelia City": {
-        "level": 28,
+      "Lvl 27 Clerk M Gilligan - Castelia City": {
+        "level": 27,
         "ai": 15,
         "noCh": false,
         "tr_id": 692,
@@ -116419,7 +116387,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Muscle Band",
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Bulldoze",
           "Rock Tomb",
@@ -121733,7 +121701,7 @@ backup_data = {
         "item": "Quick Claw",
         "nature": "Careful",
         "moves": [
-          "Discharge",
+          "Zing Zap",
           "Stompin Tantrum",
           "Liquidation",
           "Sludge Bomb"
@@ -124020,7 +123988,7 @@ backup_data = {
         "item": "Light Ball",
         "nature": "Rash",
         "moves": [
-          "Slam",
+          "Retaliate",
           "Present",
           "Surf",
           "Quick Attack"
@@ -127784,8 +127752,39 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": " ",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/backers.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 Clerk M Gilligan - Castelia City": {
+        "level": 28,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 692,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Smooth Rock",
+        "nature": "Mild",
+        "moves": [
+          "Seed Bomb",
+          "Gyro Ball",
+          "Discharge",
+          "Spikes"
+        ],
+        "sub_index": 0,
+        "ability": "Sturdy",
+        "sprite": "trainer_sprites/clerkm.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -131140,8 +131139,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk F Britney - Castelia City": {
-        "level": 28,
+      "Lvl 27 Clerk F Britney - Castelia City": {
+        "level": 27,
         "ai": 7,
         "noCh": false,
         "tr_id": 691,
@@ -131907,7 +131906,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Eviolite",
+        "item": "Focus Sash",
         "nature": "Hasty",
         "moves": [
           "Grudge",
@@ -140191,8 +140190,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 30 Harlequin Flops - Route 2": {
-        "level": 30,
+      "Lvl 28 Harlequin Flops - Route 2": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 401,
@@ -140207,7 +140206,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Leftovers",
-        "nature": "Naive",
+        "nature": "Hasty",
         "moves": [
           "Reflect Type",
           "-----",
@@ -147427,7 +147426,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Mystic Water",
+        "item": "Scope Lens",
         "nature": "Brave",
         "moves": [
           "Dragon Breath",
@@ -153446,8 +153445,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Gilligan - Castelia City": {
-        "level": 28,
+      "Lvl 27 Clerk M Gilligan - Castelia City": {
+        "level": 27,
         "ai": 15,
         "noCh": false,
         "tr_id": 692,
@@ -153607,8 +153606,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Harlequin Pagliacci - Route 15": {
-        "level": 27,
+      "Lvl 28 Harlequin Pagliacci - Route 15": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 652,
@@ -153623,7 +153622,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
-        "nature": "Careful",
+        "nature": "Hardy",
         "moves": [
           "Extreme Speed",
           "Shadow Claw",
@@ -161420,8 +161419,8 @@ backup_data = {
         "moves": [
           "Bulldoze",
           "X-Scissor",
-          "Aerial Ace",
-          "Vital Throw"
+          "Vise Grip",
+          "Protect"
         ],
         "sub_index": 0,
         "ability": "Hustle",
@@ -176641,37 +176640,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 28 Clerk M Gilligan - Castelia City": {
-        "level": 28,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 692,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Smooth Rock",
-        "nature": "Timid",
-        "moves": [
-          "Whirlpool",
-          "Earthquake",
-          "Mirror Coat",
-          "Stealth Rock"
-        ],
-        "sub_index": 0,
-        "ability": "Sand Veil",
-        "sprite": "trainer_sprites/clerkm.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Elgyem": {
@@ -180131,12 +180099,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Leftovers",
+        "item": "Tanga Berry",
         "nature": "Naughty",
         "moves": [
           "Power Gem",
           "Leaf Tornado",
-          "Gastro Acid",
+          "Toxic",
           "Recover"
         ],
         "sub_index": 1,
@@ -181942,8 +181910,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Warren ": {
-        "level": 28,
+      "Lvl 27 Clerk M Warren ": {
+        "level": 27,
         "ai": 15,
         "noCh": false,
         "tr_id": 502,
@@ -181958,7 +181926,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Big Root",
-        "nature": "Bold",
+        "nature": "Modest",
         "moves": [
           "Leech Life",
           "Leech Seed",
@@ -184938,11 +184906,11 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Relaxed",
+        "nature": "Adamant",
         "moves": [
           "Ice Shard",
           "Aqua Jet",
-          "Accelerock",
+          "Avalanche",
           "Belly Drum"
         ],
         "sub_index": 4,
@@ -185797,37 +185765,6 @@ backup_data = {
         "sub_index": 4,
         "ability": "Swift Swim",
         "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 Clerk M Warren ": {
-        "level": 28,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 502,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Lax",
-        "moves": [
-          "Water Pulse",
-          "Magical Leaf",
-          "Uproar",
-          "Fake Out"
-        ],
-        "sub_index": 2,
-        "ability": "Swift Swim",
-        "sprite": "trainer_sprites/clerkm.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -188619,8 +188556,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Clemens ": {
-        "level": 28,
+      "Lvl 27 Clerk M Clemens ": {
+        "level": 27,
         "ai": 15,
         "noCh": false,
         "tr_id": 501,
@@ -188635,9 +188572,9 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Shell Bell",
-        "nature": "Modest",
+        "nature": "Hardy",
         "moves": [
-          "Magical Leaf",
+          "Mega Drain",
           "Incinerate",
           "Nature Power",
           "Synthesis"
@@ -188824,12 +188761,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Bright Powder",
+        "item": "Eviolite",
         "nature": "Hasty",
         "moves": [
-          "Temper Flare",
+          "Fire Fang",
           "Devour",
-          "Metal Claw",
+          "Solar Beam",
           "Smokescreen"
         ],
         "sub_index": 0,
@@ -192412,7 +192349,7 @@ backup_data = {
           "Ingrain"
         ],
         "sub_index": 1,
-        "ability": " ",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -193148,8 +193085,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Clemens ": {
-        "level": 28,
+      "Lvl 27 Clerk M Clemens ": {
+        "level": 27,
         "ai": 15,
         "noCh": false,
         "tr_id": 501,
@@ -193164,7 +193101,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Chesto Berry",
-        "nature": "Quiet",
+        "nature": "Quirky",
         "moves": [
           "Flame Wheel",
           "Bulldoze",
@@ -193773,6 +193710,39 @@ backup_data = {
         "sub_index": 1,
         "ability": "Swarm",
         "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Lombre": {
+      "Lvl 28 Clerk M Warren ": {
+        "level": 28,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 502,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Mild",
+        "moves": [
+          "Water Pulse",
+          "Giga Drain",
+          "Uproar",
+          "Fake Out"
+        ],
+        "sub_index": 2,
+        "ability": "Swift Swim",
+        "sprite": "trainer_sprites/clerkm.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -195035,8 +195005,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Harlequin Jangles ": {
-        "level": 27,
+      "Lvl 28 Harlequin Jangles ": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 622,
@@ -195844,8 +195814,8 @@ backup_data = {
       }
     },
     "Frillish": {
-      "Lvl 27 Harlequin Pagliacci - Route 15": {
-        "level": 27,
+      "Lvl 28 Harlequin Pagliacci - Route 15": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 652,
@@ -195877,8 +195847,8 @@ backup_data = {
       }
     },
     "Spinarak": {
-      "Lvl 27 Harlequin Pagliacci - Route 15": {
-        "level": 27,
+      "Lvl 28 Harlequin Pagliacci - Route 15": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 652,
@@ -195893,7 +195863,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eject Button",
-        "nature": "Serious",
+        "nature": "Quiet",
         "moves": [
           "Sucker Punch",
           "1st Impression",
@@ -195910,8 +195880,8 @@ backup_data = {
       }
     },
     "Cubone": {
-      "Lvl 27 Harlequin Pagliacci - Route 15": {
-        "level": 27,
+      "Lvl 28 Harlequin Pagliacci - Route 15": {
+        "level": 28,
         "ai": 15,
         "noCh": false,
         "tr_id": 652,
@@ -195926,12 +195896,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Thick Club",
-        "nature": "Timid",
+        "nature": "Impish",
         "moves": [
           "Bonemerang",
           "Headbutt",
-          "Rock Slide",
-          "Destiny Bond"
+          "Rock Blast",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Quick Draw",
@@ -196040,8 +196010,8 @@ backup_data = {
       }
     },
     "Vanillish": {
-      "Lvl 28 Clerk F Britney - Castelia City": {
-        "level": 28,
+      "Lvl 27 Clerk F Britney - Castelia City": {
+        "level": 27,
         "ai": 7,
         "noCh": false,
         "tr_id": 691,
