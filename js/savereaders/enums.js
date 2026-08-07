@@ -216,6 +216,55 @@ function get_level(table, exp) {
     return left < table.length ? left : -1;
 }
 
+// Blaze Black 2 / Volt White 2 Redux changes these growth groups in its
+// Personal NARC (a/0/1/6, exp_rate byte 0x15). Keep the vanilla array intact
+// so every other Gen 4/5 game continues to use its original values.
+var BB2_VW2_REDUX_SAV_GROWTH_OVERRIDES = Object.freeze({
+    220: 0, // Swinub: Medium Fast
+    221: 0, // Piloswine: Medium Fast
+    314: 1, // Illumise: Erratic
+    473: 0, // Mamoswine: Medium Fast
+    511: 4, // Pansage: Fast
+    512: 4, // Simisage: Fast
+    513: 4, // Pansear: Fast
+    514: 4, // Simisear: Fast
+    515: 4, // Panpour: Fast
+    516: 4, // Simipour: Fast
+});
+
+function isBb2Vw2ReduxSaveGrowthTitle(title) {
+    var normalizedTitle = String(title || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (normalizedTitle === "bb2redux" || normalizedTitle === "vw2qol") {
+        return true;
+    }
+
+    var namesReduxGame = normalizedTitle.indexOf("blazeblack2") !== -1
+        || normalizedTitle.indexOf("voltwhite2") !== -1;
+    return namesReduxGame && normalizedTitle.indexOf("redux") !== -1;
+}
+
+function resolveSavGrowthRateBySpeciesId(speciesId) {
+    var normalizedSpeciesId = Number(speciesId);
+    if (!Number.isInteger(normalizedSpeciesId) || normalizedSpeciesId < 0) {
+        return null;
+    }
+
+    var currentTitle = typeof TITLE === "string" ? TITLE : "";
+    if (
+        isBb2Vw2ReduxSaveGrowthTitle(currentTitle)
+        && Object.prototype.hasOwnProperty.call(BB2_VW2_REDUX_SAV_GROWTH_OVERRIDES, normalizedSpeciesId)
+    ) {
+        return BB2_VW2_REDUX_SAV_GROWTH_OVERRIDES[normalizedSpeciesId];
+    }
+
+    if (typeof sav_pok_growths === "undefined") {
+        return null;
+    }
+
+    var growthRate = sav_pok_growths[normalizedSpeciesId];
+    return Number.isFinite(growthRate) ? growthRate : null;
+}
+
 function findSavSpeciesIndexByName(speciesName) {
     if (typeof speciesName !== "string" || !speciesName.trim() || typeof sav_pok_names === "undefined") {
         return null;
@@ -254,12 +303,11 @@ function findSavSpeciesIndexByName(speciesName) {
 
 function resolveSavGrowthRateBySpeciesName(speciesName) {
     var speciesIndex = findSavSpeciesIndexByName(speciesName);
-    if (speciesIndex === null || typeof sav_pok_growths === "undefined") {
+    if (speciesIndex === null) {
         return null;
     }
 
-    var growthRate = sav_pok_growths[speciesIndex];
-    return Number.isFinite(growthRate) ? growthRate : null;
+    return resolveSavGrowthRateBySpeciesId(speciesIndex);
 }
 
 function resolveSavLevelFromExperience(speciesName, exp) {
