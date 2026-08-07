@@ -2315,7 +2315,11 @@ function refresh_next_in() {
 	try {
 		if (playerPokSpeciesName.length > 0) {
 			var playerLvl = parseInt($('#levelL1').val())
-			var expTable = expTables[sav_pok_growths[sav_pok_names.indexOf(playerPokSpeciesName)]]
+			var playerSpeciesIndex = sav_pok_names.indexOf(playerPokSpeciesName)
+			var playerGrowthRate = typeof resolveSavGrowthRateBySpeciesId === "function"
+				? resolveSavGrowthRateBySpeciesId(playerSpeciesIndex)
+				: sav_pok_growths[playerSpeciesIndex]
+			var expTable = expTables[playerGrowthRate]
 			expNeededToLevelFully = expTable[playerLvl] - expTable[playerLvl - 1]
 		}
 

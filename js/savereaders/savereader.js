@@ -81,6 +81,19 @@ function getDsSaveLocationGameKey() {
     return baseGame
 }
 
+function resolveDsSavGrowthRateBySpeciesId(speciesId) {
+    if (typeof resolveSavGrowthRateBySpeciesId === "function") {
+        return resolveSavGrowthRateBySpeciesId(speciesId)
+    }
+
+    if (typeof sav_pok_growths === "undefined" || !sav_pok_growths) {
+        return null
+    }
+
+    var growthRate = sav_pok_growths[speciesId]
+    return Number.isFinite(growthRate) ? growthRate : null
+}
+
 function chooseDsPairedBlockOffset(preferredSaveCount, block1SaveCount, block2SaveCount, forceBlock2=false) {
     const block1Invalid = isEmptyOrInvalidDsSaveCounter(block1SaveCount)
     const block2Invalid = isEmptyOrInvalidDsSaveCounter(block2SaveCount)
@@ -550,9 +563,7 @@ function recordDsPartySlotMetadata(options) {
     };
 
     partyPIDs[slotIndex] = options.pv;
-    partyExpTables[slotIndex] = (typeof sav_pok_growths !== "undefined" && sav_pok_growths)
-        ? sav_pok_growths[rawSpeciesId]
-        : undefined;
+    partyExpTables[slotIndex] = resolveDsSavGrowthRateBySpeciesId(rawSpeciesId);
     partyExpIndexes[slotIndex] = options.monDataOffset + 4;
     partyMovesIndexes[slotIndex] = options.moveDataOffset;
     savParty[slotIndex] = options.decryptedData;
@@ -1322,7 +1333,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
         boxPokOffsets[mon_name]["offset"] = offset
         boxPokOffsets[mon_name]["decryptedData"] = decryptedData
 
-        boxPokOffsets[mon_name]["exp_table"] = sav_pok_growths[decryptedData[mon_data_offset]]
+        boxPokOffsets[mon_name]["exp_table"] = resolveDsSavGrowthRateBySpeciesId(decryptedData[mon_data_offset])
         boxPokOffsets[mon_name]["exp_index"] = mon_data_offset + 4
         boxPokOffsets[mon_name]["moves_index"] = move_data_offset
     }
@@ -1349,7 +1360,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     
     
 
-    var exp_table = expTables[sav_pok_growths[decryptedData[mon_data_offset]]]
+    var exp_table = expTables[resolveDsSavGrowthRateBySpeciesId(decryptedData[mon_data_offset])]
     var level = resolveSavLevelFromExperience(mon_name, exp);
     if (!Number.isFinite(level)) {
         level = get_level(exp_table, exp);
