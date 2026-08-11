@@ -13,6 +13,7 @@ backup_data = {
     "furyattack": "firelash",
     "sonicboom": "scorchingswarm",
     "acid": "paraboliczap",
+    "peck": "aquacutter",
     "mimic": "psychicnoise",
     "withdraw": "breakingswipe",
     "bide": "hiddenforce",
@@ -87,14 +88,12 @@ backup_data = {
     "damp": "bulletproof",
     "limber": "corrosion",
     "oblivious": "galvanize",
-    "compoundeyes": "keensenses",
     "insomnia": "thunderarmor",
-    "colorchange": "ballistics",
+    "colorchange": "rkssystem",
     "immunity": "fluffy",
-    "shielddust": "resilient",
     "owntempo": "quickdraw",
     "suctioncups": "wellbakedbody",
-    "clearbody": "strongbody",
+    "illuminate": "keensenses",
     "poisonpoint": "berserk",
     "magmaarmor": "pixilate",
     "waterveil": "merciless",
@@ -104,6 +103,8 @@ backup_data = {
     "keeneye": "windrider",
     "cutecharm": "gooey",
     "stickyhold": "aerilate",
+    "vitalspirit": "resilient",
+    "whitesmoke": "strongbody",
     "tangledfeet": "slushrush",
     "steadfast": "colossal",
     "download": "exploit",
@@ -113,14 +114,14 @@ backup_data = {
     "klutz": "distracting",
     "superluck": "moisturize",
     "frisk": "stakeout",
-    "multiscale": "majesticward",
+    "defeatist": "majesty",
     "harvest": "gourmand",
     "telepathy": "icescales",
     "bigpecks": "savant",
     "analytic": "patient",
     "mummy": "contagious",
     "zenmode": "collective",
-    "victorystar": "illumination"
+    "victorystar": "illuminate"
   },
   "item_replacements": {
     "sodapop": "1soda",
@@ -399,7 +400,7 @@ backup_data = {
     },
     "Wing Attack": {
       "type": "Flying",
-      "basePower": 60,
+      "basePower": 70,
       "category": "Physical",
       "pp": 35,
       "accuracy": 100,
@@ -894,14 +895,14 @@ backup_data = {
         100
       ]
     },
-    "Peck": {
-      "type": "Flying",
-      "basePower": 35,
+    "Aqua Cutter": {
+      "type": "Water",
+      "basePower": 90,
       "category": "Physical",
-      "pp": 35,
+      "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 0
+      "e_id": 43
     },
     "Drill Peck": {
       "type": "Flying",
@@ -1265,7 +1266,7 @@ backup_data = {
       "pp": 3,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 87
+      "e_id": 82
     },
     "Psychic Noise": {
       "type": "Psychic",
@@ -2370,7 +2371,11 @@ backup_data = {
       "pp": 20,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 119
+      "e_id": 0,
+      "multihit": [
+        3,
+        3
+      ]
     },
     "Steel Wing": {
       "type": "Steel",
@@ -2553,7 +2558,7 @@ backup_data = {
       "pp": 3,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 129,
+      "e_id": 295,
       "sf": true
     },
     "Sweet Scent": {
@@ -3597,12 +3602,13 @@ backup_data = {
     },
     "Aerial Ace": {
       "type": "Flying",
-      "basePower": 70,
+      "basePower": 90,
       "category": "Physical",
       "pp": 20,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 17
+      "e_id": 17,
+      "sf": true
     },
     "Icicle Spear": {
       "type": "Ice",
@@ -3640,7 +3646,7 @@ backup_data = {
       "type": "Normal",
       "basePower": 0,
       "category": "Status",
-      "pp": 3,
+      "pp": 1,
       "accuracy": 101,
       "priority": 0,
       "e_id": 10
@@ -5884,7 +5890,9 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 31
+      "e_id": 31,
+      "target": "allAdjacentFoes",
+      "sf": true
     },
     "V-create": {
       "type": "Fire",
@@ -7044,34 +7052,6 @@ backup_data = {
           [
             42,
             "Hydro Pump"
-          ],
-          [
-            45,
-            "Aqua Ring"
-          ],
-          [
-            47,
-            "Gyro Ball"
-          ],
-          [
-            53,
-            "Wave Crash"
-          ],
-          [
-            57,
-            "Iron Defense"
-          ],
-          [
-            60,
-            "Skull Bash"
-          ],
-          [
-            66,
-            "Steel Beam"
-          ],
-          [
-            70,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -7246,22 +7226,6 @@ backup_data = {
           [
             53,
             "Wave Crash"
-          ],
-          [
-            57,
-            "Iron Defense"
-          ],
-          [
-            60,
-            "Skull Bash"
-          ],
-          [
-            66,
-            "Steel Beam"
-          ],
-          [
-            70,
-            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -7384,12 +7348,12 @@ backup_data = {
             "Yawn"
           ],
           [
-            8,
+            1,
             "Rapid Spin"
           ],
           [
-            10,
-            "Bite"
+            1,
+            "Zap Cannon"
           ],
           [
             13,
@@ -7445,11 +7409,11 @@ backup_data = {
           ],
           [
             60,
-            "Skull Bash"
+            "Water Spout"
           ],
           [
             66,
-            "Steel Beam"
+            "Skull Bash"
           ],
           [
             70,
@@ -7610,8 +7574,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Resilient",
-        "Keen Senses",
+        "Shield Dust",
+        "Compound Eyes",
         "Swarm"
       ],
       "evos": [
@@ -7686,7 +7650,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Resilient",
+        "Shed Skin",
         "Battle Armor",
         "Swarm"
       ],
@@ -7863,7 +7827,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
+        "Compound Eyes",
         "Tinted Lens",
         "Swarm"
       ],
@@ -7920,7 +7884,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Resilient",
+        "Shield Dust",
         "Poison Touch",
         "Swarm"
       ],
@@ -8000,7 +7964,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Resilient",
+        "Shed Skin",
         "Battle Armor",
         "Swarm"
       ],
@@ -8092,7 +8056,7 @@ backup_data = {
           ],
           [
             52,
-            "Megahorn"
+            "Fury Cutter"
           ],
           [
             56,
@@ -8201,7 +8165,7 @@ backup_data = {
           ],
           [
             1,
-            "Mirror Move"
+            "Growl"
           ],
           [
             5,
@@ -8237,18 +8201,22 @@ backup_data = {
           ],
           [
             29,
-            "Whirlwind"
+            "Aerial Ace"
           ],
           [
             32,
             "Thunderbolt"
           ],
           [
-            37,
-            "Me First"
+            35,
+            "Whirlwind"
           ],
           [
-            41,
+            37,
+            "Mirror Move"
+          ],
+          [
+            42,
             "Air Slash"
           ],
           [
@@ -8362,7 +8330,7 @@ backup_data = {
           ],
           [
             1,
-            "Mirror Move"
+            "Growl"
           ],
           [
             5,
@@ -8398,18 +8366,22 @@ backup_data = {
           ],
           [
             29,
-            "Whirlwind"
+            "Aerial Ace"
           ],
           [
             32,
             "Thunderbolt"
           ],
           [
-            37,
-            "Me First"
+            35,
+            "Whirlwind"
           ],
           [
-            41,
+            37,
+            "Mirror Move"
+          ],
+          [
+            42,
             "Air Slash"
           ],
           [
@@ -8561,18 +8533,22 @@ backup_data = {
           ],
           [
             29,
-            "Whirlwind"
+            "Aerial Ace"
           ],
           [
             32,
             "Thunderbolt"
           ],
           [
-            37,
-            "Me First"
+            35,
+            "Whirlwind"
           ],
           [
-            41,
+            37,
+            "Mirror Move"
+          ],
+          [
+            42,
             "Air Slash"
           ],
           [
@@ -9057,7 +9033,7 @@ backup_data = {
           ],
           [
             30,
-            "Swagger"
+            "Mirror Move"
           ],
           [
             33,
@@ -9227,7 +9203,7 @@ backup_data = {
           ],
           [
             30,
-            "Swagger"
+            "Mirror Move"
           ],
           [
             33,
@@ -9480,7 +9456,7 @@ backup_data = {
       },
       "abs": [
         "Intimidate",
-        "Sheer Force",
+        "Shed Skin",
         "Regenerator"
       ],
       "evos": [
@@ -10280,7 +10256,7 @@ backup_data = {
           ],
           [
             60,
-            "Gunk Shot"
+            "Fury Cutter"
           ],
           [
             65,
@@ -10414,16 +10390,20 @@ backup_data = {
             "Double Kick"
           ],
           [
-            18,
-            "Lunge"
-          ],
-          [
-            22,
+            15,
             "Attract"
           ],
           [
-            25,
+            18,
+            "Poison Fang"
+          ],
+          [
+            22,
             "Body Slam"
+          ],
+          [
+            25,
+            "Torment"
           ],
           [
             28,
@@ -10435,14 +10415,18 @@ backup_data = {
           ],
           [
             34,
-            "Torment"
+            "Disable"
+          ],
+          [
+            36,
+            "Seismic Toss"
           ],
           [
             38,
             "Ice Beam"
           ],
           [
-            40,
+            41,
             "Roar"
           ]
         ],
@@ -10613,16 +10597,20 @@ backup_data = {
             "Double Kick"
           ],
           [
-            18,
-            "Lunge"
-          ],
-          [
-            22,
+            15,
             "Attract"
           ],
           [
-            25,
+            18,
+            "Poison Fang"
+          ],
+          [
+            22,
             "Body Slam"
+          ],
+          [
+            25,
+            "Torment"
           ],
           [
             28,
@@ -10634,14 +10622,18 @@ backup_data = {
           ],
           [
             34,
-            "Torment"
+            "Disable"
+          ],
+          [
+            36,
+            "Seismic Toss"
           ],
           [
             38,
             "Ice Beam"
           ],
           [
-            40,
+            41,
             "Roar"
           ],
           [
@@ -10650,7 +10642,7 @@ backup_data = {
           ],
           [
             48,
-            "Flatter"
+            "Moonblast"
           ]
         ],
         "tms": [
@@ -10826,16 +10818,20 @@ backup_data = {
             "Double Kick"
           ],
           [
-            18,
-            "Lunge"
-          ],
-          [
-            22,
+            15,
             "Attract"
           ],
           [
-            25,
+            18,
+            "Poison Fang"
+          ],
+          [
+            22,
             "Body Slam"
+          ],
+          [
+            25,
+            "Torment"
           ],
           [
             28,
@@ -10847,14 +10843,18 @@ backup_data = {
           ],
           [
             34,
-            "Torment"
+            "Disable"
+          ],
+          [
+            36,
+            "Seismic Toss"
           ],
           [
             38,
             "Ice Beam"
           ],
           [
-            40,
+            41,
             "Roar"
           ],
           [
@@ -10863,7 +10863,7 @@ backup_data = {
           ],
           [
             48,
-            "Flatter"
+            "Moonblast"
           ],
           [
             52,
@@ -10987,7 +10987,7 @@ backup_data = {
       "abs": [
         "Battle Armor",
         "Sheer Force",
-        "Majestic Ward"
+        "Thick Fat"
       ],
       "evoType": "level",
       "evoItem": "Moon Stone",
@@ -11043,12 +11043,16 @@ backup_data = {
             "Double Kick"
           ],
           [
+            15,
+            "Attract"
+          ],
+          [
             18,
             "Poison Fang"
           ],
           [
             22,
-            "Attract"
+            "Lunge"
           ],
           [
             25,
@@ -11067,11 +11071,15 @@ backup_data = {
             "Taunt"
           ],
           [
+            36,
+            "Seismic Toss"
+          ],
+          [
             38,
             "Flamethrower"
           ],
           [
-            40,
+            41,
             "Horn Drill"
           ]
         ],
@@ -11242,12 +11250,16 @@ backup_data = {
             "Double Kick"
           ],
           [
+            15,
+            "Attract"
+          ],
+          [
             18,
             "Poison Fang"
           ],
           [
             22,
-            "Attract"
+            "Lunge"
           ],
           [
             25,
@@ -11266,11 +11278,15 @@ backup_data = {
             "Taunt"
           ],
           [
+            36,
+            "Seismic Toss"
+          ],
+          [
             38,
             "Flamethrower"
           ],
           [
-            40,
+            41,
             "Horn Drill"
           ],
           [
@@ -11279,7 +11295,7 @@ backup_data = {
           ],
           [
             48,
-            "Swagger"
+            "Thunderbolt"
           ]
         ],
         "tms": [
@@ -11455,12 +11471,16 @@ backup_data = {
             "Double Kick"
           ],
           [
+            15,
+            "Attract"
+          ],
+          [
             18,
             "Poison Fang"
           ],
           [
             22,
-            "Attract"
+            "Lunge"
           ],
           [
             25,
@@ -11479,11 +11499,15 @@ backup_data = {
             "Taunt"
           ],
           [
+            36,
+            "Seismic Toss"
+          ],
+          [
             38,
             "Flamethrower"
           ],
           [
-            40,
+            41,
             "Horn Drill"
           ],
           [
@@ -11492,7 +11516,7 @@ backup_data = {
           ],
           [
             48,
-            "Swagger"
+            "Thunderbolt"
           ],
           [
             52,
@@ -12820,11 +12844,11 @@ backup_data = {
           ],
           [
             10,
-            "Wing Attack"
+            "Air Cutter"
           ],
           [
             13,
-            "Supersonic"
+            "Confuse Ray"
           ],
           [
             16,
@@ -12840,7 +12864,7 @@ backup_data = {
           ],
           [
             25,
-            "Air Cutter"
+            "Wing Attack"
           ],
           [
             27,
@@ -12963,11 +12987,11 @@ backup_data = {
           ],
           [
             10,
-            "Wing Attack"
+            "Air Cutter"
           ],
           [
             13,
-            "Supersonic"
+            "Confuse Ray"
           ],
           [
             16,
@@ -12983,7 +13007,7 @@ backup_data = {
           ],
           [
             25,
-            "Air Cutter"
+            "Wing Attack"
           ],
           [
             27,
@@ -13002,16 +13026,24 @@ backup_data = {
             "Dual Wingbeat"
           ],
           [
+            37,
+            "Haze"
+          ],
+          [
             39,
-            "Screech"
+            "Vacuum Wave"
           ],
           [
             42,
-            "Roost"
+            "Shadow Ball"
           ],
           [
             45,
             "Sludge Bomb"
+          ],
+          [
+            48,
+            "Screech"
           ],
           [
             52,
@@ -13690,7 +13722,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Fury Cutter"
+            "Giga Drain"
           ],
           [
             6,
@@ -13746,7 +13778,7 @@ backup_data = {
           ],
           [
             41,
-            "Toxic"
+            "Poison Powder"
           ]
         ],
         "tms": [
@@ -13853,7 +13885,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Protect"
+            "Shadow Force"
           ],
           [
             6,
@@ -13909,7 +13941,7 @@ backup_data = {
           ],
           [
             41,
-            "Toxic"
+            "Poison Powder"
           ],
           [
             44,
@@ -13929,7 +13961,7 @@ backup_data = {
           ],
           [
             57,
-            "Shadow Force"
+            "Fury Cutter"
           ],
           [
             62,
@@ -14173,7 +14205,7 @@ backup_data = {
       "abs": [
         "Poison Heal",
         "Tinted Lens",
-        "Keen Senses"
+        "Compound Eyes"
       ],
       "evos": [
         "Venomoth"
@@ -14365,7 +14397,7 @@ backup_data = {
       "abs": [
         "Poison Heal",
         "Tinted Lens",
-        "Keen Senses"
+        "Compound Eyes"
       ],
       "evoType": "level",
       "evoLevel": 26
@@ -15446,7 +15478,7 @@ backup_data = {
           ],
           [
             7,
-            "Rage"
+            "Low Kick"
           ],
           [
             10,
@@ -15470,7 +15502,7 @@ backup_data = {
           ],
           [
             23,
-            "Swagger"
+            "Rage"
           ],
           [
             26,
@@ -15478,15 +15510,19 @@ backup_data = {
           ],
           [
             29,
-            "Cross Chop"
+            "Encore"
           ],
           [
-            32,
-            "Rage"
+            33,
+            "Cross Chop"
           ],
           [
             36,
             "U-turn"
+          ],
+          [
+            40,
+            "Double-Edge"
           ],
           [
             42,
@@ -15605,11 +15641,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Karate Chop"
+            "Swagger"
           ],
           [
             1,
-            "Fling"
+            "Wicked Blow"
           ],
           [
             1,
@@ -15617,7 +15653,7 @@ backup_data = {
           ],
           [
             7,
-            "Rage"
+            "Low Kick"
           ],
           [
             10,
@@ -15641,7 +15677,7 @@ backup_data = {
           ],
           [
             23,
-            "Swagger"
+            "Rage"
           ],
           [
             26,
@@ -15649,15 +15685,19 @@ backup_data = {
           ],
           [
             29,
-            "Cross Chop"
+            "Encore"
           ],
           [
-            32,
-            "Rage"
+            33,
+            "Cross Chop"
           ],
           [
             36,
             "U-turn"
+          ],
+          [
+            40,
+            "Double-Edge"
           ],
           [
             42,
@@ -15669,7 +15709,7 @@ backup_data = {
           ],
           [
             48,
-            "Wicked Blow"
+            "Fling"
           ],
           [
             51,
@@ -18299,7 +18339,7 @@ backup_data = {
       },
       "abs": [
         "Merciless",
-        "Strong Body",
+        "Clear Body",
         "Corrosion"
       ],
       "evos": [
@@ -18478,7 +18518,7 @@ backup_data = {
       },
       "abs": [
         "Merciless",
-        "Strong Body",
+        "Clear Body",
         "Corrosion"
       ],
       "evoType": "level",
@@ -19161,8 +19201,8 @@ backup_data = {
       },
       "abs": [
         "Run Away",
-        "Blaze",
-        "Flash Fire"
+        "Flash Fire",
+        "Reckless"
       ],
       "evos": [
         "Rapidash",
@@ -19340,8 +19380,8 @@ backup_data = {
       },
       "abs": [
         "Run Away",
-        "Majestic Ward",
-        "Flash Fire"
+        "Majesty",
+        "Reckless"
       ],
       "evoType": "useItem",
       "evoLevel": 40,
@@ -19395,7 +19435,7 @@ backup_data = {
           ],
           [
             18,
-            "Amnesia"
+            "Refresh"
           ],
           [
             22,
@@ -19415,7 +19455,7 @@ backup_data = {
           ],
           [
             37,
-            "Gravity"
+            "Teleport"
           ],
           [
             41,
@@ -19572,7 +19612,7 @@ backup_data = {
           ],
           [
             1,
-            "Aqua Jet"
+            "Amnesia"
           ],
           [
             1,
@@ -19588,7 +19628,7 @@ backup_data = {
           ],
           [
             18,
-            "Amnesia"
+            "Refresh"
           ],
           [
             22,
@@ -19608,7 +19648,7 @@ backup_data = {
           ],
           [
             37,
-            "Gravity"
+            "Teleport"
           ],
           [
             41,
@@ -19628,7 +19668,7 @@ backup_data = {
           ],
           [
             56,
-            "Teleport"
+            "Gravity"
           ],
           [
             60,
@@ -20106,7 +20146,7 @@ backup_data = {
           ],
           [
             27,
-            "Dual Wingbeat"
+            "Slash"
           ],
           [
             31,
@@ -20142,19 +20182,19 @@ backup_data = {
           ],
           [
             56,
-            "Leaf Storm"
+            "Defog"
           ],
           [
             60,
-            "Sand Attack"
+            "Leaf Storm"
           ],
           [
             64,
-            "Brutal Swing"
+            "Aerial Ace"
           ],
           [
             68,
-            "Close Combat"
+            "Fury Cutter"
           ],
           [
             74,
@@ -20287,7 +20327,7 @@ backup_data = {
           ],
           [
             23,
-            "Aerial Ace"
+            "Trop Kick"
           ],
           [
             25,
@@ -20461,7 +20501,7 @@ backup_data = {
           ],
           [
             23,
-            "Aerial Ace"
+            "Trop Kick"
           ],
           [
             25,
@@ -20725,7 +20765,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
+        "Rain Dish",
         "Slush Rush",
         "Swift Swim"
       ],
@@ -21067,7 +21107,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Strong Body",
+        "Clear Body",
         "Contagious",
         "Water Absorb"
       ],
@@ -21260,7 +21300,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Strong Body",
+        "Clear Body",
         "Contagious",
         "Water Absorb"
       ],
@@ -22738,7 +22778,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Fury Cutter"
+            "Metal Claw"
           ],
           [
             1,
@@ -22766,7 +22806,7 @@ backup_data = {
           ],
           [
             22,
-            "Block"
+            "Mud Shot"
           ],
           [
             25,
@@ -22786,7 +22826,7 @@ backup_data = {
           ],
           [
             39,
-            "Hammer Arm"
+            "Slam"
           ],
           [
             42,
@@ -22794,7 +22834,7 @@ backup_data = {
           ],
           [
             47,
-            "Guillotine"
+            "Block"
           ]
         ],
         "tms": [
@@ -22929,7 +22969,7 @@ backup_data = {
           ],
           [
             22,
-            "Block"
+            "Mud Shot"
           ],
           [
             25,
@@ -22949,7 +22989,7 @@ backup_data = {
           ],
           [
             39,
-            "Hammer Arm"
+            "Slam"
           ],
           [
             42,
@@ -22957,7 +22997,7 @@ backup_data = {
           ],
           [
             47,
-            "Guillotine"
+            "Block"
           ],
           [
             51,
@@ -22969,11 +23009,11 @@ backup_data = {
           ],
           [
             60,
-            "Steamroller"
+            "Hammer Arm"
           ],
           [
-            66,
-            "Clamp"
+            65,
+            "Guillotine"
           ]
         ],
         "tms": [
@@ -23442,7 +23482,7 @@ backup_data = {
           ],
           [
             46,
-            "Protect"
+            "Nature Power"
           ],
           [
             50,
@@ -23619,7 +23659,7 @@ backup_data = {
           ],
           [
             46,
-            "Protect"
+            "Nature Power"
           ],
           [
             50,
@@ -23639,7 +23679,7 @@ backup_data = {
           ],
           [
             68,
-            "Leaf Storm"
+            "Hyper Beam"
           ]
         ],
         "tms": [
@@ -25559,7 +25599,7 @@ backup_data = {
           ],
           [
             23,
-            "Natural Gift"
+            "Nature Power"
           ],
           [
             26,
@@ -25900,7 +25940,7 @@ backup_data = {
           ],
           [
             10,
-            "Agility"
+            "Scale Shot"
           ],
           [
             15,
@@ -26061,7 +26101,7 @@ backup_data = {
           ],
           [
             10,
-            "Agility"
+            "Scale Shot"
           ],
           [
             15,
@@ -26117,7 +26157,7 @@ backup_data = {
           ],
           [
             55,
-            "Toxic"
+            "Ice Beam"
           ],
           [
             58,
@@ -26704,7 +26744,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Regenerator",
         "Huge Power"
       ],
@@ -26897,7 +26937,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Regenerator",
         "Huge Power"
       ],
@@ -27144,7 +27184,7 @@ backup_data = {
           ],
           [
             7,
-            "Fury Cutter"
+            "Chip Away"
           ],
           [
             12,
@@ -27192,7 +27232,7 @@ backup_data = {
           ],
           [
             52,
-            "Acrobatics"
+            "Aerial Ace"
           ],
           [
             55,
@@ -27456,7 +27496,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Majestic Ward",
+        "Majesty",
         "Dry Skin",
         "Distracting"
       ],
@@ -28854,7 +28894,7 @@ backup_data = {
           ],
           [
             21,
-            "Extrasensory"
+            "Aurora Beam"
           ],
           [
             25,
@@ -28959,7 +28999,7 @@ backup_data = {
       "abs": [
         "Storm Drain",
         "Moisturize",
-        "Marvel Scale"
+        "Clear Body"
       ],
       "evoType": "useItem",
       "evoItem": "Water Stone"
@@ -29023,7 +29063,7 @@ backup_data = {
           ],
           [
             21,
-            "Extrasensory"
+            "Signal Beam"
           ],
           [
             25,
@@ -29031,7 +29071,7 @@ backup_data = {
           ],
           [
             30,
-            "Charge Beam"
+            "Discharge"
           ],
           [
             36,
@@ -29192,7 +29232,7 @@ backup_data = {
           ],
           [
             21,
-            "Zen Headbutt"
+            "Thrash"
           ],
           [
             25,
@@ -30190,7 +30230,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Ice Fang"
+            "Aerial Ace"
           ],
           [
             1,
@@ -30210,7 +30250,7 @@ backup_data = {
           ],
           [
             13,
-            "Rock Throw"
+            "Ancient Power"
           ],
           [
             17,
@@ -30230,7 +30270,7 @@ backup_data = {
           ],
           [
             30,
-            "Aerial Ace"
+            "Hurricane"
           ],
           [
             35,
@@ -30856,7 +30896,7 @@ backup_data = {
       "abs": [
         "Marvel Scale",
         "Shed Skin",
-        "Majestic Ward"
+        "Multiscale"
       ],
       "evos": [
         "Dragonair"
@@ -31044,7 +31084,7 @@ backup_data = {
       "abs": [
         "Marvel Scale",
         "Shed Skin",
-        "Majestic Ward"
+        "Multiscale"
       ],
       "evoType": "level",
       "evoLevel": 30,
@@ -31255,7 +31295,7 @@ backup_data = {
       "abs": [
         "Marvel Scale",
         "No Guard",
-        "Majestic Ward"
+        "Multiscale"
       ],
       "evoType": "level",
       "evoLevel": 60
@@ -31396,6 +31436,10 @@ backup_data = {
             "Reflect"
           ],
           [
+            33,
+            "Nature Power"
+          ],
+          [
             36,
             "Petal Dance"
           ],
@@ -31471,7 +31515,7 @@ backup_data = {
       },
       "abs": [
         "Overgrow",
-        "Healer",
+        "Natural Cure",
         "Resilient"
       ],
       "evos": [
@@ -31547,8 +31591,12 @@ backup_data = {
             "Light Screen"
           ],
           [
-            36,
+            30,
             "Reflect"
+          ],
+          [
+            33,
+            "Nature Power"
           ],
           [
             36,
@@ -31642,7 +31690,7 @@ backup_data = {
       },
       "abs": [
         "Overgrow",
-        "Healer",
+        "Natural Cure",
         "Resilient"
       ],
       "evoType": "level",
@@ -31720,8 +31768,12 @@ backup_data = {
             "Light Screen"
           ],
           [
-            36,
+            30,
             "Reflect"
+          ],
+          [
+            33,
+            "Nature Power"
           ],
           [
             36,
@@ -31820,7 +31872,7 @@ backup_data = {
       "abs": [
         "Overgrow",
         "Healer",
-        "Flower Gift"
+        "Resilient"
       ],
       "evoType": "level",
       "evoLevel": 36
@@ -31903,8 +31955,12 @@ backup_data = {
             "Reversal"
           ],
           [
-            44,
+            42,
             "Lava Plume"
+          ],
+          [
+            45,
+            "Nature Power"
           ],
           [
             48,
@@ -32074,8 +32130,12 @@ backup_data = {
             "Reversal"
           ],
           [
-            44,
+            42,
             "Lava Plume"
+          ],
+          [
+            45,
+            "Nature Power"
           ],
           [
             48,
@@ -32251,8 +32311,12 @@ backup_data = {
             "Reversal"
           ],
           [
-            44,
+            42,
             "Lava Plume"
+          ],
+          [
+            45,
+            "Nature Power"
           ],
           [
             48,
@@ -34341,11 +34405,11 @@ backup_data = {
           ],
           [
             1,
-            "Aura Sphere"
+            "Aerial Ace"
           ],
           [
             13,
-            "Supersonic"
+            "Confuse Ray"
           ],
           [
             16,
@@ -34361,7 +34425,7 @@ backup_data = {
           ],
           [
             25,
-            "Air Cutter"
+            "Wing Attack"
           ],
           [
             27,
@@ -34380,20 +34444,32 @@ backup_data = {
             "Dual Wingbeat"
           ],
           [
+            37,
+            "Haze"
+          ],
+          [
             39,
-            "Screech"
+            "Vacuum Wave"
           ],
           [
             42,
-            "Roost"
+            "Shadow Ball"
           ],
           [
             45,
             "Sludge Bomb"
           ],
           [
+            48,
+            "Screech"
+          ],
+          [
             52,
             "Acrobatics"
+          ],
+          [
+            55,
+            "Roost"
           ],
           [
             58,
@@ -34607,7 +34683,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Volt Absorb",
         "Water Absorb"
       ],
@@ -34774,7 +34850,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Volt Absorb",
         "Water Absorb"
       ],
@@ -35446,7 +35522,7 @@ backup_data = {
       "abs": [
         "Serene Grace",
         "Friend Guard",
-        "No Guard"
+        "Natural Cure"
       ],
       "evos": [
         "Togetic"
@@ -35621,7 +35697,7 @@ backup_data = {
       "abs": [
         "Serene Grace",
         "Friend Guard",
-        "No Guard"
+        "Natural Cure"
       ],
       "evoType": "level",
       "evoLevel": 18,
@@ -36142,7 +36218,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Static",
         "Fluffy"
       ],
@@ -36320,7 +36396,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Static",
         "Fluffy"
       ],
@@ -36440,6 +36516,10 @@ backup_data = {
           [
             58,
             "Thunder"
+          ],
+          [
+            65,
+            "Supercell Slam"
           ]
         ],
         "tms": [
@@ -36507,7 +36587,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Mold Breaker",
         "Fluffy"
       ],
@@ -36567,7 +36647,7 @@ backup_data = {
           ],
           [
             28,
-            "Sleep Powder"
+            "Nature Power"
           ],
           [
             31,
@@ -36587,7 +36667,7 @@ backup_data = {
           ],
           [
             43,
-            "Heart Stamp"
+            "Sleep Powder"
           ],
           [
             45,
@@ -37943,11 +38023,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Quick Attack"
+            "Mud-Slap"
           ],
           [
             1,
-            "Screech"
+            "Tickle"
           ],
           [
             7,
@@ -37979,11 +38059,11 @@ backup_data = {
           ],
           [
             31,
-            "Slam"
+            "Dual Chop"
           ],
           [
             35,
-            "Agility"
+            "Slam"
           ],
           [
             39,
@@ -38060,13 +38140,16 @@ backup_data = {
         "Skill Link"
       ],
       "evos": [
+        "Ambipom",
         "Ambipom"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        28
+        35,
+        "Moon Stone"
       ]
     },
     "Sunkern": {
@@ -38418,15 +38501,15 @@ backup_data = {
           ],
           [
             11,
-            "Dual Wingbeat"
-          ],
-          [
-            15,
             "Supersonic"
           ],
           [
+            15,
+            "Air Cutter"
+          ],
+          [
             18,
-            "Struggle Bug"
+            "Uproar"
           ],
           [
             20,
@@ -38438,31 +38521,27 @@ backup_data = {
           ],
           [
             28,
-            "Uproar"
+            "Twister"
           ],
           [
             31,
-            "Air Cutter"
+            "Aerial Ace"
           ],
           [
             34,
             "Ancient Power"
           ],
           [
-            37,
-            "Hypnosis"
-          ],
-          [
-            39,
-            "Bug Buzz"
+            38,
+            "Whirlwind"
           ],
           [
             41,
-            "U-turn"
+            "Hypnosis"
           ],
           [
             44,
-            "Bug Buzz"
+            "Silver Wind"
           ],
           [
             47,
@@ -38470,7 +38549,7 @@ backup_data = {
           ],
           [
             51,
-            "Hypnosis"
+            "Detect"
           ]
         ],
         "tms": [
@@ -38523,7 +38602,7 @@ backup_data = {
       "abs": [
         "Speed Boost",
         "Tinted Lens",
-        "Keen Senses"
+        "Compound Eyes"
       ],
       "evos": [
         "Yanmega"
@@ -39212,7 +39291,7 @@ backup_data = {
       "abs": [
         "Patient",
         "Magic Guard",
-        "Illumination"
+        "Illuminate"
       ],
       "evoType": "useItem",
       "evoItem": "Moon Stone"
@@ -39429,7 +39508,7 @@ backup_data = {
           ],
           [
             18,
-            "Amnesia"
+            "Refresh"
           ],
           [
             22,
@@ -39449,7 +39528,7 @@ backup_data = {
           ],
           [
             37,
-            "Gravity"
+            "Teleport"
           ],
           [
             41,
@@ -39469,7 +39548,7 @@ backup_data = {
           ],
           [
             56,
-            "Teleport"
+            "Gravity"
           ],
           [
             60,
@@ -40382,7 +40461,7 @@ backup_data = {
           ],
           [
             1,
-            "Iron Defense"
+            "Protect"
           ],
           [
             1,
@@ -41616,7 +41695,7 @@ backup_data = {
           ],
           [
             7,
-            "Fury Cutter"
+            "Chip Away"
           ],
           [
             12,
@@ -41904,8 +41983,8 @@ backup_data = {
       },
       "abs": [
         "Gourmand",
-        "Strong Body",
-        "Shell Armor"
+        "Contrary",
+        "Solid Rock"
       ]
     },
     "Heracross": {
@@ -41940,7 +42019,7 @@ backup_data = {
           ],
           [
             10,
-            "Natural Gift"
+            "Chip Away"
           ],
           [
             14,
@@ -41956,11 +42035,11 @@ backup_data = {
           ],
           [
             23,
-            "Chip Away"
+            "Night Slash"
           ],
           [
             26,
-            "Skitter Smack"
+            "Struggle Bug"
           ],
           [
             29,
@@ -41968,7 +42047,7 @@ backup_data = {
           ],
           [
             32,
-            "Night Slash"
+            "Aerial Ace"
           ],
           [
             36,
@@ -42012,7 +42091,7 @@ backup_data = {
           ],
           [
             62,
-            "Heal Order"
+            "Reversal"
           ],
           [
             68,
@@ -43382,7 +43461,7 @@ backup_data = {
           ],
           [
             33,
-            "Lucky Chant"
+            "Nature Power"
           ],
           [
             36,
@@ -43518,7 +43597,7 @@ backup_data = {
           ],
           [
             1,
-            "Acid Spray"
+            "Flail"
           ],
           [
             6,
@@ -43542,7 +43621,7 @@ backup_data = {
           ],
           [
             20,
-            "Helping Hand"
+            "Smokescreen"
           ],
           [
             23,
@@ -43550,11 +43629,11 @@ backup_data = {
           ],
           [
             26,
-            "Scorching Sands"
+            "Acid Spray"
           ],
           [
             29,
-            "Soak"
+            "Haze"
           ],
           [
             32,
@@ -43567,6 +43646,10 @@ backup_data = {
           [
             37,
             "Wrap"
+          ],
+          [
+            40,
+            "Helping Hand"
           ],
           [
             42,
@@ -43582,7 +43665,7 @@ backup_data = {
           ],
           [
             53,
-            "Flamethrower"
+            "Fire Lash"
           ],
           [
             57,
@@ -43660,8 +43743,8 @@ backup_data = {
       },
       "abs": [
         "Adaptability",
-        "Sheer Force",
-        "Mold Breaker"
+        "Sniper",
+        " -"
       ],
       "evos": [
         "Octillery"
@@ -43697,11 +43780,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Fire Spin"
+            "Zap Cannon"
           ],
           [
             1,
-            "Whirlpool"
+            "Head Smash"
           ],
           [
             6,
@@ -43725,7 +43808,7 @@ backup_data = {
           ],
           [
             20,
-            "Helping Hand"
+            "Smokescreen"
           ],
           [
             23,
@@ -43733,11 +43816,11 @@ backup_data = {
           ],
           [
             26,
-            "Scorching Sands"
+            "Acid Spray"
           ],
           [
             29,
-            "Soak"
+            "Haze"
           ],
           [
             32,
@@ -43750,6 +43833,10 @@ backup_data = {
           [
             37,
             "Wrap"
+          ],
+          [
+            40,
+            "Helping Hand"
           ],
           [
             42,
@@ -43765,7 +43852,7 @@ backup_data = {
           ],
           [
             53,
-            "Flamethrower"
+            "Fire Lash"
           ],
           [
             57,
@@ -43773,7 +43860,7 @@ backup_data = {
           ],
           [
             60,
-            "Zap Cannon"
+            "Soak"
           ],
           [
             63,
@@ -43782,6 +43869,10 @@ backup_data = {
           [
             63,
             "Blast Burn"
+          ],
+          [
+            67,
+            "Water Spout"
           ]
         ],
         "tms": [
@@ -43856,7 +43947,7 @@ backup_data = {
       "abs": [
         "Gooey",
         "Sniper",
-        "Mold Breaker"
+        " -"
       ],
       "evoType": "level",
       "evoLevel": 25
@@ -44222,16 +44313,12 @@ backup_data = {
             "Brave Bird"
           ],
           [
-            1,
-            "Peck"
-          ],
-          [
             4,
             "Pursuit"
           ],
           [
             8,
-            "Swift"
+            "Quick Attack"
           ],
           [
             11,
@@ -44239,7 +44326,7 @@ backup_data = {
           ],
           [
             14,
-            "Agility"
+            "Mirror Move"
           ],
           [
             17,
@@ -44247,11 +44334,11 @@ backup_data = {
           ],
           [
             21,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             24,
-            "Iron Defense"
+            "Metal Sound"
           ],
           [
             28,
@@ -44270,8 +44357,12 @@ backup_data = {
             "Drill Run"
           ],
           [
-            44,
+            42,
             "Feather Dance"
+          ],
+          [
+            45,
+            "Whirlwind"
           ],
           [
             48,
@@ -44724,7 +44815,7 @@ backup_data = {
           ],
           [
             10,
-            "Agility"
+            "Scale Shot"
           ],
           [
             15,
@@ -44780,7 +44871,7 @@ backup_data = {
           ],
           [
             55,
-            "Toxic"
+            "Ice Beam"
           ],
           [
             58,
@@ -44888,7 +44979,7 @@ backup_data = {
         "df": 60,
         "sa": 40,
         "sd": 40,
-        "sp": 60
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -44918,7 +45009,7 @@ backup_data = {
           ],
           [
             23,
-            "Scary Face"
+            "Endeavor"
           ],
           [
             26,
@@ -45054,7 +45145,7 @@ backup_data = {
         "df": 120,
         "sa": 60,
         "sd": 60,
-        "sp": 70
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -45084,7 +45175,7 @@ backup_data = {
           ],
           [
             23,
-            "Scary Face"
+            "Endeavor"
           ],
           [
             26,
@@ -46270,7 +46361,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Majestic Ward",
+        "Majesty",
         "Dry Skin",
         "Distracting"
       ],
@@ -47012,7 +47103,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Majestic Ward",
+        "Volt Absorb",
         " -",
         " -"
       ]
@@ -47047,7 +47138,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Majestic Ward",
+        "Flash Fire",
         " -",
         " -"
       ]
@@ -47082,7 +47173,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Majestic Ward",
+        "Water Absorb",
         " -",
         " -"
       ]
@@ -47242,7 +47333,7 @@ backup_data = {
       "abs": [
         "Guts",
         "Battle Armor",
-        "Sheer Force"
+        "Sand Veil"
       ],
       "evos": [
         "Pupitar"
@@ -47421,7 +47512,7 @@ backup_data = {
       "abs": [
         "Guts",
         "Battle Armor",
-        "Sheer Force"
+        "Shed Skin"
       ],
       "evoType": "level",
       "evoLevel": 30,
@@ -47616,9 +47707,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Berserk",
+        "Unnerve",
         "Battle Armor",
-        "Sheer Force"
+        "Berserk"
       ],
       "evoType": "level",
       "evoLevel": 60
@@ -47654,7 +47745,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Majestic Ward",
+        "Multiscale",
         " -",
         " -"
       ]
@@ -47690,7 +47781,7 @@ backup_data = {
         "tutors": []
       },
       "abs": [
-        "Majestic Ward",
+        "Regenerator",
         " -",
         " -"
       ]
@@ -47895,7 +47986,7 @@ backup_data = {
           ],
           [
             16,
-            "Double Team"
+            "Leech Seed"
           ],
           [
             19,
@@ -47911,7 +48002,7 @@ backup_data = {
           ],
           [
             29,
-            "Dragon Breath"
+            "Twister"
           ],
           [
             33,
@@ -47923,15 +48014,15 @@ backup_data = {
           ],
           [
             38,
-            "Weather Ball"
+            "Slam"
           ],
           [
             42,
-            "Dragon Pulse"
+            "Dual Chop"
           ],
           [
             45,
-            "Slam"
+            "Grass Whistle"
           ],
           [
             48,
@@ -48070,7 +48161,7 @@ backup_data = {
           ],
           [
             16,
-            "Double Team"
+            "Leech Seed"
           ],
           [
             19,
@@ -48086,7 +48177,7 @@ backup_data = {
           ],
           [
             29,
-            "Dragon Breath"
+            "Twister"
           ],
           [
             33,
@@ -48098,15 +48189,15 @@ backup_data = {
           ],
           [
             38,
-            "Weather Ball"
+            "Slam"
           ],
           [
             42,
-            "Dragon Pulse"
+            "Dual Chop"
           ],
           [
             45,
-            "Slam"
+            "Grass Whistle"
           ],
           [
             48,
@@ -48114,11 +48205,11 @@ backup_data = {
           ],
           [
             54,
-            "Fake Out"
+            "Weather Ball"
           ],
           [
             58,
-            "Guillotine"
+            "Double Team"
           ]
         ],
         "tms": [
@@ -48243,7 +48334,7 @@ backup_data = {
           ],
           [
             1,
-            "Psyblade"
+            "Fake Out"
           ],
           [
             9,
@@ -48255,7 +48346,7 @@ backup_data = {
           ],
           [
             16,
-            "Double Team"
+            "Leech Seed"
           ],
           [
             19,
@@ -48271,7 +48362,7 @@ backup_data = {
           ],
           [
             29,
-            "Dragon Breath"
+            "Twister"
           ],
           [
             33,
@@ -48283,15 +48374,15 @@ backup_data = {
           ],
           [
             38,
-            "Weather Ball"
+            "Slam"
           ],
           [
             42,
-            "Dragon Pulse"
+            "Dual Chop"
           ],
           [
             45,
-            "Slam"
+            "Grass Whistle"
           ],
           [
             48,
@@ -48299,11 +48390,15 @@ backup_data = {
           ],
           [
             54,
-            "Fake Out"
+            "Weather Ball"
           ],
           [
             58,
-            "Guillotine"
+            "Double Team"
+          ],
+          [
+            62,
+            "Fury Cutter"
           ],
           [
             65,
@@ -48442,7 +48537,7 @@ backup_data = {
           ],
           [
             19,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             22,
@@ -48614,7 +48709,7 @@ backup_data = {
           ],
           [
             19,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             22,
@@ -48796,7 +48891,7 @@ backup_data = {
           ],
           [
             19,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             22,
@@ -49485,11 +49580,11 @@ backup_data = {
           ],
           [
             29,
-            "Double-Edge"
+            "Return"
           ],
           [
             32,
-            "Swagger"
+            "Yawn"
           ],
           [
             36,
@@ -49587,7 +49682,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Lick"
+            "Swagger"
           ],
           [
             1,
@@ -49635,11 +49730,11 @@ backup_data = {
           ],
           [
             29,
-            "Double-Edge"
+            "Return"
           ],
           [
             32,
-            "Swagger"
+            "Yawn"
           ],
           [
             36,
@@ -49740,17 +49835,17 @@ backup_data = {
       ],
       "bs": {
         "hp": 58,
-        "at": 75,
-        "df": 51,
+        "at": 72,
+        "df": 55,
         "sa": 30,
-        "sd": 51,
+        "sd": 41,
         "sp": 70
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Growl"
+            "Pin Missile"
           ],
           [
             1,
@@ -49786,7 +49881,7 @@ backup_data = {
           ],
           [
             23,
-            "Sand Attack"
+            "Endure"
           ],
           [
             26,
@@ -49802,10 +49897,10 @@ backup_data = {
           ],
           [
             37,
-            "Fling"
+            "Sand Attack"
           ],
           [
-            41,
+            40,
             "Crush Claw"
           ]
         ],
@@ -49909,18 +50004,18 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
-        "at": 115,
-        "df": 65,
+        "hp": 78,
+        "at": 112,
+        "df": 75,
         "sa": 50,
-        "sd": 65,
+        "sd": 61,
         "sp": 100
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Growl"
+            "Baton Pass"
           ],
           [
             1,
@@ -49928,7 +50023,7 @@ backup_data = {
           ],
           [
             1,
-            "Tackle"
+            "Quick Attack"
           ],
           [
             4,
@@ -49956,7 +50051,7 @@ backup_data = {
           ],
           [
             23,
-            "Sand Attack"
+            "Endure"
           ],
           [
             26,
@@ -49972,31 +50067,31 @@ backup_data = {
           ],
           [
             37,
-            "Fling"
+            "Sand Attack"
           ],
           [
-            41,
+            40,
             "Crush Claw"
           ],
           [
             44,
-            "Extreme Speed"
+            "Fling"
           ],
           [
             48,
             "1st Impression"
           ],
           [
-            55,
-            "Flail"
+            52,
+            "Extreme Speed"
           ],
           [
-            60,
-            "Swords Dance"
+            58,
+            "Fury Cutter"
           ],
           [
             65,
-            "Giga Impact"
+            "Flail"
           ]
         ],
         "tms": [
@@ -50130,7 +50225,7 @@ backup_data = {
       },
       "abs": [
         "Poison Touch",
-        "Resilient",
+        "Shield Dust",
         "Shed Skin"
       ],
       "evos": [
@@ -50197,7 +50292,7 @@ backup_data = {
       },
       "abs": [
         "Battle Armor",
-        "Resilient",
+        "Shield Dust",
         "Shed Skin"
       ],
       "evoType": "level",
@@ -50366,7 +50461,7 @@ backup_data = {
       },
       "abs": [
         "Rivalry",
-        "Majestic Ward",
+        "Multiscale",
         "Chlorophyll"
       ],
       "evoType": "level",
@@ -50423,7 +50518,7 @@ backup_data = {
       },
       "abs": [
         "Battle Armor",
-        "Resilient",
+        "Shield Dust",
         "Shed Skin"
       ],
       "evoType": "level",
@@ -51162,11 +51257,11 @@ backup_data = {
           ],
           [
             20,
-            "Torment"
+            "Extrasensory"
           ],
           [
             22,
-            "Trop Kick"
+            "Leaf Tornado"
           ]
         ],
         "tms": [
@@ -51326,15 +51421,15 @@ backup_data = {
           ],
           [
             38,
-            "Sucker Punch"
+            "Explosion"
           ],
           [
             41,
-            "Swagger"
+            "Defog"
           ],
           [
             44,
-            "Dark Pulse"
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -51447,7 +51542,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Aeroblast"
+            "Swagger"
           ],
           [
             1,
@@ -51499,15 +51594,15 @@ backup_data = {
           ],
           [
             38,
-            "Sucker Punch"
+            "Explosion"
           ],
           [
             41,
-            "Swagger"
+            "Defog"
           ],
           [
             44,
-            "Dark Pulse"
+            "Sucker Punch"
           ],
           [
             46,
@@ -51669,7 +51764,7 @@ backup_data = {
           ],
           [
             25,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             28,
@@ -51816,7 +51911,7 @@ backup_data = {
           ],
           [
             25,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             28,
@@ -51844,7 +51939,7 @@ backup_data = {
           ],
           [
             50,
-            "Double-Edge"
+            "Aerial Ace"
           ],
           [
             54,
@@ -54051,8 +54146,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
-        "Keen Senses",
+        "Compound Eyes",
+        "Compound Eyes",
         "Stakeout"
       ],
       "evos": [
@@ -54116,7 +54211,7 @@ backup_data = {
           ],
           [
             34,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             37,
@@ -55442,7 +55537,7 @@ backup_data = {
           ],
           [
             28,
-            "Iron Defense"
+            "Teleport"
           ],
           [
             34,
@@ -55561,7 +55656,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 50,
-        "at": 70,
+        "at": 65,
         "df": 65,
         "sa": 65,
         "sd": 65,
@@ -55749,7 +55844,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 100,
+        "at": 95,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -56929,7 +57024,7 @@ backup_data = {
           ],
           [
             40,
-            "Aura Sphere"
+            "Vacuum Wave"
           ],
           [
             44,
@@ -57091,14 +57186,18 @@ backup_data = {
           ],
           [
             40,
-            "Aura Sphere"
+            "Vacuum Wave"
           ],
           [
             44,
             "Psychic"
           ],
           [
-            48,
+            46,
+            "Focus Punch"
+          ],
+          [
+            49,
             "Acupressure"
           ],
           [
@@ -58051,7 +58150,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Prankster",
         "Magic Guard"
       ]
@@ -58246,7 +58345,7 @@ backup_data = {
       "bs": {
         "hp": 50,
         "at": 60,
-        "df": 45,
+        "df": 55,
         "sa": 110,
         "sd": 80,
         "sp": 80
@@ -58368,7 +58467,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Solar Power",
         "Overgrow",
         "Natural Cure"
       ],
@@ -59768,7 +59867,7 @@ backup_data = {
           ],
           [
             1,
-            "Rest"
+            "Nature Power"
           ],
           [
             1,
@@ -59820,7 +59919,7 @@ backup_data = {
           ],
           [
             48,
-            "Amnesia"
+            "Haze"
           ],
           [
             51,
@@ -60451,7 +60550,7 @@ backup_data = {
       "abs": [
         "Hustle",
         "Contrary",
-        "Speed Boost"
+        " -"
       ]
     },
     "Trapinch": {
@@ -60779,7 +60878,7 @@ backup_data = {
       },
       "abs": [
         "Tinted Lens",
-        "Keen Senses",
+        "Compound Eyes",
         "Amplifier"
       ],
       "evoType": "level",
@@ -60974,7 +61073,7 @@ backup_data = {
       },
       "abs": [
         "Tinted Lens",
-        "Keen Senses",
+        "Compound Eyes",
         "Amplifier"
       ],
       "evoType": "level",
@@ -61741,7 +61840,7 @@ backup_data = {
           ],
           [
             1,
-            "Follow Me"
+            "Helping Hand"
           ],
           [
             1,
@@ -61785,7 +61884,7 @@ backup_data = {
           ],
           [
             36,
-            "Lunge"
+            "Fury Cutter"
           ],
           [
             39,
@@ -61923,11 +62022,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Brutal Swing"
+            "Scale Shot"
           ],
           [
             1,
             "Spit Up"
+          ],
+          [
+            1,
+            "Swagger"
           ],
           [
             4,
@@ -61936,6 +62039,10 @@ backup_data = {
           [
             12,
             "Screech"
+          ],
+          [
+            15,
+            "Breaking Swipe"
           ],
           [
             19,
@@ -61950,47 +62057,43 @@ backup_data = {
             "Night Slash"
           ],
           [
+            30,
+            "Giga Drain"
+          ],
+          [
             33,
-            "Glare"
+            "Haze"
           ],
           [
-            37,
-            "Fire Fang"
-          ],
-          [
-            37,
-            "Ice Fang"
-          ],
-          [
-            37,
-            "Thunder Fang"
+            38,
+            "Seething Cold"
           ],
           [
             40,
-            "Swagger"
+            "Curse"
           ],
           [
             43,
-            "Aqua Tail"
+            "Flamethrower"
           ],
           [
-            47,
-            "Dark Pulse"
-          ],
-          [
-            49,
+            46,
             "Wrap"
           ],
           [
-            53,
-            "Power Whip"
+            50,
+            "Final Gambit"
+          ],
+          [
+            55,
+            "Glare"
           ],
           [
             58,
             "Poison Tail"
           ],
           [
-            63,
+            62,
             "Outrage"
           ],
           [
@@ -63807,15 +63910,11 @@ backup_data = {
           ],
           [
             1,
-            "Tackle"
+            "Mud-Slap"
           ],
           [
             4,
             "Aqua Jet"
-          ],
-          [
-            8,
-            "Fury Cutter"
           ],
           [
             10,
@@ -63973,7 +64072,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Superpower"
+            "Power Whip"
           ],
           [
             1,
@@ -63981,11 +64080,7 @@ backup_data = {
           ],
           [
             1,
-            "Twineedle"
-          ],
-          [
-            8,
-            "Fury Cutter"
+            "Leech Life"
           ],
           [
             10,
@@ -64044,24 +64139,20 @@ backup_data = {
             "Aqua Tail"
           ],
           [
-            51,
+            54,
             "Stone Edge"
           ],
           [
-            54,
-            "Power Whip"
-          ],
-          [
-            60,
-            "Spin Out"
+            58,
+            "Aqua Ring"
           ],
           [
             65,
-            "Steamroller"
+            "Fury Cutter"
           ],
           [
-            74,
-            "Hone Claws"
+            73,
+            "Dragon Dance"
           ]
         ],
         "tms": [
@@ -64359,7 +64450,7 @@ backup_data = {
       "abs": [
         "Distracting",
         "Marvel Scale",
-        "Majestic Ward"
+        "Multiscale"
       ],
       "evoType": "trade",
       "evoLevel": 20
@@ -64745,7 +64836,7 @@ backup_data = {
       },
       "abs": [
         "Adaptability",
-        "Prankster",
+        "Clear Body",
         "Savant"
       ]
     },
@@ -64886,8 +64977,8 @@ backup_data = {
       },
       "abs": [
         "Prankster",
-        "Hustle",
-        "Levitate"
+        "Levitate",
+        "Cursed Body"
       ],
       "evos": [
         "Banette"
@@ -65495,7 +65586,11 @@ backup_data = {
             "Synthesis"
           ],
           [
-            38,
+            36,
+            "Nature Power"
+          ],
+          [
+            39,
             "Weather Ball"
           ],
           [
@@ -66445,7 +66540,7 @@ backup_data = {
           ],
           [
             17,
-            "Swagger"
+            "Haze"
           ],
           [
             22,
@@ -66610,7 +66705,7 @@ backup_data = {
           ],
           [
             17,
-            "Swagger"
+            "Haze"
           ],
           [
             22,
@@ -66777,7 +66872,7 @@ backup_data = {
           ],
           [
             17,
-            "Swagger"
+            "Haze"
           ],
           [
             22,
@@ -67019,7 +67114,7 @@ backup_data = {
       },
       "abs": [
         "Shell Armor",
-        "Battle Armor",
+        "Sturdy",
         "Torrent"
       ],
       "evos": [
@@ -67059,7 +67154,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Harden"
+            "Rest"
           ],
           [
             1,
@@ -67099,7 +67194,7 @@ backup_data = {
           ],
           [
             42,
-            "Swagger"
+            "Aqua Ring"
           ],
           [
             46,
@@ -67199,7 +67294,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Shell Armor",
         "Strong Jaw"
       ],
@@ -67254,7 +67349,7 @@ backup_data = {
           ],
           [
             27,
-            "Acid Spray"
+            "Attract"
           ],
           [
             31,
@@ -67262,7 +67357,7 @@ backup_data = {
           ],
           [
             36,
-            "Sludge"
+            "Acid Spray"
           ],
           [
             39,
@@ -67270,7 +67365,7 @@ backup_data = {
           ],
           [
             42,
-            "Attract"
+            "Aqua Ring"
           ],
           [
             46,
@@ -67375,7 +67470,7 @@ backup_data = {
       "abs": [
         "Shell Armor",
         "Corrosion",
-        "Majestic Ward"
+        "Multiscale"
       ],
       "evoType": "useItem",
       "evoItem": "Water Stone"
@@ -67849,7 +67944,7 @@ backup_data = {
       },
       "abs": [
         "Sheer Force",
-        "Hustle",
+        "Moxie",
         "Rock Head"
       ],
       "evos": [
@@ -68012,7 +68107,7 @@ backup_data = {
       },
       "abs": [
         "Shell Armor",
-        "Strong Body",
+        "Overcoat",
         "Solid Rock"
       ],
       "evoType": "level",
@@ -68336,7 +68431,7 @@ backup_data = {
       },
       "abs": [
         "Light Metal",
-        "Strong Body",
+        "Clear Body",
         "Tough Claws"
       ],
       "evos": [
@@ -68497,7 +68592,7 @@ backup_data = {
       },
       "abs": [
         "Light Metal",
-        "Strong Body",
+        "Clear Body",
         "Tough Claws"
       ],
       "evoType": "level",
@@ -68680,7 +68775,7 @@ backup_data = {
       },
       "abs": [
         "Light Metal",
-        "Strong Body",
+        "Clear Body",
         "Tough Claws"
       ],
       "evoType": "level",
@@ -70624,7 +70719,7 @@ backup_data = {
           ],
           [
             10,
-            "Wing Attack"
+            "Pluck"
           ],
           [
             13,
@@ -70636,7 +70731,7 @@ backup_data = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             23,
@@ -70737,11 +70832,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Quick Attack"
           ],
           [
             1,
-            "Quick Attack"
+            "Growl"
           ],
           [
             7,
@@ -70749,7 +70844,7 @@ backup_data = {
           ],
           [
             10,
-            "Wing Attack"
+            "Pluck"
           ],
           [
             13,
@@ -70761,7 +70856,7 @@ backup_data = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             23,
@@ -70789,7 +70884,7 @@ backup_data = {
           ],
           [
             46,
-            "Drill Peck"
+            "Aerial Ace"
           ],
           [
             49,
@@ -70798,18 +70893,6 @@ backup_data = {
           [
             53,
             "Head Charge"
-          ],
-          [
-            60,
-            "Close Combat"
-          ],
-          [
-            65,
-            "Brave Bird"
-          ],
-          [
-            70,
-            "Superpower"
           ]
         ],
         "tms": [
@@ -70908,7 +70991,7 @@ backup_data = {
           ],
           [
             10,
-            "Wing Attack"
+            "Pluck"
           ],
           [
             13,
@@ -70920,7 +71003,7 @@ backup_data = {
           ],
           [
             20,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             23,
@@ -70948,7 +71031,7 @@ backup_data = {
           ],
           [
             46,
-            "Drill Peck"
+            "Aerial Ace"
           ],
           [
             49,
@@ -71588,6 +71671,10 @@ backup_data = {
           [
             54,
             "Boomburst"
+          ],
+          [
+            59,
+            "Fury Cutter"
           ]
         ],
         "tms": [
@@ -72181,7 +72268,7 @@ backup_data = {
       "bs": {
         "hp": 40,
         "at": 30,
-        "df": 35,
+        "df": 45,
         "sa": 90,
         "sd": 70,
         "sp": 70
@@ -72295,7 +72382,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Solar Power",
         "Overgrow",
         "Natural Cure"
       ],
@@ -72462,9 +72549,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Solar Power",
         "Overgrow",
-        "Majestic Ward"
+        "Majesty"
       ],
       "evoType": "level",
       "evoItem": "Shiny Stone",
@@ -72829,7 +72916,7 @@ backup_data = {
           ],
           [
             1,
-            "Harden"
+            "Leer"
           ],
           [
             4,
@@ -72853,7 +72940,7 @@ backup_data = {
           ],
           [
             20,
-            "Swagger"
+            "Block"
           ],
           [
             24,
@@ -72861,7 +72948,7 @@ backup_data = {
           ],
           [
             28,
-            "Metal Claw"
+            "Iron Head"
           ],
           [
             32,
@@ -72872,19 +72959,23 @@ backup_data = {
             "Metal Burst"
           ],
           [
-            39,
+            38,
             "Iron Head"
           ],
           [
-            42,
+            41,
             "Screech"
           ],
           [
-            44,
+            43,
             "Head Charge"
           ],
           [
-            48,
+            46,
+            "Stone Edge"
+          ],
+          [
+            50,
             "Dragon Tail"
           ],
           [
@@ -72997,7 +73088,7 @@ backup_data = {
           ],
           [
             1,
-            "Harden"
+            "Leer"
           ],
           [
             4,
@@ -73021,7 +73112,7 @@ backup_data = {
           ],
           [
             20,
-            "Swagger"
+            "Block"
           ],
           [
             24,
@@ -73029,7 +73120,7 @@ backup_data = {
           ],
           [
             28,
-            "Metal Claw"
+            "Iron Head"
           ],
           [
             32,
@@ -73052,7 +73143,11 @@ backup_data = {
             "Head Charge"
           ],
           [
-            48,
+            46,
+            "Stone Edge"
+          ],
+          [
+            50,
             "Dragon Tail"
           ],
           [
@@ -73068,7 +73163,7 @@ backup_data = {
             "Protect"
           ],
           [
-            70,
+            67,
             "Rock Wrecker"
           ]
         ],
@@ -73458,7 +73553,7 @@ backup_data = {
           ],
           [
             25,
-            "Aerial Ace"
+            "Air Slash"
           ],
           [
             27,
@@ -73490,7 +73585,7 @@ backup_data = {
           ],
           [
             50,
-            "Acrobatics"
+            "Aerial Ace"
           ],
           [
             55,
@@ -73641,7 +73736,7 @@ backup_data = {
           ],
           [
             50,
-            "Swagger"
+            "Sweet Scent"
           ],
           [
             55,
@@ -73915,7 +74010,7 @@ backup_data = {
       },
       "abs": [
         "Unnerve",
-        "Majestic Ward",
+        "Majesty",
         "Filter"
       ],
       "evoType": "useItem",
@@ -74472,7 +74567,7 @@ backup_data = {
           ],
           [
             35,
-            "Lucky Chant"
+            "Nature Power"
           ],
           [
             38,
@@ -74618,7 +74713,7 @@ backup_data = {
           ],
           [
             35,
-            "Lucky Chant"
+            "Nature Power"
           ],
           [
             38,
@@ -74634,11 +74729,11 @@ backup_data = {
           ],
           [
             48,
-            "Play Rough"
+            "Lucky Chant"
           ],
           [
             51,
-            "Magic Coat"
+            "Play Rough"
           ],
           [
             56,
@@ -74646,7 +74741,7 @@ backup_data = {
           ],
           [
             61,
-            "Flare Blitz"
+            "Blaze Kick"
           ],
           [
             65,
@@ -75097,15 +75192,19 @@ backup_data = {
           ],
           [
             31,
-            "Slam"
+            "Dual Chop"
           ],
           [
             35,
-            "Agility"
+            "Slam"
           ],
           [
             39,
             "Double Slap"
+          ],
+          [
+            42,
+            "Metronome"
           ],
           [
             44,
@@ -75197,8 +75296,9 @@ backup_data = {
         "Speed Boost",
         "Skill Link"
       ],
-      "evoType": "level",
-      "evoLevel": 28
+      "evoType": "useItem",
+      "evoLevel": 35,
+      "evoItem": "Moon Stone"
     },
     "Drifloon": {
       "name": "Drifloon",
@@ -76245,20 +76345,24 @@ backup_data = {
             "Tail Whip"
           ],
           [
-            7,
+            6,
             "Attract"
           ],
           [
-            10,
+            9,
             "Tail Slap"
           ],
           [
+            11,
+            "Shadow Claw"
+          ],
+          [
             14,
-            "Assurance"
+            "Charm"
           ],
           [
             17,
-            "Charm"
+            "Assurance"
           ],
           [
             19,
@@ -76294,7 +76398,7 @@ backup_data = {
           ],
           [
             42,
-            "Final Gambit"
+            "Taunt"
           ],
           [
             45,
@@ -76358,7 +76462,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Majestic Ward",
+        "Majesty",
         "Fluffy",
         "Run Away"
       ],
@@ -76400,15 +76504,19 @@ backup_data = {
           ],
           [
             1,
-            "Sucker Punch"
+            "Flatter"
           ],
           [
-            7,
+            6,
             "Attract"
           ],
           [
-            10,
+            9,
             "Tail Slap"
+          ],
+          [
+            11,
+            "Shadow Claw"
           ],
           [
             14,
@@ -76448,11 +76556,11 @@ backup_data = {
           ],
           [
             39,
-            "Play Rough"
+            "Aerial Ace"
           ],
           [
             42,
-            "Final Gambit"
+            "Taunt"
           ],
           [
             45,
@@ -76468,7 +76576,7 @@ backup_data = {
           ],
           [
             58,
-            "Swagger"
+            "Fake Out"
           ],
           [
             63,
@@ -76766,11 +76874,11 @@ backup_data = {
           ],
           [
             46,
-            "Recycle"
+            "Gunk Shot"
           ],
           [
             49,
-            "Spit Up"
+            "Recycle"
           ]
         ],
         "tms": [
@@ -76931,11 +77039,11 @@ backup_data = {
           ],
           [
             46,
-            "Recycle"
+            "Gunk Shot"
           ],
           [
             49,
-            "Spit Up"
+            "Recycle"
           ],
           [
             54,
@@ -79253,7 +79361,7 @@ backup_data = {
           ],
           [
             30,
-            "Scary Face"
+            "Refresh"
           ],
           [
             33,
@@ -79397,7 +79505,7 @@ backup_data = {
           ],
           [
             30,
-            "Scary Face"
+            "Refresh"
           ],
           [
             33,
@@ -79679,7 +79787,7 @@ backup_data = {
           ],
           [
             1,
-            "Brutal Swing"
+            "Power Whip"
           ],
           [
             4,
@@ -79739,7 +79847,7 @@ backup_data = {
           ],
           [
             60,
-            "Power Whip"
+            "Fury Cutter"
           ],
           [
             65,
@@ -79856,7 +79964,7 @@ backup_data = {
           ],
           [
             11,
-            "Swagger"
+            "Fake Out"
           ],
           [
             14,
@@ -80021,7 +80129,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Focus Punch"
+            "Swagger"
           ],
           [
             1,
@@ -80033,7 +80141,7 @@ backup_data = {
           ],
           [
             11,
-            "Swagger"
+            "Fake Out"
           ],
           [
             14,
@@ -80511,7 +80619,7 @@ backup_data = {
       },
       "abs": [
         "Swift Swim",
-        "Illumination",
+        "Illuminate",
         "Storm Drain"
       ],
       "evos": [
@@ -80687,7 +80795,7 @@ backup_data = {
       },
       "abs": [
         "Swift Swim",
-        "Illumination",
+        "Illuminate",
         "Storm Drain"
       ],
       "evoType": "level",
@@ -80902,7 +81010,7 @@ backup_data = {
           ],
           [
             27,
-            "Leaf Tornado"
+            "Grass Knot"
           ],
           [
             30,
@@ -80922,15 +81030,15 @@ backup_data = {
           ],
           [
             44,
-            "Avalanche"
+            "Blizzard"
           ],
           [
             48,
-            "Needle Arm"
+            "Energy Ball"
           ],
           [
             52,
-            "Scary Face"
+            "Grass Whistle"
           ]
         ],
         "tms": [
@@ -80994,7 +81102,7 @@ backup_data = {
       },
       "abs": [
         "Ice Body",
-        "Berserk",
+        "Rattled",
         "Filter"
       ],
       "evos": [
@@ -81043,7 +81151,7 @@ backup_data = {
           ],
           [
             1,
-            "Swagger"
+            "Needle Arm"
           ],
           [
             13,
@@ -81063,7 +81171,7 @@ backup_data = {
           ],
           [
             27,
-            "Leaf Tornado"
+            "Grass Knot"
           ],
           [
             30,
@@ -81083,15 +81191,15 @@ backup_data = {
           ],
           [
             44,
-            "Avalanche"
+            "Blizzard"
           ],
           [
             48,
-            "Needle Arm"
+            "Energy Ball"
           ],
           [
             52,
-            "Scary Face"
+            "Grass Whistle"
           ],
           [
             57,
@@ -81964,7 +82072,7 @@ backup_data = {
           ],
           [
             23,
-            "Natural Gift"
+            "Nature Power"
           ],
           [
             26,
@@ -82654,8 +82762,8 @@ backup_data = {
             "Aeroblast"
           ],
           [
-            1,
-            "Silver Wind"
+            4,
+            "Bug Bite"
           ],
           [
             6,
@@ -82663,15 +82771,15 @@ backup_data = {
           ],
           [
             11,
-            "Dual Wingbeat"
-          ],
-          [
-            15,
             "Supersonic"
           ],
           [
+            15,
+            "Air Cutter"
+          ],
+          [
             18,
-            "Struggle Bug"
+            "Uproar"
           ],
           [
             20,
@@ -82683,31 +82791,27 @@ backup_data = {
           ],
           [
             28,
-            "Uproar"
+            "Twister"
           ],
           [
             31,
-            "Air Cutter"
+            "Aerial Ace"
           ],
           [
             34,
             "Ancient Power"
           ],
           [
-            37,
-            "Hypnosis"
-          ],
-          [
-            39,
-            "Bug Buzz"
+            38,
+            "Whirlwind"
           ],
           [
             41,
-            "U-turn"
+            "Hypnosis"
           ],
           [
             44,
-            "Bug Buzz"
+            "Silver Wind"
           ],
           [
             47,
@@ -82715,7 +82819,7 @@ backup_data = {
           ],
           [
             51,
-            "Hypnosis"
+            "Detect"
           ],
           [
             54,
@@ -82784,7 +82888,7 @@ backup_data = {
       "abs": [
         "Speed Boost",
         "Tinted Lens",
-        "Keen Senses"
+        "Compound Eyes"
       ],
       "evoType": "levelMove",
       "evoMove": "Ancientpower"
@@ -82848,7 +82952,7 @@ backup_data = {
           ],
           [
             21,
-            "Zen Headbutt"
+            "Nature Power"
           ],
           [
             25,
@@ -83135,7 +83239,7 @@ backup_data = {
       },
       "abs": [
         "Ice Scales",
-        "Majestic Ward",
+        "Marvel Scale",
         "Slush Rush"
       ],
       "evoType": "useItem",
@@ -83165,7 +83269,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Fissure"
+            "High Horsepower"
           ],
           [
             1,
@@ -83237,7 +83341,7 @@ backup_data = {
           ],
           [
             54,
-            "High Horsepower"
+            "Fury Cutter"
           ],
           [
             58,
@@ -83689,7 +83793,7 @@ backup_data = {
           ],
           [
             1,
-            "Guillotine"
+            "Fury Cutter"
           ],
           [
             6,
@@ -83705,7 +83809,7 @@ backup_data = {
           ],
           [
             13,
-            "Covet"
+            "Aerial Ace"
           ],
           [
             15,
@@ -83713,7 +83817,7 @@ backup_data = {
           ],
           [
             17,
-            "Force Palm"
+            "Psycho Cut"
           ],
           [
             19,
@@ -83733,7 +83837,7 @@ backup_data = {
           ],
           [
             34,
-            "Psycho Cut"
+            "Aqua Cutter"
           ],
           [
             38,
@@ -83741,15 +83845,15 @@ backup_data = {
           ],
           [
             42,
-            "Healing Wish"
-          ],
-          [
-            46,
             "Leaf Blade"
           ],
           [
-            49,
+            46,
             "Zen Headbutt"
+          ],
+          [
+            49,
+            "Wide Guard"
           ],
           [
             53,
@@ -83860,7 +83964,7 @@ backup_data = {
       },
       "abs": [
         "Hyper Cutter",
-        "Majestic Ward",
+        "Majesty",
         "Justified"
       ],
       "evoType": "useItem",
@@ -83894,7 +83998,7 @@ backup_data = {
           ],
           [
             1,
-            "Ancient Power"
+            "Electro Shot"
           ],
           [
             4,
@@ -83930,7 +84034,7 @@ backup_data = {
           ],
           [
             28,
-            "Iron Defense"
+            "Teleport"
           ],
           [
             34,
@@ -83966,7 +84070,7 @@ backup_data = {
           ],
           [
             62,
-            "Rest"
+            "Refresh"
           ],
           [
             67,
@@ -84401,7 +84505,7 @@ backup_data = {
       },
       "abs": [
         "Levitate",
-        "Ice Body",
+        "Clear Body",
         "Serene Grace"
       ],
       "evoType": "useItem",
@@ -85422,7 +85526,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         " -",
         " -"
       ]
@@ -85487,6 +85591,10 @@ backup_data = {
           [
             27,
             "Leaf Blade"
+          ],
+          [
+            30,
+            "Nature Power"
           ],
           [
             32,
@@ -85657,6 +85765,10 @@ backup_data = {
           [
             27,
             "Leaf Blade"
+          ],
+          [
+            30,
+            "Nature Power"
           ],
           [
             32,
@@ -85845,6 +85957,10 @@ backup_data = {
           [
             27,
             "Leaf Blade"
+          ],
+          [
+            30,
+            "Nature Power"
           ],
           [
             32,
@@ -86543,6 +86659,10 @@ backup_data = {
           ],
           [
             1,
+            "Tackle"
+          ],
+          [
+            5,
             "Barrage"
           ],
           [
@@ -86566,24 +86686,28 @@ backup_data = {
             "Counter"
           ],
           [
-            20,
-            "Air Slash"
+            19,
+            "Vacuum Wave"
           ],
           [
-            22,
+            21,
+            "Aerial Ace"
+          ],
+          [
+            23,
             "Drain Punch"
           ],
           [
-            25,
+            26,
             "Cross Poison"
           ],
           [
-            28,
+            30,
             "Detect"
           ],
           [
             33,
-            "Triple Dive"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -86752,24 +86876,28 @@ backup_data = {
             "Counter"
           ],
           [
-            20,
-            "Air Slash"
+            19,
+            "Vacuum Wave"
           ],
           [
-            22,
+            21,
+            "Aerial Ace"
+          ],
+          [
+            23,
             "Drain Punch"
           ],
           [
-            25,
+            26,
             "Cross Poison"
           ],
           [
-            28,
+            30,
             "Detect"
           ],
           [
             33,
-            "Triple Dive"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -86952,24 +87080,28 @@ backup_data = {
             "Counter"
           ],
           [
-            20,
-            "Air Slash"
+            19,
+            "Vacuum Wave"
           ],
           [
-            22,
+            21,
+            "Aerial Ace"
+          ],
+          [
+            23,
             "Drain Punch"
           ],
           [
-            25,
+            26,
             "Cross Poison"
           ],
           [
-            28,
+            30,
             "Detect"
           ],
           [
             33,
-            "Triple Dive"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -87257,7 +87389,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Patient",
         "Forewarn"
       ],
@@ -87444,7 +87576,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Illumination",
+        "Illuminate",
         "Patient",
         "Forewarn"
       ],
@@ -91416,7 +91548,7 @@ backup_data = {
       "abs": [
         "Mold Breaker",
         "Sand Force",
-        "Sturdy"
+        "Sand Rush"
       ],
       "evos": [
         "Excadrill"
@@ -92823,7 +92955,7 @@ backup_data = {
           ],
           [
             24,
-            "Scary Face"
+            "Endure"
           ],
           [
             28,
@@ -92847,7 +92979,7 @@ backup_data = {
           ],
           [
             47,
-            "Endure"
+            "Counter"
           ],
           [
             50,
@@ -92984,7 +93116,7 @@ backup_data = {
           ],
           [
             24,
-            "Scary Face"
+            "Endure"
           ],
           [
             28,
@@ -93008,7 +93140,7 @@ backup_data = {
           ],
           [
             47,
-            "Endure"
+            "Counter"
           ],
           [
             50,
@@ -93220,7 +93352,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Resilient",
+        "Shield Dust",
         "Regenerator",
         "Filter"
       ],
@@ -93362,7 +93494,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Resilient",
+        "Shield Dust",
         "Regenerator",
         "Filter"
       ],
@@ -94099,7 +94231,7 @@ backup_data = {
           ],
           [
             37,
-            "Cotton Guard"
+            "Nature Power"
           ],
           [
             40,
@@ -94220,7 +94352,7 @@ backup_data = {
             "Tailwind"
           ],
           [
-            6,
+            1,
             "Covet"
           ],
           [
@@ -94265,7 +94397,7 @@ backup_data = {
           ],
           [
             37,
-            "Cotton Guard"
+            "Nature Power"
           ],
           [
             40,
@@ -94281,7 +94413,7 @@ backup_data = {
           ],
           [
             50,
-            "Cotton Spore"
+            "Cotton Guard"
           ],
           [
             53,
@@ -95015,7 +95147,7 @@ backup_data = {
       "abs": [
         "Intimidate",
         "Sand Rush",
-        "Keen Senses"
+        "Moxie"
       ],
       "evos": [
         "Krokorok"
@@ -95200,7 +95332,7 @@ backup_data = {
       "abs": [
         "Intimidate",
         "Sand Rush",
-        "Keen Senses"
+        "Moxie"
       ],
       "evoType": "level",
       "evoLevel": 14,
@@ -95977,7 +96109,7 @@ backup_data = {
           ],
           [
             5,
-            "Fury Cutter"
+            "Bug Bite"
           ],
           [
             7,
@@ -96156,7 +96288,7 @@ backup_data = {
           ],
           [
             1,
-            "Iron Defense"
+            "Harden"
           ],
           [
             7,
@@ -96332,7 +96464,7 @@ backup_data = {
           ],
           [
             7,
-            "Scary Face"
+            "Acid Spray"
           ],
           [
             11,
@@ -96344,7 +96476,7 @@ backup_data = {
           ],
           [
             18,
-            "Focus Punch"
+            "Low Sweep"
           ],
           [
             21,
@@ -96360,10 +96492,10 @@ backup_data = {
           ],
           [
             29,
-            "Rest"
+            "Seismic Toss"
           ],
           [
-            33,
+            32,
             "Drain Punch"
           ],
           [
@@ -96376,11 +96508,11 @@ backup_data = {
           ],
           [
             42,
-            "Swagger"
+            "Taunt"
           ],
           [
             46,
-            "Parting Shot"
+            "Rest"
           ],
           [
             49,
@@ -96532,7 +96664,7 @@ backup_data = {
           ],
           [
             18,
-            "Focus Punch"
+            "Low Sweep"
           ],
           [
             21,
@@ -96548,10 +96680,10 @@ backup_data = {
           ],
           [
             29,
-            "Rest"
+            "Seismic Toss"
           ],
           [
-            33,
+            32,
             "Drain Punch"
           ],
           [
@@ -96564,11 +96696,11 @@ backup_data = {
           ],
           [
             42,
-            "Swagger"
+            "Taunt"
           ],
           [
             46,
-            "Parting Shot"
+            "Rest"
           ],
           [
             49,
@@ -97584,7 +97716,7 @@ backup_data = {
           ],
           [
             22,
-            "Aerial Ace"
+            "Chatter"
           ],
           [
             24,
@@ -97768,7 +97900,7 @@ backup_data = {
           ],
           [
             22,
-            "Aerial Ace"
+            "Chatter"
           ],
           [
             24,
@@ -100052,7 +100184,7 @@ backup_data = {
           ],
           [
             35,
-            "Acrobatics"
+            "Aerial Ace"
           ],
           [
             40,
@@ -100064,15 +100196,15 @@ backup_data = {
           ],
           [
             48,
-            "Lucky Chant"
+            "Attract"
           ],
           [
             50,
-            "Air Slash"
+            "Brave Bird"
           ],
           [
             53,
-            "Ice Beam"
+            "Triple Axel"
           ]
         ],
         "tms": [
@@ -100123,7 +100255,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
+        "Rain Dish",
         "Friend Guard",
         "Serene Grace"
       ],
@@ -100201,7 +100333,7 @@ backup_data = {
           ],
           [
             35,
-            "Acrobatics"
+            "Aerial Ace"
           ],
           [
             40,
@@ -100213,15 +100345,15 @@ backup_data = {
           ],
           [
             48,
-            "Lucky Chant"
+            "Attract"
           ],
           [
             50,
-            "Air Slash"
+            "Brave Bird"
           ],
           [
             53,
-            "Ice Beam"
+            "Triple Axel"
           ],
           [
             56,
@@ -101139,7 +101271,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Majestic Ward",
+        "Majesty",
         "Chlorophyll",
         "Serene Grace"
       ],
@@ -102435,7 +102567,7 @@ backup_data = {
       },
       "abs": [
         "Regenerator",
-        "Natural Cure",
+        "Filter",
         "Healer"
       ]
     },
@@ -102590,7 +102722,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
+        "Compound Eyes",
         "Technician",
         "Unnerve"
       ],
@@ -102755,7 +102887,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Keen Senses",
+        "Compound Eyes",
         "Technician",
         "Unnerve"
       ],
@@ -104508,7 +104640,7 @@ backup_data = {
       },
       "abs": [
         "Flash Fire",
-        "Illumination",
+        "Illuminate",
         "Infiltrator"
       ],
       "evos": [
@@ -104662,7 +104794,7 @@ backup_data = {
       },
       "abs": [
         "Flash Fire",
-        "Illumination",
+        "Illuminate",
         "Infiltrator"
       ],
       "evoType": "level",
@@ -104829,7 +104961,7 @@ backup_data = {
       },
       "abs": [
         "Flash Fire",
-        "Illumination",
+        "Illuminate",
         "Infiltrator"
       ],
       "evoType": "level",
@@ -104883,7 +105015,7 @@ backup_data = {
           ],
           [
             25,
-            "Scary Face"
+            "Taunt"
           ],
           [
             29,
@@ -105048,7 +105180,7 @@ backup_data = {
           ],
           [
             25,
-            "Scary Face"
+            "Taunt"
           ],
           [
             29,
@@ -105227,7 +105359,7 @@ backup_data = {
           ],
           [
             25,
-            "Scary Face"
+            "Taunt"
           ],
           [
             29,
@@ -107657,7 +107789,7 @@ backup_data = {
           ],
           [
             21,
-            "Swagger"
+            "Horn Leech"
           ],
           [
             25,
@@ -107812,7 +107944,7 @@ backup_data = {
           ],
           [
             11,
-            "Retaliate"
+            "Headbutt"
           ],
           [
             15,
@@ -107824,7 +107956,7 @@ backup_data = {
           ],
           [
             24,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             28,
@@ -107836,7 +107968,7 @@ backup_data = {
           ],
           [
             35,
-            "Slash"
+            "Retaliate"
           ],
           [
             38,
@@ -107962,12 +108094,12 @@ backup_data = {
             "Tailwind"
           ],
           [
-            5,
-            "Quick Attack"
+            1,
+            "Aerial Ace"
           ],
           [
             11,
-            "Retaliate"
+            "Headbutt"
           ],
           [
             12,
@@ -107979,7 +108111,7 @@ backup_data = {
           ],
           [
             24,
-            "Aerial Ace"
+            "Wing Attack"
           ],
           [
             28,
@@ -107991,7 +108123,7 @@ backup_data = {
           ],
           [
             35,
-            "Slash"
+            "Retaliate"
           ],
           [
             38,
@@ -108167,7 +108299,7 @@ backup_data = {
           ],
           [
             42,
-            "Scary Face"
+            "Torment"
           ],
           [
             46,
@@ -108271,7 +108403,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Iron Defense"
+            "Nasty Plot"
           ],
           [
             1,
@@ -108327,10 +108459,10 @@ backup_data = {
           ],
           [
             42,
-            "Scary Face"
+            "Torment"
           ],
           [
-            45,
+            46,
             "Egg Bomb"
           ],
           [
@@ -108615,7 +108747,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "1st Impression"
+            "Attack Order"
           ],
           [
             1,
@@ -108623,7 +108755,7 @@ backup_data = {
           ],
           [
             10,
-            "Beat Up"
+            "Bite"
           ],
           [
             14,
@@ -108631,7 +108763,7 @@ backup_data = {
           ],
           [
             19,
-            "Feint Attack"
+            "Beat Up"
           ],
           [
             23,
@@ -108659,7 +108791,7 @@ backup_data = {
           ],
           [
             39,
-            "Vise Grip"
+            "X-Scissor"
           ],
           [
             43,
@@ -108683,7 +108815,7 @@ backup_data = {
           ],
           [
             64,
-            "Attack Order"
+            "Fury Cutter"
           ],
           [
             69,
@@ -109420,7 +109552,7 @@ backup_data = {
       },
       "abs": [
         "Blaze",
-        "Swarm",
+        "Shield Dust",
         "Flame Body"
       ],
       "evos": [
@@ -109596,8 +109728,8 @@ backup_data = {
       },
       "abs": [
         "Blaze",
-        "Resilient",
-        "Illumination"
+        "Shield Dust",
+        "Illuminate"
       ],
       "evoType": "level",
       "evoLevel": 59
@@ -109635,7 +109767,7 @@ backup_data = {
       "abs": [
         "Intimidate",
         " -",
-        "Majestic Ward"
+        " -"
       ]
     },
     "Terrakion": {
@@ -109671,7 +109803,7 @@ backup_data = {
       "abs": [
         "Justified",
         " -",
-        "Majestic Ward"
+        " -"
       ]
     },
     "Virizion": {
@@ -109707,7 +109839,7 @@ backup_data = {
       "abs": [
         "Hyper Cutter",
         " -",
-        "Majestic Ward"
+        " -"
       ]
     },
     "Tornadus": {
@@ -109958,7 +110090,7 @@ backup_data = {
       "abs": [
         "Justified",
         " -",
-        "Majestic Ward"
+        " -"
       ]
     },
     "Meloetta": {
@@ -110528,7 +110660,7 @@ backup_data = {
       },
       "abs": [
         "Shed Skin",
-        "Resilient",
+        "Shield Dust",
         "Unaware"
       ]
     },
@@ -114862,7 +114994,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 2,
-        "ability": "Flash Fire",
+        "ability": "Reckless",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -114985,7 +115117,7 @@ backup_data = {
         "nature": "Impish",
         "moves": [
           "Nuzzle",
-          "Headbutt",
+          "Sparkle",
           "Thunder Shock",
           "Cotton Spore"
         ],
@@ -116647,7 +116779,7 @@ backup_data = {
           "Captivate"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/bianca.png",
         "form": 0,
         "evs": {
@@ -116678,7 +116810,7 @@ backup_data = {
           "Growl"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -116709,7 +116841,7 @@ backup_data = {
           "Growl"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -116771,7 +116903,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116802,7 +116934,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -116833,7 +116965,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -116864,7 +116996,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -116957,7 +117089,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/clerkf.png",
         "form": 0,
         "evs": {
@@ -116988,7 +117120,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -117019,7 +117151,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -117050,7 +117182,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -117081,7 +117213,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/clerkm.png",
         "form": 0,
         "evs": {
@@ -117143,7 +117275,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -117174,7 +117306,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -117236,7 +117368,7 @@ backup_data = {
           ""
         ],
         "sub_index": 4,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/pokefanf.png",
         "form": 0,
         "evs": {
@@ -117298,7 +117430,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/colress.png",
         "form": 0,
         "evs": {
@@ -117360,7 +117492,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/nodata.png",
         "form": 0,
         "evs": {
@@ -117391,7 +117523,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/nodata.png",
         "form": 0,
         "evs": {
@@ -117453,7 +117585,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/nodata.png",
         "form": 0,
         "evs": {
@@ -117484,7 +117616,7 @@ backup_data = {
           "Detect"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/schoolkid.png",
         "form": 0,
         "evs": {
@@ -117546,7 +117678,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -117697,7 +117829,7 @@ backup_data = {
         "item": "Bright Powder",
         "nature": "Hardy",
         "moves": [
-          "Aerial Ace",
+          "Wing Attack",
           "Rock Smash",
           "Crush Claw",
           "Quick Attack"
@@ -123368,7 +123500,7 @@ backup_data = {
           "Assurance"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -123399,7 +123531,7 @@ backup_data = {
           "Agility"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/colress.png",
         "form": 0,
         "evs": {
@@ -123430,7 +123562,7 @@ backup_data = {
           "Metal Sound"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/psychicf.png",
         "form": 0,
         "evs": {
@@ -123461,7 +123593,7 @@ backup_data = {
           "Agility"
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -124120,7 +124252,7 @@ backup_data = {
           "Flip Turn"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -124213,7 +124345,7 @@ backup_data = {
           "Tail Glow"
         ],
         "sub_index": 2,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -124244,7 +124376,7 @@ backup_data = {
           "Stockpile"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -125405,7 +125537,7 @@ backup_data = {
           "Rain Dance"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -125498,7 +125630,7 @@ backup_data = {
           "Hurricane"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -126600,7 +126732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine ": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -127126,7 +127258,7 @@ backup_data = {
           "Charm"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -127157,7 +127289,7 @@ backup_data = {
           ""
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -127188,7 +127320,7 @@ backup_data = {
           "Quiver Dance"
         ],
         "sub_index": 3,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -127633,7 +127765,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Kanto Leader Janine - Driftveil City": {
+      "Lvl 43 Kanto Leader Janine ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -129349,7 +129481,7 @@ backup_data = {
           "Fire Punch"
         ],
         "sub_index": 0,
-        "ability": "Berserk",
+        "ability": "Unnerve",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -129473,7 +129605,7 @@ backup_data = {
           "Fire Blast"
         ],
         "sub_index": 0,
-        "ability": "Berserk",
+        "ability": "Unnerve",
         "sprite": "trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -129504,7 +129636,7 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 4,
-        "ability": "Berserk",
+        "ability": "Unnerve",
         "sprite": "trainer_sprites/blue.png",
         "form": 0,
         "evs": {
@@ -129761,7 +129893,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Kanto Leader Janine - Driftveil City": {
+      "Lvl 45 Kanto Leader Janine ": {
         "level": 45,
         "ai": 143,
         "noCh": true,
@@ -131196,7 +131328,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -131227,7 +131359,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/marshal.png",
         "form": 0,
         "evs": {
@@ -131258,7 +131390,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/grimsley.png",
         "form": 0,
         "evs": {
@@ -131351,7 +131483,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -131475,7 +131607,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -131599,7 +131731,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -133142,7 +133274,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 2,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/shauntal.png",
         "form": 0,
         "evs": {
@@ -133299,7 +133431,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/shauntal.png",
         "form": 0,
         "evs": {
@@ -133330,7 +133462,7 @@ backup_data = {
           "Energy Ball"
         ],
         "sub_index": 5,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/shauntal.png",
         "form": 0,
         "evs": {
@@ -133423,7 +133555,7 @@ backup_data = {
           "Will-O-Wisp"
         ],
         "sub_index": 2,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -133609,7 +133741,7 @@ backup_data = {
           "Energy Ball"
         ],
         "sub_index": 5,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/red.png",
         "form": 0,
         "evs": {
@@ -136014,7 +136146,7 @@ backup_data = {
         "item": "Berry Juice",
         "nature": "Impish",
         "moves": [
-          "Aerial Ace",
+          "Dual Wingbeat",
           "Facade",
           "Acrobatics",
           "Feint Attack"
@@ -136045,7 +136177,7 @@ backup_data = {
         "item": "Berry Juice",
         "nature": "Impish",
         "moves": [
-          "Aerial Ace",
+          "Dual Wingbeat",
           "Facade",
           "Acrobatics",
           "Feint Attack"
@@ -136076,7 +136208,7 @@ backup_data = {
         "item": "Berry Juice",
         "nature": "Impish",
         "moves": [
-          "Aerial Ace",
+          "Dual Wingbeat",
           "Facade",
           "Acrobatics",
           "Feint Attack"
@@ -136828,7 +136960,7 @@ backup_data = {
         "item": "None",
         "nature": "Relaxed",
         "moves": [
-          "Aerial Ace",
+          "Razor Winds",
           "Rock Smash",
           "Razor Leaf",
           "Roost"
@@ -137055,7 +137187,7 @@ backup_data = {
           "Flash Cannon"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Heatproof",
         "sprite": "trainer_sprites/backersf.png",
         "form": 0,
         "evs": {
@@ -137179,7 +137311,7 @@ backup_data = {
           "Barrier"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Marvel Scale",
         "sprite": "trainer_sprites/veteranf.png",
         "form": 0,
         "evs": {
@@ -137524,7 +137656,7 @@ backup_data = {
           "Toxic Spikes"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -137987,7 +138119,7 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Relaxed",
         "moves": [
-          "Razor Shell",
+          "Aqua Cutter",
           "Sacred Sword",
           "Megahorn",
           "Night Slash"
@@ -138050,7 +138182,7 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Sacred Sword",
-          "Razor Shell",
+          "Aqua Cutter",
           "Low Kick",
           "Megahorn"
         ],
@@ -138398,7 +138530,7 @@ backup_data = {
           "Mega Punch"
         ],
         "sub_index": 2,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/colress.png",
         "form": 0,
         "evs": {
@@ -138429,7 +138561,7 @@ backup_data = {
           "Shadow Ball"
         ],
         "sub_index": 4,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -138460,7 +138592,7 @@ backup_data = {
           "Hammer Arm"
         ],
         "sub_index": 5,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/caitlin.png",
         "form": 0,
         "evs": {
@@ -138491,7 +138623,7 @@ backup_data = {
           "Agility"
         ],
         "sub_index": 2,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/colress.png",
         "form": 0,
         "evs": {
@@ -138550,7 +138682,7 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Assurance",
-          "Aerial Ace",
+          "Wing Attack",
           "X-Scissor",
           "Tailwind"
         ],
@@ -140559,14 +140691,14 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Prankster",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 43 Kanto Leader Janine - Driftveil City": {
+      "Lvl 43 Kanto Leader Janine ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -141251,7 +141383,7 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 2,
-        "ability": "Flame Body",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -143567,7 +143699,7 @@ backup_data = {
           "Howl"
         ],
         "sub_index": 0,
-        "ability": "Slush Rush",
+        "ability": "Scrappy",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -143629,7 +143761,7 @@ backup_data = {
           "Amnesia"
         ],
         "sub_index": 0,
-        "ability": "Slush Rush",
+        "ability": "Fluffy",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -147561,7 +147693,7 @@ backup_data = {
           "Work Up"
         ],
         "sub_index": 2,
-        "ability": "Strong Body",
+        "ability": "Overcoat",
         "sprite": "trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -147592,7 +147724,7 @@ backup_data = {
           "Body Press"
         ],
         "sub_index": 2,
-        "ability": "Strong Body",
+        "ability": "Overcoat",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -147656,7 +147788,7 @@ backup_data = {
           "Thunder"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/schoolkid.png",
         "form": 0,
         "evs": {
@@ -147908,7 +148040,7 @@ backup_data = {
           "Thunderbolt"
         ],
         "sub_index": 3,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -147939,7 +148071,7 @@ backup_data = {
           "Surf"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -148346,7 +148478,7 @@ backup_data = {
           "Sludge Bomb"
         ],
         "sub_index": 0,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -149286,7 +149418,7 @@ backup_data = {
           "Draco Meteor"
         ],
         "sub_index": 4,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/marlon.png",
         "form": 0,
         "evs": {
@@ -150581,7 +150713,7 @@ backup_data = {
           "Dazzling Gleam"
         ],
         "sub_index": 0,
-        "ability": "Battle Armor",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -150612,7 +150744,7 @@ backup_data = {
           "Dazzling Gleam"
         ],
         "sub_index": 0,
-        "ability": "Battle Armor",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -150643,7 +150775,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Battle Armor",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -150738,7 +150870,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/schoolkidf.png",
         "form": 0,
         "evs": {
@@ -150769,7 +150901,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/schoolkidf.png",
         "form": 0,
         "evs": {
@@ -151926,7 +152058,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/richboy.png",
         "form": 0,
         "evs": {
@@ -152019,7 +152151,7 @@ backup_data = {
           "Tail Glow"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/richboy.png",
         "form": 0,
         "evs": {
@@ -154293,7 +154425,7 @@ backup_data = {
           "Bulk Up"
         ],
         "sub_index": 3,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -154324,7 +154456,7 @@ backup_data = {
           "Acid Armor"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -154355,7 +154487,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -154386,7 +154518,7 @@ backup_data = {
           "Fling"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -154826,7 +154958,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Chlorophyll",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/backersf.png",
         "form": 0,
         "evs": {
@@ -154857,7 +154989,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Chlorophyll",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/backersf.png",
         "form": 0,
         "evs": {
@@ -155049,7 +155181,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -155491,7 +155623,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -155522,7 +155654,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -158515,7 +158647,7 @@ backup_data = {
           "Night Slash"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/caitlin.png",
         "form": 0,
         "evs": {
@@ -158577,7 +158709,7 @@ backup_data = {
           "Attract"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
@@ -158608,7 +158740,7 @@ backup_data = {
           "Will-O-Wisp"
         ],
         "sub_index": 4,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/cobalion.png",
         "form": 0,
         "evs": {
@@ -159558,7 +159690,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Keen Senses",
+        "ability": "Rain Dish",
         "sprite": "trainer_sprites/pokemonbreeder.png",
         "form": 0,
         "evs": {
@@ -159876,7 +160008,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -159907,7 +160039,7 @@ backup_data = {
           "Toxic"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/ghostlygent.png",
         "form": 0,
         "evs": {
@@ -159969,7 +160101,7 @@ backup_data = {
           "Confuse Ray"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/psychicf.png",
         "form": 0,
         "evs": {
@@ -160607,7 +160739,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Resilient",
+        "ability": "Shield Dust",
         "sprite": "trainer_sprites/nurseryaide.png",
         "form": 0,
         "evs": {
@@ -160881,10 +161013,10 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Flying Gem",
+        "item": "Focus Sash",
         "nature": "Adamant",
         "moves": [
-          "Acrobatics",
+          "Aerial Ace",
           "Zing Zap",
           "U-turn",
           "Tailwind"
@@ -161235,7 +161367,7 @@ backup_data = {
           "Headbutt"
         ],
         "sub_index": 2,
-        "ability": "Flame Body",
+        "ability": "Shield Dust",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -161297,7 +161429,7 @@ backup_data = {
           "Mega Drain"
         ],
         "sub_index": 2,
-        "ability": "Flame Body",
+        "ability": "Shield Dust",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -161768,7 +161900,7 @@ backup_data = {
           "Hail"
         ],
         "sub_index": 4,
-        "ability": "Ice Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -162403,7 +162535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Motorcyclist Duke ": {
+      "Lvl 41 Motorcyclist Duke - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -165181,7 +165313,7 @@ backup_data = {
           "Rock Slide"
         ],
         "sub_index": 1,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/drayden.png",
         "form": 0,
         "evs": {
@@ -165336,7 +165468,7 @@ backup_data = {
           "Sing"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -165367,7 +165499,7 @@ backup_data = {
           "Sing"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -165398,7 +165530,7 @@ backup_data = {
           "Sing"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -165553,7 +165685,7 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -165615,7 +165747,7 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -165646,7 +165778,7 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 3,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -166559,7 +166691,7 @@ backup_data = {
           "Dragon Dance"
         ],
         "sub_index": 4,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/virizion.png",
         "form": 0,
         "evs": {
@@ -170867,7 +170999,7 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 3,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/nurseryaide.png",
         "form": 0,
         "evs": {
@@ -172629,7 +172761,7 @@ backup_data = {
           "Fake Out"
         ],
         "sub_index": 1,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/pokemonbreeder.png",
         "form": 0,
         "evs": {
@@ -172660,7 +172792,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -172691,7 +172823,7 @@ backup_data = {
           "Focus Blast"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/pokefanf.png",
         "form": 0,
         "evs": {
@@ -172757,7 +172889,7 @@ backup_data = {
           "Stun Spore"
         ],
         "sub_index": 3,
-        "ability": "Chlorophyll",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -172788,7 +172920,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Chlorophyll",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -173986,7 +174118,7 @@ backup_data = {
           "Supersonic"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -174079,7 +174211,7 @@ backup_data = {
           "Focus Blast"
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -175907,7 +176039,7 @@ backup_data = {
           "Quiver Dance"
         ],
         "sub_index": 2,
-        "ability": "Resilient",
+        "ability": "Shield Dust",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -177772,7 +177904,7 @@ backup_data = {
           "Scald"
         ],
         "sub_index": 1,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -177865,7 +177997,7 @@ backup_data = {
           "Attract"
         ],
         "sub_index": 1,
-        "ability": "Majestic Ward",
+        "ability": "Multiscale",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -177929,7 +178061,7 @@ backup_data = {
           "Supersonic"
         ],
         "sub_index": 2,
-        "ability": "Keen Senses",
+        "ability": "Rain Dish",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -179732,7 +179864,7 @@ backup_data = {
           "Hypnosis"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/pokefanf.png",
         "form": 0,
         "evs": {
@@ -179763,7 +179895,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -180422,7 +180554,7 @@ backup_data = {
           "Recycle"
         ],
         "sub_index": 3,
-        "ability": "Strong Body",
+        "ability": "Solid Rock",
         "sprite": "trainer_sprites/hoennleader.png",
         "form": 0,
         "evs": {
@@ -180484,7 +180616,7 @@ backup_data = {
           "Scorching Swarm"
         ],
         "sub_index": 2,
-        "ability": "Strong Body",
+        "ability": "Contrary",
         "sprite": "trainer_sprites/backpackerf.png",
         "form": 0,
         "evs": {
@@ -181028,7 +181160,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Motorcyclist Duke ": {
+      "Lvl 41 Motorcyclist Duke - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -181052,7 +181184,7 @@ backup_data = {
           "Baneful Bunker"
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Clear Body",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -181468,7 +181600,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine ": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -181587,7 +181719,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Natural Cure",
+        "ability": "Filter",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -181649,7 +181781,7 @@ backup_data = {
           "Wish"
         ],
         "sub_index": 3,
-        "ability": "Natural Cure",
+        "ability": "Filter",
         "sprite": "trainer_sprites/gamefreak.png",
         "form": 0,
         "evs": {
@@ -182281,7 +182413,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -184430,8 +184562,8 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Thunder Shock",
-          "Covet",
-          "Quick Attack",
+          "Disarming Voice",
+          "Swift",
           "Thunder Wave"
         ],
         "sub_index": 2,
@@ -185858,7 +185990,7 @@ backup_data = {
           "Hypnosis"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/cyclist.png",
         "form": 0,
         "evs": {
@@ -185889,7 +186021,7 @@ backup_data = {
           "Protect"
         ],
         "sub_index": 0,
-        "ability": "Drought",
+        "ability": "Flame Body",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -185982,7 +186114,7 @@ backup_data = {
           "Solar Beam"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -186205,7 +186337,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Keen Senses",
+        "ability": "Compound Eyes",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -186643,7 +186775,7 @@ backup_data = {
           "Crunch"
         ],
         "sub_index": 1,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -187213,7 +187345,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
@@ -188319,7 +188451,7 @@ backup_data = {
         "nature": "Hardy",
         "moves": [
           "Bug Bite",
-          "Aerial Ace",
+          "Wing Attack",
           "Low Sweep",
           "Cut"
         ],
@@ -188459,7 +188591,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine ": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -188620,7 +188752,7 @@ backup_data = {
       }
     },
     "Wigglytuff": {
-      "Lvl 41 Motorcyclist Duke ": {
+      "Lvl 41 Motorcyclist Duke - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -188715,7 +188847,7 @@ backup_data = {
       }
     },
     "Charmeleon": {
-      "Lvl 43 Motorcyclist Duke ": {
+      "Lvl 43 Motorcyclist Duke - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": false,
@@ -190117,8 +190249,8 @@ backup_data = {
         "moves": [
           "Breaking Swipe",
           "Rock Smash",
-          "Aerial Ace",
-          "Dragon Dance"
+          "Metal Claw",
+          "Agility"
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
@@ -191936,7 +192068,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -193840,7 +193972,7 @@ backup_data = {
           "Calm Mind"
         ],
         "sub_index": 0,
-        "ability": "Majestic Ward",
+        "ability": "Water Absorb",
         "sprite": "trainer_sprites/bosstrainer.png",
         "form": 0,
         "evs": {
@@ -193939,7 +194071,7 @@ backup_data = {
           "Charm"
         ],
         "sub_index": 4,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
         "evs": {
@@ -194003,7 +194135,7 @@ backup_data = {
           "Defend Order"
         ],
         "sub_index": 3,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
@@ -194034,7 +194166,7 @@ backup_data = {
           "Natural Gift"
         ],
         "sub_index": 2,
-        "ability": "Majestic Ward",
+        "ability": "Unnerve",
         "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -194707,7 +194839,7 @@ backup_data = {
           "Quiver Dance"
         ],
         "sub_index": 4,
-        "ability": "Majestic Ward",
+        "ability": "Majesty",
         "sprite": "trainer_sprites/sinnohleader.png",
         "form": 0,
         "evs": {
@@ -195223,7 +195355,7 @@ backup_data = {
           "Minimize"
         ],
         "sub_index": 3,
-        "ability": "Illumination",
+        "ability": "Illuminate",
         "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -195479,7 +195611,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 3,
-        "ability": "Hustle",
+        "ability": "Levitate",
         "sprite": "trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -195703,7 +195835,7 @@ backup_data = {
           "Bulldoze",
           "Bug Bite",
           "Counter",
-          "Aerial Ace"
+          "Psychic Fangs"
         ],
         "sub_index": 2,
         "ability": "Arena Trap",
@@ -196362,7 +196494,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Resilient",
+        "ability": "Shield Dust",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
