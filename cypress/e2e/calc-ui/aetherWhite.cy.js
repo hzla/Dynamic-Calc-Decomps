@@ -1,6 +1,12 @@
 const white2BaseRomCalcs = [
-  { title: 'Aether White 2', data: 'aetherwhite' },
-  { title: 'Wishy Washy White 2', data: 'wishywashy' }
+  { title: 'Aether White 2', data: 'aetherwhite', showDex: false },
+  { title: 'Wishy Washy White 2', data: 'wishywashy', showDex: false },
+  {
+    title: 'Wishy Washy White 2 Redux',
+    data: 'wishywashywhite2redux',
+    showDex: true,
+    dexGame: 'wishywashywhite2redux'
+  }
 ]
 
 describe('White 2 base rom calc configuration', () => {
@@ -27,9 +33,17 @@ describe('White 2 base rom calc configuration', () => {
           expect(win.baseGame).to.eq('BW')
           expect(win.eval('baseVersion')).to.eq('BW2')
 
-          expect(win.$('#open-dex').is(':visible')).to.eq(false)
-          expect(win.$('#main-nav-dex').is(':visible')).to.eq(false)
-          expect(win.$('#dex-show').is(':visible')).to.eq(false)
+          expect(win.eval('showDex')).to.eq(calc.showDex)
+          expect(win.$('#main-nav-dex').is(':visible')).to.eq(calc.showDex)
+          expect(win.$('#dex-show').is(':visible')).to.eq(calc.showDex)
+
+          if (!calc.showDex) {
+            expect(win.$('#open-dex').is(':visible')).to.eq(false)
+          }
+
+          if (calc.dexGame) {
+            expect(win.eval('getDexGameQuery()')).to.eq(`game=${calc.dexGame}`)
+          }
         })
       })
 
@@ -42,6 +56,28 @@ describe('White 2 base rom calc configuration', () => {
           expect(win.eval('shouldShowSwitchAiInfo()')).to.eq(true)
         })
       })
+    })
+  })
+
+  it('lists the original and Redux releases as separate romhack cards', () => {
+    cy.visit('./index.html')
+    cy.get('#open-romhack-modal').click()
+
+    cy.get('#romhack-browser-content .romhack-browser-game-title').then(($titles) => {
+      const titles = [...$titles].map((title) => title.textContent.trim())
+
+      expect(titles.filter((title) => title === 'Wishy Washy White 2')).to.have.length(1)
+      expect(titles.filter((title) => title === 'Wishy Washy White 2 Redux')).to.have.length(1)
+    })
+
+    cy.window().then((win) => {
+      const original = win.romhackGameIndex['wishy-washy-white-2']
+      const redux = win.romhackGameIndex['wishy-washy-white-2-redux']
+
+      expect(original.title).to.eq('Wishy Washy White 2')
+      expect(redux.title).to.eq('Wishy Washy White 2 Redux')
+      expect(original.variants[0].source).to.include('data=wishywashy&')
+      expect(redux.variants[0].source).to.include('data=wishywashywhite2redux&')
     })
   })
 })

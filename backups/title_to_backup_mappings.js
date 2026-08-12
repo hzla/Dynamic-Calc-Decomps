@@ -7,6 +7,7 @@ backupFiles = {
 	"Sacred Gold/Storm Silver": "sgss",
 	"Aether White 2": "aetherwhite",
 	"Wishy Washy White 2": "wishywashy",
+	"Wishy Washy White 2 Redux": "wishywashywhite2redux",
 	"Ancestral X": "ax",
 	"Brutal Black": "brutalblack",
 	"Emerald but Bad": "badem",
@@ -61,6 +62,7 @@ backupFiles = {
 sourceTitleAliases = {
 	"aetherwhite": "Aether White 2",
 	"wishywashy": "Wishy Washy White 2",
+	"wishywashywhite2redux": "Wishy Washy White 2 Redux",
 	"ax": "Ancestral X",
 	"brutalblack": "Brutal Black",
 	"badem": "Emerald but Bad",
