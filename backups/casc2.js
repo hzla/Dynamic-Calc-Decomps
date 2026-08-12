@@ -14862,7 +14862,7 @@ backup_data = {
       "abs": [
         "Pickup",
         "Technician",
-        "Exploit"
+        "Unnerve"
       ],
       "evos": [
         "Persian"
@@ -15122,7 +15122,7 @@ backup_data = {
           ],
           [
             34,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -15318,7 +15318,7 @@ backup_data = {
           ],
           [
             34,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             36,
@@ -25960,11 +25960,11 @@ backup_data = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -25980,7 +25980,7 @@ backup_data = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -26121,11 +26121,11 @@ backup_data = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -26141,7 +26141,7 @@ backup_data = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -27908,7 +27908,7 @@ backup_data = {
           ],
           [
             22,
-            "Scary Face"
+            "Block"
           ],
           [
             25,
@@ -29911,7 +29911,7 @@ backup_data = {
           ],
           [
             32,
-            "Liquidation"
+            "Razor Shell"
           ],
           [
             36,
@@ -29927,7 +29927,7 @@ backup_data = {
           ],
           [
             45,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             49,
@@ -30090,7 +30090,7 @@ backup_data = {
           ],
           [
             32,
-            "Liquidation"
+            "Razor Shell"
           ],
           [
             36,
@@ -30106,7 +30106,7 @@ backup_data = {
           ],
           [
             45,
-            "Aqua Tail"
+            "Aqua Cutter"
           ],
           [
             49,
@@ -31393,7 +31393,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
@@ -31409,7 +31409,7 @@ backup_data = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -31552,7 +31552,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Bullet Seed"
           ],
           [
             1,
@@ -31568,7 +31568,7 @@ backup_data = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -31745,7 +31745,7 @@ backup_data = {
           ],
           [
             13,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             15,
@@ -36867,7 +36867,7 @@ backup_data = {
           ],
           [
             50,
-            "Waterfall"
+            "Hydro Pump"
           ]
         ],
         "tms": [
@@ -37048,7 +37048,7 @@ backup_data = {
           ],
           [
             50,
-            "Waterfall"
+            "Hydro Pump"
           ],
           [
             54,
@@ -39117,7 +39117,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Chlorophyll",
+        "Air Lock",
         "Magic Bounce",
         "Solar Power"
       ],
@@ -39445,7 +39445,7 @@ backup_data = {
       "abs": [
         "Distracting",
         "Prankster",
-        "Exploit"
+        "Pickup"
       ],
       "evos": [
         "Honchkrow",
@@ -40080,7 +40080,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Regenerator",
+        "Magic Bounce",
         " -",
         " -"
       ],
@@ -44835,11 +44835,11 @@ backup_data = {
           ],
           [
             27,
-            "Smog"
+            "Bubble Beam"
           ],
           [
             30,
-            "Aqua Tail"
+            "Smog"
           ],
           [
             33,
@@ -44855,7 +44855,7 @@ backup_data = {
           ],
           [
             43,
-            "Sludge Bomb"
+            "Aqua Tail"
           ],
           [
             46,
@@ -52703,7 +52703,7 @@ backup_data = {
         "useItem"
       ],
       "evoParams": [
-        36,
+        30,
         "Dawn Stone"
       ]
     },
@@ -52892,7 +52892,7 @@ backup_data = {
         "Pixilate"
       ],
       "evoType": "level",
-      "evoLevel": 36
+      "evoLevel": 30
     },
     "Surskit": {
       "name": "Surskit",
@@ -55656,7 +55656,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 50,
-        "at": 65,
+        "at": 70,
         "df": 65,
         "sa": 65,
         "sd": 65,
@@ -55844,7 +55844,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 95,
+        "at": 100,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -56182,7 +56182,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Magic Guard",
+        "Magic Bounce",
         "Hyper Cutter",
         "Exploit"
       ]
@@ -61280,19 +61280,19 @@ backup_data = {
           ],
           [
             1,
-            "Teeter Dance"
+            "Vine Whip"
           ],
           [
             1,
-            "Spikes"
+            "Wicked Blow"
           ],
           [
             1,
             "Baneful Bunker"
           ],
           [
-            1,
-            "Wicked Blow"
+            9,
+            "Pin Missile"
           ],
           [
             13,
@@ -61348,11 +61348,19 @@ backup_data = {
           ],
           [
             58,
-            "Leaf Storm"
+            "Teeter Dance"
           ],
           [
             64,
             "Shadow Force"
+          ],
+          [
+            68,
+            "Leaf Storm"
+          ],
+          [
+            73,
+            "Spikes"
           ]
         ],
         "tms": [
@@ -66166,7 +66174,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Regenerator",
+        "Magic Bounce",
         " -",
         " -"
       ],
@@ -67837,7 +67845,7 @@ backup_data = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -67992,7 +68000,7 @@ backup_data = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -68158,7 +68166,7 @@ backup_data = {
           ],
           [
             11,
-            "Scary Face"
+            "Rage"
           ],
           [
             14,
@@ -71766,9 +71774,9 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 65,
-        "df": 50,
+        "df": 49,
         "sa": 40,
-        "sd": 50,
+        "sd": 49,
         "sp": 45
       },
       "learnset_info": {
@@ -71779,7 +71787,7 @@ backup_data = {
           ],
           [
             1,
-            "Nuzzle"
+            "Thunder Shock"
           ],
           [
             4,
@@ -71787,23 +71795,23 @@ backup_data = {
           ],
           [
             7,
-            "Charge"
+            "Swift"
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -71811,7 +71819,7 @@ backup_data = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -71826,12 +71834,16 @@ backup_data = {
             "Thunder Fang"
           ],
           [
+            32,
+            "Quick Attack"
+          ],
+          [
             35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ]
         ],
         "tms": [
@@ -71919,9 +71931,9 @@ backup_data = {
       "bs": {
         "hp": 80,
         "at": 85,
-        "df": 70,
+        "df": 69,
         "sa": 60,
-        "sd": 70,
+        "sd": 69,
         "sp": 60
       },
       "learnset_info": {
@@ -71932,7 +71944,7 @@ backup_data = {
           ],
           [
             1,
-            "Nuzzle"
+            "Thunder Shock"
           ],
           [
             4,
@@ -71940,23 +71952,23 @@ backup_data = {
           ],
           [
             7,
-            "Charge"
+            "Swift"
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -71964,7 +71976,7 @@ backup_data = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -71979,12 +71991,16 @@ backup_data = {
             "Thunder Fang"
           ],
           [
-            37,
+            32,
+            "Quick Attack"
+          ],
+          [
+            35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ],
           [
             42,
@@ -72093,9 +72109,9 @@ backup_data = {
       "bs": {
         "hp": 100,
         "at": 120,
-        "df": 90,
+        "df": 89,
         "sa": 95,
-        "sd": 90,
+        "sd": 89,
         "sp": 70
       },
       "learnset_info": {
@@ -72118,19 +72134,19 @@ backup_data = {
           ],
           [
             10,
-            "Thunder Wave"
+            "Assist"
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            15,
             "Spark"
           ],
           [
+            15,
+            "Double Kick"
+          ],
+          [
             18,
-            "Scary Face"
+            "Charge"
           ],
           [
             21,
@@ -72138,7 +72154,7 @@ backup_data = {
           ],
           [
             25,
-            "Screech"
+            "Nuzzle"
           ],
           [
             28,
@@ -72153,12 +72169,16 @@ backup_data = {
             "Thunder Fang"
           ],
           [
-            37,
+            32,
+            "Quick Attack"
+          ],
+          [
+            35,
             "Crunch"
           ],
           [
             40,
-            "Psychic Fangs"
+            "Roar"
           ],
           [
             42,
@@ -81010,7 +81030,7 @@ backup_data = {
           ],
           [
             27,
-            "Grass Knot"
+            "Magical Leaf"
           ],
           [
             30,
@@ -81171,7 +81191,7 @@ backup_data = {
           ],
           [
             27,
-            "Grass Knot"
+            "Magical Leaf"
           ],
           [
             30,
@@ -82964,7 +82984,7 @@ backup_data = {
           ],
           [
             36,
-            "Zing Zap"
+            "Aqua Cutter"
           ],
           [
             40,
@@ -85594,7 +85614,7 @@ backup_data = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -85768,7 +85788,7 @@ backup_data = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -85960,7 +85980,7 @@ backup_data = {
           ],
           [
             30,
-            "Nature Power"
+            "Magical Leaf"
           ],
           [
             32,
@@ -88423,7 +88443,7 @@ backup_data = {
           ],
           [
             11,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             14,
@@ -88589,7 +88609,7 @@ backup_data = {
           ],
           [
             11,
-            "Bullet Seed"
+            "Magical Leaf"
           ],
           [
             14,
@@ -89608,9 +89628,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Forewarn",
+        "Bad Dreams",
         "Magic Bounce",
-        "Neutralizing Gas"
+        "Synchronize"
       ],
       "evos": [
         "Musharna"
@@ -89793,7 +89813,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Forewarn",
+        "Bad Dreams",
         "Magic Bounce",
         "Neutralizing Gas"
       ],
@@ -94882,7 +94902,7 @@ backup_data = {
           ],
           [
             32,
-            "Aqua Tail"
+            "Waterfall"
           ],
           [
             35,
@@ -95705,8 +95725,8 @@ backup_data = {
       },
       "abs": [
         "Hustle",
-        "Flame Body",
-        "Inner Focus"
+        "Inner Focus",
+        " -"
       ],
       "evos": [
         "Darmanitan",
@@ -95907,7 +95927,7 @@ backup_data = {
       "abs": [
         "Sheer Force",
         "Turboblaze",
-        "Sturdy"
+        " -"
       ],
       "evoType": "useItem",
       "evoLevel": 50,
@@ -98518,9 +98538,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Prankster",
+        "Trace",
         "Infiltrator",
-        "Exploit"
+        "Prankster"
       ],
       "evos": [
         "Zoroark"
@@ -102233,7 +102253,7 @@ backup_data = {
       "abs": [
         "Water Absorb",
         "Merciless",
-        "Gourmand"
+        "Cursed Body"
       ],
       "evos": [
         "Jellicent"
@@ -102403,7 +102423,7 @@ backup_data = {
       "abs": [
         "Water Absorb",
         "Merciless",
-        "Gourmand"
+        "Cursed Body"
       ],
       "evoType": "level",
       "evoLevel": 40
@@ -105027,7 +105047,7 @@ backup_data = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -105039,11 +105059,11 @@ backup_data = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -105192,7 +105212,7 @@ backup_data = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -105204,11 +105224,11 @@ backup_data = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -105371,7 +105391,7 @@ backup_data = {
           ],
           [
             33,
-            "Dragon Tail"
+            "Dual Chop"
           ],
           [
             36,
@@ -105383,11 +105403,11 @@ backup_data = {
           ],
           [
             44,
-            "Psyblade"
+            "Refresh"
           ],
           [
             48,
-            "Dual Chop"
+            "Dragon Claw"
           ],
           [
             53,
@@ -107460,7 +107480,7 @@ backup_data = {
           ],
           [
             11,
-            "Power Trip"
+            "Retaliate"
           ],
           [
             19,
@@ -107480,7 +107500,7 @@ backup_data = {
           ],
           [
             30,
-            "Iron Defense"
+            "Thunder Wave"
           ],
           [
             34,
@@ -107496,7 +107516,7 @@ backup_data = {
           ],
           [
             44,
-            "Scary Face"
+            "Metal Sound"
           ],
           [
             47,
@@ -107567,7 +107587,7 @@ backup_data = {
       },
       "abs": [
         "Defiant",
-        "Hyper Cutter",
+        "Inner Focus",
         "Sturdy"
       ],
       "evos": [
@@ -107616,7 +107636,7 @@ backup_data = {
           ],
           [
             11,
-            "Power Trip"
+            "Retaliate"
           ],
           [
             19,
@@ -107636,7 +107656,7 @@ backup_data = {
           ],
           [
             30,
-            "Iron Defense"
+            "Thunder Wave"
           ],
           [
             34,
@@ -107652,7 +107672,7 @@ backup_data = {
           ],
           [
             44,
-            "Scary Face"
+            "Metal Sound"
           ],
           [
             47,
@@ -114269,7 +114289,7 @@ backup_data = {
           ],
           [
             32,
-            "Aqua Tail"
+            "Waterfall"
           ],
           [
             35,
@@ -114556,7 +114576,7 @@ backup_data = {
       "abs": [
         "Sheer Force",
         "Solid Rock",
-        "Inner Focus"
+        " -"
       ]
     },
     "Meloetta-Pirouette": {
@@ -114895,7 +114915,7 @@ backup_data = {
         "moves": [
           "Mystical Fire",
           "Solar Beam",
-          "Extrasensory",
+          "Confuse Ray",
           "Dazzling Gleam"
         ],
         "sub_index": 0,
@@ -120985,13 +121005,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Wise Glasses",
+        "item": "Focus Sash",
         "nature": "Rash",
         "moves": [
           "Blizzard",
           "Charge Beam",
           "Flash Cannon",
-          "Mean Look"
+          "Surf"
         ],
         "sub_index": 1,
         "ability": "Levitate",
@@ -125250,7 +125270,7 @@ backup_data = {
         "moves": [
           "Solar Blade",
           "Poison Jab",
-          "High Horsepower",
+          "Earthquake",
           "Psychic Fangs"
         ],
         "sub_index": 3,
@@ -127314,7 +127334,7 @@ backup_data = {
         "item": "Bug Gem",
         "nature": "Modest",
         "moves": [
-          "Fairy Wind",
+          "Draining Kiss",
           "Silver Wind",
           "Attract",
           "Quiver Dance"
@@ -137061,7 +137081,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Chlorophyll",
+        "ability": "Air Lock",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -137089,10 +137109,10 @@ backup_data = {
           "Zap Cannon",
           "Solar Beam",
           "Shadow Ball",
-          "Morning Sun"
+          "Sunny Day"
         ],
         "sub_index": 3,
-        "ability": "Chlorophyll",
+        "ability": "Solar Power",
         "sprite": "trainer_sprites/scientistf.png",
         "form": 0,
         "evs": {
@@ -137337,7 +137357,7 @@ backup_data = {
         "nature": "Timid",
         "moves": [
           "Ice Beam",
-          "Thunderbolt",
+          "Charge Beam",
           "Calm Mind",
           "Recover"
         ],
@@ -138810,7 +138830,7 @@ backup_data = {
           "Double Slap",
           "Hyper Voice",
           "Fake Out",
-          "Air Cutter"
+          "Acrobatics"
         ],
         "sub_index": 2,
         "ability": "Refrigerate",
@@ -140291,8 +140311,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Artist Horton - Route 5": {
-        "level": 41,
+      "Lvl 39 Artist Horton - Route 5": {
+        "level": 39,
         "ai": 143,
         "noCh": false,
         "tr_id": 254,
@@ -140307,7 +140327,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "-",
-        "nature": "Bold",
+        "nature": "Quirky",
         "moves": [
           "Reflect Type",
           "-----",
@@ -140526,7 +140546,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Normal Gem",
-        "nature": "Adamant",
+        "nature": "Bold",
         "moves": [
           "Fake Out",
           "Concuss",
@@ -141224,7 +141244,7 @@ backup_data = {
           "Destiny Bond"
         ],
         "sub_index": 1,
-        "ability": "Magic Guard",
+        "ability": "Magic Bounce",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -141252,10 +141272,10 @@ backup_data = {
           "Shadow Punch",
           "Dark Pulse",
           "Power Gem",
-          "Brick Break"
+          "Confuse Ray"
         ],
         "sub_index": 3,
-        "ability": "Magic Guard",
+        "ability": "Magic Bounce",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -141383,7 +141403,7 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 2,
-        "ability": "Inner Focus",
+        "ability": " ",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -141414,7 +141434,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Flame Body",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -142248,10 +142268,10 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Passho Berry",
+        "item": "Rock Gem",
         "nature": "Naughty",
         "moves": [
-          "Bulldoze",
+          "Mud Bomb",
           "Freeze-Dry",
           "Rock Slide",
           "Yawn"
@@ -144812,13 +144832,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Chople Berry",
+        "item": "Scope Lens",
         "nature": "Naive",
         "moves": [
           "Power Gem",
           "Flame Burst",
           "Solar Beam",
-          "Scorching Sands"
+          "Thunder Wave"
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
@@ -145819,7 +145839,7 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 3,
-        "ability": "Friend Guard",
+        "ability": "Serene Grace",
         "sprite": "trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -147558,7 +147578,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Scope Lens",
+        "item": "Mystic Water",
         "nature": "Brave",
         "moves": [
           "Dragon Breath",
@@ -148068,7 +148088,7 @@ backup_data = {
           "Ice Beam",
           "Psychic",
           "Lovely Kiss",
-          "Surf"
+          "Aura Sphere"
         ],
         "sub_index": 0,
         "ability": "Majesty",
@@ -148319,7 +148339,7 @@ backup_data = {
         "moves": [
           "Electroweb",
           "Struggle Bug",
-          "Icy Wind",
+          "Mega Drain",
           "Sticky Web"
         ],
         "sub_index": 1,
@@ -152407,7 +152427,7 @@ backup_data = {
           "Calm Mind"
         ],
         "sub_index": 3,
-        "ability": "Inner Focus",
+        "ability": " ",
         "sprite": "trainer_sprites/oldstatue.png",
         "form": 1,
         "evs": {
@@ -155712,7 +155732,7 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Docile",
         "moves": [
-          "Charge Beam",
+          "Parabolic Zap",
           "Ice Beam",
           "Psychic",
           "Recover"
@@ -157919,7 +157939,7 @@ backup_data = {
         "nature": "Serious",
         "moves": [
           "Ominous Wind",
-          "Air Cutter",
+          "Defog",
           "Shock Wave",
           "Tailwind"
         ],
@@ -163493,7 +163513,7 @@ backup_data = {
           "Calm Mind"
         ],
         "sub_index": 1,
-        "ability": "Forewarn",
+        "ability": "Bad Dreams",
         "sprite": "trainer_sprites/psychicf.png",
         "form": 0,
         "evs": {
@@ -163524,7 +163544,7 @@ backup_data = {
           "Return"
         ],
         "sub_index": 2,
-        "ability": "Forewarn",
+        "ability": "Bad Dreams",
         "sprite": "trainer_sprites/bianca.png",
         "form": 0,
         "evs": {
@@ -163555,7 +163575,7 @@ backup_data = {
           "Return"
         ],
         "sub_index": 2,
-        "ability": "Forewarn",
+        "ability": "Bad Dreams",
         "sprite": "trainer_sprites/bianca.png",
         "form": 0,
         "evs": {
@@ -163586,7 +163606,7 @@ backup_data = {
           "Return"
         ],
         "sub_index": 2,
-        "ability": "Forewarn",
+        "ability": "Bad Dreams",
         "sprite": "trainer_sprites/bianca.png",
         "form": 0,
         "evs": {
@@ -168516,7 +168536,7 @@ backup_data = {
           "Weather Crash",
           "Hurricane",
           "Thunder",
-          "Aqua Jet"
+          "Dragon Dance"
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
@@ -170275,8 +170295,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Harlequin Oswald - Route 7": {
-        "level": 53,
+      "Lvl 47 Harlequin Oswald - Route 7": {
+        "level": 47,
         "ai": 15,
         "noCh": false,
         "tr_id": 528,
@@ -170290,13 +170310,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Starf Berry",
-        "item": "Eviolite",
-        "nature": "Relaxed",
+        "item": "Mascot Badge",
+        "nature": "Serious",
         "moves": [
-          "Ice Fang",
           "Metronome",
           "Protect",
-          "Night Shade"
+          "Night Shade",
+          "Ice Fang"
         ],
         "sub_index": 0,
         "ability": "Moody",
@@ -173611,7 +173631,7 @@ backup_data = {
           "Flamethrower",
           "Beat Up",
           "Rock Tomb",
-          "Pursuit"
+          "Bulldoze"
         ],
         "sub_index": 4,
         "ability": "Intimidate",
@@ -174829,7 +174849,7 @@ backup_data = {
         "item": "Dark Gem",
         "nature": "Sassy",
         "moves": [
-          "Lava Plume",
+          "Fire Lash",
           "Iron Head",
           "Focus Energy",
           "Sucker Punch"
@@ -176128,8 +176148,8 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Sassy",
         "moves": [
-          "Psycho Boost",
-          "Gyro Ball",
+          "Psywave",
+          "Spin Out",
           "Follow Me",
           "Block"
         ],
@@ -176318,7 +176338,7 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Gentle",
         "moves": [
-          "Thunder",
+          "Discharge",
           "Flash Cannon",
           "Volt Switch",
           "Tri Attack"
@@ -178474,7 +178494,7 @@ backup_data = {
           "Icy Wind"
         ],
         "sub_index": 0,
-        "ability": "Keen Senses",
+        "ability": "Magic Guard",
         "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -179046,7 +179066,7 @@ backup_data = {
           "Hone Claws"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -179077,7 +179097,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179108,7 +179128,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179139,7 +179159,7 @@ backup_data = {
           ""
         ],
         "sub_index": 2,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179170,7 +179190,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179201,7 +179221,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179232,7 +179252,7 @@ backup_data = {
           ""
         ],
         "sub_index": 2,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179325,7 +179345,7 @@ backup_data = {
           "Hone Claws"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -179387,7 +179407,7 @@ backup_data = {
           "Hone Claws"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -179449,7 +179469,7 @@ backup_data = {
           "Hone Claws"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -185168,8 +185188,8 @@ backup_data = {
         "moves": [
           "Muddy Water",
           "Ominous Wind",
-          "Strength",
-          "Ice Beam"
+          "Scary Face",
+          "Icy Wind"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
@@ -185230,8 +185250,8 @@ backup_data = {
         "moves": [
           "Muddy Water",
           "Ominous Wind",
-          "Strength",
-          "Ice Beam"
+          "Scary Face",
+          "Icy Wind"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
@@ -185571,7 +185591,7 @@ backup_data = {
         "item": "None",
         "nature": "Bold",
         "moves": [
-          "Wing Attack",
+          "Razor Winds",
           "Bone Club",
           "Night Slash",
           "Metal Claw"
@@ -188709,7 +188729,7 @@ backup_data = {
           "Mega Drain",
           "Incinerate",
           "Nature Power",
-          "Synthesis"
+          "Leech Seed"
         ],
         "sub_index": 3,
         "ability": "Solar Power",
@@ -196423,7 +196443,7 @@ backup_data = {
         "nature": "Bold",
         "moves": [
           "Seed Bomb",
-          "Blaze Kick",
+          "Fire Lash",
           "Slam",
           "Quick Attack"
         ],
