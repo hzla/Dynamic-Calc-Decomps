@@ -62,6 +62,7 @@ const BACKUP_DATA_TYPE_CHART = 13;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 const AETHER_WHITE_2_TITLE = "Aether White 2";
 const WISHY_WASHY_WHITE_2_TITLE = "Wishy Washy White 2";
+const WISHY_WASHY_WHITE_2_REDUX_TITLE = "Wishy Washy White 2 Redux";
 const POKEMON_COLORS_NORMAL_TITLE = "Pokemon Colors Normal";
 const POKEMON_COLORS_CLASSIC_TITLE = "Pokemon Colors Classic";
 const CHALLENGE_MODE_LEVEL_POPUP = "There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.";
@@ -224,7 +225,9 @@ function getDefaultSwitchPreviewEnabled(title) {
 }
 
 function isWhite2BaseRomTitle(title) {
-    return title === AETHER_WHITE_2_TITLE || title === WISHY_WASHY_WHITE_2_TITLE;
+    return title === AETHER_WHITE_2_TITLE ||
+        title === WISHY_WASHY_WHITE_2_TITLE ||
+        title === WISHY_WASHY_WHITE_2_REDUX_TITLE;
 }
 
 function isBlazeBlack2ReduxTitle(title) {
@@ -1281,7 +1284,7 @@ function setGameSettings(title) {
     settings.typeChart = 5;
     settings.critGen = 5;
     save_expansion = false
-    showDex = false;
+    showDex = title === WISHY_WASHY_WHITE_2_REDUX_TITLE;
     showAI = true;
     $('label[for="snow"]').hide()
   } else if (title == "Photonic Sun/Prismatic Moon") {
