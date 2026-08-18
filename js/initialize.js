@@ -1895,6 +1895,21 @@ function scrubPlatinumKaizoRemovedRecoil(title, moveTable, moveTablesByGeneratio
   }
 }
 
+function applyExportedMoveData(target, source, moveName, moveId) {
+  var targetMove = target || {}
+  var existingFlags = targetMove.flags
+  Object.assign(targetMove, source)
+
+  var basePower = source.basePower
+  if (typeof basePower === "undefined") basePower = source.bp
+  targetMove.name = moveName
+  targetMove.id = moveId
+  targetMove.bp = basePower
+  targetMove.basePower = basePower
+  targetMove.flags = Object.assign({}, existingFlags || {}, source.flags || {})
+  return targetMove
+}
+
 function loadMovesData() {
   for (move in moves) {
     var moveId = cleanString(move)
@@ -2024,26 +2039,43 @@ function loadMovesData() {
         
     }
 
-    // if defined in showdown move list
+    var exportedMove = jsonMoves[moveName] || jsonMoves[moveId] || jsonMoves[move]
+
+    // Later-generation names can already exist in the Gen 9 UI table even when
+    // they do not exist in the selected generation. Apply the ROM data instead
+    // of mistaking those vanilla entries for already-loaded custom moves.
     if (moves[moveName]) {
+        moves[moveName] = applyExportedMoveData(moves[moveName], exportedMove, moveName, moveId)
+        MOVES_BY_ID[g][moveId] = applyExportedMoveData(
+          MOVES_BY_ID[g][moveId] || Object.assign({}, MOVES_BY_ID[8][moveId] || {}),
+          exportedMove,
+          moveName,
+          moveId
+        )
+        MOVES_BY_ID[8][moveId] = applyExportedMoveData(MOVES_BY_ID[8][moveId], exportedMove, moveName, moveId)
     } else {
         // custom move
         console.log(`Creating custom move ${moveName}`)
-        jsonMoves[moveName]["flags"] = {}
-        jsonMoves[moveName]["name"] = move
+        exportedMove["flags"] = exportedMove["flags"] || {}
+        exportedMove["name"] = move
 
         if (settings.damageGen == 3) {
-            if (['Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'].includes(jsonMoves[moveName].type)) {
-                jsonMoves[moveName]["category"] = "Physical"
+            if (['Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'].includes(exportedMove.type)) {
+                exportedMove["category"] = "Physical"
             } else {
-                jsonMoves[moveName]["category"] = "Special"
+                exportedMove["category"] = "Special"
             }
         }
 
 
-        moves[moveName] = jsonMoves[moveName]
-        moves[moveName]["bp"] = jsonMoves[moveName]["basePower"]
-        MOVES_BY_ID[8][cleanString(move)] = jsonMoves[moveName]
+        moves[moveName] = applyExportedMoveData(null, exportedMove, moveName, moveId)
+        MOVES_BY_ID[g][moveId] = applyExportedMoveData(
+          Object.assign({}, MOVES_BY_ID[8][moveId] || {}),
+          exportedMove,
+          moveName,
+          moveId
+        )
+        MOVES_BY_ID[8][moveId] = applyExportedMoveData(MOVES_BY_ID[8][moveId], exportedMove, moveName, moveId)
     }
   }
 
