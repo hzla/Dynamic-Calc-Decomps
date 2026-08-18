@@ -929,6 +929,7 @@
                 heldItem: "None",
                 ability: "Unknown",
                 nature: "Unknown",
+                battleCounters: { koCount: 0, battlesBrought: 0, battlesUsed: 0 },
                 moves: [],
             };
         }
@@ -952,6 +953,11 @@
             partySlot: savedMon.partySlot,
             box: savedMon.box,
             boxSlot: savedMon.boxSlot,
+            battleCounters: savedMon.battleCounters || {
+                koCount: Number(savedMon.koCount) || 0,
+                battlesBrought: Number(savedMon.battlesBrought) || 0,
+                battlesUsed: Number(savedMon.battlesUsed) || 0,
+            },
             moves: [],
         };
     }
@@ -1055,7 +1061,8 @@
         };
     }
 
-    function updateSaveFileBattleLog(parsedLog, saveMons, fileName) {
+    function updateSaveFileBattleLog(parsedLog, saveMons, fileName, options) {
+        const settings = options && typeof options === "object" ? options : {};
         const hasLogs = !!(parsedLog && parsedLog.valid && parsedLog.hasLogs && Array.isArray(parsedLog.records));
         try {
             if (!hasLogs) {
@@ -1076,8 +1083,10 @@
                     recordCount: parsedLog.records.length,
                     overflow: !!parsedLog.overflow,
                 }));
-                activeBattleLogSource = "save-file";
-                localStorage.setItem(BATTLE_LOG_ACTIVE_SOURCE_KEY, activeBattleLogSource);
+                if (settings.activate !== false) {
+                    activeBattleLogSource = "save-file";
+                    localStorage.setItem(BATTLE_LOG_ACTIVE_SOURCE_KEY, activeBattleLogSource);
+                }
             }
         } catch (err) {
             console.error("Failed to store save-file battle logs", err);
@@ -1307,6 +1316,14 @@
                 label: "Source: Live Sync",
                 loadedAt: Date.now()
             });
+            if (Number(window.gameGen) === 5
+                && typeof window.syncSaveFileBattleLogFromDsBridge === "function") {
+                try {
+                    await window.syncSaveFileBattleLogFromDsBridge();
+                } catch (saveLogError) {
+                    console.warn("Live battle log synced, but persistent Gen 5 save logs were unavailable", saveLogError);
+                }
+            }
             setBattleLogUploadStatus(`Synced @ ${new Date().toLocaleTimeString()}`, false);
             renderBattleLogView(true);
         } catch (err) {

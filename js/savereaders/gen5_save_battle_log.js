@@ -13,6 +13,11 @@
     const VERSION = 2;
     const HEADER_SIZE = 16;
     const RECORD_SIZE = 14;
+    const BRIDGE_MAGIC = "GBL1";
+    const BRIDGE_HEADER_SIZE = 8;
+    const BRIDGE_RANGE_HEADER_SIZE = 8;
+    const BRIDGE_MAX_RANGE_COUNT = 16;
+    const BRIDGE_MAX_SAVE_SIZE = 0x100000;
     const BLOCKS = [
         { offset: 0x19600, size: 0x1338, capacity: 350 },
         { offset: 0x1AA00, size: 0x07C4, capacity: 140 },
@@ -41,6 +46,30 @@
             | (bytes[offset + 1] << 8)
             | (bytes[offset + 2] << 16)
             | (bytes[offset + 3] << 24)) >>> 0;
+    }
+
+    function decodePokemonCounters(decryptedWords, shiftOrder) {
+        if (!Array.isArray(decryptedWords) || decryptedWords.length < 64
+            || !Array.isArray(shiftOrder) || shiftOrder.length !== 4) {
+            return { koCount: 0, battlesBrought: 0, battlesUsed: 0 };
+        }
+
+        const blockB = shiftOrder.indexOf(1) * 16;
+        const blockC = shiftOrder.indexOf(2) * 16;
+        if (blockB < 0 || blockC < 0) {
+            return { koCount: 0, battlesBrought: 0, battlesUsed: 0 };
+        }
+
+        // The current battle-counter patch stores the KO low byte at logical
+        // PK5 byte 0x43 and the high byte at 0x5E. The other two counters use
+        // the reserved Block B words at 0x44 and 0x46.
+        const koLow = (decryptedWords[blockB + 13] >>> 8) & 0xFF;
+        const koHigh = decryptedWords[blockC + 11] & 0xFF;
+        return {
+            koCount: (koLow | (koHigh << 8)) >>> 0,
+            battlesBrought: decryptedWords[blockB + 14] & 0xFFFF,
+            battlesUsed: decryptedWords[blockB + 15] & 0xFFFF,
+        };
     }
 
     function readBits(bytes, bitOffset, width) {
@@ -184,14 +213,63 @@
         };
     }
 
+    function parseBridgeSnapshot(input) {
+        const bytes = toBytes(input);
+        if (bytes.length < BRIDGE_HEADER_SIZE) {
+            return { valid: false, hasLogs: false, records: [], reason: "bridge-too-short" };
+        }
+
+        const magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
+        const baseVersionId = bytes[4];
+        const rangeCount = bytes[5];
+        if (magic !== BRIDGE_MAGIC || (baseVersionId !== 1 && baseVersionId !== 2)
+            || rangeCount === 0 || rangeCount > BRIDGE_MAX_RANGE_COUNT) {
+            return { valid: false, hasLogs: false, records: [], reason: "invalid-bridge-header" };
+        }
+
+        let cursor = BRIDGE_HEADER_SIZE;
+        let saveSize = 0;
+        const ranges = [];
+        for (let index = 0; index < rangeCount; index += 1) {
+            if (cursor + BRIDGE_RANGE_HEADER_SIZE > bytes.length) {
+                return { valid: false, hasLogs: false, records: [], reason: "truncated-bridge-range-header" };
+            }
+            const offset = readU32(bytes, cursor);
+            const length = readU32(bytes, cursor + 4);
+            cursor += BRIDGE_RANGE_HEADER_SIZE;
+            if (!length || offset > BRIDGE_MAX_SAVE_SIZE || length > BRIDGE_MAX_SAVE_SIZE - offset
+                || cursor + length > bytes.length) {
+                return { valid: false, hasLogs: false, records: [], reason: "invalid-bridge-range" };
+            }
+            ranges.push({ offset, length, cursor });
+            saveSize = Math.max(saveSize, offset + length);
+            cursor += length;
+        }
+        if (cursor !== bytes.length || saveSize > BRIDGE_MAX_SAVE_SIZE) {
+            return { valid: false, hasLogs: false, records: [], reason: "invalid-bridge-length" };
+        }
+
+        const reconstructedSave = new Uint8Array(saveSize);
+        ranges.forEach((range) => {
+            reconstructedSave.set(bytes.subarray(range.cursor, range.cursor + range.length), range.offset);
+        });
+        const parsed = parse(reconstructedSave, { baseVersion: baseVersionId === 2 ? "BW2" : "BW" });
+        parsed.bridge = true;
+        parsed.baseVersion = baseVersionId === 2 ? "BW2" : "BW";
+        return parsed;
+    }
+
     return {
         MAGIC,
         VERSION,
         HEADER_SIZE,
         RECORD_SIZE,
         BLOCKS,
+        BRIDGE_MAGIC,
+        decodePokemonCounters,
         decodeRecord,
         parseCopy,
         parse,
+        parseBridgeSnapshot,
     };
 });

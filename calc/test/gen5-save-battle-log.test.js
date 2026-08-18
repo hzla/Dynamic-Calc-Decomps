@@ -61,6 +61,40 @@ function makeRecord(trainerId, creditedSlot) {
     };
 }
 
+function makeBridgeSnapshot(save, baseVersion) {
+    const secondCopyOffset = baseVersion === "BW2" ? 0x26000 : 0x24000;
+    const ranges = [];
+    for (const copyOffset of [0, secondCopyOffset]) {
+        for (const block of parser.BLOCKS) {
+            ranges.push({ offset: copyOffset + block.offset, size: block.size });
+        }
+    }
+    const totalSize = 8 + ranges.reduce((sum, range) => sum + 8 + range.size, 0);
+    const bridge = new Uint8Array(totalSize);
+    bridge.set(Buffer.from(parser.BRIDGE_MAGIC, "ascii"), 0);
+    bridge[4] = baseVersion === "BW2" ? 2 : 1;
+    bridge[5] = ranges.length;
+    let cursor = 8;
+    ranges.forEach((range) => {
+        writeU32(bridge, cursor, range.offset);
+        writeU32(bridge, cursor + 4, range.size);
+        cursor += 8;
+        bridge.set(save.subarray(range.offset, range.offset + range.size), cursor);
+        cursor += range.size;
+    });
+    return bridge;
+}
+
+function permutations(values) {
+    if (values.length <= 1) return [values.slice()];
+    const result = [];
+    values.forEach((value, index) => {
+        const rest = values.slice(0, index).concat(values.slice(index + 1));
+        permutations(rest).forEach((tail) => result.push([value].concat(tail)));
+    });
+    return result;
+}
+
 describe("Gen 5 save-file battle log decoder", function () {
     test("decodes trainer, party, and both KO attribution directions", function () {
         const decoded = parser.decodeRecord(encodeRecord(makeRecord(219, 1)));
@@ -114,5 +148,45 @@ describe("Gen 5 save-file battle log decoder", function () {
         const result = parser.parse(bytes, { baseVersion: "BW2" });
         expect(result.valid).toBe(false);
         expect(result.hasLogs).toBe(false);
+    });
+
+    test("decodes the split PK5 counters in every block permutation", function () {
+        permutations([0, 1, 2, 3]).forEach((order) => {
+            const words = new Array(64).fill(0);
+            const blockB = order.indexOf(1) * 16;
+            const blockC = order.indexOf(2) * 16;
+            words[blockB + 13] = 0xEF00;
+            words[blockC + 11] = 0x00BE;
+            words[blockB + 14] = 321;
+            words[blockB + 15] = 123;
+            expect(parser.decodePokemonCounters(words, order)).toEqual({
+                koCount: 0xBEEF,
+                battlesBrought: 321,
+                battlesUsed: 123,
+            });
+        });
+    });
+
+    test("reconstructs battle history from a DeSmuME bridge snapshot", function () {
+        const bytes = new Uint8Array(0x42000);
+        initializeCopy(bytes, 0, [1, 0, 0]);
+        writeRecord(bytes, 0, 0, 0, makeRecord(156, 1));
+
+        const result = parser.parseBridgeSnapshot(makeBridgeSnapshot(bytes, "BW2"));
+        expect(result.valid).toBe(true);
+        expect(result.bridge).toBe(true);
+        expect(result.baseVersion).toBe("BW2");
+        expect(result.records).toEqual([makeRecord(156, 1)]);
+    });
+
+    test("rejects a truncated DeSmuME bridge snapshot", function () {
+        const bytes = new Uint8Array(0x42000);
+        initializeCopy(bytes, 0, [1, 0, 0]);
+        writeRecord(bytes, 0, 0, 0, makeRecord(156, 1));
+        const bridge = makeBridgeSnapshot(bytes, "BW2");
+
+        const result = parser.parseBridgeSnapshot(bridge.subarray(0, bridge.length - 1));
+        expect(result.valid).toBe(false);
+        expect(result.reason).toBe("invalid-bridge-range");
     });
 });

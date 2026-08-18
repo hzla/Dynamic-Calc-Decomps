@@ -2904,12 +2904,7 @@ function fetchDsPackedBoxWithClipboardFallback(url, maxAttempts, retryDelayMs) {
 			if (!payload || ((!payload.showdownImport || !payload.showdownImport.trim()) && (!payload.deadMons || !payload.deadMons.length))) {
 				throw new Error("Empty decoded /box/packed payload");
 			}
-			applyImportedSnapshot({
-				showdownImport: payload.showdownImport,
-				deadMons: payload.deadMons,
-				source: "desmume",
-				replaceDeadMons: true,
-			});
+			applyDsPackedBoxSyncPayload(payload);
 			return "endpoint";
 		})
 		.catch(function (firstErr) {
@@ -2931,17 +2926,47 @@ function fetchDsPackedBoxWithClipboardFallback(url, maxAttempts, retryDelayMs) {
 					if (!payload || ((!payload.showdownImport || !payload.showdownImport.trim()) && (!payload.deadMons || !payload.deadMons.length))) {
 						throw new Error("Empty decoded /box/packed payload");
 					}
-					applyImportedSnapshot({
-						showdownImport: payload.showdownImport,
-						deadMons: payload.deadMons,
-						source: "desmume",
-						replaceDeadMons: true,
-					});
+					applyDsPackedBoxSyncPayload(payload);
 					return "endpoint";
 				});
 			});
 		});
 }
+
+function applyDsPackedBoxSyncPayload(payload) {
+	applyImportedSnapshot({
+		showdownImport: payload.showdownImport,
+		deadMons: payload.deadMons,
+		source: "desmume",
+		replaceDeadMons: true,
+	});
+
+	publishDsPackedSaveBattleLog(payload, { activate: false });
+}
+
+function publishDsPackedSaveBattleLog(payload, options) {
+	if (baseGame != "BW" || typeof window.updateSaveFileBattleLog !== "function"
+		|| !payload || !payload.gen5BattleLogData) {
+		return false;
+	}
+	window.updateSaveFileBattleLog(
+		payload.gen5BattleLogData,
+		Array.isArray(payload.gen5BattleLogMons) ? payload.gen5BattleLogMons : [],
+		"DeSmuME live save",
+		options || { activate: false }
+	);
+	return true;
+}
+
+function syncSaveFileBattleLogFromDsBridge() {
+	return fetchLuaBytesOnce(LUA_PLATINUM_PACKED_BOX_URL).then(function (bytes) {
+		var payload = decodeDsPackedBoxPayload(bytes);
+		publishDsPackedSaveBattleLog(payload, { activate: false });
+		return payload.gen5BattleLogData;
+	});
+}
+
+window.syncSaveFileBattleLogFromDsBridge = syncSaveFileBattleLogFromDsBridge;
 
 function readUint16LE(bytes, offset) {
 	if (!bytes || (offset + 1) >= bytes.length) {
@@ -2990,7 +3015,7 @@ function decodeDsPackedBoxPayload(payloadBytes) {
 	}
 
 	var magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
-	if (magic !== "DPB1" && magic !== "DPB2") {
+	if (magic !== "DPB1" && magic !== "DPB2" && magic !== "DPB3") {
 		throw new Error("Unexpected DS packed box header: " + magic);
 	}
 
@@ -3038,7 +3063,8 @@ function decodeDsPackedBoxPayload(payloadBytes) {
 	}
 
 	var deadMons = [];
-	if (magic === "DPB2") {
+	var trailerOffset = expectedLength;
+	if (magic === "DPB2" || magic === "DPB3") {
 		var deadCountOffset = expectedLength;
 		if (bytes.length < deadCountOffset + 2) {
 			throw new Error("Packed DS dead trailer is truncated");
@@ -3071,6 +3097,15 @@ function decodeDsPackedBoxPayload(payloadBytes) {
 				source: "desmume",
 			});
 		}
+		trailerOffset = requiredBytes;
+	}
+
+	var gen5BattleLogData = null;
+	if (magic === "DPB3") {
+		if (!window.Gen5SaveBattleLog || typeof window.Gen5SaveBattleLog.parseBridgeSnapshot !== "function") {
+			throw new Error("Gen 5 save battle-log bridge decoder is unavailable");
+		}
+		gen5BattleLogData = window.Gen5SaveBattleLog.parseBridgeSnapshot(bytes.slice(trailerOffset));
 	}
 
 	return {
@@ -3080,6 +3115,8 @@ function decodeDsPackedBoxPayload(payloadBytes) {
 		deadMons: deadMons,
 		boxCount: boxCount,
 		currentBoxIndex: currentBoxIndex,
+		gen5BattleLogData: gen5BattleLogData,
+		gen5BattleLogMons: Array.isArray(result.gen5BattleLogMons) ? result.gen5BattleLogMons : [],
 	};
 }
 
