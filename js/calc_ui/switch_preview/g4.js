@@ -105,6 +105,28 @@ function isGen4Phase2IgnoredMove(moveName) {
         GEN4_PHASE2_SOURCE_POWER_ONE_MOVES.includes(tableName)
 }
 
+function getGen4Phase1FlagOrderExceptions(gameTitle) {
+    var exceptions = {
+        Ground: ["Aerodactyl", "Skarmory"],
+        Electric: ["Gligar", "Gliscor"]
+    }
+
+    if (gameTitle == "Renegade Platinum") {
+        // Renegade Platinum's expanded Fairy type chart is ordered by defending
+        // type ID. Ground immunity therefore clears Electric's earlier Flying
+        // weakness, while Water weakness is processed after Ground immunity.
+        exceptions.Ground = exceptions.Ground.concat([
+            "Zapdos", "Zubat", "Golbat", "Crobat", "Moltres"
+        ])
+        exceptions.Electric = [
+            "Gastrodon", "Marshtomp", "Swampert", "Barboach",
+            "Whishcash", "Wooper", "Quagsire"
+        ]
+    }
+
+    return exceptions
+}
+
 function getGen4TrainerPreviewDataId(setId) {
     if (typeof getTrainerPreviewDataId === "function") {
         return getTrainerPreviewDataId(setId)
@@ -314,6 +336,7 @@ function get_next_in_g4() {
 
     // get type chart
     var type_info = get_type_info([player_type1, player_type2])
+    var phase1FlagOrderExceptions = getGen4Phase1FlagOrderExceptions(TITLE)
 
     // get mons with SE moves and sort by type matchup and trainer order
     var se_mons = []
@@ -428,36 +451,17 @@ function get_next_in_g4() {
 
 
             if (mov_data) {
-                var groundWeak = ["Aerodactyl","Skarmory"]
-                var electricWeak = ["Gligar", "Gliscor"]
                 var scrappyWeak = ["Sableye", "Spiritomb"]
 
                 if (pok_data.ability == "Normalize") {
                     mov_data["type"] = "Normal"
                 }
 
-                // Fairy type insertion bugs
-                if (TITLE == "Renegade Platinum") {
-                    groundWeak.push("Zapdos")
-                    groundWeak.push("Zubat")
-                    groundWeak.push("Golbat")
-                    groundWeak.push("Crobat")
-                    groundWeak.push("Moltres")
-
-                    electricWeak.push("Gastrodon")
-                    electricWeak.push("Marshtomp")
-                    electricWeak.push("Swampert")
-                    electricWeak.push("Barboach")
-                    electricWeak.push("Whishcash")
-                    electricWeak.push("Wooper")
-                    electricWeak.push("Quagsire")
-                }
-
-                if (mov_data["type"] == "Ground" && groundWeak.includes(player_pok)) {
+                if (mov_data["type"] == "Ground" && phase1FlagOrderExceptions.Ground.includes(player_pok)) {
                     isSE = true
                 }
 
-                if (mov_data["type"] == "Electric" && electricWeak.includes(player_pok)) {
+                if (mov_data["type"] == "Electric" && phase1FlagOrderExceptions.Electric.includes(player_pok)) {
                     isSE = true
                 }
 
@@ -504,6 +508,7 @@ function get_next_in_g4() {
             hasSuperEffectiveMove: isSE,
             score: exact_phase1_score_40
         })
+        console.log(phase1_records)
     }
 
     function get_g4_phase1_stale_score_40() {
