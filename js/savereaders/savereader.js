@@ -539,6 +539,7 @@ function resetParsedPokemonGlobalsForGen4Import() {
     savParty = [];
     boxPokOffsets = {};
     savBox = [];
+    gen5SaveBattleLogMons = [];
 }
 
 function recordDsPartySlotMetadata(options) {
@@ -752,14 +753,21 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
         if (i === 0 && (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS")) {
             showdownImport += tryParseLuaRawPartySlot0WithFallback(chunk, start);
         } else {
-            showdownImport += parsePKM(chunk, true, start);
+            showdownImport += parsePKM(chunk, true, start, {
+                storage: "party",
+                partySlot: i,
+            });
         }
     }
 
     for (let i = 0; i < boxSlotsParsed; i++) {
         const start = i * boxStruct;
         const chunk = boxBytes.slice(start, start + boxStruct);
-        showdownImport += parsePKM(chunk, false, start);
+        showdownImport += parsePKM(chunk, false, start, {
+            storage: "box",
+            box: Math.floor(i / DS_SAVE_SLOTS_PER_BOX) + 1,
+            boxSlot: (i % DS_SAVE_SLOTS_PER_BOX) + 1,
+        });
     }
 
     const deadBoxes = Array.isArray(dump.deadBoxes) ? dump.deadBoxes : [];
@@ -798,6 +806,7 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
         boxSlotsDumped: boxSlotsParsed,
         showdownImport,
         deadMons,
+        gen5BattleLogMons: baseGame == "BW" ? gen5SaveBattleLogMons.slice() : [],
         source: "desmume",
         rawDump: dump,
     };
@@ -1372,6 +1381,10 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     }
 
     if (baseGame == "BW" && parseContext && !isEgg) {
+        var battleCounters = (window.Gen5SaveBattleLog
+            && typeof window.Gen5SaveBattleLog.decodePokemonCounters === "function")
+            ? window.Gen5SaveBattleLog.decodePokemonCounters(decryptedData, shiftOrder)
+            : { koCount: 0, battlesBrought: 0, battlesUsed: 0 }
         gen5SaveBattleLogMons.push({
             rawSpeciesId: rawSpeciesId,
             species: mon_name,
@@ -1402,6 +1415,10 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
             partySlot: Number.isInteger(parseContext.partySlot) ? parseContext.partySlot : null,
             box: Number.isInteger(parseContext.box) ? parseContext.box : null,
             boxSlot: Number.isInteger(parseContext.boxSlot) ? parseContext.boxSlot : null,
+            battleCounters: battleCounters,
+            koCount: battleCounters.koCount,
+            battlesBrought: battleCounters.battlesBrought,
+            battlesUsed: battleCounters.battlesUsed,
             moves: parsedMoveNames.filter(function(moveName) {
                 return typeof moveName === "string" && moveName && moveName !== "-----"
             }),
