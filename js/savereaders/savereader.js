@@ -1111,6 +1111,28 @@ function toLittleEndian(value) {
     return littleEndianValue;
 }
 
+function decodeDsNickname(decryptedData, nicknameDataOffset) {
+    let nickname = ""
+
+    for (let i = 0; i < 10; i++) {
+        const character = decryptedData[nicknameDataOffset + i]
+
+        // Gen 4/5 strings end at the first 0xFFFF. Renaming a Pokemon can
+        // leave characters from its previous name after this terminator.
+        if (character === 0xFFFF) {
+            break
+        }
+
+        if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
+            nickname += textTable[character] || ""
+        } else {
+            nickname += String.fromCharCode(character)
+        }
+    }
+
+    return nickname.replaceAll('\u0000', '')
+}
+
 function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
 
     var showdownString = ""
@@ -1255,23 +1277,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     var spd_ev = decryptedData[mon_data_offset + 10] >> 8 & 0xFF
 
 
-    let nn = ""
-
-
-    
-    for (let i = 0;i < 10;i++) {
-        if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
-            let letter = textTable[decryptedData[nn_data_offset + i]] || ""
-            nn += letter
-        } else {
-            let letter = String.fromCharCode(decryptedData[nn_data_offset + i])
-            if (decryptedData[nn_data_offset + i] != 65535) {
-                nn += letter
-            }  
-        }
-    }
-
-    nn = nn.replaceAll('\u0000', '');
+    let nn = decodeDsNickname(decryptedData, nn_data_offset)
     
     var iv_value = (decryptedData[move_data_offset + 9] << 16) | (decryptedData[move_data_offset + 8]  & 0xFFFF)
     ivs = getIVs(iv_value) 

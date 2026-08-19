@@ -227,7 +227,7 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
     if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
         effectiveness = 1;
     }
-    else if (isDarkRevealed) {
+    else if (isDarkRevealed && type === "Dark") {
         effectiveness = 1;
     }
     else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
