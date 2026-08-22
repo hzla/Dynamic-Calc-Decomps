@@ -657,6 +657,18 @@ function isPKMChunkEmpty(byteArray) {
     return true;
 }
 
+function getDsPkmChecksum(decryptedWords) {
+    if (!Array.isArray(decryptedWords)) {
+        return null;
+    }
+
+    var checksum = 0;
+    for (var i = 0; i < decryptedWords.length; i++) {
+        checksum = (checksum + (decryptedWords[i] & 0xFFFF)) & 0xFFFF;
+    }
+    return checksum;
+}
+
 function rewriteUint8FromWordsLE(targetBytes, byteOffset, words) {
     const bytes = convert16BitWordsToUint8Array(words);
     targetBytes.set(bytes, byteOffset);
@@ -699,6 +711,10 @@ function tryParseLuaRawPartySlot0WithFallback(chunk, offset=0) {
 
 function isDsSaveEggPokemon(monName, ivValue) {
     return monName === "Egg" || monName === "Bad Egg" || ((ivValue >>> 30) & 0x1) === 1;
+}
+
+function isDsSaveBadEggSpecies(monName) {
+    return monName === "Bad Egg";
 }
 
 // Parse a DS PokeLua/DeSmuME Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
@@ -1165,6 +1181,42 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
 
     const decryptedData = decryptData(encryptedData, checksum);
 
+    var mon_data_offset = shiftOrder.indexOf(0) * 16
+    var move_data_offset = shiftOrder.indexOf(1) * 16
+    var met_data_offset = shiftOrder.indexOf(3) * 16
+    var nn_data_offset = shiftOrder.indexOf(2) * 16
+    var partySlotIndex = is_party ? (
+        parseContext && Number.isInteger(parseContext.partySlot)
+            ? parseContext.partySlot
+            : decryptedBattleStats.length
+    ) : -1
+    var decryptedChecksum = getDsPkmChecksum(decryptedData)
+    if (decryptedChecksum !== checksum) {
+        console.warn("[savereader] Skipping Pokemon slot with invalid DS PKM checksum", {
+            isParty: Boolean(is_party),
+            offset: offset,
+            storedChecksum: checksum,
+            calculatedChecksum: decryptedChecksum,
+            pid: pv >>> 0,
+            pidHex: "0x" + (pv >>> 0).toString(16).toUpperCase(),
+            speciesId: decryptedData[mon_data_offset] || 0,
+        })
+        if (is_party) {
+            recordDsPartySlotMetadata({
+                slotIndex: partySlotIndex,
+                speciesName: "",
+                rawSpeciesId: decryptedData[mon_data_offset] || 0,
+                pv: pv,
+                decryptedData: decryptedData,
+                monDataOffset: mon_data_offset,
+                moveDataOffset: move_data_offset,
+                valid: false,
+                isEgg: false,
+            });
+        }
+        return ""
+    }
+
     if (is_party) {
         const encryptedBattleStat = []
         for (let j = 0; j < 100; j += 2) {
@@ -1173,16 +1225,20 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
         }
 
         const decryptedBattleStat = decryptData(encryptedBattleStat, pv, battleStatSize)
-        decryptedBattleStats.push(decryptedBattleStat)
+        if (parseContext && Number.isInteger(parseContext.partySlot)) {
+            decryptedBattleStats[parseContext.partySlot] = decryptedBattleStat
+        } else {
+            decryptedBattleStats.push(decryptedBattleStat)
+        }
     }
     
     // Store decrypted chunk
     decryptedChunks.push(decryptedData);
-    
-    var mon_data_offset = shiftOrder.indexOf(0) * 16
-    var move_data_offset = shiftOrder.indexOf(1) * 16
-    var met_data_offset = shiftOrder.indexOf(3) * 16
-    var nn_data_offset = shiftOrder.indexOf(2) * 16
+    partySlotIndex = is_party ? (
+        parseContext && Number.isInteger(parseContext.partySlot)
+            ? parseContext.partySlot
+            : decryptedBattleStats.length - 1
+    ) : -1
     var gender_forme_word = decryptedData[move_data_offset + 12]
     var gender = ""
     if (((gender_forme_word >> 2) & 0x1) === 1) {
@@ -1194,7 +1250,6 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     }
 
     var rawSpeciesId = decryptedData[mon_data_offset]
-    var partySlotIndex = is_party ? decryptedBattleStats.length - 1 : -1
     if (!Number.isInteger(rawSpeciesId) || rawSpeciesId <= 0) {
         if (is_party) {
             recordDsPartySlotMetadata({
@@ -1255,7 +1310,29 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
         mon_name = "Farfetch’d"
     }
 
-    
+    if (isDsSaveBadEggSpecies(mon_name)) {
+        console.warn("[savereader] Skipping Bad Egg slot", {
+            isParty: Boolean(is_party),
+            offset: offset,
+            speciesId: rawSpeciesId,
+            pid: pv >>> 0,
+            pidHex: "0x" + (pv >>> 0).toString(16).toUpperCase(),
+        })
+        if (is_party) {
+            recordDsPartySlotMetadata({
+                slotIndex: partySlotIndex,
+                speciesName: mon_name,
+                rawSpeciesId: rawSpeciesId,
+                pv: pv,
+                decryptedData: decryptedData,
+                monDataOffset: mon_data_offset,
+                moveDataOffset: move_data_offset,
+                valid: false,
+                isEgg: true,
+            });
+        }
+        return ""
+    }
 
     if (mon_name in mon_forms) {
         var form_index = (decryptedData[move_data_offset + 12] >> 3 & 0x1F) - 1 
@@ -2172,6 +2249,8 @@ if (typeof module !== "undefined" && module.exports) {
         ensureHgeSaveIncludeTables,
         hasHgeRomSpecies,
         resolveHgeSaveFormName,
+        getDsPkmChecksum,
+        isDsSaveBadEggSpecies,
         parsePKM,
         encryptData,
     };
