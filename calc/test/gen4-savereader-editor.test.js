@@ -169,7 +169,7 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     decrypted[36] = 5;
     decrypted[37] = 6;
 
-    var checksum = 0x1234;
+    var checksum = reader.getDsPkmChecksum(decrypted);
     var encrypted = reader.encryptData(decrypted, checksum);
     var chunk = new Uint8Array(136);
     chunk[6] = checksum & 0xFF;
@@ -205,6 +205,71 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
 
     expect(Array.from(chunk).some(function (byte) { return byte !== 0; })).toBe(true);
     expect(reader.parsePKM(chunk, false, 0x510)).toBe("");
+  });
+
+  test("skips DS Pokemon chunks with invalid checksums", function () {
+    global.baseGame = "BW";
+    global.gameGen = 5;
+    global.gen = 5;
+    global.blockOrders = [[0, 1, 2, 3]];
+
+    var decrypted = Array(64).fill(0);
+    decrypted[0] = 179;
+    var checksum = 0x1234;
+    expect(reader.getDsPkmChecksum(decrypted)).not.toBe(checksum);
+
+    var encrypted = reader.encryptData(decrypted, checksum);
+    var chunk = new Uint8Array(136);
+    chunk[6] = checksum & 0xFF;
+    chunk[7] = (checksum >>> 8) & 0xFF;
+    for (var i = 0; i < encrypted.length; i++) {
+      chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
+      chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
+    }
+
+    expect(reader.parsePKM(chunk, false, 0x18e08)).toBe("");
+    expect(console.warn).toHaveBeenCalledWith(
+      "[savereader] Skipping Pokemon slot with invalid DS PKM checksum",
+      expect.objectContaining({
+        offset: 0x18e08,
+        storedChecksum: checksum,
+      })
+    );
+  });
+
+  test("skips literal Bad Egg species from Cascade-style custom tables", function () {
+    global.baseGame = "BW";
+    global.gameGen = 5;
+    global.gen = 5;
+    global.blockOrders = [[0, 1, 2, 3]];
+    global.sav_pok_names = [];
+    global.sav_pok_names[651] = "Bad Egg";
+    global.SPECIES_BY_ID = [];
+    global.SPECIES_BY_ID[5] = { badegg: { name: "Bad Egg" } };
+    global.cleanString = function (value) {
+      return String(value || "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    };
+
+    var decrypted = Array(64).fill(0);
+    decrypted[0] = 651;
+    var checksum = reader.getDsPkmChecksum(decrypted);
+    var encrypted = reader.encryptData(decrypted, checksum);
+    var chunk = new Uint8Array(136);
+    chunk[6] = checksum & 0xFF;
+    chunk[7] = (checksum >>> 8) & 0xFF;
+    for (var i = 0; i < encrypted.length; i++) {
+      chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
+      chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
+    }
+
+    expect(reader.parsePKM(chunk, false, 0x400)).toBe("");
+    expect(console.warn).toHaveBeenCalledWith(
+      "[savereader] Skipping Bad Egg slot",
+      expect.objectContaining({
+        offset: 0x400,
+        speciesId: 651,
+      })
+    );
   });
 
   test("resolves the first HGE alternate form instead of skipping form index zero", function () {
