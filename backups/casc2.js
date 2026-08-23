@@ -123924,7 +123924,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 0,
-        "ability": "Gourmand",
+        "ability": "Berserk",
         "sprite": "trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -161506,7 +161506,7 @@ backup_data = {
           "Teeter Dance"
         ],
         "sub_index": 0,
-        "ability": "Minus",
+        "ability": "Sand Veil",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -163477,7 +163477,7 @@ backup_data = {
           "Psychic Fangs"
         ],
         "sub_index": 2,
-        "ability": "Intimidate",
+        "ability": "Tinted Lens",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -163508,7 +163508,7 @@ backup_data = {
           "Pursuit"
         ],
         "sub_index": 3,
-        "ability": "Intimidate",
+        "ability": "Tinted Lens",
         "sprite": "trainer_sprites/kantoleader.png",
         "form": 0,
         "evs": {
