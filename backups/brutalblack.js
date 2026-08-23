@@ -2059,7 +2059,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 15,
-      "accuracy": 90,
+      "accuracy": 100,
       "priority": 0,
       "e_id": 118,
       "secondaries": true
@@ -2901,7 +2901,7 @@ backup_data = {
     "Luster Purge": {
       "type": "Psychic",
       "basePower": 120,
-      "category": "Special",
+      "category": "Physical",
       "pp": 5,
       "accuracy": 100,
       "priority": 0,
@@ -3678,7 +3678,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 15,
-      "accuracy": 100,
+      "accuracy": 101,
       "priority": 0,
       "e_id": 232,
       "secondaries": true
@@ -5133,7 +5133,7 @@ backup_data = {
     },
     "Frost Breath": {
       "type": "Ice",
-      "basePower": 50,
+      "basePower": 40,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
@@ -5204,7 +5204,7 @@ backup_data = {
     },
     "Heart Stamp": {
       "type": "Psychic",
-      "basePower": 60,
+      "basePower": 70,
       "category": "Physical",
       "pp": 25,
       "accuracy": 100,
@@ -5606,7 +5606,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -5640,6 +5640,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -5750,7 +5753,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -5784,6 +5787,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -5896,7 +5902,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -6022,7 +6028,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -6061,6 +6067,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -6159,7 +6168,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -6198,6 +6207,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -6299,7 +6311,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -6430,7 +6442,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -6466,6 +6478,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -6559,7 +6574,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -6594,6 +6609,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -6690,7 +6708,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -6775,6 +6793,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         7
       ]
@@ -6821,6 +6842,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -6907,7 +6931,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -7027,6 +7051,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         7
       ]
@@ -7074,6 +7101,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -7152,7 +7182,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Brick Break",
@@ -7269,7 +7299,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -7299,6 +7329,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -7387,7 +7420,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -7417,6 +7450,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -7506,7 +7542,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunder",
           "Return",
@@ -7623,7 +7659,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -7661,6 +7697,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -7758,7 +7797,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -7878,7 +7917,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -7909,6 +7948,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -7998,7 +8040,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -8110,7 +8152,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -8144,6 +8186,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -8235,7 +8280,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -8361,7 +8406,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -8399,6 +8444,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Thunderstone"
@@ -8500,7 +8548,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -8613,7 +8661,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Earthquake",
           "Return",
@@ -8653,6 +8701,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -8735,7 +8786,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Smack Down",
           "Earthquake",
@@ -8862,7 +8913,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -8898,6 +8949,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -8991,7 +9045,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -9029,6 +9083,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -9125,7 +9182,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -9281,7 +9338,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -9317,6 +9374,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -9426,7 +9486,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -9462,6 +9522,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -9574,7 +9637,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -9709,7 +9772,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -9756,6 +9819,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -9845,7 +9911,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -9965,7 +10031,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Return",
@@ -9999,6 +10065,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Fire Stone"
@@ -10083,7 +10152,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -10197,7 +10266,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -10245,6 +10314,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -10332,7 +10404,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -10421,7 +10493,11 @@ backup_data = {
             "Mega Drain"
           ],
           [
-            15,
+            13,
+            "Air Cutter"
+          ],
+          [
+            16,
             "Bite"
           ],
           [
@@ -10433,12 +10509,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -10451,6 +10535,10 @@ backup_data = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -10475,7 +10563,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -10507,6 +10595,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -10555,7 +10646,11 @@ backup_data = {
             "Mega Drain"
           ],
           [
-            15,
+            13,
+            "Air Cutter"
+          ],
+          [
+            16,
             "Bite"
           ],
           [
@@ -10567,12 +10662,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -10585,6 +10688,10 @@ backup_data = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -10610,7 +10717,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -10643,6 +10750,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -10748,7 +10858,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -10778,6 +10888,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         21
@@ -10883,7 +10996,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -10916,6 +11029,10 @@ backup_data = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         35,
@@ -11023,7 +11140,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -11129,7 +11246,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -11166,6 +11283,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -11250,7 +11370,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -11365,7 +11485,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -11393,6 +11513,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -11480,7 +11603,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -11593,7 +11716,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earthquake",
           "Return",
           "Dig",
@@ -11631,6 +11754,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -11721,7 +11847,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -11848,7 +11974,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -11889,6 +12015,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -11986,7 +12115,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -12112,7 +12241,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -12149,6 +12278,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -12242,7 +12374,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -12364,7 +12496,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -12411,6 +12543,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -12503,7 +12638,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -12640,7 +12775,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Return",
           "Dig",
@@ -12676,6 +12811,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Fire Stone"
@@ -12775,7 +12913,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -12885,7 +13023,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -12915,6 +13053,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -12995,7 +13136,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -13033,6 +13174,10 @@ backup_data = {
       "evoMethods": [
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8
       ],
       "evoParams": [
         "Water Stone",
@@ -13125,7 +13270,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -13228,7 +13373,7 @@ backup_data = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -13243,7 +13388,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -13282,6 +13427,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -13350,7 +13498,7 @@ backup_data = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -13365,7 +13513,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -13404,6 +13552,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -13472,7 +13623,7 @@ backup_data = {
           ],
           [
             50,
-            "Luster Purge"
+            "Psystrike"
           ],
           [
             62,
@@ -13488,7 +13639,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -13605,7 +13756,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -13647,6 +13798,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -13732,7 +13886,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -13774,6 +13928,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -13860,7 +14017,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -13980,7 +14137,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -14010,6 +14167,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -14095,7 +14255,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -14125,6 +14285,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -14211,7 +14374,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -14316,7 +14479,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -14351,6 +14514,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -14434,7 +14600,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -14549,7 +14715,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -14589,6 +14755,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -14677,7 +14846,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -14717,6 +14886,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -14807,7 +14979,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -14924,7 +15096,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -14959,6 +15131,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -15044,7 +15219,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -15157,7 +15332,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -15201,6 +15376,10 @@ backup_data = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         37,
@@ -15287,7 +15466,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -15411,7 +15590,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -15445,6 +15624,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -15531,7 +15713,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -15566,6 +15748,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -15646,7 +15831,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Brick Break",
           "Double Team",
@@ -15761,7 +15946,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -15794,6 +15979,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -15884,7 +16072,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -16005,7 +16193,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -16036,6 +16224,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         34
       ]
@@ -16053,7 +16244,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 100,
+        "hp": 110,
         "at": 65,
         "df": 70,
         "sa": 110,
@@ -16130,7 +16321,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -16243,7 +16434,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16284,6 +16475,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         38
@@ -16375,7 +16569,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16492,7 +16686,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -16519,6 +16713,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Water Stone"
@@ -16601,7 +16798,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -16705,7 +16902,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16713,6 +16910,7 @@ backup_data = {
           "Psychic",
           "Shadow Ball",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -16742,6 +16940,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -16824,7 +17025,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16832,6 +17033,7 @@ backup_data = {
           "Psychic",
           "Shadow Ball",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -16864,6 +17066,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -16947,7 +17152,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -16957,6 +17162,7 @@ backup_data = {
           "Shadow Ball",
           "Brick Break",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Torment",
           "Facade",
@@ -16973,6 +17179,7 @@ backup_data = {
           "Shadow Claw",
           "Payback",
           "Giga Impact",
+          "Self-Destruct",
           "Poison Jab",
           "Dream Eater",
           "Swagger",
@@ -17085,7 +17292,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -17125,6 +17332,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -17220,7 +17430,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -17256,6 +17466,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -17352,7 +17565,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -17454,7 +17667,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -17492,6 +17705,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -17567,7 +17783,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -17672,7 +17888,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -17706,6 +17922,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -17780,7 +17999,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -17890,7 +18109,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -17926,6 +18145,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Leaf Stone"
@@ -18012,7 +18234,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -18121,7 +18343,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -18164,6 +18386,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -18247,7 +18472,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -18352,7 +18577,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -18461,7 +18686,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -18563,7 +18788,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -18614,6 +18839,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -18692,7 +18920,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -18730,6 +18958,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -18809,7 +19040,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -18930,7 +19161,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -18972,6 +19203,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -19064,7 +19298,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -19115,6 +19349,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -19220,7 +19457,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -19343,7 +19580,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Return",
@@ -19377,6 +19614,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -19466,7 +19706,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -19579,7 +19819,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -19607,6 +19847,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -19682,7 +19925,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -19711,6 +19954,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         44
@@ -19783,7 +20029,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -19812,6 +20058,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -19885,7 +20134,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -19971,7 +20220,7 @@ backup_data = {
           ],
           [
             56,
-            "Luster Purge"
+            "Psycho Boost"
           ],
           [
             70,
@@ -19996,7 +20245,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -20030,6 +20279,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Water Stone"
@@ -20095,7 +20347,7 @@ backup_data = {
           ],
           [
             56,
-            "Luster Purge"
+            "Psycho Boost"
           ],
           [
             70,
@@ -20122,7 +20374,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -20247,7 +20499,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -20364,7 +20616,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -20398,6 +20650,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level with Item + Day"
+      ],
+      "evoMethodIds": [
+        19
       ],
       "evoParams": [
         "Metal Coat"
@@ -20496,7 +20751,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -20628,7 +20883,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -20666,6 +20921,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -20756,6 +21014,10 @@ backup_data = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
@@ -20763,7 +21025,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Psychic",
@@ -20800,6 +21062,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -20886,7 +21151,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -20979,8 +21244,16 @@ backup_data = {
             "Close Combat"
           ],
           [
+            52,
+            "Double-Edge"
+          ],
+          [
             55,
             "Rock Climb"
+          ],
+          [
+            57,
+            "Superpower"
           ],
           [
             60,
@@ -20998,7 +21271,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -21116,6 +21389,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         20
       ]
@@ -21195,7 +21471,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -21309,7 +21585,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -21447,7 +21723,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -21557,6 +21833,15 @@ backup_data = {
         "Level with Item + Day",
         "Level with Item + Day"
       ],
+      "evoMethodIds": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
       "evoParams": [
         "Miracle Seed",
         "NeverMeltIce",
@@ -21645,7 +21930,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -21754,7 +22039,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -21864,7 +22149,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -21887,6 +22172,7 @@ backup_data = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Wild Charge",
           "Rock Smash",
           "Strength"
         ]
@@ -21976,7 +22262,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -22013,6 +22299,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -22090,7 +22379,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -22126,6 +22415,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -22204,7 +22496,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -22323,7 +22615,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -22358,6 +22650,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -22449,7 +22744,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -22568,7 +22863,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -22687,7 +22982,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -22817,7 +23112,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -22931,7 +23226,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -23049,7 +23344,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -23170,7 +23465,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -23202,6 +23497,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -23294,7 +23592,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -23326,6 +23624,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -23422,7 +23723,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -23574,7 +23875,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -23720,7 +24021,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -23907,7 +24208,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -23939,6 +24240,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -24039,7 +24343,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -24073,6 +24377,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -24174,7 +24481,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -24289,7 +24596,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Dig",
@@ -24321,6 +24628,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -24410,7 +24720,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Dig",
@@ -24445,6 +24755,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -24535,7 +24848,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -24665,7 +24978,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -24701,6 +25014,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -24798,7 +25114,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -24836,6 +25152,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -24934,7 +25253,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -25053,7 +25372,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -25092,6 +25411,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -25179,7 +25501,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -25303,7 +25625,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -25336,6 +25658,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -25426,7 +25751,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -25532,7 +25857,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -25567,6 +25892,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -25649,7 +25977,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -25760,7 +26088,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -25792,6 +26120,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -25875,7 +26206,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -25947,6 +26278,10 @@ backup_data = {
             "Mega Drain"
           ],
           [
+            13,
+            "Air Cutter"
+          ],
+          [
             16,
             "Bite"
           ],
@@ -25959,12 +26294,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            32,
+            "Air Slash"
+          ],
+          [
             35,
             "Aerial Ace"
           ],
           [
             39,
             "Taunt"
+          ],
+          [
+            42,
+            "Sludge Bomb"
           ],
           [
             44,
@@ -25977,6 +26320,10 @@ backup_data = {
           [
             52,
             "Haze"
+          ],
+          [
+            54,
+            "Aeroblast"
           ],
           [
             56,
@@ -26002,7 +26349,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -26110,7 +26457,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -26144,6 +26491,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -26227,7 +26577,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -26308,7 +26658,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -26393,7 +26743,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -26481,7 +26831,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -26602,7 +26952,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -26642,6 +26992,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -26732,7 +27085,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -26777,6 +27130,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -26876,7 +27232,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -26915,6 +27271,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -27015,7 +27374,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -27136,7 +27495,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -27167,6 +27526,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -27255,7 +27617,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -27291,6 +27653,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -27381,7 +27746,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -27513,7 +27878,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -27622,7 +27987,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -27656,6 +28021,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -27742,7 +28110,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -27855,7 +28223,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -27965,7 +28333,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -28098,7 +28466,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -28128,6 +28496,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -28229,7 +28600,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -28259,6 +28630,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -28361,7 +28735,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Double Team",
@@ -28467,7 +28841,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -28589,7 +28963,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -28620,6 +28994,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -28709,7 +29086,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -28817,7 +29194,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -28846,6 +29223,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -28923,7 +29303,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -28960,6 +29340,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -29038,7 +29421,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -29158,7 +29541,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -29267,7 +29650,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -29355,7 +29738,7 @@ backup_data = {
             "Tailwind"
           ],
           [
-            46,
+            44,
             "Night Slash"
           ],
           [
@@ -29381,7 +29764,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -29418,6 +29801,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Dusk Stone"
@@ -29503,7 +29889,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -29613,6 +29999,10 @@ backup_data = {
           [
             50,
             "Future Sight"
+          ],
+          [
+            65,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -29621,7 +30011,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -29660,6 +30050,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Dusk Stone"
@@ -29816,7 +30209,11 @@ backup_data = {
             "Psychic"
           ],
           [
-            60,
+            58,
+            "Psycho Boost"
+          ],
+          [
+            65,
             "Luster Purge"
           ]
         ],
@@ -29827,7 +30224,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -29945,7 +30342,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -29979,6 +30376,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -30066,7 +30466,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -30186,7 +30586,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -30315,7 +30715,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -30364,6 +30764,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -30467,7 +30870,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -30591,7 +30994,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -30638,6 +31041,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         23
@@ -30730,7 +31136,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -30869,7 +31275,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Shadow Ball",
@@ -30977,7 +31383,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -31096,7 +31502,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -31228,7 +31634,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -31349,7 +31755,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -31396,6 +31802,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -31484,7 +31893,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -31525,6 +31934,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -31614,7 +32026,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -31721,7 +32133,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Double Team",
@@ -31753,6 +32165,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         38
@@ -31826,7 +32241,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -31947,7 +32362,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -31978,6 +32393,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -32066,7 +32484,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -32099,6 +32517,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -32167,7 +32588,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -32284,7 +32705,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -32320,6 +32741,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -32407,7 +32831,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -32529,7 +32953,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -32632,7 +33056,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -32676,10 +33100,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 80,
         "at": 100,
         "df": 140,
-        "sa": 55,
+        "sa": 45,
         "sd": 70,
         "sp": 70
       },
@@ -32744,7 +33168,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Double Team",
           "Sandstorm",
@@ -32774,7 +33198,7 @@ backup_data = {
       },
       "abs": [
         "Rock Head",
-        "Battle Armor",
+        "Filter",
         "Weak Armor"
       ]
     },
@@ -32863,7 +33287,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -32902,6 +33326,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -32993,7 +33420,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -33100,7 +33527,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -33197,7 +33624,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -33227,6 +33654,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -33304,7 +33734,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -33414,7 +33844,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -33451,6 +33881,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -33531,8 +33964,12 @@ backup_data = {
             "Wonder Room"
           ],
           [
-            60,
+            55,
             "Double-Edge"
+          ],
+          [
+            60,
+            "Luster Purge"
           ]
         ],
         "tms": [
@@ -33542,7 +33979,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -33683,7 +34120,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -33719,6 +34156,11 @@ backup_data = {
         "Item Use",
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8,
+        8
       ],
       "evoParams": [
         "Fire Stone",
@@ -33797,7 +34239,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -33921,7 +34363,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -33956,6 +34398,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -34056,7 +34501,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -34090,6 +34535,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -34180,13 +34628,17 @@ backup_data = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Return",
           "Psychic",
@@ -34219,6 +34671,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -34301,7 +34756,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -34441,7 +34896,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -34576,7 +35031,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -34698,7 +35153,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -34825,7 +35280,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -34943,7 +35398,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -34981,6 +35436,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -35071,7 +35529,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -35110,6 +35568,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -35205,7 +35666,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -35354,7 +35815,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -35493,7 +35954,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -35626,7 +36087,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -35760,7 +36221,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -35800,6 +36261,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -35905,7 +36369,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -35948,6 +36412,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -36057,7 +36524,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -36199,7 +36666,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Double Team",
@@ -36237,6 +36704,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -36343,7 +36813,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -36387,6 +36857,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -36495,7 +36968,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -36636,7 +37109,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -36671,6 +37144,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -36772,7 +37248,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -36812,6 +37288,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -36915,7 +37394,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -37038,7 +37517,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -37071,6 +37550,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -37161,7 +37643,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -37285,7 +37767,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -37323,6 +37805,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -37423,7 +37908,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -37509,6 +37994,10 @@ backup_data = {
         "Level Requirement + PID Greater Than 5",
         "Level Requirement + PID Less Than 5"
       ],
+      "evoMethodIds": [
+        12,
+        13
+      ],
       "evoParams": [
         7,
         7
@@ -37560,6 +38049,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         10
@@ -37634,7 +38126,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -37710,6 +38202,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         10
       ]
@@ -37784,7 +38279,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -37898,7 +38393,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -37932,6 +38427,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -38023,7 +38521,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -38062,6 +38560,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -38154,7 +38655,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -38277,7 +38778,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -38311,6 +38812,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -38404,7 +38908,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -38450,6 +38954,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -38543,7 +39050,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -38672,7 +39179,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -38702,6 +39209,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -38791,7 +39301,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -38899,7 +39409,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -38929,6 +39439,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -39016,7 +39529,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -39125,7 +39638,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -39165,6 +39678,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -39248,7 +39764,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -39290,6 +39806,10 @@ backup_data = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         36,
@@ -39376,7 +39896,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -39504,7 +40024,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -39533,6 +40053,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -39628,7 +40151,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -39746,7 +40269,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -39776,6 +40299,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         23
@@ -39875,7 +40401,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -40000,7 +40526,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -40040,6 +40566,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -40133,7 +40662,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -40177,6 +40706,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -40271,7 +40803,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -40382,7 +40914,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -40412,6 +40944,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -40486,7 +41021,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -40597,7 +41132,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -40703,7 +41238,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -40735,6 +41270,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -40814,7 +41352,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -40856,6 +41394,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -40937,7 +41478,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -41061,7 +41602,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -41099,6 +41640,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         24
@@ -41188,7 +41732,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -41278,7 +41822,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -41373,7 +41917,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -41411,6 +41955,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -41510,7 +42057,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -41552,6 +42099,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -41652,7 +42202,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -41779,7 +42329,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -41914,7 +42464,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -42039,7 +42589,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -42073,6 +42623,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -42159,7 +42712,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -42194,6 +42747,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         42
@@ -42285,7 +42841,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -42384,7 +42940,7 @@ backup_data = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             30,
@@ -42392,7 +42948,7 @@ backup_data = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             35,
@@ -42411,6 +42967,10 @@ backup_data = {
             "Drain Punch"
           ],
           [
+            56,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -42427,7 +42987,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -42465,6 +43025,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -42549,6 +43112,10 @@ backup_data = {
             "Drain Punch"
           ],
           [
+            56,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -42566,7 +43133,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Psychic",
@@ -42690,7 +43257,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -42725,6 +43292,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -42819,7 +43389,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -42925,7 +43495,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -43035,7 +43605,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -43151,7 +43721,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -43229,10 +43799,6 @@ backup_data = {
             "Moonlight"
           ],
           [
-            17,
-            "Encore"
-          ],
-          [
             21,
             "Psybeam"
           ],
@@ -43271,7 +43837,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -43397,7 +43963,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -43430,6 +43996,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Shiny Stone"
@@ -43507,7 +44076,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -43537,6 +44106,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -43615,7 +44187,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Earthquake",
@@ -43726,7 +44298,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -43759,6 +44331,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -43847,7 +44422,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -43956,7 +44531,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -43969,6 +44544,7 @@ backup_data = {
           "Round",
           "Echoed Voice",
           "Scald",
+          "Explosion",
           "Bulldoze",
           "Self-Destruct",
           "Swagger",
@@ -43990,6 +44566,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -44069,7 +44648,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -44082,6 +44661,7 @@ backup_data = {
           "Round",
           "Echoed Voice",
           "Scald",
+          "Explosion",
           "Giga Impact",
           "Bulldoze",
           "Self-Destruct",
@@ -44187,7 +44767,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Earthquake",
           "Return",
@@ -44225,6 +44805,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         33
@@ -44319,7 +44902,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -44435,7 +45018,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -44563,7 +45146,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -44597,6 +45180,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -44694,7 +45280,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -44785,12 +45371,16 @@ backup_data = {
             "Superpower"
           ],
           [
+            38,
+            "Double-Edge"
+          ],
+          [
             40,
             "Psycho Boost"
           ],
           [
-            40,
-            "Double-Edge"
+            42,
+            "Luster Purge"
           ],
           [
             44,
@@ -44807,7 +45397,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -44928,7 +45518,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -44960,6 +45550,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -45050,7 +45643,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -45084,6 +45677,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -45176,7 +45772,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -45297,7 +45893,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -45331,6 +45927,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -45421,7 +46020,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -45541,7 +46140,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -45572,6 +46171,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -45666,7 +46268,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -45788,7 +46390,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -45917,7 +46519,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -46026,7 +46628,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -46151,7 +46753,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Smack Down",
@@ -46268,7 +46870,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -46300,6 +46902,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -46378,7 +46983,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -46501,7 +47106,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -46542,6 +47147,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -46638,7 +47246,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -46759,7 +47367,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -46805,6 +47413,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -46890,7 +47501,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -47007,7 +47618,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -47043,6 +47654,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -47120,7 +47734,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -47255,7 +47869,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Return",
@@ -47292,6 +47906,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -47394,7 +48011,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Earthquake",
@@ -47502,7 +48119,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -47530,6 +48147,10 @@ backup_data = {
       "evoMethods": [
         "Level Requirement",
         "Trade with Held Item"
+      ],
+      "evoMethodIds": [
+        4,
+        6
       ],
       "evoParams": [
         20,
@@ -47605,7 +48226,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -47650,7 +48271,7 @@ backup_data = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -47688,27 +48309,19 @@ backup_data = {
           ],
           [
             40,
-            "Ice Beam"
-          ],
-          [
-            40,
             "Flamethrower"
           ],
           [
             40,
-            "Thunderbolt"
+            "Ice Beam"
           ],
           [
             40,
             "Aeroblast"
           ],
           [
-            50,
-            "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
+            40,
+            "Thunderbolt"
           ],
           [
             50,
@@ -47717,6 +48330,14 @@ backup_data = {
           [
             50,
             "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -47731,7 +48352,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
@@ -47765,6 +48386,18 @@ backup_data = {
         "Forecast",
         "",
         "Trace"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Castform-Sunny",
+        "Castform-Rainy",
+        "Castform-Snowy"
+      ],
+      "formeOrder": [
+        "Castform",
+        "Castform-Sunny",
+        "Castform-Rainy",
+        "Castform-Snowy"
       ]
     },
     "Kecleon": {
@@ -47849,7 +48482,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -47975,7 +48608,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -48011,6 +48644,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -48098,7 +48734,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -48236,7 +48872,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -48271,6 +48907,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -48379,7 +49018,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -48421,6 +49060,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -48516,7 +49158,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Earthquake",
@@ -48643,7 +49285,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -48678,8 +49320,7 @@ backup_data = {
       "name": "Absol",
       "num": 359,
       "types": [
-        "Dark",
-        "Psychic"
+        "Dark"
       ],
       "items": [
         "None",
@@ -48711,6 +49352,10 @@ backup_data = {
           [
             13,
             "Quick Attack"
+          ],
+          [
+            15,
+            "Psybeam"
           ],
           [
             17,
@@ -48745,6 +49390,10 @@ backup_data = {
             "Leaf Blade"
           ],
           [
+            51,
+            "Luster Purge"
+          ],
+          [
             55,
             "Perish Song"
           ],
@@ -48767,7 +49416,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -48812,8 +49461,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Magic Bounce",
+        "Rattled",
+        "Justified",
         "Super Luck"
       ]
     },
@@ -48880,6 +49529,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         15
       ]
@@ -48944,7 +49596,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -48972,6 +49624,10 @@ backup_data = {
       "evoMethods": [
         "Level Requirement",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        4,
+        8
       ],
       "evoParams": [
         30,
@@ -49052,7 +49708,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Earthquake",
@@ -49169,7 +49825,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -49203,6 +49859,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -49293,7 +49952,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -49328,6 +49987,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         32
       ]
@@ -49345,7 +50007,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 100,
+        "hp": 110,
         "at": 110,
         "df": 130,
         "sa": 65,
@@ -49399,6 +50061,10 @@ backup_data = {
             "Avalanche"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Slack Off"
           ],
@@ -49418,7 +50084,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -49493,7 +50159,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -49522,6 +50188,10 @@ backup_data = {
       "evoMethods": [
         "Item Use",
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8,
+        8
       ],
       "evoParams": [
         "Dusk Stone",
@@ -49602,7 +50272,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -49702,7 +50372,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -49822,7 +50492,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Smack Down",
@@ -49865,7 +50535,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Heart Scale",
+        "None",
         "None",
         "None"
       ],
@@ -49935,7 +50605,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -50047,7 +50717,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -50080,6 +50750,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -50171,7 +50844,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -50204,6 +50877,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -50297,7 +50973,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -50399,6 +51075,10 @@ backup_data = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -50415,6 +51095,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -50487,6 +51170,10 @@ backup_data = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -50498,7 +51185,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -50538,6 +51225,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -50610,6 +51300,10 @@ backup_data = {
             "Meteor Mash"
           ],
           [
+            60,
+            "Luster Purge"
+          ],
+          [
             65,
             "Heavy Slam"
           ]
@@ -50621,7 +51315,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -50737,7 +51431,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -50857,7 +51551,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -50983,7 +51677,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -51130,7 +51824,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -51283,7 +51977,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -51412,7 +52106,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -51530,7 +52224,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -51663,7 +52357,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -51809,7 +52503,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -51936,7 +52630,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -51983,6 +52677,18 @@ backup_data = {
         "Pressure",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Deoxys-Attack",
+        "Deoxys-Defense",
+        "Deoxys-Speed"
+      ],
+      "formeOrder": [
+        "Deoxys",
+        "Deoxys-Attack",
+        "Deoxys-Defense",
+        "Deoxys-Speed"
       ]
     },
     "Turtwig": {
@@ -52067,7 +52773,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -52099,6 +52805,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         18
@@ -52187,7 +52896,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -52221,6 +52930,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -52311,7 +53023,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -52453,7 +53165,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -52494,6 +53206,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -52605,7 +53320,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Brick Break",
@@ -52652,6 +53367,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -52709,15 +53427,15 @@ backup_data = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Ice Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -52766,7 +53484,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -52898,7 +53616,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -52935,6 +53653,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -53025,7 +53746,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -53065,6 +53786,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -53158,7 +53882,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -53279,7 +54003,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -53308,6 +54032,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         14
@@ -53392,7 +54119,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -53422,6 +54149,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -53507,7 +54237,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -53619,7 +54349,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -53656,6 +54386,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -53748,7 +54481,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -53877,6 +54610,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         10
       ]
@@ -53963,7 +54699,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -54086,7 +54822,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -54119,6 +54855,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -54216,7 +54955,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -54249,6 +54988,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -54347,7 +55089,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -54429,7 +55171,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -54550,7 +55292,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -54663,7 +55405,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -54706,6 +55448,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         30
       ]
@@ -54725,10 +55470,10 @@ backup_data = {
       "bs": {
         "hp": 97,
         "at": 150,
-        "df": 80,
-        "sa": 65,
-        "sd": 60,
-        "sp": 78
+        "df": 100,
+        "sa": 15,
+        "sd": 80,
+        "sp": 88
       },
       "learnset_info": {
         "learnset": [
@@ -54795,7 +55540,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -54923,7 +55668,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -54955,7 +55700,7 @@ backup_data = {
       },
       "abs": [
         "Shield Dust",
-        "Soundproof",
+        "",
         "Soundproof"
       ],
       "evos": [
@@ -54963,6 +55708,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -55052,7 +55800,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Thunderbolt",
@@ -55085,7 +55833,7 @@ backup_data = {
       },
       "abs": [
         "Shield Dust",
-        "Soundproof",
+        "",
         "Soundproof"
       ]
     },
@@ -55166,6 +55914,10 @@ backup_data = {
         "Level Requirement + Female",
         "Level Requirement + Male"
       ],
+      "evoMethodIds": [
+        24,
+        23
+      ],
       "evoParams": [
         20,
         20
@@ -55240,7 +55992,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -55268,6 +56020,16 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
+      ],
+      "formeOrder": [
+        "Wormadam",
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
       ]
     },
     "Mothim": {
@@ -55347,7 +56109,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -55463,6 +56225,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         21
       ]
@@ -55545,7 +56310,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -55663,7 +56428,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -55736,11 +56501,11 @@ backup_data = {
           ],
           [
             15,
-            "Bubble Beam"
+            "Whirlpool"
           ],
           [
             19,
-            "Soak"
+            "Swift"
           ],
           [
             23,
@@ -55751,16 +56516,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            29,
+            "Icy Wind"
+          ],
+          [
             31,
+            "Scald"
+          ],
+          [
+            33,
             "Waterfall"
           ],
           [
             35,
-            "Swift"
-          ],
-          [
-            38,
-            "Icy Wind"
+            "Fake Out"
           ],
           [
             42,
@@ -55769,10 +56538,6 @@ backup_data = {
           [
             50,
             "Aqua Tail"
-          ],
-          [
-            55,
-            "Fake Out"
           ],
           [
             62,
@@ -55786,7 +56551,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -55821,6 +56586,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         26
@@ -55866,11 +56634,11 @@ backup_data = {
           ],
           [
             15,
-            "Bubble Beam"
+            "Whirlpool"
           ],
           [
             19,
-            "Soak"
+            "Swift"
           ],
           [
             23,
@@ -55881,16 +56649,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            29,
+            "Icy Wind"
+          ],
+          [
             31,
+            "Scald"
+          ],
+          [
+            33,
             "Waterfall"
           ],
           [
             35,
-            "Swift"
-          ],
-          [
-            38,
-            "Icy Wind"
+            "Fake Out"
           ],
           [
             42,
@@ -55899,10 +56671,6 @@ backup_data = {
           [
             50,
             "Aqua Tail"
-          ],
-          [
-            55,
-            "Fake Out"
           ],
           [
             62,
@@ -55919,7 +56687,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -56024,7 +56792,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -56052,6 +56820,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -56129,7 +56900,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -56238,7 +57009,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -56265,6 +57036,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -56351,7 +57125,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -56469,7 +57243,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -56514,6 +57288,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -56599,7 +57376,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -56641,6 +57418,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         28
@@ -56727,7 +57507,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -56861,7 +57641,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -56895,6 +57675,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -56998,7 +57781,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Thunderbolt",
@@ -57098,6 +57881,10 @@ backup_data = {
           [
             50,
             "Future Sight"
+          ],
+          [
+            65,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -57108,7 +57895,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -57200,7 +57987,7 @@ backup_data = {
             "Tailwind"
           ],
           [
-            46,
+            44,
             "Night Slash"
           ],
           [
@@ -57227,7 +58014,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -57352,7 +58139,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -57393,6 +58180,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -57489,7 +58279,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -57623,7 +58413,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -57656,6 +58446,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -57752,7 +58545,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -57790,6 +58583,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -57887,7 +58683,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -58010,7 +58806,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -58050,6 +58846,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         33
@@ -58142,7 +58941,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -58261,7 +59060,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Return",
           "Dig",
@@ -58291,6 +59090,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -58398,7 +59200,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -58439,6 +59241,9 @@ backup_data = {
       ],
       "evoMethods": [
         "After Learning Specific Move"
+      ],
+      "evoMethodIds": [
+        21
       ],
       "evoParams": [
         "Mimic"
@@ -58492,7 +59297,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -58530,6 +59335,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level with Item + Day"
+      ],
+      "evoMethodIds": [
+        19
       ],
       "evoParams": [
         "Oval Stone"
@@ -58624,7 +59432,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -58728,7 +59536,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -58850,7 +59658,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -58889,6 +59697,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         24
@@ -58981,7 +59792,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -59020,6 +59831,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -59113,7 +59927,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -59236,7 +60050,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -59279,6 +60093,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -59373,7 +60190,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -59413,6 +60230,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -59511,7 +60331,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -59631,7 +60451,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -59661,6 +60481,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -59746,7 +60569,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Smack Down",
           "Earthquake",
           "Return",
@@ -59868,7 +60691,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -59910,6 +60733,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -60011,7 +60837,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -60140,7 +60966,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -60186,6 +61012,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -60278,7 +61107,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -60375,6 +61204,10 @@ backup_data = {
             "Synthesis"
           ],
           [
+            35,
+            "Knock Off"
+          ],
+          [
             37,
             "Crunch"
           ],
@@ -60400,7 +61233,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -60516,7 +61349,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -60550,6 +61383,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         31
@@ -60642,7 +61478,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -60754,7 +61590,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -60786,6 +61622,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level With Party Member"
+      ],
+      "evoMethodIds": [
+        22
       ],
       "evoParams": [
         "Remoraid"
@@ -60876,7 +61715,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -60909,6 +61748,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -61000,7 +61842,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -61120,7 +61962,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -61246,7 +62088,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -61347,7 +62189,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -61484,7 +62326,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -61607,7 +62449,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Earthquake",
@@ -61745,7 +62587,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -61871,6 +62713,10 @@ backup_data = {
           [
             65,
             "Focus Blast"
+          ],
+          [
+            70,
+            "Inferno"
           ]
         ],
         "tms": [
@@ -61879,7 +62725,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Solar Beam",
@@ -62006,7 +62852,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -62128,7 +62974,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Psychic",
@@ -62231,7 +63077,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -62342,7 +63188,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -62457,7 +63303,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -62586,7 +63432,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Smack Down",
@@ -62695,7 +63541,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -62800,6 +63646,10 @@ backup_data = {
             "Wide Guard"
           ],
           [
+            58,
+            "Luster Purge"
+          ],
+          [
             62,
             "Close Combat"
           ],
@@ -62818,7 +63668,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -62946,7 +63796,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -63086,7 +63936,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -63199,7 +64049,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -63292,6 +64142,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -63299,7 +64153,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -63319,13 +64173,30 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
-        "Levitate"
+        "Telepathy"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Rotom-Heat",
+        "Rotom-Wash",
+        "Rotom-Frost",
+        "Rotom-Fan",
+        "Rotom-Mow"
+      ],
+      "formeOrder": [
+        "Rotom",
+        "Rotom-Heat",
+        "Rotom-Wash",
+        "Rotom-Frost",
+        "Rotom-Fan",
+        "Rotom-Mow"
       ]
     },
     "Uxie": {
@@ -63406,7 +64277,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -63525,7 +64396,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -63642,7 +64513,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -63772,7 +64643,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -63904,7 +64775,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -64032,7 +64903,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Earthquake",
@@ -64274,7 +65145,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -64315,6 +65186,14 @@ backup_data = {
         "Pressure",
         "",
         "Telepathy"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Giratina-Origin"
+      ],
+      "formeOrder": [
+        "Giratina",
+        "Giratina-Origin"
       ]
     },
     "Cresselia": {
@@ -64396,7 +65275,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -64502,7 +65381,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -64612,7 +65491,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -64724,7 +65603,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -64849,7 +65728,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -64873,6 +65752,14 @@ backup_data = {
         "Natural Cure",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Shaymin-Sky"
+      ],
+      "formeOrder": [
+        "Shaymin",
+        "Shaymin-Sky"
       ]
     },
     "Arceus": {
@@ -64967,7 +65854,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -65133,7 +66020,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -65284,7 +66171,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -65318,6 +66205,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -65429,7 +66319,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -65463,6 +66353,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -65575,7 +66468,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -65701,7 +66594,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -65737,6 +66630,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -65835,7 +66731,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Return",
@@ -65880,6 +66776,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -65980,7 +66879,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -66122,7 +67021,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -66162,6 +67061,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         17
@@ -66265,7 +67167,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -66305,6 +67207,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -66409,7 +67314,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -66534,7 +67439,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -66565,6 +67470,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         15
@@ -66659,7 +67567,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -66783,7 +67691,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -66817,6 +67725,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -66909,7 +67820,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Return",
@@ -66946,6 +67857,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         32
@@ -67039,7 +67953,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Thunderbolt",
           "Thunder",
@@ -67158,7 +68072,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -67195,6 +68109,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         20
@@ -67285,7 +68202,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -67412,7 +68329,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -67450,6 +68367,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -67548,7 +68468,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -67674,7 +68594,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -67715,6 +68635,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -67809,7 +68732,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -67940,7 +68863,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -67980,6 +68903,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -68076,7 +69002,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -68200,7 +69126,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -68238,6 +69164,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -68328,7 +69257,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -68438,7 +69367,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -68457,8 +69386,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Rivalry"
       ],
       "evos": [
@@ -68466,6 +69395,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -68546,7 +69478,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -68565,8 +69497,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Rivalry"
       ],
       "evos": [
@@ -68574,6 +69506,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -68656,7 +69591,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -68678,8 +69613,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Big Pecks",
         "Unburden",
+        "",
         "Super Luck"
       ]
     },
@@ -68766,7 +69701,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -68797,6 +69732,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -68886,7 +69824,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -68907,7 +69845,8 @@ backup_data = {
           "Swagger",
           "Natural Gift",
           "Wild Charge",
-          "Rock Smash"
+          "Rock Smash",
+          "Strength"
         ]
       },
       "abs": [
@@ -68963,11 +69902,11 @@ backup_data = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -68989,7 +69928,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -69026,6 +69965,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -69078,11 +70020,11 @@ backup_data = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -69104,7 +70046,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Thunderbolt",
@@ -69141,6 +70083,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -69193,11 +70138,11 @@ backup_data = {
           ],
           [
             29,
-            "Power Gem"
+            "Flash Cannon"
           ],
           [
             33,
-            "Flash Cannon"
+            "Power Gem"
           ],
           [
             36,
@@ -69220,7 +70165,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Solar Beam",
           "Smack Down",
@@ -69345,7 +70290,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -69388,6 +70333,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -69484,7 +70432,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -69606,7 +70554,7 @@ backup_data = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -69646,6 +70594,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -69735,7 +70686,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -69837,6 +70788,10 @@ backup_data = {
           [
             50,
             "Follow Me"
+          ],
+          [
+            60,
+            "Protect"
           ]
         ],
         "tms": [
@@ -69849,7 +70804,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -69984,7 +70939,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -70022,6 +70977,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -70119,7 +71077,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Return",
@@ -70157,6 +71115,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -70256,7 +71217,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -70370,7 +71331,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -70399,6 +71360,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -70482,7 +71446,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Return",
@@ -70513,6 +71477,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -70598,7 +71565,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -70717,7 +71684,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -70837,7 +71804,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earthquake",
           "Return",
@@ -70953,7 +71920,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -70984,6 +71951,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -71069,7 +72039,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -71100,6 +72070,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -71187,7 +72160,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -71303,7 +72276,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -71333,6 +72306,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         16
@@ -71418,7 +72394,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -71448,6 +72424,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -71534,7 +72513,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Earthquake",
           "Return",
@@ -71655,7 +72634,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -71684,6 +72663,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Sun Stone"
@@ -71777,7 +72759,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Solar Beam",
           "Return",
@@ -71899,7 +72881,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -71931,6 +72913,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Sun Stone"
@@ -72027,7 +73012,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Dark Pulse",
@@ -72092,12 +73077,20 @@ backup_data = {
             "Aqua Jet"
           ],
           [
+            1,
+            "Water Gun"
+          ],
+          [
             7,
             "Bite"
           ],
           [
             13,
             "Screech"
+          ],
+          [
+            21,
+            "Snarl"
           ],
           [
             21,
@@ -72108,6 +73101,10 @@ backup_data = {
             "Ice Fang"
           ],
           [
+            25,
+            "Aurora Beam"
+          ],
+          [
             30,
             "Scald"
           ],
@@ -72116,8 +73113,20 @@ backup_data = {
             "Crunch"
           ],
           [
+            36,
+            "Dark Pulse"
+          ],
+          [
+            36,
+            "Surf"
+          ],
+          [
             40,
             "Waterfall"
+          ],
+          [
+            60,
+            "Night Daze"
           ],
           [
             60,
@@ -72126,6 +73135,10 @@ backup_data = {
           [
             70,
             "Reversal"
+          ],
+          [
+            70,
+            "Hydro Cannon"
           ]
         ],
         "tms": [
@@ -72133,7 +73146,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -72153,9 +73166,17 @@ backup_data = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Adaptability",
+        "",
         "Mold Breaker"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Basculin-Blue-Striped"
+      ],
+      "formeOrder": [
+        "Basculin",
+        "Basculin-Blue-Striped"
       ]
     },
     "Sandile": {
@@ -72166,7 +73187,7 @@ backup_data = {
         "Dark"
       ],
       "items": [
-        "None",
+        "Leppa Berry",
         "None",
         "None"
       ],
@@ -72214,11 +73235,11 @@ backup_data = {
           ],
           [
             30,
-            "Thunder Punch"
+            "Fire Punch"
           ],
           [
             30,
-            "Fire Punch"
+            "Thunder Punch"
           ],
           [
             33,
@@ -72255,7 +73276,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Earthquake",
@@ -72294,6 +73315,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         25
@@ -72396,7 +73420,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Earthquake",
@@ -72442,6 +73466,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -72547,7 +73574,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Dark Pulse",
           "Smack Down",
@@ -72674,7 +73701,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Return",
           "Dig",
@@ -72714,6 +73741,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -72802,7 +73832,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Smack Down",
           "Earthquake",
@@ -72845,6 +73875,14 @@ backup_data = {
         "Sheer Force",
         "",
         "Zen Mode"
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Darmanitan-Zen"
+      ],
+      "formeOrder": [
+        "Darmanitan",
+        "Darmanitan-Zen"
       ]
     },
     "Maractus": {
@@ -72938,7 +73976,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Safeguard",
           "Solar Beam",
@@ -73047,7 +74085,7 @@ backup_data = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Smack Down",
           "Earthquake",
@@ -73087,6 +74125,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -73176,7 +74217,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -73313,7 +74354,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -73357,6 +74398,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         39
@@ -73462,7 +74506,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -73603,7 +74647,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Solar Beam",
@@ -73717,7 +74761,7 @@ backup_data = {
           "Calm Mind",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -73752,6 +74796,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         46
@@ -73837,7 +74884,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -73958,7 +75005,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -73996,6 +75043,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -74090,7 +75140,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -74216,7 +75266,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -74257,6 +75307,9 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
         37
       ]
@@ -74275,11 +75328,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 150,
+        "at": 140,
         "df": 65,
-        "sa": 110,
+        "sa": 112,
         "sd": 65,
-        "sp": 112
+        "sp": 110
       },
       "learnset_info": {
         "learnset": [
@@ -74352,7 +75405,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Earth Power",
           "Smack Down",
           "Earthquake",
@@ -74387,7 +75440,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Klutz",
+        "Run Away",
         "",
         ""
       ]
@@ -74476,7 +75529,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74504,6 +75557,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -74594,7 +75650,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Smack Down",
@@ -74704,7 +75760,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74742,6 +75798,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         30
@@ -74827,7 +75886,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -74955,7 +76014,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -74988,6 +76047,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Item Use"
+      ],
+      "evoMethodIds": [
+        8
       ],
       "evoParams": [
         "Shiny Stone"
@@ -75081,7 +76143,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Thunderbolt",
@@ -75202,7 +76264,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75243,6 +76305,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -75338,7 +76403,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75379,6 +76444,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         41
@@ -75475,7 +76543,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75604,7 +76672,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75642,6 +76710,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -75736,7 +76807,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75774,6 +76845,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         41
@@ -75869,7 +76943,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -75993,7 +77067,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -76022,6 +77096,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -76112,7 +77189,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -76211,7 +77288,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -76239,6 +77316,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         22
@@ -76317,7 +77397,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -76346,6 +77426,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         47
@@ -76426,7 +77509,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -76539,7 +77622,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -76574,6 +77657,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         34
@@ -76667,7 +77753,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -76794,7 +77880,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -76910,7 +77996,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -76940,6 +78026,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -77032,7 +78121,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -77153,12 +78242,13 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
           "Return",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Facade",
           "Rest",
@@ -77183,6 +78273,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         39
@@ -77281,12 +78374,13 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Solar Beam",
           "Return",
           "Double Team",
+          "Sludge Wave",
           "Sludge Bomb",
           "Facade",
           "Rest",
@@ -77385,7 +78479,7 @@ backup_data = {
           "Taunt",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -77416,7 +78510,7 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Rain Dish",
         "Damp"
       ],
       "evos": [
@@ -77424,6 +78518,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         40
@@ -77507,7 +78604,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -77539,7 +78636,7 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Rain Dish",
         "Damp"
       ]
     },
@@ -77628,7 +78725,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -77738,7 +78835,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -77773,6 +78870,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         36
@@ -77862,7 +78962,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -77979,7 +79079,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Thunderbolt",
           "Return",
@@ -78011,6 +79111,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -78101,7 +79204,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Solar Beam",
           "Thunderbolt",
           "Thunder",
@@ -78217,7 +79320,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -78248,6 +79351,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -78331,7 +79437,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -78362,6 +79468,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         49
@@ -78445,7 +79554,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Thunderbolt",
           "Thunder",
           "Earthquake",
@@ -78526,11 +79635,11 @@ backup_data = {
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             35,
@@ -78578,8 +79687,11 @@ backup_data = {
       "evoMethods": [
         "Level Requirement"
       ],
+      "evoMethodIds": [
+        4
+      ],
       "evoParams": [
-        39
+        25
       ]
     },
     "Eelektrik": {
@@ -78678,7 +79790,7 @@ backup_data = {
           "Dragon Pulse",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -78711,6 +79823,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         44
@@ -78816,7 +79931,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -78943,7 +80058,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -78986,6 +80101,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         42
@@ -79077,7 +80195,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -79198,7 +80316,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -79237,6 +80355,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -79323,7 +80444,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -79362,6 +80483,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         55
@@ -79449,7 +80573,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -79580,7 +80704,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -79617,6 +80741,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -79718,7 +80845,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -79757,6 +80884,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -79859,7 +80989,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Earthquake",
@@ -79985,7 +81115,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -80020,6 +81150,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         37
@@ -80114,7 +81247,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -80227,7 +81360,7 @@ backup_data = {
           "Ice Beam",
           "Blizzard",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -80340,7 +81473,7 @@ backup_data = {
           "Toxic",
           "Venoshock",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Double Team",
@@ -80365,6 +81498,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -80458,7 +81594,7 @@ backup_data = {
           "Venoshock",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -80567,7 +81703,7 @@ backup_data = {
         "tms": [
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Thunderbolt",
@@ -80681,7 +81817,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -80725,6 +81861,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         35
@@ -80810,7 +81949,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Dig",
@@ -80944,7 +82083,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Smack Down",
           "Earthquake",
@@ -81080,7 +82219,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -81121,6 +82260,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         43
@@ -81218,7 +82360,7 @@ backup_data = {
           "Hidden Power",
           "Ice Beam",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -81346,7 +82488,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -81392,6 +82534,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         50
@@ -81482,7 +82627,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -81607,7 +82752,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Earthquake",
@@ -81728,7 +82873,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -81764,6 +82909,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -81855,7 +83003,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Return",
           "Brick Break",
@@ -81968,7 +83116,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -82006,6 +83154,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         45
@@ -82092,7 +83243,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -82216,7 +83367,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Solar Beam",
           "Return",
@@ -82332,7 +83483,7 @@ backup_data = {
           "Hone Claws",
           "Toxic",
           "Hidden Power",
-          "Baton Pass",
+          "Gravity",
           "Return",
           "Dig",
           "Double Team",
@@ -82449,7 +83600,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -82481,6 +83632,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         27
@@ -82568,7 +83722,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Taunt",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -82600,6 +83754,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         65
@@ -82688,7 +83845,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Dark Pulse",
@@ -82817,7 +83974,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -82851,6 +84008,9 @@ backup_data = {
       ],
       "evoMethods": [
         "Level Requirement"
+      ],
+      "evoMethodIds": [
+        4
       ],
       "evoParams": [
         59
@@ -82941,7 +84101,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -83062,7 +84222,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Return",
@@ -83182,7 +84342,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Smack Down",
@@ -83310,7 +84470,7 @@ backup_data = {
           "Taunt",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -83442,7 +84602,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -83579,7 +84739,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Smack Down",
@@ -83719,7 +84879,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -83855,7 +85015,7 @@ backup_data = {
           "Hidden Power",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -83996,7 +85156,7 @@ backup_data = {
           "Bulk Up",
           "Hidden Power",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Smack Down",
           "Earthquake",
@@ -84132,7 +85292,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -84256,7 +85416,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Dark Pulse",
@@ -84384,7 +85544,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -84430,6 +85590,14 @@ backup_data = {
         "Serene Grace",
         "",
         ""
+      ],
+      "baseForme": "Base",
+      "otherFormes": [
+        "Meloetta-Pirouette"
+      ],
+      "formeOrder": [
+        "Meloetta",
+        "Meloetta-Pirouette"
       ]
     },
     "Genesect": {
@@ -84539,7 +85707,7 @@ backup_data = {
           "Blizzard",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Thunderbolt",
@@ -84665,7 +85833,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -84712,7 +85880,9 @@ backup_data = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Attack"
     },
     "Deoxys-Defense": {
       "name": "Deoxys-Defense",
@@ -84810,7 +85980,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -84857,7 +86027,9 @@ backup_data = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Defense"
     },
     "Deoxys-Speed": {
       "name": "Deoxys-Speed",
@@ -84947,7 +86119,7 @@ backup_data = {
           "Ice Beam",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -84994,7 +86166,9 @@ backup_data = {
         "Pressure",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Deoxys",
+      "forme": "Speed"
     },
     "Wormadam-Sandy": {
       "name": "Wormadam-Sandy",
@@ -85061,7 +86235,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -85092,7 +86266,9 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
-      ]
+      ],
+      "baseSpecies": "Wormadam",
+      "forme": "Sandy"
     },
     "Wormadam-Trash": {
       "name": "Wormadam-Trash",
@@ -85163,7 +86339,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Safeguard",
           "Return",
@@ -85190,7 +86366,9 @@ backup_data = {
         "Overcoat",
         "",
         "Overcoat"
-      ]
+      ],
+      "baseSpecies": "Wormadam",
+      "forme": "Trash"
     },
     "Shaymin-Sky": {
       "name": "Shaymin-Sky",
@@ -85268,7 +86446,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Safeguard",
           "Dark Pulse",
           "Solar Beam",
@@ -85292,7 +86470,9 @@ backup_data = {
         "Serene Grace",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Shaymin",
+      "forme": "Sky"
     },
     "Giratina-Origin": {
       "name": "Giratina-Origin",
@@ -85378,7 +86558,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -85419,7 +86599,9 @@ backup_data = {
         "Levitate",
         "",
         "Levitate"
-      ]
+      ],
+      "baseSpecies": "Giratina",
+      "forme": "Origin"
     },
     "Rotom-Heat": {
       "name": "Rotom-Heat",
@@ -85482,6 +86664,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -85489,7 +86675,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -85509,14 +86695,17 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Heat"
     },
     "Rotom-Wash": {
       "name": "Rotom-Wash",
@@ -85579,6 +86768,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -85586,7 +86779,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -85606,14 +86799,17 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Wash"
     },
     "Rotom-Frost": {
       "name": "Rotom-Frost",
@@ -85676,6 +86872,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -85683,7 +86883,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -85703,14 +86903,17 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Frost"
     },
     "Rotom-Fan": {
       "name": "Rotom-Fan",
@@ -85773,6 +86976,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -85780,7 +86987,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -85800,14 +87007,17 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Motor Drive",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Fan"
     },
     "Rotom-Mow": {
       "name": "Rotom-Mow",
@@ -85870,6 +87080,10 @@ backup_data = {
           [
             60,
             "Will-O-Wisp"
+          ],
+          [
+            65,
+            "Volt Tackle"
           ]
         ],
         "tms": [
@@ -85877,7 +87091,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Thunderbolt",
@@ -85897,14 +87111,17 @@ backup_data = {
           "Magical Leaf",
           "Dream Eater",
           "Swagger",
-          "Natural Gift"
+          "Natural Gift",
+          "Wild Charge"
         ]
       },
       "abs": [
         "Levitate",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Rotom",
+      "forme": "Mow"
     },
     "Castform-Sunny": {
       "name": "Castform-Sunny",
@@ -85924,7 +87141,7 @@ backup_data = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -85984,7 +87201,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -86017,7 +87234,9 @@ backup_data = {
         "Forecast",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Sunny"
     },
     "Castform-Rainy": {
       "name": "Castform-Rainy",
@@ -86037,7 +87256,7 @@ backup_data = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -86097,7 +87316,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -86130,7 +87349,9 @@ backup_data = {
         "Forecast",
         "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Rainy"
     },
     "Castform-Snowy": {
       "name": "Castform-Snowy",
@@ -86150,7 +87371,7 @@ backup_data = {
         "df": 70,
         "sa": 110,
         "sd": 70,
-        "sp": 110
+        "sp": 120
       },
       "learnset_info": {
         "learnset": [
@@ -86210,7 +87431,7 @@ backup_data = {
           "Sunny Day",
           "Ice Beam",
           "Blizzard",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Solar Beam",
@@ -86243,7 +87464,9 @@ backup_data = {
         "Forecast",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Castform",
+      "forme": "Snowy"
     },
     "Basculin-Blue-Striped": {
       "name": "Basculin-Blue-Striped",
@@ -86277,6 +87500,10 @@ backup_data = {
           ],
           [
             1,
+            "Aqua Jet"
+          ],
+          [
+            1,
             "Water Gun"
           ],
           [
@@ -86285,15 +87512,23 @@ backup_data = {
           ],
           [
             13,
-            "Scary Face"
+            "Screech"
           ],
           [
             21,
             "Snarl"
           ],
           [
+            21,
+            "Feint Attack"
+          ],
+          [
             25,
             "Aurora Beam"
+          ],
+          [
+            25,
+            "Ice Fang"
           ],
           [
             30,
@@ -86301,15 +87536,31 @@ backup_data = {
           ],
           [
             36,
+            "Crunch"
+          ],
+          [
+            36,
             "Dark Pulse"
           ],
           [
-            40,
+            36,
             "Surf"
+          ],
+          [
+            40,
+            "Waterfall"
           ],
           [
             60,
             "Night Daze"
+          ],
+          [
+            60,
+            "Aqua Tail"
+          ],
+          [
+            70,
+            "Reversal"
           ],
           [
             70,
@@ -86321,7 +87572,7 @@ backup_data = {
           "Hidden Power",
           "Taunt",
           "Ice Beam",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Dark Pulse",
           "Return",
@@ -86341,10 +87592,12 @@ backup_data = {
         ]
       },
       "abs": [
-        "Mold Breaker",
         "Adaptability",
+        "",
         "Drizzle"
-      ]
+      ],
+      "baseSpecies": "Basculin",
+      "forme": "Blue-Striped"
     },
     "Darmanitan-Zen": {
       "name": "Darmanitan-Zen",
@@ -86457,7 +87710,7 @@ backup_data = {
           "Sunny Day",
           "Taunt",
           "Hyper Beam",
-          "Baton Pass",
+          "Gravity",
           "Dark Pulse",
           "Solar Beam",
           "Smack Down",
@@ -86501,7 +87754,9 @@ backup_data = {
         "Sheer Force",
         "",
         "Zen Mode"
-      ]
+      ],
+      "baseSpecies": "Darmanitan",
+      "forme": "Zen"
     },
     "Meloetta-Pirouette": {
       "name": "Meloetta-Pirouette",
@@ -86595,7 +87850,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Shock Wave",
-          "Baton Pass",
+          "Gravity",
           "Rain Dance",
           "Earth Power",
           "Safeguard",
@@ -86641,7 +87896,9 @@ backup_data = {
         "Serene Grace",
         "",
         ""
-      ]
+      ],
+      "baseSpecies": "Meloetta",
+      "forme": "Pirouette"
     }
   },
   "formatted_sets": {
@@ -90925,13 +92182,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Rock Gem",
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
           "Ancient Power",
-          "Feint Attack",
-          "Ice Shard",
+          "Crunch",
+          "Ice Punch",
           "Fake Out"
         ],
         "sub_index": 3,
@@ -91043,8 +92300,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Shauntal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -91061,7 +92318,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Calm",
+        "nature": "Modest",
         "moves": [
           "Shadow Ball",
           "Sludge Bomb",
@@ -91537,7 +92794,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91570,7 +92827,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91603,7 +92860,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91636,7 +92893,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91669,7 +92926,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91702,7 +92959,7 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91735,7 +92992,7 @@ backup_data = {
           "Drill Peck"
         ],
         "sub_index": 1,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91768,7 +93025,7 @@ backup_data = {
           "Shadow Claw"
         ],
         "sub_index": 0,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91801,7 +93058,7 @@ backup_data = {
           "Shadow Claw"
         ],
         "sub_index": 2,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -91834,7 +93091,7 @@ backup_data = {
           "Shadow Claw"
         ],
         "sub_index": 2,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -91867,7 +93124,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91900,7 +93157,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91933,7 +93190,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "Unburden",
+        "ability": "",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95224,7 +96481,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Timid",
         "moves": [
-          "Headbutt",
+          "Facade",
           "Crunch",
           "Charm",
           "Low Sweep"
@@ -95492,14 +96749,14 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Flame Orb",
         "gender": "Female",
         "nature": "Docile",
         "moves": [
           "Drain Punch",
-          "Body Slam",
+          "Facade",
           "Crunch",
-          "Bulk Up"
+          "Flame Charge"
         ],
         "sub_index": 2,
         "ability": "Guts",
@@ -97065,7 +98322,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Focus Sash",
-        "item": "Life Orb",
+        "item": "Lum Berry",
         "gender": "Male",
         "nature": "Modest",
         "moves": [
@@ -97077,6 +98334,39 @@ backup_data = {
         "sub_index": 3,
         "ability": "Swift Swim",
         "sprite": "./images/trainer_sprites/lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Electric Gem",
+        "gender": "Male",
+        "nature": "Relaxed",
+        "moves": [
+          "Charge Beam",
+          "Scald",
+          "Signal Beam",
+          "Hurricane"
+        ],
+        "sub_index": 5,
+        "ability": "Water Absorb",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -97936,7 +99226,7 @@ backup_data = {
           "Gravity",
           "Weather Ball",
           "Earth Power",
-          "Flash Cannon"
+          "Power Gem"
         ],
         "sub_index": 1,
         "ability": "Sturdy",
@@ -97969,7 +99259,7 @@ backup_data = {
           "Gravity",
           "Weather Ball",
           "Earth Power",
-          "Flash Cannon"
+          "Power Gem"
         ],
         "sub_index": 1,
         "ability": "Sturdy",
@@ -98315,7 +99605,7 @@ backup_data = {
       },
       "Lvl 63 Hiker Darrell - Twist Mountain": {
         "level": 63,
-        "ai": 6,
+        "ai": 7,
         "noCh": false,
         "tr_id": 242,
         "diff": 0,
@@ -98616,7 +99906,7 @@ backup_data = {
       },
       "Lvl 63 Hiker Darrell - Twist Mountain": {
         "level": 63,
-        "ai": 6,
+        "ai": 7,
         "noCh": false,
         "tr_id": 242,
         "diff": 0,
@@ -98640,7 +99930,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Sand Rush",
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -98929,13 +100219,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Wacan Berry",
+        "item": "Choice Band",
         "gender": "Male",
         "nature": "Impish",
         "moves": [
           "Aqua Tail",
           "Brave Bird",
-          "Ice Fang",
+          "Icicle Crash",
           "Earthquake"
         ],
         "sub_index": 5,
@@ -98976,39 +100266,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/leader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
-        "level": 41,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 67,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Flying Gem",
-        "gender": "Male",
-        "nature": "Naive",
-        "moves": [
-          "Discharge",
-          "Aerial Ace",
-          "Roost",
-          "Taunt"
-        ],
-        "sub_index": 4,
-        "ability": "Motor Drive",
-        "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -99214,8 +100471,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Shauntal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -99232,7 +100489,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Charti Berry",
         "gender": "Male",
-        "nature": "Quirky",
+        "nature": "Lax",
         "moves": [
           "Fiery Dance",
           "Bug Buzz",
@@ -99434,10 +100691,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Quirky",
         "moves": [
+          "Psycho Boost",
           "Future Sight",
           "Shadow Ball",
-          "Psychic",
-          "Perish Song"
+          "Psychic"
         ],
         "sub_index": 0,
         "ability": "Levitate",
@@ -99997,7 +101254,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Leftovers",
+        "item": "Colbur Berry",
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
@@ -101358,8 +102615,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Grimsley - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -101376,7 +102633,7 @@ backup_data = {
         "reward_item": "None",
         "item": "King's Rock",
         "gender": "Male",
-        "nature": "Calm",
+        "nature": "Gentle",
         "moves": [
           "Night Slash",
           "Psycho Cut",
@@ -101447,10 +102704,10 @@ backup_data = {
           "Sucker Punch",
           "Close Combat",
           "Perish Song",
-          "Leaf Blade"
+          "Luster Purge"
         ],
         "sub_index": 0,
-        "ability": "Defiant",
+        "ability": "Rattled",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -101574,7 +102831,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Steel Gem",
+        "item": "Fighting Gem",
         "gender": "Male",
         "nature": "Sassy",
         "moves": [
@@ -101918,7 +103175,7 @@ backup_data = {
           "Growl"
         ],
         "sub_index": 0,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -102587,9 +103844,9 @@ backup_data = {
         "nature": "Bold",
         "moves": [
           "Double Hit",
-          "Fake Out",
           "Aqua Tail",
-          "Ice Punch"
+          "Ice Punch",
+          "Fake Out"
         ],
         "sub_index": 1,
         "ability": "Technician",
@@ -103302,8 +104559,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -103320,7 +104577,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Bashful",
+        "nature": "Rash",
         "moves": [
           "Sky Uppercut",
           "Flare Blitz",
@@ -103557,11 +104814,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -103590,11 +104847,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -103623,11 +104880,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 3,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -103655,12 +104912,12 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Scald",
+          "Aurora Beam",
           "Ice Fang",
-          "Feint Attack",
-          "Screech"
+          "Feint Attack"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -103689,11 +104946,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 1,
         "evs": {
@@ -103754,12 +105011,12 @@ backup_data = {
         "nature": "Quiet",
         "moves": [
           "Scald",
+          "Aurora Beam",
           "Ice Fang",
-          "Feint Attack",
-          "Screech"
+          "Feint Attack"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -103786,13 +105043,13 @@ backup_data = {
         "gender": "Male",
         "nature": "Docile",
         "moves": [
+          "Aurora Beam",
           "Ice Fang",
           "Feint Attack",
-          "Screech",
-          "Bite"
+          "Snarl"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 1,
         "evs": {
@@ -103823,11 +105080,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 1,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103856,11 +105113,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103889,11 +105146,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 2,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103954,12 +105211,12 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Scald",
+          "Aurora Beam",
           "Ice Fang",
-          "Feint Attack",
-          "Screech"
+          "Feint Attack"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -103988,11 +105245,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -104021,11 +105278,11 @@ backup_data = {
         "moves": [
           "Screech",
           "Bite",
-          "Aqua Jet",
-          "Leer"
+          "Water Gun",
+          "Aqua Jet"
         ],
         "sub_index": 2,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -104052,13 +105309,13 @@ backup_data = {
         "gender": "Male",
         "nature": "Brave",
         "moves": [
+          "Aurora Beam",
           "Ice Fang",
           "Feint Attack",
-          "Screech",
-          "Bite"
+          "Snarl"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -104966,8 +106223,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Shauntal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -104984,7 +106241,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Expert Belt",
         "gender": "",
-        "nature": "Brave",
+        "nature": "Sassy",
         "moves": [
           "Fire Punch",
           "Earthquake",
@@ -108500,7 +109757,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Rich Boy Manuel": {
+      "Lvl 36 Rich Boy Manuel - Desert Resort": {
         "level": 36,
         "ai": 1,
         "noCh": false,
@@ -109619,8 +110876,8 @@ backup_data = {
         "moves": [
           "Weather Ball",
           "Earth Power",
-          "Flash Cannon",
-          "Power Gem"
+          "Power Gem",
+          "Flash Cannon"
         ],
         "sub_index": 1,
         "ability": "Sturdy",
@@ -109650,8 +110907,8 @@ backup_data = {
         "gender": "Male",
         "nature": "Brave",
         "moves": [
-          "Flash Cannon",
           "Power Gem",
+          "Flash Cannon",
           "Mud Bomb",
           "Ancient Power"
         ],
@@ -109716,8 +110973,8 @@ backup_data = {
         "gender": "Male",
         "nature": "Impish",
         "moves": [
-          "Flash Cannon",
           "Power Gem",
+          "Flash Cannon",
           "Mud Bomb",
           "Ancient Power"
         ],
@@ -109749,8 +111006,8 @@ backup_data = {
         "gender": "Male",
         "nature": "Timid",
         "moves": [
-          "Flash Cannon",
           "Power Gem",
+          "Flash Cannon",
           "Mud Bomb",
           "Ancient Power"
         ],
@@ -109782,8 +111039,8 @@ backup_data = {
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
-          "Flash Cannon",
           "Power Gem",
+          "Flash Cannon",
           "Mud Bomb",
           "Ancient Power"
         ],
@@ -109816,8 +111073,8 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Earth Power",
-          "Flash Cannon",
           "Power Gem",
+          "Flash Cannon",
           "Mud Bomb"
         ],
         "sub_index": 1,
@@ -110450,7 +111707,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Choice Specs",
+        "item": "Magnet",
         "gender": "Male",
         "nature": "Naive",
         "moves": [
@@ -110654,10 +111911,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Calm",
         "moves": [
-          "Waterfall",
+          "Mud Shot",
           "Hydro Pump",
           "Ice Beam",
-          "Poison Jab"
+          "Signal Beam"
         ],
         "sub_index": 2,
         "ability": "Lightning Rod",
@@ -110895,7 +112152,7 @@ backup_data = {
           "Psychic"
         ],
         "sub_index": 2,
-        "ability": "Mold Breaker",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -110928,7 +112185,7 @@ backup_data = {
           "Circle Throw"
         ],
         "sub_index": 3,
-        "ability": "Mold Breaker",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -110961,7 +112218,7 @@ backup_data = {
           "Aura Sphere"
         ],
         "sub_index": 3,
-        "ability": "Mold Breaker",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111231,7 +112488,7 @@ backup_data = {
           "Hex"
         ],
         "sub_index": 0,
-        "ability": "Levitate",
+        "ability": "Drizzle",
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 2,
         "evs": {
@@ -111543,6 +112800,39 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "gender": "Male",
+        "nature": "Naughty",
+        "moves": [
+          "Sludge Wave",
+          "Sky Attack",
+          "X-Scissor",
+          "Heat Wave"
+        ],
+        "sub_index": 4,
+        "ability": "Inner Focus",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 68 Team Plasma Grunt27 - Dragonspiral Tower": {
         "level": 68,
         "ai": 7,
@@ -111559,7 +112849,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Bright Powder",
+        "item": "Black Sludge",
         "gender": "Male",
         "nature": "Bold",
         "moves": [
@@ -111846,8 +113136,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
-        "level": 82,
+      "Lvl 83 Elite Four Shauntal - Pokemon League": {
+        "level": 83,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -111864,7 +113154,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Ghost Gem",
         "gender": "Male",
-        "nature": "Quirky",
+        "nature": "Calm",
         "moves": [
           "Shadow Ball",
           "Fire Blast",
@@ -111928,7 +113218,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Passho Berry",
         "gender": "Male",
         "nature": "Brave",
         "moves": [
@@ -112328,7 +113618,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Focus Sash",
-        "item": "Focus Band",
+        "item": "Sitrus Berry",
         "gender": "Male",
         "nature": "Rash",
         "moves": [
@@ -112641,39 +113931,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Levitate",
         "sprite": "./images/trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 Worker Gus": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 291,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Soft Sand",
-        "gender": "",
-        "nature": "Quirky",
-        "moves": [
-          "Trick Room",
-          "Psychic",
-          "Earth Power",
-          "Shadow Ball"
-        ],
-        "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -114510,7 +115767,7 @@ backup_data = {
           "Aqua Tail",
           "Soak",
           "Slack Off",
-          "Avalanche"
+          "Toxic"
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
@@ -115058,8 +116315,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Marshal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Marshal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -115076,7 +116333,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Psychic Gem",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Mild",
         "moves": [
           "Psychic",
           "Aura Sphere",
@@ -115688,7 +116945,7 @@ backup_data = {
           "Dark Void"
         ],
         "sub_index": 0,
-        "ability": "Illusion",
+        "ability": "Infiltrator",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -116591,7 +117848,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 0,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -116624,7 +117881,7 @@ backup_data = {
           "Taunt"
         ],
         "sub_index": 0,
-        "ability": "Big Pecks",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -117059,10 +118316,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Timid",
         "moves": [
+          "Luster Purge",
           "Double-Edge",
           "Wonder Room",
-          "Imprison",
-          "Night Slash"
+          "Imprison"
         ],
         "sub_index": 1,
         "ability": "Intimidate",
@@ -117364,8 +118621,8 @@ backup_data = {
         "moves": [
           "Head Charge",
           "Horn Drill",
-          "Rock Climb",
-          "Close Combat"
+          "Superpower",
+          "Rock Climb"
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
@@ -118304,7 +119561,7 @@ backup_data = {
         "moves": [
           "Drain Punch",
           "Wide Guard",
-          "Crunch",
+          "Feint Attack",
           "Helping Hand"
         ],
         "sub_index": 0,
@@ -119681,7 +120938,7 @@ backup_data = {
           ""
         ],
         "sub_index": 4,
-        "ability": "",
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -119714,15 +120971,15 @@ backup_data = {
           "Crunch"
         ],
         "sub_index": 4,
-        "ability": "",
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Marshal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Marshal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -119739,7 +120996,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Dragon Gem",
         "gender": "Male",
-        "nature": "Calm",
+        "nature": "Sassy",
         "moves": [
           "Dragon Claw",
           "Rock Slide",
@@ -119747,7 +121004,7 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 3,
-        "ability": "",
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -119780,7 +121037,7 @@ backup_data = {
           ""
         ],
         "sub_index": 3,
-        "ability": "",
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -121236,8 +122493,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Marshal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Marshal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -121254,7 +122511,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fighting Gem",
         "gender": "Male",
-        "nature": "Quirky",
+        "nature": "Lonely",
         "moves": [
           "Close Combat",
           "Ice Punch",
@@ -122375,8 +123632,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Grimsley - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -122393,7 +123650,7 @@ backup_data = {
         "reward_item": "None",
         "item": "White Herb",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Serious",
         "moves": [
           "Shell Smash",
           "Hydro Pump",
@@ -123882,8 +125139,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Leader Drayden - Opelucid City": {
-        "level": 75,
+      "Lvl 76 Leader Drayden - Opelucid City": {
+        "level": 76,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -123900,7 +125157,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Impish",
+        "nature": "Quiet",
         "moves": [
           "Dragon Dance",
           "Waterfall",
@@ -124488,8 +125745,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Leader Drayden - Opelucid City": {
-        "level": 76,
+      "Lvl 77 Leader Drayden - Opelucid City": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -124506,7 +125763,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Naughty",
+        "nature": "Brave",
         "moves": [
           "Dragon Claw",
           "Iron Tail",
@@ -124688,8 +125945,8 @@ backup_data = {
       }
     },
     "Flygon": {
-      "Lvl 75 Leader Drayden - Opelucid City": {
-        "level": 75,
+      "Lvl 76 Leader Drayden - Opelucid City": {
+        "level": 76,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -124706,7 +125963,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Focus Sash",
         "gender": "Male",
-        "nature": "Naughty",
+        "nature": "Brave",
         "moves": [
           "Earth Power",
           "Rock Slide",
@@ -124789,8 +126046,8 @@ backup_data = {
       }
     },
     "Charizard": {
-      "Lvl 75 Leader Drayden - Opelucid City": {
-        "level": 75,
+      "Lvl 76 Leader Drayden - Opelucid City": {
+        "level": 76,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -124807,7 +126064,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Haban Berry",
         "gender": "Male",
-        "nature": "Careful",
+        "nature": "Relaxed",
         "moves": [
           "Heat Wave",
           "Earth Power",
@@ -124923,8 +126180,8 @@ backup_data = {
       }
     },
     "Sceptile": {
-      "Lvl 75 Leader Drayden - Opelucid City": {
-        "level": 75,
+      "Lvl 76 Leader Drayden - Opelucid City": {
+        "level": 76,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -124941,7 +126198,7 @@ backup_data = {
         "reward_item": "None",
         "item": "White Herb",
         "gender": "Male",
-        "nature": "Sassy",
+        "nature": "Docile",
         "moves": [
           "Leaf Storm",
           "Dragon Rush",
@@ -125090,8 +126347,8 @@ backup_data = {
       }
     },
     "Salamence": {
-      "Lvl 75 Leader Drayden - Opelucid City": {
-        "level": 75,
+      "Lvl 76 Leader Drayden - Opelucid City": {
+        "level": 76,
         "ai": 135,
         "noCh": false,
         "tr_id": 133,
@@ -125108,7 +126365,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Yache Berry",
         "gender": "Male",
-        "nature": "Quiet",
+        "nature": "Modest",
         "moves": [
           "Dragon Rush",
           "Hurricane",
@@ -125323,8 +126580,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Marshal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Marshal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -125341,7 +126598,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Flying Gem",
         "gender": "Male",
-        "nature": "Modest",
+        "nature": "Adamant",
         "moves": [
           "Brave Bird",
           "Head Smash",
@@ -125574,7 +126831,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Custap Berry",
         "gender": "Male",
         "nature": "Lonely",
         "moves": [
@@ -125584,7 +126841,7 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 1,
-        "ability": "",
+        "ability": "Soundproof",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -126362,8 +127619,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
-        "level": 82,
+      "Lvl 83 Elite Four Marshal - Pokemon League": {
+        "level": 83,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -126380,7 +127637,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Rock Gem",
         "gender": "Male",
-        "nature": "Bashful",
+        "nature": "Relaxed",
         "moves": [
           "Stone Edge",
           "Hammer Arm",
@@ -127908,8 +129165,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -127926,7 +129183,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Docile",
+        "nature": "Bashful",
         "moves": [
           "Psychic",
           "Shadow Ball",
@@ -128359,10 +129616,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Timid",
         "moves": [
+          "Protect",
           "Follow Me",
           "Icy Wind",
-          "Wish",
-          "Soft-Boiled"
+          "Wish"
         ],
         "sub_index": 0,
         "ability": "Regenerator",
@@ -128392,10 +129649,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Rash",
         "moves": [
+          "Protect",
           "Follow Me",
           "Icy Wind",
-          "Wish",
-          "Soft-Boiled"
+          "Wish"
         ],
         "sub_index": 0,
         "ability": "Regenerator",
@@ -129077,8 +130334,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Marshal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Marshal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
@@ -129095,7 +130352,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Dark Gem",
         "gender": "Male",
-        "nature": "Rash",
+        "nature": "Relaxed",
         "moves": [
           "Night Slash",
           "Close Combat",
@@ -129398,14 +130655,14 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Bright Powder",
+        "item": "Expert Belt",
         "gender": "Male",
         "nature": "Relaxed",
         "moves": [
-          "Surf",
-          "Air Slash",
-          "Roost",
-          "Shock Wave"
+          "Hydro Pump",
+          "Hurricane",
+          "Tailwind",
+          "Focus Blast"
         ],
         "sub_index": 4,
         "ability": "Air Lock",
@@ -129885,8 +131142,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Grimsley - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -129903,7 +131160,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Bright Powder",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Serious",
         "moves": [
           "Surf",
           "Aeroblast",
@@ -130247,7 +131504,7 @@ backup_data = {
           "Dragon Claw"
         ],
         "sub_index": 1,
-        "ability": "Klutz",
+        "ability": "Run Away",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -130895,7 +132152,7 @@ backup_data = {
       },
       "Lvl 63 Hiker Darrell - Twist Mountain": {
         "level": 63,
-        "ai": 6,
+        "ai": 7,
         "noCh": false,
         "tr_id": 242,
         "diff": 0,
@@ -131212,14 +132469,14 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Choice Band",
         "gender": "Male",
         "nature": "Mild",
         "moves": [
           "Bullet Punch",
-          "X-Scissor",
-          "Roost",
-          "Rock Smash"
+          "U-turn",
+          "Close Combat",
+          "Bulldoze"
         ],
         "sub_index": 1,
         "ability": "Technician",
@@ -133408,7 +134665,7 @@ backup_data = {
           "Earthquake",
           "Crunch",
           "Drill Run",
-          "Fire Punch"
+          "Thunder Punch"
         ],
         "sub_index": 0,
         "ability": "Intimidate",
@@ -133506,7 +134763,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Impish",
         "moves": [
-          "Explosion",
+          "Destiny Bond",
           "Earthquake",
           "Aqua Tail",
           "Poison Jab"
@@ -133752,8 +135009,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
-        "level": 82,
+      "Lvl 83 Elite Four Caitlin - Pokemon League": {
+        "level": 83,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -133770,7 +135027,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Iron Ball",
         "gender": "",
-        "nature": "Gentle",
+        "nature": "Impish",
         "moves": [
           "Meteor Mash",
           "Zen Headbutt",
@@ -134081,7 +135338,7 @@ backup_data = {
           "Wide Guard"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Sheer Force",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -134275,13 +135532,13 @@ backup_data = {
         "gender": "Male",
         "nature": "Lax",
         "moves": [
-          "Bug Bite",
+          "X-Scissor",
           "Pursuit",
-          "Metal Claw",
+          "Final Gambit",
           "Swords Dance"
         ],
         "sub_index": 0,
-        "ability": "Technician",
+        "ability": "Infiltrator",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -134424,39 +135681,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Worker Gus": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 291,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Expert Belt",
-        "gender": "Female",
-        "nature": "Serious",
-        "moves": [
-          "Charge Beam",
-          "Icy Wind",
-          "Psyshock",
-          "Water Pulse"
-        ],
-        "sub_index": 3,
-        "ability": "Magic Guard",
-        "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 64 Nursery Aide Leah": {
         "level": 64,
         "ai": 1,
@@ -134551,39 +135775,6 @@ backup_data = {
           "Icy Wind"
         ],
         "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 Worker Gus": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 291,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "gender": "",
-        "nature": "Hasty",
-        "moves": [
-          "Power Gem",
-          "Shadow Ball",
-          "Psychic",
-          "Charge Beam"
-        ],
-        "sub_index": 2,
         "ability": "Levitate",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
@@ -135176,12 +136367,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Custap Berry",
         "gender": "Male",
         "nature": "Bold",
         "moves": [
-          "Psychic",
-          "Aura Sphere",
+          "Psystrike",
+          "Focus Blast",
           "Shadow Ball",
           "Thunder"
         ],
@@ -135193,8 +136384,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -135211,7 +136402,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Docile",
+        "nature": "Bashful",
         "moves": [
           "Trick Room",
           "Psystrike",
@@ -135677,12 +136868,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Dark Gem",
         "gender": "Male",
         "nature": "Adamant",
         "moves": [
           "Iron Head",
-          "Crunch",
+          "Sucker Punch",
           "Fire Punch",
           "Rock Slide"
         ],
@@ -135850,10 +137041,10 @@ backup_data = {
         "gender": "",
         "nature": "Lax",
         "moves": [
+          "Volt Tackle",
           "Will-O-Wisp",
           "Thunderbolt",
-          "Shadow Ball",
-          "Discharge"
+          "Shadow Ball"
         ],
         "sub_index": 0,
         "ability": "Levitate",
@@ -136137,8 +137328,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
-        "level": 82,
+      "Lvl 83 Elite Four Grimsley - Pokemon League": {
+        "level": 83,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -136155,7 +137346,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Focus Sash",
         "gender": "Male",
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Waterfall",
           "Crunch",
@@ -136572,8 +137763,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -136590,7 +137781,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Muscle Band",
         "gender": "Male",
-        "nature": "Bold",
+        "nature": "Docile",
         "moves": [
           "Megahorn",
           "Iron Head",
@@ -137683,7 +138874,7 @@ backup_data = {
       },
       "Lvl 63 Hiker Darrell - Twist Mountain": {
         "level": 63,
-        "ai": 6,
+        "ai": 7,
         "noCh": false,
         "tr_id": 242,
         "diff": 0,
@@ -137775,6 +138966,39 @@ backup_data = {
         "sub_index": 4,
         "ability": "Rough Skin",
         "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rocky Helmet",
+        "gender": "Male",
+        "nature": "Bashful",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Stealth Rock",
+          "Swords Dance"
+        ],
+        "sub_index": 0,
+        "ability": "Rough Skin",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -137930,7 +139154,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Bright Powder",
+        "item": "Rindo Berry",
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
@@ -138097,7 +139321,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Quick Claw",
+        "item": "Leftovers",
         "gender": "",
         "nature": "Hasty",
         "moves": [
@@ -138584,8 +139808,8 @@ backup_data = {
       }
     },
     "Magmortar": {
-      "Lvl 81 Elite Four Shauntal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -138602,15 +139826,15 @@ backup_data = {
         "reward_item": "None",
         "item": "Air Balloon",
         "gender": "Male",
-        "nature": "Hardy",
+        "nature": "Calm",
         "moves": [
-          "Inferno",
+          "Magma Storm",
           "Flash Cannon",
-          "Focus Blast",
+          "Earth Power",
           "Solar Beam"
         ],
         "sub_index": 2,
-        "ability": "No Guard",
+        "ability": "Flash Fire",
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -138652,8 +139876,8 @@ backup_data = {
       }
     },
     "Banette": {
-      "Lvl 81 Elite Four Shauntal - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
@@ -138670,7 +139894,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Modest",
+        "nature": "Timid",
         "moves": [
           "Shadow Force",
           "Crush Claw",
@@ -138786,8 +140010,8 @@ backup_data = {
       }
     },
     "Bisharp": {
-      "Lvl 81 Elite Four Grimsley - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -138804,7 +140028,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Rocky Helmet",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Modest",
         "moves": [
           "Thunder Wave",
           "Iron Head",
@@ -138986,8 +140210,8 @@ backup_data = {
       }
     },
     "Drapion": {
-      "Lvl 81 Elite Four Grimsley - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
@@ -139004,7 +140228,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Scope Lens",
         "gender": "Male",
-        "nature": "Rash",
+        "nature": "Gentle",
         "moves": [
           "Night Slash",
           "Cross Poison",
@@ -139087,8 +140311,8 @@ backup_data = {
       }
     },
     "Spiritomb": {
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
+      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+        "level": 82,
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
@@ -139148,6 +140372,39 @@ backup_data = {
         "sub_index": 0,
         "ability": "Wonder Guard",
         "sprite": "./images/trainer_sprites/lass.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Custap Berry",
+        "gender": "Male",
+        "nature": "Hasty",
+        "moves": [
+          "Confuse Ray",
+          "Hex",
+          "Pursuit",
+          "Destiny Bond"
+        ],
+        "sub_index": 1,
+        "ability": "Unnerve",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -140233,7 +141490,7 @@ backup_data = {
     "Mamoswine": {
       "Lvl 63 Hiker Darrell - Twist Mountain": {
         "level": 63,
-        "ai": 6,
+        "ai": 7,
         "noCh": false,
         "tr_id": 242,
         "diff": 0,
@@ -141482,39 +142739,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Worker Gus": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 291,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Eviolite",
-        "gender": "Male",
-        "nature": "Naughty",
-        "moves": [
-          "Earthquake",
-          "Dragon Claw",
-          "Rock Slide",
-          "Iron Head"
-        ],
-        "sub_index": 1,
-        "ability": "Sand Force",
-        "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 37 Parasol Lady April - Route 4": {
         "level": 37,
         "ai": 7,
@@ -142119,6 +143343,39 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "gender": "Male",
+        "nature": "Gentle",
+        "moves": [
+          "Fire Blast",
+          "Focus Blast",
+          "Nasty Plot",
+          "Taunt"
+        ],
+        "sub_index": 2,
+        "ability": "No Guard",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
         "level": 76,
         "ai": 135,
@@ -142378,10 +143635,10 @@ backup_data = {
         "gender": "",
         "nature": "Hasty",
         "moves": [
+          "Luster Purge",
           "Meteor Mash",
           "Hammer Arm",
-          "Shadow Punch",
-          "Zen Headbutt"
+          "Shadow Punch"
         ],
         "sub_index": 1,
         "ability": "Clear Body",
@@ -142656,7 +143913,7 @@ backup_data = {
           "Energy Ball"
         ],
         "sub_index": 3,
-        "ability": "Damp",
+        "ability": "Rain Dish",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -142755,7 +144012,7 @@ backup_data = {
           "Sludge Wave"
         ],
         "sub_index": 1,
-        "ability": "Damp",
+        "ability": "Rain Dish",
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -143200,6 +144457,41 @@ backup_data = {
         }
       }
     },
+    "Jirachi": {
+      "Lvl 74 Ace Trainer Gonathan - Mistralton Cave": {
+        "level": 74,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 291,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Choice Scarf",
+        "gender": "",
+        "nature": "Naughty",
+        "moves": [
+          "Iron Head",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 3,
+        "ability": "Serene Grace",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Croagunk": {
       "Lvl 23 School Kid Gina - Route 3": {
         "level": 23,
@@ -143330,7 +144622,7 @@ backup_data = {
           "Rock Tomb"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Unnerve",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144039,10 +145331,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
+          "Luster Purge",
           "Wide Guard",
           "Night Slash",
-          "Leaf Blade",
-          "Psycho Cut"
+          "Leaf Blade"
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
@@ -144107,7 +145399,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Bashful",
         "moves": [
-          "Luster Purge",
+          "Psycho Boost",
           "Psychic",
           "Dark Pulse",
           "Gravity"
@@ -144855,7 +146147,7 @@ backup_data = {
           "Charm"
         ],
         "sub_index": 2,
-        "ability": "Shadow Tag",
+        "ability": "Magic Bounce",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145018,7 +146310,7 @@ backup_data = {
         "gender": "",
         "nature": "Mild",
         "moves": [
-          "Luster Purge",
+          "Psycho Boost",
           "Surf",
           "Psychic",
           "Scald"
@@ -145087,7 +146379,7 @@ backup_data = {
           "Hydro Pump",
           "Thunder",
           "Blizzard",
-          "Luster Purge"
+          "Mist Ball"
         ],
         "sub_index": 1,
         "ability": "No Guard",
@@ -146938,10 +148230,10 @@ backup_data = {
         "gender": "",
         "nature": "Modest",
         "moves": [
+          "Luster Purge",
           "Meteor Mash",
           "Hammer Arm",
-          "Shadow Punch",
-          "Zen Headbutt"
+          "Shadow Punch"
         ],
         "sub_index": 0,
         "ability": "Clear Body",
@@ -147897,9 +149189,9 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Close Combat",
+          "Luster Purge",
           "Drain Punch",
-          "Low Kick",
-          "Submission"
+          "Low Kick"
         ],
         "sub_index": 0,
         "ability": "Pure Power",
@@ -147932,9 +149224,9 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Close Combat",
+          "Luster Purge",
           "Drain Punch",
-          "Low Kick",
-          "Submission"
+          "Low Kick"
         ],
         "sub_index": 1,
         "ability": "Pure Power",
@@ -148786,10 +150078,10 @@ backup_data = {
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
-          "Fake Out",
           "Aqua Tail",
           "Ice Punch",
-          "Icy Wind"
+          "Fake Out",
+          "Waterfall"
         ],
         "sub_index": 0,
         "ability": "Technician",
@@ -149167,7 +150459,7 @@ backup_data = {
         "gender": "",
         "nature": "Hardy",
         "moves": [
-          "Luster Purge",
+          "Psycho Boost",
           "Surf",
           "Psychic",
           "Scald"
@@ -149446,8 +150738,8 @@ backup_data = {
         "moves": [
           "Quick Guard",
           "Brave Bird",
-          "Haze",
-          "Acrobatics"
+          "Aeroblast",
+          "Haze"
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
