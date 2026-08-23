@@ -365,7 +365,7 @@ $(document).ready(function() {
                        })
                        if (i < liveBoxSlotCount) {
                            showdownImport += showdownBlock
-                       } else if (baseGame != "BW") {
+                       } else {
                            const deadMon = buildDsSaveDeadMonFromShowdown(showdownBlock, Math.floor(i / DS_SAVE_SLOTS_PER_BOX) + 1, (i % DS_SAVE_SLOTS_PER_BOX) + 1)
                            if (deadMon) {
                                deadMons.push(deadMon)

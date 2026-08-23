@@ -117,6 +117,8 @@ watchLocalStorageProperty('encounters', (data) => {
 });
 
 function setColumnDefs() {
+    const showSaveFileBattles = typeof window.isSaveFileBattleLogActive === "function"
+        && window.isSaveFileBattleLogActive();
     // Column definitions
     columnDefs = [
         {
@@ -264,6 +266,14 @@ function setColumnDefs() {
             cellStyle: { 'font-weight': 'bold' },
             menuTabs: [],
             hide: activeSplit == 9
+        },
+        {
+            headerName: 'Battles',
+            field: 'battlesBrought',
+            width: 80,
+            cellStyle: { 'font-weight': 'bold' },
+            menuTabs: [],
+            hide: !showSaveFileBattles || activeSplit == 9
         },
         {
             headerName: 'KO Share',
@@ -1127,6 +1137,8 @@ function createRowData() {
     rowData = []
     globalSeenTrainers = {}
     let currentBoxSets = getStoredCustomSetsForSpeciesHelpers()
+    let showSaveFileBattles = typeof window.isSaveFileBattleLogActive === "function"
+        && window.isSaveFileBattleLogActive()
     let displaySpeciesMap = {}
 
     for (enc in encounters) {
@@ -1152,6 +1164,10 @@ function createRowData() {
             return fragEntry.value
         })
         encRow.fragCount = encRow.frags.length
+        encRow.battlesBrought = showSaveFileBattles
+            && typeof window.getSaveFileBattlesBroughtForSpecies === "function"
+            ? Number(window.getSaveFileBattlesBroughtForSpecies(displaySpecies)) || 0
+            : 0
         let displaySpeciesAlive = !isSpeciesFamilyMarkedDead(displaySpecies, encounters)
 
         if (displaySpeciesAlive) {
