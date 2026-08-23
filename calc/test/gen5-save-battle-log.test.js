@@ -1,5 +1,7 @@
 "use strict";
 
+const { readFileSync } = require("node:fs");
+const { resolve } = require("node:path");
 const parser = require("../../js/savereaders/gen5_save_battle_log.js");
 
 function writeU16(bytes, offset, value) {
@@ -96,9 +98,35 @@ function permutations(values) {
 }
 
 describe("Gen 5 save-file battle log decoder", function () {
+    test("keeps the battle-session body inside a balanced session wrapper", function () {
+        const source = readFileSync(resolve(__dirname, "../../js/fragsheet/battle_log.js"), "utf8");
+        const functionStart = source.indexOf("function renderSession(");
+        const functionEnd = source.indexOf("function renderBattleLogSessions(", functionStart);
+        const renderSessionSource = source.slice(functionStart, functionEnd);
+        const templateMatch = renderSessionSource.match(/return `([\s\S]*?)`;\n\s*}/);
+
+        expect(functionStart).toBeGreaterThanOrEqual(0);
+        expect(functionEnd).toBeGreaterThan(functionStart);
+        expect(templateMatch).not.toBeNull();
+
+        const template = templateMatch[1];
+        const openingDivs = (template.match(/<div\b/g) || []).length;
+        const closingDivs = (template.match(/<\/div>/g) || []).length;
+        expect(closingDivs).toBe(openingDivs);
+        expect(template).toMatch(/<div class="battle-session-body">[\s\S]*<\/div>\s*<\/div>\s*$/);
+        expect(source).not.toMatch(/onerror="[^"\n]*>/);
+    });
+
     test("decodes trainer, party, and both KO attribution directions", function () {
         const decoded = parser.decodeRecord(encodeRecord(makeRecord(219, 1)));
         expect(decoded).toEqual(makeRecord(219, 1));
+    });
+
+    test("preserves value 7 as an AI-partner KO attribution", function () {
+        const record = makeRecord(219, parser.PARTNER_KO_CREDIT);
+        const decoded = parser.decodeRecord(encodeRecord(record));
+        expect(parser.PARTNER_KO_CREDIT).toBe(7);
+        expect(decoded.playerKoCreditsByEnemy[0]).toBe(parser.PARTNER_KO_CREDIT);
     });
 
     test("selects the mirrored BW2 copy with the most complete log", function () {
@@ -188,5 +216,54 @@ describe("Gen 5 save-file battle log decoder", function () {
         const result = parser.parseBridgeSnapshot(bridge.subarray(0, bridge.length - 1));
         expect(result.valid).toBe(false);
         expect(result.reason).toBe("invalid-bridge-range");
+    });
+
+    test("converts partner credit into a history-only Partner KO event", function () {
+        const stored = new Map();
+        global.localStorage = {
+            getItem: (key) => stored.has(key) ? stored.get(key) : null,
+            setItem: (key, value) => stored.set(key, String(value)),
+            removeItem: (key) => stored.delete(key),
+        };
+        global.window = {
+            sav_pok_names: ["Unknown", "Bulbasaur"],
+            setdex: { Patrat: { Trainer: { tr_id: 1, sub_index: 0 } } },
+            getSpeciesFamilyMembers: () => ["Bulbasaur", "Ivysaur", "Venusaur"],
+        };
+        global.document = {
+            getElementById: () => null,
+            addEventListener: () => {},
+            querySelectorAll: () => [],
+            body: { classList: { contains: () => false } },
+        };
+        global.$ = () => ({ length: 0 });
+
+        jest.resetModules();
+        require("../../js/fragsheet/battle_log.js");
+        window.updateSaveFileBattleLog({
+            valid: true,
+            hasLogs: true,
+            records: [makeRecord(1, parser.PARTNER_KO_CREDIT)],
+        }, [{
+            rawSpeciesId: 1,
+            species: "Bulbasaur",
+            battleCounters: { koCount: 4, battlesBrought: 12, battlesUsed: 8 },
+        }], "tag-battle.sav");
+
+        const payload = JSON.parse(stored.get("saveFileBattleLogs"));
+        expect(payload.pokemonBattleCounters).toEqual([{
+            species: "Bulbasaur",
+            rawSpeciesId: 1,
+            koCount: 4,
+            battlesBrought: 12,
+            battlesUsed: 8,
+        }]);
+        expect(payload.events.filter((event) => event.type === "pKo")).toEqual([]);
+        expect(payload.events.find((event) => event.type === "partnerKo")).toMatchObject({
+            aiSpecies: "Patrat",
+            aiPartySlot: 0,
+        });
+        expect(window.isSaveFileBattleLogActive()).toBe(true);
+        expect(window.getSaveFileBattlesBroughtForSpecies("Ivysaur")).toBe(12);
     });
 });

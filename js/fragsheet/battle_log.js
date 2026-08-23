@@ -11,6 +11,7 @@
     const BATTLE_LOG_PACKED_MAGIC = "NBL1";
     const BATTLE_LOG_PACKED_MIN_VERSION = 1;
     const BATTLE_LOG_PACKED_MAX_VERSION = 3;
+    const GEN5_SAVE_PARTNER_KO_CREDIT = 7;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
     let lastRenderedImportantTrainerOnly = null;
@@ -19,6 +20,8 @@
     let battleLogUiInitialized = false;
     let editableAttemptFileState = null;
     let battleLogEditModeEnabled = true;
+    let saveFileBattleCounterCacheKey = null;
+    let saveFileBattlesBroughtBySpecies = {};
     let activeBattleLogSource = localStorage.getItem(BATTLE_LOG_ACTIVE_SOURCE_KEY) === "save-file"
         ? "save-file"
         : "emulator";
@@ -1023,6 +1026,15 @@
             });
 
             record.playerKoCreditsByEnemy.forEach((playerCredit, enemyIndex) => {
+                if (Number(playerCredit) === GEN5_SAVE_PARTNER_KO_CREDIT) {
+                    events.push({
+                        type: "partnerKo",
+                        turn: enemyIndex,
+                        aiSpecies: enemySpecies[enemyIndex] || "Unknown",
+                        aiPartySlot: enemyIndex,
+                    });
+                    return;
+                }
                 const playerIndex = Number(playerCredit) - 1;
                 if (playerIndex < 0 || playerIndex >= party.length) return;
                 events.push({
@@ -1057,8 +1069,81 @@
             preserveDuplicateTrainers: true,
             overflow: !!(parsedLog && parsedLog.overflow),
             recordCount: records.length,
+            pokemonBattleCounters: (Array.isArray(saveMons) ? saveMons : [])
+                .filter((mon) => mon && mon.species)
+                .map((mon) => {
+                    const counters = mon.battleCounters && typeof mon.battleCounters === "object"
+                        ? mon.battleCounters
+                        : mon;
+                    return {
+                        species: String(mon.species),
+                        rawSpeciesId: Number(mon.rawSpeciesId) || 0,
+                        koCount: Math.max(0, Number(counters.koCount) || 0),
+                        battlesBrought: Math.max(0, Number(counters.battlesBrought) || 0),
+                        battlesUsed: Math.max(0, Number(counters.battlesUsed) || 0),
+                    };
+                }),
             events,
         };
+    }
+
+    function isSaveFileBattleLogActive() {
+        return normalizeActiveBattleLogSource() === "save-file" && hasSaveFileBattleLogData();
+    }
+
+    function getSaveFileBattleCounterEntries(payload) {
+        if (payload && Array.isArray(payload.pokemonBattleCounters)) {
+            return payload.pokemonBattleCounters;
+        }
+
+        const entries = [];
+        const events = getBattleLogRecordsArray(payload) || [];
+        events.forEach((event) => {
+            if (!event || event.type !== "session_start" || !Array.isArray(event.pParty)) return;
+            event.pParty.forEach((mon) => {
+                if (mon && mon.species && mon.battleCounters) entries.push(mon);
+            });
+        });
+        return entries;
+    }
+
+    function refreshSaveFileBattleCounterCache() {
+        const active = isSaveFileBattleLogActive();
+        const raw = active ? localStorage.getItem(SAVE_FILE_BATTLE_LOG_STORAGE_KEY) : null;
+        const cacheKey = `${active ? "save-file" : "other"}:${raw || ""}`;
+        if (cacheKey === saveFileBattleCounterCacheKey) return;
+
+        saveFileBattleCounterCacheKey = cacheKey;
+        saveFileBattlesBroughtBySpecies = {};
+        if (!active || !raw) return;
+
+        let payload;
+        try {
+            payload = JSON.parse(raw);
+        } catch (_err) {
+            return;
+        }
+
+        getSaveFileBattleCounterEntries(payload).forEach((entry) => {
+            const species = String(entry && entry.species || "").trim();
+            if (!species) return;
+            const counters = entry.battleCounters && typeof entry.battleCounters === "object"
+                ? entry.battleCounters
+                : entry;
+            const battlesBrought = Math.max(0, Number(counters.battlesBrought) || 0);
+            getSaveLogSpeciesFamilyKeys(species).forEach((familyKey) => {
+                saveFileBattlesBroughtBySpecies[familyKey] = Math.max(
+                    saveFileBattlesBroughtBySpecies[familyKey] || 0,
+                    battlesBrought
+                );
+            });
+        });
+    }
+
+    function getSaveFileBattlesBroughtForSpecies(speciesName) {
+        refreshSaveFileBattleCounterCache();
+        if (!isSaveFileBattleLogActive()) return null;
+        return saveFileBattlesBroughtBySpecies[cleanSpeciesKey(speciesName)] || 0;
     }
 
     function updateSaveFileBattleLog(parsedLog, saveMons, fileName, options) {
@@ -1505,7 +1590,7 @@
 
                 return nextMon;
             });
-        } else if (type === "pKo" || type === "aiKo") {
+        } else if (type === "pKo" || type === "aiKo" || type === "partnerKo") {
             cloned.pSpecies = decodeEnumId(cloned.pSpecies, "species");
             cloned.aiSpecies = decodeEnumId(cloned.aiSpecies, "species");
             if ("move" in cloned) {
@@ -2826,19 +2911,21 @@
                         <div>You</div>
                         <div>Enemy KO'd</div>
                     </div>
-                    <div class="battle-events-empty">No player KO events recorded in this session.</div>
+                    <div class="battle-events-empty">No player-side KO events recorded in this session.</div>
                 </div>
             `;
         }
 
+        const hasPartnerKo = pKos.some((event) => event.type === "partnerKo");
         const rows = pKos.map((event) => {
+            const partnerKo = event.type === "partnerKo";
             return `
                 <div class="battle-event-row">
                     <div>
                         <div class="battle-event-cell">
-                            <img src="${spritePath(event.pSpecies)}" alt="${escHtml(event.pSpecies)}" onerror="this.style.visibility='hidden'">
+                            ${partnerKo ? "" : `<img src="${spritePath(event.pSpecies)}" alt="${escHtml(event.pSpecies)}" onerror="this.style.visibility='hidden'">`}
                             <div>
-                                <div class="battle-event-main">${escHtml(event.pSpecies || "Unknown")}</div>
+                                <div class="battle-event-main">${partnerKo ? "Partner KO" : escHtml(event.pSpecies || "Unknown")}</div>
                             </div>
                         </div>
                     </div>
@@ -2857,7 +2944,7 @@
         return `
             <div class="battle-events">
                 <div class="battle-events-header">
-                    <div>You</div>
+                    <div>${hasPartnerKo ? "You / Partner" : "You"}</div>
                     <div>Enemy KO'd</div>
                 </div>
                 ${rows}
@@ -2894,7 +2981,8 @@
 
     function getDisplayedPlayerKoEvents(session) {
         const events = Array.isArray(session && session.events) ? session.events : [];
-        const pKos = events.filter((event) => event && event.type === "pKo");
+        const pKos = events.filter((event) => event
+            && (event.type === "pKo" || event.type === "partnerKo"));
         if (pKos.length <= 6) {
             return pKos;
         }
@@ -3645,6 +3733,8 @@
     window.handleBattleLogSplitHeaderImageError = handleBattleLogSplitHeaderImageError;
     window.isBattleLogEnabledForTitle = isBattleLogEnabledForTitle;
     window.hasSaveFileBattleLogData = hasSaveFileBattleLogData;
+    window.isSaveFileBattleLogActive = isSaveFileBattleLogActive;
+    window.getSaveFileBattlesBroughtForSpecies = getSaveFileBattlesBroughtForSpecies;
     window.updateSaveFileBattleLog = updateSaveFileBattleLog;
     window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
     window.getBattleLogPlayerPartyReconstructionSets = getBattleLogPlayerPartyReconstructionSets;

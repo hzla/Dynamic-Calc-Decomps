@@ -13,6 +13,7 @@
     const VERSION = 2;
     const HEADER_SIZE = 16;
     const RECORD_SIZE = 14;
+    const PARTNER_KO_CREDIT = 7;
     const BRIDGE_MAGIC = "GBL1";
     const BRIDGE_HEADER_SIZE = 8;
     const BRIDGE_RANGE_HEADER_SIZE = 8;
@@ -264,6 +265,7 @@
         VERSION,
         HEADER_SIZE,
         RECORD_SIZE,
+        PARTNER_KO_CREDIT,
         BLOCKS,
         BRIDGE_MAGIC,
         decodePokemonCounters,
