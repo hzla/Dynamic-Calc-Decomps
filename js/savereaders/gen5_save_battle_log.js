@@ -97,13 +97,27 @@
             aiKoCreditsByPlayer.push(readBits(recordBytes, 91 + slot * 3, 3));
         }
 
-        return {
+        const storedPlayerCount = readBits(recordBytes, 10, 3);
+        // Some older v2 tag/multi-battle builds stored the runtime client
+        // party count (2) even though they snapshotted all six player party
+        // species and attributed KOs to those original slots. Recover that
+        // unambiguous shape so valid records after it are not treated as a
+        // corrupt tail. Keep the packed value available for diagnostics.
+        const hasLegacyExpandedParty = storedPlayerCount === 2
+            && playerSpeciesIds.every((speciesId) => speciesId > 0);
+
+        const record = {
             trainerId: readBits(recordBytes, 0, 10),
-            playerCount: readBits(recordBytes, 10, 3),
+            playerCount: hasLegacyExpandedParty ? 6 : storedPlayerCount,
             playerSpeciesIds,
             playerKoCreditsByEnemy,
             aiKoCreditsByPlayer,
         };
+        if (hasLegacyExpandedParty) {
+            record.storedPlayerCount = storedPlayerCount;
+            record.recoveredLegacyTagPlayerCount = true;
+        }
+        return record;
     }
 
     function getRecordStructuralError(record) {
