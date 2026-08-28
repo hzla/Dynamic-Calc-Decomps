@@ -16,6 +16,10 @@ function writeU32(bytes, offset, value) {
     writeU16(bytes, offset + 2, value >>> 16);
 }
 
+function readU16(bytes, offset) {
+    return bytes[offset] | (bytes[offset + 1] << 8);
+}
+
 function writeBits(bytes, bitOffset, width, value) {
     for (let bit = 0; bit < width; bit += 1) {
         const absoluteBit = bitOffset + bit;
@@ -97,6 +101,46 @@ function permutations(values) {
         permutations(rest).forEach((tail) => result.push([value].concat(tail)));
     });
     return result;
+}
+
+function add16(bytes) {
+    let sum = 0;
+    for (let offset = 0; offset < bytes.length; offset += 2) {
+        sum = (sum + readU16(bytes, offset)) & 0xFFFF;
+    }
+    return sum;
+}
+
+function cryptPk5Core(bytes, seed) {
+    const output = new Uint8Array(bytes);
+    let state = seed >>> 0;
+    for (let offset = 0; offset < output.length; offset += 2) {
+        state = (Math.imul(state, 0x41C64E6D) + 0x6073) >>> 0;
+        writeU16(output, offset, readU16(output, offset) ^ (state >>> 16));
+    }
+    return output;
+}
+
+function makeCounterPk5() {
+    const stored = new Uint8Array(136);
+    const physicalCore = new Uint8Array(128);
+    writeU16(physicalCore, 0, 4);
+    physicalCore[0x20 + 0x1B] = 0x34;
+    writeU16(physicalCore, 0x20 + 0x1C, 12);
+    writeU16(physicalCore, 0x20 + 0x1E, 7);
+    physicalCore[0x40 + 0x16] = 0x12;
+    writeU16(physicalCore, 0x40 + 0x1C, 99);
+    const checksum = add16(physicalCore);
+    writeU16(stored, 6, checksum);
+    stored.set(cryptPk5Core(physicalCore, checksum), 8);
+    return stored;
+}
+
+function decryptStoredPk5(stored) {
+    const checksum = readU16(stored, 6);
+    const physicalCore = cryptPk5Core(stored.subarray(8, 136), checksum);
+    expect(add16(physicalCore)).toBe(checksum);
+    return physicalCore;
 }
 
 describe("Gen 5 save-file battle log decoder", function () {
@@ -324,6 +368,87 @@ describe("Gen 5 save-file battle log decoder", function () {
             recoveredLegacyTagPlayerCount: true,
             playerSpeciesIds: [125, 16, 599, 127, 343, 541],
             playerKoCreditsByEnemy: [1, 2, 5, 3, 0, 0],
+        });
+    });
+
+    test("clears both BW2 history mirrors and all individual PK5 battle counters", function () {
+        const bytes = new Uint8Array(0x80000);
+        const layout = parser.SAVE_LAYOUTS.BW2;
+        layout.copyOffsets.forEach((halfOffset) => {
+            initializeCopy(bytes, halfOffset, [1, 0, 0]);
+            writeRecord(bytes, halfOffset, 0, 0, makeRecord(512, 1));
+            bytes[halfOffset + 0x18E04] = 1;
+            bytes.set(makeCounterPk5(), halfOffset + 0x18E08);
+            bytes.set(makeCounterPk5(), halfOffset + 0x400);
+        });
+        const original = new Uint8Array(bytes);
+
+        const result = parser.clearSaveBattleLogData(bytes, { baseVersion: "BW2" });
+        expect(result).toMatchObject({
+            baseVersion: "BW2",
+            clearedRecordCount: 1,
+            clearedPokemonInstances: 4,
+            skippedInvalidPokemon: 0,
+        });
+        expect(bytes).toEqual(original);
+        expect(parser.parse(result.bytes, { baseVersion: "BW2" })).toMatchObject({
+            valid: true,
+            hasLogs: false,
+            records: [],
+            declaredRecordCount: 0,
+        });
+
+        layout.copyOffsets.forEach((halfOffset) => {
+            [halfOffset + 0x18E08, halfOffset + 0x400].forEach((pk5Offset) => {
+                const physicalCore = decryptStoredPk5(result.bytes.subarray(pk5Offset, pk5Offset + 136));
+                expect(parser.decodePokemonCounters(
+                    Array.from({ length: 64 }, (_unused, word) => readU16(physicalCore, word * 2)),
+                    [0, 1, 2, 3]
+                )).toEqual({ koCount: 0, battlesBrought: 0, battlesUsed: 0 });
+                expect(readU16(physicalCore, 0x40 + 0x1C)).toBe(0);
+            });
+
+            parser.BLOCKS.forEach((block) => {
+                const start = halfOffset + block.offset;
+                const expected = parser.crc16Ccitt(result.bytes.subarray(start, start + block.size));
+                expect(readU16(result.bytes, start + block.size + 2)).toBe(expected);
+                expect(readU16(
+                    result.bytes,
+                    halfOffset + layout.checksumTableOffset + block.id * 2
+                )).toBe(expected);
+            });
+            const expectedTableChecksum = parser.crc16Ccitt(result.bytes.subarray(
+                halfOffset + layout.checksumTableOffset,
+                halfOffset + layout.checksumTableOffset + layout.checksumTableLength
+            ));
+            expect(readU16(result.bytes, halfOffset + layout.checksumTableChecksumOffset))
+                .toBe(expectedTableChecksum);
+        });
+    });
+
+    test("uses the Black/White mirror and checksum-table layout when clearing", function () {
+        const bytes = new Uint8Array(0x80000);
+        const layout = parser.SAVE_LAYOUTS.BW;
+        layout.copyOffsets.forEach((halfOffset) => {
+            initializeCopy(bytes, halfOffset, [1, 0, 0]);
+            writeRecord(bytes, halfOffset, 0, 0, makeRecord(1, 1));
+        });
+
+        const result = parser.clearSaveBattleLogData(bytes, { baseVersion: "BW" });
+        expect(result.baseVersion).toBe("BW");
+        expect(result.copies.map((copy) => copy.halfOffset)).toEqual([0, 0x24000]);
+        expect(parser.parse(result.bytes, { baseVersion: "BW" })).toMatchObject({
+            valid: true,
+            hasLogs: false,
+            records: [],
+        });
+        layout.copyOffsets.forEach((halfOffset) => {
+            const expectedTableChecksum = parser.crc16Ccitt(result.bytes.subarray(
+                halfOffset + layout.checksumTableOffset,
+                halfOffset + layout.checksumTableOffset + layout.checksumTableLength
+            ));
+            expect(readU16(result.bytes, halfOffset + layout.checksumTableChecksumOffset))
+                .toBe(expectedTableChecksum);
         });
     });
 
