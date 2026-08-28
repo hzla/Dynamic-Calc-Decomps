@@ -3,6 +3,8 @@
 const { readFileSync } = require("node:fs");
 const { resolve } = require("node:path");
 const parser = require("../../js/savereaders/gen5_save_battle_log.js");
+const splitRules = require("../../js/fragsheet/battle_log_split_rules.js");
+const cascade2BattleLogData = require("../../js/fragsheet/cascade2_save_battle_log_data.js");
 
 function writeU16(bytes, offset, value) {
     bytes[offset] = value & 0xFF;
@@ -98,6 +100,81 @@ function permutations(values) {
 }
 
 describe("Gen 5 save-file battle log decoder", function () {
+    test("bundles casc2 trainer teams and linked order for Cascade save logs", function () {
+        expect(cascade2BattleLogData.source).toBe("backups/casc2.js");
+        expect(cascade2BattleLogData.order[766].next).toBe(338);
+        expect(cascade2BattleLogData.order[338]).toMatchObject({ prev: 766, next: 734 });
+        expect(cascade2BattleLogData.trainers[338]).toMatchObject({
+            name: "Artist Gough - Village Bridge",
+            species: expect.arrayContaining(["Joltik"]),
+        });
+        expect(cascade2BattleLogData.trainers[512]).toMatchObject({
+            name: "Psychic Low - Relic Castle",
+            species: ["Xatu", "Meditite", "Mawile", "Slowking"],
+        });
+        expect(cascade2BattleLogData.trainers[778]).toMatchObject({
+            name: "Blue Blue ",
+            species: ["Honchkrow", "Scrafty", "Krookodile", "Houndoom", "Tyranitar", "Bisharp"],
+        });
+
+        const progression = splitRules.getProgressionForTitle("Cascade White Dev");
+        const splitIndexes = splitRules.assignSplitIndexes(
+            [766, 338, 734],
+            cascade2BattleLogData.order,
+            progression
+        );
+        expect(splitIndexes).toEqual([2, 2, 2]);
+    });
+
+    test("uses casc2 trainer species instead of conflicting active Cascade data", function () {
+        const stored = new Map();
+        global.localStorage = {
+            getItem: (key) => stored.has(key) ? stored.get(key) : null,
+            setItem: (key, value) => stored.set(key, String(value)),
+            removeItem: (key) => stored.delete(key),
+        };
+        global.window = {
+            TITLE: "Cascade White",
+            Cascade2SaveBattleLogData: cascade2BattleLogData,
+            sav_pok_names: ["Unknown", "Bulbasaur"],
+            setdex: { Sunflora: { WrongSource: { tr_id: 338, sub_index: 0 } } },
+            backup_data: {
+                title: "Cascade White",
+                order: { 338: { id: 338, prev: null, next: null } },
+            },
+            npoint_data: {
+                title: "Cascade White",
+                order: { 338: { id: 338, prev: null, next: null } },
+            },
+            getSpeciesFamilyMembers: (speciesName) => [speciesName],
+        };
+        global.document = {
+            getElementById: () => null,
+            addEventListener: () => {},
+            querySelectorAll: () => [],
+            body: { classList: { contains: () => false } },
+        };
+        global.$ = () => ({ length: 0 });
+
+        const record = makeRecord(338, 1);
+        record.playerKoCreditsByEnemy = [1, 0, 0, 0, 0, 0];
+        record.aiKoCreditsByPlayer = [0, 0, 0, 0, 0, 0];
+
+        jest.resetModules();
+        require("../../js/fragsheet/battle_log.js");
+        window.updateSaveFileBattleLog({
+            valid: true,
+            hasLogs: true,
+            records: [record],
+        }, [{ rawSpeciesId: 1, species: "Bulbasaur" }], "cascade.sav");
+
+        const payload = JSON.parse(stored.get("saveFileBattleLogs"));
+        expect(payload.events.find((event) => event.type === "pKo")).toMatchObject({
+            aiSpecies: "Joltik",
+            aiPartySlot: 0,
+        });
+    });
+
     test("keeps the battle-session body inside a balanced session wrapper", function () {
         const source = readFileSync(resolve(__dirname, "../../js/fragsheet/battle_log.js"), "utf8");
         const functionStart = source.indexOf("function renderSession(");
@@ -193,6 +270,35 @@ describe("Gen 5 save-file battle log decoder", function () {
                 battlesUsed: 123,
             });
         });
+    });
+
+    test("falls back to the legacy contiguous PK5 KO counter", function () {
+        const words = new Array(64).fill(0);
+        const order = [0, 1, 2, 3];
+        const blockC = order.indexOf(2) * 16;
+        words[blockC + 14] = 47;
+        expect(parser.decodePokemonCounters(words, order).koCount).toBe(47);
+    });
+
+    test("preserves the valid prefix and omits a structurally corrupt record tail", function () {
+        const bytes = new Uint8Array(0x1C000);
+        initializeCopy(bytes, 0, [3, 0, 0]);
+        writeRecord(bytes, 0, 0, 0, makeRecord(156, 1));
+
+        const corruptRecord = makeRecord(157, 1);
+        corruptRecord.playerCount = 2;
+        corruptRecord.playerSpeciesIds = [4, 5, 6, 7, 8, 9];
+        corruptRecord.playerKoCreditsByEnemy = [1, 5, 0, 0, 0, 0];
+        writeRecord(bytes, 0, 0, 1, corruptRecord);
+        writeRecord(bytes, 0, 0, 2, makeRecord(154, 2));
+
+        const result = parser.parse(bytes, { baseVersion: "BW2" });
+        expect(result.valid).toBe(true);
+        expect(result.records.map((record) => record.trainerId)).toEqual([156]);
+        expect(result.declaredRecordCount).toBe(3);
+        expect(result.corruptRecordIndex).toBe(1);
+        expect(result.corruptRecordReason).toBe("player-ko-credit-outside-party");
+        expect(result.omittedCorruptRecordCount).toBe(2);
     });
 
     test("reconstructs battle history from a DeSmuME bridge snapshot", function () {

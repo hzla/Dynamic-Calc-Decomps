@@ -66,8 +66,10 @@
         // the reserved Block B words at 0x44 and 0x46.
         const koLow = (decryptedWords[blockB + 13] >>> 8) & 0xFF;
         const koHigh = decryptedWords[blockC + 11] & 0xFF;
+        const splitKoCount = (koLow | (koHigh << 8)) >>> 0;
+        const legacyKoCount = decryptedWords[blockC + 14] & 0xFFFF;
         return {
-            koCount: (koLow | (koHigh << 8)) >>> 0,
+            koCount: splitKoCount || legacyKoCount,
             battlesBrought: decryptedWords[blockB + 14] & 0xFFFF,
             battlesUsed: decryptedWords[blockB + 15] & 0xFFFF,
         };
@@ -102,6 +104,40 @@
             playerKoCreditsByEnemy,
             aiKoCreditsByPlayer,
         };
+    }
+
+    function getRecordStructuralError(record) {
+        if (!record || !Number.isInteger(record.trainerId) || record.trainerId <= 0) {
+            return "invalid-trainer-id";
+        }
+        if (!Number.isInteger(record.playerCount) || record.playerCount < 1 || record.playerCount > 6) {
+            return "invalid-player-count";
+        }
+
+        for (let slot = 0; slot < 6; slot += 1) {
+            const speciesId = Number(record.playerSpeciesIds[slot]) || 0;
+            if (slot < record.playerCount && (speciesId < 1 || speciesId > 1023)) {
+                return "missing-player-species";
+            }
+            if (slot >= record.playerCount && speciesId !== 0) {
+                return "species-after-player-count";
+            }
+
+            const playerCredit = Number(record.playerKoCreditsByEnemy[slot]) || 0;
+            if (playerCredit !== 0 && playerCredit !== PARTNER_KO_CREDIT
+                && (playerCredit < 1 || playerCredit > record.playerCount)) {
+                return "player-ko-credit-outside-party";
+            }
+
+            const enemyCredit = Number(record.aiKoCreditsByPlayer[slot]) || 0;
+            if (enemyCredit < 0 || enemyCredit > 6) {
+                return "invalid-ai-ko-credit";
+            }
+            if (slot >= record.playerCount && enemyCredit !== 0) {
+                return "ai-ko-credit-after-player-count";
+            }
+        }
+        return null;
     }
 
     function readBlockHeader(bytes, copyOffset, spec) {
@@ -153,14 +189,22 @@
         }
 
         const records = [];
-        headers.forEach((header) => {
+        const declaredRecordCount = headers.reduce((sum, header) => sum + header.count, 0);
+        let corruptRecordIndex = null;
+        let corruptRecordReason = null;
+        headers.some((header) => {
             for (let index = 0; index < header.count; index += 1) {
                 const start = header.offset + HEADER_SIZE + index * RECORD_SIZE;
                 const record = decodeRecord(bytes.subarray(start, start + RECORD_SIZE));
-                if (record.trainerId > 0 && record.playerCount > 0 && record.playerCount <= 6) {
-                    records.push(record);
+                const structuralError = getRecordStructuralError(record);
+                if (structuralError) {
+                    corruptRecordIndex = records.length;
+                    corruptRecordReason = structuralError;
+                    return true;
                 }
+                records.push(record);
             }
+            return false;
         });
 
         return {
@@ -168,6 +212,12 @@
             copyOffset,
             headers,
             records,
+            declaredRecordCount,
+            corruptRecordIndex,
+            corruptRecordReason,
+            omittedCorruptRecordCount: corruptRecordIndex === null
+                ? 0
+                : declaredRecordCount - corruptRecordIndex,
             overflow: headers.some((header) => (header.flags & 1) !== 0),
         };
     }
@@ -208,6 +258,10 @@
             hasLogs: selected.records.length > 0,
             records: selected.records,
             overflow: selected.overflow,
+            declaredRecordCount: selected.declaredRecordCount,
+            corruptRecordIndex: selected.corruptRecordIndex,
+            corruptRecordReason: selected.corruptRecordReason,
+            omittedCorruptRecordCount: selected.omittedCorruptRecordCount,
             copyOffset: selected.copyOffset,
             headers: selected.headers,
             copies: candidates,
@@ -270,6 +324,7 @@
         BRIDGE_MAGIC,
         decodePokemonCounters,
         decodeRecord,
+        getRecordStructuralError,
         parseCopy,
         parse,
         parseBridgeSnapshot,
