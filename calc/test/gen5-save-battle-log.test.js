@@ -266,4 +266,155 @@ describe("Gen 5 save-file battle log decoder", function () {
         expect(window.isSaveFileBattleLogActive()).toBe(true);
         expect(window.getSaveFileBattlesBroughtForSpecies("Ivysaur")).toBe(12);
     });
+
+    test("keeps recorded evolution stages and only applies exact-ID imported forms", function () {
+        const stored = new Map();
+        stored.set("customsets", JSON.stringify({
+            Charizard: { "My Box": { ability: "Blaze" } },
+            "Rotom-Wash": { "My Box": { ability: "Levitate" } },
+        }));
+        global.localStorage = {
+            getItem: (key) => stored.has(key) ? stored.get(key) : null,
+            setItem: (key, value) => stored.set(key, String(value)),
+            removeItem: (key) => stored.delete(key),
+        };
+
+        const speciesNames = new Array(488).fill("");
+        speciesNames[4] = "Charmander";
+        speciesNames[479] = "Rotom";
+        speciesNames[487] = "Giratina";
+        global.window = {
+            sav_pok_names: speciesNames,
+            setdex: {
+                Purrloin: { Trainer: { tr_id: 1, sub_index: 0 } },
+                Patrat: { Trainer: { tr_id: 1, sub_index: 1 } },
+                Gible: { Trainer: { tr_id: 1, sub_index: 2 } },
+            },
+            getSpeciesFamilyMembers: (speciesName) => {
+                if (["Charmander", "Charmeleon", "Charizard"].includes(speciesName)) {
+                    return ["Charmander", "Charmeleon", "Charizard"];
+                }
+                if (["Rotom", "Rotom-Wash"].includes(speciesName)) {
+                    return ["Rotom", "Rotom-Wash"];
+                }
+                if (["Giratina", "Giratina-Origin"].includes(speciesName)) {
+                    return ["Giratina", "Giratina-Origin"];
+                }
+                return [speciesName];
+            },
+        };
+        global.document = {
+            getElementById: () => null,
+            addEventListener: () => {},
+            querySelectorAll: () => [],
+            body: { classList: { contains: () => false } },
+        };
+        global.$ = () => ({ length: 0 });
+
+        const record = makeRecord(1, 1);
+        record.playerSpeciesIds = [4, 479, 487, 0, 0, 0];
+        record.playerKoCreditsByEnemy = [1, 2, 3, 0, 0, 0];
+        record.aiKoCreditsByPlayer = [0, 0, 0, 0, 0, 0];
+
+        jest.resetModules();
+        require("../../js/fragsheet/battle_log.js");
+        window.updateSaveFileBattleLog({
+            valid: true,
+            hasLogs: true,
+            records: [record],
+        }, [
+            { rawSpeciesId: 6, species: "Charizard", ability: "Blaze" },
+            { rawSpeciesId: 479, species: "Rotom-Wash", ability: "Levitate" },
+            { rawSpeciesId: 487, species: "Giratina-Origin", ability: "Pressure" },
+        ], "historical-stages.sav");
+
+        const payload = JSON.parse(stored.get("saveFileBattleLogs"));
+        const party = payload.events.find((event) => event.type === "session_start").pParty;
+        expect(party).toEqual(expect.arrayContaining([
+            expect.objectContaining({
+                species: "Charmander",
+                loggedSpecies: "Charmander",
+                currentSpecies: "Charizard",
+                currentSpeciesId: 6,
+                recordedSpeciesId: 4,
+                rawSpeciesId: 4,
+            }),
+            expect.objectContaining({
+                species: "Rotom-Wash",
+                loggedSpecies: "Rotom",
+                currentSpecies: "Rotom-Wash",
+                currentSpeciesId: 479,
+                recordedSpeciesId: 479,
+                rawSpeciesId: 479,
+            }),
+            expect.objectContaining({
+                species: "Giratina",
+                loggedSpecies: "Giratina",
+                currentSpecies: "Giratina-Origin",
+                currentSpeciesId: 487,
+                recordedSpeciesId: 487,
+                rawSpeciesId: 487,
+            }),
+        ]));
+        expect(payload.events.filter((event) => event.type === "pKo").map((event) => event.pSpecies))
+            .toEqual(["Charmander", "Rotom-Wash", "Giratina"]);
+    });
+
+    test("normalizes cached save-log parties created before historical stages were authoritative", function () {
+        const stored = new Map();
+        stored.set("battleLogActiveSource", "save-file");
+        stored.set("customsets", JSON.stringify({
+            "Rotom-Wash": { "My Box": { ability: "Levitate" } },
+        }));
+        stored.set("saveFileBattleLogs", JSON.stringify({
+            version: "gen5-save-v2",
+            sourceType: "save-file",
+            preserveDuplicateTrainers: true,
+            events: [
+                {
+                    type: "session_start",
+                    enemyTrainerIdA: 1,
+                    pParty: [
+                        { species: "Charizard", loggedSpecies: "Charmander", rawSpeciesId: 6 },
+                        { species: "Rotom-Wash", loggedSpecies: "Rotom", rawSpeciesId: 479 },
+                    ],
+                },
+                { type: "pKo", pSlot: 0, pSpecies: "Charizard", aiSpecies: "Patrat" },
+                { type: "pKo", pSlot: 1, pSpecies: "Rotom-Wash", aiSpecies: "Purrloin" },
+                { type: "session_end" },
+            ],
+        }));
+        global.localStorage = {
+            getItem: (key) => stored.has(key) ? stored.get(key) : null,
+            setItem: (key, value) => stored.set(key, String(value)),
+            removeItem: (key) => stored.delete(key),
+        };
+
+        const speciesNames = new Array(480).fill("");
+        speciesNames[4] = "Charmander";
+        speciesNames[6] = "Charizard";
+        speciesNames[479] = "Rotom";
+        global.window = {
+            sav_pok_names: speciesNames,
+            setdex: {},
+            getSpeciesFamilyMembers: (speciesName) => [speciesName],
+        };
+        global.document = {
+            getElementById: () => null,
+            addEventListener: () => {},
+            querySelectorAll: () => [],
+            body: { classList: { contains: () => false } },
+        };
+        global.$ = () => ({ length: 0 });
+
+        jest.resetModules();
+        require("../../js/fragsheet/battle_log.js");
+
+        expect(window.getBattleLogSpeciesBattleCounts()).toEqual({
+            Charmander: 1,
+            "Rotom-Wash": 1,
+        });
+        expect(Object.keys(window.getBattleLogPlayerPartyReconstructionSets()).sort())
+            .toEqual(["Charmander", "Rotom-Wash"]);
+    });
 });

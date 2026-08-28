@@ -900,12 +900,15 @@
             importedSets = null;
         }
         const abilityBySpeciesKey = new Map();
+        const importedSpeciesKeys = new Set();
         if (importedSets && typeof importedSets === "object") {
             for (const importedSpecies in importedSets) {
                 if (!Object.prototype.hasOwnProperty.call(importedSets, importedSpecies)) continue;
                 const speciesKey = cleanSpeciesKey(importedSpecies);
-                if (!speciesKey || abilityBySpeciesKey.has(speciesKey)) continue;
                 const importedSet = importedSets[importedSpecies] && importedSets[importedSpecies]["My Box"];
+                if (!speciesKey || !importedSet) continue;
+                importedSpeciesKeys.add(speciesKey);
+                if (abilityBySpeciesKey.has(speciesKey)) continue;
                 const ability = importedSet && typeof importedSet.ability === "string"
                     ? importedSet.ability.trim()
                     : "";
@@ -915,11 +918,74 @@
             }
         }
 
-        return function resolveImportedSaveSetAbility(speciesName) {
+        const resolveImportedSaveSetAbility = function (speciesName) {
             const speciesKey = cleanSpeciesKey(speciesName);
             if (!speciesKey) return "";
             return abilityBySpeciesKey.get(speciesKey) || "";
         };
+        resolveImportedSaveSetAbility.hasSpecies = function (speciesName) {
+            return importedSpeciesKeys.has(cleanSpeciesKey(speciesName));
+        };
+        return resolveImportedSaveSetAbility;
+    }
+
+    function resolveSaveLogDisplaySpecies(speciesId, loggedSpecies, savedMon, resolveImportedSaveSetAbility) {
+        if (!savedMon || !savedMon.species) {
+            return loggedSpecies;
+        }
+
+        const savedSpecies = String(savedMon.species).trim();
+        const isExactSpeciesIdMatch = Number(savedMon.rawSpeciesId) === Number(speciesId);
+        const isDifferentSpeciesName = cleanSpeciesKey(savedSpecies) !== cleanSpeciesKey(loggedSpecies);
+        const hasImportedForm = resolveImportedSaveSetAbility
+            && typeof resolveImportedSaveSetAbility.hasSpecies === "function"
+            && resolveImportedSaveSetAbility.hasSpecies(savedSpecies);
+
+        return isExactSpeciesIdMatch && isDifferentSpeciesName && hasImportedForm
+            ? savedSpecies
+            : loggedSpecies;
+    }
+
+    function resolveGen5SaveLogSpeciesId(speciesName) {
+        const targetKey = cleanSpeciesKey(speciesName);
+        if (!targetKey) return null;
+
+        const saveSpeciesNames = typeof sav_pok_names !== "undefined" && Array.isArray(sav_pok_names)
+            ? sav_pok_names
+            : (Array.isArray(window.sav_pok_names) ? window.sav_pok_names : []);
+        for (let speciesId = 1; speciesId < saveSpeciesNames.length; speciesId += 1) {
+            if (cleanSpeciesKey(saveSpeciesNames[speciesId]) === targetKey) {
+                return speciesId;
+            }
+        }
+        return null;
+    }
+
+    function resolveStoredSaveLogDisplaySpecies(mon, resolveImportedSaveSetAbility) {
+        const loggedSpecies = String(mon && mon.loggedSpecies || "").trim();
+        if (!loggedSpecies) {
+            return mon && mon.species;
+        }
+
+        const storedRecordedSpeciesId = Number(mon.recordedSpeciesId);
+        const recordedSpeciesId = Number.isInteger(storedRecordedSpeciesId) && storedRecordedSpeciesId > 0
+            ? storedRecordedSpeciesId
+            : resolveGen5SaveLogSpeciesId(loggedSpecies);
+        if (!Number.isInteger(recordedSpeciesId)) {
+            return loggedSpecies;
+        }
+
+        const currentSpecies = String(mon.currentSpecies || mon.species || loggedSpecies).trim();
+        const storedCurrentSpeciesId = Number(mon.currentSpeciesId);
+        const currentSpeciesId = Number.isInteger(storedCurrentSpeciesId) && storedCurrentSpeciesId > 0
+            ? storedCurrentSpeciesId
+            : Number(mon.rawSpeciesId);
+        return resolveSaveLogDisplaySpecies(
+            recordedSpeciesId,
+            loggedSpecies,
+            { species: currentSpecies, rawSpeciesId: currentSpeciesId },
+            resolveImportedSaveSetAbility
+        );
     }
 
     function buildSaveLogPartyMon(speciesId, resolveCurrentSaveMon, resolveImportedSaveSetAbility) {
@@ -928,6 +994,8 @@
         if (!savedMon) {
             return {
                 species: loggedSpecies,
+                loggedSpecies,
+                recordedSpeciesId: speciesId,
                 rawSpeciesId: speciesId,
                 heldItem: "None",
                 ability: "Unknown",
@@ -938,11 +1006,20 @@
         }
 
         const importedAbility = resolveImportedSaveSetAbility(savedMon.species);
+        const displaySpecies = resolveSaveLogDisplaySpecies(
+            speciesId,
+            loggedSpecies,
+            savedMon,
+            resolveImportedSaveSetAbility
+        );
 
         return {
-            species: savedMon.species || loggedSpecies,
+            species: displaySpecies,
             loggedSpecies,
-            rawSpeciesId: savedMon.rawSpeciesId || speciesId,
+            currentSpecies: savedMon.species || loggedSpecies,
+            currentSpeciesId: Number(savedMon.rawSpeciesId) || speciesId,
+            recordedSpeciesId: speciesId,
+            rawSpeciesId: speciesId,
             nickname: savedMon.nickname || "",
             gender: savedMon.gender || "",
             heldItem: "None",
@@ -1545,6 +1622,15 @@
                 nextMon.species = Number.isInteger(speciesId)
                     ? decodeEnumId(speciesId, "species")
                     : nextMon.species;
+                if (payloadVersion === "gen5-save-v2") {
+                    nextMon.species = resolveStoredSaveLogDisplaySpecies(
+                        nextMon,
+                        context && context.resolveImportedSaveSetAbility
+                    );
+                    if (Number.isInteger(Number(nextMon.recordedSpeciesId))) {
+                        nextMon.rawSpeciesId = Number(nextMon.recordedSpeciesId);
+                    }
+                }
                 nextMon.heldItem = decodeEnumId(nextMon.heldItem, "item");
                 if (Number.isInteger(nextMon.natureId)) {
                     nextMon.nature = decodeNatureId(nextMon.natureId, adapter);
@@ -1813,6 +1899,21 @@
         };
     }
 
+    function alignSaveFileEventSpeciesToRecordedParty(session) {
+        const party = Array.isArray(session && session.start && session.start.pParty)
+            ? session.start.pParty
+            : [];
+        const events = Array.isArray(session && session.events) ? session.events : [];
+        events.forEach((event) => {
+            if (!event || (event.type !== "pKo" && event.type !== "aiKo")) return;
+            const partySlot = Number(event.pSlot);
+            const partyMon = Number.isInteger(partySlot) ? party[partySlot] : null;
+            if (partyMon && partyMon.species) {
+                event.pSpecies = partyMon.species;
+            }
+        });
+    }
+
     function buildBattleLogSessionsFromPayload(payload) {
         const records = getBattleLogRecordsArray(payload);
         const rawSessions = groupRawSessions(records);
@@ -1824,6 +1925,9 @@
                 : null,
         };
         const sessions = rawSessions.map((rawSession) => decodeRawSession(rawSession, context));
+        if (payloadVersion === "gen5-save-v2") {
+            sessions.forEach(alignSaveFileEventSpeciesToRecordedParty);
+        }
         const normalizedSessions = payload && payload.preserveDuplicateTrainers
             ? sessions
             : dedupeSessionsByTrainerId(sessions);
