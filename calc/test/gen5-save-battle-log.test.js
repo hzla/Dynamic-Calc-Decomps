@@ -286,8 +286,8 @@ describe("Gen 5 save-file battle log decoder", function () {
         writeRecord(bytes, 0, 0, 0, makeRecord(156, 1));
 
         const corruptRecord = makeRecord(157, 1);
-        corruptRecord.playerCount = 2;
-        corruptRecord.playerSpeciesIds = [4, 5, 6, 7, 8, 9];
+        corruptRecord.playerCount = 3;
+        corruptRecord.playerSpeciesIds = [4, 5, 6, 0, 0, 0];
         corruptRecord.playerKoCreditsByEnemy = [1, 5, 0, 0, 0, 0];
         writeRecord(bytes, 0, 0, 1, corruptRecord);
         writeRecord(bytes, 0, 0, 2, makeRecord(154, 2));
@@ -299,6 +299,32 @@ describe("Gen 5 save-file battle log decoder", function () {
         expect(result.corruptRecordIndex).toBe(1);
         expect(result.corruptRecordReason).toBe("player-ko-credit-outside-party");
         expect(result.omittedCorruptRecordCount).toBe(2);
+    });
+
+    test("recovers older tag-battle records that stored count two with a full party snapshot", function () {
+        const bytes = new Uint8Array(0x1C000);
+        initializeCopy(bytes, 0, [2, 0, 0]);
+
+        const tagRecord = makeRecord(751, 1);
+        tagRecord.playerCount = 2;
+        tagRecord.playerSpeciesIds = [125, 16, 599, 127, 343, 541];
+        tagRecord.playerKoCreditsByEnemy = [1, 2, 5, 3, 0, 0];
+        writeRecord(bytes, 0, 0, 0, tagRecord);
+        writeRecord(bytes, 0, 0, 1, makeRecord(170, 1));
+
+        const result = parser.parse(bytes, { baseVersion: "BW2" });
+        expect(result.valid).toBe(true);
+        expect(result.records).toHaveLength(2);
+        expect(result.corruptRecordIndex).toBeNull();
+        expect(result.omittedCorruptRecordCount).toBe(0);
+        expect(result.records[0]).toMatchObject({
+            trainerId: 751,
+            storedPlayerCount: 2,
+            playerCount: 6,
+            recoveredLegacyTagPlayerCount: true,
+            playerSpeciesIds: [125, 16, 599, 127, 343, 541],
+            playerKoCreditsByEnemy: [1, 2, 5, 3, 0, 0],
+        });
     });
 
     test("reconstructs battle history from a DeSmuME bridge snapshot", function () {
