@@ -19,10 +19,51 @@
     const BRIDGE_RANGE_HEADER_SIZE = 8;
     const BRIDGE_MAX_RANGE_COUNT = 16;
     const BRIDGE_MAX_SAVE_SIZE = 0x100000;
+    const RAW_SAVE_SIZE = 0x80000;
     const BLOCKS = [
-        { offset: 0x19600, size: 0x1338, capacity: 350 },
-        { offset: 0x1AA00, size: 0x07C4, capacity: 140 },
-        { offset: 0x1B200, size: 0x0D54, capacity: 110 },
+        { id: 29, offset: 0x19600, size: 0x1338, capacity: 350 },
+        { id: 30, offset: 0x1AA00, size: 0x07C4, capacity: 140 },
+        { id: 31, offset: 0x1B200, size: 0x0D54, capacity: 110 },
+    ];
+    const SAVE_LAYOUTS = {
+        BW: {
+            copyOffsets: [0, 0x24000],
+            checksumTableOffset: 0x23F00,
+            checksumTableLength: 0x8C,
+            checksumTableChecksumOffset: 0x23F9A,
+        },
+        BW2: {
+            copyOffsets: [0, 0x26000],
+            checksumTableOffset: 0x25F00,
+            checksumTableLength: 0x94,
+            checksumTableChecksumOffset: 0x25FA2,
+        },
+    };
+    const BOX_COUNT = 24;
+    const BOX_BLOCK_OFFSET = 0x400;
+    const BOX_BLOCK_STRIDE = 0x1000;
+    const BOX_DATA_LENGTH = 0xFF0;
+    const BOX_CHECKSUM_OFFSET = 0xFF2;
+    const BOX_SLOT_COUNT = 30;
+    const PK5_STORED_SIZE = 136;
+    const PARTY_BLOCK_OFFSET = 0x18E00;
+    const PARTY_BLOCK_LENGTH = 0x534;
+    const PARTY_COUNT_OFFSET = PARTY_BLOCK_OFFSET + 4;
+    const PARTY_SLOTS_OFFSET = PARTY_BLOCK_OFFSET + 8;
+    const PARTY_SLOT_COUNT = 6;
+    const PARTY_SLOT_SIZE = 220;
+    const PARTY_CHECKSUM_OFFSET = 0x19336;
+    const PARTY_CHECKSUM_INDEX = 26;
+    const PK5_CORE_OFFSET = 8;
+    const PK5_CORE_SIZE = 128;
+    const PK5_BLOCK_SIZE = 32;
+    const PK5_BLOCK_ORDERS = [
+        [0, 1, 2, 3], [0, 1, 3, 2], [0, 2, 1, 3], [0, 2, 3, 1],
+        [0, 3, 1, 2], [0, 3, 2, 1], [1, 0, 2, 3], [1, 0, 3, 2],
+        [1, 2, 0, 3], [1, 2, 3, 0], [1, 3, 0, 2], [1, 3, 2, 0],
+        [2, 0, 1, 3], [2, 0, 3, 1], [2, 1, 0, 3], [2, 1, 3, 0],
+        [2, 3, 0, 1], [2, 3, 1, 0], [3, 0, 1, 2], [3, 0, 2, 1],
+        [3, 1, 0, 2], [3, 1, 2, 0], [3, 2, 0, 1], [3, 2, 1, 0],
     ];
 
     function toBytes(input) {
@@ -47,6 +88,220 @@
             | (bytes[offset + 1] << 8)
             | (bytes[offset + 2] << 16)
             | (bytes[offset + 3] << 24)) >>> 0;
+    }
+
+    function writeU16(bytes, offset, value) {
+        bytes[offset] = value & 0xFF;
+        bytes[offset + 1] = (value >>> 8) & 0xFF;
+    }
+
+    function writeU32(bytes, offset, value) {
+        bytes[offset] = value & 0xFF;
+        bytes[offset + 1] = (value >>> 8) & 0xFF;
+        bytes[offset + 2] = (value >>> 16) & 0xFF;
+        bytes[offset + 3] = (value >>> 24) & 0xFF;
+    }
+
+    function crc16Ccitt(bytes) {
+        let top = 0xFF;
+        let bottom = 0xFF;
+        for (let index = 0; index < bytes.length; index += 1) {
+            let value = bytes[index] ^ top;
+            value ^= value >>> 4;
+            top = (bottom ^ (value >>> 3) ^ (value << 4)) & 0xFF;
+            bottom = (value ^ (value << 5)) & 0xFF;
+        }
+        return ((top << 8) | bottom) & 0xFFFF;
+    }
+
+    function add16(bytes) {
+        let sum = 0;
+        for (let offset = 0; offset + 1 < bytes.length; offset += 2) {
+            sum = (sum + readU16(bytes, offset)) & 0xFFFF;
+        }
+        return sum;
+    }
+
+    function cryptPk5Core(bytes, seed) {
+        const output = new Uint8Array(bytes);
+        let state = seed >>> 0;
+        for (let offset = 0; offset < output.length; offset += 2) {
+            state = (Math.imul(state, 0x41C64E6D) + 0x6073) >>> 0;
+            writeU16(output, offset, readU16(output, offset) ^ (state >>> 16));
+        }
+        return output;
+    }
+
+    function isZeroRange(bytes, offset, length) {
+        for (let index = 0; index < length; index += 1) {
+            if (bytes[offset + index] !== 0) return false;
+        }
+        return true;
+    }
+
+    function clearPk5BattleCounters(bytes, offset) {
+        if (offset < 0 || offset + PK5_STORED_SIZE > bytes.length) return "invalid";
+        if (isZeroRange(bytes, offset, PK5_STORED_SIZE)) return "empty";
+
+        const sanity = readU16(bytes, offset + 4);
+        if ((sanity & 2) !== 0) return "invalid";
+        const checksum = readU16(bytes, offset + 6);
+        const storedCore = bytes.slice(offset + PK5_CORE_OFFSET, offset + PK5_CORE_OFFSET + PK5_CORE_SIZE);
+        const decryptedCandidate = cryptPk5Core(storedCore, checksum);
+        let physicalCore;
+        let wasEncrypted;
+        if (add16(decryptedCandidate) === checksum) {
+            physicalCore = decryptedCandidate;
+            wasEncrypted = true;
+        } else if (add16(storedCore) === checksum) {
+            physicalCore = storedCore;
+            wasEncrypted = false;
+        } else {
+            return "invalid";
+        }
+
+        const personality = readU32(bytes, offset);
+        const order = PK5_BLOCK_ORDERS[((personality & 0x3E000) >>> 13) % 24];
+        const blockB = order.indexOf(1) * PK5_BLOCK_SIZE;
+        const blockC = order.indexOf(2) * PK5_BLOCK_SIZE;
+        const counterOffsets = [
+            blockB + 0x1B,
+            blockB + 0x1C,
+            blockB + 0x1D,
+            blockB + 0x1E,
+            blockB + 0x1F,
+            blockC + 0x16,
+            blockC + 0x1C,
+            blockC + 0x1D,
+        ];
+        const hasCounters = counterOffsets.some((counterOffset) => physicalCore[counterOffset] !== 0);
+        if (!hasCounters) return "unchanged";
+        counterOffsets.forEach((counterOffset) => {
+            physicalCore[counterOffset] = 0;
+        });
+
+        const nextChecksum = add16(physicalCore);
+        writeU16(bytes, offset + 6, nextChecksum);
+        bytes.set(
+            wasEncrypted ? cryptPk5Core(physicalCore, nextChecksum) : physicalCore,
+            offset + PK5_CORE_OFFSET
+        );
+        return "cleared";
+    }
+
+    function refreshSaveBlockChecksum(bytes, halfOffset, dataOffset, dataLength, tableIndex, layout) {
+        const start = halfOffset + dataOffset;
+        const checksum = crc16Ccitt(bytes.subarray(start, start + dataLength));
+        writeU16(bytes, start + dataLength + 2, checksum);
+        writeU16(bytes, halfOffset + layout.checksumTableOffset + tableIndex * 2, checksum);
+    }
+
+    function refreshChecksumTable(bytes, halfOffset, layout) {
+        const start = halfOffset + layout.checksumTableOffset;
+        const checksum = crc16Ccitt(bytes.subarray(start, start + layout.checksumTableLength));
+        writeU16(bytes, halfOffset + layout.checksumTableChecksumOffset, checksum);
+    }
+
+    function initializeEmptyLogBlock(bytes, halfOffset, spec) {
+        const start = halfOffset + spec.offset;
+        bytes.fill(0, start, start + spec.size);
+        writeU32(bytes, start, MAGIC);
+        writeU16(bytes, start + 4, VERSION);
+        writeU16(bytes, start + 8, spec.capacity);
+    }
+
+    function clearSaveBattleLogData(input, options) {
+        const source = toBytes(input);
+        if (source.length < RAW_SAVE_SIZE) {
+            throw new Error(`Gen 5 save is ${source.length} bytes; expected at least ${RAW_SAVE_SIZE}`);
+        }
+        const normalizedVersion = String(options && options.baseVersion || "BW2").toUpperCase();
+        const layout = SAVE_LAYOUTS[normalizedVersion];
+        if (!layout) throw new Error(`Unsupported Gen 5 save version: ${normalizedVersion}`);
+
+        const bytes = new Uint8Array(source);
+        const copies = [];
+        let clearedPokemonInstances = 0;
+        let skippedInvalidPokemon = 0;
+        layout.copyOffsets.forEach((halfOffset, copyIndex) => {
+            if (halfOffset + layout.checksumTableChecksumOffset + 2 > bytes.length) {
+                throw new Error(`Gen 5 save copy ${copyIndex + 1} is truncated`);
+            }
+
+            let declaredRecordCount = 0;
+            BLOCKS.forEach((spec) => {
+                const blockStart = halfOffset + spec.offset;
+                if (readU32(bytes, blockStart) === MAGIC && readU16(bytes, blockStart + 4) === VERSION) {
+                    declaredRecordCount += Math.min(readU16(bytes, blockStart + 6), spec.capacity);
+                }
+                initializeEmptyLogBlock(bytes, halfOffset, spec);
+                refreshSaveBlockChecksum(bytes, halfOffset, spec.offset, spec.size, spec.id, layout);
+            });
+
+            const touchedBoxes = new Set();
+            let partyTouched = false;
+            const partyCount = Math.min(bytes[halfOffset + PARTY_COUNT_OFFSET] || 0, PARTY_SLOT_COUNT);
+            for (let slot = 0; slot < partyCount; slot += 1) {
+                const result = clearPk5BattleCounters(
+                    bytes,
+                    halfOffset + PARTY_SLOTS_OFFSET + slot * PARTY_SLOT_SIZE
+                );
+                if (result === "cleared") {
+                    clearedPokemonInstances += 1;
+                    partyTouched = true;
+                } else if (result === "invalid") {
+                    skippedInvalidPokemon += 1;
+                }
+            }
+
+            for (let box = 0; box < BOX_COUNT; box += 1) {
+                const boxStart = halfOffset + BOX_BLOCK_OFFSET + box * BOX_BLOCK_STRIDE;
+                for (let slot = 0; slot < BOX_SLOT_COUNT; slot += 1) {
+                    const result = clearPk5BattleCounters(
+                        bytes,
+                        boxStart + slot * PK5_STORED_SIZE
+                    );
+                    if (result === "cleared") {
+                        clearedPokemonInstances += 1;
+                        touchedBoxes.add(box);
+                    } else if (result === "invalid") {
+                        skippedInvalidPokemon += 1;
+                    }
+                }
+            }
+
+            touchedBoxes.forEach((box) => {
+                refreshSaveBlockChecksum(
+                    bytes,
+                    halfOffset,
+                    BOX_BLOCK_OFFSET + box * BOX_BLOCK_STRIDE,
+                    BOX_DATA_LENGTH,
+                    box + 1,
+                    layout
+                );
+            });
+            if (partyTouched) {
+                const partyStart = halfOffset + PARTY_BLOCK_OFFSET;
+                const checksum = crc16Ccitt(bytes.subarray(partyStart, partyStart + PARTY_BLOCK_LENGTH));
+                writeU16(bytes, halfOffset + PARTY_CHECKSUM_OFFSET, checksum);
+                writeU16(
+                    bytes,
+                    halfOffset + layout.checksumTableOffset + PARTY_CHECKSUM_INDEX * 2,
+                    checksum
+                );
+            }
+            refreshChecksumTable(bytes, halfOffset, layout);
+            copies.push({ copyIndex, halfOffset, declaredRecordCount });
+        });
+
+        return {
+            bytes,
+            baseVersion: normalizedVersion,
+            clearedRecordCount: Math.max(...copies.map((copy) => copy.declaredRecordCount), 0),
+            clearedPokemonInstances,
+            skippedInvalidPokemon,
+            copies,
+        };
     }
 
     function decodePokemonCounters(decryptedWords, shiftOrder) {
@@ -336,6 +591,9 @@
         PARTNER_KO_CREDIT,
         BLOCKS,
         BRIDGE_MAGIC,
+        SAVE_LAYOUTS,
+        crc16Ccitt,
+        clearSaveBattleLogData,
         decodePokemonCounters,
         decodeRecord,
         getRecordStructuralError,

@@ -496,11 +496,71 @@
         const syncBtn = document.getElementById("sync-battle-log");
         const loadBtn = document.getElementById("load-battle-log-file");
         const downloadBtn = document.getElementById("download-edited-battle-log-file");
+        const clearSaveBtn = document.getElementById("clear-save-file-battle-log");
         const uploadStatus = document.getElementById("battle-log-upload-status");
         if (syncBtn) syncBtn.style.display = usingSaveFile ? "none" : "inline-flex";
         if (loadBtn) loadBtn.style.display = usingSaveFile ? "none" : "inline-flex";
         if (downloadBtn) downloadBtn.style.display = !usingSaveFile && hasEditableAttemptFileState() ? "inline-flex" : "none";
+        if (clearSaveBtn) {
+            const canClearLoadedSave = usingSaveFile
+                && window.Gen5SaveBattleLog
+                && typeof window.Gen5SaveBattleLog.clearSaveBattleLogData === "function"
+                && window.view instanceof Uint8Array
+                && window.view.length >= 0x80000;
+            clearSaveBtn.style.display = canClearLoadedSave ? "inline-flex" : "none";
+        }
         if (uploadStatus && usingSaveFile) uploadStatus.style.display = "none";
+    }
+
+    function clearedBattleLogSaveFileName() {
+        const meta = readLocalStorageJson(SAVE_FILE_BATTLE_LOG_SOURCE_META_KEY);
+        const sourceName = String(
+            meta && meta.fileName
+                ? meta.fileName
+                : (window.saveFileName || "pokemon-save.sav")
+        );
+        const dotIndex = sourceName.lastIndexOf(".");
+        return dotIndex > 0
+            ? `${sourceName.slice(0, dotIndex)}-battle-log-cleared${sourceName.slice(dotIndex)}`
+            : `${sourceName}-battle-log-cleared.sav`;
+    }
+
+    function downloadClearedSaveFileBattleLog() {
+        if (normalizeActiveBattleLogSource() !== "save-file"
+            || !window.Gen5SaveBattleLog
+            || typeof window.Gen5SaveBattleLog.clearSaveBattleLogData !== "function"
+            || !(window.view instanceof Uint8Array)) {
+            window.alert("Load a Generation 5 save with battle logs before clearing it.");
+            return;
+        }
+
+        const confirmed = window.confirm(
+            "Download a copy with all battle history and every Pokémon's KO, battles brought, and battles used counters cleared? The currently loaded save will not be changed."
+        );
+        if (!confirmed) return;
+
+        try {
+            const result = window.Gen5SaveBattleLog.clearSaveBattleLogData(window.view, {
+                baseVersion: String(window.baseVersion || "BW2"),
+            });
+            const blob = new Blob([result.bytes], { type: "application/octet-stream" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = clearedBattleLogSaveFileName();
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            if (result.skippedInvalidPokemon > 0) {
+                window.alert(
+                    `The battle history was cleared, but ${result.skippedInvalidPokemon} invalid Pokémon instance(s) had unreadable checksums and were left unchanged.`
+                );
+            }
+        } catch (error) {
+            console.error("Failed to clear save-file battle log", error);
+            window.alert(`Could not clear this save: ${error && error.message ? error.message : error}`);
+        }
     }
 
     function renderBattleLogEditModeToggle() {
@@ -3800,6 +3860,7 @@
         const battleLogFileInput = document.getElementById("battle-log-file-input");
         const loadBattleLogFileBtn = document.getElementById("load-battle-log-file");
         const downloadEditedBattleLogBtn = document.getElementById("download-edited-battle-log-file");
+        const clearSaveFileBattleLogBtn = document.getElementById("clear-save-file-battle-log");
         if (loadBattleLogFileBtn && battleLogFileInput) {
             loadBattleLogFileBtn.addEventListener("click", function () {
                 battleLogFileInput.click();
@@ -3815,6 +3876,11 @@
         if (downloadEditedBattleLogBtn) {
             downloadEditedBattleLogBtn.addEventListener("click", function () {
                 downloadEditedAttemptFile();
+            });
+        }
+        if (clearSaveFileBattleLogBtn) {
+            clearSaveFileBattleLogBtn.addEventListener("click", function () {
+                downloadClearedSaveFileBattleLog();
             });
         }
 
