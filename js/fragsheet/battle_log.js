@@ -203,6 +203,29 @@
         return typeof window.TITLE === "string" ? window.TITLE : "";
     }
 
+    function isCascadeBattleLogSource() {
+        const sourceTitles = [
+            getCurrentTitle(),
+            window.backup_data && window.backup_data.title,
+            window.npoint_data && window.npoint_data.title,
+        ];
+        return sourceTitles.some((title) => /^Cascade White(?:\s+Dev)?$/i.test(String(title || "").trim()));
+    }
+
+    function getCascade2SaveBattleLogData() {
+        const data = window.Cascade2SaveBattleLogData;
+        return isCascadeBattleLogSource() && data && typeof data === "object"
+            ? data
+            : null;
+    }
+
+    function getCascade2SaveBattleLogTrainer(trainerId) {
+        const data = getCascade2SaveBattleLogData();
+        if (!data || !data.trainers || typeof data.trainers !== "object") return null;
+        const trainer = data.trainers[String(trainerId)];
+        return trainer && typeof trainer === "object" ? trainer : null;
+    }
+
     function getBattleLogProgressionConfig() {
         const rules = window.battleLogSplitRules;
         return rules && typeof rules.getProgressionForTitle === "function"
@@ -211,6 +234,10 @@
     }
 
     function getCurrentTrainerOrder() {
+        const cascade2Data = getCascade2SaveBattleLogData();
+        if (cascade2Data && cascade2Data.order && typeof cascade2Data.order === "object") {
+            return cascade2Data.order;
+        }
         const currentData = window.npoint_data && typeof window.npoint_data === "object"
             ? window.npoint_data
             : null;
@@ -1043,6 +1070,14 @@
     }
 
     function createTrainerSpeciesResolver() {
+        const cascade2Data = getCascade2SaveBattleLogData();
+        if (cascade2Data && cascade2Data.trainers && typeof cascade2Data.trainers === "object") {
+            return function resolveCascade2TrainerSpecies(trainerId) {
+                const trainer = cascade2Data.trainers[String(trainerId)];
+                return trainer && Array.isArray(trainer.species) ? trainer.species : [];
+            };
+        }
+
         const activeSetdex = typeof setdex !== "undefined" && setdex && typeof setdex === "object"
             ? setdex
             : window.setdex;
@@ -1145,6 +1180,11 @@
             sourceType: "save-file",
             preserveDuplicateTrainers: true,
             overflow: !!(parsedLog && parsedLog.overflow),
+            omittedCorruptRecordCount: Math.max(
+                0,
+                Number(parsedLog && parsedLog.omittedCorruptRecordCount) || 0
+            ),
+            corruptRecordReason: String(parsedLog && parsedLog.corruptRecordReason || ""),
             recordCount: records.length,
             pokemonBattleCounters: (Array.isArray(saveMons) ? saveMons : [])
                 .filter((mon) => mon && mon.species)
@@ -1981,6 +2021,12 @@
         const fallback = (Number.isFinite(trainerIdNum) && trainerIdNum >= 520 && trainerIdNum <= 537)
             ? "Rival"
             : `Trainer #${trainerId ?? "?"}`;
+        const cascade2Trainer = isSaveFileBattleLogActive()
+            ? getCascade2SaveBattleLogTrainer(trainerId)
+            : null;
+        if (cascade2Trainer && cascade2Trainer.name) {
+            return String(cascade2Trainer.name);
+        }
         const customLeadsMap = getCustomLeadsMap();
 
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
@@ -2000,6 +2046,12 @@
     }
 
     function parseTrainerLeadLevel(trainerId) {
+        const cascade2Trainer = isSaveFileBattleLogActive()
+            ? getCascade2SaveBattleLogTrainer(trainerId)
+            : null;
+        if (cascade2Trainer && Number.isFinite(Number(cascade2Trainer.level))) {
+            return Number(cascade2Trainer.level);
+        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return 10;
@@ -2018,6 +2070,12 @@
     }
 
     function tryParseTrainerLeadLevel(trainerId) {
+        const cascade2Trainer = isSaveFileBattleLogActive()
+            ? getCascade2SaveBattleLogTrainer(trainerId)
+            : null;
+        if (cascade2Trainer && Number(cascade2Trainer.level) > 0) {
+            return Number(cascade2Trainer.level);
+        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return null;
@@ -2048,6 +2106,12 @@
     }
 
     function trainerLeadSetHasHeldItem(trainerId) {
+        const cascade2Trainer = isSaveFileBattleLogActive()
+            ? getCascade2SaveBattleLogTrainer(trainerId)
+            : null;
+        if (cascade2Trainer) {
+            return !!cascade2Trainer.hasHeldItem;
+        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return false;
@@ -3477,6 +3541,10 @@
         }
         if (resolved.sourceType === "save-file" && resolved.data.overflow) {
             html += '<div class="battle-log-note">This save reached the 600-battle log limit; newer battles may not be present.</div>';
+        }
+        if (resolved.sourceType === "save-file" && Number(resolved.data.omittedCorruptRecordCount) > 0) {
+            const omittedCount = Number(resolved.data.omittedCorruptRecordCount);
+            html += `<div class="battle-log-note">${escHtml(omittedCount)} structurally corrupt trailing battle record${omittedCount === 1 ? " was" : "s were"} omitted.</div>`;
         }
         if (hasEditableAttempt && editable) {
             html += '<div class="battle-log-note">Editing enabled for this uploaded attempt. Use the party buttons and KO editor below, then download the updated attempt JSON.</div>';
