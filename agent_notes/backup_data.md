@@ -130,7 +130,9 @@ Required:
 - `basePower` (number)
 
 Optional fields (copied if present):
-- `type`, `category`, `e_id`, `multihit`, `target`, `recoil`, `overrideBP`, `secondaries`, `drain`, `priority`, `willCrit`
+- `type`, `category`, `e_id`, `multihit`, `target`, `critRatio`, `recoil`, `drain`, `heal`, `overrideBP`, `secondaries`, `priority`, `willCrit`
+
+`recoil`, `drain`, and `heal` use Showdown fraction arrays such as `[1, 4]` for 25%. A supplied field replaces the vanilla move value; an omitted field leaves the vanilla value intact for older data sources.
 
 Optional flag fields:
 - `makesContact`, `isPunch`, `isBite`, `isBullet`, `isSound`, `isPulse`, `isKick`, `isSword`, `isBone`, `isWind`

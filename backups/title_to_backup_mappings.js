@@ -68,6 +68,7 @@ sourceTitleAliases = {
 	"badem": "Emerald but Bad",
 	"colorsnormal": "Pokemon Colors Normal",
 	"colorsclassic": "Pokemon Colors Classic",
+	"inc": "Inclement Emerald",
 	"bb2redux": "Blaze Black 2/Volt White 2 Redux",
 	"bb8579a3798fd63b429d": "Royal Sapphire",
 	"platredux": "Platinum Redux",

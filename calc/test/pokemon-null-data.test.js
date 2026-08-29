@@ -48,6 +48,7 @@ describe("Pokemon Null generated data", function () {
         expect(data.poks.Azumarill.bs.sa).toBe(60);
         expect(data.moves.lusterpurge.bp).toBe(95);
         expect(data.moves.mistball.bp).toBe(95);
+        expect(data.moves.zippyzap.eff).toBe("EVASION");
     });
 
     test("keeps Palafin base and Hero forms distinct", function () {

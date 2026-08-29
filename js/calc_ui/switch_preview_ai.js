@@ -106,6 +106,35 @@ function summarizeSwitchPreviewDebugDamage(damage) {
     return damage
 }
 
+function getTrainerPreviewMaximumDamage(result) {
+    if (!result || typeof result.range !== "function") {
+        return 0
+    }
+
+    var range = result.range()
+    var maximum = Array.isArray(range) ? Number(range[1]) : 0
+    if (!Number.isFinite(maximum)) {
+        return 0
+    }
+
+    var hasPerHitDistributions = Array.isArray(result.damage) && Array.isArray(result.damage[0])
+    if (!hasPerHitDistributions) {
+        maximum *= Math.max(1, Number(result.move && result.move.hits) || 1)
+    }
+
+    return maximum
+}
+
+function getHighestTrainerPreviewDamage(results) {
+    if (!Array.isArray(results)) {
+        return 0
+    }
+
+    return results.reduce(function(highestDamage, result) {
+        return Math.max(highestDamage, getTrainerPreviewMaximumDamage(result))
+    }, 0)
+}
+
 
 // Attacker is Player, Defender is AI
 function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, isCurrent=false) {
@@ -570,6 +599,12 @@ function get_next_in() {
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
     p1Name = p1.name
+    var showInclementPreviewDamage = typeof TITLE === "string" && TITLE.includes("Inclement Emerald")
+    var canCalculateInclementPreviewDamage = showInclementPreviewDamage &&
+        p1 &&
+        p1.name &&
+        Array.isArray(p1.types) &&
+        Boolean(p1.types[0])
 
     if (p1.ability == "Intimidate") {
         p1.ability = "Run Away"
@@ -628,21 +663,32 @@ function get_next_in() {
 
 
         let matchup = {}
-        if (localStorage.switchInfo == '1') {
+        var all_results = null
+        if (localStorage.switchInfo == '1' || canCalculateInclementPreviewDamage) {
+            var wasCalcingForSwitchIns = calcingForSwitchIns
             calcingForSwitchIns = true
             p1Name = p1.name
 
+            try {
+                all_results = localStorage.switchInfo == '1'
+                    ? memoizedCalc(settings.damageGen, p1, p1field, p2, p2field)
+                    : calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)
+            } finally {
+                calcingForSwitchIns = wasCalcingForSwitchIns
+            }
+        }
 
-            let all_results = memoizedCalc(settings.damageGen, p1, p1field, p2, p2field);
-
-            calcingForSwitchIns = false
-            
+        if (localStorage.switchInfo == '1') {
             player_results = all_results[0]
             results = all_results[1]
             matchup = postKoMatchupData(player_results, results, isCurrent)
         } else {
             p1name = p1.name
         }
+
+        var previewDamage = canCalculateInclementPreviewDamage
+            ? getHighestTrainerPreviewDamage(all_results && all_results[1])
+            : null
        
 
         let pok_name = trainer_poks[subIndex].split(" (")[0]
@@ -683,7 +729,8 @@ function get_next_in() {
             sub_index: sub_index,
             trainer_pok: trainer_poks[subIndex],
             tr_name: tr_name,
-            type_matchup: type_matchup
+            type_matchup: type_matchup,
+            previewDamage: previewDamage
         })
     }
 
@@ -695,6 +742,7 @@ function get_next_in() {
         let matchup = trainerMatchup.matchup
         let pok_data = trainerMatchup.pok_data
         let pok_name = trainerMatchup.pok_name
+        let previewDamage = trainerMatchup.previewDamage
         let sub_index = trainerMatchup.sub_index
         let type_matchup = trainerMatchup.type_matchup
         let switchInScore = 0
@@ -837,7 +885,7 @@ function get_next_in() {
         }
 
 
-        ranked_trainer_poks.push([trainerMatchup.trainer_pok, switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup,null,expYield])
+        ranked_trainer_poks.push([trainerMatchup.trainer_pok, switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup,null,expYield,null,previewDamage])
     }
 
     

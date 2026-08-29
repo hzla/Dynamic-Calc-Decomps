@@ -224,7 +224,8 @@ backup_data = {
       "pp": 25,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Double Slap": {
       "type": "Fairy",
@@ -276,7 +277,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Fire Punch": {
       "type": "Fire",
@@ -379,7 +381,8 @@ backup_data = {
       "pp": 30,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Gust": {
       "type": "Flying",
@@ -532,7 +535,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Fire Lash": {
       "type": "Fire",
@@ -593,8 +600,8 @@ backup_data = {
       "e_id": 0,
       "target": "allAdjacentFoes",
       "recoil": [
-        10,
-        100
+        1,
+        10
       ]
     },
     "Thrash": {
@@ -769,7 +776,11 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 3,
-      "target": "allAdjacent"
+      "target": "allAdjacent",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Ember": {
       "type": "Fire",
@@ -888,8 +899,8 @@ backup_data = {
       "priority": 0,
       "e_id": 0,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Peck": {
@@ -899,7 +910,8 @@ backup_data = {
       "pp": 35,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 0
+      "e_id": 0,
+      "critRatio": 2
     },
     "Drill Peck": {
       "type": "Flying",
@@ -921,8 +933,8 @@ backup_data = {
       "priority": 0,
       "e_id": 48,
       "recoil": [
-        10,
-        100
+        1,
+        4
       ]
     },
     "Low Kick": {
@@ -969,7 +981,11 @@ backup_data = {
       "pp": 25,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Mega Drain": {
       "type": "Grass",
@@ -978,7 +994,11 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Leech Seed": {
       "type": "Grass",
@@ -1008,7 +1028,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 43,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Solar Beam": {
       "type": "Grass",
@@ -1261,7 +1282,11 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 87
+      "e_id": 87,
+      "drain": [
+        1,
+        1
+      ]
     },
     "Psychic Noise": {
       "type": "Psychic",
@@ -1307,7 +1332,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Harden": {
       "type": "Rock",
@@ -1602,7 +1631,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "High Jump Kick": {
       "type": "Fighting",
@@ -1631,7 +1664,11 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 3,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "drain": [
+        1,
+        2
+      ]
     },
     "Poison Gas": {
       "type": "Poison",
@@ -1664,7 +1701,11 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Lovely Kiss": {
       "type": "Fairy",
@@ -1775,7 +1816,8 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Explosion": {
       "type": "Normal",
@@ -1799,7 +1841,8 @@ backup_data = {
       "multihit": [
         2,
         5
-      ]
+      ],
+      "critRatio": 2
     },
     "Bonemerang": {
       "type": "Ground",
@@ -1892,7 +1935,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Substitute": {
       "type": "Normal",
@@ -2031,7 +2075,8 @@ backup_data = {
       "pp": 5,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Cotton Spore": {
       "type": "Grass",
@@ -2122,7 +2167,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Belly Drum": {
       "type": "Normal",
@@ -2162,7 +2211,8 @@ backup_data = {
       "priority": 0,
       "e_id": 288,
       "willCrit": true,
-      "sf": true
+      "sf": true,
+      "critRatio": 7
     },
     "Spikes": {
       "type": "Ground",
@@ -2182,8 +2232,8 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Electro Shot": {
@@ -2292,7 +2342,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Endure": {
       "type": "Normal",
@@ -2348,7 +2402,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Spark": {
       "type": "Electric",
@@ -2600,7 +2658,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Synthesis": {
       "type": "Grass",
@@ -2609,7 +2671,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Moonlight": {
       "type": "Fairy",
@@ -2618,7 +2684,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 132
+      "e_id": 132,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hidden Power": {
       "type": "Normal",
@@ -2637,7 +2707,8 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 43,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Twister": {
       "type": "Dragon",
@@ -2818,7 +2889,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 162
+      "e_id": 162,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Heat Wave": {
       "type": "Fire",
@@ -2851,7 +2926,8 @@ backup_data = {
       "sf": true,
       "flags": {
         "sound": true
-      }
+      },
+      "critRatio": 2
     },
     "Flatter": {
       "type": "Dark",
@@ -2937,7 +3013,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Taunt": {
       "type": "Dark",
@@ -3034,7 +3114,11 @@ backup_data = {
       "pp": 3,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 184
+      "e_id": 184,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Revenge": {
       "type": "Fighting",
@@ -3121,7 +3205,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 193
+      "e_id": 193,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Grudge": {
       "type": "Ghost",
@@ -3202,7 +3290,8 @@ backup_data = {
       "priority": 0,
       "e_id": 0,
       "target": "allAdjacentFoes",
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Moonblast": {
       "type": "Fairy",
@@ -3243,7 +3332,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 200,
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Esper Wing": {
       "type": "Psychic",
@@ -3283,7 +3373,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hyper Voice": {
       "type": "Normal",
@@ -3329,7 +3423,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3343,7 +3437,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3409,7 +3503,8 @@ backup_data = {
       "priority": 0,
       "e_id": 288,
       "target": "allAdjacentFoes",
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Overheat": {
       "type": "Fire",
@@ -3663,7 +3758,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3705,7 +3800,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 209,
-      "sf": true
+      "sf": true,
+      "critRatio": 2
     },
     "Covet": {
       "type": "Fairy",
@@ -3754,7 +3850,8 @@ backup_data = {
       ],
       "flags": {
         "punch": true
-      }
+      },
+      "critRatio": 7
     },
     "Calm Mind": {
       "type": "Psychic",
@@ -3773,7 +3870,8 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dragon Dance": {
       "type": "Dragon",
@@ -3835,7 +3933,7 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3846,7 +3944,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 214
+      "e_id": 214,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Gravity": {
       "type": "Psychic",
@@ -4211,7 +4313,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        4
+      ]
     },
     "Magnet Rise": {
       "type": "Electric",
@@ -4292,7 +4398,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Aqua Tail": {
       "type": "Water",
@@ -4302,7 +4409,8 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 43,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Seed Bomb": {
       "type": "Grass",
@@ -4383,7 +4491,11 @@ backup_data = {
       "e_id": 3,
       "flags": {
         "punch": true
-      }
+      },
+      "drain": [
+        1,
+        2
+      ]
     },
     "Vacuum Wave": {
       "type": "Fighting",
@@ -4502,7 +4614,8 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 4
     },
     "Thunder Fang": {
       "type": "Electric",
@@ -4560,7 +4673,8 @@ backup_data = {
       "pp": 20,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Zen Headbutt": {
       "type": "Psychic",
@@ -4683,8 +4797,8 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Cross Poison": {
@@ -4696,7 +4810,8 @@ backup_data = {
       "priority": 0,
       "e_id": 288,
       "willCrit": true,
-      "sf": true
+      "sf": true,
+      "critRatio": 7
     },
     "Gunk Shot": {
       "type": "Poison",
@@ -4734,7 +4849,8 @@ backup_data = {
       "accuracy": 85,
       "priority": 0,
       "e_id": 43,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Captivate": {
       "type": "Fairy",
@@ -4837,7 +4953,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "target": "allAdjacentFoes"
+      "target": "allAdjacentFoes",
+      "critRatio": 2
     },
     "Defend Order": {
       "type": "Bug",
@@ -4856,7 +4973,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 32
+      "e_id": 32,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Head Smash": {
       "type": "Rock",
@@ -4893,8 +5014,8 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Steel Beam": {
@@ -4906,8 +5027,8 @@ backup_data = {
       "priority": 0,
       "e_id": 198,
       "recoil": [
-        50,
-        100
+        1,
+        2
       ]
     },
     "Pollen Puff": {
@@ -5108,7 +5229,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Flame Burst": {
       "type": "Fire",
@@ -5352,7 +5474,11 @@ backup_data = {
       "pp": 5,
       "accuracy": 101,
       "priority": 0,
-      "e_id": 309
+      "e_id": 309,
+      "heal": [
+        1,
+        2
+      ]
     },
     "Hex": {
       "type": "Ghost",
@@ -5534,7 +5660,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 288,
-      "willCrit": true
+      "willCrit": true,
+      "critRatio": 7
     },
     "Dragon Tail": {
       "type": "Dragon",
@@ -5576,8 +5703,8 @@ backup_data = {
       "e_id": 48,
       "target": "allAdjacentFoes",
       "recoil": [
-        25,
-        100
+        1,
+        4
       ]
     },
     "Drill Run": {
@@ -5587,7 +5714,8 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 43
+      "e_id": 43,
+      "critRatio": 2
     },
     "Dual Chop": {
       "type": "Dragon",
@@ -5609,7 +5737,8 @@ backup_data = {
       "pp": 25,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 31
+      "e_id": 31,
+      "critRatio": 2
     },
     "Horn Leech": {
       "type": "Grass",
@@ -5618,7 +5747,11 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 3
+      "e_id": 3,
+      "drain": [
+        1,
+        2
+      ]
     },
     "Sacred Sword": {
       "type": "Fighting",
@@ -5688,7 +5821,7 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
+        33,
         100
       ]
     },
