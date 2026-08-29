@@ -9703,24 +9703,32 @@ backup_data = {
             "Spark"
           ],
           [
+            17,
+            "Heart Stamp"
+          ],
+          [
             20,
             "Double Hit"
           ],
           [
-            24,
+            23,
+            "Dig"
+          ],
+          [
+            25,
             "Double Team"
           ],
           [
             28,
-            "Heart Stamp"
+            "Iron Tail"
           ],
           [
             31,
-            "Thunder Punch"
+            "Zing Zap"
           ],
           [
             34,
-            "Iron Tail"
+            "Present"
           ],
           [
             37,
@@ -9886,24 +9894,32 @@ backup_data = {
             "Spark"
           ],
           [
+            17,
+            "Heart Stamp"
+          ],
+          [
             20,
             "Double Hit"
           ],
           [
-            24,
+            23,
+            "Dig"
+          ],
+          [
+            25,
             "Double Team"
           ],
           [
             28,
-            "Heart Stamp"
+            "Iron Tail"
           ],
           [
             31,
-            "Thunder Punch"
+            "Zing Zap"
           ],
           [
             34,
-            "Dig"
+            "Present"
           ],
           [
             37,
@@ -9931,7 +9947,7 @@ backup_data = {
           ],
           [
             59,
-            "Earth Power"
+            "Earthquake"
           ],
           [
             64,
@@ -26317,16 +26333,24 @@ backup_data = {
             "Lunge"
           ],
           [
-            25,
+            24,
             "Drill Run"
+          ],
+          [
+            26,
+            "Rapid Spin"
           ],
           [
             29,
             "Flip Turn"
           ],
           [
-            34,
+            31,
             "Aqua Tail"
+          ],
+          [
+            34,
+            "Return"
           ],
           [
             37,
@@ -26341,7 +26365,7 @@ backup_data = {
             "Dive"
           ],
           [
-            47,
+            46,
             "Double-Edge"
           ],
           [
@@ -26436,7 +26460,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 80,
-        "at": 107,
+        "at": 112,
         "df": 65,
         "sa": 65,
         "sd": 80,
@@ -26454,7 +26478,7 @@ backup_data = {
           ],
           [
             1,
-            "Tail Whip"
+            "Rain Dance"
           ],
           [
             4,
@@ -26481,16 +26505,24 @@ backup_data = {
             "Lunge"
           ],
           [
-            25,
+            24,
             "Drill Run"
+          ],
+          [
+            26,
+            "Rapid Spin"
           ],
           [
             29,
             "Flip Turn"
           ],
           [
-            34,
+            31,
             "Aqua Tail"
+          ],
+          [
+            34,
+            "Return"
           ],
           [
             37,
@@ -26505,7 +26537,7 @@ backup_data = {
             "Dive"
           ],
           [
-            47,
+            46,
             "Double-Edge"
           ],
           [
@@ -34919,16 +34951,24 @@ backup_data = {
             "Spark"
           ],
           [
+            17,
+            "Heart Stamp"
+          ],
+          [
             20,
             "Double Hit"
           ],
           [
-            24,
+            23,
+            "Dig"
+          ],
+          [
+            25,
             "Double Team"
           ],
           [
             28,
-            "Heart Stamp"
+            "Iron Tail"
           ],
           [
             70,
@@ -36419,16 +36459,13 @@ backup_data = {
       "evoType": "level",
       "evoLevel": 14,
       "evos": [
-        "Ampharos",
         "Ampharos"
       ],
       "evoMethods": [
-        "level",
-        "useItem"
+        "level"
       ],
       "evoParams": [
-        40,
-        "Thunderstone"
+        30
       ]
     },
     "Ampharos": {
@@ -36607,9 +36644,8 @@ backup_data = {
         "Mold Breaker",
         "Fluffy"
       ],
-      "evoType": "useItem",
-      "evoLevel": 40,
-      "evoItem": "Thunderstone"
+      "evoType": "level",
+      "evoLevel": 30
     },
     "Bellossom": {
       "name": "Bellossom",
@@ -89935,7 +89971,11 @@ backup_data = {
             "Facade"
           ],
           [
-            39,
+            37,
+            "Reflect Type"
+          ],
+          [
+            40,
             "Sky Drop"
           ]
         ],
@@ -90071,7 +90111,11 @@ backup_data = {
             "Facade"
           ],
           [
-            39,
+            37,
+            "Reflect Type"
+          ],
+          [
+            40,
             "Sky Drop"
           ],
           [
@@ -90079,7 +90123,7 @@ backup_data = {
             "Lucky Chant"
           ],
           [
-            47,
+            46,
             "Crush Claw"
           ],
           [
@@ -90178,7 +90222,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Reflect Type"
+            "Extreme Speed"
           ],
           [
             1,
@@ -90221,7 +90265,11 @@ backup_data = {
             "Facade"
           ],
           [
-            39,
+            37,
+            "Reflect Type"
+          ],
+          [
+            40,
             "Sky Drop"
           ],
           [
@@ -90229,7 +90277,7 @@ backup_data = {
             "Lucky Chant"
           ],
           [
-            47,
+            46,
             "Crush Claw"
           ],
           [
@@ -90658,8 +90706,8 @@ backup_data = {
         "at": 25,
         "df": 55,
         "sa": 85,
-        "sd": 65,
-        "sp": 50
+        "sd": 70,
+        "sp": 45
       },
       "learnset_info": {
         "learnset": [
@@ -90810,8 +90858,8 @@ backup_data = {
         "at": 35,
         "df": 70,
         "sa": 105,
-        "sd": 85,
-        "sp": 60
+        "sd": 90,
+        "sp": 55
       },
       "learnset_info": {
         "learnset": [
@@ -90977,7 +91025,7 @@ backup_data = {
         "df": 85,
         "sa": 135,
         "sd": 120,
-        "sp": 70
+        "sp": 65
       },
       "learnset_info": {
         "learnset": [
@@ -138129,13 +138177,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Double Kick",
+          "Sacred Sword",
           "Razor Shell",
           "Psycho Cut",
           "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Torrent",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -138161,12 +138209,12 @@ backup_data = {
         "nature": "Hardy",
         "moves": [
           "Razor Shell",
-          "Double Kick",
+          "Sacred Sword",
           "Psycho Cut",
           "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Torrent",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139036,13 +139084,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139067,13 +139115,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139098,13 +139146,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139129,13 +139177,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139160,13 +139208,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -139191,13 +139239,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Air Slash",
+          "Hyper Voice",
           "Thunderbolt",
           "Ice Beam",
           "Tailwind"
         ],
         "sub_index": 1,
-        "ability": "No Guard",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -141455,7 +141503,7 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 2,
-        "ability": " ",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -141825,13 +141873,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Flamethrower",
+          "Heat Crash",
           "Crunch",
-          "Protect",
-          "Yawn"
+          "Fake Out",
+          "Strength"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Blaze",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -141856,13 +141904,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Flamethrower",
+          "Heat Crash",
           "Crunch",
-          "Protect",
-          "Yawn"
+          "Fake Out",
+          "Strength"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Blaze",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -175653,13 +175701,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Energy Ball",
-          "Thunderbolt",
+          "Leaf Storm",
+          "Electro Ball",
           "Reflect",
           "Light Screen"
         ],
         "sub_index": 0,
-        "ability": "Adaptability",
+        "ability": "Overgrow",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {
@@ -175684,13 +175732,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Hardy",
         "moves": [
-          "Energy Ball",
-          "Thunderbolt",
+          "Leaf Storm",
+          "Electro Ball",
           "Reflect",
           "Light Screen"
         ],
         "sub_index": 0,
-        "ability": "Adaptability",
+        "ability": "Overgrow",
         "sprite": "trainer_sprites/pokemontrainer.png",
         "form": 0,
         "evs": {

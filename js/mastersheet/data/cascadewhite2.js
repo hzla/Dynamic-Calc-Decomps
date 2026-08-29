@@ -1,11 +1,11 @@
 masterData =
 [
   {
-    "content": "Cascade White Dev August 28",
+    "content": "Cascade White Dev - Build 22",
     "content_parts": [
       {
         "type": "text",
-        "text": "Cascade White Dev August 28"
+        "text": "Cascade White Dev - Build 22"
       }
     ],
     "tag": "h1"
@@ -247,6 +247,16 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "Move Selection Scoring",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Move Selection Scoring"
+      }
+    ],
+    "tag": "h4"
+  },
+  {
     "content": "The AI is not guaranteed to go for priority when it sees kill if it's already faster than all Pokémon on the field.",
     "content_parts": [
       {
@@ -255,14 +265,6 @@ masterData =
       }
     ],
     "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "The AI has a very high chance to use a Priority move when it is not the fastest Pokémon on the field and an enemy Pokémon sees kill on it",
@@ -275,14 +277,6 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "The AI is slightly encouraged to go for setup moves when it sees enemy Pokémon deal negligible (25% or less) damage to it.",
     "content_parts": [
       {
@@ -291,14 +285,6 @@ masterData =
       }
     ],
     "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "The AI is heavily discouraged from using setup moves when an enemy Pokémon sees a OHKO on it, or a 2HKO if the enemy mon is faster and the setup move does not increase speed.",
@@ -311,14 +297,6 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "The AI is discouraged from using stat-lowering moves when the target is dealing negligible (25% or less) damage to it.",
     "content_parts": [
       {
@@ -329,14 +307,6 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "The AI is heavily discouraged from using status or stat-lowering moves into targets holding the respective curative items.",
     "content_parts": [
       {
@@ -345,14 +315,6 @@ masterData =
       }
     ],
     "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "The AI no longer receives a negative score with damaging moves that lower speed when they are faster than the target.",
@@ -373,22 +335,14 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "When determining BP for Switch AI, the AI is able to account for STAB, move effects that alter BP, moves and abilities that alter type effectiveness (Freeze Dry, Corrosion), abiities that provide resistances and immunities, and abilities that can alter BP such as Technician and Skill Link.",
+    "content": "Damage Simulation",
     "content_parts": [
       {
         "type": "text",
-        "text": "When determining BP for Switch AI, the AI is able to account for STAB, move effects that alter BP, moves and abilities that alter type effectiveness (Freeze Dry, Corrosion), abiities that provide resistances and immunities, and abilities that can alter BP such as Technician and Skill Link."
+        "text": "Damage Simulation"
       }
     ],
-    "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
+    "tag": "h4"
   },
   {
     "content": "When simulating damage for moves, the AI can now see the correct damage for moves with variable BP (Hex, Electro Ball, Flail, etc.)",
@@ -401,12 +355,90 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "When simulating damage for moves, the AI treats a move that has no PP as 0 damage.",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "When simulating damage for moves, the AI treats a move that has no PP as 0 damage."
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "When simulating damage for moves, the AI treats Copycat and Nature Power as the moves they would invoke.",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "When simulating damage for moves, the AI treats Copycat and Nature Power as the moves they would invoke."
+      }
+    ],
+    "tag": "li"
+  },
+  {
     "content": "",
     "content_parts": {
       "type": "text",
       "text": ""
     },
     "tag": "p"
+  },
+  {
+    "content": "Switch In AI",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Switch In AI"
+      }
+    ],
+    "tag": "h4"
+  },
+  {
+    "content": "When determine post-KO switch ins, the AI uses the Gen 4 Logic: it checks to see if any Pokemon has a super effective move. Then it checks which of those Pokemon has the best offensive matchup into the target. Pokemon that only have one type are treated as having that type twice. For example, for a Toxicroak a Claydol would have a score of 8 (2x * 4x) while an Alakazam would have a score of 16 (4x * 4x).",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "When determine post-KO switch ins, the AI uses the Gen 4 Logic: it checks to see if any Pokemon has a super effective move. Then it checks which of those Pokemon has the best offensive matchup into the target. Pokemon that only have one type are treated as having that type twice. For example, for a Toxicroak a Claydol would have a score of 8 (2x * 4x) while an Alakazam would have a score of 16 (4x * 4x)."
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "If no Pokemon has a super effective move, the logic transitions to phase 2, where the Pokemon with the highest BP move switches in next (the type of logic vanilla gen 5 uses).",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "If no Pokemon has a super effective move, the logic transitions to phase 2, where the Pokemon with the highest BP move switches in next (the type of logic vanilla gen 5 uses)."
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "When determining BP for Phase 2 Post-KO Switch AI, the AI is able to account for STAB, effectiveness, move effects that alter BP, moves and abilities that alter type effectiveness (Freeze Dry, Corrosion), abiities that provide resistances and immunities, and abilities that can alter BP such as Technician and Skill Link.",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "When determining BP for Phase 2 Post-KO Switch AI, the AI is able to account for STAB, effectiveness, move effects that alter BP, moves and abilities that alter type effectiveness (Freeze Dry, Corrosion), abiities that provide resistances and immunities, and abilities that can alter BP such as Technician and Skill Link."
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Mid-Turn Switch Out AI",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Mid-Turn Switch Out AI"
+      }
+    ],
+    "tag": "h4"
   },
   {
     "content": "The AI has a very low chance to switch out mid-turn if it is dealing negligible damage to all Pokémon on the field. This chance increases each turn the Pokémon is in battle.",
@@ -419,14 +451,6 @@ masterData =
     "tag": "li"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "The AI now has a high chance to switch out mid-turn if it is locked into a move that deals low damage via Encore or Choice Items.",
     "content_parts": [
       {
@@ -435,14 +459,6 @@ masterData =
       }
     ],
     "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "The AI has the same mid-turn switch AI triggers as Gen 4 (can switch into a Pokémon that resists that last move received and has a super effective move IF they moved before the target last turn)",
@@ -9332,7 +9348,7 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
-    "text": "The Shadow tosses a smoke bomb before battle,reducing the accuracy of Pokémon on switch in by one stage.",
+    "text": "The Shadow tosses a smoke bomb before battle,reducing the accuracy of Pokémon by one stage when they switch into battle.",
     "fontColor": "#4e86d4"
   },
   {
@@ -32646,7 +32662,7 @@ trainersById =
     "move_3_1": "MUD-SLAP",
     "move_4_1": "TACKLE",
     "ivs_2": 255,
-    "ability_2": 3,
+    "ability_2": 2,
     "level_2": 10,
     "padding_2": 0,
     "species_id_2": "DARUMAKA",
@@ -32656,7 +32672,7 @@ trainersById =
     "move_3_2": "ROCK THROW",
     "move_4_2": "YAWN",
     "ivs_3": 255,
-    "ability_3": 1,
+    "ability_3": 2,
     "level_3": 11,
     "padding_3": 0,
     "species_id_3": "SNIVY",
@@ -32678,7 +32694,7 @@ trainersById =
     "nature_1": "Quirky",
     "ability_name_1": "Swift Swim",
     "nature_2": "Naive",
-    "ability_name_2": " -",
+    "ability_name_2": "Inner Focus",
     "nature_3": "Serious",
     "ability_name_3": "Adaptability",
     "raw": null,
@@ -44558,24 +44574,24 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 3,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "SAMUROTT",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
-    "move_1_0": "DOUBLE KICK",
+    "move_1_0": "SACRED SWORD",
     "move_2_0": "RAZOR SHELL",
     "move_3_0": "PSYCHO CUT",
     "move_4_0": "AQUA JET",
     "ivs_1": 255,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44584,11 +44600,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Hyper Cutter",
+    "ability_name_0": "Torrent",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Nate",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 503,
     "raw_species_id_1": 18,
@@ -44602,24 +44618,24 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 1,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "SERPERIOR",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
-    "move_1_0": "ENERGY BALL",
-    "move_2_0": "THUNDERBOLT",
+    "move_1_0": "LEAF STORM",
+    "move_2_0": "ELECTRO BALL",
     "move_3_0": "REFLECT",
     "move_4_0": "LIGHT SCREEN",
     "ivs_1": 255,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44628,11 +44644,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Adaptability",
+    "ability_name_0": "Overgrow",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Nate",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 497,
     "raw_species_id_1": 18,
@@ -44646,24 +44662,24 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 3,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "EMBOAR",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
-    "move_1_0": "FLAMETHROWER",
+    "move_1_0": "HEAT CRASH",
     "move_2_0": "CRUNCH",
-    "move_3_0": "PROTECT",
-    "move_4_0": "YAWN",
+    "move_3_0": "FAKE OUT",
+    "move_4_0": "STRENGTH",
     "ivs_1": 255,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44672,11 +44688,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Blaze",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Nate",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 500,
     "raw_species_id_1": 18,
@@ -44690,24 +44706,24 @@ trainersById =
   },
   {
     "ivs_0": 84,
-    "ability_0": 3,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "SAMUROTT",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
     "move_1_0": "RAZOR SHELL",
-    "move_2_0": "DOUBLE KICK",
+    "move_2_0": "SACRED SWORD",
     "move_3_0": "PSYCHO CUT",
     "move_4_0": "AQUA JET",
     "ivs_1": 252,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44716,11 +44732,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Hyper Cutter",
+    "ability_name_0": "Torrent",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Rosa",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 503,
     "raw_species_id_1": 18,
@@ -44734,24 +44750,24 @@ trainersById =
   },
   {
     "ivs_0": 89,
-    "ability_0": 1,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "SERPERIOR",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
-    "move_1_0": "ENERGY BALL",
-    "move_2_0": "THUNDERBOLT",
+    "move_1_0": "LEAF STORM",
+    "move_2_0": "ELECTRO BALL",
     "move_3_0": "REFLECT",
     "move_4_0": "LIGHT SCREEN",
     "ivs_1": 251,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44760,11 +44776,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Adaptability",
+    "ability_name_0": "Overgrow",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Rosa",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 497,
     "raw_species_id_1": 18,
@@ -44778,24 +44794,24 @@ trainersById =
   },
   {
     "ivs_0": 85,
-    "ability_0": 3,
+    "ability_0": 4,
     "level_0": 38,
     "padding_0": 0,
     "species_id_0": "EMBOAR",
     "form_0": 0,
     "item_id_0": "Sitrus Berry",
-    "move_1_0": "FLAMETHROWER",
+    "move_1_0": "HEAT CRASH",
     "move_2_0": "CRUNCH",
-    "move_3_0": "PROTECT",
-    "move_4_0": "YAWN",
+    "move_3_0": "FAKE OUT",
+    "move_4_0": "STRENGTH",
     "ivs_1": 250,
-    "ability_1": 1,
+    "ability_1": 3,
     "level_1": 37,
     "padding_1": 0,
     "species_id_1": "PIDGEOT",
     "form_1": 0,
     "item_id_1": "Sitrus Berry",
-    "move_1_1": "AIR SLASH",
+    "move_1_1": "HYPER VOICE",
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "ICE BEAM",
     "move_4_1": "TAILWIND",
@@ -44804,11 +44820,11 @@ trainersById =
     "gender_1": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Blaze",
     "tr_sprite": "trainer_sprites/pokemontrainer.png",
     "name": "Rosa",
     "nature_1": "Hardy",
-    "ability_name_1": "No Guard",
+    "ability_name_1": "Aerilate",
     "raw": null,
     "raw_species_id_0": 500,
     "raw_species_id_1": 18,
@@ -69403,6 +69419,8 @@ highlights =
   },
   "minor": {
     "highhorsepower": 1,
+    "thickfat": 1,
+    "rattled": 1,
     "barbbarrage": 1,
     "powertrip": 1,
     "brutalswing": 1,
@@ -69504,7 +69522,7 @@ highlights =
     "iciclecrash": 1, 
     "teleport": 1,
     "aerialace": 1,
-    "visegrip": 1
+    "visegrip": 1, 
   },
   "changed": {
     "illuminate": 1,
@@ -69617,7 +69635,7 @@ highlights =
     "trace": 1,
     "innerfocus": 1,
     "raindish": 1,
-    "thickfat": 1,
+    
     "runaway": 1,
     "hypercutter": 1,
     "pickup": 1,
@@ -69646,7 +69664,6 @@ highlights =
     "sandrush": 1,
     "infiltrator": 1,
     "justified": 1,
-    "rattled": 1,
     "sandforce": 1,
     "furycutter": 1,
     "metalsound": 1,
