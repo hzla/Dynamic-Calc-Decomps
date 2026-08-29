@@ -258,13 +258,7 @@
             variants: [
                 {
                     label: "Inclement Emerald",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=68bfb2ccba14b7f6b1f0&gen=8&types=6&dmgGen=8&switchIn=11",
-                    coverImage: "",
-                    description: ""
-                },
-                {
-                    label: "Inclement Emerald No EVs",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=6875151cfa5eea00eafa&gen=8&types=6&dmgGen=8&switchIn=11",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=inc&gen=8&types=6&dmgGen=8&switchIn=11&view=calculator",
                     coverImage: "",
                     description: ""
                 }

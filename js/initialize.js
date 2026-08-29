@@ -1327,6 +1327,17 @@ function setGameSettings(title) {
     $('#sync-lua').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
+  } else if (title.includes("Inclement Emerald")) {
+    gameGen = 8
+    settings.damageGen = 8
+    settings.gameSwitchIn = settings.switchIn
+    settings.sourceType = "full"
+    settings.typeChart = 6
+    settings.critGen = 8
+    showDex = false
+    showAI = false
+    $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
+    $('label[for="hail"]').show()
   } else if (title.includes("Unbound")) {
     gameGen = 8
     settings.gameSwitchIn = 8
@@ -1481,6 +1492,7 @@ INC_EM = false
 const requestedDataSourceId = params.get('data')
 if (!isBlankDevMode && requestedDataSourceId && SOURCES[requestedDataSourceId]) {
     TITLE = SOURCES[requestedDataSourceId] || "NONE"
+    INC_EM = TITLE.includes("Inclement Emerald")
     syncGameScopedSwitchSettings(TITLE);
 
     setGameSettings(TITLE)
@@ -1585,7 +1597,7 @@ function setBaseGame(title) {
         baseVersion = "BW"
     }
 
-    if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {
+    if (title.includes("Radical Red") || title.includes("Emerald Imperium") || title.includes("Inclement Emerald")) {
         $("#lvl-cap").show()
     }
     $('#rom-title').text(TITLE).show()
@@ -1634,7 +1646,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?e010e787';
+  script.src= './js/shared_controls.js?inclementdamage3';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -1900,6 +1912,14 @@ function applyExportedMoveData(target, source, moveName, moveId) {
   var existingFlags = targetMove.flags
   Object.assign(targetMove, source)
 
+  // A ROM's effect code is authoritative for whether a move always crits.
+  // This also clears stale vanilla metadata (for example, Gen 7 Zippy Zap)
+  // when the ROM uses a newer non-critical effect for the same move.
+  if (!Object.prototype.hasOwnProperty.call(source, "willCrit") &&
+      Object.prototype.hasOwnProperty.call(source, "eff")) {
+    targetMove.willCrit = source.eff === "ALWAYS"
+  }
+
   var basePower = source.basePower
   if (typeof basePower === "undefined") basePower = source.bp
   targetMove.name = moveName
@@ -1958,10 +1978,10 @@ function loadMovesData() {
       MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[moveName]
     }
         
-    var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit", "sf"]  
+    var optional_move_params = ["type", "category", "e_id", "multihit", "target", "critRatio", "recoil", "drain", "heal", "overrideBP", "secondaries", "priority", "willCrit", "sf"]
     for (n in optional_move_params) {
         var param = optional_move_params[n]
-        if (jsonMove[param]) {
+        if (Object.prototype.hasOwnProperty.call(jsonMove, param)) {
           moves[moveName][param] = jsonMove[param]
           MOVES_BY_ID[g][moveId][param] = jsonMove[param]  
 

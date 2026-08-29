@@ -2132,6 +2132,9 @@ function renderTrainerPreviewPok(next_pok) {
 	var showSwitchAiInfo = settings.damageGen == 4 &&
 		typeof shouldShowSwitchAiInfo === "function" &&
 		shouldShowSwitchAiInfo()
+	var showInclementPreviewDamage = typeof TITLE === "string" &&
+		TITLE.includes("Inclement Emerald") &&
+		Number.isFinite(Number(next_pok[10]))
 	var hasSeMove = next_pok[2].trim().length > 0
 	var p2SourceMoveName = showSwitchAiInfo && !hasSeMove && next_pok[5] !== ""
 		? String(next_pok[6] || "")
@@ -2176,6 +2179,9 @@ function renderTrainerPreviewPok(next_pok) {
 		if (showSwitchAiInfo && !hasSeMove && typeof next_pok[5] !== "undefined" && next_pok[5] !== "") {
 			pok += `<div class="bp-info switch-ai-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
 		}
+		if (showInclementPreviewDamage) {
+			pok += `<div class="bp-info switch-ai-info trainer-preview-damage"><span class="p2-dmg">Damage:</span> ${Number(next_pok[10])}</div>`
+		}
 	} else {
 		pok += `<div class="bp-infos">` +
 			renderTrainerPreviewMove(0, "", true) +
@@ -2188,6 +2194,9 @@ function renderTrainerPreviewPok(next_pok) {
 		}
 		if (showSwitchAiInfo && !hasSeMove && typeof next_pok[5] !== "undefined" && next_pok[5] !== "") {
 			pok += `<div class="bp-info switch-ai-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
+		}
+		if (showInclementPreviewDamage) {
+			pok += `<div class="bp-info switch-ai-info trainer-preview-damage"><span class="p2-dmg">Damage:</span> ${Number(next_pok[10])}</div>`
 		}
 		pok += `</div>`
 	}
@@ -2253,6 +2262,17 @@ function refresh_next_in() {
 			syncOpposingKoButton()
 		}
 		return
+	}
+
+	var forceSingleTrainerPreview = typeof INC_EM !== "undefined" && INC_EM
+	if (forceSingleTrainerPreview) {
+		next_poks = next_poks.slice().sort(function(a, b) {
+			var aDamage = Array.isArray(a) ? Number(a[10]) : NaN
+			var bDamage = Array.isArray(b) ? Number(b[10]) : NaN
+			aDamage = Number.isFinite(aDamage) ? aDamage : -Infinity
+			bDamage = Number.isFinite(bDamage) ? bDamage : -Infinity
+			return bDamage - aDamage
+		})
 	}
 
 	function shouldShowGen4Phase2AccuracyWarning() {
@@ -2369,7 +2389,7 @@ function refresh_next_in() {
 		return count > 1
 	})
 	var hasMultipleTrainerIds = Object.keys(trainerIdCounts).length > 1
-	var useGenericTrainerLabels = !setPartnerId && !partnerName && (hasMultipleTrainerIds || hasDuplicateSubIndex)
+	var useGenericTrainerLabels = !forceSingleTrainerPreview && !setPartnerId && !partnerName && (hasMultipleTrainerIds || hasDuplicateSubIndex)
 	var primaryTrainerPoks = []
 	var partnerTrainerPoks = []
 	var genericSubIndexSeen = {}
@@ -2406,7 +2426,7 @@ function refresh_next_in() {
 		resolvedPartnerName = fallbackPartnerNames[0]
 	}
 
-	var showPartnerSections = primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasMultipleTrainerIds || hasDuplicateSubIndex || resolvedPartnerName)
+	var showPartnerSections = !forceSingleTrainerPreview && primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasMultipleTrainerIds || hasDuplicateSubIndex || resolvedPartnerName)
 	if (showPartnerSections) {
 		var trainerOneHtml = primaryTrainerPoks.join("")
 		var trainerTwoHtml = partnerTrainerPoks.join("")
