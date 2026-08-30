@@ -1726,6 +1726,50 @@ function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false, s
     return decryptedData    
 }
 
+function normalizeDsSaveMoveName(moveName) {
+    var normalized = String(moveName || "").trim()
+    if (typeof normalized.normalize === "function") {
+        normalized = normalized.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    }
+    return normalized.toLowerCase().replace(/[^a-z0-9]/g, "")
+}
+
+function resolveDsSaveMoveId(moveName, titleMoveChanges, moveNames) {
+    if (!Array.isArray(moveNames)) {
+        return -1
+    }
+
+    var storedMoveName = String(moveName || "").trim()
+    var normalizedMoveName = normalizeDsSaveMoveName(storedMoveName)
+    if (titleMoveChanges && typeof titleMoveChanges === "object" && normalizedMoveName) {
+        for (var originalMoveName in titleMoveChanges) {
+            if (!Object.prototype.hasOwnProperty.call(titleMoveChanges, originalMoveName)) {
+                continue
+            }
+            if (normalizeDsSaveMoveName(titleMoveChanges[originalMoveName]) === normalizedMoveName) {
+                storedMoveName = originalMoveName
+                break
+            }
+        }
+    }
+
+    var exactIndex = moveNames.indexOf(storedMoveName)
+    if (exactIndex > -1) {
+        return exactIndex
+    }
+
+    var normalizedStoredName = normalizeDsSaveMoveName(storedMoveName)
+    if (!normalizedStoredName) {
+        return -1
+    }
+    for (var moveIndex = 0; moveIndex < moveNames.length; moveIndex++) {
+        if (normalizeDsSaveMoveName(moveNames[moveIndex]) === normalizedStoredName) {
+            return moveIndex
+        }
+    }
+    return -1
+}
+
 function updatePKMNProps(decryptedData, expIndex, movesIndex) {
 
     // write item 
@@ -1774,23 +1818,9 @@ function updatePKMNProps(decryptedData, expIndex, movesIndex) {
     // swap move replacements
 
     var titleMoveChanges = typeof getMoveChangesForTitle === "function" ? getMoveChangesForTitle(TITLE) : (moveChanges[TITLE] || {})
-    if (Object.keys(titleMoveChanges).length) {
-        var reverseMoveChanges = Object.fromEntries(
-        Object.entries(titleMoveChanges).map(([key, value]) => [value, key])
-    );
-    } else {
-        var reverseMoveChanges = {}
-    }
-
     for (let moveID = 0;moveID<4;moveID++) {
         var move_name = $(`.move${moveID + 1} .select2-container`).first().text().trim()
-
-        // swap move back to original for rom hacks
-        if (reverseMoveChanges[move_name]) {
-            move_name = reverseMoveChanges[move_name]
-        }
-
-        var move_index = sav_move_names.indexOf(move_name)
+        var move_index = resolveDsSaveMoveId(move_name, titleMoveChanges, sav_move_names)
         if (move_index > -1) {
             decryptedData[movesIndex + moveID] = move_index
         }
@@ -2253,5 +2283,7 @@ if (typeof module !== "undefined" && module.exports) {
         isDsSaveBadEggSpecies,
         parsePKM,
         encryptData,
+        normalizeDsSaveMoveName,
+        resolveDsSaveMoveId,
     };
 }
