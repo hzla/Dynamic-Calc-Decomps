@@ -9724,7 +9724,7 @@ backup_data = {
           ],
           [
             31,
-            "Zing Zap"
+            "Thunder Punch"
           ],
           [
             34,
@@ -9732,7 +9732,7 @@ backup_data = {
           ],
           [
             37,
-            "Slam"
+            "Light Screen"
           ],
           [
             40,
@@ -9740,7 +9740,7 @@ backup_data = {
           ],
           [
             43,
-            "Light Screen"
+            "Slam"
           ],
           [
             46,
@@ -9915,7 +9915,7 @@ backup_data = {
           ],
           [
             31,
-            "Zing Zap"
+            "Thunder Punch"
           ],
           [
             34,
@@ -9923,7 +9923,7 @@ backup_data = {
           ],
           [
             37,
-            "Slam"
+            "Light Screen"
           ],
           [
             40,
@@ -9931,7 +9931,7 @@ backup_data = {
           ],
           [
             43,
-            "Light Screen"
+            "Slam"
           ],
           [
             46,
@@ -12125,7 +12125,7 @@ backup_data = {
           ],
           [
             25,
-            "Curse"
+            "Grudge"
           ],
           [
             29,
@@ -12133,7 +12133,7 @@ backup_data = {
           ],
           [
             32,
-            "Grudge"
+            "Curse"
           ],
           [
             34,
@@ -12298,7 +12298,7 @@ backup_data = {
           ],
           [
             25,
-            "Curse"
+            "Grudge"
           ],
           [
             29,
@@ -12306,7 +12306,7 @@ backup_data = {
           ],
           [
             32,
-            "Grudge"
+            "Curse"
           ],
           [
             34,
@@ -26350,7 +26350,7 @@ backup_data = {
           ],
           [
             34,
-            "Return"
+            "Rage"
           ],
           [
             37,
@@ -26522,7 +26522,7 @@ backup_data = {
           ],
           [
             34,
-            "Return"
+            "Rage"
           ],
           [
             37,
@@ -28918,7 +28918,7 @@ backup_data = {
           ],
           [
             1,
-            "Charm"
+            "Soak"
           ],
           [
             4,
@@ -28930,7 +28930,7 @@ backup_data = {
           ],
           [
             10,
-            "Refresh"
+            "Attract"
           ],
           [
             14,
@@ -28946,7 +28946,7 @@ backup_data = {
           ],
           [
             25,
-            "Barrier"
+            "Aqua Ring"
           ],
           [
             30,
@@ -28961,11 +28961,19 @@ backup_data = {
             "Wish"
           ],
           [
-            46,
-            "Muddy Water"
+            43,
+            "Clanging Scales"
           ],
           [
-            53,
+            46,
+            "Surf"
+          ],
+          [
+            50,
+            "Acid Armor"
+          ],
+          [
+            54,
             "Ice Beam"
           ],
           [
@@ -29087,7 +29095,7 @@ backup_data = {
           ],
           [
             1,
-            "Charm"
+            "Baton Pass"
           ],
           [
             4,
@@ -29099,7 +29107,7 @@ backup_data = {
           ],
           [
             10,
-            "Refresh"
+            "Supersonic"
           ],
           [
             14,
@@ -29115,7 +29123,7 @@ backup_data = {
           ],
           [
             25,
-            "Baton Pass"
+            "Eerie Impulse"
           ],
           [
             30,
@@ -29130,11 +29138,19 @@ backup_data = {
             "Spiky Shield"
           ],
           [
+            43,
+            "Dark Pulse"
+          ],
+          [
             46,
             "Thunderbolt"
           ],
           [
-            53,
+            50,
+            "Double Team"
+          ],
+          [
+            54,
             "Energy Ball"
           ],
           [
@@ -29264,11 +29280,11 @@ backup_data = {
           ],
           [
             7,
-            "Swift"
+            "Quick Attack"
           ],
           [
             10,
-            "Refresh"
+            "Entrainment"
           ],
           [
             14,
@@ -29296,14 +29312,22 @@ backup_data = {
           ],
           [
             40,
-            "Cotton Guard"
+            "Wish"
+          ],
+          [
+            43,
+            "Heart Stamp"
           ],
           [
             46,
             "Fire Lash"
           ],
           [
-            53,
+            50,
+            "Scary Face"
+          ],
+          [
+            54,
             "Superpower"
           ],
           [
@@ -39036,7 +39060,7 @@ backup_data = {
           ],
           [
             1,
-            "Charm"
+            "Psycho Shift"
           ],
           [
             4,
@@ -39048,7 +39072,7 @@ backup_data = {
           ],
           [
             10,
-            "Refresh"
+            "Magic Coat"
           ],
           [
             14,
@@ -39060,7 +39084,7 @@ backup_data = {
           ],
           [
             21,
-            "Draining Kiss"
+            "Force Palm"
           ],
           [
             25,
@@ -39079,16 +39103,24 @@ backup_data = {
             "Morning Sun"
           ],
           [
+            43,
+            "Nightmare"
+          ],
+          [
             46,
             "Psychic"
           ],
           [
-            53,
+            50,
+            "Gravity"
+          ],
+          [
+            54,
             "Solar Beam"
           ],
           [
             59,
-            "Esper Wing"
+            "Focus Blast"
           ],
           [
             65,
@@ -39189,11 +39221,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 65,
+        "at": 60,
         "df": 110,
-        "sa": 90,
+        "sa": 85,
         "sd": 130,
-        "sp": 55
+        "sp": 65
       },
       "learnset_info": {
         "learnset": [
@@ -39211,7 +39243,7 @@ backup_data = {
           ],
           [
             1,
-            "Charm"
+            "Zap Cannon"
           ],
           [
             4,
@@ -39223,7 +39255,7 @@ backup_data = {
           ],
           [
             10,
-            "Refresh"
+            "Mean Look"
           ],
           [
             14,
@@ -39239,7 +39271,7 @@ backup_data = {
           ],
           [
             25,
-            "Taunt"
+            "Lovely Kiss"
           ],
           [
             30,
@@ -39254,20 +39286,28 @@ backup_data = {
             "Moonlight"
           ],
           [
+            43,
+            "Night Shade"
+          ],
+          [
             46,
             "Dark Pulse"
           ],
           [
-            53,
+            50,
+            "Swagger"
+          ],
+          [
+            54,
             "Starburst"
           ],
           [
             59,
-            "Foul Play"
+            "Sludge Wave"
           ],
           [
             65,
-            "Parting Shot"
+            "Toxic"
           ],
           [
             70,
@@ -39276,6 +39316,7 @@ backup_data = {
         ],
         "tms": [
           "Psychic Fangs",
+          "Psyshock",
           "Payback",
           "Hidden Power",
           "Taunt",
@@ -65978,7 +66019,7 @@ backup_data = {
       "bs": {
         "hp": 65,
         "at": 130,
-        "df": 95,
+        "df": 100,
         "sa": 95,
         "sd": 75,
         "sp": 95
@@ -66050,7 +66091,11 @@ backup_data = {
             "Healing Wish"
           ],
           [
-            54,
+            52,
+            "Doom Desire"
+          ],
+          [
+            55,
             "Perish Song"
           ],
           [
@@ -66063,7 +66108,7 @@ backup_data = {
           ],
           [
             67,
-            "Doom Desire"
+            "Night Daze"
           ],
           [
             75,
@@ -83032,7 +83077,7 @@ backup_data = {
           ],
           [
             1,
-            "Charm"
+            "Worry Seed"
           ],
           [
             4,
@@ -83040,11 +83085,11 @@ backup_data = {
           ],
           [
             7,
-            "Swift"
+            "Quick Attack"
           ],
           [
             10,
-            "Refresh"
+            "Leech Seed"
           ],
           [
             14,
@@ -83056,11 +83101,11 @@ backup_data = {
           ],
           [
             21,
-            "Nature Power"
+            "Dual Chop"
           ],
           [
             25,
-            "Encore"
+            "Grass Whistle"
           ],
           [
             30,
@@ -83075,20 +83120,28 @@ backup_data = {
             "Synthesis"
           ],
           [
+            43,
+            "Weather Crash"
+          ],
+          [
             46,
             "Solar Blade"
           ],
           [
-            53,
-            "Leaf Blade"
+            50,
+            "Aromatherapy"
+          ],
+          [
+            54,
+            "Aerial Ace"
           ],
           [
             59,
-            "Wood Hammer"
+            "Leaf Blade"
           ],
           [
             65,
-            "Worry Seed"
+            "Sunny Day"
           ],
           [
             70,
@@ -83252,14 +83305,22 @@ backup_data = {
           ],
           [
             40,
-            "Recover"
+            "Mirror Coat"
+          ],
+          [
+            43,
+            "Shadow Ball"
           ],
           [
             46,
             "Ice Beam"
           ],
           [
-            53,
+            50,
+            "Recover"
+          ],
+          [
+            54,
             "Steel Beam"
           ],
           [
@@ -114933,8 +114994,8 @@ backup_data = {
   },
   "formatted_sets": {
     "Ninetales": {
-      "Lvl 100 Smasher Elena - Aspertia Gate": {
-        "level": 100,
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
         "ai": 15,
         "noCh": false,
         "tr_id": 1,
@@ -114949,7 +115010,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Rowap Berry",
         "item": "Leppa Berry",
-        "nature": "Rash",
+        "nature": "Serious",
         "moves": [
           "Tackle",
           "-----",
@@ -114957,7 +115018,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Flash Fire",
+        "ability": "Illusion",
         "sprite": "trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -115010,16 +115071,16 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Eject Button",
+        "item": "Heat Rock",
         "nature": "Lax",
         "moves": [
-          "Flamethrower",
-          "Solar Beam",
+          "Fiery Dance",
+          "Extrasensory",
           "Confuse Ray",
           "Dazzling Gleam"
         ],
         "sub_index": 0,
-        "ability": "Drought",
+        "ability": "Magic Guard",
         "sprite": "trainer_sprites/erika.png",
         "form": 0,
         "evs": {
@@ -115052,6 +115113,1225 @@ backup_data = {
         "sub_index": 0,
         "ability": "Magic Guard",
         "sprite": "trainer_sprites/n.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Zoroark": {
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 1,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Rowap Berry",
+        "item": "None",
+        "nature": "Docile",
+        "moves": [
+          "Snarl",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Trace",
+        "sprite": "trainer_sprites/smasher.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 PkMn Trainer Rood ": {
+        "level": 43,
+        "ai": 143,
+        "noCh": true,
+        "tr_id": 346,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Timid",
+        "moves": [
+          "Knock Off",
+          "Dark Pulse",
+          "Sludge Bomb",
+          "Play Rough"
+        ],
+        "sub_index": 3,
+        "ability": "Exploit",
+        "sprite": "trainer_sprites/rood.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Ace Trainer Vicki - Chargestone Cave": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 545,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Naive",
+        "moves": [
+          "Dark Pulse",
+          "Relic Song",
+          "Sludge Bomb",
+          "Flamethrower"
+        ],
+        "sub_index": 3,
+        "ability": "Trace",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Druddigon": {
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 1,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Rowap Berry",
+        "item": "None",
+        "nature": "Brave",
+        "moves": [
+          "Dragon Rage",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 2,
+        "ability": "Sheer Force",
+        "sprite": "trainer_sprites/smasher.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Veteran Shaun - Wellspring Cave": {
+        "level": 62,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 42,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "Outrage",
+          "Night Slash",
+          "Surf",
+          "Flamethrower"
+        ],
+        "sub_index": 3,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 41 Linebacker Jonah - Driftveil Drawbridge": {
+        "level": 41,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 63,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Rocky Helmet",
+        "nature": "Rash",
+        "moves": [
+          "Devour",
+          "Poison Fang",
+          "Rock Tomb",
+          "Amnesia"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/linebacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Leader Drayden ": {
+        "level": 46,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 159,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Modest",
+        "moves": [
+          "Dragon Tail",
+          "Revenge",
+          "Slash",
+          "Crunch"
+        ],
+        "sub_index": 0,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/drayden.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 58 Team Plasma Shadow7 ": {
+        "level": 58,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 235,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Super Potion",
+        "item": "Red Card",
+        "nature": "Quirky",
+        "moves": [
+          "Dragon Tail",
+          "Stealth Rock",
+          "Glare",
+          "Explosion"
+        ],
+        "sub_index": 0,
+        "ability": "Solid Rock",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 57 Champion Iris ": {
+        "level": 57,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 341,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Docile",
+        "moves": [
+          "Rock Slide",
+          "Flamethrower",
+          "Dragon Tail",
+          "Focus Blast"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/iris.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Veteran Jerry ": {
+        "level": 45,
+        "ai": 7,
+        "noCh": true,
+        "tr_id": 382,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Dragon Gem",
+        "nature": "Docile",
+        "moves": [
+          "Dragon Claw",
+          "Flamethrower",
+          "Rock Slide",
+          "Crunch"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Veteran Rhona ": {
+        "level": 45,
+        "ai": 7,
+        "noCh": true,
+        "tr_id": 383,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rocky Helmet",
+        "nature": "Brave",
+        "moves": [
+          "Dragon Claw",
+          "Swagger",
+          "Substitute",
+          "Protect"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "trainer_sprites/veteranf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Veteran Ron ": {
+        "level": 44,
+        "ai": 135,
+        "noCh": true,
+        "tr_id": 384,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Serious",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Veteran Denae ": {
+        "level": 44,
+        "ai": 7,
+        "noCh": true,
+        "tr_id": 385,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Rotation",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Sassy",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Sheer Force",
+        "sprite": "trainer_sprites/veteranf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 76 Champion Iris2 ": {
+        "level": 76,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 536,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Docile",
+        "moves": [
+          "Fire Punch",
+          "Thunder Punch",
+          "Outrage",
+          "Focus Blast"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/iris.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Ace Trainer Mary - Chargestone Cave": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 548,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Liechi Berry",
+        "nature": "Brave",
+        "moves": [
+          "Dragon Claw",
+          "Fire Punch",
+          "Thunder Punch",
+          "Stockpile"
+        ],
+        "sub_index": 1,
+        "ability": "Battle Armor",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Backpacker Randall - Relic Passage": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 564,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Careful",
+        "moves": [
+          "Breaking Swipe",
+          "Rock Slide",
+          "Drain Punch",
+          "Belly Drum"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/backpacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
+        "level": 36,
+        "ai": 143,
+        "noCh": true,
+        "tr_id": 773,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Weakness Policy",
+        "nature": "Jolly",
+        "moves": [
+          "Devour",
+          "Poison Jab",
+          "Glare",
+          "Temper Flare"
+        ],
+        "sub_index": 3,
+        "ability": "Solid Rock",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 57 Rival Benga9 - Starter 3": {
+        "level": 57,
+        "ai": 7,
+        "noCh": true,
+        "tr_id": 776,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Lonely",
+        "moves": [
+          "Fire Punch",
+          "Thunder Punch",
+          "Outrage",
+          "Focus Blast"
+        ],
+        "sub_index": 1,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Victreebel": {
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 1,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Rowap Berry",
+        "item": "None",
+        "nature": "Bold",
+        "moves": [
+          "Acid Spray",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 3,
+        "ability": "Chlorophyll",
+        "sprite": "trainer_sprites/smasher.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 Fisherman Devon ": {
+        "level": 50,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 18,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Dive Ball",
+        "item": "-",
+        "nature": "Lax",
+        "moves": [
+          "Weather Ball",
+          "Solar Beam",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Chlorophyll",
+        "sprite": "trainer_sprites/fisherman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 41 Hoopster Bobby3 - Driftveil Drawbridge": {
+        "level": 41,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 71,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Poison Gem",
+        "nature": "Serious",
+        "moves": [
+          "Leaf Blade",
+          "Poison Jab",
+          "Crunch",
+          "Sleep Powder"
+        ],
+        "sub_index": 0,
+        "ability": "Corrosion",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
+        "level": 48,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 292,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Pecha Berry",
+        "item": "Rock Gem",
+        "nature": "Hasty",
+        "moves": [
+          "Gunk Shot",
+          "Rock Climb",
+          "Weather Crash",
+          "Knock Off"
+        ],
+        "sub_index": 2,
+        "ability": "Arena Trap",
+        "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 PkMn Ranger Rick - Route 1": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 409,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Lum Berry",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Chlorophyll",
+        "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 56 Backpacker Kumiko ": {
+        "level": 56,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 514,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Mild",
+        "moves": [
+          "Gunk Shot",
+          "Leaf Storm",
+          "Sleep Powder",
+          "Growth"
+        ],
+        "sub_index": 0,
+        "ability": "Corrosion",
+        "sprite": "trainer_sprites/backpackerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Kanto Leader Erika ": {
+        "level": 40,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 767,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Occa Berry",
+        "nature": "Timid",
+        "moves": [
+          "Solar Blade",
+          "Spit Up",
+          "Earthquake",
+          "Sucker Punch"
+        ],
+        "sub_index": 3,
+        "ability": "Arena Trap",
+        "sprite": "trainer_sprites/erika.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Alakazam": {
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 1,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Rowap Berry",
+        "item": "None",
+        "nature": "Mild",
+        "moves": [
+          "Confusion",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 4,
+        "ability": "Magic Guard",
+        "sprite": "trainer_sprites/smasher.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster Bobby ": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 8,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Potion",
+        "item": "None",
+        "nature": "Hardy",
+        "moves": [
+          "Psychic",
+          "Focus Blast",
+          "Psychic Noise",
+          "-----"
+        ],
+        "sub_index": 4,
+        "ability": "Magic Guard",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster John - Chargestone Cave": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 9,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "Hyper Potion",
+        "item": "None",
+        "nature": "Careful",
+        "moves": [
+          "Psychic",
+          "Aura Sphere",
+          "Energy Ball",
+          "-----"
+        ],
+        "sub_index": 4,
+        "ability": "Trace",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Team Plasma Shadow5 ": {
+        "level": 40,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 192,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Clear Amulet",
+        "nature": "Serious",
+        "moves": [
+          "Psybeam",
+          "Grass Knot",
+          "Force Palm",
+          "Reflect"
+        ],
+        "sub_index": 4,
+        "ability": "Trace",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 56 Battle Girl Glinda - Route 14": {
+        "level": 56,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 282,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Twisted Spoon",
+        "nature": "Quirky",
+        "moves": [
+          "Psychic",
+          "Aura Sphere",
+          "Light Screen",
+          "Reflect"
+        ],
+        "sub_index": 1,
+        "ability": "Inner Focus",
+        "sprite": "trainer_sprites/battlegirl.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 54 Kanto Leader Sabrina ": {
+        "level": 54,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 769,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Tera Sash",
+        "nature": "Hardy",
+        "moves": [
+          "Zap Cannon",
+          "Detect",
+          "Psycho Boost",
+          "Aura Sphere"
+        ],
+        "sub_index": 5,
+        "ability": "Magic Guard",
+        "sprite": "trainer_sprites/sabrina.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 73 Elite Four Caitlin3 ": {
+        "level": 73,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 780,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Expert Belt",
+        "nature": "Quiet",
+        "moves": [
+          "Psychic",
+          "Focus Blast",
+          "Shadow Ball",
+          "Charge Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Magic Guard",
+        "sprite": "trainer_sprites/caitlin.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Primeape": {
+      "Lvl 1 Smasher Elena - Aspertia Gate": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 1,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Rowap Berry",
+        "item": "None",
+        "nature": "Brave",
+        "moves": [
+          "Karate Chop",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 5,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/smasher.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 41 Hoopster Lamarcus - Driftveil Drawbridge": {
+        "level": 41,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 68,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Focus Sash",
+        "nature": "Docile",
+        "moves": [
+          "Cross Chop",
+          "Thrash",
+          "Reversal",
+          "Screech"
+        ],
+        "sub_index": 0,
+        "ability": "Tinted Lens",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 57 Team Plasma Shadow2 ": {
+        "level": 57,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 69,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Hardy",
+        "moves": [
+          "Dynamic Punch",
+          "Stompin Tantrum",
+          "Thrash",
+          "Teeter Dance"
+        ],
+        "sub_index": 1,
+        "ability": "Hustle",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 20 Roughneck Nicky ": {
+        "level": 20,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 178,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Dark Gem",
+        "nature": "Relaxed",
+        "moves": [
+          "Vital Throw",
+          "Beat Up",
+          "Rage",
+          "Pursuit"
+        ],
+        "sub_index": 3,
+        "ability": "Berserk",
+        "sprite": "trainer_sprites/roughneck.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 47 Team Plasma Grunt6 ": {
+        "level": 47,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 372,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Bright Powder",
+        "nature": "Lonely",
+        "moves": [
+          "Dynamic Punch",
+          "Thrash",
+          "Temper Flare",
+          "Stompin Tantrum"
+        ],
+        "sub_index": 1,
+        "ability": "Anger Point",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Harlequin Oswald - Route 7": {
+        "level": 49,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 528,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Starf Berry",
+        "item": "Bright Powder",
+        "nature": "Bold",
+        "moves": [
+          "Power Trip",
+          "Acupressure",
+          "Low Kick",
+          "Slack Off"
+        ],
+        "sub_index": 1,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/harlequin.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Battle Girl - Wellspring Cave": {
+        "level": 62,
+        "ai": 3,
+        "noCh": false,
+        "tr_id": 676,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Hardy",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -119370,194 +120650,6 @@ backup_data = {
         }
       }
     },
-    "Alakazam": {
-      "Lvl 1 Hoopster Bobby ": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 8,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Potion",
-        "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Psychic",
-          "Focus Blast",
-          "Psychic Noise",
-          "-----"
-        ],
-        "sub_index": 4,
-        "ability": "Magic Guard",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster John - Chargestone Cave": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 9,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "Hyper Potion",
-        "item": "None",
-        "nature": "Careful",
-        "moves": [
-          "Psychic",
-          "Aura Sphere",
-          "Energy Ball",
-          "-----"
-        ],
-        "sub_index": 4,
-        "ability": "Trace",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Team Plasma Shadow5 ": {
-        "level": 40,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 192,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Clear Amulet",
-        "nature": "Serious",
-        "moves": [
-          "Psybeam",
-          "Grass Knot",
-          "Force Palm",
-          "Reflect"
-        ],
-        "sub_index": 4,
-        "ability": "Trace",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Battle Girl Glinda - Route 14": {
-        "level": 56,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 282,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Twisted Spoon",
-        "nature": "Quirky",
-        "moves": [
-          "Psychic",
-          "Aura Sphere",
-          "Light Screen",
-          "Reflect"
-        ],
-        "sub_index": 1,
-        "ability": "Inner Focus",
-        "sprite": "trainer_sprites/battlegirl.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 54 Kanto Leader Sabrina ": {
-        "level": 54,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 769,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Tera Sash",
-        "nature": "Hardy",
-        "moves": [
-          "Zap Cannon",
-          "Detect",
-          "Psycho Boost",
-          "Aura Sphere"
-        ],
-        "sub_index": 5,
-        "ability": "Magic Guard",
-        "sprite": "trainer_sprites/sabrina.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 73 Elite Four Caitlin3 ": {
-        "level": 73,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 780,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Expert Belt",
-        "nature": "Quiet",
-        "moves": [
-          "Psychic",
-          "Focus Blast",
-          "Shadow Ball",
-          "Charge Beam"
-        ],
-        "sub_index": 1,
-        "ability": "Magic Guard",
-        "sprite": "trainer_sprites/caitlin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Mightyena": {
       "Lvl 1 Clerk F Trisha ": {
         "level": 1,
@@ -121386,7 +122478,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Lum Berry",
+        "item": "Clear Amulet",
         "nature": "Lonely",
         "moves": [
           "Retaliate",
@@ -125219,194 +126311,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Chlorophyll",
         "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Victreebel": {
-      "Lvl 50 Fisherman Devon ": {
-        "level": 50,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 18,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Dive Ball",
-        "item": "-",
-        "nature": "Lax",
-        "moves": [
-          "Weather Ball",
-          "Solar Beam",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Chlorophyll",
-        "sprite": "trainer_sprites/fisherman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 Hoopster Bobby3 - Driftveil Drawbridge": {
-        "level": 41,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 71,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Poison Gem",
-        "nature": "Serious",
-        "moves": [
-          "Leaf Blade",
-          "Poison Jab",
-          "Crunch",
-          "Sleep Powder"
-        ],
-        "sub_index": 0,
-        "ability": "Corrosion",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 48 PkMn Ranger Richard - Route 6": {
-        "level": 48,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 292,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Pecha Berry",
-        "item": "Rock Gem",
-        "nature": "Hasty",
-        "moves": [
-          "Gunk Shot",
-          "Rock Climb",
-          "Weather Crash",
-          "Knock Off"
-        ],
-        "sub_index": 2,
-        "ability": "Arena Trap",
-        "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 PkMn Ranger Rick - Route 1": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 409,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Lum Berry",
-        "item": "-",
-        "nature": "Gentle",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Chlorophyll",
-        "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Backpacker Kumiko ": {
-        "level": 56,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 514,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Mild",
-        "moves": [
-          "Gunk Shot",
-          "Leaf Storm",
-          "Sleep Powder",
-          "Growth"
-        ],
-        "sub_index": 0,
-        "ability": "Corrosion",
-        "sprite": "trainer_sprites/backpackerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 39 Kanto Leader Erika ": {
-        "level": 39,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 767,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Occa Berry",
-        "nature": "Docile",
-        "moves": [
-          "Solar Blade",
-          "Poison Jab",
-          "Earthquake",
-          "Psychic Fangs"
-        ],
-        "sub_index": 3,
-        "ability": "Arena Trap",
-        "sprite": "trainer_sprites/erika.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -134121,442 +135025,6 @@ backup_data = {
         }
       }
     },
-    "Druddigon": {
-      "Lvl 62 Veteran Shaun - Wellspring Cave": {
-        "level": 62,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 42,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "Outrage",
-          "Night Slash",
-          "Surf",
-          "Flamethrower"
-        ],
-        "sub_index": 3,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 Linebacker Jonah - Driftveil Drawbridge": {
-        "level": 41,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 63,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Rocky Helmet",
-        "nature": "Rash",
-        "moves": [
-          "Devour",
-          "Poison Fang",
-          "Rock Tomb",
-          "Amnesia"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/linebacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 46 Leader Drayden ": {
-        "level": 46,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 159,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Modest",
-        "moves": [
-          "Dragon Tail",
-          "Revenge",
-          "Slash",
-          "Crunch"
-        ],
-        "sub_index": 0,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/drayden.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 58 Team Plasma Shadow7 ": {
-        "level": 58,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 235,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Super Potion",
-        "item": "Red Card",
-        "nature": "Quirky",
-        "moves": [
-          "Dragon Tail",
-          "Stealth Rock",
-          "Glare",
-          "Explosion"
-        ],
-        "sub_index": 0,
-        "ability": "Solid Rock",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 Champion Iris ": {
-        "level": 57,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 341,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Docile",
-        "moves": [
-          "Rock Slide",
-          "Flamethrower",
-          "Dragon Tail",
-          "Focus Blast"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/iris.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Veteran Jerry ": {
-        "level": 45,
-        "ai": 7,
-        "noCh": true,
-        "tr_id": 382,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Dragon Gem",
-        "nature": "Docile",
-        "moves": [
-          "Dragon Claw",
-          "Flamethrower",
-          "Rock Slide",
-          "Crunch"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Veteran Rhona ": {
-        "level": 45,
-        "ai": 7,
-        "noCh": true,
-        "tr_id": 383,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Rocky Helmet",
-        "nature": "Brave",
-        "moves": [
-          "Dragon Claw",
-          "Swagger",
-          "Substitute",
-          "Protect"
-        ],
-        "sub_index": 1,
-        "ability": "Sheer Force",
-        "sprite": "trainer_sprites/veteranf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 Veteran Ron ": {
-        "level": 44,
-        "ai": 135,
-        "noCh": true,
-        "tr_id": 384,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Serious",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 Veteran Denae ": {
-        "level": 44,
-        "ai": 7,
-        "noCh": true,
-        "tr_id": 385,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Rotation",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Sassy",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Sheer Force",
-        "sprite": "trainer_sprites/veteranf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 76 Champion Iris2 ": {
-        "level": 76,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 536,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Docile",
-        "moves": [
-          "Fire Punch",
-          "Thunder Punch",
-          "Outrage",
-          "Focus Blast"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/iris.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 Ace Trainer Mary - Chargestone Cave": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 548,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Liechi Berry",
-        "nature": "Brave",
-        "moves": [
-          "Dragon Claw",
-          "Fire Punch",
-          "Thunder Punch",
-          "Stockpile"
-        ],
-        "sub_index": 1,
-        "ability": "Battle Armor",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 48 Backpacker Randall - Relic Passage": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 564,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Careful",
-        "moves": [
-          "Breaking Swipe",
-          "Rock Slide",
-          "Drain Punch",
-          "Belly Drum"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/backpacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
-        "level": 36,
-        "ai": 143,
-        "noCh": true,
-        "tr_id": 773,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Weakness Policy",
-        "nature": "Jolly",
-        "moves": [
-          "Devour",
-          "Poison Jab",
-          "Glare",
-          "Temper Flare"
-        ],
-        "sub_index": 3,
-        "ability": "Solid Rock",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 Rival Benga9 - Starter 3": {
-        "level": 57,
-        "ai": 7,
-        "noCh": true,
-        "tr_id": 776,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Lonely",
-        "moves": [
-          "Fire Punch",
-          "Thunder Punch",
-          "Outrage",
-          "Focus Blast"
-        ],
-        "sub_index": 1,
-        "ability": "Rough Skin",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Gigalith": {
       "Lvl 62 Veteran Shaun - Wellspring Cave": {
         "level": 62,
@@ -142912,194 +143380,6 @@ backup_data = {
         "sub_index": 5,
         "ability": "Solid Rock",
         "sprite": "trainer_sprites/marshal.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Primeape": {
-      "Lvl 41 Hoopster Lamarcus - Driftveil Drawbridge": {
-        "level": 41,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 68,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Focus Sash",
-        "nature": "Docile",
-        "moves": [
-          "Cross Chop",
-          "Thrash",
-          "Reversal",
-          "Screech"
-        ],
-        "sub_index": 0,
-        "ability": "Tinted Lens",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 Team Plasma Shadow2 ": {
-        "level": 57,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 69,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Hardy",
-        "moves": [
-          "Dynamic Punch",
-          "Stompin Tantrum",
-          "Thrash",
-          "Teeter Dance"
-        ],
-        "sub_index": 1,
-        "ability": "Hustle",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 20 Roughneck Nicky ": {
-        "level": 20,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 178,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Dark Gem",
-        "nature": "Relaxed",
-        "moves": [
-          "Vital Throw",
-          "Beat Up",
-          "Rage",
-          "Pursuit"
-        ],
-        "sub_index": 3,
-        "ability": "Berserk",
-        "sprite": "trainer_sprites/roughneck.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma Grunt6 ": {
-        "level": 47,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 372,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Bright Powder",
-        "nature": "Lonely",
-        "moves": [
-          "Dynamic Punch",
-          "Thrash",
-          "Temper Flare",
-          "Stompin Tantrum"
-        ],
-        "sub_index": 1,
-        "ability": "Anger Point",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 49 Harlequin Oswald - Route 7": {
-        "level": 49,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 528,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Starf Berry",
-        "item": "Bright Powder",
-        "nature": "Bold",
-        "moves": [
-          "Power Trip",
-          "Acupressure",
-          "Low Kick",
-          "Slack Off"
-        ],
-        "sub_index": 1,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/harlequin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Battle Girl - Wellspring Cave": {
-        "level": 62,
-        "ai": 3,
-        "noCh": false,
-        "tr_id": 676,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Hardy",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -190342,70 +190622,6 @@ backup_data = {
         }
       }
     },
-    "Zoroark": {
-      "Lvl 43 PkMn Trainer Rood ": {
-        "level": 43,
-        "ai": 143,
-        "noCh": true,
-        "tr_id": 346,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Timid",
-        "moves": [
-          "Knock Off",
-          "Dark Pulse",
-          "Sludge Bomb",
-          "Play Rough"
-        ],
-        "sub_index": 3,
-        "ability": "Exploit",
-        "sprite": "trainer_sprites/rood.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 Ace Trainer Vicki - Chargestone Cave": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 545,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Naive",
-        "moves": [
-          "Dark Pulse",
-          "Relic Song",
-          "Sludge Bomb",
-          "Flamethrower"
-        ],
-        "sub_index": 3,
-        "ability": "Trace",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Castform-Snowy": {
       "Lvl 60 Ace Trainer Jeanne - Humilau City": {
         "level": 60,
@@ -196896,8 +197112,8 @@ backup_data = {
       }
     },
     "Cherrim": {
-      "Lvl 39 Kanto Leader Erika ": {
-        "level": 39,
+      "Lvl 38 Kanto Leader Erika ": {
+        "level": 38,
         "ai": 15,
         "noCh": false,
         "tr_id": 767,
@@ -196912,7 +197128,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Coba Berry",
-        "nature": "Bold",
+        "nature": "Jolly",
         "moves": [
           "Seed Bomb",
           "Fire Lash",
