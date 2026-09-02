@@ -17502,13 +17502,15 @@ masterData =
       "tm fighting",
       "fighting gem",
       "chople berry",
-      "heart scale"
+      "heart scale",
+      "yellow shard"
     ],
     "itemDescriptions": [
       "TM47 Cross Chop (reward from defeating Maylene)",
-      "Fighting Gem (x3) (reward from defeating Maylene)",
-      "Chople Berry (x3) (reward from defeating Maylene)",
-      "Heart Scale (x1) (reward for beating the Ranger)"
+      "Fighting Gem (x1) (reward from defeating Maylene)",
+      "Chople Berry (x1) (reward from defeating Maylene)",
+      "Heart Scale (x1) (reward for beating the Ranger)",
+      "Yellow Shard (x5) (reward for defeating Ranger Johan)"
     ]
   },
   {
@@ -17520,7 +17522,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 2,
+    "id": 93,
     "tag": "encounter"
   },
   {
@@ -17532,7 +17534,21 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "class": "mand",
+    "id": 472,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 474,
     "notes": [
       "(rewards",
       "a",
@@ -17543,6 +17559,30 @@ masterData =
       {
         "type": "text",
         "text": "(rewards a Heart Scale)"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 473,
+    "notes": [
+      "(rewards",
+      "5x",
+      "yellow",
+      "shards)"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(rewards 5x yellow shards)"
       }
     ],
     "tag": "trainer"
@@ -17572,7 +17612,7 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 4,
+    "id": 471,
     "notes": [
       "Rewards",
       "2x",
@@ -17610,17 +17650,17 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Black Belt Kai (Undella Bay Gatekeeper)",
+    "content": "Black Belt Rocky (Undella Bay Gatekeeper)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Black Belt Kai (Undella Bay Gatekeeper)"
+        "text": "Black Belt Rocky (Undella Bay Gatekeeper)"
       }
     ],
     "tag": "h3"
   },
   {
-    "id": 4,
+    "id": 580,
     "notes": [],
     "tag": "trainer"
   },
@@ -17706,7 +17746,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 2,
+    "id": 43,
     "tag": "encounter"
   },
   {
@@ -17718,7 +17758,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 470,
     "notes": [
       "(rewards",
       "the",
@@ -17753,7 +17793,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 4,
+    "id": 315,
     "notes": [],
     "tag": "trainer"
   },
@@ -17875,7 +17915,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 317,
     "notes": [
       "(Guards",
       "TTM92",
@@ -17899,7 +17939,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 314,
     "notes": [
       "(Guards",
       "Fossils)"
@@ -17921,7 +17961,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 318,
     "notes": [
       "(Guards",
       "TM01",
@@ -17945,7 +17985,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 316,
     "notes": [
       "(Guards",
       "blue",
@@ -17974,17 +18014,17 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Strange Statue  #af74b3",
+    "content": "Strange Statue",
     "content_parts": [
       {
         "type": "text",
-        "text": "Strange Statue  #af74b3"
+        "text": "Strange Statue"
       }
     ],
     "tag": "h3"
   },
   {
-    "id": 4,
+    "id": 104,
     "notes": [
       "Rewards",
       "Life",
@@ -17997,14 +18037,6 @@ masterData =
       }
     ],
     "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -18062,12 +18094,12 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "tm psychic",
-      "tm electric",
+      "tm normal",
       "heart scale"
     ],
     "itemDescriptions": [
       "TM51 Ally Switch (reward for defeating Plasma Scientist F)",
-      "TM93 Wild Charge (reward for defeating Plasma Scientist M)",
+      "TM63 Slam (reward for defeating Plasma Scientist M)",
       "Heart Scale x1"
     ]
   },
@@ -18096,35 +18128,26 @@ masterData =
     "fontColor": "#4e86d4"
   },
   {
-    "id": 4,
+    "class": "mand",
+    "id": 500,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 4,
+    "class": "mand",
+    "id": 800,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 4,
+    "class": "mand",
+    "id": 801,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 4,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "id": 4,
+    "class": "mand",
+    "id": 802,
     "notes": [],
     "tag": "trainer"
   },
@@ -18137,7 +18160,24 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "content": "Mess Hall Tag Battle",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Mess Hall Tag Battle"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "class": "mand",
+    "id": 798,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "class": "mand",
+    "id": 799,
     "notes": [],
     "tag": "trainer"
   },
@@ -18150,7 +18190,185 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "id": 794,
+    "notes": [
+      "Hugh's",
+      "Team",
+      "if",
+      "you",
+      "Picked",
+      "Tepig"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Hugh's Team if you Picked Tepig"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "id": 796,
+    "notes": [
+      "Hugh's",
+      "Team",
+      "if",
+      "you",
+      "Picked",
+      "Dewott"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Hugh's Team if you Picked Dewott"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "id": 795,
+    "notes": [
+      "Hugh's",
+      "Team",
+      "if",
+      "you",
+      "Picked",
+      "Snivy"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "Hugh's Team if you Picked Snivy"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 343,
+    "notes": [
+      "(DODGEABLE)",
+      "Rewards",
+      "1x",
+      "Enhancer"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE) Rewards 1x Enhancer"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 812,
+    "notes": [
+      "(DODGEABLE)",
+      "Rewards",
+      "1x",
+      "Enhancer"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(DODGEABLE) Rewards 1x Enhancer"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 435,
+    "notes": [
+      "(SPLIT",
+      "LOCKED)",
+      "Rewards",
+      "TM51",
+      "Ally",
+      "Switch"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(SPLIT LOCKED) Rewards TM51 Ally Switch"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 444,
+    "notes": [
+      "(SPLIT",
+      "LOCKED)",
+      "Rewards",
+      "TM63",
+      "Slam"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(SPLIT LOCKED) Rewards TM63 Slam"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Top Left Room, BACK-TO-BACK",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Top Left Room, BACK-TO-BACK"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "class": "mand",
+    "id": 434,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "class": "mand",
+    "id": 443,
     "notes": [],
     "tag": "trainer"
   },
@@ -18163,7 +18381,24 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "content": "Top Right Room, BACK-TO-BACK",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Top Right Room, BACK-TO-BACK"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "class": "mand",
+    "id": 438,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "class": "mand",
+    "id": 450,
     "notes": [],
     "tag": "trainer"
   },
@@ -18176,7 +18411,54 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "content": "Bottom Left Room, BACK-TO-BACK",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Bottom Left Room, BACK-TO-BACK"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "class": "mand",
+    "id": 432,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "class": "mand",
+    "id": 442,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Bottom Right Room, BACK-TO-BACK",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Bottom Right Room, BACK-TO-BACK"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "class": "mand",
+    "id": 430,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "class": "mand",
+    "id": 441,
     "notes": [],
     "tag": "trainer"
   },
@@ -18199,7 +18481,7 @@ masterData =
     "tag": "h3"
   },
   {
-    "id": 4,
+    "id": 794,
     "notes": [
       "Hugh's",
       "Team",
@@ -18217,15 +18499,7 @@ masterData =
     "tag": "trainer"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "id": 4,
+    "id": 796,
     "notes": [
       "Hugh's",
       "Team",
@@ -18243,15 +18517,7 @@ masterData =
     "tag": "trainer"
   },
   {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "id": 4,
+    "id": 795,
     "notes": [
       "Hugh's",
       "Team",
@@ -18278,7 +18544,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 797,
     "notes": [
       "Left",
       "Side"
@@ -18293,7 +18559,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 347,
     "notes": [
       "Right",
       "Side"
@@ -18410,7 +18676,7 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 2,
+    "id": 121,
     "tag": "encounter"
   },
   {
@@ -18423,7 +18689,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 294,
     "notes": [
       "Right",
       "Side"
@@ -18438,7 +18704,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 295,
     "notes": [
       "Left",
       "Side"
@@ -18461,7 +18727,20 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 289,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 290,
     "notes": [
       "(Guards",
       "the",
@@ -18485,8 +18764,32 @@ masterData =
     "tag": "p"
   },
   {
+    "id": 731,
+    "notes": [
+      "(Rewards",
+      "TM23",
+      "Weather",
+      "Crash)"
+    ],
+    "notes_parts": [
+      {
+        "type": "text",
+        "text": "(Rewards TM23 Weather Crash)"
+      }
+    ],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
-    "id": 4,
+    "id": 286,
     "notes": [
       "Choose",
       "One",
@@ -18502,7 +18805,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 287,
     "notes": [
       "Choose",
       "One",
@@ -18525,23 +18828,46 @@ masterData =
     "tag": "p"
   },
   {
-    "id": 4,
+    "class": "mand",
+    "id": 730,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 469,
     "notes": [
-      "(Guards",
-      "TM27",
-      "Weather",
-      "Crash)"
+      "(DODGEABLE)",
+      "(Rewards",
+      "1x",
+      "IV",
+      "Enhancer)"
     ],
     "notes_parts": [
       {
         "type": "text",
-        "text": "(Guards TM27 Weather Crash)"
+        "text": "(DODGEABLE) (Rewards 1x IV Enhancer)"
       }
     ],
     "tag": "trainer"
   },
   {
-    "id": 4,
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 288,
     "notes": [
       "(Guards",
       "TM57",
@@ -18566,21 +18892,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "class": "mand",
-    "id": 4,
+    "id": 133,
     "notes": [
       "Choose",
       "One",
@@ -18596,7 +18908,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 134,
     "notes": [
       "Choose",
       "One",
@@ -18635,13 +18947,13 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
-    "id": 4,
+    "id": 300,
     "notes": [
       "Rewards",
-      "2x",
+      "1x",
       "Yache",
       "Berries,",
-      "2x",
+      "1x",
       "Ice",
       "Gems,",
       "TM68",
@@ -18650,42 +18962,10 @@ masterData =
     "notes_parts": [
       {
         "type": "text",
-        "text": "Rewards 2x Yache Berries, 2x Ice Gems, TM68 Avalanche"
+        "text": "Rewards 1x Yache Berries, 1x Ice Gems, TM68 Avalanche"
       }
     ],
     "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -18726,10 +19006,12 @@ masterData =
     "itemsTitle": "Items",
     "itemsDescription": "",
     "itemList": [
-      "colress mchn"
+      "colress mchn",
+      "chilan berry"
     ],
     "itemDescriptions": [
-      "Proto Booster (reward for defeating Benga)"
+      "Proto Booster (reward for defeating Benga)",
+      "Chilan Berry x1"
     ]
   },
   {
@@ -18806,7 +19088,7 @@ masterData =
   },
   {
     "class": "mand",
-    "id": 4,
+    "id": 379,
     "notes": [],
     "tag": "trainer"
   },
