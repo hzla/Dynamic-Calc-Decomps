@@ -115795,7 +115795,7 @@ backup_data = {
         "moves": [
           "Gunk Shot",
           "Rock Climb",
-          "Weather Crash",
+          "Earthquake",
           "Knock Off"
         ],
         "sub_index": 2,
@@ -117993,37 +117993,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Torrent",
         "sprite": "trainer_sprites/bianca.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Harlequin Chester - Driftveil City": {
-        "level": 42,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 107,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "TM62",
-        "item": "Apicot Berry",
-        "nature": "Docile",
-        "moves": [
-          "Scald",
-          "Air Slash",
-          "Stockpile",
-          "Roost"
-        ],
-        "sub_index": 2,
-        "ability": "Unburden",
-        "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -121009,7 +120978,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Expert Belt",
+        "item": "Focus Band",
         "nature": "Calm",
         "moves": [
           "Strength",
@@ -123700,11 +123669,11 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Mystery Device",
-        "nature": "Naive",
+        "nature": "Modest",
         "moves": [
           "Secret Power",
           "Pursuit",
-          "Dizzy Punch",
+          "Grudge",
           "Protect"
         ],
         "sub_index": 5,
@@ -129118,13 +129087,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
-        "item": "Focus Sash",
+        "item": "Trickster Herb",
         "nature": "Serious",
         "moves": [
           "Me First",
           "Sticky Web",
-          "Psychic Fangs",
-          "Liquidation"
+          "Aqua Cutter",
+          "Knock Off"
         ],
         "sub_index": 0,
         "ability": "Savant",
@@ -129685,10 +129654,10 @@ backup_data = {
         "item": "Mystery Device",
         "nature": "Brave",
         "moves": [
-          "Brick Break",
+          "Close Combat",
           "Heart Stamp",
           "Thunder Fang",
-          "Iron Head"
+          "Agility"
         ],
         "sub_index": 2,
         "ability": "Anger Point",
@@ -129945,6 +129914,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Water Absorb",
         "sprite": "trainer_sprites/backersf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 42 Harlequin Chester - Driftveil City": {
+        "level": 42,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 107,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "TM62",
+        "item": "Water Gem",
+        "nature": "Naughty",
+        "moves": [
+          "Water Spout",
+          "Acrobatics",
+          "U-turn",
+          "Hyper Voice"
+        ],
+        "sub_index": 2,
+        "ability": "Unburden",
+        "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -139367,7 +139367,7 @@ backup_data = {
           "Fake Out",
           "Ice Beam",
           "Fairy Wind",
-          "Relic Song"
+          "Hyper Beam"
         ],
         "sub_index": 0,
         "ability": "Unburden",
@@ -140748,6 +140748,37 @@ backup_data = {
         "sub_index": 1,
         "ability": "Anticipation",
         "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
+        "level": 48,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 292,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Pecha Berry",
+        "item": "Silk Scarf",
+        "nature": "Docile",
+        "moves": [
+          "Leaf Storm",
+          "Aqua Cutter",
+          "Dual Chop",
+          "Air Slash"
+        ],
+        "sub_index": 4,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -148622,10 +148653,10 @@ backup_data = {
         "item": "Dark Gem",
         "nature": "Naughty",
         "moves": [
-          "Drill Peck",
-          "Rock Climb",
+          "Dual Wingbeat",
+          "Stone Edge",
           "Pursuit",
-          "Screech"
+          "Earthquake"
         ],
         "sub_index": 4,
         "ability": "Tough Claws",
@@ -155254,12 +155285,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Blue Shard",
-        "item": "Clear Amulet",
+        "item": "Rowap Berry",
         "nature": "Naive",
         "moves": [
           "Lava Plume",
           "Earthquake",
-          "Gyro Ball",
+          "Stone Edge",
           "Amnesia"
         ],
         "sub_index": 1,
@@ -167050,7 +167081,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
-        "nature": "Hasty",
+        "nature": "Jolly",
         "moves": [
           "Dynamic Punch",
           "Stone Edge",
@@ -167207,7 +167238,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Power Herb",
-        "nature": "Timid",
+        "nature": "Naughty",
         "moves": [
           "Crush Claw",
           "Fly",
@@ -168440,7 +168471,7 @@ backup_data = {
         "moves": [
           "Dive",
           "Poison Jab",
-          "Ice Fang",
+          "Follow Me",
           "Lunge"
         ],
         "sub_index": 1,
@@ -186251,7 +186282,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Rowap Berry",
+        "item": "Bright Powder",
         "nature": "Timid",
         "moves": [
           "Facade",
@@ -186763,7 +186794,7 @@ backup_data = {
           "Boomburst",
           "Ice Beam"
         ],
-        "sub_index": 4,
+        "sub_index": 5,
         "ability": "Swift Swim",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
@@ -189067,8 +189098,8 @@ backup_data = {
         "moves": [
           "Flamethrower",
           "Mud Bomb",
-          "Endure",
-          "U-turn"
+          "Shadow Ball",
+          "Substitute"
         ],
         "sub_index": 3,
         "ability": "Blaze",
@@ -194161,13 +194192,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Blue Shard",
-        "item": "Ground Gem",
+        "item": "Muscle Band",
         "nature": "Serious",
         "moves": [
           "Hyper Fang",
-          "Waterfall",
+          "Liquidation",
           "Aqua Jet",
-          "Earthquake"
+          "Quick Attack"
         ],
         "sub_index": 4,
         "ability": "Huge Power",
@@ -195255,7 +195286,7 @@ backup_data = {
           "Barrage",
           "Bulldoze",
           "Bulk Up",
-          "Recover"
+          "Amnesia"
         ],
         "sub_index": 1,
         "ability": "Simple",
