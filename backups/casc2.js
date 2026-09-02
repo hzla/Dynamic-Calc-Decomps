@@ -138426,13 +138426,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Naive",
         "moves": [
-          "Hyper Voice",
+          "Alluring Voice",
           "Twister",
           "Ice Beam",
           "Cotton Guard"
         ],
         "sub_index": 2,
-        "ability": "Amplifier",
+        "ability": "Cloud Nine",
         "sprite": "trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -138551,12 +138551,12 @@ backup_data = {
         "nature": "Naughty",
         "moves": [
           "Hurricane",
-          "Hyper Voice",
+          "Play Rough",
           "Dragon Claw",
           "Weather Ball"
         ],
         "sub_index": 4,
-        "ability": "Amplifier",
+        "ability": "Serene Grace",
         "sprite": "trainer_sprites/acetrainerf.png",
         "form": 0,
         "evs": {
