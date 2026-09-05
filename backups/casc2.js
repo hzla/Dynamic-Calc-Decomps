@@ -57205,7 +57205,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Pure Power",
+        "Huge Power",
         " -",
         " -"
       ],
@@ -57391,7 +57391,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Pure Power",
+        "Huge Power",
         " -",
         " -"
       ],
@@ -116244,7 +116244,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt6 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -120713,7 +120713,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt8 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -120963,7 +120963,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt48 ": {
+      "Lvl 40 Team Plasma Grunt49 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -121151,37 +121151,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Boss Trainer Carlen ": {
-        "level": 59,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 188,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Calm",
-        "moves": [
-          "Megahorn",
-          "Earthquake",
-          "Rock Slide",
-          "Swords Dance"
-        ],
-        "sub_index": 2,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 37 Depot Agent Hank - Route 16": {
         "level": 37,
         "ai": 15,
@@ -121275,7 +121244,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt24 ": {
+      "Lvl 47 Team Plasma Grunt25 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -121306,7 +121275,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt38 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt39 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -121399,7 +121368,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt50 ": {
+      "Lvl 45 Team Plasma Grunt51 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -127258,7 +127227,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt3 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt4 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -127289,7 +127258,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt26 ": {
+      "Lvl 46 Team Plasma Grunt27 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -127351,7 +127320,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt45 ": {
+      "Lvl 24 Team Plasma Grunt46 ": {
         "level": 24,
         "ai": 15,
         "noCh": true,
@@ -127506,7 +127475,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt50 ": {
+      "Lvl 45 Team Plasma Grunt51 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -127663,7 +127632,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt21 ": {
+      "Lvl 47 Team Plasma Grunt22 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -127694,7 +127663,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt35 ": {
+      "Lvl 47 Team Plasma Grunt36 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -127787,7 +127756,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt51 ": {
+      "Lvl 46 Team Plasma Grunt52 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -127818,7 +127787,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt54 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt55 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -129636,7 +129605,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt5 ": {
+      "Lvl 41 Team Plasma Grunt6 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -132483,7 +132452,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt12 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt13 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -132514,7 +132483,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt27 ": {
+      "Lvl 46 Team Plasma Grunt28 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -132576,7 +132545,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt40 ": {
+      "Lvl 46 Team Plasma Grunt41 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -132638,7 +132607,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt42 ": {
+      "Lvl 44 Team Plasma Grunt43 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -132731,7 +132700,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt50 ": {
+      "Lvl 45 Team Plasma Grunt51 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -132762,7 +132731,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt59 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt60 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -133237,6 +133206,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 24 Team Plasma Grunt1 - Route 20": {
+        "level": 24,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 188,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Rash",
+        "moves": [
+          "Infernal Parade",
+          "Dazzling Gleam",
+          "Ice Beam",
+          "Feather Dance"
+        ],
+        "sub_index": 3,
+        "ability": "Illusion",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 13 Kanto Leader Brock ": {
         "level": 13,
         "ai": 15,
@@ -133489,7 +133489,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt7 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -133520,7 +133520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt49 ": {
+      "Lvl 24 Team Plasma Grunt50 ": {
         "level": 24,
         "ai": 143,
         "noCh": false,
@@ -133584,7 +133584,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt5 ": {
+      "Lvl 41 Team Plasma Grunt6 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -134084,7 +134084,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt8 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -134146,7 +134146,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt45 ": {
+      "Lvl 25 Team Plasma Grunt46 ": {
         "level": 25,
         "ai": 15,
         "noCh": true,
@@ -134524,7 +134524,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt7 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -136371,7 +136371,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt24 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -136402,7 +136402,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt38 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -136464,7 +136464,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt49 ": {
+      "Lvl 24 Team Plasma Grunt50 ": {
         "level": 24,
         "ai": 143,
         "noCh": false,
@@ -137218,7 +137218,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt7 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -139251,7 +139251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Team Plasma Grunt2 ": {
+      "Lvl 27 Team Plasma Grunt3 ": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -139282,7 +139282,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt10 ": {
+      "Lvl 47 Team Plasma Grunt11 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -139846,7 +139846,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Team Plasma Grunt4 ": {
+      "Lvl 26 Team Plasma Grunt5 ": {
         "level": 26,
         "ai": 135,
         "noCh": false,
@@ -139877,7 +139877,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt9 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -140096,7 +140096,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt13 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt14 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -140158,7 +140158,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt40 ": {
+      "Lvl 46 Team Plasma Grunt41 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -140189,7 +140189,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt44 ": {
+      "Lvl 44 Team Plasma Grunt45 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -140220,7 +140220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Team Plasma Grunt46 ": {
+      "Lvl 39 Team Plasma Grunt47 ": {
         "level": 39,
         "ai": 129,
         "noCh": false,
@@ -140251,7 +140251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt52 ": {
+      "Lvl 46 Team Plasma Grunt53 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -140282,7 +140282,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt56 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -141850,7 +141850,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt48 ": {
+      "Lvl 41 Team Plasma Grunt49 ": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -141914,7 +141914,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt6 ": {
+      "Lvl 48 Team Plasma Grunt7 ": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -143480,7 +143480,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt10 ": {
+      "Lvl 47 Team Plasma Grunt11 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -143575,7 +143575,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Team Plasma Grunt2 ": {
+      "Lvl 28 Team Plasma Grunt3 ": {
         "level": 28,
         "ai": 135,
         "noCh": false,
@@ -143606,7 +143606,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt10 ": {
+      "Lvl 47 Team Plasma Grunt11 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -143637,7 +143637,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt20 ": {
+      "Lvl 46 Team Plasma Grunt21 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -143668,7 +143668,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt35 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -143730,7 +143730,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt43 ": {
+      "Lvl 44 Team Plasma Grunt44 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -143761,7 +143761,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt52 ": {
+      "Lvl 46 Team Plasma Grunt53 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -146257,37 +146257,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Boss Trainer Carlen ": {
-        "level": 59,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 188,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Wacan Berry",
-        "nature": "Hardy",
-        "moves": [
-          "Scald",
-          "Brave Bird",
-          "Ice Beam",
-          "Feather Dance"
-        ],
-        "sub_index": 1,
-        "ability": "Friend Guard",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 58 Socialite Marian ": {
         "level": 58,
         "ai": 15,
@@ -147005,7 +146974,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt41 - Virbank City": {
+      "Lvl 24 Team Plasma Grunt42 - Virbank City": {
         "level": 24,
         "ai": 15,
         "noCh": false,
@@ -147376,37 +147345,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Reckless",
         "sprite": "trainer_sprites/backersf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 59 Boss Trainer Carlen ": {
-        "level": 59,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 188,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Muscle Band",
-        "nature": "Careful",
-        "moves": [
-          "Head Charge",
-          "Megahorn",
-          "Wild Charge",
-          "Scary Face"
-        ],
-        "sub_index": 0,
-        "ability": "Reckless",
-        "sprite": "trainer_sprites/bosstrainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -148288,7 +148226,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt41 - Virbank City": {
+      "Lvl 24 Team Plasma Grunt42 - Virbank City": {
         "level": 24,
         "ai": 15,
         "noCh": false,
@@ -149730,7 +149668,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt11 ": {
+      "Lvl 47 Team Plasma Grunt12 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -153692,7 +153630,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt48 ": {
+      "Lvl 40 Team Plasma Grunt49 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -154359,7 +154297,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Team Plasma Grunt2 ": {
+      "Lvl 26 Team Plasma Grunt3 ": {
         "level": 26,
         "ai": 135,
         "noCh": false,
@@ -154390,7 +154328,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt10 ": {
+      "Lvl 48 Team Plasma Grunt11 ": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -155175,7 +155113,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt42 ": {
+      "Lvl 44 Team Plasma Grunt43 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -155206,7 +155144,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt47 ": {
+      "Lvl 47 Team Plasma Grunt48 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -155964,7 +155902,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt9 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -156090,7 +156028,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt19 ": {
+      "Lvl 46 Team Plasma Grunt20 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -156121,7 +156059,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt33 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -156311,7 +156249,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt20 ": {
+      "Lvl 46 Team Plasma Grunt21 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -156342,7 +156280,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt35 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -159868,7 +159806,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt1 - Nimbasa City": {
+      "Lvl 41 Team Plasma Grunt2 - Nimbasa City": {
         "level": 41,
         "ai": 7,
         "noCh": false,
@@ -159961,7 +159899,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt41 - Virbank City": {
+      "Lvl 25 Team Plasma Grunt42 - Virbank City": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -160975,7 +160913,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt49 ": {
+      "Lvl 25 Team Plasma Grunt50 ": {
         "level": 25,
         "ai": 143,
         "noCh": false,
@@ -161834,7 +161772,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt1 - Nimbasa City": {
+      "Lvl 40 Team Plasma Grunt2 - Nimbasa City": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -162738,7 +162676,7 @@ backup_data = {
           "Thunder Punch"
         ],
         "sub_index": 2,
-        "ability": "Pure Power",
+        "ability": "Huge Power",
         "sprite": "trainer_sprites/marshal.png",
         "form": 0,
         "evs": {
@@ -162769,7 +162707,7 @@ backup_data = {
           ""
         ],
         "sub_index": 2,
-        "ability": "Pure Power",
+        "ability": "Huge Power",
         "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
@@ -162800,7 +162738,7 @@ backup_data = {
           "Cosmic Power"
         ],
         "sub_index": 1,
-        "ability": "Pure Power",
+        "ability": "Huge Power",
         "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
@@ -162831,7 +162769,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Pure Power",
+        "ability": "Huge Power",
         "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
@@ -163152,7 +163090,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt18 ": {
+      "Lvl 47 Team Plasma Grunt19 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163183,7 +163121,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt32 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt33 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163431,7 +163369,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt55 ": {
+      "Lvl 47 Team Plasma Grunt56 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163462,7 +163400,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt58 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -163681,7 +163619,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt17 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt18 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163712,7 +163650,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt31 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt32 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163898,7 +163836,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt53 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt54 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -163929,7 +163867,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt57 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt58 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -165373,7 +165311,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt1 - Nimbasa City": {
+      "Lvl 40 Team Plasma Grunt2 - Nimbasa City": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -167693,7 +167631,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt11 ": {
+      "Lvl 47 Team Plasma Grunt12 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -168451,7 +168389,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt5 ": {
+      "Lvl 40 Team Plasma Grunt6 ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -168579,7 +168517,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt19 ": {
+      "Lvl 46 Team Plasma Grunt20 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -168610,7 +168548,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt33 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -168705,7 +168643,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt12 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt13 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -168736,7 +168674,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt27 ": {
+      "Lvl 46 Team Plasma Grunt28 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -168798,7 +168736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt58 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -172284,7 +172222,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt15 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt16 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -172315,7 +172253,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt29 ": {
+      "Lvl 46 Team Plasma Grunt30 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -172408,7 +172346,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt57 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt58 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -172439,7 +172377,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt60 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt61 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -172850,7 +172788,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt16 ": {
+      "Lvl 45 Team Plasma Grunt17 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -172881,7 +172819,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt31 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -172974,7 +172912,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt44 ": {
+      "Lvl 44 Team Plasma Grunt45 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -173005,7 +172943,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Team Plasma Grunt46 ": {
+      "Lvl 39 Team Plasma Grunt47 ": {
         "level": 39,
         "ai": 129,
         "noCh": false,
@@ -173067,7 +173005,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt51 ": {
+      "Lvl 46 Team Plasma Grunt52 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -173098,7 +173036,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt56 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -173129,7 +173067,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt60 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt61 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -173765,7 +173703,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt25 ": {
+      "Lvl 46 Team Plasma Grunt26 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173796,7 +173734,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt39 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt40 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173827,7 +173765,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt56 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -173955,7 +173893,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt3 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt4 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173986,7 +173924,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt26 ": {
+      "Lvl 46 Team Plasma Grunt27 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -174110,7 +174048,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt58 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -174141,7 +174079,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt60 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt61 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -174205,7 +174143,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt41 - Virbank City": {
+      "Lvl 24 Team Plasma Grunt42 - Virbank City": {
         "level": 24,
         "ai": 15,
         "noCh": false,
@@ -175055,6 +174993,229 @@ backup_data = {
         }
       }
     },
+    "Shuppet": {
+      "Lvl 24 Team Plasma Grunt1 - Route 20": {
+        "level": 24,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 188,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Mild",
+        "moves": [
+          "Retaliate",
+          "Hex",
+          "Thunder Wave",
+          "Seething Cold"
+        ],
+        "sub_index": 0,
+        "ability": "Prankster",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 11 School Kid Keston - Pinwheel Forest": {
+        "level": 11,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 633,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Jaboca Berry",
+        "nature": "Timid",
+        "moves": [
+          "Hex",
+          "Secret Power",
+          "Shadow Sneak",
+          "Recycle"
+        ],
+        "sub_index": 0,
+        "ability": "Prankster",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Psychic Tommy - Desert Resort": {
+        "level": 36,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 668,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "TM03",
+        "item": "Eviolite",
+        "nature": "Impish",
+        "moves": [
+          "Curse",
+          "Retaliate",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Zorua": {
+      "Lvl 24 Team Plasma Grunt1 - Route 20": {
+        "level": 24,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 188,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Lonely",
+        "moves": [
+          "Dark Pulse",
+          "Psychic",
+          "Flamethrower",
+          "Play Rough"
+        ],
+        "sub_index": 1,
+        "ability": "Illusion",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Xatu": {
+      "Lvl 24 Team Plasma Grunt1 - Route 20": {
+        "level": 24,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 188,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Covert Cloak",
+        "nature": "Relaxed",
+        "moves": [
+          "Drill Peck",
+          "Zen Headbutt",
+          "Hex",
+          "Thunder Wave"
+        ],
+        "sub_index": 2,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 35 Psychic Low - Relic Castle": {
+        "level": 35,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 512,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Mild",
+        "moves": [
+          "Esper Wing",
+          "Air Cutter",
+          "Ominous Wind",
+          "Mystical Fire"
+        ],
+        "sub_index": 0,
+        "ability": "Forewarn",
+        "sprite": "trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Psychic Tully - Relic Passage": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 569,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rock Gem",
+        "nature": "Hardy",
+        "moves": [
+          "Psychic Noise",
+          "Air Slash",
+          "Ancient Power",
+          "Light Screen"
+        ],
+        "sub_index": 0,
+        "ability": "Marvel Scale",
+        "sprite": "trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Zangoose": {
       "Lvl 62 Boss Trainer Daneil ": {
         "level": 62,
@@ -175087,7 +175248,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Team Plasma Grunt4 ": {
+      "Lvl 28 Team Plasma Grunt5 ": {
         "level": 28,
         "ai": 135,
         "noCh": false,
@@ -175211,7 +175372,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt9 ": {
+      "Lvl 48 Team Plasma Grunt10 ": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -175242,7 +175403,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt25 ": {
+      "Lvl 46 Team Plasma Grunt26 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -175273,7 +175434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt39 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt40 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -175647,7 +175808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt48 ": {
+      "Lvl 40 Team Plasma Grunt49 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -175680,7 +175841,7 @@ backup_data = {
       }
     },
     "Solrock": {
-      "Lvl 40 Team Plasma Grunt1 - Nimbasa City": {
+      "Lvl 40 Team Plasma Grunt2 - Nimbasa City": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -175775,7 +175936,7 @@ backup_data = {
       }
     },
     "Kingdra": {
-      "Lvl 40 Team Plasma Grunt1 - Nimbasa City": {
+      "Lvl 40 Team Plasma Grunt2 - Nimbasa City": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -176461,7 +176622,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt5 ": {
+      "Lvl 40 Team Plasma Grunt6 ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -179922,7 +180083,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -179953,7 +180114,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -179984,7 +180145,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -180015,7 +180176,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt36 1": {
+      "Lvl 45 Team Plasma Grunt37 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -180046,7 +180207,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt36 2": {
+      "Lvl 45 Team Plasma Grunt37 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -180077,7 +180238,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt36 ": {
+      "Lvl 45 Team Plasma Grunt37 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -182283,7 +182444,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt11 ": {
+      "Lvl 48 Team Plasma Grunt12 ": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -182314,7 +182475,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt14 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt15 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -182345,7 +182506,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt28 ": {
+      "Lvl 47 Team Plasma Grunt29 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -182376,7 +182537,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt43 ": {
+      "Lvl 44 Team Plasma Grunt44 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -182407,7 +182568,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt47 ": {
+      "Lvl 47 Team Plasma Grunt48 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -183351,7 +183512,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt6 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -183479,7 +183640,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt7 ": {
+      "Lvl 48 Team Plasma Grunt8 ": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -183541,7 +183702,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt49 ": {
+      "Lvl 25 Team Plasma Grunt50 ": {
         "level": 25,
         "ai": 143,
         "noCh": false,
@@ -184809,7 +184970,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt8 ": {
+      "Lvl 48 Team Plasma Grunt9 ": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -184902,7 +185063,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt45 ": {
+      "Lvl 24 Team Plasma Grunt46 ": {
         "level": 24,
         "ai": 15,
         "noCh": true,
@@ -187779,7 +187940,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt8 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -187841,7 +188002,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt45 ": {
+      "Lvl 24 Team Plasma Grunt46 ": {
         "level": 24,
         "ai": 15,
         "noCh": true,
@@ -189427,7 +189588,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt16 ": {
+      "Lvl 45 Team Plasma Grunt17 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -189458,7 +189619,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt31 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -190718,7 +190879,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt11 ": {
+      "Lvl 47 Team Plasma Grunt12 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -190970,7 +191131,7 @@ backup_data = {
       }
     },
     "Fraxure": {
-      "Lvl 27 Team Plasma Grunt4 ": {
+      "Lvl 27 Team Plasma Grunt5 ": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -191001,7 +191162,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt9 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -191315,7 +191476,7 @@ backup_data = {
       }
     },
     "Raticate": {
-      "Lvl 47 Team Plasma Grunt6 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -191346,7 +191507,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt15 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt16 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -191377,7 +191538,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt29 ": {
+      "Lvl 46 Team Plasma Grunt30 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -191439,7 +191600,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt59 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt60 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -191567,7 +191728,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt16 ": {
+      "Lvl 45 Team Plasma Grunt17 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -191598,7 +191759,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt31 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192176,7 +192337,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt24 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192207,7 +192368,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt23 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt24 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192238,7 +192399,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt38 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192269,7 +192430,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt38 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -194979,70 +195140,6 @@ backup_data = {
         }
       }
     },
-    "Xatu": {
-      "Lvl 35 Psychic Low - Relic Castle": {
-        "level": 35,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 512,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Mild",
-        "moves": [
-          "Esper Wing",
-          "Air Cutter",
-          "Ominous Wind",
-          "Mystical Fire"
-        ],
-        "sub_index": 0,
-        "ability": "Forewarn",
-        "sprite": "trainer_sprites/psychic.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 48 Psychic Tully - Relic Passage": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 569,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Rock Gem",
-        "nature": "Hardy",
-        "moves": [
-          "Psychic Noise",
-          "Air Slash",
-          "Ancient Power",
-          "Light Screen"
-        ],
-        "sub_index": 0,
-        "ability": "Marvel Scale",
-        "sprite": "trainer_sprites/psychic.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Meditite": {
       "Lvl 36 Psychic Low - Relic Castle": {
         "level": 36,
@@ -195068,7 +195165,7 @@ backup_data = {
           "Fire Punch"
         ],
         "sub_index": 1,
-        "ability": "Pure Power",
+        "ability": "Huge Power",
         "sprite": "trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -196288,70 +196385,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Slush Rush",
         "sprite": "trainer_sprites/gentleman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Shuppet": {
-      "Lvl 11 School Kid Keston - Pinwheel Forest": {
-        "level": 11,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 633,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Jaboca Berry",
-        "nature": "Timid",
-        "moves": [
-          "Hex",
-          "Secret Power",
-          "Shadow Sneak",
-          "Recycle"
-        ],
-        "sub_index": 0,
-        "ability": "Prankster",
-        "sprite": "trainer_sprites/schoolkid.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Psychic Tommy - Desert Resort": {
-        "level": 36,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 668,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "TM03",
-        "item": "Eviolite",
-        "nature": "Impish",
-        "moves": [
-          "Curse",
-          "Retaliate",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 3,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -197592,14 +197625,18 @@ backup_data = {
 
     "504": {
       "id": 504,
-      "next": 763,
+      "next": 188,
       "prev": 185
     },
-
+    "188": {
+      "id": 188,
+      "next": 763,
+      "prev": 504
+    },
      "763": {
       "id": 763,
       "next": 124,
-      "prev": 504
+      "prev": 188
     },
 
     "124": {
