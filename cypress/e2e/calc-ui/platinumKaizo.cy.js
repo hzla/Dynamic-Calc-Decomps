@@ -3,7 +3,7 @@ describe('Platinum Kaizo calc configuration', () => {
     cy.on('uncaught:exception', () => false)
     cy.clearLocalStorage()
     cy.viewport(1920, 1080)
-    cy.visit('./index.html?data=pk&view=calculator')
+    cy.visit('./?data=pk&view=calculator')
   })
 
   it('opens external move scoring when View AI is clicked', () => {
@@ -35,6 +35,17 @@ describe('Platinum Kaizo calc configuration', () => {
   it('corrects Vice Grip imports to Vise Grip', () => {
     cy.window().then((win) => {
       expect(win.eval('normalizeImportedMoveName("Vice Grip", { applyRomReplacements: true })')).to.eq('Vise Grip')
+    })
+  })
+
+  it('loads PKCalc recoil data', () => {
+    cy.window().should((win) => {
+      expect(win.eval('TITLE')).to.eq('Platinum Kaizo')
+      expect(win.eval('moves["Superpower"].recoil')).to.deep.eq([1, 2])
+      expect(win.eval('moves["Roar of Time"].recoil')).to.deep.eq([1, 3])
+      expect(win.eval('moves["Submission"].recoil')).to.eq(undefined)
+      expect(win.eval('MOVES_BY_ID[g].superpower.recoil')).to.deep.eq([1, 2])
+      expect(win.eval('MOVES_BY_ID[g].submission.recoil')).to.eq(undefined)
     })
   })
 })
