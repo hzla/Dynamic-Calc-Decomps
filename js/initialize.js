@@ -1890,20 +1890,61 @@ function loadPoksData() {
 
 }
 
-function scrubPlatinumKaizoRemovedRecoil(title, moveTable, moveTablesByGeneration) {
+var PLATINUM_KAIZO_RECOIL_BY_ID = {
+  blastburn: [1, 3],
+  bravebird: [1, 4],
+  closecombat: [1, 4],
+  doubleedge: [1, 3],
+  dracometeor: [1, 2],
+  eruption: [1, 3],
+  flareblitz: [1, 3],
+  frenzyplant: [1, 3],
+  gigaimpact: [1, 2],
+  headsmash: [1, 2],
+  hydrocannon: [1, 2],
+  hyperbeam: [1, 2],
+  outrage: [1, 2],
+  overheat: [1, 3],
+  roaroftime: [1, 3],
+  skyattack: [1, 3],
+  struggle: [1, 4],
+  superpower: [1, 2],
+  takedown: [1, 4],
+  thrash: [1, 3],
+  volttackle: [1, 3],
+  wildcharge: [1, 3],
+  woodhammer: [1, 3]
+}
+
+function normalizePlatinumKaizoRecoilMoveId(moveName) {
+  return String(moveName || "").toLowerCase().replace(/[^a-z0-9]+/g, "")
+}
+
+function syncPlatinumKaizoRecoilData(title, moveTable, moveTablesByGeneration) {
   if (title !== "Platinum Kaizo") return
 
-  // PKCalc explicitly removes the vanilla recoil inherited by Submission.
-  if (moveTable && moveTable.Submission) {
-    delete moveTable.Submission.recoil
+  function syncMoveTable(table) {
+    if (!table) return
+
+    for (var moveKey in table) {
+      var moveData = table[moveKey]
+      if (!moveData || typeof moveData !== "object") continue
+
+      var moveId = normalizePlatinumKaizoRecoilMoveId(moveData.name || moveKey)
+      var recoil = PLATINUM_KAIZO_RECOIL_BY_ID[moveId]
+      if (recoil) {
+        moveData.recoil = recoil.slice()
+      } else {
+        delete moveData.recoil
+      }
+    }
   }
+
+  syncMoveTable(moveTable)
 
   if (!Array.isArray(moveTablesByGeneration)) return
   for (var moveGen = 0; moveGen < moveTablesByGeneration.length; moveGen++) {
-    var generationMoves = moveTablesByGeneration[moveGen]
-    if (generationMoves && generationMoves.submission) {
-      delete generationMoves.submission.recoil
-    }
+    syncMoveTable(moveTablesByGeneration[moveGen])
   }
 }
 
@@ -2150,7 +2191,7 @@ function loadMovesData() {
 
     }
 
-    scrubPlatinumKaizoRemovedRecoil(TITLE, moves, MOVES_BY_ID)
+    syncPlatinumKaizoRecoilData(TITLE, moves, MOVES_BY_ID)
 }
 
 function loadDataSource(data) {
