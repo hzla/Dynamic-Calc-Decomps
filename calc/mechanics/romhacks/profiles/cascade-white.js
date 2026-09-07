@@ -138,8 +138,12 @@ var cascadeWhiteProfile = (0, helpers_1.makeProfile)({
                     state.skipDefaultMod = true;
                     return bpMods;
                 }
-                if (state.modifierId === "plateBoost" && attacker.item && attacker.item.includes("Plate")) {
-                    bpMods.push(5529);
+                if (state.modifierId === "plateBoost") {
+                    if (attacker.item && attacker.item.includes("Plate")) {
+                        bpMods.push(5529);
+                    }
+                    // Other type-boosting items use the engine's default modifier.
+                    // General ability modifiers belong only to the later, untagged call.
                     return bpMods;
                 }
                 if (state.modifierId === "helpingHand") {

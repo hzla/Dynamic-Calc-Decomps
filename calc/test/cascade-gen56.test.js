@@ -662,6 +662,57 @@ describe('Cascade gen56 damage modifiers', function () {
             expectModifier(ctx, 'Cascade', withAbility, baseAbility, 1.2);
         });
 
+        test('Mystic Water increases the reported Seaking Return damage against Clay Rhydon', function () {
+            function result(item, itemOn) {
+                return calcResult(ctx, 'Cascade White Dev', {
+                    attacker: function (c) {
+                        return P(c, 'Seaking', {
+                            level: 44, nature: 'Lax', ability: 'Moisturize', item: item, itemOn: itemOn,
+                            ivs: { hp: 28, atk: 14, def: 2, spa: 24, spd: 3, spe: 23 },
+                            overrides: { baseStats: { hp: 80, atk: 112, def: 65, spa: 65, spd: 80, spe: 93 } }
+                        });
+                    },
+                    defender: function (c) {
+                        return P(c, 'Rhydon', { level: 45, nature: 'Careful', ability: 'Solid Rock', item: 'Eviolite' });
+                    },
+                    move: function (c) { return M(c, 'Return', { basePower: 105 }); }
+                });
+            }
+            var noItem = result('');
+            var disabled = result('Mystic Water', false);
+            var enabled = result('Mystic Water', true);
+            expect(disabled.damage).toEqual(noItem.damage);
+            expect(noItem.move.type).toBe('Water');
+            expect(enabled.move.type).toBe('Water');
+            expectRatio(enabled, noItem, 1.2, 0.04);
+        });
+
+        [5, 6].forEach(function (damageGen) {
+            [
+                ['Moisturize', 'Solid Rock', 'Return'],
+                ['Moisturize', 'Swift Swim', 'Return'],
+                ['No Ability', 'Swift Swim', 'Surf'],
+                ['Torrent', 'No Ability', 'Surf'],
+                ['No Ability', 'No Ability', 'Surf']
+            ].forEach(function (abilities) {
+                test.each([['Mystic Water', 1.2], ['Sea Incense', 1.2], ['Splash Plate', 5529 / 4096]])(
+                    'gen ' + damageGen + ' %s stacks once with ' + abilities[0] + '/' + abilities[1] + ' using ' + abilities[2],
+                    function (item, multiplier) {
+                        function spec(heldItem) {
+                            return {
+                                attacker: function (c) { return P(c, 'Seaking', { ability: abilities[0], item: heldItem }); },
+                                defender: function (c) { return P(c, 'Rhydon', { ability: abilities[1] }); },
+                                move: function (c) { return M(c, abilities[2]); }
+                            };
+                        }
+                        expectModifier(ctx, 'Cascade White Dev', spec(item), spec(''), multiplier, {
+                            settings: { damageGen: damageGen }
+                        }, 0.04);
+                    }
+                );
+            });
+        });
+
         test('Hyper Cutter boosts slicing moves in Cascade', function () {
             var withAbility = {
                 attacker: function (c) { return P(c, 'Mew', { ability: 'Hyper Cutter' }); },
