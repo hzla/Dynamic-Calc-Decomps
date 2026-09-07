@@ -342,7 +342,7 @@ function nullParseMonChunkExact(chunk, isParty = false, slot = 0) {
 
     const personality = nullReadU32FromBytes(chunk, 0);
     const otId = nullReadU32FromBytes(chunk, 4);
-    if (!Number.isFinite(personality) || !Number.isFinite(otId) || personality === 0) {
+    if (!Number.isFinite(personality) || !Number.isFinite(otId)) {
         return null;
     }
 
@@ -496,7 +496,7 @@ function parseNullCandidate(saveFile, candidateStart, encryptedStartOffset, scan
     const tid = (otId === null) ? null : (otId & 0xFFFF);
     const sid = (otId === null) ? null : ((otId >>> 16) & 0xFFFF);
 
-    if (personality === null || otId === null || personality === 0) {
+    if (personality === null || otId === null) {
         return reject("invalid_personality_or_otid", "Unknown", tid, sid);
     }
 
