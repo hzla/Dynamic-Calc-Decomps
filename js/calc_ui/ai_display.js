@@ -88,10 +88,31 @@ function getAiHeaderLinkHtml() {
 
 const PLATINUM_KAIZO_MOVE_AI_BASE_URL = "https://bparkpk.github.io/PKMoveScoring/"
 
+// Exact PKMoveScoring filenames where calculator spelling or casing differs.
+const PLATINUM_KAIZO_MOVE_AI_PAGE_NAMES = {
+    "Feint Attack": "FaintAttack",
+    "High Jump Kick": "HiJumpKick",
+    "Judgment": "Judgement",
+    "Self-Destruct": "Selfdestruct",
+    "Smelling Salts": "SmellingSalt",
+    "Smokescreen": "SmokeScreen",
+    "Soft-Boiled": "Softboiled",
+    // The charging move and PK's separate Solar-Beam move have different AI.
+    "Solar Beam": "SolarBeam2",
+    "SolarBeam": "SolarBeam2",
+    "Solar-Beam": "SolarBeam",
+    "U-turn": "U-turn",
+    "Vise Grip": "ViceGrip"
+}
+
 function formatPlatinumKaizoMoveAiPageName(moveName) {
     let normalizedMoveName = String(moveName || "").trim()
     if (typeof normalizedMoveName.normalize === "function") {
         normalizedMoveName = normalizedMoveName.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    }
+
+    if (Object.prototype.hasOwnProperty.call(PLATINUM_KAIZO_MOVE_AI_PAGE_NAMES, normalizedMoveName)) {
+        return PLATINUM_KAIZO_MOVE_AI_PAGE_NAMES[normalizedMoveName]
     }
 
     return normalizedMoveName
