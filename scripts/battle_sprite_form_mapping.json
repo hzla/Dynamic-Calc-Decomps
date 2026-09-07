@@ -1,0 +1,2565 @@
+{
+  "references": [
+    "https://github.com/Maruno17/pokemon-essentials/blob/master/PBS/pokemon_forms.txt",
+    "https://www.pokemon.com/us/pokedex/magearna"
+  ],
+  "description": "Explicit filename/form mappings verified against the supplied essentials_gifs artwork. Sources are GIF basenames relative to Front or Back. Ordinary species and _female files are resolved by the migration utility.",
+  "mappings": {
+    "abomasnow-mega": {
+      "source": "ABOMASNOW_1.gif",
+      "note": "Essentials PBS: Mega Abomasnow"
+    },
+    "absol-mega": {
+      "source": "ABSOL_1.gif",
+      "note": "Essentials PBS: Mega Absol"
+    },
+    "aegislash-blade": {
+      "source": "AEGISLASH_1.gif",
+      "note": "Essentials PBS: Blade Forme"
+    },
+    "aerodactyl-mega": {
+      "source": "AERODACTYL_1.gif",
+      "note": "Essentials PBS: Mega Aerodactyl"
+    },
+    "aggron-mega": {
+      "source": "AGGRON_1.gif",
+      "note": "Essentials PBS: Mega Aggron"
+    },
+    "alakazam-mega": {
+      "source": "ALAKAZAM_1.gif",
+      "note": "Essentials PBS: Mega Alakazam"
+    },
+    "alcremie-caramelswirl": {
+      "source": "ALCREMIE_49.gif",
+      "note": "Essentials PBS: Caramel Swirl"
+    },
+    "alcremie-gmax": {
+      "source": "ALCREMIE_63.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "alcremie-lemoncream": {
+      "source": "ALCREMIE_28.gif",
+      "note": "Essentials PBS: Lemon Cream"
+    },
+    "alcremie-matchacream": {
+      "source": "ALCREMIE_14.gif",
+      "note": "Essentials PBS: Matcha Cream"
+    },
+    "alcremie-mintcream": {
+      "source": "ALCREMIE_21.gif",
+      "note": "Essentials PBS: Mint Cream"
+    },
+    "alcremie-rainbowswirl": {
+      "source": "ALCREMIE_56.gif",
+      "note": "Essentials PBS: Rainbow Swirl"
+    },
+    "alcremie-rubycream": {
+      "source": "ALCREMIE_7.gif",
+      "note": "Essentials PBS: Ruby Cream"
+    },
+    "alcremie-rubyswirl": {
+      "source": "ALCREMIE_42.gif",
+      "note": "Essentials PBS: Ruby Swirl"
+    },
+    "alcremie-saltedcream": {
+      "source": "ALCREMIE_35.gif",
+      "note": "Essentials PBS: Salted Cream"
+    },
+    "altaria-mega": {
+      "source": "ALTARIA_1.gif",
+      "note": "Essentials PBS: Mega Altaria"
+    },
+    "ampharos-mega": {
+      "source": "AMPHAROS_1.gif",
+      "note": "Essentials PBS: Mega Ampharos"
+    },
+    "appletun-gmax": {
+      "source": "APPLETUN_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "appletun-mega": {
+      "source": "APPLETUN_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "arcanine-hisui": {
+      "source": "ARCANINE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "arceus-bug": {
+      "source": "ARCEUS_6.gif",
+      "note": "Essentials PBS: Bug Type"
+    },
+    "arceus-dark": {
+      "source": "ARCEUS_17.gif",
+      "note": "Essentials PBS: Dark Type"
+    },
+    "arceus-dragon": {
+      "source": "ARCEUS_16.gif",
+      "note": "Essentials PBS: Dragon Type"
+    },
+    "arceus-electric": {
+      "source": "ARCEUS_13.gif",
+      "note": "Essentials PBS: Electric Type"
+    },
+    "arceus-fairy": {
+      "source": "ARCEUS_18.gif",
+      "note": "Essentials PBS: Fairy Type"
+    },
+    "arceus-fighting": {
+      "source": "ARCEUS_1.gif",
+      "note": "Essentials PBS: Fighting Type"
+    },
+    "arceus-fire": {
+      "source": "ARCEUS_10.gif",
+      "note": "Essentials PBS: Fire Type"
+    },
+    "arceus-flying": {
+      "source": "ARCEUS_2.gif",
+      "note": "Essentials PBS: Flying Type"
+    },
+    "arceus-ghost": {
+      "source": "ARCEUS_7.gif",
+      "note": "Essentials PBS: Ghost Type"
+    },
+    "arceus-grass": {
+      "source": "ARCEUS_12.gif",
+      "note": "Essentials PBS: Grass Type"
+    },
+    "arceus-ground": {
+      "source": "ARCEUS_4.gif",
+      "note": "Essentials PBS: Ground Type"
+    },
+    "arceus-ice": {
+      "source": "ARCEUS_15.gif",
+      "note": "Essentials PBS: Ice Type"
+    },
+    "arceus-normal": {
+      "source": "ARCEUS.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "arceus-poison": {
+      "source": "ARCEUS_3.gif",
+      "note": "Essentials PBS: Poison Type"
+    },
+    "arceus-psychic": {
+      "source": "ARCEUS_14.gif",
+      "note": "Essentials PBS: Psychic Type"
+    },
+    "arceus-rock": {
+      "source": "ARCEUS_5.gif",
+      "note": "Essentials PBS: Rock Type"
+    },
+    "arceus-steel": {
+      "source": "ARCEUS_8.gif",
+      "note": "Essentials PBS: Steel Type"
+    },
+    "arceus-water": {
+      "source": "ARCEUS_11.gif",
+      "note": "Essentials PBS: Water Type"
+    },
+    "articuno-galar": {
+      "source": "ARTICUNO_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "audino-mega": {
+      "source": "AUDINO_1.gif",
+      "note": "Essentials PBS: Mega Audino"
+    },
+    "avalugg-hisui": {
+      "source": "AVALUGG_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "banette-mega": {
+      "source": "BANETTE_1.gif",
+      "note": "Essentials PBS: Mega Banette"
+    },
+    "barbaracle-mega": {
+      "source": "BARBARACLE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "basculegion-f": {
+      "source": "BASCULEGION_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "basculin-bluestriped": {
+      "source": "BASCULIN_1.gif",
+      "note": "Essentials PBS: Blue-Striped"
+    },
+    "basculin-whitestriped": {
+      "source": "BASCULIN_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "beedrill-mega": {
+      "source": "BEEDRILL_1.gif",
+      "note": "Essentials PBS: Mega Beedrill"
+    },
+    "blastoise-gmax": {
+      "source": "BLASTOISE_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "blastoise-mega": {
+      "source": "BLASTOISE_1.gif",
+      "note": "Essentials PBS: Mega Blastoise"
+    },
+    "blaziken-mega": {
+      "source": "BLAZIKEN_1.gif",
+      "note": "Essentials PBS: Mega Blaziken"
+    },
+    "blitzle-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "braviary-hisui": {
+      "source": "BRAVIARY_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "burmy-plant": {
+      "source": "BURMY.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "burmy-sandy": {
+      "source": "BURMY_1.gif",
+      "note": "Essentials PBS: Sandy Cloak"
+    },
+    "burmy-trash": {
+      "source": "BURMY_2.gif",
+      "note": "Essentials PBS: Trash Cloak"
+    },
+    "butterfree-gmax": {
+      "source": "BUTTERFREE_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "butterfree-mega": {
+      "source": "BUTTERFREE_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "calyrex-ice": {
+      "source": "CALYREX_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "calyrex-shadow": {
+      "source": "CALYREX_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "camerupt-mega": {
+      "source": "CAMERUPT_1.gif",
+      "note": "Essentials PBS: Mega Camerupt"
+    },
+    "carnivine-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "castform-rainy": {
+      "source": "CASTFORM_2.gif",
+      "note": "Essentials PBS: Rainy Form"
+    },
+    "castform-snowy": {
+      "source": "CASTFORM_3.gif",
+      "note": "Essentials PBS: Snowy Form"
+    },
+    "castform-sunny": {
+      "source": "CASTFORM_1.gif",
+      "note": "Essentials PBS: Sunny Form"
+    },
+    "centiskorch-gmax": {
+      "source": "CENTISKORCH_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "centiskorch-mega": {
+      "source": "CENTISKORCH_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "centiskorch-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "centiskorch-sevii-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "chandelure-mega": {
+      "source": "CHANDELURE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "charizard-gmax": {
+      "source": "CHARIZARD_3.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "charizard-mega-x": {
+      "source": "CHARIZARD_1.gif",
+      "note": "Essentials PBS: Mega Charizard X"
+    },
+    "charizard-mega-y": {
+      "source": "CHARIZARD_2.gif",
+      "note": "Essentials PBS: Mega Charizard Y"
+    },
+    "cherrim-overcast": {
+      "source": "CHERRIM.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "cherrim-sunshine": {
+      "source": "CHERRIM_1.gif",
+      "note": "Essentials PBS: Sunshine Form"
+    },
+    "chesnaught-mega": {
+      "source": "CHESNAUGHT_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "cinderace-gmax": {
+      "source": "CINDERACE_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "clauncher-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "clawitzer-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "clefable-mega": {
+      "source": "CLEFABLE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "coalossal-gmax": {
+      "source": "COALOSSAL_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "coalossal-mega": {
+      "source": "COALOSSAL_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "copperajah-gmax": {
+      "source": "COPPERAJAH_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "copperajah-mega": {
+      "source": "COPPERAJAH_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "corsola-galar": {
+      "source": "CORSOLA_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "corviknight-gmax": {
+      "source": "CORVIKNIGHT_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "cramorant-gorging": {
+      "source": "CRAMORANT_2.gif",
+      "note": "Essentials PBS: Gorging Form"
+    },
+    "cramorant-gulping": {
+      "source": "CRAMORANT_1.gif",
+      "note": "Essentials PBS: Gulping Form"
+    },
+    "darmanitan-galar": {
+      "source": "DARMANITAN_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "darmanitan-galar-zen": {
+      "source": "DARMANITAN_3.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "darmanitan-standard": {
+      "source": "DARMANITAN.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "darmanitan-zen": {
+      "source": "DARMANITAN_1.gif",
+      "note": "Essentials PBS: Zen Mode"
+    },
+    "darumaka-galar": {
+      "source": "DARUMAKA_2.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "decidueye-hisui": {
+      "source": "DECIDUEYE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "deerling-autumn": {
+      "source": "DEERLING_2.gif",
+      "note": "Essentials PBS: Autumn Form"
+    },
+    "deerling-spring": {
+      "source": "DEERLING.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deerling-summer": {
+      "source": "DEERLING_1.gif",
+      "note": "Essentials PBS: Summer Form"
+    },
+    "deerling-winter": {
+      "source": "DEERLING_3.gif",
+      "note": "Essentials PBS: Winter Form"
+    },
+    "delphox-mega": {
+      "source": "DELPHOX_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "deoxys-a": {
+      "source": "DEOXYS_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deoxys-attack": {
+      "source": "DEOXYS_1.gif",
+      "note": "Essentials PBS: Attack Forme"
+    },
+    "deoxys-d": {
+      "source": "DEOXYS_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deoxys-defense": {
+      "source": "DEOXYS_2.gif",
+      "note": "Essentials PBS: Defense Forme"
+    },
+    "deoxys-normal": {
+      "source": "DEOXYS.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deoxys-rs": {
+      "source": "DEOXYS.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deoxys-s": {
+      "source": "DEOXYS_3.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "deoxys-speed": {
+      "source": "DEOXYS_3.gif",
+      "note": "Essentials PBS: Speed Forme"
+    },
+    "dhelmise-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "dialga-origin": {
+      "source": "DIALGA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "dialga-primal": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "diancie-mega": {
+      "source": "DIANCIE_1.gif",
+      "note": "Essentials PBS: Mega Diancie"
+    },
+    "diglett-alola": {
+      "source": "DIGLETT_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "dodrio-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "doduo-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "dragalage": {
+      "source": "DRAGALGE.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "dragalge-mega": {
+      "source": "DRAGALGE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "dragonite-mega": {
+      "source": "DRAGONITE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "drampa-mega": {
+      "source": "DRAMPA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "drednaw-gmax": {
+      "source": "DREDNAW_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "drednaw-mega": {
+      "source": "DREDNAW_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "dudunsparce-threesegment": {
+      "source": "DUDUNSPARCE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "dugtrio-alola": {
+      "source": "DUGTRIO_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "duraludon-gmax": {
+      "source": "DURALUDON_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "dusknoir-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "eelektross-mega": {
+      "source": "EELEKTROSS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "eevee-gmax": {
+      "source": "EEVEE_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "eevee-starter": {
+      "source": "EEVEE.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "eevee-starter-f": {
+      "skip": "no_form_counterpart",
+      "note": "No dedicated female counterpart in this pack; preserve the existing gender detail"
+    },
+    "electrode-hisui": {
+      "source": "ELECTRODE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "emboar-mega": {
+      "source": "EMBOAR_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "empoleon-mega-d": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "empoleon-mega-o": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "enamorus-therian": {
+      "source": "ENAMORUS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "eternatus-eternamax": {
+      "source": "ETERNATUS_1.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "excadrill-mega": {
+      "source": "EXCADRILL_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "exeggutor-alola": {
+      "source": "EXEGGUTOR_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "exeggutor-alolan": {
+      "source": "EXEGGUTOR_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "falinks-mega": {
+      "source": "FALINKS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "farfetch'd-galar": {
+      "source": "FARFETCHD_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "farfetchd-galar": {
+      "source": "FARFETCHD_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "feebas-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "feraligatr-mega": {
+      "source": "FERALIGATR_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "flabebe-blue": {
+      "source": "FLABEBE_3.gif",
+      "note": "Essentials PBS: Blue Flower"
+    },
+    "flabebe-orange": {
+      "source": "FLABEBE_2.gif",
+      "note": "Essentials PBS: Orange Flower"
+    },
+    "flabebe-white": {
+      "source": "FLABEBE_4.gif",
+      "note": "Essentials PBS: White Flower"
+    },
+    "flabebe-yellow": {
+      "source": "FLABEBE_1.gif",
+      "note": "Essentials PBS: Yellow Flower"
+    },
+    "flapple-mega": {
+      "source": "FLAPPLE_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "floette-blue": {
+      "source": "FLOETTE_3.gif",
+      "note": "Essentials PBS: Blue Flower"
+    },
+    "floette-eternal": {
+      "source": "FLOETTE_5.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "floette-eternal-mega": {
+      "source": "FLOETTE_6.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "floette-eternalflower": {
+      "source": "FLOETTE_5.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "floette-orange": {
+      "source": "FLOETTE_2.gif",
+      "note": "Essentials PBS: Orange Flower"
+    },
+    "floette-white": {
+      "source": "FLOETTE_4.gif",
+      "note": "Essentials PBS: White Flower"
+    },
+    "floette-yellow": {
+      "source": "FLOETTE_1.gif",
+      "note": "Essentials PBS: Yellow Flower"
+    },
+    "florges-blue": {
+      "source": "FLORGES_3.gif",
+      "note": "Essentials PBS: Blue Flower"
+    },
+    "florges-orange": {
+      "source": "FLORGES_2.gif",
+      "note": "Essentials PBS: Orange Flower"
+    },
+    "florges-white": {
+      "source": "FLORGES_4.gif",
+      "note": "Essentials PBS: White Flower"
+    },
+    "florges-yellow": {
+      "source": "FLORGES_1.gif",
+      "note": "Essentials PBS: Yellow Flower"
+    },
+    "froslass-mega": {
+      "source": "FROSLASS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "gallade-mega": {
+      "source": "GALLADE_1.gif",
+      "note": "Essentials PBS: Mega Gallade"
+    },
+    "garbodor-gmax": {
+      "source": "GARBODOR_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "garbodor-mega": {
+      "source": "GARBODOR_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "garchomp-mega": {
+      "source": "GARCHOMP_1.gif",
+      "note": "Essentials PBS: Mega Garchomp"
+    },
+    "gardevoir-mega": {
+      "source": "GARDEVOIR_1.gif",
+      "note": "Essentials PBS: Mega Gardevoir"
+    },
+    "gastrodon-east": {
+      "source": "GASTRODON_1.gif",
+      "note": "Essentials PBS: East Sea"
+    },
+    "gastrodon-west": {
+      "source": "GASTRODON.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "genesect-burn": {
+      "source": "GENESECT_2.gif",
+      "note": "Essentials PBS: Burn Drive"
+    },
+    "genesect-chill": {
+      "source": "GENESECT_3.gif",
+      "note": "Essentials PBS: Chill Drive"
+    },
+    "genesect-douse": {
+      "source": "GENESECT_4.gif",
+      "note": "Essentials PBS: Douse Drive"
+    },
+    "genesect-shock": {
+      "source": "GENESECT_1.gif",
+      "note": "Essentials PBS: Shock Drive"
+    },
+    "gengar-gmax": {
+      "source": "GENGAR_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "gengar-mega": {
+      "source": "GENGAR_1.gif",
+      "note": "Essentials PBS: Mega Gengar"
+    },
+    "geodude-alola": {
+      "source": "GEODUDE_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "gimmighoul-roaming": {
+      "source": "GIMMIGHOUL_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "giratina-origin": {
+      "source": "GIRATINA_1.gif",
+      "note": "Essentials PBS: Origin Forme"
+    },
+    "glalie-mega": {
+      "source": "GLALIE_1.gif",
+      "note": "Essentials PBS: Mega Glalie"
+    },
+    "golem-alola": {
+      "source": "GOLEM_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "goodra-hisui": {
+      "source": "GOODRA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "gourgeist": {
+      "source": "GOURGEIST.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "gourgeist-large": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "gourgeist-small": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "gourgeist-super": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "graveler-alola": {
+      "source": "GRAVELER_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "greninja-ash": {
+      "source": "GRENINJA_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "greninja-mega": {
+      "source": "GRENINJA_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "grimer-alola": {
+      "source": "GRIMER_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "grimer-alolan": {
+      "source": "GRIMER_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "grimmsnarl-gmax": {
+      "source": "GRIMMSNARL_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "grimmsnarl-mega": {
+      "source": "GRIMMSNARL_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "groudon-primal": {
+      "source": "GROUDON_1.gif",
+      "note": "Essentials PBS: Primal Groudon"
+    },
+    "growlithe-hisui": {
+      "source": "GROWLITHE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "gyarados-mega": {
+      "source": "GYARADOS_1.gif",
+      "note": "Essentials PBS: Mega Gyarados"
+    },
+    "gyrados-mega": {
+      "source": "GYARADOS_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "hatterene-gmax": {
+      "source": "HATTERENE_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "hawlucha-mega": {
+      "source": "HAWLUCHA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "heracross-mega": {
+      "source": "HERACROSS_1.gif",
+      "note": "Essentials PBS: Mega Heracross"
+    },
+    "hoopa-mega": {
+      "source": "HOOPA_1.gif",
+      "note": "Calculator Mega alias depicts Hoopa Unbound; visually verified"
+    },
+    "hoopa-unbound": {
+      "source": "HOOPA_1.gif",
+      "note": "Essentials PBS: Hoopa Unbound"
+    },
+    "houndoom-mega": {
+      "source": "HOUNDOOM_1.gif",
+      "note": "Essentials PBS: Mega Houndoom"
+    },
+    "indeedee-f": {
+      "source": "INDEEDEE_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "infernape-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "inteleon-gmax": {
+      "source": "INTELEON_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "kangaskhan-mega": {
+      "source": "KANGASKHAN_1.gif",
+      "note": "Essentials PBS: Mega Kangaskhan"
+    },
+    "keldeo-resolute": {
+      "source": "KELDEO_1.gif",
+      "note": "Essentials PBS: Resolute Form"
+    },
+    "kingler-gmax": {
+      "source": "KINGLER_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "kingler-mega": {
+      "source": "KINGLER_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "kyogre-primal": {
+      "source": "KYOGRE_1.gif",
+      "note": "Essentials PBS: Primal Kyogre"
+    },
+    "kyurem-black": {
+      "source": "KYUREM_2.gif",
+      "note": "Essentials PBS: Black Kyurem"
+    },
+    "kyurem-white": {
+      "source": "KYUREM_1.gif",
+      "note": "Essentials PBS: White Kyurem"
+    },
+    "landorus-therian": {
+      "source": "LANDORUS_1.gif",
+      "note": "Essentials PBS: Therian Forme"
+    },
+    "lapras-gmax": {
+      "source": "LAPRAS_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "lapras-mega": {
+      "source": "LAPRAS_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "latias-mega": {
+      "source": "LATIAS_1.gif",
+      "note": "Essentials PBS: Mega Latias"
+    },
+    "latios-mega": {
+      "source": "LATIOS_1.gif",
+      "note": "Essentials PBS: Mega Latios"
+    },
+    "lilligant-hisui": {
+      "source": "LILLIGANT_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "linoone-galar": {
+      "source": "LINOONE_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "lokix-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "lopunny-mega": {
+      "source": "LOPUNNY_1.gif",
+      "note": "Essentials PBS: Mega Lopunny"
+    },
+    "lucario-mega": {
+      "source": "LUCARIO_1.gif",
+      "note": "Essentials PBS: Mega Lucario"
+    },
+    "luxray-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "lycanroc-dusk": {
+      "source": "LYCANROC_2.gif",
+      "note": "Essentials PBS: Dusk Form"
+    },
+    "lycanroc-midday": {
+      "source": "LYCANROC.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "lycanroc-midnight": {
+      "source": "LYCANROC_1.gif",
+      "note": "Essentials PBS: Midnight Form"
+    },
+    "machamp-gmax": {
+      "source": "MACHAMP_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "machamp-mega": {
+      "source": "MACHAMP_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "magearna-original": {
+      "source": "MAGEARNA_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "magearna-pokeball": {
+      "source": "MAGEARNA_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "malamar-mega": {
+      "source": "MALAMAR_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "manectric-mega": {
+      "source": "MANECTRIC_1.gif",
+      "note": "Essentials PBS: Mega Manectric"
+    },
+    "manetric-mega": {
+      "source": "MANECTRIC_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "mantine-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "mantyke-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "marenie": {
+      "source": "MAREANIE.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "marowak-alola": {
+      "source": "MAROWAK_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "maushold": {
+      "source": "MAUSHOLD_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "maushold-four": {
+      "source": "MAUSHOLD.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "maushold-four (2)": {
+      "source": "MAUSHOLD.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "mawile-mega": {
+      "source": "MAWILE_1.gif",
+      "note": "Essentials PBS: Mega Mawile"
+    },
+    "medicham-mega": {
+      "source": "MEDICHAM_1.gif",
+      "note": "Essentials PBS: Mega Medicham"
+    },
+    "meganium-mega": {
+      "source": "MEGANIUM_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "melmetal-gmax": {
+      "source": "MELMETAL_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "meloetta-pirouette": {
+      "source": "MELOETTA_1.gif",
+      "note": "Essentials PBS: Pirouette Forme"
+    },
+    "meowstic-f": {
+      "source": "MEOWSTIC_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "meowstic-mega": {
+      "source": "MEOWSTIC_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "meowth-alola": {
+      "source": "MEOWTH_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "meowth-galar": {
+      "source": "MEOWTH_2.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "meowth-gmax": {
+      "source": "MEOWTH_3.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "metagross-mega": {
+      "source": "METAGROSS_1.gif",
+      "note": "Essentials PBS: Mega Metagross"
+    },
+    "mewtwo-mega-x": {
+      "source": "MEWTWO_1.gif",
+      "note": "Essentials PBS: Mega Mewtwo X"
+    },
+    "mewtwo-mega-y": {
+      "source": "MEWTWO_2.gif",
+      "note": "Essentials PBS: Mega Mewtwo Y"
+    },
+    "mewtwo-megax": {
+      "source": "MEWTWO_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "mewtwo-megay": {
+      "source": "MEWTWO_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "milotic-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "mimikyu-busted": {
+      "source": "MIMIKYU_1.gif",
+      "note": "Essentials PBS: Busted Form"
+    },
+    "minior": {
+      "source": "MINIOR_7.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "minior-blue": {
+      "source": "MINIOR_11.gif",
+      "note": "Essentials PBS: Blue Core"
+    },
+    "minior-green": {
+      "source": "MINIOR_10.gif",
+      "note": "Essentials PBS: Green Core"
+    },
+    "minior-indigo": {
+      "source": "MINIOR_12.gif",
+      "note": "Essentials PBS: Indigo Core"
+    },
+    "minior-meteor": {
+      "source": "MINIOR.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "minior-orange": {
+      "source": "MINIOR_8.gif",
+      "note": "Essentials PBS: Orange Core"
+    },
+    "minior-red": {
+      "source": "MINIOR_7.gif",
+      "note": "Essentials PBS: Red Core"
+    },
+    "minior-violet": {
+      "source": "MINIOR_13.gif",
+      "note": "Essentials PBS: Violet Core"
+    },
+    "minior-yellow": {
+      "source": "MINIOR_9.gif",
+      "note": "Essentials PBS: Yellow Core"
+    },
+    "moltres-galar": {
+      "source": "MOLTRES_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "morpeko-hangry": {
+      "source": "MORPEKO_1.gif",
+      "note": "Essentials PBS: Hangry Mode"
+    },
+    "mrmime-galar": {
+      "source": "MRMIME_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "muk-alola": {
+      "source": "MUK_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "necrozma-dawnwings": {
+      "source": "NECROZMA_2.gif",
+      "note": "Essentials PBS: Dawn Wings"
+    },
+    "necrozma-duskmane": {
+      "source": "NECROZMA_1.gif",
+      "note": "Essentials PBS: Dusk Mane"
+    },
+    "ninetales-alola": {
+      "source": "NINETALES_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "nymble-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "ogerpon-cornerstone": {
+      "source": "OGERPON_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-cornerstonetera": {
+      "source": "OGERPON_11.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-hearthflame": {
+      "source": "OGERPON_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-hearthflametera": {
+      "source": "OGERPON_10.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-tealtera": {
+      "source": "OGERPON_8.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-wellspring": {
+      "source": "OGERPON_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ogerpon-wellspringtera": {
+      "source": "OGERPON_9.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "oinkologne-f": {
+      "source": "OINKOLOGNE_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "orbeetle-gmax": {
+      "source": "ORBEETLE_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "orbeetle-mega": {
+      "source": "ORBEETLE_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "oricorio-pa'u": {
+      "source": "ORICORIO_2.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "oricorio-pom-pom": {
+      "source": "ORICORIO_1.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "oricorio-sensu": {
+      "source": "ORICORIO_3.gif",
+      "note": "Essentials PBS: Sensu Style"
+    },
+    "palafin-hero": {
+      "source": "PALAFIN_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "palkia-origin": {
+      "source": "PALKIA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "palkia-primal": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "persian-alola": {
+      "source": "PERSIAN_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "pichu-spikyeared": {
+      "source": "PICHU_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "pidgeot-mega": {
+      "source": "PIDGEOT_1.gif",
+      "note": "Essentials PBS: Mega Pidgeot"
+    },
+    "pikachu-alola": {
+      "source": "PIKACHU_13.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-belle": {
+      "source": "PIKACHU_4.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-cosplay": {
+      "source": "PIKACHU_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-gmax": {
+      "source": "PIKACHU_17.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "pikachu-hoenn": {
+      "source": "PIKACHU_9.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-kalos": {
+      "source": "PIKACHU_12.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-libre": {
+      "source": "PIKACHU_7.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-original": {
+      "source": "PIKACHU_8.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-partner": {
+      "source": "PIKACHU_14.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-phd": {
+      "source": "PIKACHU_6.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-pop-star": {
+      "source": "PIKACHU_5.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-rock-star": {
+      "source": "PIKACHU_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-sinnoh": {
+      "source": "PIKACHU_10.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-starter": {
+      "source": "PIKACHU.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "pikachu-starter-f": {
+      "source": "PIKACHU_female.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "pikachu-unova": {
+      "source": "PIKACHU_11.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pikachu-world": {
+      "source": "PIKACHU_15.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "pinsir-mega": {
+      "source": "PINSIR_1.gif",
+      "note": "Essentials PBS: Mega Pinsir"
+    },
+    "poltchageist-artisan": {
+      "source": "POLTCHAGEIST.gif",
+      "note": "Same visible form in supplied pack; authenticity mark is not visible in these battle sprites"
+    },
+    "polteageist-antique": {
+      "source": "POLTEAGEIST.gif",
+      "note": "Authenticity mark is not visible in supplied battle artwork; uses the shared species sprite"
+    },
+    "polteageist-chipped": {
+      "source": "POLTEAGEIST.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "ponyta-galar": {
+      "source": "PONYTA_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "pumpkaboo": {
+      "source": "PUMPKABOO.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "pumpkaboo-large": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "pumpkaboo-small": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "pumpkaboo-super": {
+      "skip": "no_form_counterpart",
+      "note": "Pack supplies only the default size artwork; preserve the existing distinct size variant"
+    },
+    "pyroar-mega": {
+      "source": "PYROAR_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "qwilfish-hisui": {
+      "source": "QWILFISH_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "raichu-alola": {
+      "source": "RAICHU_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "raichu-mega-x": {
+      "source": "RAICHU_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "raichu-mega-y": {
+      "source": "RAICHU_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "rapidash-galar": {
+      "source": "RAPIDASH_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "raticate-alola": {
+      "source": "RATICATE_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "rattata-alola": {
+      "source": "RATTATA_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "rattata-alolan": {
+      "source": "RATTATA_1.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "rayquaza-mega": {
+      "source": "RAYQUAZA_1.gif",
+      "note": "Essentials PBS: Mega Rayquaza"
+    },
+    "regidragon": {
+      "source": "REGIDRAGO.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "rillaboom-gmax": {
+      "source": "RILLABOOM_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "roserade-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "rotom-fan": {
+      "source": "ROTOM_4.gif",
+      "note": "Essentials PBS: Fan Rotom"
+    },
+    "rotom-frost": {
+      "source": "ROTOM_3.gif",
+      "note": "Essentials PBS: Frost Rotom"
+    },
+    "rotom-heat": {
+      "source": "ROTOM_1.gif",
+      "note": "Essentials PBS: Heat Rotom"
+    },
+    "rotom-mow": {
+      "source": "ROTOM_5.gif",
+      "note": "Essentials PBS: Mow Rotom"
+    },
+    "rotom-wash": {
+      "source": "ROTOM_2.gif",
+      "note": "Essentials PBS: Wash Rotom"
+    },
+    "sableye-mega": {
+      "source": "SABLEYE_1.gif",
+      "note": "Essentials PBS: Mega Sableye"
+    },
+    "salamence-mega": {
+      "source": "SALAMENCE_1.gif",
+      "note": "Essentials PBS: Mega Salamence"
+    },
+    "samurott-hisui": {
+      "source": "SAMUROTT_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "sandaconda-gmax": {
+      "source": "SANDACONDA_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "sandaconda-mega": {
+      "source": "SANDACONDA_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "sandshrew-alola": {
+      "source": "SANDSHREW_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "sandslash-alola": {
+      "source": "SANDSLASH_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "sawsbuck-autumn": {
+      "source": "SAWSBUCK_2.gif",
+      "note": "Essentials PBS: Autumn Form"
+    },
+    "sawsbuck-spring": {
+      "source": "SAWSBUCK.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "sawsbuck-summer": {
+      "source": "SAWSBUCK_1.gif",
+      "note": "Essentials PBS: Summer Form"
+    },
+    "sawsbuck-winter": {
+      "source": "SAWSBUCK_3.gif",
+      "note": "Essentials PBS: Winter Form"
+    },
+    "sceptile-mega": {
+      "source": "SCEPTILE_1.gif",
+      "note": "Essentials PBS: Mega Sceptile"
+    },
+    "scizor-mega": {
+      "source": "SCIZOR_1.gif",
+      "note": "Essentials PBS: Mega Scizor"
+    },
+    "scolipede-mega": {
+      "source": "SCOLIPEDE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "scrafty-mega": {
+      "source": "SCRAFTY_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "sharpedo-mega": {
+      "source": "SHARPEDO_1.gif",
+      "note": "Essentials PBS: Mega Sharpedo"
+    },
+    "shaymin-sky": {
+      "source": "SHAYMIN_1.gif",
+      "note": "Essentials PBS: Sky Forme"
+    },
+    "shellos-east": {
+      "source": "SHELLOS_1.gif",
+      "note": "Essentials PBS: East Sea"
+    },
+    "shellos-west": {
+      "source": "SHELLOS.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "silvally-bug": {
+      "source": "SILVALLY_6.gif",
+      "note": "Essentials PBS: Type: Bug"
+    },
+    "silvally-dark": {
+      "source": "SILVALLY_17.gif",
+      "note": "Essentials PBS: Type: Dark"
+    },
+    "silvally-dragon": {
+      "source": "SILVALLY_16.gif",
+      "note": "Essentials PBS: Type: Dragon"
+    },
+    "silvally-electric": {
+      "source": "SILVALLY_13.gif",
+      "note": "Essentials PBS: Type: Electric"
+    },
+    "silvally-fairy": {
+      "source": "SILVALLY_18.gif",
+      "note": "Essentials PBS: Type: Fairy"
+    },
+    "silvally-fight": {
+      "source": "SILVALLY_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "silvally-fighting": {
+      "source": "SILVALLY_1.gif",
+      "note": "Essentials PBS: Type: Fighting"
+    },
+    "silvally-fire": {
+      "source": "SILVALLY_10.gif",
+      "note": "Essentials PBS: Type: Fire"
+    },
+    "silvally-flying": {
+      "source": "SILVALLY_2.gif",
+      "note": "Essentials PBS: Type: Flying"
+    },
+    "silvally-ghost": {
+      "source": "SILVALLY_7.gif",
+      "note": "Essentials PBS: Type: Ghost"
+    },
+    "silvally-grass": {
+      "source": "SILVALLY_12.gif",
+      "note": "Essentials PBS: Type: Grass"
+    },
+    "silvally-ground": {
+      "source": "SILVALLY_4.gif",
+      "note": "Essentials PBS: Type: Ground"
+    },
+    "silvally-ice": {
+      "source": "SILVALLY_15.gif",
+      "note": "Essentials PBS: Type: Ice"
+    },
+    "silvally-poison": {
+      "source": "SILVALLY_3.gif",
+      "note": "Essentials PBS: Type: Poison"
+    },
+    "silvally-psychic": {
+      "source": "SILVALLY_14.gif",
+      "note": "Essentials PBS: Type: Psychic"
+    },
+    "silvally-rock": {
+      "source": "SILVALLY_5.gif",
+      "note": "Essentials PBS: Type: Rock"
+    },
+    "silvally-steel": {
+      "source": "SILVALLY_8.gif",
+      "note": "Essentials PBS: Type: Steel"
+    },
+    "silvally-water": {
+      "source": "SILVALLY_11.gif",
+      "note": "Essentials PBS: Type: Water"
+    },
+    "sinistcha-masterpiece": {
+      "source": "SINISTCHA.gif",
+      "note": "Same visible form in supplied pack; authenticity mark is not visible in these battle sprites"
+    },
+    "sinistea-antique": {
+      "source": "SINISTEA.gif",
+      "note": "Authenticity mark is not visible in supplied battle artwork; uses the shared species sprite"
+    },
+    "sinistea-chipped": {
+      "source": "SINISTEA.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "sizzlipedie-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "skarmory-mega": {
+      "source": "SKARMORY_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "slaking-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "sliggo": {
+      "source": "SLIGGOO.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "sliggoo-hisui": {
+      "source": "SLIGGOO_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "slowbro-galar": {
+      "source": "SLOWBRO_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "slowbro-mega": {
+      "source": "SLOWBRO_2.gif",
+      "note": "Essentials PBS: Mega Slowbro"
+    },
+    "slowking-galar": {
+      "source": "SLOWKING_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "slowpoke-galar": {
+      "source": "SLOWPOKE_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "slurpuff (2)": {
+      "source": "SLURPUFF.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "sneasel-hisui": {
+      "source": "SNEASEL_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "sneasel-hisui-f": {
+      "source": "SNEASEL_1_female.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    },
+    "snorlax-gmax": {
+      "source": "SNORLAX_1.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "snorlax-mega": {
+      "source": "SNORLAX_1.gif",
+      "note": "Calculator Mega alias depicts this Gigantamax form; visually verified"
+    },
+    "spiky-eared-pichu": {
+      "source": "PICHU_2.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "sprtizee": {
+      "source": "SPRITZEE.gif",
+      "note": "Verified legacy filename spelling alias"
+    },
+    "squawkabilly-blue": {
+      "source": "SQUAWKABILLY_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "squawkabilly-white": {
+      "source": "SQUAWKABILLY_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "squawkabilly-yellow": {
+      "source": "SQUAWKABILLY_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "starmie-mega": {
+      "source": "STARMIE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "steelix-mega": {
+      "source": "STEELIX_1.gif",
+      "note": "Essentials PBS: Mega Steelix"
+    },
+    "stunfisk-galar": {
+      "source": "STUNFISK_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "swampert-mega": {
+      "source": "SWAMPERT_1.gif",
+      "note": "Essentials PBS: Mega Swampert"
+    },
+    "tatsugiri-droopy": {
+      "source": "TATSUGIRI_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tatsugiri-stretchy": {
+      "source": "TATSUGIRI_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldea-aqua": {
+      "source": "TAUROS_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldea-blaze": {
+      "source": "TAUROS_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldea-combat": {
+      "source": "TAUROS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldeaaqua": {
+      "source": "TAUROS_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldeablaze": {
+      "source": "TAUROS_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tauros-paldeacombat": {
+      "source": "TAUROS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "teddiursa-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "terapagos-stellar": {
+      "source": "TERAPAGOS_2.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "terapagos-terastal": {
+      "source": "TERAPAGOS_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "thundurus-therian": {
+      "source": "THUNDURUS_1.gif",
+      "note": "Essentials PBS: Therian Forme"
+    },
+    "tornadus-therian": {
+      "source": "TORNADUS_1.gif",
+      "note": "Essentials PBS: Therian Forme"
+    },
+    "torterra-mega": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "toxtricity-gmax": {
+      "source": "TOXTRICITY_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "toxtricity-lowkey": {
+      "source": "TOXTRICITY_1.gif",
+      "note": "Essentials PBS: Low Key Form"
+    },
+    "typhlosion-hisui": {
+      "source": "TYPHLOSION_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "tyranitar-mega": {
+      "source": "TYRANITAR_1.gif",
+      "note": "Essentials PBS: Mega Tyranitar"
+    },
+    "unown-a": {
+      "source": "UNOWN.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "unown-b": {
+      "source": "UNOWN_1.gif",
+      "note": "Essentials PBS: B"
+    },
+    "unown-c": {
+      "source": "UNOWN_2.gif",
+      "note": "Essentials PBS: C"
+    },
+    "unown-d": {
+      "source": "UNOWN_3.gif",
+      "note": "Essentials PBS: D"
+    },
+    "unown-e": {
+      "source": "UNOWN_4.gif",
+      "note": "Essentials PBS: E"
+    },
+    "unown-em": {
+      "source": "UNOWN_27.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "unown-f": {
+      "source": "UNOWN_5.gif",
+      "note": "Essentials PBS: F"
+    },
+    "unown-g": {
+      "source": "UNOWN_6.gif",
+      "note": "Essentials PBS: G"
+    },
+    "unown-h": {
+      "source": "UNOWN_7.gif",
+      "note": "Essentials PBS: H"
+    },
+    "unown-i": {
+      "source": "UNOWN_8.gif",
+      "note": "Essentials PBS: I"
+    },
+    "unown-j": {
+      "source": "UNOWN_9.gif",
+      "note": "Essentials PBS: J"
+    },
+    "unown-k": {
+      "source": "UNOWN_10.gif",
+      "note": "Essentials PBS: K"
+    },
+    "unown-l": {
+      "source": "UNOWN_11.gif",
+      "note": "Essentials PBS: L"
+    },
+    "unown-m": {
+      "source": "UNOWN_12.gif",
+      "note": "Essentials PBS: M"
+    },
+    "unown-n": {
+      "source": "UNOWN_13.gif",
+      "note": "Essentials PBS: N"
+    },
+    "unown-o": {
+      "source": "UNOWN_14.gif",
+      "note": "Essentials PBS: O"
+    },
+    "unown-p": {
+      "source": "UNOWN_15.gif",
+      "note": "Essentials PBS: P"
+    },
+    "unown-q": {
+      "source": "UNOWN_16.gif",
+      "note": "Essentials PBS: Q"
+    },
+    "unown-qm": {
+      "source": "UNOWN_26.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "unown-r": {
+      "source": "UNOWN_17.gif",
+      "note": "Essentials PBS: R"
+    },
+    "unown-s": {
+      "source": "UNOWN_18.gif",
+      "note": "Essentials PBS: S"
+    },
+    "unown-t": {
+      "source": "UNOWN_19.gif",
+      "note": "Essentials PBS: T"
+    },
+    "unown-u": {
+      "source": "UNOWN_20.gif",
+      "note": "Essentials PBS: U"
+    },
+    "unown-v": {
+      "source": "UNOWN_21.gif",
+      "note": "Essentials PBS: V"
+    },
+    "unown-w": {
+      "source": "UNOWN_22.gif",
+      "note": "Essentials PBS: W"
+    },
+    "unown-x": {
+      "source": "UNOWN_23.gif",
+      "note": "Essentials PBS: X"
+    },
+    "unown-y": {
+      "source": "UNOWN_24.gif",
+      "note": "Essentials PBS: Y"
+    },
+    "unown-z": {
+      "source": "UNOWN_25.gif",
+      "note": "Essentials PBS: Z"
+    },
+    "ursaluna-bloodmoon": {
+      "source": "URSALUNA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "ursaring-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "urshifu-gmax": {
+      "source": "URSHIFU_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "urshifu-rapid-strike": {
+      "source": "URSHIFU_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "urshifu-rapidstrikegmax": {
+      "source": "URSHIFU_3.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "venusaur-gmax": {
+      "source": "VENUSAUR_2.gif",
+      "note": "Supplied Gigantamax artwork"
+    },
+    "venusaur-mega": {
+      "source": "VENUSAUR_1.gif",
+      "note": "Essentials PBS: Mega Venusaur"
+    },
+    "venusaur-mega-f": {
+      "skip": "no_form_counterpart",
+      "note": "No dedicated female counterpart in this pack; preserve the existing gender detail"
+    },
+    "victreebel-mega": {
+      "source": "VICTREEBEL_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "vivillon-continental": {
+      "source": "VIVILLON_1.gif",
+      "note": "Essentials PBS: Continental Pattern"
+    },
+    "vivillon-elegant": {
+      "source": "VIVILLON_2.gif",
+      "note": "Essentials PBS: Elegant Pattern"
+    },
+    "vivillon-fancy": {
+      "source": "VIVILLON_18.gif",
+      "note": "Essentials PBS: Fancy Pattern"
+    },
+    "vivillon-garden": {
+      "source": "VIVILLON_3.gif",
+      "note": "Essentials PBS: Garden Pattern"
+    },
+    "vivillon-highplains": {
+      "source": "VIVILLON_4.gif",
+      "note": "Essentials PBS: High Plains Pattern"
+    },
+    "vivillon-icysnow": {
+      "source": "VIVILLON_5.gif",
+      "note": "Essentials PBS: Icy Snow Pattern"
+    },
+    "vivillon-jungle": {
+      "source": "VIVILLON_6.gif",
+      "note": "Essentials PBS: Jungle Pattern"
+    },
+    "vivillon-marine": {
+      "source": "VIVILLON_7.gif",
+      "note": "Essentials PBS: Marine Pattern"
+    },
+    "vivillon-modern": {
+      "source": "VIVILLON_9.gif",
+      "note": "Essentials PBS: Modern Pattern"
+    },
+    "vivillon-monsoon": {
+      "source": "VIVILLON_10.gif",
+      "note": "Essentials PBS: Monsoon Pattern"
+    },
+    "vivillon-ocean": {
+      "source": "VIVILLON_11.gif",
+      "note": "Essentials PBS: Ocean Pattern"
+    },
+    "vivillon-polar": {
+      "source": "VIVILLON_12.gif",
+      "note": "Essentials PBS: Polar Pattern"
+    },
+    "vivillon-river": {
+      "source": "VIVILLON_13.gif",
+      "note": "Essentials PBS: River Pattern"
+    },
+    "vivillon-sandstorm": {
+      "source": "VIVILLON_14.gif",
+      "note": "Essentials PBS: Sandstorm Pattern"
+    },
+    "vivillon-savanna": {
+      "source": "VIVILLON_15.gif",
+      "note": "Essentials PBS: Savanna Pattern"
+    },
+    "vivillon-sun": {
+      "source": "VIVILLON_16.gif",
+      "note": "Essentials PBS: Sun Pattern"
+    },
+    "vivillon-tundra": {
+      "source": "VIVILLON_17.gif",
+      "note": "Essentials PBS: Tundra Pattern"
+    },
+    "voltorb-hisui": {
+      "source": "VOLTORB_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "vulpix-alola": {
+      "source": "VULPIX_1.gif",
+      "note": "Essentials PBS: Alolan"
+    },
+    "weezing-galar": {
+      "source": "WEEZING_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "wishiwashi-school": {
+      "source": "WISHIWASHI_1.gif",
+      "note": "Essentials PBS: School Form"
+    },
+    "wishiwashi-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "wishiwashi-sevii-school": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "wishiwashi-solo": {
+      "source": "WISHIWASHI.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "wooper-paldea": {
+      "source": "WOOPER_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "wormadam-plant": {
+      "source": "WORMADAM.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "wormadam-sandy": {
+      "source": "WORMADAM_1.gif",
+      "note": "Essentials PBS: Sandy Cloak"
+    },
+    "wormadam-trash": {
+      "source": "WORMADAM_2.gif",
+      "note": "Essentials PBS: Trash Cloak"
+    },
+    "xerneas": {
+      "source": "XERNEAS_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "xerneas-neutral": {
+      "source": "XERNEAS.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "yamask-galar": {
+      "source": "YAMASK_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "zacian-crowned": {
+      "source": "ZACIAN_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "zamazenta-crowned": {
+      "source": "ZAMAZENTA_1.gif",
+      "note": "Essentials named/default form; checked against supplied artwork"
+    },
+    "zapdos-galar": {
+      "source": "ZAPDOS_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "zarude-dada": {
+      "source": "ZARUDE_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "zebrastrika-sevii": {
+      "skip": "custom_form",
+      "note": "Custom/Sevii form with no corresponding form in the supplied pack"
+    },
+    "zigzagoon-galar": {
+      "source": "ZIGZAGOON_1.gif",
+      "note": "Essentials PBS: Galarian"
+    },
+    "zoroark-hisui": {
+      "source": "ZOROARK_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "zorua-hisui": {
+      "source": "ZORUA_1.gif",
+      "note": "Supplied artwork visually verified"
+    },
+    "zygarde-10": {
+      "source": "ZYGARDE_1.gif",
+      "note": "Essentials PBS: 10% Forme"
+    },
+    "zygarde-complete": {
+      "source": "ZYGARDE_2.gif",
+      "note": "Essentials PBS: Complete Forme"
+    },
+    "zygarde-complete-mega": {
+      "source": "ZYGARDE_4.gif",
+      "note": "Explicit alias verified against the supplied front/back artwork"
+    }
+  },
+  "za_mappings": {
+    "absol-mega-z": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/absol-megaz-front.gif",
+        "note": "Verified Z-A Mega Z artwork; author back filename omits Z, never replace the older Mega form"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/absol-mega-back.gif",
+        "note": "Verified Z-A Mega Z artwork; author back filename omits Z, never replace the older Mega form"
+      }
+    },
+    "barbaracle-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/barbaracle-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/barbaracle-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "baxcalibur-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/baxcalibur-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/baxcalibur-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "chandelure-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/chandelure-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/CHANDELURE_1.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "chesnaught-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/chesnaught-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/chesnaught-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "chimecho-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/chimecho-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/chimecho-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "clefable-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/clefable-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/CLEFABLE_1.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "crabominable-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/crabominable-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/crabominable-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "darkrai-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/darkrai-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/darkrai-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "delphox-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/delphox-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/delphox-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "dragalge-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/dragalge-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/DRAGALGE_1.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "dragonite-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/dragonite-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "retromc/dragonite-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "drampa-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/drampa-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/drampa-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "eelektross-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/eelektross-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/eelektross-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "emboar-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/emboar-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/emboar-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "excadrill-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/excadrill-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/excadrill-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "falinks-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/falinks-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/falinks-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "feraligatr-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/feraligatr-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/feraligatr-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "floette-eternal-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/floette-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/FLOETTE_6.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "floette-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/floette-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/FLOETTE_6.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "froslass-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/froslass-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/froslass-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "garchomp-mega-z": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/garchomp-megaz-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/garchomp-megaz-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "glimmora-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/glimmora-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/glimmora-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "golisopod-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/golisopod-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/golisopod-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "golurk-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/golurk-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/golurk-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "greninja-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/greninja-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/greninja-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "hawlucha-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/hawlucha-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/hawlucha-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "heatran-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/heatran-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/heatran-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "lucario-mega-z": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/lucario-megaz-front.gif",
+        "note": "Verified Z-A Mega Z artwork; author back filename omits Z, never replace the older Mega form"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/lucario-mega-back.gif",
+        "note": "Verified Z-A Mega Z artwork; author back filename omits Z, never replace the older Mega form"
+      }
+    },
+    "magearna-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/magearna-mega-front.gif",
+        "note": "Regular Mega Magearna: dark lower gown and dark gears; retromc preferred front"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/MAGEARNA_2.gif",
+        "note": "No corresponding artist file for this side/form; use the verified Essentials Z-A animation"
+      }
+    },
+    "magearna-original-mega": {
+      "front": {
+        "collection": "essentials",
+        "source": "Front/MAGEARNA_3.gif",
+        "note": "Original Color Mega Magearna: light lower gown and light gears; distinct from retromc regular Mega"
+      },
+      "back": {
+        "collection": "essentials",
+        "source": "Back/MAGEARNA_3.gif",
+        "note": "Original Color Mega Magearna: light lower gown and light gears; distinct from retromc regular Mega"
+      }
+    },
+    "malamar-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/malamar-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/malamar-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "meganium-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/meganium-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/meganium-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "meowstic-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/meowstic-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/mega-meowstic-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "pyroar-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/pyroar-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/pyroar-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "raichu-mega-x": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/raichu-megax-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/raichu-megax-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "raichu-mega-y": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/raichu-megay-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/raichu-megay-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "scolipede-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/scolipede-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/skolipede-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "scovillain-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/scovillain-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/skovillain-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "scrafty-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/scrafty-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/scrafty-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "skarmory-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/skarmory-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/skarmory-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "staraptor-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/staraptor-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/staraptor-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "starmie-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/starmie-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/starmie-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "tatsugiri-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/tastugiri-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/tatsugiri-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "victreebel-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/victreebell-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/victreebel-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "zeraora-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/zeraora-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/zeraora-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "zygarde-complete-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/zygarde-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/zygarde-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    },
+    "zygarde-mega": {
+      "front": {
+        "collection": "za",
+        "source": "retromc/zygarde-mega-front.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      },
+      "back": {
+        "collection": "za",
+        "source": "Aronousqui20/zygarde-mega-back.gif",
+        "note": "Verified Z-A Mega artwork; retromc preferred for fronts, Aronousqui20 for backs where available"
+      }
+    }
+  },
+  "za_notes": [
+    "The only allowed additions are these 46 forms already supported by ZA_PATCH, plus existing Floette/Zygarde legacy filename aliases.",
+    "Retromc fronts take priority; Aronousqui20 supplies available backs, with retromc Dragonite back. Essentials fills the explicitly listed missing sides/forms.",
+    "Greninja uses the canonical -front.gif; the alternate -front2.gif is not selected.",
+    "Artist GIFs are copied without resizing, recoloring, or changing their frame timings."
+  ]
+}
