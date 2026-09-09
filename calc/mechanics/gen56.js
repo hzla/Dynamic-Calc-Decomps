@@ -13,6 +13,7 @@ var romhack_helpers_1 = require("./romhacks/helpers");
 function calculateBWXY(gen, attacker, defender, move, field) {
     var _a;
     var title = typeof TITLE === "string" ? TITLE : "";
+    var hasHardloveGemBoost = (0, util_1.toID)(title).includes("hardlove");
     var sourceId = typeof params !== "undefined" && params && typeof params.get === "function" ? params.get("data") : "";
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
     (0, util_2.applyBeatUpTitleOverride)(move, title);
@@ -579,11 +580,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.attackerItem = attacker.item;
         }
         else if (attacker.hasItem("".concat(move.type, " Gem"))) {
-            bpMods.push(gen.num > 5 ? 5325 : 6144);
+            bpMods.push(hasHardloveGemBoost || gen.num <= 5 ? 6144 : 5325);
             desc.attackerItem = attacker.item;
         }
         if (attacker.hasItem("Tera Gem") && move.type == attacker.moves[0].type) {
-            bpMods.push(gen.num > 5 ? 5325 : 6144);
+            bpMods.push(hasHardloveGemBoost || gen.num <= 5 ? 6144 : 5325);
             desc.attackerItem = attacker.item;
         }
         if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||

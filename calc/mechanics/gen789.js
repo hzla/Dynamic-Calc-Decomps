@@ -1017,10 +1017,11 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.attackerAbility = attacker.ability;
         desc.alliesFainted = attacker.alliesFainted;
     }
-    if (attacker.hasItem("".concat(move.type, " Gem")) ||
+    var isGem = attacker.hasItem("".concat(move.type, " Gem"));
+    if (isGem ||
         (attacker.named('Electivire') && attacker.hasItem('Electirizer') && move.hasType('Fighting')) ||
         (attacker.named('Sunflora') && attacker.hasItem('Burnt Seed') && move.hasType('Fire'))) {
-        if (TITLE.includes("Radical")) {
+        if (TITLE.includes("Radical") || (isGem && (0, util_1.toID)(TITLE).includes("hardlove"))) {
             bpMods.push(6144);
         } else {
             bpMods.push(5325);
