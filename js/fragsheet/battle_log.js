@@ -203,29 +203,6 @@
         return typeof window.TITLE === "string" ? window.TITLE : "";
     }
 
-    function isCascadeBattleLogSource() {
-        const sourceTitles = [
-            getCurrentTitle(),
-            window.backup_data && window.backup_data.title,
-            window.npoint_data && window.npoint_data.title,
-        ];
-        return sourceTitles.some((title) => /^Cascade White(?:\s+Dev)?$/i.test(String(title || "").trim()));
-    }
-
-    function getCascade2SaveBattleLogData() {
-        const data = window.Cascade2SaveBattleLogData;
-        return isCascadeBattleLogSource() && data && typeof data === "object"
-            ? data
-            : null;
-    }
-
-    function getCascade2SaveBattleLogTrainer(trainerId) {
-        const data = getCascade2SaveBattleLogData();
-        if (!data || !data.trainers || typeof data.trainers !== "object") return null;
-        const trainer = data.trainers[String(trainerId)];
-        return trainer && typeof trainer === "object" ? trainer : null;
-    }
-
     function getBattleLogProgressionConfig() {
         const rules = window.battleLogSplitRules;
         return rules && typeof rules.getProgressionForTitle === "function"
@@ -234,10 +211,6 @@
     }
 
     function getCurrentTrainerOrder() {
-        const cascade2Data = getCascade2SaveBattleLogData();
-        if (cascade2Data && cascade2Data.order && typeof cascade2Data.order === "object") {
-            return cascade2Data.order;
-        }
         const currentData = window.npoint_data && typeof window.npoint_data === "object"
             ? window.npoint_data
             : null;
@@ -1130,14 +1103,7 @@
     }
 
     function createTrainerSpeciesResolver() {
-        const cascade2Data = getCascade2SaveBattleLogData();
-        if (cascade2Data && cascade2Data.trainers && typeof cascade2Data.trainers === "object") {
-            return function resolveCascade2TrainerSpecies(trainerId) {
-                const trainer = cascade2Data.trainers[String(trainerId)];
-                return trainer && Array.isArray(trainer.species) ? trainer.species : [];
-            };
-        }
-
+        // Use the same loaded trainer sets as the calculator, including all six slots.
         const activeSetdex = typeof setdex !== "undefined" && setdex && typeof setdex === "object"
             ? setdex
             : window.setdex;
@@ -1999,13 +1965,21 @@
         };
     }
 
-    function alignSaveFileEventSpeciesToRecordedParty(session) {
+    function alignSaveFileEventSpecies(session, resolveTrainerSpecies) {
         const party = Array.isArray(session && session.start && session.start.pParty)
             ? session.start.pParty
             : [];
+        const enemySpecies = resolveTrainerSpecies(getSessionTrainerId(session));
         const events = Array.isArray(session && session.events) ? session.events : [];
         events.forEach((event) => {
-            if (!event || (event.type !== "pKo" && event.type !== "aiKo")) return;
+            if (!event || !["pKo", "aiKo", "partnerKo"].includes(event.type)) return;
+            // Cached save imports may contain labels from an older trainer dataset.
+            // The saved trainer ID and enemy party slot remain authoritative.
+            if (enemySpecies.length && Number.isInteger(event.aiPartySlot)
+                && event.aiPartySlot >= 0 && event.aiPartySlot < 6) {
+                event.aiSpecies = enemySpecies[event.aiPartySlot] || "Unknown";
+            }
+            if (event.type === "partnerKo") return;
             const partySlot = Number(event.pSlot);
             const partyMon = Number.isInteger(partySlot) ? party[partySlot] : null;
             if (partyMon && partyMon.species) {
@@ -2026,7 +2000,8 @@
         };
         const sessions = rawSessions.map((rawSession) => decodeRawSession(rawSession, context));
         if (payloadVersion === "gen5-save-v2") {
-            sessions.forEach(alignSaveFileEventSpeciesToRecordedParty);
+            const resolveTrainerSpecies = createTrainerSpeciesResolver();
+            sessions.forEach((session) => alignSaveFileEventSpecies(session, resolveTrainerSpecies));
         }
         const normalizedSessions = payload && payload.preserveDuplicateTrainers
             ? sessions
@@ -2081,12 +2056,6 @@
         const fallback = (Number.isFinite(trainerIdNum) && trainerIdNum >= 520 && trainerIdNum <= 537)
             ? "Rival"
             : `Trainer #${trainerId ?? "?"}`;
-        const cascade2Trainer = isSaveFileBattleLogActive()
-            ? getCascade2SaveBattleLogTrainer(trainerId)
-            : null;
-        if (cascade2Trainer && cascade2Trainer.name) {
-            return String(cascade2Trainer.name);
-        }
         const customLeadsMap = getCustomLeadsMap();
 
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
@@ -2106,12 +2075,6 @@
     }
 
     function parseTrainerLeadLevel(trainerId) {
-        const cascade2Trainer = isSaveFileBattleLogActive()
-            ? getCascade2SaveBattleLogTrainer(trainerId)
-            : null;
-        if (cascade2Trainer && Number.isFinite(Number(cascade2Trainer.level))) {
-            return Number(cascade2Trainer.level);
-        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return 10;
@@ -2130,12 +2093,6 @@
     }
 
     function tryParseTrainerLeadLevel(trainerId) {
-        const cascade2Trainer = isSaveFileBattleLogActive()
-            ? getCascade2SaveBattleLogTrainer(trainerId)
-            : null;
-        if (cascade2Trainer && Number(cascade2Trainer.level) > 0) {
-            return Number(cascade2Trainer.level);
-        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return null;
@@ -2166,12 +2123,6 @@
     }
 
     function trainerLeadSetHasHeldItem(trainerId) {
-        const cascade2Trainer = isSaveFileBattleLogActive()
-            ? getCascade2SaveBattleLogTrainer(trainerId)
-            : null;
-        if (cascade2Trainer) {
-            return !!cascade2Trainer.hasHeldItem;
-        }
         const customLeadsMap = getCustomLeadsMap();
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
             return false;

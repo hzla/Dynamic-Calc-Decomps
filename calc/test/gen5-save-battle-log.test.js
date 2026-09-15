@@ -2,9 +2,9 @@
 
 const { readFileSync } = require("node:fs");
 const { resolve } = require("node:path");
+const vm = require("node:vm");
 const parser = require("../../js/savereaders/gen5_save_battle_log.js");
 const splitRules = require("../../js/fragsheet/battle_log_split_rules.js");
-const cascade2BattleLogData = require("../../js/fragsheet/cascade2_save_battle_log_data.js");
 
 function writeU16(bytes, offset, value) {
     bytes[offset] = value & 0xFF;
@@ -143,80 +143,145 @@ function decryptStoredPk5(stored) {
     return physicalCore;
 }
 
-describe("Gen 5 save-file battle log decoder", function () {
-    test("bundles casc2 trainer teams and linked order for Cascade save logs", function () {
-        expect(cascade2BattleLogData.source).toBe("backups/casc2.js");
-        expect(cascade2BattleLogData.order[766].next).toBe(338);
-        expect(cascade2BattleLogData.order[338]).toMatchObject({ prev: 766, next: 734 });
-        expect(cascade2BattleLogData.trainers[338]).toMatchObject({
-            name: "Artist Gough - Village Bridge",
-            species: expect.arrayContaining(["Joltik"]),
-        });
-        expect(cascade2BattleLogData.trainers[512]).toMatchObject({
-            name: "Psychic Low - Relic Castle",
-            species: ["Xatu", "Meditite", "Mawile", "Slowking"],
-        });
-        expect(cascade2BattleLogData.trainers[778]).toMatchObject({
-            name: "Blue Blue ",
-            species: ["Honchkrow", "Scrafty", "Krookodile", "Houndoom", "Tyranitar", "Bisharp"],
-        });
-
-        const progression = splitRules.getProgressionForTitle("Cascade White Dev");
-        const splitIndexes = splitRules.assignSplitIndexes(
-            [766, 338, 734],
-            cascade2BattleLogData.order,
-            progression
-        );
-        expect(splitIndexes).toEqual([2, 2, 2]);
-    });
-
-    test("uses casc2 trainer species instead of conflicting active Cascade data", function () {
-        const stored = new Map();
-        global.localStorage = {
+function loadBattleLogRuntime(data) {
+    const stored = new Map();
+    const context = {
+        console,
+        localStorage: {
             getItem: (key) => stored.has(key) ? stored.get(key) : null,
             setItem: (key, value) => stored.set(key, String(value)),
             removeItem: (key) => stored.delete(key),
-        };
-        global.window = {
-            TITLE: "Cascade White",
-            Cascade2SaveBattleLogData: cascade2BattleLogData,
+        },
+        window: {
+            TITLE: data.title,
             sav_pok_names: ["Unknown", "Bulbasaur"],
-            setdex: { Sunflora: { WrongSource: { tr_id: 338, sub_index: 0 } } },
-            backup_data: {
-                title: "Cascade White",
-                order: { 338: { id: 338, prev: null, next: null } },
-            },
-            npoint_data: {
-                title: "Cascade White",
-                order: { 338: { id: 338, prev: null, next: null } },
-            },
+            setdex: data.formatted_sets,
+            backup_data: data,
+            npoint_data: data,
+            battleLogSplitRules: splitRules,
             getSpeciesFamilyMembers: (speciesName) => [speciesName],
-        };
-        global.document = {
+        },
+        document: {
             getElementById: () => null,
             addEventListener: () => {},
             querySelectorAll: () => [],
             body: { classList: { contains: () => false } },
+        },
+        $: () => ({ length: 0 }),
+    };
+    const source = readFileSync(resolve(__dirname, "../../js/fragsheet/battle_log.js"), "utf8");
+    // Inspect private render helpers in this isolated test context, not the browser API.
+    const anchor = '    document.addEventListener("DOMContentLoaded", initializeBattleLogUi);';
+    expect(source).toContain(anchor);
+    vm.runInNewContext(source.replace(anchor, `
+        window.testHelpers = {
+            buildBattleLogSessionsFromPayload, getCurrentTrainerOrder,
+            parseTrainerName, parseTrainerLeadLevel, trainerLeadSetHasHeldItem,
         };
-        global.$ = () => ({ length: 0 });
+    `), context);
+    return { window: context.window, stored, helpers: context.window.testHelpers };
+}
 
-        const record = makeRecord(338, 1);
-        record.playerKoCreditsByEnemy = [1, 0, 0, 0, 0, 0];
-        record.aiKoCreditsByPlayer = [0, 0, 0, 0, 0, 0];
+function makeLoadedCascadeData() {
+    const data = { title: "Cascade White Dev", formatted_sets: {}, order: {} };
+    const trainers = [
+        [192, "Team Plasma Shadow5", ["Scizor", "Serperior", "Crawdaunt", "Hitmonlee", "Alakazam", "Banette"]],
+        [292, "PkMn Ranger Richard", ["Leavanny", "Sawsbuck-Winter", "Victreebel", "Rotom-Mow", "Sceptile", "Ludicolo"]],
+    ];
+    trainers.forEach(([id, name, team]) => {
+        // Deliberately insert in reverse order: sub_index, not enumeration order, is authoritative.
+        team.slice().reverse().forEach((species, index) => {
+            data.formatted_sets[species] = {
+                [`Lvl 41 ${name}`]: { tr_id: id, sub_index: 5 - index, level: 41, item: "Leftovers" },
+            };
+        });
+    });
+    const orderIds = [156, 192, 157, 292, 154];
+    orderIds.forEach((id, index) => {
+        data.order[id] = { id, prev: orderIds[index - 1] || null, next: orderIds[index + 1] || null };
+    });
+    return data;
+}
 
-        jest.resetModules();
-        require("../../js/fragsheet/battle_log.js");
+describe("Gen 5 save-file battle log decoder", function () {
+    test("uses all six loaded casc2 trainer slots for KOs and player deaths", function () {
+        const data = makeLoadedCascadeData();
+        const runtime = loadBattleLogRuntime(data);
+        const records = [192, 292].map((id) => ({
+            trainerId: id, playerCount: 1, playerSpeciesIds: [1, 0, 0, 0, 0, 0],
+            playerKoCreditsByEnemy: [1, 1, 1, 1, 1, 1],
+            aiKoCreditsByPlayer: [6, 0, 0, 0, 0, 0],
+        }));
+        runtime.window.updateSaveFileBattleLog({ valid: true, hasLogs: true, records },
+            [{ rawSpeciesId: 1, species: "Bulbasaur" }], "cascade.sav");
+        const payload = JSON.parse(runtime.stored.get("saveFileBattleLogs"));
+        const sessions = runtime.helpers.buildBattleLogSessionsFromPayload(payload);
+        expect(sessions[0].events.filter((event) => event.type === "pKo").map((event) => event.aiSpecies))
+            .toEqual(["Scizor", "Serperior", "Crawdaunt", "Hitmonlee", "Alakazam", "Banette"]);
+        expect(sessions[1].events.filter((event) => event.type === "pKo").map((event) => event.aiSpecies))
+            .toEqual(["Leavanny", "Sawsbuck-Winter", "Victreebel", "Rotom-Mow", "Sceptile", "Ludicolo"]);
+        expect(sessions.map((session) => session.events.find((event) => event.type === "aiKo").aiSpecies))
+            .toEqual(["Banette", "Ludicolo"]);
+        expect(runtime.helpers.getCurrentTrainerOrder()).toBe(data.order);
+        expect(sessions.map((session) => session.saveFileSplitIndex)).toEqual([1, 2]);
+
+        runtime.stored.set("customLeads", JSON.stringify({ 192: "Scizor (Lvl 41 Team Plasma Shadow5)[0]" }));
+        expect(runtime.helpers.parseTrainerName(192)).toBe("Team Plasma Shadow5");
+        expect(runtime.helpers.parseTrainerLeadLevel(192)).toBe(41);
+        expect(runtime.helpers.trainerLeadSetHasHeldItem(192)).toBe(true);
+    });
+
+    test("refreshes cached save-log enemy labels from the loaded team without changing KO credits", function () {
+        const { helpers, window } = loadBattleLogRuntime(makeLoadedCascadeData());
+        const payload = {
+            version: "gen5-save-v2", sourceType: "save-file", preserveDuplicateTrainers: true,
+            events: [
+                { type: "session_start", enemyTrainerIdA: 192, pParty: [{ species: "Bulbasaur" }] },
+                { type: "pKo", pSlot: 0, pSpecies: "Bulbasaur", aiPartySlot: 3, aiSpecies: "Alakazam" },
+                { type: "partnerKo", aiPartySlot: 5, aiSpecies: "Unknown" },
+                { type: "aiKo", pSlot: 0, pSpecies: "Bulbasaur", aiPartySlot: 5, aiSpecies: "Unknown" },
+                { type: "session_end" },
+            ],
+        };
+        const original = JSON.stringify(payload);
+        const session = helpers.buildBattleLogSessionsFromPayload(payload)[0];
+        expect(session.events.map((event) => event.aiSpecies)).toEqual(["Hitmonlee", "Banette", "Banette"]);
+        expect(session.events.map((event) => [event.type, event.pSlot, event.aiPartySlot]))
+            .toEqual([["pKo", 0, 3], ["partnerKo", undefined, 5], ["aiKo", 0, 5]]);
+        expect(JSON.stringify(payload)).toBe(original);
+
+        // Dataset replacement must not reuse a trainer lookup cached from the previous source.
+        window.setdex = { Patrat: { Updated: { tr_id: 192, sub_index: 5 } } };
+        expect(helpers.buildBattleLogSessionsFromPayload(payload)[0].events[1].aiSpecies).toBe("Patrat");
+        const emulatorPayload = { version: 3, events: payload.events };
+        expect(helpers.buildBattleLogSessionsFromPayload(emulatorPayload)[0].events[1].aiSpecies).toBe("Unknown");
+    });
+
+    test("leaves unmatched enemy slots Unknown instead of shifting sparse trainer teams", function () {
+        const { window, stored } = loadBattleLogRuntime({
+            title: "Other Game", order: {},
+            formatted_sets: {
+                Patrat: { Trainer: { tr_id: 1, sub_index: 0 } },
+                Purrloin: { Trainer: { tr_id: 1, sub_index: 2 } },
+            },
+        });
+        const record = makeRecord(1, 1);
+        record.playerKoCreditsByEnemy = [1, 1, 1, 0, 0, 0];
         window.updateSaveFileBattleLog({
             valid: true,
             hasLogs: true,
             records: [record],
         }, [{ rawSpeciesId: 1, species: "Bulbasaur" }], "cascade.sav");
-
         const payload = JSON.parse(stored.get("saveFileBattleLogs"));
-        expect(payload.events.find((event) => event.type === "pKo")).toMatchObject({
-            aiSpecies: "Joltik",
-            aiPartySlot: 0,
-        });
+        expect(payload.events.filter((event) => event.type === "pKo").map((event) => event.aiSpecies))
+            .toEqual(["Patrat", "Unknown", "Purrloin"]);
+    });
+
+    test("does not load a separately generated Cascade trainer snapshot", function () {
+        const index = readFileSync(resolve(__dirname, "../../index.html"), "utf8");
+        const source = readFileSync(resolve(__dirname, "../../js/fragsheet/battle_log.js"), "utf8");
+        expect(index).not.toContain("cascade2_save_battle_log_data.js");
+        expect(source).not.toContain("Cascade2SaveBattleLogData");
     });
 
     test("keeps the battle-session body inside a balanced session wrapper", function () {

@@ -433,6 +433,11 @@
       "next": 44,
       "prev": 312
     },
+    "188": {
+      "id": 188,
+      "next": 763,
+      "prev": 504
+    },
     "191": {
       "id": 191,
       "next": 359,
@@ -491,7 +496,7 @@
     "212": {
       "id": 212,
       "next": 574,
-      "prev": 368
+      "prev": 215
     },
     "213": {
       "id": 213,
@@ -505,8 +510,8 @@
     },
     "215": {
       "id": 215,
-      "next": 263,
-      "prev": 574
+      "next": 212,
+      "prev": 368
     },
     "217": {
       "id": 217,
@@ -671,7 +676,7 @@
     "263": {
       "id": 263,
       "next": 264,
-      "prev": 215
+      "prev": 648
     },
     "264": {
       "id": 264,
@@ -1000,7 +1005,7 @@
     },
     "368": {
       "id": 368,
-      "next": 212,
+      "next": 215,
       "prev": 370
     },
     "369": {
@@ -1170,7 +1175,7 @@
     },
     "504": {
       "id": 504,
-      "next": 763,
+      "next": 188,
       "prev": 185
     },
     "506": {
@@ -1415,7 +1420,7 @@
     },
     "574": {
       "id": 574,
-      "next": 215,
+      "next": 648,
       "prev": 212
     },
     "582": {
@@ -1487,6 +1492,11 @@
       "id": 646,
       "next": 528,
       "prev": 548
+    },
+    "648": {
+      "id": 648,
+      "next": 263,
+      "prev": 574
     },
     "652": {
       "id": 652,
@@ -1701,7 +1711,7 @@
     "763": {
       "id": 763,
       "next": 124,
-      "prev": 504
+      "prev": 188
     },
     "764": {
       "id": 764,
@@ -1767,10 +1777,15 @@
   "trainers": {
     "1": {
       "name": "Smasher Elena - Aspertia Gate",
-      "level": 100,
+      "level": 1,
       "hasHeldItem": true,
       "species": [
-        "Ninetales"
+        "Ninetales",
+        "Zoroark",
+        "Druddigon",
+        "Victreebel",
+        "Alakazam",
+        "Primeape"
       ]
     },
     "2": {
@@ -2836,7 +2851,7 @@
       "species": [
         "Delibird",
         "Crustle",
-        "Pelipper",
+        "Simipour",
         "Slaking"
       ]
     },
@@ -3700,13 +3715,14 @@
       ]
     },
     "188": {
-      "name": "Boss Trainer Carlen ",
-      "level": 59,
+      "name": "Team Plasma Grunt1 - Route 20",
+      "level": 24,
       "hasHeldItem": true,
       "species": [
-        "Bouffalant",
-        "Swanna",
-        "Scolipede"
+        "Shuppet",
+        "Zorua",
+        "Xatu",
+        "Vulpix"
       ]
     },
     "189": {
@@ -3730,7 +3746,7 @@
       ]
     },
     "191": {
-      "name": "Team Plasma Grunt1 - Nimbasa City",
+      "name": "Team Plasma Grunt2 - Nimbasa City",
       "level": 40,
       "hasHeldItem": true,
       "species": [
@@ -3742,13 +3758,14 @@
       ]
     },
     "192": {
-      "name": "Team Plasma Shadow5 - Nimbasa Gate",
+      "name": "Team Plasma Shadow5 ",
       "level": 41,
       "hasHeldItem": true,
       "species": [
         "Scizor",
         "Serperior",
         "Crawdaunt",
+        "Hitmonlee",
         "Alakazam",
         "Banette"
       ]
@@ -4489,7 +4506,7 @@
       "level": 47,
       "hasHeldItem": true,
       "species": [
-        "Golduck",
+        "Slowbro",
         "Reuniclus",
         "Venomoth"
       ]
@@ -4520,7 +4537,7 @@
       "hasHeldItem": true,
       "species": [
         "Gardevoir",
-        "Altaria",
+        "Mawile",
         "Milotic"
       ]
     },
@@ -4787,6 +4804,7 @@
         "Sawsbuck-Winter",
         "Victreebel",
         "Rotom-Mow",
+        "Sceptile",
         "Ludicolo"
       ]
     },
@@ -5289,7 +5307,7 @@
       ]
     },
     "342": {
-      "name": "Team Plasma Grunt2 ",
+      "name": "Team Plasma Grunt3 ",
       "level": 26,
       "hasHeldItem": true,
       "species": [
@@ -5299,7 +5317,7 @@
       ]
     },
     "343": {
-      "name": "Team Plasma Grunt3 - Plasma Frigate",
+      "name": "Team Plasma Grunt4 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -5446,7 +5464,7 @@
       ]
     },
     "356": {
-      "name": "Team Plasma Grunt4 ",
+      "name": "Team Plasma Grunt5 ",
       "level": 26,
       "hasHeldItem": true,
       "species": [
@@ -5476,7 +5494,7 @@
       ]
     },
     "359": {
-      "name": "Team Plasma Grunt5 ",
+      "name": "Team Plasma Grunt6 ",
       "level": 40,
       "hasHeldItem": true,
       "species": [
@@ -5607,7 +5625,7 @@
       ]
     },
     "372": {
-      "name": "Team Plasma Grunt6 ",
+      "name": "Team Plasma Grunt7 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -5618,7 +5636,7 @@
       ]
     },
     "373": {
-      "name": "Team Plasma Grunt7 ",
+      "name": "Team Plasma Grunt8 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -5629,7 +5647,7 @@
       ]
     },
     "374": {
-      "name": "Team Plasma Grunt8 ",
+      "name": "Team Plasma Grunt9 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -5640,7 +5658,7 @@
       ]
     },
     "375": {
-      "name": "Team Plasma Grunt9 ",
+      "name": "Team Plasma Grunt10 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -5651,7 +5669,7 @@
       ]
     },
     "376": {
-      "name": "Team Plasma Grunt10 ",
+      "name": "Team Plasma Grunt11 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -5662,7 +5680,7 @@
       ]
     },
     "377": {
-      "name": "Team Plasma Grunt11 ",
+      "name": "Team Plasma Grunt12 ",
       "level": 47,
       "hasHeldItem": true,
       "species": [
@@ -6153,7 +6171,7 @@
       ]
     },
     "426": {
-      "name": "Team Plasma Grunt12 - Plasma Frigate",
+      "name": "Team Plasma Grunt13 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6162,7 +6180,7 @@
       ]
     },
     "427": {
-      "name": "Team Plasma Grunt13 - Plasma Frigate",
+      "name": "Team Plasma Grunt14 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6170,7 +6188,7 @@
       ]
     },
     "428": {
-      "name": "Team Plasma Grunt14 - Plasma Frigate",
+      "name": "Team Plasma Grunt15 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6178,7 +6196,7 @@
       ]
     },
     "429": {
-      "name": "Team Plasma Grunt15 - Plasma Frigate",
+      "name": "Team Plasma Grunt16 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6187,7 +6205,7 @@
       ]
     },
     "430": {
-      "name": "Team Plasma Grunt16 ",
+      "name": "Team Plasma Grunt17 ",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6197,7 +6215,7 @@
       ]
     },
     "431": {
-      "name": "Team Plasma Grunt17 - Plasma Frigate",
+      "name": "Team Plasma Grunt18 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6205,7 +6223,7 @@
       ]
     },
     "432": {
-      "name": "Team Plasma Grunt18 ",
+      "name": "Team Plasma Grunt19 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6213,7 +6231,7 @@
       ]
     },
     "433": {
-      "name": "Team Plasma Grunt19 ",
+      "name": "Team Plasma Grunt20 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6222,7 +6240,7 @@
       ]
     },
     "434": {
-      "name": "Team Plasma Grunt20 ",
+      "name": "Team Plasma Grunt21 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6231,7 +6249,7 @@
       ]
     },
     "435": {
-      "name": "Team Plasma Grunt21 ",
+      "name": "Team Plasma Grunt22 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6239,7 +6257,7 @@
       ]
     },
     "436": {
-      "name": "Team Plasma Grunt22 - Plasma Frigate 1",
+      "name": "Team Plasma Grunt23 - Plasma Frigate 1",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6249,7 +6267,7 @@
       ]
     },
     "437": {
-      "name": "Team Plasma Grunt23 - Plasma Frigate 1",
+      "name": "Team Plasma Grunt24 - Plasma Frigate 1",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6259,7 +6277,7 @@
       ]
     },
     "438": {
-      "name": "Team Plasma Grunt24 ",
+      "name": "Team Plasma Grunt25 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6267,7 +6285,7 @@
       ]
     },
     "439": {
-      "name": "Team Plasma Grunt25 ",
+      "name": "Team Plasma Grunt26 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6276,7 +6294,7 @@
       ]
     },
     "440": {
-      "name": "Team Plasma Grunt26 ",
+      "name": "Team Plasma Grunt27 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6285,7 +6303,7 @@
       ]
     },
     "441": {
-      "name": "Team Plasma Grunt27 ",
+      "name": "Team Plasma Grunt28 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6302,7 +6320,7 @@
       ]
     },
     "443": {
-      "name": "Team Plasma Grunt28 ",
+      "name": "Team Plasma Grunt29 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6310,7 +6328,7 @@
       ]
     },
     "444": {
-      "name": "Team Plasma Grunt29 ",
+      "name": "Team Plasma Grunt30 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6319,7 +6337,7 @@
       ]
     },
     "445": {
-      "name": "Team Plasma Grunt30 - Plasma Frigate",
+      "name": "Team Plasma Grunt31 - Plasma Frigate",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6329,7 +6347,7 @@
       ]
     },
     "446": {
-      "name": "Team Plasma Grunt31 - Plasma Frigate",
+      "name": "Team Plasma Grunt32 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6337,7 +6355,7 @@
       ]
     },
     "447": {
-      "name": "Team Plasma Grunt32 - Plasma Frigate",
+      "name": "Team Plasma Grunt33 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6345,7 +6363,7 @@
       ]
     },
     "448": {
-      "name": "Team Plasma Grunt33 - Plasma Frigate",
+      "name": "Team Plasma Grunt34 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6354,7 +6372,7 @@
       ]
     },
     "449": {
-      "name": "Team Plasma Grunt34 - Plasma Frigate",
+      "name": "Team Plasma Grunt35 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6363,7 +6381,7 @@
       ]
     },
     "450": {
-      "name": "Team Plasma Grunt35 ",
+      "name": "Team Plasma Grunt36 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6371,7 +6389,7 @@
       ]
     },
     "451": {
-      "name": "Team Plasma Grunt36 1",
+      "name": "Team Plasma Grunt37 1",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6381,7 +6399,7 @@
       ]
     },
     "452": {
-      "name": "Team Plasma Grunt37 - Plasma Frigate 1",
+      "name": "Team Plasma Grunt38 - Plasma Frigate 1",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -6391,7 +6409,7 @@
       ]
     },
     "453": {
-      "name": "Team Plasma Grunt38 - Plasma Frigate",
+      "name": "Team Plasma Grunt39 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -6399,7 +6417,7 @@
       ]
     },
     "454": {
-      "name": "Team Plasma Grunt39 - Plasma Frigate",
+      "name": "Team Plasma Grunt40 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6862,7 +6880,7 @@
       ]
     },
     "500": {
-      "name": "Team Plasma Grunt40 ",
+      "name": "Team Plasma Grunt41 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -6905,7 +6923,7 @@
       ]
     },
     "504": {
-      "name": "Team Plasma Grunt41 - Virbank City",
+      "name": "Team Plasma Grunt42 - Virbank City",
       "level": 24,
       "hasHeldItem": true,
       "species": [
@@ -7761,7 +7779,7 @@
       ]
     },
     "585": {
-      "name": "Team Plasma Grunt42 ",
+      "name": "Team Plasma Grunt43 ",
       "level": 44,
       "hasHeldItem": false,
       "species": [
@@ -7770,7 +7788,7 @@
       ]
     },
     "586": {
-      "name": "Team Plasma Grunt43 ",
+      "name": "Team Plasma Grunt44 ",
       "level": 44,
       "hasHeldItem": false,
       "species": [
@@ -7779,7 +7797,7 @@
       ]
     },
     "587": {
-      "name": "Team Plasma Grunt44 ",
+      "name": "Team Plasma Grunt45 ",
       "level": 44,
       "hasHeldItem": false,
       "species": [
@@ -8793,7 +8811,7 @@
       ]
     },
     "690": {
-      "name": "Team Plasma Grunt45 ",
+      "name": "Team Plasma Grunt46 ",
       "level": 24,
       "hasHeldItem": true,
       "species": [
@@ -8961,7 +8979,7 @@
       ]
     },
     "705": {
-      "name": "Team Plasma Grunt46 ",
+      "name": "Team Plasma Grunt47 ",
       "level": 39,
       "hasHeldItem": false,
       "species": [
@@ -9144,7 +9162,7 @@
       ]
     },
     "724": {
-      "name": "Team Plasma Grunt47 ",
+      "name": "Team Plasma Grunt48 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -9417,7 +9435,7 @@
       ]
     },
     "751": {
-      "name": "Team Plasma Grunt48 ",
+      "name": "Team Plasma Grunt49 ",
       "level": 40,
       "hasHeldItem": true,
       "species": [
@@ -9519,7 +9537,7 @@
       ]
     },
     "763": {
-      "name": "Team Plasma Grunt49 ",
+      "name": "Team Plasma Grunt50 ",
       "level": 24,
       "hasHeldItem": true,
       "species": [
@@ -9916,7 +9934,7 @@
       ]
     },
     "797": {
-      "name": "Team Plasma Grunt50 ",
+      "name": "Team Plasma Grunt51 ",
       "level": 45,
       "hasHeldItem": false,
       "species": [
@@ -9926,7 +9944,7 @@
       ]
     },
     "798": {
-      "name": "Team Plasma Grunt51 ",
+      "name": "Team Plasma Grunt52 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -9935,7 +9953,7 @@
       ]
     },
     "799": {
-      "name": "Team Plasma Grunt52 ",
+      "name": "Team Plasma Grunt53 ",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -9944,7 +9962,7 @@
       ]
     },
     "800": {
-      "name": "Team Plasma Grunt53 - Plasma Frigate",
+      "name": "Team Plasma Grunt54 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -9952,7 +9970,7 @@
       ]
     },
     "801": {
-      "name": "Team Plasma Grunt54 - Plasma Frigate",
+      "name": "Team Plasma Grunt55 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -9960,7 +9978,7 @@
       ]
     },
     "802": {
-      "name": "Team Plasma Grunt55 ",
+      "name": "Team Plasma Grunt56 ",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -10000,7 +10018,7 @@
       ]
     },
     "807": {
-      "name": "Team Plasma Grunt56 - Plasma Frigate",
+      "name": "Team Plasma Grunt57 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -10010,7 +10028,7 @@
       ]
     },
     "808": {
-      "name": "Team Plasma Grunt57 - Plasma Frigate",
+      "name": "Team Plasma Grunt58 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -10019,7 +10037,7 @@
       ]
     },
     "809": {
-      "name": "Team Plasma Grunt58 - Plasma Frigate",
+      "name": "Team Plasma Grunt59 - Plasma Frigate",
       "level": 46,
       "hasHeldItem": false,
       "species": [
@@ -10029,7 +10047,7 @@
       ]
     },
     "810": {
-      "name": "Team Plasma Grunt59 - Plasma Frigate",
+      "name": "Team Plasma Grunt60 - Plasma Frigate",
       "level": 47,
       "hasHeldItem": false,
       "species": [
@@ -10046,7 +10064,7 @@
       ]
     },
     "812": {
-      "name": "Team Plasma Grunt60 - Plasma Frigate",
+      "name": "Team Plasma Grunt61 - Plasma Frigate",
       "level": 45,
       "hasHeldItem": false,
       "species": [
