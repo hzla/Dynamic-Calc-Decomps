@@ -342,6 +342,7 @@ var SS = SM.concat([
     "Exploit",
     "Tenacity",
     "Majestic Ward",
+    "Majesty",
     "Gourmand",
     "Patient",
     "Contagious",
