@@ -205,6 +205,48 @@ function makeLoadedCascadeData() {
 }
 
 describe("Gen 5 save-file battle log decoder", function () {
+    test("retains manual KO credits across save-log rebuilds without duplicating matching entries", function () {
+        const runtime = loadBattleLogRuntime(makeLoadedCascadeData());
+        const payload = {
+            version: "gen5-save-v2", sourceType: "save-file",
+            events: [
+                { type: "session_start", enemyTrainerIdA: 192, pParty: [{ species: "Bulbasaur" }] },
+                { type: "pKo", pSlot: 0, pSpecies: "Bulbasaur", aiPartySlot: 0 },
+                { type: "session_end" },
+            ],
+        };
+        const sessions = runtime.helpers.buildBattleLogSessionsFromPayload(payload);
+        runtime.window.encounters = { Bulbasaur: { frags: [] } };
+        runtime.helpers.rebuildEncounterFragsFromBattleLog(sessions, sessions);
+        const mon = runtime.window.encounters.Bulbasaur;
+        const importedFrag = mon.frags[0];
+        const manualFrag = "Patrat (Lvl 10 Youngster Joey)";
+        mon.manualFrags = [importedFrag, manualFrag];
+        mon.frags.push(manualFrag);
+        mon.fragSplitIndexes[manualFrag] = 2;
+        for (let count = 0; count < 2; count++) {
+            runtime.helpers.rebuildEncounterFragsFromBattleLog(sessions, sessions);
+            expect(mon.frags).toEqual([importedFrag, manualFrag]);
+            expect(mon.fragCount).toBe(2);
+            expect(mon.fragSplitIndexes[manualFrag]).toBe(2);
+        }
+    });
+
+    test("assigns manual KO splits by trainer order and falls back to the latest logged gym", function () {
+        const runtime = loadBattleLogRuntime(makeLoadedCascadeData());
+        expect(runtime.window.getManualFragTrainerSplitIndex(192)).toBe(1);
+        expect(runtime.window.getManualFragTrainerSplitIndex(292)).toBe(2);
+        expect(runtime.window.getManualFragTrainerSplitIndex(null)).toBe(null);
+        runtime.window.updateSaveFileBattleLog({ valid: true, hasLogs: true, records: [{
+            trainerId: 157, playerCount: 1, playerSpeciesIds: [1, 0, 0, 0, 0, 0],
+            playerKoCreditsByEnemy: [1, 0, 0, 0, 0, 0],
+            aiKoCreditsByPlayer: [0, 0, 0, 0, 0, 0],
+        }] }, [{ rawSpeciesId: 1, species: "Bulbasaur" }], "cascade.sav");
+        expect(runtime.window.getManualFragTrainerSplitIndex(999)).toBe(2);
+        // An earlier trainer still follows its ordered placement, not the latest gym.
+        expect(runtime.window.getManualFragTrainerSplitIndex(156)).toBe(0);
+    });
+
     test("uses all six loaded casc2 trainer slots for KOs and player deaths", function () {
         const data = makeLoadedCascadeData();
         const runtime = loadBattleLogRuntime(data);

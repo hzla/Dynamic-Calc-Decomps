@@ -31,7 +31,7 @@ function syncOpposingKoButton() {
             .text(isFainted ? "KO'd" : "KO")
             .prop('disabled', !setId)
             .attr('aria-pressed', isFainted ? 'true' : 'false')
-            .attr('title', isFainted ? 'Unmark enemy as fainted' : 'Mark enemy as fainted')
+            .attr('title', isFainted ? 'Unmark enemy as fainted (keeps the recorded frag)' : 'Mark enemy as fainted and credit a frag to the left Pokémon')
     }
 }
 
@@ -84,6 +84,15 @@ function toggleTrainerPreviewFaint(setId) {
     if (typeof performCalculations === "function") {
         performCalculations()
     }
+}
+
+function toggleMobileOpponentKo(event) {
+    var targetSet = getOpposingFaintDataId()
+    // Record before refreshing the preview, which may change the selected foe.
+    if (targetSet && !fainted.includes(targetSet) && typeof addFrag === "function") {
+        addFrag(event, { addOnly: true })
+    }
+    toggleTrainerPreviewFaint(targetSet)
 }
 
 var MID_PANEL_LAYOUT_STORAGE_KEY = "midPanelBottomLayout"
@@ -410,7 +419,8 @@ $(document).ready(function() {
         }
    })
 
-   $('body').on('click', function() {
+   $('body').on('click', function(event) {
+        if (gameGen == 5 && $(event.target).closest('#ai-container, #show-ai').length) return
         $("#ai-container").hide()
    })
 
@@ -460,9 +470,7 @@ $(document).ready(function() {
         $(`[data-id="${currentPok}"]`).trigger('contextmenu')
     })
 
-    $(document).on('click', '#opposing-ko-toggle', function() {
-        toggleTrainerPreviewFaint()
-    })
+    $(document).on('click', '#opposing-ko-toggle', toggleMobileOpponentKo)
 
     $(document).on('click', '#mid-panel-layout-toggle', function() {
         if (!isMidPanelLayoutToggleViewport()) {

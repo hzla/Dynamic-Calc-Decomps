@@ -927,7 +927,7 @@ function applyBlankDevConfig(config) {
   $('label[for="snow"]').hide().removeClass('btn-mid').addClass('btn-right');
   $('#open-dex, #main-nav-dex').toggle(showDex);
   $('#dex-show').toggle(showDex);
-  $('#show-ai').toggle(showAI);
+  $('#show-ai').toggle(showAI).toggleClass('gen5-ai-button', gameGen == 5 && showAI);
   if (typeof applyHideCurrentAiMonVisibility === "function") {
     applyHideCurrentAiMonVisibility()
   }
@@ -1474,7 +1474,7 @@ function setGameSettings(title) {
   }
   $('#open-dex, #main-nav-dex').toggle(showDex)
   $('#dex-show').toggle(showDex)
-  $('#show-ai').toggle(showAI)
+  $('#show-ai').toggle(showAI).toggleClass('gen5-ai-button', gameGen == 5 && showAI)
 
   updateHeaderShellState()
 
@@ -1652,7 +1652,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?inclementdamage3';
+  script.src= './js/shared_controls.js?abee24b0';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);

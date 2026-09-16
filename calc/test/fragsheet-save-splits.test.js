@@ -5,11 +5,12 @@ const path = require("path");
 const vm = require("vm");
 const rules = require("../../js/fragsheet/battle_log_split_rules.js");
 
-function loadFragsheet(saveFileActive = true) {
+function loadFragsheet(saveFileActive = true, width = 1920) {
     const tabs = {};
+    const listeners = {};
     const storage = {};
     const context = {
-        console, URLSearchParams,
+        console, URLSearchParams, innerWidth: width,
         TITLE: "Cascade White Dev",
         evoData: {}, customSets: {},
         splitData: { "Other Game": { titles: ["First", "Last"], lvls: [20, 100], types: [] } },
@@ -20,7 +21,7 @@ function loadFragsheet(saveFileActive = true) {
             getItem: (key) => storage[key] || null,
             setItem: (key, value) => { storage[key] = String(value); },
         }),
-        addEventListener: () => {},
+        addEventListener: (type, listener) => { listeners[type] = listener; },
         document: {
             addEventListener: () => {},
             body: { classList: { contains: () => false } },
@@ -43,7 +44,7 @@ function loadFragsheet(saveFileActive = true) {
         vm.runInContext(fs.readFileSync(path.resolve(__dirname, "../../js/fragsheet", file), "utf8"), context);
     }
     context.initializeSplits();
-    return { context, tabs, setSaveFileActive: (value) => { saveFileActive = value; } };
+    return { context, tabs, listeners, setSaveFileActive: (value) => { saveFileActive = value; } };
 }
 
 describe("save-file fragsheet splits", () => {
@@ -84,12 +85,14 @@ describe("save-file fragsheet splits", () => {
                 setData: { "My Box": { nature: "Timid" } },
                 frags: [first, second], fragCount: 2,
                 fragSplitIndexes: { [first]: 0, [second]: 3 }, alive: true,
+                manualFrags: [first],
             },
             Charmander: { setData: { "My Box": {} }, frags: [first], fragSplitIndexes: { [first]: 2 } },
         };
         context.localStorage.encounters = JSON.stringify(old);
         context.syncImportedEncounterState({ Bulbasaur: { "My Box": { nature: "Modest" } } }, []);
         expect(context.encounters.Bulbasaur.fragSplitIndexes).toEqual(old.Bulbasaur.fragSplitIndexes);
+        expect(context.encounters.Bulbasaur.manualFrags).toEqual([first]);
         expect(context.encounters.Charmander.fragSplitIndexes).toEqual(old.Charmander.fragSplitIndexes);
         context.activeSplit = "all";
         context.refreshTables();
@@ -99,6 +102,35 @@ describe("save-file fragsheet splits", () => {
         context.refreshTables();
         const filtered = context.rowData.find((entry) => entry.species === "Bulbasaur");
         expect([filtered.totalKo, filtered.split0, filtered.split3]).toEqual([1, 0, 1]);
+    });
+
+    test.each([375, 960])("shows only Status, Img and KOs at %ipx, including save logs", (width) => {
+        const { context } = loadFragsheet(true, width);
+        for (const split of ["all", "all-simple", 0, 3, 8]) {
+            context.activeSplit = split;
+            context.setColumnDefs();
+            expect(context.columnDefs.filter((col) => !col.hide).map((col) => col.headerName))
+                .toEqual(["Status", "Img", "KOs"]);
+        }
+    });
+
+    test("restores desktop columns on resize and leaves desktop stats behavior intact", () => {
+        const { context, tabs, listeners } = loadFragsheet(true, 375);
+        expect(tabs["#stats-tab"].visible).toBe(false);
+        context.innerWidth = 961;
+        listeners.resize();
+        expect(context.columnDefs.filter((col) => !col.hide).map((col) => col.headerName))
+            .toEqual(expect.arrayContaining(["#", "Nickname", "Species", "Met Location", "KOs", "Battles", "KO Share"]));
+        expect(context.columnDefs.every((col) => typeof col.hide === "boolean")).toBe(true);
+        expect(tabs["#stats-tab"].visible).toBe(true);
+        context.activeSplit = 9;
+        context.refreshTables();
+        expect(context.columnDefs.find((col) => col.field === "nature").hide).toBe(false);
+        context.innerWidth = 375;
+        listeners.resize();
+        expect(context.activeSplit).toBe("all-simple");
+        expect(context.columnDefs.filter((col) => !col.hide).map((col) => col.headerName))
+            .toEqual(["Status", "Img", "KOs"]);
     });
 
     test("rebuilds cached splits when the trainer order arrives after the data", async () => {

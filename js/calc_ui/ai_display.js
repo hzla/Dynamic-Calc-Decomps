@@ -147,15 +147,149 @@ if (typeof window !== "undefined") {
     window.getPlatinumKaizoMoveAiUrl = getPlatinumKaizoMoveAiUrl
 }
 
+// One configured mask drives both the badges and Gen V reference. CSS visibility
+// is not state: the responsive calculator deliberately hides these badges.
+window.configuredTrainerAiMask = null
+function syncConfiguredTrainerAi(ai, generation) {
+    let valid = ai !== null && ai !== undefined && ai !== "" && Number.isInteger(Number(ai)) && Number(ai) >= 0
+    window.configuredTrainerAiMask = valid && (generation == 4 || generation == 5) ? Number(ai) : null
+    $('#ai-container').hide().empty().removeClass('gen5-ai-panel').removeAttr('role aria-labelledby')
+    if (generation != 4 && generation != 5) {
+        $('#ai5').text('Risky').removeAttr('title')
+        $('#ai6').text('Prio Damage').removeAttr('title')
+        return
+    }
+    Gen5AiReference.FLAGS.forEach(function(flag, index) {
+        let id = 'ai' + (index + 1)
+        if (!document.getElementById(id)) $('#ai-tags').append($('<div>').attr('id', id).addClass('ai-tag'))
+        let label = generation == 4 && index === 4 ? 'Risky' : generation == 4 && index === 5 ? 'Prio Damage' : flag.badge
+        let title = generation == 4 && index === 4 ? 'Risky AI' : generation == 4 && index === 5 ? 'Prioritize Damage AI' : flag.title
+        if (generation == 5 && index === 4) title += ': favors damaging moves on turn one and may favor status moves against a weakened target.'
+        if (generation == 5 && index === 5) title += ': favors Fusion Flare for Reshiram and Fusion Bolt for Zekrom on turn one.'
+        $('#' + id).text(label).attr('title', title).toggle(valid && !!(Number(ai) & flag.bit))
+    })
+}
+
+function gen5AiConditionText(condition) {
+    let text = condition.text
+    if (condition.negated) {
+        if (text.includes('predicts no damage')) text = text.replace('predicts no damage', 'predicts some damage')
+        else if (text.includes(' has not ')) text = text.replace(' has not ', ' has ')
+        else if (text.includes(' knows ')) text = text.replace(' knows ', ' does not know ')
+        else if (text.includes(' estimates ')) text = text.replace(' estimates ', ' does not estimate ')
+        else if (text.includes(' gives ')) text = text.replace(' gives ', ' does not give ')
+        else if (text.includes(' have ')) text = text.replace(' have ', ' do not have ')
+        else if (text.includes(' is below ')) text = text.replace(' is below ', ' is at least ')
+        else if (text.includes(' is above ')) text = text.replace(' is above ', ' is at most ')
+        else if (text.includes(' is not ')) text = text.replace(' is not ', ' is ')
+        else if (text.includes(' is ')) text = text.replace(' is ', ' is not ')
+        else if (text.includes(' are ')) text = text.replace(' are ', ' are not ')
+        else if (text.includes(' has ')) text = text.replace(' has ', ' does not have ')
+        else if (text.includes(' knows ')) text = text.replace(' knows ', ' does not know ')
+        else if (text.includes(' holds ')) text = text.replace(' holds ', ' does not hold ')
+        else if (text.includes(' matches ')) text = text.replace(' matches ', ' does not match ')
+        else if (text.includes(' assigns ')) text = text.replace(' assigns ', ' does not assign ')
+        else if (text.includes(' ties or beats ')) text = text.replace(' ties or beats ', ' does not tie or beat ')
+        else throw new Error('Missing English negation: ' + text)
+    }
+    return text
+}
+
+function renderGen5AiCondition(condition) {
+    if (condition.any || condition.all) {
+        let conditions = condition.any || condition.all
+        let label = condition.any ? (condition.negated ? 'none of these apply' : 'any of these apply') : (condition.negated ? 'at least one of these does not apply' : 'all of these apply')
+        return label + ':<ul class="ai-conditions">' + conditions.map(function(child) {
+            return '<li>' + renderGen5AiCondition(child) + '</li>'
+        }).join('') + '</ul>'
+    }
+    let text = escapeAiHtml(gen5AiConditionText(condition))
+    if (condition.items && condition.items.length) {
+        if (condition.items.length <= 3) text += ' ' + condition.items.map(escapeAiHtml).join(' / ')
+        else text += '<details class="ai-name-list"><summary>See the list (' + condition.items.length + ')</summary><ul>' + condition.items.map(item => '<li>' + escapeAiHtml(item) + '</li>').join('') + '</ul></details>'
+    }
+    return text
+}
+
+function gen5AiScoreHtml(delta, sentenceStart) {
+    let verb = delta > 0 ? 'add' : 'subtract'
+    if (sentenceStart) verb = verb.charAt(0).toUpperCase() + verb.slice(1)
+    return '<span class="ai-score ' + (delta > 0 ? 'ai-score-up' : 'ai-score-down') + '">' + verb + ' ' + Math.abs(delta) + (Math.abs(delta) === 1 ? ' point' : ' points') + '</span>'
+}
+
+function renderGen5AiRules(rules) {
+    return rules.map(function(rule) {
+        if (rule.type === 'end') return '<p class="ai-end">No further changes from this flag.</p>'
+        if (rule.type === 'score') return '<p class="ai-outcome">' + gen5AiScoreHtml(rule.delta, true) + '.</p>'
+        let heading
+        if (rule.type === 'chance') {
+            let chance = Gen5AiReference.chancePercent(rule.numerator, rule.denominator)
+            let shared = rule.shared ? ' <span class="ai-shared-roll" title="This check reuses the shared roll. Chances shown here account for earlier checks in this flag.">shared roll</span>' : ''
+            if (rule.yes.length === 1 && rule.yes[0].type === 'score' && rule.no.length === 0) {
+                return '<p class="ai-outcome">' + chance + ' chance to ' + gen5AiScoreHtml(rule.yes[0].delta) + '.' + shared + '</p>'
+            }
+            heading = chance + ' chance:' + shared
+        } else heading = 'If ' + renderGen5AiCondition(rule.condition) + (rule.condition.any || rule.condition.all || rule.condition.items && rule.condition.items.length > 3 ? '' : ':')
+        let html = '<div class="ai-rule"><div class="ai-condition">' + heading + '</div><div class="ai-branch">' + renderGen5AiRules(rule.yes) + '</div>'
+        if (rule.no.length) html += '<div class="ai-otherwise">Otherwise:</div><div class="ai-branch">' + renderGen5AiRules(rule.no) + '</div>'
+        return html + '</div>'
+    }).join('')
+}
+
+function renderGen5AiReference(moveName, focusMove) {
+    moveName = moveName && moveName !== '(No Move)' ? moveName : ''
+    let loadedMove = typeof moves !== 'undefined' && moves ? moves[moveName] : null
+    let exportedMove = typeof backup_data !== 'undefined' && backup_data.moves ? backup_data.moves[moveName] : null
+    let moveData = Object.assign({}, Gen5AiData.moves[moveName] || {}, exportedMove || {}, loadedMove || {})
+    let info = moveName ? Gen5AiReference.describeMove({ moveName: moveName, moveData: moveData,
+        aiMask: window.configuredTrainerAiMask, battleFormat: $('#doubles-format').is(':checked') ? 'Doubles' : 'Singles' }) : {
+        flags: Gen5AiReference.FLAGS.filter(flag => window.configuredTrainerAiMask & flag.bit), sections: [], notices: []
+    }
+    let moveNames = Object.keys(Gen5AiData.moves)
+    if (moveName && !moveNames.includes(moveName)) moveNames.push(moveName)
+    let options = '<option value=""' + (!moveName ? ' selected' : '') + '>Select a move</option>'
+    options += moveNames.sort((a, b) => a.localeCompare(b)).map(function(name) {
+        return '<option value="' + escapeAiHtml(name) + '"' + (name === moveName ? ' selected' : '') + '>' + escapeAiHtml(name) + '</option>'
+    }).join('')
+    let html = '<div class="ai-header"><h2 id="gen5-ai-title" class="visually-hidden">' + escapeAiHtml(moveName || 'Move') + ' AI</h2><div class="ai-move-title"><select id="gen5-ai-move" aria-label="Move for AI explanation">' + options + '</select></div><button type="button" class="ai-close" aria-label="Close AI reference">×</button></div>'
+    html += '<p class="ai-meta">' + (info.flags.length ? 'Enabled: ' + info.flags.map(flag => escapeAiHtml(flag.badge)).join(', ') : 'No scoring flags') + '</p>'
+    if (moveName) html += '<details class="ai-reading-notes"><summary>How to read these checks</summary><p>The user is the trainer’s Pokémon; the target is its opponent. Read each flag from top to bottom. Score changes add together, and a score cannot fall below zero. “No further changes” ends that flag’s checks; the other enabled flags still apply.</p><p>A chance applies once its preceding conditions are met. Checks marked “shared roll” reuse one random number, across moves and flags in the same decision, so their outcomes are linked. Other chance checks use fresh rolls.</p><p>These are possible conditions, not a reading of the current battle. An opponent’s moves count only after being revealed. For an unrevealed ability, the AI can pick from the species’ nonempty ability slots with equal chances per slot; repeated abilities therefore have more weight. The AI recognizes Shadow Tag, Magnet Pull and Arena Trap even before they are revealed.</p><p>HP percentages are rounded down. Speed checks include stat stages, field effects and Trick Room, but do not include move priority. Damage checks use the game’s AI estimate, which may differ from the calculator’s displayed damage.</p></details>'
+    info.notices.forEach(notice => { html += '<p class="ai-empty">' + escapeAiHtml(notice) + '</p>' })
+    info.sections.forEach(function(section) {
+        html += '<section class="ai-section" data-ai-flag="' + escapeAiHtml(section.key) + '"><h3 class="ai-section-title">' + escapeAiHtml(section.title) + '</h3>'
+        html += section.rules.length ? renderGen5AiRules(section.rules) : '<p class="ai-empty">' + escapeAiHtml(section.empty) + '</p>'
+        html += '</section>'
+    })
+    $('#ai-container').addClass('gen5-ai-panel').attr({ role: 'dialog', 'aria-labelledby': 'gen5-ai-title' }).html(html).show().scrollTop(0)
+    $(focusMove || !moveName ? '#gen5-ai-move' : '#ai-container .ai-close').trigger('focus')
+}
+
+$(document).on('change', '#gen5-ai-move', function() {
+    renderGen5AiReference($(this).val(), true)
+})
+$(document).on('click', '#ai-container .ai-close', function() {
+    $('#ai-container').hide()
+    $('#show-ai').trigger('focus')
+})
+$(document).on('keydown', function(event) {
+    if (event.key === 'Escape') $('#ai-container').hide()
+})
+$(document).on('keydown', '#show-ai', function(event) {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); $(this).trigger('click') }
+})
+$(document).on('change', '.result-move, #p2 .move-selector, #p2 .set-selector, #singles-format, #doubles-format', function() {
+    if (gameGen == 5) $('#ai-container').hide().empty()
+})
+
 $(document).on('click', '#show-ai', function(event) {
         
         let selectedMoveBtn = $(".results-right .visually-hidden:checked + .btn")
-        if (selectedMoveBtn.length === 0) {
+        if (selectedMoveBtn.length === 0 && gameGen != 5) {
             alert("Select an AI trainer move first to view its AI logic.")
             return
         }
 
-        let move = selectedMoveBtn.text().trim()
+        let move = (gameGen == 5 ? selectedMoveBtn.attr('title') || selectedMoveBtn.text() : selectedMoveBtn.text()).trim()
         if (TITLE === "Platinum Kaizo") {
             event.preventDefault()
             $("#ai-container").hide().empty()
@@ -224,24 +358,7 @@ $(document).on('click', '#show-ai', function(event) {
             $("#ai-container").html(aiHtml)
             return
         }    
-        // For game gen 5
-        $("#ai-container").toggle()
-
-        if ($('#ai-container:visible').length > 0) {
-             var gen5Move = $(".results-right .visually-hidden:checked + .btn").text()
-            if (gen5Move == "") {
-                return
-            }
-            var effect_code = backup_data.moves[gen5Move]["e_id"]
-            var ai_content = g5Effects[effect_code]
-
-            ai_html = ""
-            ai_html += `<div class="ai-header"><h2>${gen5Move} AI</h2>${getAiHeaderLinkHtml()}</div><br>`
-
-            for (n in ai_content) {
-                ai_html += ai_content[n].replace("\t", "&ensp;")
-                ai_html += "<br>"
-            }
-            $("#ai-container").html(ai_html)
-        }
+        if (gameGen != 5) return
+        if ($('#ai-container:visible').length) $('#ai-container').hide()
+        else renderGen5AiReference(move)
    })

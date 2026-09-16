@@ -2545,6 +2545,9 @@ $(".set-selector").change(function () {
 	var shouldAdjustWeather = false
 	var selectedSet = setdex && setdex[pokemonName] ? setdex[pokemonName][setName] : null
 	var isTemporaryOpponentSet = $(this).hasClass('opposing') && selectedSet && selectedSet.isTemporaryOpponentSet
+	if ($(this).hasClass('opposing')) {
+		syncConfiguredTrainerAi(isTemporaryOpponentSet || !selectedSet ? null : selectedSet.ai, settings.damageGen)
+	}
 
 	if ($(this).hasClass('opposing') && typeof refreshChallengeModeLevelBadge === "function") {
 		refreshChallengeModeLevelBadge(selectedSet)
@@ -2703,15 +2706,7 @@ $(".set-selector").change(function () {
 
 
 				if (settings.damageGen == 4 || settings.damageGen == 5) {
-					ai = setdex[pokemonName][setName]["ai"]
-					for (n in [1,2,3,4,5,6,7,8,9,10,11]) {
-						n = parseInt(n)
-						if (ai & (1 << n)) {
-							$(`#ai${n + 1}`).show()
-						} else {
-							$(`#ai${n + 1}`).hide()
-						}
-					}
+					// The configured mask and badges were synchronized above, including empty sets.
 				} else {
 					$('#ai-tags').html("")
 					if (typeof ai != "undefined") {

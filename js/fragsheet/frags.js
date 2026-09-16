@@ -69,6 +69,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 			fragCount: typeof encounter.fragCount === "number" ? encounter.fragCount : 0,
 			frags: Array.isArray(encounter.frags) ? [...encounter.frags] : [],
 			fragSplitIndexes: cloneEncounterFragSplitIndexes(encounter),
+			manualFrags: Array.isArray(encounter.manualFrags) ? [...encounter.manualFrags] : [],
 			prevoFragCount: typeof encounter.prevoFragCount === "number" ? encounter.prevoFragCount : 0,
 			alive: typeof encounter.alive === "boolean" ? encounter.alive : true,
 			hide: Boolean(encounter.hide)
@@ -94,6 +95,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 			fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
 			frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
 			fragSplitIndexes: cloneEncounterFragSplitIndexes(previousEncounter),
+			manualFrags: Array.isArray(previousEncounter.manualFrags) ? [...previousEncounter.manualFrags] : [],
 			prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
 			alive: !deadSpeciesLookup[speciesName],
 			hide: Boolean(previousEncounter.hide)
@@ -116,6 +118,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 				fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
 				frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
 				fragSplitIndexes: cloneEncounterFragSplitIndexes(previousEncounter),
+				manualFrags: Array.isArray(previousEncounter.manualFrags) ? [...previousEncounter.manualFrags] : [],
 				prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
 				alive: false,
 				hide: Boolean(previousEncounter.hide)
@@ -218,54 +221,53 @@ function extractLevel(str) {
     return match ? match[1] : null;
 }
 
-function addFrag(e) {
-	if (TITLE != "Pokemon Null" && TITLE != "Platinum Kaizo") {
-		e.preventDefault()
-		let speciesName = $('.select2-chosen')[0].innerHTML.split(" (")[0]
-		let fragged =  $('.select2-chosen')[5].innerHTML
-
-		const internalLevel = extractLevel(fragged)
-		let actualLevel = $('#levelR1').val()
-
-		if (parseInt(actualLevel) <= 0) {
-			actualLevel = $('#levelL1').val() || "1"
-		}
-		fragged = fragged.replace(internalLevel, actualLevel);
-		let currentEncounters = JSON.parse(localStorage.encounters)
-
-		if (currentEncounters[speciesName] && currentEncounters[speciesName].frags.indexOf(fragged) == -1 ) {
-			currentEncounters[speciesName].fragCount += 1
-			currentEncounters[speciesName].frags.push(fragged) 
-			localStorage.encounters = JSON.stringify(currentEncounters)
-
-			$('#p2 .frag-text').show()
-
-			$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
-
-			setTimeout(function() {
-				$('#p2 .frag-text').hide()
-			},300)
-
-			console.log(`${speciesName} fragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
-		} else if (currentEncounters[speciesName].frags.indexOf(fragged) != -1) {
-			currentEncounters[speciesName].frags = currentEncounters[speciesName].frags.filter(item => item !== fragged)
-			currentEncounters[speciesName].fragCount -= 1
-			localStorage.encounters = JSON.stringify(currentEncounters)
-
-			$('#p2 .unfrag-text').show()
-
-			setTimeout(function() {
-				$('#p2 .unfrag-text').hide()
-			},300)
-			$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
-
-			console.log(`${speciesName} unfragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
-		} else {
-			alert(`${speciesName} not found in encounter list`)
-		}
-		return currentEncounters
+function addFrag(e, options = {}) {
+	// Retain the sprite-click exclusions; the explicit KO button may record any
+	// imported player encounter without toggling away an existing credit.
+	if (!options.addOnly && (TITLE == "Pokemon Null" || TITLE == "Platinum Kaizo")) return
+	if (e && typeof e.preventDefault === "function") e.preventDefault()
+	const playerSet = $('.player.set-selector').first().val() || $('#p1 .select2-chosen').first().text() || ""
+	const opposingSet = $('.opposing.set-selector').first().val() || $('#p2 .select2-chosen').first().text() || ""
+	const speciesName = String(playerSet).split(" (")[0].trim()
+	let fragged = String(opposingSet).replace(/\[[^\]]*\]$/, "").trim()
+	if (!speciesName || !fragged) return
+	let actualLevel = Number($('#levelR1').val())
+	if (!Number.isFinite(actualLevel) || actualLevel <= 0) actualLevel = Number($('#levelL1').val()) || 1
+	fragged = fragged.replace(/(Lvl\s+)-?\d+/, `$1${actualLevel}`)
+	const currentEncounters = getEncounters()
+	const encounter = currentEncounters[speciesName]
+	if (!encounter) {
+		alert(`${speciesName} not found in encounter list. Import your party/box first.`)
+		return
 	}
-	
+	encounter.frags = Array.isArray(encounter.frags) ? encounter.frags : []
+	encounter.manualFrags = Array.isArray(encounter.manualFrags) ? encounter.manualFrags : []
+	const alreadyRecorded = encounter.frags.includes(fragged)
+	if (alreadyRecorded && options.addOnly) return currentEncounters
+	if (alreadyRecorded) {
+		encounter.frags = encounter.frags.filter(item => item !== fragged)
+		encounter.manualFrags = encounter.manualFrags.filter(item => item !== fragged)
+		if (encounter.fragSplitIndexes) delete encounter.fragSplitIndexes[fragged]
+	} else {
+		encounter.frags.push(fragged)
+		if (!encounter.manualFrags.includes(fragged)) encounter.manualFrags.push(fragged)
+		if (typeof getTrainerPreviewTrainerIdFromSet === "function" && typeof window.getManualFragTrainerSplitIndex === "function") {
+			const splitIndex = window.getManualFragTrainerSplitIndex(getTrainerPreviewTrainerIdFromSet(opposingSet))
+			if (splitIndex != null) {
+				encounter.fragSplitIndexes = cloneEncounterFragSplitIndexes(encounter)
+				encounter.fragSplitIndexes[fragged] = splitIndex
+			}
+		}
+	}
+	encounter.fragCount = encounter.frags.length
+	localStorage.encounters = JSON.stringify(currentEncounters)
+	window.encounters = currentEncounters
+	if (typeof window.refreshTables === "function" && window.gridApi) window.refreshTables()
+	const feedback = alreadyRecorded ? '#p2 .unfrag-text' : '#p2 .frag-text'
+	$(feedback).show()
+	setTimeout(function() { $(feedback).hide() }, 300)
+	$('#frag-count').text(`Frags: ${encounter.fragCount}`)
+	return currentEncounters
 }
 
 function toggleEncounterStatus(e) {

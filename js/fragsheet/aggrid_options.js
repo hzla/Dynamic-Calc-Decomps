@@ -9,6 +9,18 @@ const DEFAULT_FRAGSHEET_SPLIT_DATA = {
 }
 let hasDetailedSplitData = true;
 
+function isMobileFragsheetViewport() {
+    return window.innerWidth <= 960;
+}
+
+let lastMobileFragsheetViewport = isMobileFragsheetViewport();
+window.addEventListener('resize', function() {
+    const mobile = isMobileFragsheetViewport();
+    if (mobile === lastMobileFragsheetViewport) return;
+    lastMobileFragsheetViewport = mobile;
+    if (window.gridApi) refreshTables();
+});
+
 function getFragsheetSplitData(title) {
     const saveFileActive = typeof window.isSaveFileBattleLogActive === "function"
         && window.isSaveFileBattleLogActive();
@@ -42,6 +54,7 @@ function syncSplitTabVisibility(splitConfig) {
     hasDetailedSplitData = splitConfig !== DEFAULT_FRAGSHEET_SPLIT_DATA;
 
     $('#all-tab').toggle(hasDetailedSplitData);
+    $('#stats-tab').toggle(!isMobileFragsheetViewport());
     for (let splitIndex = 0; splitIndex < 9; splitIndex++) {
         const hasSplit = hasDetailedSplitData && typeof splitTitles[splitIndex] !== "undefined";
         $(`#split-${splitIndex}-tab`)
@@ -73,7 +86,8 @@ function refreshFragsheetSplitConfig() {
     lvlcaps = splitConfig.lvls
     syncSplitTabVisibility(splitConfig)
     // A source change can remove the selected split; 9 is the IVs view.
-    if (typeof activeSplit === "number" && activeSplit < 9 && !splitTitles[activeSplit]) {
+    if (typeof activeSplit === "number" && ((activeSplit < 9 && !splitTitles[activeSplit])
+        || (activeSplit === 9 && isMobileFragsheetViewport()))) {
         activeSplit = "all-simple"
         $('.tab[data-split]').removeClass('active')
         $('#all-simple-tab').addClass('active')
@@ -165,6 +179,7 @@ function setColumnDefs() {
         },
         {
             headerName: 'Img',
+            colId: 'pokemonImage',
             field: 'species',
             width: 80,
             cellRenderer: (params) => {
@@ -362,6 +377,12 @@ function setColumnDefs() {
         },
 
     ];
+    const mobile = isMobileFragsheetViewport();
+    const mobileColumns = new Set(['status', 'pokemonImage', 'totalKo']);
+    columnDefs.forEach(function(column) {
+        // Explicit false restores columns: AG Grid retains hide state for undefined.
+        column.hide = mobile ? !mobileColumns.has(column.colId || column.field) : Boolean(column.hide);
+    });
 }
 
 function displayFragHistory(rowData) {

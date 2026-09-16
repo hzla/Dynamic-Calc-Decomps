@@ -244,6 +244,19 @@
         });
     }
 
+    function getManualFragTrainerSplitIndex(trainerId) {
+        const rules = window.battleLogSplitRules;
+        const progression = getBattleLogProgressionConfig();
+        if (!rules || !progression || !Number.isInteger(Number(trainerId)) || Number(trainerId) <= 0) return null;
+        const payload = isSaveFileBattleLogActive() ? readLocalStorageJson(SAVE_FILE_BATTLE_LOG_STORAGE_KEY) : null;
+        const ids = (getBattleLogRecordsArray(payload) || [])
+            .filter((event) => event && event.type === "session_start")
+            .map((start) => getSessionTrainerId({ start }));
+        // Use the same order-first / latest recorded gym fallback as save logs.
+        ids.push(Number(trainerId));
+        return rules.assignSplitIndexes(ids, getCurrentTrainerOrder(), progression).pop();
+    }
+
     function cleanSpeciesKey(speciesName) {
         return String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
     }
@@ -2545,9 +2558,15 @@
         for (const species of Object.keys(allSpeciesPresent)) {
             const enc = window.encounters[species];
             if (!enc) continue;
-            enc.frags = [];
+            // A manual KO button/sprite credit is not owned by the imported log.
+            // Retain it across rebuilds, deduplicating against matching log entries.
+            enc.frags = Array.isArray(enc.manualFrags) ? [...new Set(enc.manualFrags)] : [];
+            const oldSplits = enc.fragSplitIndexes || {};
             enc.fragSplitIndexes = {};
-            enc.fragCount = 0;
+            enc.frags.forEach((frag) => {
+                if (oldSplits[frag] != null) enc.fragSplitIndexes[frag] = oldSplits[frag];
+            });
+            enc.fragCount = enc.frags.length;
             enc.prevoFragCount = 0;
             enc.alive = true;
         }
@@ -3925,6 +3944,7 @@
     window.isSaveFileBattleLogActive = isSaveFileBattleLogActive;
     window.getSaveFileBattlesBroughtForSpecies = getSaveFileBattlesBroughtForSpecies;
     window.updateSaveFileBattleLog = updateSaveFileBattleLog;
+    window.getManualFragTrainerSplitIndex = getManualFragTrainerSplitIndex;
     window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
     window.getBattleLogPlayerPartyReconstructionSets = getBattleLogPlayerPartyReconstructionSets;
 
