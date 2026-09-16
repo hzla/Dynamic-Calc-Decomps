@@ -25,6 +25,11 @@ function sanitizeEncounterSetData(setData) {
 	return sanitizedSetData
 }
 
+function cloneEncounterFragSplitIndexes(encounter) {
+	const splits = encounter && encounter.fragSplitIndexes
+	return splits && typeof splits === "object" && !Array.isArray(splits) ? { ...splits } : {}
+}
+
 function getStoredDeadMons() {
 	if (!localStorage.deadMons) {
 		return []
@@ -63,6 +68,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 			setData: cloneEncounterSetData(encounter && encounter.setData),
 			fragCount: typeof encounter.fragCount === "number" ? encounter.fragCount : 0,
 			frags: Array.isArray(encounter.frags) ? [...encounter.frags] : [],
+			fragSplitIndexes: cloneEncounterFragSplitIndexes(encounter),
 			prevoFragCount: typeof encounter.prevoFragCount === "number" ? encounter.prevoFragCount : 0,
 			alive: typeof encounter.alive === "boolean" ? encounter.alive : true,
 			hide: Boolean(encounter.hide)
@@ -87,6 +93,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 			setData: sanitizeEncounterSetData(setData),
 			fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
 			frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
+			fragSplitIndexes: cloneEncounterFragSplitIndexes(previousEncounter),
 			prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
 			alive: !deadSpeciesLookup[speciesName],
 			hide: Boolean(previousEncounter.hide)
@@ -108,6 +115,7 @@ function syncImportedEncounterState(customsetsInput, deadMonsInput) {
 				setData: buildMinimalDeadEncounterSet(deadMon),
 				fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
 				frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
+				fragSplitIndexes: cloneEncounterFragSplitIndexes(previousEncounter),
 				prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
 				alive: false,
 				hide: Boolean(previousEncounter.hide)

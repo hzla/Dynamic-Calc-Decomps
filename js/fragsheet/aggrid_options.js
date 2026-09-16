@@ -10,6 +10,18 @@ const DEFAULT_FRAGSHEET_SPLIT_DATA = {
 let hasDetailedSplitData = true;
 
 function getFragsheetSplitData(title) {
+    const saveFileActive = typeof window.isSaveFileBattleLogActive === "function"
+        && window.isSaveFileBattleLogActive();
+    const rules = window.battleLogSplitRules;
+    const progression = saveFileActive && rules && typeof rules.getProgressionForTitle === "function"
+        ? rules.getProgressionForTitle(title)
+        : null;
+    if (progression) {
+        // Save logs carry trainer-order splits, not historical Pokemon levels.
+        // Share the Battle Log tab's titles without requiring a level-cap table.
+        return { titles: progression.splitTitles, lvls: [], types: [] };
+    }
+
     if (typeof splitData !== "object" || !splitData) {
         return DEFAULT_FRAGSHEET_SPLIT_DATA;
     }
@@ -41,11 +53,7 @@ function syncSplitTabVisibility(splitConfig) {
 function initializeSplits() {
     TITLE = SOURCES[params.get('data')] || TITLE
     $('#sheet-title').text(`${TITLE} Sheet`)
-    const splitConfig = getFragsheetSplitData(TITLE)
-    splitTitles = splitConfig["titles"]
-    syncSplitTabVisibility(splitConfig)
-
-    lvlcaps = splitConfig["lvls"]
+    refreshFragsheetSplitConfig()
     if (typeof localStorage.encounters != "undefined" && localStorage.encounters != "") {
 
         encounters = JSON.parse(localStorage.encounters)
@@ -57,6 +65,19 @@ function initializeSplits() {
     globalSeenTrainers = {}
     activeSplit = "all-simple"
     columnDefs = []
+}
+
+function refreshFragsheetSplitConfig() {
+    const splitConfig = getFragsheetSplitData(TITLE)
+    splitTitles = splitConfig.titles
+    lvlcaps = splitConfig.lvls
+    syncSplitTabVisibility(splitConfig)
+    // A source change can remove the selected split; 9 is the IVs view.
+    if (typeof activeSplit === "number" && activeSplit < 9 && !splitTitles[activeSplit]) {
+        activeSplit = "all-simple"
+        $('.tab[data-split]').removeClass('active')
+        $('#all-simple-tab').addClass('active')
+    }
 }
 
 // Custom cell renderers
@@ -1261,6 +1282,7 @@ function createRowData() {
 }
 
 function refreshTables() {
+    refreshFragsheetSplitConfig()
     createRowData()
     setColumnDefs()
     gridApi.setGridOption('columnDefs', columnDefs);

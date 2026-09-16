@@ -3781,7 +3781,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Naughty",
                 "moves":
                 [
                     "Bubble Beam",
@@ -7690,7 +7690,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Naughty",
                 "moves":
                 [
                     "Double Kick",
@@ -7825,7 +7825,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves":
                 [
                     "Growth",
@@ -7960,7 +7960,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Sassy",
                 "moves":
                 [
                     "Heat Wave",
@@ -8158,7 +8158,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Naive",
                 "moves":
                 [
                     "Flare Blitz",
@@ -16456,7 +16456,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Timid",
                 "moves":
                 [
                     "Earthquake",
@@ -22800,7 +22800,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Calm",
                 "moves":
                 [
                     "Earthquake",
@@ -38475,7 +38475,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Jolly",
                 "moves":
                 [
                     "Discharge",
@@ -45615,7 +45615,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Jolly",
                 "moves":
                 [
                     "Aqua Tail",
@@ -63082,7 +63082,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Serious",
                 "moves":
                 [
                     "Leaf Storm",

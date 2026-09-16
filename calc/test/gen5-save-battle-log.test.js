@@ -176,6 +176,7 @@ function loadBattleLogRuntime(data) {
     vm.runInNewContext(source.replace(anchor, `
         window.testHelpers = {
             buildBattleLogSessionsFromPayload, getCurrentTrainerOrder,
+            rebuildEncounterFragsFromBattleLog,
             parseTrainerName, parseTrainerLeadLevel, trainerLeadSetHasHeldItem,
         };
     `), context);
@@ -224,6 +225,11 @@ describe("Gen 5 save-file battle log decoder", function () {
             .toEqual(["Banette", "Ludicolo"]);
         expect(runtime.helpers.getCurrentTrainerOrder()).toBe(data.order);
         expect(sessions.map((session) => session.saveFileSplitIndex)).toEqual([1, 2]);
+
+        runtime.window.encounters = { Bulbasaur: { setData: { "My Box": {} }, frags: [] } };
+        runtime.helpers.rebuildEncounterFragsFromBattleLog(sessions, sessions);
+        expect(Object.values(runtime.window.encounters.Bulbasaur.fragSplitIndexes))
+            .toEqual([1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]);
 
         runtime.stored.set("customLeads", JSON.stringify({ 192: "Scizor (Lvl 41 Team Plasma Shadow5)[0]" }));
         expect(runtime.helpers.parseTrainerName(192)).toBe("Team Plasma Shadow5");

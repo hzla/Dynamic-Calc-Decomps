@@ -1087,6 +1087,12 @@ async function loadTrainerOrderFallbackForCurrentTitle() {
                 backup_data.order = trainerOrders
                 npoint_data = backup_data
                 console.log("loaded harcoded trainer orders")
+                // Cached save logs may have rendered before this async fallback.
+                // Rebuild their splits now that the authoritative order is ready.
+                if (typeof window.isSaveFileBattleLogActive === "function" && window.isSaveFileBattleLogActive()
+                    && typeof window.renderBattleLogView === "function") {
+                    window.renderBattleLogView(true)
+                }
             } else {
                 console.log("using preexisting trainer orders in calc data")
             }
