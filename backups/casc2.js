@@ -7274,7 +7274,7 @@ backup_data = {
         "Rain Dish",
         "Drizzle",
         "Quick Draw",
-        "Ballistics"
+        "Turboblaze"
       ],
       "evos": [
         "Wartortle"
@@ -7454,7 +7454,7 @@ backup_data = {
         "Rain Dish",
         "Drizzle",
         "Quick Draw",
-        "Ballistics"
+        "Turboblaze"
       ],
       "evos": [
         "Blastoise"
@@ -7650,7 +7650,7 @@ backup_data = {
         "Rock Head",
         "Drizzle",
         "Quick Draw",
-        "Ballistics"
+        "Turboblaze"
       ]
     },
     "Caterpie": {
@@ -7732,7 +7732,7 @@ backup_data = {
         "Swarm",
         "Anticipation",
         "Serene Grace",
-        "Serene Grace"
+        "Filter"
       ],
       "evos": [
         "Metapod"
@@ -7814,7 +7814,7 @@ backup_data = {
         "Swarm",
         "Anticipation",
         "Serene Grace",
-        "Serene Grace"
+        "Filter"
       ],
       "evos": [
         "Butterfree"
@@ -7995,7 +7995,7 @@ backup_data = {
         "Swarm",
         "Anticipation",
         "Serene Grace",
-        "Serene Grace"
+        "Effect Spore"
       ]
     },
     "Weedle": {
@@ -8053,7 +8053,7 @@ backup_data = {
         "Swarm",
         "Sniper",
         "Anticipation",
-        "Anticipation"
+        "Stakeout"
       ],
       "evos": [
         "Kakuna"
@@ -8139,7 +8139,7 @@ backup_data = {
         "Swarm",
         "Sniper",
         "Anticipation",
-        "Anticipation"
+        "Stakeout"
       ],
       "evos": [
         "Beedrill"
@@ -8310,7 +8310,7 @@ backup_data = {
         "Swarm",
         "Sniper",
         "Anticipation",
-        "Anticipation"
+        "Stakeout"
       ]
     },
     "Pidgey": {
@@ -8991,9 +8991,9 @@ backup_data = {
         "Adaptability",
         "Guts",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        " -",
+        " -",
+        " -"
       ],
       "evos": [
         "Raticate"
@@ -9169,9 +9169,9 @@ backup_data = {
         "Adaptability",
         "Guts",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        " -",
+        " -",
+        " -"
       ]
     },
     "Spearow": {
@@ -10040,7 +10040,7 @@ backup_data = {
         "Static",
         "Plus",
         "Minus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Raichu",
@@ -10244,8 +10244,8 @@ backup_data = {
         "Galvanize",
         "Sheer Force",
         "Plus",
-        "Minus",
-        "Minus"
+        "Sand Veil",
+        "Static"
       ]
     },
     "Sandshrew": {
@@ -11248,7 +11248,7 @@ backup_data = {
         "Thick Fat",
         "Sand Stream",
         "Sand Veil",
-        "Anger Point"
+        "Multiscale"
       ]
     },
     "Nidoran-M": {
@@ -12476,7 +12476,7 @@ backup_data = {
         "Magic Guard",
         "Drought",
         "Illusion",
-        "Illusion"
+        "Serene Grace"
       ],
       "evos": [
         "Ninetales",
@@ -12668,7 +12668,7 @@ backup_data = {
         "Magic Guard",
         "Drought",
         "Illusion",
-        "Illusion"
+        "Serene Grace"
       ]
     },
     "Jigglypuff": {
@@ -13229,7 +13229,7 @@ backup_data = {
         "Infiltrator",
         "Shadow Tag",
         "Stakeout",
-        "Anticipation"
+        "Sniper"
       ],
       "evos": [
         "Golbat"
@@ -13402,7 +13402,7 @@ backup_data = {
         "Infiltrator",
         "Shadow Tag",
         "Stakeout",
-        "Anticipation"
+        "Sniper"
       ],
       "evos": [
         "Crobat",
@@ -15954,7 +15954,7 @@ backup_data = {
         "Berserk",
         "Hustle",
         "Anger Point",
-        "Moody"
+        "Tinted Lens"
       ],
       "evos": [
         "Primeape"
@@ -16147,7 +16147,7 @@ backup_data = {
         "Berserk",
         "Hustle",
         "Anger Point",
-        "Moody"
+        "Tinted Lens"
       ]
     },
     "Growlithe": {
@@ -19469,7 +19469,7 @@ backup_data = {
         "Rock Head",
         "Shell Armor",
         "Aftermath",
-        "Sand Stream",
+        "Solid Rock",
         "Sand Veil"
       ]
     },
@@ -19811,7 +19811,7 @@ backup_data = {
         "Run Away",
         "Majesty",
         "Reckless",
-        "Drought",
+        "Flame Body",
         "Hustle",
         "Serene Grace"
       ]
@@ -20352,7 +20352,7 @@ backup_data = {
         "Sturdy",
         "Magnet Pull",
         "Levitate",
-        "Minus",
+        "Light Metal",
         "Plus",
         "Levitate"
       ],
@@ -20529,7 +20529,7 @@ backup_data = {
         "Sturdy",
         "Patient",
         "Levitate",
-        "Minus",
+        "Light Metal",
         "Plus",
         "Levitate"
       ],
@@ -20897,7 +20897,7 @@ backup_data = {
         "Run Away",
         "Sand Rush",
         "Tough Claws",
-        "Sand Stream",
+        "Hustle",
         "Moody",
         "Sand Veil"
       ],
@@ -21081,7 +21081,7 @@ backup_data = {
         "Run Away",
         "Sand Rush",
         "Tough Claws",
-        "Sand Stream",
+        "Hustle",
         "Moody",
         "Sand Veil"
       ]
@@ -21235,7 +21235,7 @@ backup_data = {
         "Slush Rush",
         "Swift Swim",
         "Snow Warning",
-        "Slush Rush",
+        "Lightning Rod",
         "Snow Cloak"
       ],
       "evos": [
@@ -21420,7 +21420,7 @@ backup_data = {
         "Slush Rush",
         "Swift Swim",
         "Snow Warning",
-        "Slush Rush",
+        "Lightning Rod",
         "Snow Cloak"
       ]
     },
@@ -21585,7 +21585,7 @@ backup_data = {
         "Water Absorb",
         "Stench",
         "Poison Touch",
-        "Poison Touch"
+        "Cursed Body"
       ],
       "evos": [
         "Muk",
@@ -22289,8 +22289,8 @@ backup_data = {
         "Unnerve",
         "Neutralizing Gas",
         "Shadow Tag",
-        "Illusion",
-        "Stench"
+        "Stench",
+        "Bad Dreams"
       ],
       "evos": [
         "Haunter"
@@ -22469,8 +22469,8 @@ backup_data = {
         "Unnerve",
         "Neutralizing Gas",
         "Shadow Tag",
-        "Illusion",
-        "Stench"
+        "Stench",
+        "Bad Dreams"
       ],
       "evos": [
         "Gengar",
@@ -22665,8 +22665,8 @@ backup_data = {
         "Unnerve",
         "Neutralizing Gas",
         "Shadow Tag",
-        "Illusion",
-        "Stench"
+        "Stench",
+        "Bad Dreams"
       ]
     },
     "Onix": {
@@ -23046,7 +23046,7 @@ backup_data = {
         "Inner Focus",
         "Shadow Tag",
         "Illusion",
-        "Illusion"
+        "Prankster"
       ],
       "evos": [
         "Hypno"
@@ -23262,7 +23262,7 @@ backup_data = {
         "Inner Focus",
         "Shadow Tag",
         "Illusion",
-        "Illusion"
+        "Prankster"
       ]
     },
     "Krabby": {
@@ -23746,8 +23746,8 @@ backup_data = {
         "Reckless",
         "Unnerve",
         "Volt Absorb",
-        "Plus",
-        "Minus",
+        "Lightning Rod",
+        "Static",
         "Aftermath"
       ],
       "evos": [
@@ -23918,8 +23918,8 @@ backup_data = {
         "Reckless",
         "Unnerve",
         "Volt Absorb",
-        "Plus",
-        "Minus",
+        "Lightning Rod",
+        "Static",
         "Aftermath"
       ]
     },
@@ -24086,7 +24086,7 @@ backup_data = {
         "Gourmand",
         "Chlorophyll",
         "Shell Armor",
-        "Moody",
+        "Gourmand",
         "Aftermath",
         "Overcoat"
       ],
@@ -24286,7 +24286,7 @@ backup_data = {
         "Gourmand",
         "Chlorophyll",
         "Shell Armor",
-        "Moody",
+        "Gourmand",
         "Aftermath",
         "Overcoat"
       ]
@@ -24827,7 +24827,7 @@ backup_data = {
         "Quick Feet",
         "Hustle",
         "Strong Body",
-        "Strong Body"
+        "Scrappy"
       ]
     },
     "Hitmonchan": {
@@ -24991,7 +24991,7 @@ backup_data = {
         "Savant",
         "Hustle",
         "Strong Body",
-        "Strong Body"
+        "Scrappy"
       ]
     },
     "Lickitung": {
@@ -26277,8 +26277,8 @@ backup_data = {
         "Gooey",
         "Chlorophyll",
         "Chlorophyll",
-        "Chlorophyll",
-        "Chlorophyll"
+        "Thick Fat",
+        "Thick Fat"
       ],
       "evos": [
         "Tangrowth"
@@ -26476,8 +26476,8 @@ backup_data = {
         "Rivalry",
         "Tough Claws",
         "Hustle",
-        "Hustle",
-        "Hustle"
+        "Anger Point",
+        "Anger Point"
       ]
     },
     "Horsea": {
@@ -27763,7 +27763,7 @@ backup_data = {
         "Distracting",
         "Savant",
         "Moody",
-        "Illusion"
+        "Anticipation"
       ]
     },
     "Scyther": {
@@ -28294,9 +28294,9 @@ backup_data = {
         "Static",
         "Teravolt",
         "Galvanize",
-        "Minus",
+        "Iron Fist",
         "Anger Point",
-        "Plus"
+        "Static"
       ],
       "evos": [
         "Electivire"
@@ -28894,7 +28894,7 @@ backup_data = {
         "Swift Swim",
         "Rain Dish",
         "Rattled",
-        "Berserk",
+        "Moody",
         "Drizzle",
         "Swift Swim"
       ],
@@ -29084,7 +29084,7 @@ backup_data = {
         "Intimidate",
         "Mold Breaker",
         "Intimidate",
-        "Berserk",
+        "Moody",
         "Drizzle",
         "Swift Swim"
       ]
@@ -29274,7 +29274,7 @@ backup_data = {
         "Refrigerate",
         "Snow Warning",
         "Snow Cloak",
-        "Filter"
+        "Serene Grace"
       ]
     },
     "Ditto": {
@@ -30048,7 +30048,7 @@ backup_data = {
         "Fur Coat",
         "Anticipation",
         "Drought",
-        "Drought"
+        "Flame Body"
       ]
     },
     "Porygon": {
@@ -31626,9 +31626,9 @@ backup_data = {
         "Swift Swim",
         "Shed Skin",
         "Multiscale",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Thick Fat",
+        "Swift Swim",
+        "Thick Fat"
       ],
       "evos": [
         "Dragonair"
@@ -31820,9 +31820,9 @@ backup_data = {
         "Swift Swim",
         "Shed Skin",
         "Multiscale",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Thick Fat",
+        "Swift Swim",
+        "Thick Fat"
       ],
       "evos": [
         "Dragonite"
@@ -32035,9 +32035,9 @@ backup_data = {
         "Marvel Scale",
         "No Guard",
         "Multiscale",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Thick Fat",
+        "Swift Swim",
+        "Thick Fat"
       ]
     },
     "Mewtwo": {
@@ -35354,7 +35354,7 @@ backup_data = {
         "Infiltrator",
         "Shadow Tag",
         "Stakeout",
-        "Anticipation"
+        "Sniper"
       ]
     },
     "Chinchou": {
@@ -35807,7 +35807,7 @@ backup_data = {
         "Static",
         "Plus",
         "Minus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Pikachu"
@@ -36364,7 +36364,7 @@ backup_data = {
         "Friend Guard",
         "Natural Cure",
         "Healer",
-        "Healer",
+        "Hustle",
         "Healer"
       ],
       "evos": [
@@ -36545,7 +36545,7 @@ backup_data = {
         "Friend Guard",
         "Natural Cure",
         "Healer",
-        "Healer",
+        "Hustle",
         "Healer"
       ],
       "evos": [
@@ -36733,8 +36733,8 @@ backup_data = {
         "Patient",
         "Marvel Scale",
         "Illusion",
-        "Illusion",
-        "Illusion"
+        "Trace",
+        "Trace"
       ],
       "evos": [
         "Xatu"
@@ -36921,8 +36921,8 @@ backup_data = {
         "Patient",
         "Marvel Scale",
         "Illusion",
-        "Illusion",
-        "Illusion"
+        "Trace",
+        "Trace"
       ]
     },
     "Mareep": {
@@ -37455,7 +37455,7 @@ backup_data = {
         "Illuminate",
         "Mold Breaker",
         "Fluffy",
-        "Plus",
+        "Static",
         "Fluffy",
         "Minus"
       ]
@@ -38189,7 +38189,7 @@ backup_data = {
         "Rattled",
         "Sand Stream",
         "Stakeout",
-        "Hustle"
+        "Solid Rock"
       ]
     },
     "Politoed": {
@@ -40224,7 +40224,7 @@ backup_data = {
         "Illuminate",
         "Anticipation",
         "Stakeout",
-        "Illusion"
+        "Poison Touch"
       ]
     },
     "Murkrow": {
@@ -41907,7 +41907,7 @@ backup_data = {
         "Wind Rider",
         "Sand Stream",
         "Sand Veil",
-        "Sand Veil"
+        "Poison Touch"
       ],
       "evos": [
         "Gliscor"
@@ -42081,9 +42081,9 @@ backup_data = {
         "Filter",
         "Sheer Force",
         "Heatproof",
-        "Sand Stream",
-        "Sand Rush",
-        "Colossal"
+        "Arena Trap",
+        "Sand Veil",
+        "Sturdy"
       ]
     },
     "Snubbull": {
@@ -42644,7 +42644,7 @@ backup_data = {
         "Swift Swim",
         "Drizzle",
         "Aftermath",
-        "Quick Draw"
+        "Poison Touch"
       ]
     },
     "Scizor": {
@@ -44219,7 +44219,7 @@ backup_data = {
         "Berserk",
         "Snow Warning",
         "Snow Cloak",
-        "Anger Point"
+        "Slush Rush"
       ],
       "evos": [
         "Piloswine"
@@ -44400,7 +44400,7 @@ backup_data = {
         "Berserk",
         "Snow Warning",
         "Snow Cloak",
-        "Anger Point"
+        "Slush Rush"
       ],
       "evos": [
         "Mamoswine"
@@ -45155,7 +45155,7 @@ backup_data = {
         "Refrigerate",
         "Unburden",
         "Levitate",
-        "Moody",
+        "Ice Scales",
         "Snow Cloak"
       ]
     },
@@ -45318,8 +45318,8 @@ backup_data = {
         "Swift Swim",
         "Rain Dish",
         "Drizzle",
-        "Drizzle",
-        "Drizzle"
+        "Stench",
+        "Stench"
       ]
     },
     "Skarmory": {
@@ -48448,7 +48448,7 @@ backup_data = {
         "Battle Armor",
         "Sand Veil",
         "Sand Stream",
-        "Solid Rock",
+        "Berserk",
         "Solid Rock"
       ],
       "evos": [
@@ -48633,7 +48633,7 @@ backup_data = {
         "Battle Armor",
         "Shed Skin",
         "Sand Stream",
-        "Solid Rock",
+        "Berserk",
         "Solid Rock"
       ],
       "evos": [
@@ -48834,7 +48834,7 @@ backup_data = {
         "Battle Armor",
         "Berserk",
         "Sand Stream",
-        "Solid Rock",
+        "Berserk",
         "Solid Rock"
       ]
     },
@@ -50487,7 +50487,7 @@ backup_data = {
         "Torrent",
         "Forewarn",
         "Swift Swim",
-        "Drizzle",
+        "Sand Veil",
         "Sand Stream",
         "Anticipation"
       ],
@@ -50814,9 +50814,9 @@ backup_data = {
         "Intimidate",
         "Strong Jaw",
         "Moxie",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Stakeout",
+        "Stakeout",
+        "Stakeout"
       ],
       "evos": [
         "Mightyena"
@@ -50990,9 +50990,9 @@ backup_data = {
         "Intimidate",
         "Strong Jaw",
         "Moxie",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Stakeout",
+        "Stakeout",
+        "Stakeout"
       ]
     },
     "Zigzagoon": {
@@ -51154,9 +51154,9 @@ backup_data = {
         "Tough Claws",
         "Pickup",
         "Speed Boost",
-        "Stakeout",
-        "Stakeout",
-        "Stakeout"
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "evos": [
         "Linoone"
@@ -51350,9 +51350,9 @@ backup_data = {
         "Tough Claws",
         "Pickup",
         "Speed Boost",
-        "Stakeout",
-        "Stakeout",
-        "Stakeout"
+        "Stench",
+        "Stench",
+        "Stench"
       ]
     },
     "Wurmple": {
@@ -52716,7 +52716,7 @@ backup_data = {
         "Technician",
         "Chlorophyll",
         "Pickpocket",
-        "Drought",
+        "Wind Rider",
         "Aftermath",
         "Anticipation"
       ],
@@ -55421,7 +55421,7 @@ backup_data = {
         "Stakeout",
         "Stakeout",
         "Sniper",
-        "Sniper"
+        "Sand Stream"
       ],
       "evos": [
         "Ninjask",
@@ -55589,7 +55589,7 @@ backup_data = {
         "Hyper Cutter",
         "Stakeout",
         "Sniper",
-        "Sniper"
+        "Sand Stream"
       ]
     },
     "Shedinja": {
@@ -55747,7 +55747,7 @@ backup_data = {
         "Magic Guard",
         "Stakeout",
         "Sniper",
-        "Abil025 Wonder Guard"
+        "Wonder Guard"
       ]
     },
     "Whismur": {
@@ -56935,8 +56935,8 @@ backup_data = {
         "Magnet Pull",
         "Static",
         "Sand Stream",
-        "Sand Stream",
-        "Sand Stream"
+        "Volt Absorb",
+        "Solid Rock"
       ],
       "evos": [
         "Probopass"
@@ -57126,8 +57126,8 @@ backup_data = {
         "Hustle",
         "Magic Guard",
         "Moody",
-        "Fur Coat",
-        "Fur Coat"
+        "Moody",
+        "Moody"
       ],
       "evos": [
         "Delcatty",
@@ -57325,8 +57325,8 @@ backup_data = {
         "Hustle",
         "Magic Guard",
         "Moody",
-        "Fur Coat",
-        "Fur Coat"
+        "Moody",
+        "Moody"
       ]
     },
     "Sableye": {
@@ -57503,7 +57503,7 @@ backup_data = {
         "Exploit",
         "Stakeout",
         "Shadow Tag",
-        "Shadow Tag"
+        "Prankster"
       ]
     },
     "Mawile": {
@@ -57683,7 +57683,7 @@ backup_data = {
         "Distracting",
         "Huge Power",
         "Arena Trap",
-        "Arena Trap"
+        "Stakeout"
       ]
     },
     "Aron": {
@@ -57860,8 +57860,8 @@ backup_data = {
         "Rock Head",
         "Sturdy",
         "Filter",
-        "Stench",
-        "Stench",
+        "Light Metal",
+        "Heavy Metal",
         "Stench"
       ],
       "evos": [
@@ -58064,8 +58064,8 @@ backup_data = {
         "Rock Head",
         "Sturdy",
         "Filter",
-        "Stench",
-        "Stench",
+        "Light Metal",
+        "Heavy Metal",
         "Stench"
       ],
       "evos": [
@@ -58280,8 +58280,8 @@ backup_data = {
         "Rock Head",
         "Sturdy",
         "Filter",
-        "Stench",
-        "Stench",
+        "Light Metal",
+        "Heavy Metal",
         "Stench"
       ]
     },
@@ -58784,7 +58784,7 @@ backup_data = {
         "Thunder Armor",
         "Plus",
         "Minus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Manectric"
@@ -58970,7 +58970,7 @@ backup_data = {
         "Thunder Armor",
         "Plus",
         "Minus",
-        "Minus"
+        "Static"
       ]
     },
     "Plusle": {
@@ -59148,7 +59148,7 @@ backup_data = {
         "Trace",
         "Plus",
         "Minus",
-        "Minus"
+        "Motor Drive"
       ]
     },
     "Minun": {
@@ -59330,7 +59330,7 @@ backup_data = {
         "Trace",
         "Minus",
         "Plus",
-        "Plus"
+        "Motor Drive"
       ]
     },
     "Volbeat": {
@@ -59830,7 +59830,7 @@ backup_data = {
         "Overgrow",
         "Natural Cure",
         "Stench",
-        "Stench",
+        "Serene Grace",
         "Stench"
       ],
       "evos": [
@@ -61958,7 +61958,7 @@ backup_data = {
         "Contrary",
         " -",
         "Moody",
-        "Moody",
+        "Scrappy",
         "Moody"
       ]
     },
@@ -63047,9 +63047,9 @@ backup_data = {
         "Natural Cure",
         "Amplifier",
         "Cloud Nine",
-        "Fluffy",
+        "Pixilate",
         "Overcoat",
-        "Overcoat"
+        "Serene Grace"
       ],
       "evos": [
         "Altaria"
@@ -63260,7 +63260,7 @@ backup_data = {
         "Cloud Nine",
         "Fluffy",
         "Overcoat",
-        "Overcoat"
+        "Serene Grace"
       ]
     },
     "Zangoose": {
@@ -63446,9 +63446,9 @@ backup_data = {
         "Toxic Boost",
         "Poison Heal",
         "Merciless",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Stakeout",
+        "Anticipation",
+        "Anticipation"
       ]
     },
     "Seviper": {
@@ -63624,9 +63624,9 @@ backup_data = {
         "Infiltrator",
         "Rivalry",
         "Exploit",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Corrosion",
+        "Strong Jaw",
+        "Stakeout"
       ]
     },
     "Lunatone": {
@@ -64129,9 +64129,9 @@ backup_data = {
         "Adaptability",
         "Moisturize",
         "Gourmand",
-        "Drizzle",
+        "Berserk",
         "Sand Stream",
-        "Sand Stream"
+        "Adaptability"
       ],
       "evos": [
         "Whiscash"
@@ -64324,9 +64324,9 @@ backup_data = {
         "Mold Breaker",
         "Moisturize",
         "Gourmand",
-        "Drizzle",
+        "Berserk",
         "Sand Stream",
-        "Sand Stream"
+        "Adaptability"
       ]
     },
     "Corphish": {
@@ -65957,7 +65957,7 @@ backup_data = {
         "Multiscale",
         "Drizzle",
         "Serene Grace",
-        "Serene Grace"
+        "Shed Skin"
       ]
     },
     "Castform": {
@@ -66503,8 +66503,8 @@ backup_data = {
         "Levitate",
         "Cursed Body",
         "Shadow Tag",
-        "Anticipation",
-        "Illusion"
+        "Anger Point",
+        "Cursed Body"
       ],
       "evos": [
         "Banette"
@@ -66691,8 +66691,8 @@ backup_data = {
         "Hustle",
         "Justified",
         "Shadow Tag",
-        "Anticipation",
-        "Illusion"
+        "Anger Point",
+        "Cursed Body"
       ]
     },
     "Duskull": {
@@ -66850,7 +66850,7 @@ backup_data = {
         " -",
         "Shadow Tag",
         "Anticipation",
-        "Illusion"
+        "Cursed Body"
       ],
       "evos": [
         "Dusclops"
@@ -67040,7 +67040,7 @@ backup_data = {
         "Cursed Body",
         "Shadow Tag",
         "Anticipation",
-        "Illusion"
+        "Cursed Body"
       ],
       "evos": [
         "Dusknoir"
@@ -67233,9 +67233,9 @@ backup_data = {
         "Overgrow",
         "Chlorophyll",
         "Gourmand",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Thick Fat",
+        "Effect Spore",
+        "Effect Spore"
       ]
     },
     "Chimecho": {
@@ -67418,9 +67418,9 @@ backup_data = {
         "Levitate",
         "Pixilate",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Thick Fat",
+        "Effect Spore",
+        "Thick Fat"
       ]
     },
     "Absol": {
@@ -68565,7 +68565,7 @@ backup_data = {
         "Ice Body",
         "Intimidate",
         "Guts",
-        "Snow Warning",
+        "Intimidate",
         "Snow Cloak",
         "Fur Coat"
       ]
@@ -71445,7 +71445,7 @@ backup_data = {
         "Flame Body",
         "Drought",
         "Anticipation",
-        "Anticipation"
+        "Flame Body"
       ],
       "evos": [
         "Monferno"
@@ -71638,7 +71638,7 @@ backup_data = {
         "Flame Body",
         "Drought",
         "Anticipation",
-        "Anticipation"
+        "Flame Body"
       ],
       "evos": [
         "Infernape"
@@ -71839,7 +71839,7 @@ backup_data = {
         "Berserk",
         "Drought",
         "Anticipation",
-        "Anticipation"
+        "Flame Body"
       ]
     },
     "Piplup": {
@@ -72367,7 +72367,7 @@ backup_data = {
         "Torrent",
         "Slush Rush",
         "Lightning Rod",
-        "Drizzle",
+        "Ice Body",
         "Snow Cloak"
       ]
     },
@@ -72485,9 +72485,9 @@ backup_data = {
         "Intimidate",
         "Reckless",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Hustle",
+        "Scrappy",
+        "Scrappy"
       ],
       "evos": [
         "Staravia"
@@ -72636,9 +72636,9 @@ backup_data = {
         "Intimidate",
         "Reckless",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Hustle",
+        "Scrappy",
+        "Scrappy"
       ],
       "evos": [
         "Staraptor"
@@ -72799,9 +72799,9 @@ backup_data = {
         "Intimidate",
         "Reckless",
         " -",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Hustle",
+        "Scrappy",
+        "Scrappy"
       ]
     },
     "Bidoof": {
@@ -74130,7 +74130,7 @@ backup_data = {
         "Overgrow",
         "Natural Cure",
         "Stench",
-        "Stench",
+        "Serene Grace",
         "Stench"
       ],
       "evos": [
@@ -74303,7 +74303,7 @@ backup_data = {
         "Overgrow",
         "Majesty",
         "Stench",
-        "Stench",
+        "Serene Grace",
         "Stench"
       ]
     },
@@ -74457,7 +74457,7 @@ backup_data = {
         "Mold Breaker",
         "Resilient",
         "Sheer Force",
-        "Sand Stream",
+        "Rock Head",
         "Sturdy",
         "Sand Rush"
       ],
@@ -74640,7 +74640,7 @@ backup_data = {
         "Mold Breaker",
         "Resilient",
         "Sheer Force",
-        "Sand Stream",
+        "Rock Head",
         "Sturdy",
         "Sand Rush"
       ]
@@ -75063,8 +75063,8 @@ backup_data = {
         "Run Away",
         "Adaptability",
         "Anticipation",
-        "Sturdy",
-        "Anticipation"
+        "Run Away",
+        "Run Away"
       ],
       "evos": [
         "Wormadam",
@@ -75265,7 +75265,7 @@ backup_data = {
         "Adaptability",
         "Anticipation",
         "Sturdy",
-        "Anticipation"
+        "Overcoat"
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -75445,8 +75445,8 @@ backup_data = {
         "Tinted Lens",
         "Wind Rider",
         "Anticipation",
-        "Sturdy",
-        "Anticipation"
+        "Tinted Lens",
+        "Effect Spore"
       ]
     },
     "Combee": {
@@ -75956,7 +75956,7 @@ backup_data = {
         "Pickup",
         "Run Away",
         "Plus",
-        "Minus",
+        "Prankster",
         "Fur Coat"
       ]
     },
@@ -76767,7 +76767,7 @@ backup_data = {
         " -",
         "Drizzle",
         "Sand Stream",
-        "Sand Stream"
+        "Stench"
       ],
       "evos": [
         "Gastrodon"
@@ -76954,7 +76954,7 @@ backup_data = {
         " -",
         "Drizzle",
         "Sand Stream",
-        "Sand Stream"
+        "Stench"
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -78157,7 +78157,7 @@ backup_data = {
         "Exploit",
         "Stakeout",
         "Moxie",
-        "Moxie"
+        "Prankster"
       ]
     },
     "Glameow": {
@@ -79536,7 +79536,7 @@ backup_data = {
         "Rattled",
         "Sand Stream",
         "Stakeout",
-        "Stakeout"
+        "Hustle"
       ],
       "evos": [
         "Sudowoodo"
@@ -79723,7 +79723,7 @@ backup_data = {
         "Distracting",
         "Savant",
         "Moody",
-        "Illusion"
+        "Anticipation"
       ],
       "evos": [
         "Mr. Mime"
@@ -82031,7 +82031,7 @@ backup_data = {
         "Gooey",
         "Swift Swim",
         "Anticipation",
-        "Anticipation"
+        "Poison Touch"
       ],
       "evos": [
         "Toxicroak"
@@ -82222,7 +82222,7 @@ backup_data = {
         "Gooey",
         "Swift Swim",
         "Anticipation",
-        "Anticipation"
+        "Poison Touch"
       ]
     },
     "Carnivine": {
@@ -83595,7 +83595,7 @@ backup_data = {
         "Sturdy",
         "Patient",
         "Levitate",
-        "Minus",
+        "Light Metal",
         "Plus",
         "Levitate"
       ]
@@ -84153,8 +84153,8 @@ backup_data = {
         "Gooey",
         "Chlorophyll",
         "Chlorophyll",
-        "Chlorophyll",
-        "Chlorophyll"
+        "Thick Fat",
+        "Thick Fat"
       ]
     },
     "Electivire": {
@@ -84339,9 +84339,9 @@ backup_data = {
         "Motor Drive",
         "Teravolt",
         "Galvanize",
-        "Minus",
+        "Static",
         "Anger Point",
-        "Plus"
+        "Magnet Pull"
       ]
     },
     "Magmortar": {
@@ -84703,7 +84703,7 @@ backup_data = {
         "Friend Guard",
         "No Guard",
         "Healer",
-        "Healer",
+        "Hustle",
         "Healer"
       ]
     },
@@ -85051,7 +85051,7 @@ backup_data = {
         "Hyper Cutter",
         "Chlorophyll",
         "Anticipation",
-        "Drought",
+        "Tinted Lens",
         "Flower Gift"
       ]
     },
@@ -85231,7 +85231,7 @@ backup_data = {
         "Ice Scales",
         "Marvel Scale",
         "Slush Rush",
-        "Anticipation",
+        "Heatproof",
         "Snow Warning",
         "Snow Cloak"
       ]
@@ -85411,7 +85411,7 @@ backup_data = {
         "Wind Rider",
         "Sand Stream",
         "Sand Veil",
-        "Sand Veil"
+        "Poison Touch"
       ]
     },
     "Mamoswine": {
@@ -85586,9 +85586,9 @@ backup_data = {
         "Thick Fat",
         "Ice Body",
         "Berserk",
-        "Snow Warning",
+        "Berserk",
         "Snow Cloak",
-        "Anger Point"
+        "Slush Rush"
       ]
     },
     "Porygon-Z": {
@@ -86328,7 +86328,7 @@ backup_data = {
         "Levitate",
         "Shadow Tag",
         "Anticipation",
-        "Illusion"
+        "Cursed Body"
       ]
     },
     "Froslass": {
@@ -86506,7 +86506,7 @@ backup_data = {
         "Serene Grace",
         "Snow Cloak",
         "Snow Warning",
-        "Illusion"
+        "Serene Grace"
       ]
     },
     "Rotom": {
@@ -87771,7 +87771,7 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Contrary",
-        "Anticipation",
+        "Overgrow",
         "Anticipation",
         "Anticipation"
       ],
@@ -87967,7 +87967,7 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Contrary",
-        "Anticipation",
+        "Overgrow",
         "Anticipation",
         "Anticipation"
       ],
@@ -88179,7 +88179,7 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Contrary",
-        "Anticipation",
+        "Overgrow",
         "Anticipation",
         "Anticipation"
       ]
@@ -88337,8 +88337,8 @@ backup_data = {
         "Intimidate",
         "Intimidate",
         "Sheer Force",
-        "Drought",
-        "Drought",
+        "Blaze",
+        "Sheer Force",
         "Drought"
       ],
       "evos": [
@@ -88520,8 +88520,8 @@ backup_data = {
         "Intimidate",
         "Intimidate",
         "Sheer Force",
-        "Drought",
-        "Drought",
+        "Blaze",
+        "Sheer Force",
         "Drought"
       ],
       "evos": [
@@ -88727,8 +88727,8 @@ backup_data = {
         "Intimidate",
         "Intimidate",
         "Rock Head",
-        "Drought",
-        "Drought",
+        "Blaze",
+        "Sheer Force",
         "Drought"
       ]
     },
@@ -88910,7 +88910,7 @@ backup_data = {
         "Shell Armor",
         "Shell Armor",
         "Defiant",
-        "Drizzle",
+        "Torrent",
         "Quick Draw",
         "Defiant"
       ],
@@ -89118,7 +89118,7 @@ backup_data = {
         "Shell Armor",
         "Shell Armor",
         "Hyper Cutter",
-        "Drizzle",
+        "Torrent",
         "Quick Draw",
         "Defiant"
       ],
@@ -89342,7 +89342,7 @@ backup_data = {
         "Shell Armor",
         "Shell Armor",
         "Hyper Cutter",
-        "Drizzle",
+        "Torrent",
         "Quick Draw",
         "Defiant"
       ]
@@ -89833,7 +89833,7 @@ backup_data = {
         "Intimidate",
         "Slush Rush",
         "Fluffy",
-        "Slush Rush",
+        "Snow Cloak",
         "Scrappy",
         "Sand Rush"
       ],
@@ -89994,7 +89994,7 @@ backup_data = {
         "Intimidate",
         "Slush Rush",
         "Fluffy",
-        "Slush Rush",
+        "Snow Cloak",
         "Scrappy",
         "Sand Rush"
       ],
@@ -92106,8 +92106,8 @@ backup_data = {
         "Resilient",
         "Unburden",
         "Sniper",
-        "Sniper",
-        "Sniper"
+        "Tough Claws",
+        "Tough Claws"
       ],
       "evos": [
         "Tranquill"
@@ -92264,8 +92264,8 @@ backup_data = {
         "Resilient",
         "Unburden",
         "Sniper",
-        "Sniper",
-        "Sniper"
+        "Tough Claws",
+        "Tough Claws"
       ],
       "evos": [
         "Unfezant"
@@ -92434,8 +92434,8 @@ backup_data = {
         "Resilient",
         "Unburden",
         "Sniper",
-        "Sniper",
-        "Sniper"
+        "Tough Claws",
+        "Tough Claws"
       ]
     },
     "Blitzle": {
@@ -95328,7 +95328,7 @@ backup_data = {
         "Guts",
         "Anticipation",
         "Strong Body",
-        "Strong Body"
+        "Scrappy"
       ]
     },
     "Sawk": {
@@ -95491,7 +95491,7 @@ backup_data = {
         "Quick Feet",
         "Anticipation",
         "Strong Body",
-        "Strong Body"
+        "Scrappy"
       ]
     },
     "Sewaddle": {
@@ -96092,9 +96092,9 @@ backup_data = {
         "Strong Body",
         "Tinted Lens",
         "Speed Boost",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Poison Touch",
+        "Poison Touch",
+        "Poison Touch"
       ],
       "evos": [
         "Whirlipede"
@@ -96255,9 +96255,9 @@ backup_data = {
         "Strong Body",
         "Tinted Lens",
         "Speed Boost",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Poison Touch",
+        "Poison Touch",
+        "Poison Touch"
       ],
       "evos": [
         "Scolipede"
@@ -96434,9 +96434,9 @@ backup_data = {
         "Strong Body",
         "Tinted Lens",
         "Speed Boost",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Poison Touch",
+        "Poison Touch",
+        "Poison Touch"
       ]
     },
     "Cottonee": {
@@ -96591,9 +96591,9 @@ backup_data = {
         "Prankster",
         "Fluffy",
         "Infiltrator",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Wind Rider",
+        "Effect Spore",
+        "Effect Spore"
       ],
       "evos": [
         "Whimsicott",
@@ -96784,9 +96784,9 @@ backup_data = {
         "Prankster",
         "Fluffy",
         "Infiltrator",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Wind Rider",
+        "Effect Spore",
+        "Effect Spore"
       ]
     },
     "Petilil": {
@@ -96932,8 +96932,8 @@ backup_data = {
         "Overgrow",
         "Quick Feet",
         "Stench",
-        "Stench",
-        "Stench"
+        "Effect Spore",
+        "Effect Spore"
       ],
       "evos": [
         "Lilligant",
@@ -97116,8 +97116,8 @@ backup_data = {
         "Overgrow",
         "Quick Feet",
         "Stench",
-        "Stench",
-        "Stench"
+        "Effect Spore",
+        "Effect Spore"
       ]
     },
     "Basculin": {
@@ -97279,8 +97279,8 @@ backup_data = {
         "Adaptability",
         "Mold Breaker",
         "Drizzle",
-        "Drizzle",
-        "Drizzle"
+        "Anger Point",
+        "Anger Point"
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -97458,7 +97458,7 @@ backup_data = {
         "Sand Rush",
         "Moxie",
         "Stakeout",
-        "Sand Stream",
+        "Strong Jaw",
         "Anger Point"
       ],
       "evos": [
@@ -97649,7 +97649,7 @@ backup_data = {
         "Sand Rush",
         "Moxie",
         "Stakeout",
-        "Sand Stream",
+        "Strong Jaw",
         "Anger Point"
       ],
       "evos": [
@@ -97848,8 +97848,8 @@ backup_data = {
         "Sand Rush",
         "Keen Senses",
         "Stakeout",
-        "Sand Stream",
-        "Anger Point"
+        "Strong Jaw",
+        "Tinted Lens"
       ]
     },
     "Darumaka": {
@@ -98236,8 +98236,8 @@ backup_data = {
         "Turboblaze",
         " -",
         "Drought",
-        "Zen Mode",
-        "Zen Mode"
+        "Collective",
+        "Collective"
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -98583,8 +98583,8 @@ backup_data = {
         "Regenerator",
         "Shell Armor",
         "Pickup",
-        "Sand Stream",
-        "Weak Armor",
+        "Shed Skin",
+        "Unburden",
         "Sturdy"
       ],
       "evos": [
@@ -98768,8 +98768,8 @@ backup_data = {
         "Regenerator",
         "Shell Armor",
         "Pickup",
-        "Sand Stream",
-        "Weak Armor",
+        "Shed Skin",
+        "Unburden",
         "Sturdy"
       ]
     },
@@ -98952,7 +98952,7 @@ backup_data = {
         "Iron Fist",
         "Quick Draw",
         "Moxie",
-        "Moxie"
+        "Poison Touch"
       ],
       "evos": [
         "Scrafty"
@@ -99146,7 +99146,7 @@ backup_data = {
         "Iron Fist",
         "Quick Draw",
         "Moxie",
-        "Moxie"
+        "Poison Touch"
       ]
     },
     "Sigilyph": {
@@ -99481,7 +99481,7 @@ backup_data = {
         "Sand Force",
         "Merciless",
         "Sand Stream",
-        "Illusion",
+        "Cursed Body",
         "Shadow Tag"
       ],
       "evos": [
@@ -99657,7 +99657,7 @@ backup_data = {
         "Sand Force",
         "Merciless",
         "Sand Stream",
-        "Illusion",
+        "Cursed Body",
         "Shadow Tag"
       ]
     },
@@ -101608,7 +101608,7 @@ backup_data = {
         "Magic Bounce",
         "Shadow Tag",
         "Illusion",
-        "Anticipation"
+        "Inner Focus"
       ],
       "evos": [
         "Gothorita"
@@ -101790,7 +101790,7 @@ backup_data = {
         "Magic Bounce",
         "Shadow Tag",
         "Illusion",
-        "Anticipation"
+        "Inner Focus"
       ],
       "evos": [
         "Gothitelle",
@@ -101992,7 +101992,7 @@ backup_data = {
         "Magic Bounce",
         "Shadow Tag",
         "Illusion",
-        "Anticipation"
+        "Inner Focus"
       ]
     },
     "Solosis": {
@@ -102154,9 +102154,9 @@ backup_data = {
         "Gooey",
         "Magic Guard",
         "Regenerator",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Trace",
+        "Inner Focus",
+        "Inner Focus"
       ],
       "evos": [
         "Duosion"
@@ -102342,9 +102342,9 @@ backup_data = {
         "Gooey",
         "Magic Guard",
         "Regenerator",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Trace",
+        "Inner Focus",
+        "Inner Focus"
       ],
       "evos": [
         "Reuniclus"
@@ -102534,9 +102534,9 @@ backup_data = {
         "Gooey",
         "Magic Guard",
         "Regenerator",
-        "Stench",
-        "Stench",
-        "Stench"
+        "Trace",
+        "Inner Focus",
+        "Inner Focus"
       ]
     },
     "Ducklett": {
@@ -103910,7 +103910,7 @@ backup_data = {
         "Wind Rider",
         "Plus",
         "Minus",
-        "Minus"
+        "Static"
       ]
     },
     "Karrablast": {
@@ -104065,7 +104065,7 @@ backup_data = {
         "Volt Absorb",
         "Anticipation",
         "Anticipation",
-        "Anticipation"
+        "Light Metal"
       ],
       "evos": [
         "Escavalier"
@@ -104237,7 +104237,7 @@ backup_data = {
         "Justified",
         "Anticipation",
         "Anticipation",
-        "Anticipation"
+        "Light Metal"
       ]
     },
     "Foongus": {
@@ -104397,7 +104397,7 @@ backup_data = {
         "Prankster",
         "Stakeout",
         "Effect Spore",
-        "Effect Spore"
+        "Prankster"
       ],
       "evos": [
         "Amoonguss"
@@ -104573,7 +104573,7 @@ backup_data = {
         "Prankster",
         "Stakeout",
         "Effect Spore",
-        "Effect Spore"
+        "Prankster"
       ]
     },
     "Frillish": {
@@ -104717,7 +104717,7 @@ backup_data = {
         "Cursed Body",
         "Drizzle",
         "Shadow Tag",
-        "Shadow Tag"
+        "Cursed Body"
       ],
       "evos": [
         "Jellicent"
@@ -104893,7 +104893,7 @@ backup_data = {
         "Cursed Body",
         "Drizzle",
         "Shadow Tag",
-        "Shadow Tag"
+        "Cursed Body"
       ]
     },
     "Alomomola": {
@@ -105853,7 +105853,7 @@ backup_data = {
         "Motor Drive",
         "Levitate",
         "Plus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Klang"
@@ -106011,7 +106011,7 @@ backup_data = {
         "Motor Drive",
         "Levitate",
         "Plus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Klinklang"
@@ -106181,7 +106181,7 @@ backup_data = {
         "Motor Drive",
         "Levitate",
         "Plus",
-        "Minus"
+        "Static"
       ]
     },
     "Tynamo": {
@@ -106304,7 +106304,7 @@ backup_data = {
         " -",
         "Stakeout",
         "Plus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Eelektrik"
@@ -106491,7 +106491,7 @@ backup_data = {
         " -",
         "Stakeout",
         "Plus",
-        "Minus"
+        "Static"
       ],
       "evos": [
         "Eelektross",
@@ -106694,7 +106694,7 @@ backup_data = {
         " -",
         "Stakeout",
         "Plus",
-        "Minus"
+        "Static"
       ]
     },
     "Elgyem": {
@@ -107666,7 +107666,7 @@ backup_data = {
         "Mold Breaker",
         "Rivalry",
         "Unnerve",
-        "Tenacity",
+        "Tinted Lens",
         "Sturdy",
         "Anger Point"
       ],
@@ -107849,7 +107849,7 @@ backup_data = {
         "Mold Breaker",
         "Rivalry",
         "Unnerve",
-        "Tenacity",
+        "Tinted Lens",
         "Sturdy",
         "Anger Point"
       ],
@@ -108040,7 +108040,7 @@ backup_data = {
         "Mold Breaker",
         "Rivalry",
         "Hyper Cutter",
-        "Tenacity",
+        "Tinted Lens",
         "Sturdy",
         "Anger Point"
       ]
@@ -108737,7 +108737,7 @@ backup_data = {
         "Gooey",
         "Shell Armor",
         "Volt Absorb",
-        "Anticipation",
+        "Dry Skin",
         "Anticipation",
         "Anticipation"
       ],
@@ -108917,8 +108917,8 @@ backup_data = {
         "Dry Skin",
         "Infiltrator",
         "Anticipation",
-        "Anticipation",
-        "Anticipation"
+        "Tinted Lens",
+        "Sniper"
       ]
     },
     "Stunfisk": {
@@ -109091,7 +109091,7 @@ backup_data = {
         "Cloud Nine",
         "Sand Veil",
         "Sand Stream",
-        "Sand Stream"
+        "Static"
       ]
     },
     "Mienfoo": {
@@ -109813,7 +109813,7 @@ backup_data = {
         "No Guard",
         "Well Baked Body",
         "Sand Stream",
-        "Iron Fist",
+        "Well Baked Body",
         "Aftermath"
       ],
       "evos": [
@@ -110014,7 +110014,7 @@ backup_data = {
         "No Guard",
         "Well Baked Body",
         "Sand Stream",
-        "Iron Fist",
+        "Well Baked Body",
         "Aftermath"
       ]
     },
@@ -110980,8 +110980,8 @@ backup_data = {
         "Rough Skin",
         "Pickup",
         "Stakeout",
-        "Stakeout",
-        "Stakeout"
+        "Sand Veil",
+        "Prankster"
       ],
       "evos": [
         "Mandibuzz"
@@ -111154,8 +111154,8 @@ backup_data = {
         "Rough Skin",
         "Pickup",
         "Stakeout",
-        "Stakeout",
-        "Stakeout"
+        "Sand Veil",
+        "Prankster"
       ]
     },
     "Heatmor": {
@@ -112190,8 +112190,8 @@ backup_data = {
         "Shield Dust",
         "Flame Body",
         "Drought",
-        "Drought",
-        "Drought"
+        "Effect Spore",
+        "Stench"
       ],
       "evos": [
         "Volcarona"
@@ -112372,7 +112372,7 @@ backup_data = {
         "Shield Dust",
         "Illuminate",
         "Drought",
-        "Drought",
+        "Effect Spore",
         "Drought"
       ]
     },
@@ -112410,9 +112410,9 @@ backup_data = {
         "Intimidate",
         " -",
         " -",
-        "Anticipation",
-        "Anticipation",
-        "Anticipation"
+        "Stench",
+        "Stench",
+        "Stench"
       ]
     },
     "Terrakion": {
@@ -112449,9 +112449,9 @@ backup_data = {
         "Justified",
         " -",
         " -",
-        "Anticipation",
-        "Anticipation",
-        "Anticipation"
+        "Stench",
+        "Stench",
+        "Stench"
       ]
     },
     "Virizion": {
@@ -112488,9 +112488,9 @@ backup_data = {
         "Hyper Cutter",
         " -",
         " -",
-        "Anticipation",
-        "Anticipation",
-        "Anticipation"
+        "Stench",
+        "Stench",
+        "Stench"
       ]
     },
     "Tornadus": {
@@ -112745,8 +112745,8 @@ backup_data = {
         "Ice Body",
         "Refrigerate",
         "Ice Scales",
-        "Stench",
-        "Stench",
+        "Ice Scales",
+        "Berserk",
         "Stench"
       ],
       "baseForme": "Base",
@@ -112794,9 +112794,9 @@ backup_data = {
         "Justified",
         " -",
         " -",
-        "Anticipation",
-        "Anticipation",
-        "Anticipation"
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -113037,6 +113037,9 @@ backup_data = {
       "abs": [
         "Drizzle",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -113216,7 +113219,10 @@ backup_data = {
       "abs": [
         "Rock Head",
         "Rivalry",
-        "Sap Sipper"
+        "Sap Sipper",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Sawsbuck",
       "forme": "Summer"
@@ -113394,7 +113400,10 @@ backup_data = {
       "abs": [
         "Shed Skin",
         "Shield Dust",
-        "Unaware"
+        "Unaware",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Sawsbuck",
       "forme": "Autumn"
@@ -113575,7 +113584,10 @@ backup_data = {
       "abs": [
         "Slush Rush",
         "Skill Link",
-        "Fur Coat"
+        "Fur Coat",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Sawsbuck",
       "forme": "Winter"
@@ -113738,7 +113750,10 @@ backup_data = {
       "abs": [
         "Sap Sipper",
         "Gooey",
-        " -"
+        " -",
+        "Drizzle",
+        "Sand Stream",
+        "Stench"
       ],
       "baseSpecies": "Shellos",
       "forme": "East"
@@ -113913,7 +113928,10 @@ backup_data = {
       "abs": [
         "Sap Sipper",
         "Gooey",
-        " -"
+        " -",
+        "Drizzle",
+        "Sand Stream",
+        "Stench"
       ],
       "baseSpecies": "Gastrodon",
       "forme": "East"
@@ -113950,6 +113968,9 @@ backup_data = {
       "abs": [
         "Huge Power",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -113985,6 +114006,9 @@ backup_data = {
       "abs": [
         "Thunder Armor",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114019,6 +114043,9 @@ backup_data = {
       },
       "abs": [
         "Neutralizing Gas",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114056,6 +114083,9 @@ backup_data = {
       "abs": [
         "Volt Absorb",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114092,6 +114122,9 @@ backup_data = {
       "abs": [
         "Wonder Guard",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114127,6 +114160,9 @@ backup_data = {
       "abs": [
         "Blaze",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114161,6 +114197,9 @@ backup_data = {
       },
       "abs": [
         "Refrigerate",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114198,6 +114237,9 @@ backup_data = {
       "abs": [
         "Levitate",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114234,6 +114276,9 @@ backup_data = {
       "abs": [
         "Levitate",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114268,6 +114313,9 @@ backup_data = {
       },
       "abs": [
         "Patient",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114305,6 +114353,9 @@ backup_data = {
       "abs": [
         "Flash Fire",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114339,6 +114390,9 @@ backup_data = {
       },
       "abs": [
         "Motor Drive",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114375,6 +114429,9 @@ backup_data = {
       "abs": [
         "Huge Power",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114409,6 +114466,9 @@ backup_data = {
       },
       "abs": [
         "Huge Power",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114445,6 +114505,9 @@ backup_data = {
       "abs": [
         "Thunder Armor",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114479,6 +114542,9 @@ backup_data = {
       },
       "abs": [
         "Neutralizing Gas",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114516,6 +114582,9 @@ backup_data = {
       "abs": [
         "Wonder Guard",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114551,6 +114620,9 @@ backup_data = {
       "abs": [
         "Blaze",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114585,6 +114657,9 @@ backup_data = {
       },
       "abs": [
         "Refrigerate",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114622,6 +114697,9 @@ backup_data = {
       "abs": [
         "Volt Absorb",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114658,6 +114736,9 @@ backup_data = {
       "abs": [
         "Reckless",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114692,6 +114773,9 @@ backup_data = {
       },
       "abs": [
         "Huge Power",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114729,6 +114813,9 @@ backup_data = {
       "abs": [
         "Levitate",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114763,6 +114850,9 @@ backup_data = {
       },
       "abs": [
         "Huge Power",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114800,6 +114890,9 @@ backup_data = {
       "abs": [
         "Reckless",
         " -",
+        " -",
+        " -",
+        " -",
         " -"
       ]
     },
@@ -114834,6 +114927,9 @@ backup_data = {
       },
       "abs": [
         "Huge Power",
+        " -",
+        " -",
+        " -",
         " -",
         " -"
       ]
@@ -114906,7 +115002,10 @@ backup_data = {
       "abs": [
         "Quick Draw",
         "Technician",
-        "Moody"
+        "Moody",
+        " -",
+        " -",
+        " -"
       ]
     },
     "Deoxys-Attack": {
@@ -114941,7 +115040,10 @@ backup_data = {
       "abs": [
         "Exploit",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Deoxys",
       "forme": "Attack"
@@ -114978,7 +115080,10 @@ backup_data = {
       "abs": [
         "Exploit",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Deoxys",
       "forme": "Defense"
@@ -115015,7 +115120,10 @@ backup_data = {
       "abs": [
         "Exploit",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Deoxys",
       "forme": "Speed"
@@ -115185,7 +115293,10 @@ backup_data = {
       "abs": [
         "Adaptability",
         "Battle Armor",
-        "Run Away"
+        "Run Away",
+        "Anticipation",
+        "Sturdy",
+        "Overcoat"
       ],
       "baseSpecies": "Wormadam",
       "forme": "Sandy"
@@ -115357,7 +115468,10 @@ backup_data = {
       "abs": [
         "Run Away",
         "Adaptability",
-        "Battle Armor"
+        "Battle Armor",
+        "Anticipation",
+        "Sturdy",
+        "Overcoat"
       ],
       "baseSpecies": "Wormadam",
       "forme": "Trash"
@@ -115395,7 +115509,10 @@ backup_data = {
       "abs": [
         "Serene Grace",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Shaymin",
       "forme": "Sky"
@@ -115433,7 +115550,10 @@ backup_data = {
       "abs": [
         "Levitate",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Giratina",
       "forme": "Origin"
@@ -115625,7 +115745,10 @@ backup_data = {
       "abs": [
         "Levitate",
         "Turboblaze",
-        " -"
+        " -",
+        "Illusion",
+        "Plus",
+        "Shadow Tag"
       ],
       "baseSpecies": "Rotom",
       "forme": "Heat"
@@ -115817,7 +115940,10 @@ backup_data = {
       "abs": [
         "Levitate",
         "Moisturize",
-        " -"
+        " -",
+        "Illusion",
+        "Plus",
+        "Shadow Tag"
       ],
       "baseSpecies": "Rotom",
       "forme": "Wash"
@@ -116009,7 +116135,10 @@ backup_data = {
       "abs": [
         "Levitate",
         "Refrigerate",
-        " -"
+        " -",
+        "Illusion",
+        "Plus",
+        "Shadow Tag"
       ],
       "baseSpecies": "Rotom",
       "forme": "Frost"
@@ -116201,7 +116330,10 @@ backup_data = {
       "abs": [
         "Motor Drive",
         "Aerilate",
-        " -"
+        " -",
+        "Illusion",
+        "Plus",
+        "Shadow Tag"
       ],
       "baseSpecies": "Rotom",
       "forme": "Fan"
@@ -116393,7 +116525,10 @@ backup_data = {
       "abs": [
         "Levitate",
         "Speed Boost",
-        " -"
+        " -",
+        "Illusion",
+        "Plus",
+        "Shadow Tag"
       ],
       "baseSpecies": "Rotom",
       "forme": "Mow"
@@ -116587,7 +116722,10 @@ backup_data = {
       "abs": [
         "Forecast",
         "Solar Power",
-        "Cloud Nine"
+        "Cloud Nine",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Castform",
       "forme": "Sunny"
@@ -116781,7 +116919,10 @@ backup_data = {
       "abs": [
         "Forecast",
         "Rain Dish",
-        "Cloud Nine"
+        "Cloud Nine",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Castform",
       "forme": "Rainy"
@@ -116975,7 +117116,10 @@ backup_data = {
       "abs": [
         "Forecast",
         "Ice Body",
-        "Cloud Nine"
+        "Cloud Nine",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Castform",
       "forme": "Snowy"
@@ -117137,7 +117281,10 @@ backup_data = {
       "abs": [
         "Rock Head",
         "Adaptability",
-        "Rivalry"
+        "Rivalry",
+        "Drizzle",
+        "Anger Point",
+        "Anger Point"
       ],
       "baseSpecies": "Basculin",
       "forme": "Blue-Striped"
@@ -117329,7 +117476,10 @@ backup_data = {
       "abs": [
         "Sheer Force",
         "Solid Rock",
-        " -"
+        " -",
+        "Drought",
+        "Collective",
+        "Collective"
       ],
       "baseSpecies": "Darmanitan",
       "forme": "Zen"
@@ -117367,7 +117517,10 @@ backup_data = {
       "abs": [
         "Serene Grace",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Meloetta",
       "forme": "Pirouette"
@@ -117405,7 +117558,10 @@ backup_data = {
       "abs": [
         "Turboblaze",
         " -",
-        " -"
+        " -",
+        "Ice Scales",
+        "Berserk",
+        "Stench"
       ],
       "baseSpecies": "Kyurem",
       "forme": "White"
@@ -117443,7 +117599,10 @@ backup_data = {
       "abs": [
         "Teravolt",
         " -",
-        " -"
+        " -",
+        "Ice Scales",
+        "Berserk",
+        "Stench"
       ],
       "baseSpecies": "Kyurem",
       "forme": "Black"
@@ -117481,7 +117640,10 @@ backup_data = {
       "abs": [
         "Justified",
         " -",
-        " -"
+        " -",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Keldeo",
       "forme": "Resolute"
@@ -117518,7 +117680,10 @@ backup_data = {
       "abs": [
         "Regenerator",
         " -",
-        "Regenerator"
+        "Regenerator",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Tornadus",
       "forme": "Therian"
@@ -117556,7 +117721,10 @@ backup_data = {
       "abs": [
         "Volt Absorb",
         " -",
-        "Volt Absorb"
+        "Volt Absorb",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Thundurus",
       "forme": "Therian"
@@ -117594,7 +117762,10 @@ backup_data = {
       "abs": [
         "Intimidate",
         " -",
-        "Intimidate"
+        "Intimidate",
+        "Stench",
+        "Stench",
+        "Stench"
       ],
       "baseSpecies": "Landorus",
       "forme": "Therian"
@@ -117661,7 +117832,7 @@ backup_data = {
           "Ominous Wind"
         ],
         "sub_index": 0,
-        "ability": "Illusion",
+        "ability": "Serene Grace",
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -117694,7 +117865,7 @@ backup_data = {
           "Dazzling Gleam"
         ],
         "sub_index": 0,
-        "ability": "Illusion",
+        "ability": "Serene Grace",
         "sprite": "./images/trainer_sprites/kanto_leader.png",
         "form": 0,
         "evs": {
@@ -118859,7 +119030,7 @@ backup_data = {
           "Screech"
         ],
         "sub_index": 0,
-        "ability": "Moody",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -120193,7 +120364,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 2,
-        "ability": "Illusion",
+        "ability": "Stench",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -120226,7 +120397,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 4,
-        "ability": "Illusion",
+        "ability": "Stench",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -120292,7 +120463,7 @@ backup_data = {
           "Destiny Bond"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Bad Dreams",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -121942,7 +122113,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 2,
-        "ability": "Stench",
+        "ability": "Scrappy",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -124536,7 +124707,7 @@ backup_data = {
           "Stealth Rock"
         ],
         "sub_index": 0,
-        "ability": "Sand Stream",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -126334,7 +126505,7 @@ backup_data = {
           "Weather Crash"
         ],
         "sub_index": 1,
-        "ability": "Filter",
+        "ability": "Serene Grace",
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -127268,7 +127439,7 @@ backup_data = {
           "Protect"
         ],
         "sub_index": 2,
-        "ability": "Plus",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -128301,7 +128472,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 0,
-        "ability": "Drizzle",
+        "ability": "Berserk",
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -128433,7 +128604,7 @@ backup_data = {
           "Gunk Shot"
         ],
         "sub_index": 2,
-        "ability": "Sand Stream",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -128466,7 +128637,7 @@ backup_data = {
           "Metronome"
         ],
         "sub_index": 2,
-        "ability": "Drizzle",
+        "ability": "Berserk",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -129635,7 +129806,7 @@ backup_data = {
           "Ancient Power"
         ],
         "sub_index": 1,
-        "ability": "Chlorophyll",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -129668,7 +129839,7 @@ backup_data = {
           "Sludge"
         ],
         "sub_index": 1,
-        "ability": "Chlorophyll",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -129701,7 +129872,7 @@ backup_data = {
           "Fire Punch"
         ],
         "sub_index": 2,
-        "ability": "Chlorophyll",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -134163,7 +134334,7 @@ backup_data = {
           "Ice Punch"
         ],
         "sub_index": 4,
-        "ability": "Solid Rock",
+        "ability": "Berserk",
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -134528,7 +134699,7 @@ backup_data = {
           "Ominous Wind"
         ],
         "sub_index": 5,
-        "ability": "Anticipation",
+        "ability": "Sniper",
         "sprite": "./images/trainer_sprites/kanto_leader.png",
         "form": 0,
         "evs": {
@@ -138165,7 +138336,7 @@ backup_data = {
           "Endure"
         ],
         "sub_index": 1,
-        "ability": "Serene Grace",
+        "ability": "Effect Spore",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139598,7 +139769,7 @@ backup_data = {
           "Extreme Speed"
         ],
         "sub_index": 1,
-        "ability": "Sand Stream",
+        "ability": "Hustle",
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -141864,7 +142035,7 @@ backup_data = {
           "Flash Cannon"
         ],
         "sub_index": 0,
-        "ability": "Anticipation",
+        "ability": "Heatproof",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -142229,7 +142400,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 3,
-        "ability": "Drought",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/sinnoh_leader.png",
         "form": 0,
         "evs": {
@@ -142363,7 +142534,7 @@ backup_data = {
           "Toxic Spikes"
         ],
         "sub_index": 0,
-        "ability": "Anger Point",
+        "ability": "Multiscale",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -142662,7 +142833,7 @@ backup_data = {
           "Weather Ball"
         ],
         "sub_index": 4,
-        "ability": "Overcoat",
+        "ability": "Serene Grace",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142763,7 +142934,7 @@ backup_data = {
           "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Drizzle",
+        "ability": "Torrent",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -142796,7 +142967,7 @@ backup_data = {
           "Aqua Jet"
         ],
         "sub_index": 0,
-        "ability": "Drizzle",
+        "ability": "Torrent",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -143495,7 +143666,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 3,
-        "ability": "Moody",
+        "ability": "Ice Scales",
         "sprite": "./images/trainer_sprites/johto_leader.png",
         "form": 0,
         "evs": {
@@ -143627,7 +143798,7 @@ backup_data = {
           "Healing Wish"
         ],
         "sub_index": 0,
-        "ability": "Moody",
+        "ability": "Ice Scales",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -145015,7 +145186,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
-        "item": "Silk Scarf",
+        "item": "Yache Berry",
         "gender": "Male",
         "nature": "Docile",
         "moves": [
@@ -145959,7 +146130,7 @@ backup_data = {
           "Night Shade"
         ],
         "sub_index": 0,
-        "ability": "Illusion",
+        "ability": "Cursed Body",
         "sprite": "./images/trainer_sprites/johto_leader.png",
         "form": 0,
         "evs": {
@@ -146728,7 +146899,7 @@ backup_data = {
           "Strength"
         ],
         "sub_index": 0,
-        "ability": "Drought",
+        "ability": "Blaze",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -146761,7 +146932,7 @@ backup_data = {
           "Strength"
         ],
         "sub_index": 0,
-        "ability": "Drought",
+        "ability": "Blaze",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -147192,7 +147363,7 @@ backup_data = {
           "Giga Impact"
         ],
         "sub_index": 4,
-        "ability": "Anger Point",
+        "ability": "Slush Rush",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -147961,7 +148132,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 3,
-        "ability": "Stench",
+        "ability": "Corrosion",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -148060,7 +148231,7 @@ backup_data = {
           "Thunder Fang"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Strong Jaw",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -148159,7 +148330,7 @@ backup_data = {
           "Fire Fang"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Strong Jaw",
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -149289,7 +149460,7 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 5,
-        "ability": "Shadow Tag",
+        "ability": "Cursed Body",
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -151611,7 +151782,7 @@ backup_data = {
           "Tailwind"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Wind Rider",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -151677,7 +151848,7 @@ backup_data = {
           "Parting Shot"
         ],
         "sub_index": 1,
-        "ability": "Stench",
+        "ability": "Effect Spore",
         "sprite": "./images/trainer_sprites/guardian_of_unova.png",
         "form": 0,
         "evs": {
@@ -153877,7 +154048,7 @@ backup_data = {
           "Spit Up"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -154743,7 +154914,7 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 2,
-        "ability": "Stench",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -157270,7 +157441,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "TM55",
         "item": "Weakness Policy",
         "gender": "Male",
         "nature": "Naughty",
@@ -157349,7 +157520,7 @@ backup_data = {
           "Quiver Dance"
         ],
         "sub_index": 2,
-        "ability": "Anticipation",
+        "ability": "Overcoat",
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 2,
         "evs": {
@@ -158524,7 +158695,7 @@ backup_data = {
           "Detect"
         ],
         "sub_index": 0,
-        "ability": "Drought",
+        "ability": "Wind Rider",
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -158961,7 +159132,7 @@ backup_data = {
           "Shell Smash"
         ],
         "sub_index": 1,
-        "ability": "Weak Armor",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -159093,7 +159264,7 @@ backup_data = {
           "Toxic"
         ],
         "sub_index": 2,
-        "ability": "Sand Stream",
+        "ability": "Shed Skin",
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -159126,7 +159297,7 @@ backup_data = {
           "Block"
         ],
         "sub_index": 2,
-        "ability": "Sand Stream",
+        "ability": "Shed Skin",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -160769,7 +160940,7 @@ backup_data = {
           "Extrasensory"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Serene Grace",
         "sprite": "./images/trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -161241,7 +161412,7 @@ backup_data = {
           "Gunk Shot"
         ],
         "sub_index": 0,
-        "ability": "Effect Spore",
+        "ability": "Prankster",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -163018,7 +163189,7 @@ backup_data = {
           "Protect"
         ],
         "sub_index": 0,
-        "ability": "Anticipation",
+        "ability": "Inner Focus",
         "sprite": "./images/trainer_sprites/ghostly_gent.png",
         "form": 0,
         "evs": {
@@ -165729,7 +165900,7 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 1,
-        "ability": "Anticipation",
+        "ability": "Dry Skin",
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -165797,7 +165968,7 @@ backup_data = {
           "Sweet Scent"
         ],
         "sub_index": 2,
-        "ability": "Chlorophyll",
+        "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -167382,7 +167553,7 @@ backup_data = {
           "Teeter Dance"
         ],
         "sub_index": 0,
-        "ability": "Minus",
+        "ability": "Sand Veil",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -169248,7 +169419,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 2,
-        "ability": "Anger Point",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -169281,7 +169452,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 2,
-        "ability": "Anger Point",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -169413,7 +169584,7 @@ backup_data = {
           "Thunder Fang"
         ],
         "sub_index": 3,
-        "ability": "Sand Stream",
+        "ability": "Strong Jaw",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -169479,7 +169650,7 @@ backup_data = {
           "Psychic Fangs"
         ],
         "sub_index": 2,
-        "ability": "Anger Point",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -169512,7 +169683,7 @@ backup_data = {
           "Pursuit"
         ],
         "sub_index": 3,
-        "ability": "Anger Point",
+        "ability": "Tinted Lens",
         "sprite": "./images/trainer_sprites/kanto_leader.png",
         "form": 0,
         "evs": {
@@ -170178,7 +170349,7 @@ backup_data = {
           "Grass Pledge"
         ],
         "sub_index": 1,
-        "ability": "Plus",
+        "ability": "Motor Drive",
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -171402,7 +171573,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "TM55",
         "item": "Magnet",
         "gender": "",
         "nature": "Bold",
@@ -171580,7 +171751,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 3,
-        "ability": "Drizzle",
+        "ability": "Ice Body",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -173448,7 +173619,7 @@ backup_data = {
           "Rest"
         ],
         "sub_index": 2,
-        "ability": "Serene Grace",
+        "ability": "Shed Skin",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -173852,7 +174023,7 @@ backup_data = {
           "Revenge"
         ],
         "sub_index": 1,
-        "ability": "Drizzle",
+        "ability": "Torrent",
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -173953,7 +174124,7 @@ backup_data = {
           "Glare"
         ],
         "sub_index": 2,
-        "ability": "Anticipation",
+        "ability": "Overgrow",
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -174054,7 +174225,7 @@ backup_data = {
           "Work Up"
         ],
         "sub_index": 3,
-        "ability": "Drought",
+        "ability": "Blaze",
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -177923,7 +178094,7 @@ backup_data = {
           "Recycle"
         ],
         "sub_index": 1,
-        "ability": "Illusion",
+        "ability": "Anticipation",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -179098,7 +179269,7 @@ backup_data = {
           "Dark Pulse"
         ],
         "sub_index": 1,
-        "ability": "Anticipation",
+        "ability": "Sniper",
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -179197,7 +179368,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 1,
-        "ability": "Anticipation",
+        "ability": "Sniper",
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -182712,7 +182883,7 @@ backup_data = {
           "Light Screen"
         ],
         "sub_index": 0,
-        "ability": "Anticipation",
+        "ability": "Overgrow",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -182745,7 +182916,7 @@ backup_data = {
           "Light Screen"
         ],
         "sub_index": 0,
-        "ability": "Anticipation",
+        "ability": "Overgrow",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -184959,7 +185130,7 @@ backup_data = {
           "Rock Polish"
         ],
         "sub_index": 1,
-        "ability": "Sand Stream",
+        "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -185336,7 +185507,7 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 4,
-        "ability": "Sand Stream",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/hoenn_leader.png",
         "form": 0,
         "evs": {
@@ -185540,7 +185711,7 @@ backup_data = {
           "Fake Out"
         ],
         "sub_index": 1,
-        "ability": "Slush Rush",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/beauty.png",
         "form": 0,
         "evs": {
@@ -185639,7 +185810,7 @@ backup_data = {
           "Safeguard"
         ],
         "sub_index": 1,
-        "ability": "Slush Rush",
+        "ability": "Lightning Rod",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -185876,7 +186047,7 @@ backup_data = {
           "Shell Smash"
         ],
         "sub_index": 1,
-        "ability": "Weak Armor",
+        "ability": "Unburden",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -186515,7 +186686,7 @@ backup_data = {
           "Ice Punch"
         ],
         "sub_index": 1,
-        "ability": "Minus",
+        "ability": "Iron Fist",
         "sprite": "./images/trainer_sprites/kanto_leader.png",
         "form": 0,
         "evs": {
@@ -187925,7 +188096,7 @@ backup_data = {
           "Fake Out"
         ],
         "sub_index": 0,
-        "ability": "Hustle",
+        "ability": "Anger Point",
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -196207,7 +196378,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "TM55",
         "item": "Eviolite",
         "gender": "Male",
         "nature": "Hasty",
@@ -196725,7 +196896,7 @@ backup_data = {
           "Sticky Web"
         ],
         "sub_index": 0,
-        "ability": "Serene Grace",
+        "ability": "Filter",
         "sprite": "./images/trainer_sprites/johto_leader.png",
         "form": 0,
         "evs": {
@@ -196760,7 +196931,7 @@ backup_data = {
           "Payback"
         ],
         "sub_index": 1,
-        "ability": "Anticipation",
+        "ability": "Stakeout",
         "sprite": "./images/trainer_sprites/johto_leader.png",
         "form": 0,
         "evs": {
@@ -198456,7 +198627,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "TM55",
         "item": "Black Belt",
         "gender": "Male",
         "nature": "Lonely",
@@ -203813,7 +203984,7 @@ backup_data = {
           "Uproar"
         ],
         "sub_index": 3,
-        "ability": "Fluffy",
+        "ability": "Pixilate",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
