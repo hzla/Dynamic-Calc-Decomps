@@ -707,7 +707,7 @@ function getWeatherChipDamage(poke, maxHp) {
 
 	if (weather === "Hail") {
 		if (pokeInfoHasType(poke, "Ice") ||
-			pokeInfoHasAbility(poke, "Magic Guard", "Overcoat", "Snow Cloak") ||
+			pokeInfoHasAbility(poke, "Magic Guard", "Overcoat", "Snow Cloak", "Ice Body") ||
 			pokeInfoHasItem(poke, "Safety Goggles")) {
 			return null;
 		}

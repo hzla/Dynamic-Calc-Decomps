@@ -45,4 +45,23 @@ describe('Brutal Black calc configuration', () => {
       expect(win.eval('getDexGameIdForTitle("Brutal Black")')).to.eq('brutalblack')
     })
   })
+
+  it('shows Ice Body recovery without also showing hail damage', () => {
+    cy.window().should((win) => {
+      expect(win.eval('initializing')).to.eq(false)
+    })
+
+    cy.window().then((win) => {
+      win.$('#p2 .set-selector')
+        .val('Lapras (Lvl 46 Seven Sage Zinzolin - Cold Storage)')
+        .trigger('change')
+      win.$('#hail').prop('checked', true).trigger('change')
+    })
+
+    cy.get('#p2 .ability').should('have.value', 'Ice Body')
+    cy.get('#p2 .item').should('have.value', 'Leftovers')
+    cy.get('#p2 .max-hp').should('have.text', '189')
+    cy.get('#p2 .chip-damage--hail').should('not.exist')
+    cy.get('#p2 .chip-damage--healing').should('have.text', '+22 per turn')
+  })
 })
