@@ -125,8 +125,7 @@ function g5BuildCascadeContext(player, playerType1, playerType2) {
         weather: weatherToggle ? weatherToggle.value : "",
         weatherTypes: {Sun: "Fire", Hail: "Ice", Sand: "Rock", Rain: "Water"},
         immunities: {"Dry Skin": "Water", "Flash Fire": "Fire", "Well-Baked Body": "Fire", "Levitate": "Ground", "Sap Sipper": "Grass", "Motor Drive": "Electric", "Storm Drain": "Water", "Volt Absorb": "Electric", "Water Absorb": "Water", "Lightning Rod": "Electric", "Thunder Armor": "Electric"},
-        resistances: {"Slush Rush": "Ice", "Swift Swim": "Water", "Sand Rush": "Ground", "Justified": "Dark", "Toxic Boost": "Poison"},
-        baseTypeInfo: get_type_info([playerType1, playerType2])
+        resistances: {"Slush Rush": "Ice", "Swift Swim": "Water", "Sand Rush": "Ground", "Justified": "Dark", "Toxic Boost": "Poison"}
     }
 }
 
@@ -469,10 +468,6 @@ function g5BuildCascadePhase2Rankings(trainerPoks, player, cascadeContext, apply
                 moveBp *= 1.5
             }
 
-            if ((opposing.hasAbility("Tenacity") || opposing.hasAbility("Tinted Lens")) && cascadeContext.baseTypeInfo[moveType] < 1) {
-                moveBp *= 2
-            }
-
             if (move.named("Eruption", "Water Spout")) {
                 moveBp = Math.max(1, Math.floor((150 * opposing.curHP()) / opposing.maxHP()))
             } else if (move.named("Flail", "Reversal")) {
@@ -647,7 +642,7 @@ function get_next_in_g5() {
 
     if (TITLE.includes("Cascade")) {
         var cascadeContext = g5BuildCascadeContext(player, player_type1, player_type2)
-        var shouldApplyCascadeMatchupMod = settings.customCascadeSwitchAI || settings.customCascadeSwitchAIG4
+        var shouldApplyCascadeMatchupMod = settings.customCascadeSwitchAI
 
         if (settings.customCascadeSwitchAIG4) {
             var phase1Results = g5BuildCascadeHybridPhase1Rankings(trainer_poks, player, cascadeContext)
