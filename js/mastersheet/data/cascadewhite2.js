@@ -22428,26 +22428,6 @@ masterData = [
         "text": "-"
       }
     ]
-  },
-  {
-    "tag": "p",
-    "content": "",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "tag": "p",
-    "content": "",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": ""
-      }
-    ]
   }
 ];
 encountersById = [
@@ -22662,7 +22642,7 @@ encountersById = [
       "Lotad",
       "Surskit",
       "Ducklett",
-      "Piplup"
+      "Dratini"
     ],
     "locations": [
       "Pinwheel Forest (156)"
@@ -32977,7 +32957,7 @@ trainersById = [
   },
   {
     "class": "Johto Leader",
-    "name": "Bess - Route 21",
+    "name": "Jasmine - Route 21",
     "count": 5,
     "type": "Doubles",
     "tr_sprite": "trainer_sprites/johto_leader.png",
@@ -38898,7 +38878,7 @@ trainersById = [
     "class": "Pkmn Breeder",
     "name": "Addison - Route 22",
     "count": 3,
-    "type": "Singles",
+    "type": "Triples",
     "tr_sprite": "trainer_sprites/pokemon_breeder.png",
     "species_id_0": "Elekid",
     "raw_species_id_0": 239,
@@ -55428,7 +55408,7 @@ trainersById = [
   },
   {
     "class": "Kanto Leader",
-    "name": "Sabrina",
+    "name": "Sabrina - Celestial Rooftop",
     "count": 6,
     "type": "Singles",
     "tr_sprite": "trainer_sprites/kanto_leader.png",
@@ -55548,15 +55528,15 @@ trainersById = [
     "move_1_4": "Eruption",
     "move_2_4": "Fire Spin",
     "move_3_4": "U-Turn",
-    "move_4_4": "Switcheroo",
+    "move_4_4": "-----",
     "species_id_5": "Arcanine",
     "raw_species_id_5": 59,
     "level_5": 62,
     "item_id_5": "Tera Drill",
     "nature_5": "Hardy",
     "ability_name_5": "Rock Head",
-    "move_1_5": "Head Charge",
-    "move_2_5": "Extremespeed",
+    "move_1_5": "Extremespeed",
+    "move_2_5": "Superpower",
     "move_3_5": "Flare Blitz",
     "move_4_5": "Rock Wrecker"
   },

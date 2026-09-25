@@ -23779,7 +23779,7 @@ backup_data = {
         "hp": 60,
         "at": 105,
         "df": 70,
-        "sa": 100,
+        "sa": 110,
         "sd": 80,
         "sp": 135
       },
@@ -84879,8 +84879,8 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 150,
-        "df": 95,
+        "at": 130,
+        "df": 115,
         "sa": 60,
         "sd": 65,
         "sp": 110
@@ -84893,7 +84893,7 @@ backup_data = {
           ],
           [
             1,
-            "Stored Power"
+            "Weather Crash"
           ],
           [
             1,
@@ -84937,7 +84937,7 @@ backup_data = {
           ],
           [
             36,
-            "Aqua Cutter"
+            "Cross Poison"
           ],
           [
             40,
@@ -84945,7 +84945,7 @@ backup_data = {
           ],
           [
             43,
-            "Weather Crash"
+            "Lunge"
           ],
           [
             46,
@@ -118903,12 +118903,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Kanto Leader Sabrina": {
+      "Lvl 54 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 54,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -119872,12 +119872,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 53,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -122586,12 +122586,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 53,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -125134,8 +125134,8 @@ backup_data = {
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
-          "Head Charge",
           "Extreme Speed",
+          "Superpower",
           "Flare Blitz",
           "Rock Wrecker"
         ],
@@ -127077,12 +127077,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 53,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -134974,7 +134974,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Johto Leader Bess - Route 21": {
+      "Lvl 62 Johto Leader Jasmine - Route 21": {
         "level": 62,
         "ai": 143,
         "noCh": false,
@@ -145069,12 +145069,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Kanto Leader Sabrina": {
+      "Lvl 52 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 52,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -170022,12 +170022,12 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Rooftop": {
         "level": 53,
         "ai": 15,
         "noCh": false,
         "tr_id": 769,
-        "diff": 0,
+        "diff": 3,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -170591,7 +170591,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Johto Leader Bess - Route 21": {
+      "Lvl 61 Johto Leader Jasmine - Route 21": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -172457,7 +172457,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Johto Leader Bess - Route 21": {
+      "Lvl 61 Johto Leader Jasmine - Route 21": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -179655,7 +179655,7 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Triples",
         "reward_item": "None",
         "item": "Mascot Badge",
         "gender": "Male",
@@ -180026,7 +180026,7 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Triples",
         "reward_item": "None",
         "item": "Mascot Badge",
         "gender": "Female",
@@ -181156,7 +181156,7 @@ backup_data = {
       }
     },
     "Aggron": {
-      "Lvl 61 Johto Leader Bess - Route 21": {
+      "Lvl 61 Johto Leader Jasmine - Route 21": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -181455,7 +181455,7 @@ backup_data = {
       }
     },
     "Ampharos": {
-      "Lvl 61 Johto Leader Bess - Route 21": {
+      "Lvl 61 Johto Leader Jasmine - Route 21": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -184784,7 +184784,7 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Triples",
         "reward_item": "None",
         "item": "Mascot Badge",
         "gender": "Male",
@@ -196858,7 +196858,7 @@ backup_data = {
           "Eruption",
           "Fire Spin",
           "U-turn",
-          "Switcheroo"
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Turboblaze",
