@@ -220,7 +220,9 @@ var ADV = GSC.filter(function (i) { return !GSC_ONLY.includes(i); }).concat([
     'White Herb',
     'Wiki Berry',
     "Soothe Bell",
-    "Lava Cookie"
+    "Lava Cookie",
+    'Choice Scarf',
+    'Choice Specs'
 ]);
 var DPP = ADV.concat([
     'Adamant Orb',
@@ -232,8 +234,6 @@ var DPP = ADV.concat([
     'Charti Berry',
     'Cherish Ball',
     'Chilan Berry',
-    'Choice Scarf',
-    'Choice Specs',
     'Chople Berry',
     'Coba Berry',
     'Calm Incense',
