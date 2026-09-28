@@ -1293,7 +1293,7 @@ function setGameSettings(title) {
     showDex = title === WISHY_WASHY_WHITE_2_REDUX_TITLE;
     showAI = true;
     $('label[for="snow"]').hide()
-  } else if (title == "Photonic Sun/Prismatic Moon") {
+  } else if (title == "Photonic Sun/Prismatic Moon" || title == "Photonic Sun Rebalanced") {
     gameGen = 7
     settings.gen = 7
     settings.damageGen = 7
@@ -1304,7 +1304,7 @@ function setGameSettings(title) {
     settings.typeChart = 6;
     settings.critGen = 7;
     save_expansion = false
-    showDex = false;
+    showDex = true;
     showAI = false;
     $('label[for="snow"]').hide()
   } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White" || title == "Brutal Black") {
@@ -1813,6 +1813,11 @@ function applyImportedSpeciesFormData(target, jsonPok) {
     }
     if (Array.isArray(jsonPok["otherFormes"])) {
         target["otherFormes"] = jsonPok["otherFormes"].slice();
+    }
+    for (const field of ["weightkg", "heightm", "forme"]) {
+        if (Object.prototype.hasOwnProperty.call(jsonPok, field)) {
+            target[field] = jsonPok[field];
+        }
     }
 }
 

@@ -1,7 +1,9 @@
 /node_modules
 *sheet_files/
 cypress/screenshots
-tools
+tools/*
+!tools/gen7/
+tools/gen7/__pycache__/
 pokeemerald/
 data/analytics/
 reports
