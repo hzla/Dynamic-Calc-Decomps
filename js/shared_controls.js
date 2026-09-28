@@ -1747,7 +1747,7 @@ function getSpriteSpeciesName(pokemonName) {
 }
 
 function getPspmTotemBoostKey(pokemonName) {
-	if (typeof TITLE !== "string" || TITLE !== "Photonic Sun/Prismatic Moon") {
+	if (typeof TITLE !== "string" || !["Photonic Sun/Prismatic Moon", "Photonic Sun Rebalanced"].includes(TITLE)) {
 		return "";
 	}
 

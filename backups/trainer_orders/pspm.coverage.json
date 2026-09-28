@@ -1,0 +1,6062 @@
+{
+  "summary": {
+    "sheet_battle_blocks": 427,
+    "sheet_trainer_parties_and_static_groups": 457,
+    "legendary_encounters": 46,
+    "sheet_pokemon": 1608,
+    "original_sets": 1611,
+    "final_sets": 1732,
+    "added_sets": 121,
+    "real_rom_ids": 444,
+    "calculator_only_ids": 64,
+    "total_order_entries": 508,
+    "double_battles": 30,
+    "original_sets_updated": 311
+  },
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1QIgp4jYaldLcrq10PFlwjtVSanGw7kdgZwYtOUCweP0/edit",
+  "sheet_sha256": "01ae5df9e94b264b01997f789065c58293039ec8d7784a2290fcf51004f18604",
+  "synthetic_id_note": "IDs >= 10000 are calculator-only IDs for sheet encounters outside the trainer archive, not ROM trainer IDs.",
+  "battles": [
+    {
+      "sheet": "Island Trial 1",
+      "row": 4,
+      "label": "Rival Hau (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        491
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 16,
+      "label": "Rival Hau (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        492
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 28,
+      "label": "Rival Hau (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        493
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 40,
+      "label": "Lass Audrey",
+      "part": 0,
+      "ids": [
+        459
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 53,
+      "label": "Youngster Jimmy",
+      "part": 0,
+      "ids": [
+        25
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 65,
+      "label": "Preschooler Oliver",
+      "part": 0,
+      "ids": [
+        28
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 78,
+      "label": "Rival Hau (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        9
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 91,
+      "label": "Rival Hau (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        10
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 104,
+      "label": "Rival Hau (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        11
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 118,
+      "label": "Youngster Kevin",
+      "part": 0,
+      "ids": [
+        26
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 130,
+      "label": "Lass Madison",
+      "part": 0,
+      "ids": [
+        1
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 142,
+      "label": "Swimmer Natasha",
+      "part": 0,
+      "ids": [
+        512
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 155,
+      "label": "Youngster Joey",
+      "part": 0,
+      "ids": [
+        22
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 168,
+      "label": "Preschooler Mia",
+      "part": 0,
+      "ids": [
+        24
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 181,
+      "label": "Athlete Hiromi: (1 Potion)",
+      "part": 0,
+      "ids": [
+        21
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 194,
+      "label": "Rising Star Joseph",
+      "part": 0,
+      "ids": [
+        436
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 207,
+      "label": "Teacher Emily (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        485
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 220,
+      "label": "Teacher Emily (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        486
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 233,
+      "label": "Teacher Emily (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        487
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 247,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        47
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 260,
+      "label": "Ilima (Rowlet Chosen) (1 Potion, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        52
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 274,
+      "label": "Ilima (Litten Chosen) (1 Potion, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        215
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 288,
+      "label": "Ilima (Popplio Chosen) (1 Potion, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        216
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 303,
+      "label": "Beauty Krystal (Technically optional but hard to dodge)",
+      "part": 0,
+      "ids": [
+        472
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 315,
+      "label": "Preschooler Dylan",
+      "part": 0,
+      "ids": [
+        469
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 327,
+      "label": "Surfer Carlton",
+      "part": 0,
+      "ids": [
+        633
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 339,
+      "label": "Gentleman Stanley: Full Restore x1",
+      "part": 0,
+      "ids": [
+        42
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 351,
+      "label": "Lass Isabella",
+      "part": 0,
+      "ids": [
+        2
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 363,
+      "label": "Pokemon Breeder Jay",
+      "part": 0,
+      "ids": [
+        30
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 377,
+      "label": "Office Worker Jeremy",
+      "part": 0,
+      "ids": [
+        40
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 389,
+      "label": "Preschooler Malia",
+      "part": 0,
+      "ids": [
+        468
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 401,
+      "label": "Pokemon Breeder Ikue",
+      "part": 0,
+      "ids": [
+        41
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 415,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        19
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 428,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        43
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 440,
+      "label": "TOTEM FIGHT (PHOTONIC SUN) (+1 DEFENSE)",
+      "part": 0,
+      "ids": [
+        10034
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 1",
+      "row": 454,
+      "label": "TOTEM FIGHT (PRISMATIC MOON) (+1 DEFENSE)",
+      "part": 0,
+      "ids": [
+        10035
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 2,
+      "label": "Rising Star Ian",
+      "part": 0,
+      "ids": [
+        31
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 16,
+      "label": "Rising Star Tatiana",
+      "part": 0,
+      "ids": [
+        33
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 31,
+      "label": "Actor Meradith",
+      "part": 0,
+      "ids": [
+        536
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 46,
+      "label": "Ultra Recon Squad Dulse (PHOTONIC SUN) (1 X Defense, 1 Moomoo Milk)",
+      "part": 0,
+      "ids": [
+        649
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 60,
+      "label": "Ultra Recon Squad Soliera (PRISMATIC MOON) (1 X Defense, 1 Moomoo Milk)",
+      "part": 0,
+      "ids": [
+        648
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 76,
+      "label": "Rival Hau (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        12
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 90,
+      "label": "Rival Hau (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        13
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 104,
+      "label": "Rival Hau (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        14
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 118,
+      "label": "Rising Star Joshua",
+      "part": 0,
+      "ids": [
+        32
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 132,
+      "label": "Ace Trainer Makana (Route Leader) (Reward: TM19 Roost)",
+      "part": 0,
+      "ids": [
+        16
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 1",
+      "row": 147,
+      "label": "Island Kahuna Hala (2 Super Potions)",
+      "part": 0,
+      "ids": [
+        23
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 2,
+      "label": "Youth Athlete Deedra",
+      "part": 0,
+      "ids": [
+        567
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 17,
+      "label": "Gentleman Reginald",
+      "part": 0,
+      "ids": [
+        563
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 32,
+      "label": "Pokemon Trainer Dexio (PHOTONIC SUN)",
+      "part": 0,
+      "ids": [
+        74
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 46,
+      "label": "Pokemon Trainer Sina (PRISMATIC MOON)",
+      "part": 0,
+      "ids": [
+        75
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 61,
+      "label": "Bellhop Jody",
+      "part": 0,
+      "ids": [
+        182
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 75,
+      "label": "Collector Bryan",
+      "part": 0,
+      "ids": [
+        61
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 89,
+      "label": "Sightseer Scotty",
+      "part": 0,
+      "ids": [
+        64
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 103,
+      "label": "Sightseer Perdita",
+      "part": 0,
+      "ids": [
+        513
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 117,
+      "label": "Cook Ernie",
+      "part": 0,
+      "ids": [
+        333
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 132,
+      "label": "Rival Hau (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        76
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 146,
+      "label": "Rival Hau (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        77
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 160,
+      "label": "Rival Hau (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        78
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 174,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        646
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 189,
+      "label": "Madame Elizabeth (technically optional but hard to dodge) (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        125
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 203,
+      "label": "Pokemon Breeder Wesley (Side Quest)",
+      "part": 0,
+      "ids": [
+        390
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 217,
+      "label": "Pokemon Breeder Glenn",
+      "part": 0,
+      "ids": [
+        122
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 231,
+      "label": "Rising Star Micah",
+      "part": 0,
+      "ids": [
+        516
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 245,
+      "label": "Gentleman Gerald (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        124
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 260,
+      "label": "Pokemon Breeder Yuka",
+      "part": 0,
+      "ids": [
+        95
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 274,
+      "label": "Twins Isa and Nico",
+      "part": 0,
+      "ids": [
+        97
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 274,
+      "label": "Twins Isa and Nico",
+      "part": 1,
+      "ids": [
+        98
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 288,
+      "label": "Team Skull Gladion",
+      "part": 0,
+      "ids": [
+        79
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 302,
+      "label": "Rising Star Duo Lauren and Justin",
+      "part": 0,
+      "ids": [
+        93
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 302,
+      "label": "Rising Star Duo Lauren and Justin",
+      "part": 1,
+      "ids": [
+        92
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 316,
+      "label": "Pokemon Breeder Cory",
+      "part": 0,
+      "ids": [
+        94
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 330,
+      "label": "Trial Guide Bronson (Route Boss) (Reward: TM96 Nature Power)",
+      "part": 0,
+      "ids": [
+        395
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 346,
+      "label": "Fisherman Ernest (1st lake)",
+      "part": 0,
+      "ids": [
+        60
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 360,
+      "label": "Fisherman Hal (1st lake)",
+      "part": 0,
+      "ids": [
+        54
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 374,
+      "label": "Backpacker Mikiko",
+      "part": 0,
+      "ids": [
+        58
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 388,
+      "label": "Fisherman Herbert (2nd lake)",
+      "part": 0,
+      "ids": [
+        55
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 402,
+      "label": "Fisherman Carl (3rd lake)",
+      "part": 0,
+      "ids": [
+        56
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 2",
+      "row": 416,
+      "label": "TOTEM FIGHT (+2 SPEED) (PERMINENT RAIN)",
+      "part": 0,
+      "ids": [
+        10078
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 2,
+      "label": "Veteran Johnny (After beating Lana) (can only battle him when it's raining)",
+      "part": 0,
+      "ids": [
+        576
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 17,
+      "label": "Swimmer Portia",
+      "part": 0,
+      "ids": [
+        37
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 31,
+      "label": "Swimmer Jade",
+      "part": 0,
+      "ids": [
+        39
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 46,
+      "label": "Swimmer Yasu (East)",
+      "part": 0,
+      "ids": [
+        34
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 60,
+      "label": "Swimmer Kalani (South)",
+      "part": 0,
+      "ids": [
+        35
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 74,
+      "label": "Black Belt Francis",
+      "part": 0,
+      "ids": [
+        509
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 88,
+      "label": "Swimmer Kelsie",
+      "part": 0,
+      "ids": [
+        36
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 102,
+      "label": "Swimmer Shelby",
+      "part": 0,
+      "ids": [
+        38
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 117,
+      "label": "Ultra Recon Squad Dulse (PHOTONIC SUN) (1 X Defense, 1 Moomoo Milk)",
+      "part": 0,
+      "ids": [
+        652
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 131,
+      "label": "Ultra Recon Squad Soliera (PRISMATIC MOON) (1 X Defense, 1 Moomoo Milk)",
+      "part": 0,
+      "ids": [
+        651
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 146,
+      "label": "Dancing Family Jen and Fumiko",
+      "part": 0,
+      "ids": [
+        530
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 146,
+      "label": "Dancing Family Jen and Fumiko",
+      "part": 1,
+      "ids": [
+        529
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 160,
+      "label": "Pokemon Breeder William",
+      "part": 0,
+      "ids": [
+        68
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 174,
+      "label": "Beauty Brittney",
+      "part": 0,
+      "ids": [
+        65
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 188,
+      "label": "Dancer Maika",
+      "part": 0,
+      "ids": [
+        334
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 202,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        80
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 217,
+      "label": "Actor Meradith",
+      "part": 0,
+      "ids": [
+        537
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 232,
+      "label": "Swimmer Dakota",
+      "part": 0,
+      "ids": [
+        70
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 246,
+      "label": "Swimmer Tiare",
+      "part": 0,
+      "ids": [
+        73
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 260,
+      "label": "Swimmer Casey",
+      "part": 0,
+      "ids": [
+        71
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 274,
+      "label": "Swimmer Vanessa",
+      "part": 0,
+      "ids": [
+        72
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 289,
+      "label": "Sightseer Mariah",
+      "part": 0,
+      "ids": [
+        174
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 303,
+      "label": "Ace Trainer Jim",
+      "part": 0,
+      "ids": [
+        246
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 317,
+      "label": "Hiker Calhoun",
+      "part": 0,
+      "ids": [
+        245
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 331,
+      "label": "Hiker David",
+      "part": 0,
+      "ids": [
+        186
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 3",
+      "row": 345,
+      "label": "TOTEM FIGHT (+1 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10104
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 2,
+      "label": "Backpacker Kiana",
+      "part": 0,
+      "ids": [
+        101
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 16,
+      "label": "Rising Star Mikey",
+      "part": 0,
+      "ids": [
+        99
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 30,
+      "label": "Rising Star Nicki",
+      "part": 0,
+      "ids": [
+        100
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 44,
+      "label": "Scientist Tyrone (starts fight with an X Attack)",
+      "part": 0,
+      "ids": [
+        105
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 58,
+      "label": "Preschooler Kaleb",
+      "part": 0,
+      "ids": [
+        629
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 72,
+      "label": "Golfer Maile",
+      "part": 0,
+      "ids": [
+        171
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 86,
+      "label": "Golfer Alan",
+      "part": 0,
+      "ids": [
+        170
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 100,
+      "label": "Karate Family Samuel and Guy",
+      "part": 0,
+      "ids": [
+        331
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 100,
+      "label": "Karate Family Samuel and Guy",
+      "part": 1,
+      "ids": [
+        332
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 114,
+      "label": "Ace Trainer Eileen (Route Boss) (Reward: TM58 Sky Drop)",
+      "part": 0,
+      "ids": [
+        474
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 129,
+      "label": "Youngster Caleb",
+      "part": 0,
+      "ids": [
+        96
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 143,
+      "label": "Ace Trainer Alexis",
+      "part": 0,
+      "ids": [
+        104
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 157,
+      "label": "Hiker Gabriel",
+      "part": 0,
+      "ids": [
+        102
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 4",
+      "row": 172,
+      "label": "TOTEM FIGHT (+1 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10118
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 2,
+      "label": "Worker Frank (Right side of cave entrence)",
+      "part": 0,
+      "ids": [
+        119
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 16,
+      "label": "Worker Jeff",
+      "part": 0,
+      "ids": [
+        118
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 30,
+      "label": "Worker Vaclav",
+      "part": 0,
+      "ids": [
+        117
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 44,
+      "label": "Rival Hau (Rowlet Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        438
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 58,
+      "label": "Rival Hau (Litten Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        439
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 72,
+      "label": "Rival Hau (Popplio Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        440
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 86,
+      "label": "Team Skull Grunts (Tag with Hau)",
+      "part": 0,
+      "ids": [
+        443
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 86,
+      "label": "Team Skull Grunts (Tag with Hau)",
+      "part": 1,
+      "ids": [
+        444
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 101,
+      "label": "Police Officer Haruki",
+      "part": 0,
+      "ids": [
+        335
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 115,
+      "label": "Fisherman Mike",
+      "part": 0,
+      "ids": [
+        126
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 130,
+      "label": "Office Worker Dugal",
+      "part": 0,
+      "ids": [
+        571
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 145,
+      "label": "Preschooler Liam",
+      "part": 0,
+      "ids": [
+        115
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 159,
+      "label": "Gentleman Smith",
+      "part": 0,
+      "ids": [
+        113
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 173,
+      "label": "Madame Sayuri",
+      "part": 0,
+      "ids": [
+        114
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 187,
+      "label": "Punk Girl Melissa",
+      "part": 0,
+      "ids": [
+        116
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 201,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        88
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 216,
+      "label": "Fisherman Vernon",
+      "part": 0,
+      "ids": [
+        121
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 230,
+      "label": "Black Belt Kenji",
+      "part": 0,
+      "ids": [
+        120
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 244,
+      "label": "Team Skull Admin Plumeria",
+      "part": 0,
+      "ids": [
+        89
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Grand Trial 2",
+      "row": 259,
+      "label": "Island Kahuna Olivia (1 Max Potion, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        90
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 2,
+      "label": "Reporter Rita (Reward: Pikanium Z)",
+      "part": 0,
+      "ids": [
+        540
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 16,
+      "label": "Golf Buddies Tara and Tina (Reward: TM45 Attract)",
+      "part": 0,
+      "ids": [
+        376
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 16,
+      "label": "Golf Buddies Tara and Tina (Reward: TM45 Attract)",
+      "part": 1,
+      "ids": [
+        375
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 30,
+      "label": "Veteran Kiara (Reward: Metronome)",
+      "part": 0,
+      "ids": [
+        574
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 44,
+      "label": "Dancer Ronda (Reward for using a Z-move: 5 Full Heals)",
+      "part": 0,
+      "ids": [
+        568
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 59,
+      "label": "Swimmer Chelsea",
+      "part": 0,
+      "ids": [
+        112
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 73,
+      "label": "Swimmer Robby (Left side of beach)",
+      "part": 0,
+      "ids": [
+        109
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 87,
+      "label": "Swimmer Laura (Left side of beach)",
+      "part": 0,
+      "ids": [
+        111
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 101,
+      "label": "Swimmer Lawrence",
+      "part": 0,
+      "ids": [
+        108
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 115,
+      "label": "Black Belt Ross",
+      "part": 0,
+      "ids": [
+        510
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 129,
+      "label": "Swimmer Alicia",
+      "part": 0,
+      "ids": [
+        110
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 144,
+      "label": "BOSS FIGHT (can run away from it) (+3 Special Attack)",
+      "part": 0,
+      "ids": [
+        10150
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 160,
+      "label": "Rival Hau (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        217
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 174,
+      "label": "Rival Hau (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        218
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 188,
+      "label": "Rival Hau (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        219
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 204,
+      "label": "Sightseer Mitch",
+      "part": 0,
+      "ids": [
+        279
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 218,
+      "label": "Preschooler Nancy",
+      "part": 0,
+      "ids": [
+        266
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 232,
+      "label": "Tourist Couple Landon and Yuriko",
+      "part": 0,
+      "ids": [
+        521
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 232,
+      "label": "Tourist Couple Landon and Yuriko",
+      "part": 1,
+      "ids": [
+        514
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 246,
+      "label": "Sightseer Akali",
+      "part": 0,
+      "ids": [
+        276
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 261,
+      "label": "Kantonian Gym Adrian",
+      "part": 0,
+      "ids": [
+        547
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 275,
+      "label": "Kantonian Gym Blair",
+      "part": 0,
+      "ids": [
+        548
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 289,
+      "label": "Kantonian Gym Lee",
+      "part": 0,
+      "ids": [
+        549
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 303,
+      "label": "Kantonian Gym Dallas",
+      "part": 0,
+      "ids": [
+        550
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 317,
+      "label": "Kantonian Gym Leader",
+      "part": 0,
+      "ids": [
+        555
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 331,
+      "label": "Pokemon Trainer Ryuki",
+      "part": 0,
+      "ids": [
+        630
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 346,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        564
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 362,
+      "label": "Janitor Melvin",
+      "part": 0,
+      "ids": [
+        177
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 377,
+      "label": "Janitor Shawn",
+      "part": 0,
+      "ids": [
+        366
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 391,
+      "label": "Ace Trainer Chase",
+      "part": 0,
+      "ids": [
+        383
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 407,
+      "label": "Firefighter Alex",
+      "part": 0,
+      "ids": [
+        420
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 421,
+      "label": "Beauty Andrea",
+      "part": 0,
+      "ids": [
+        248
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 435,
+      "label": "Police Officer Mitchell",
+      "part": 0,
+      "ids": [
+        173
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 450,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        223
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 464,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        224
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 479,
+      "label": "Office Worker Jessica",
+      "part": 0,
+      "ids": [
+        344
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 493,
+      "label": "Golfer Sky",
+      "part": 0,
+      "ids": [
+        522
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 507,
+      "label": "Collector Todd",
+      "part": 0,
+      "ids": [
+        284
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 521,
+      "label": "Hiker Thomas",
+      "part": 0,
+      "ids": [
+        286
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 535,
+      "label": "Veteran Akira (Route Boss) (Reward: TM95 Snarl)",
+      "part": 0,
+      "ids": [
+        476
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 549,
+      "label": "Pokemon that appear in Sophocle's trial",
+      "part": 0,
+      "ids": [
+        10179
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 5",
+      "row": 563,
+      "label": "TOTEM FIGHT (+2 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10180
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 3,
+      "label": "Team Skull Boss Guzma",
+      "part": 0,
+      "ids": [
+        138
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 17,
+      "label": "Lass Lisa",
+      "part": 0,
+      "ids": [
+        581
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 32,
+      "label": "Rising Star Elijah",
+      "part": 0,
+      "ids": [
+        460
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 46,
+      "label": "Lass Rika",
+      "part": 0,
+      "ids": [
+        461
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 60,
+      "label": "Youngster Tyler",
+      "part": 0,
+      "ids": [
+        463
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 74,
+      "label": "Lass Emmy",
+      "part": 0,
+      "ids": [
+        462
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 88,
+      "label": "Rising Star Sean",
+      "part": 0,
+      "ids": [
+        471
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 102,
+      "label": "Veteran Don",
+      "part": 0,
+      "ids": [
+        464
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 118,
+      "label": "Athletic Siblings Alyssa and Sho",
+      "part": 0,
+      "ids": [
+        421
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 118,
+      "label": "Athletic Siblings Alyssa and Sho",
+      "part": 1,
+      "ids": [
+        422
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 132,
+      "label": "Preschooler Hayden",
+      "part": 0,
+      "ids": [
+        437
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 146,
+      "label": "Black Belt Alvaro",
+      "part": 0,
+      "ids": [
+        616
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 160,
+      "label": "Black Belt Clayton",
+      "part": 0,
+      "ids": [
+        424
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 176,
+      "label": "Punk Pair Yoko and Lane",
+      "part": 0,
+      "ids": [
+        426
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 176,
+      "label": "Punk Pair Yoko and Lane",
+      "part": 1,
+      "ids": [
+        425
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 190,
+      "label": "Rising Star Matthew",
+      "part": 0,
+      "ids": [
+        327
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 204,
+      "label": "Rising Star Leilani",
+      "part": 0,
+      "ids": [
+        326
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 218,
+      "label": "Scientist Jayson (X Defense Turn 1)",
+      "part": 0,
+      "ids": [
+        254
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 232,
+      "label": "Surfer Robert",
+      "part": 0,
+      "ids": [
+        631
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 246,
+      "label": "Swimmer Sara",
+      "part": 0,
+      "ids": [
+        340
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 260,
+      "label": "Collector Andrew (Route Boss) (TM82 Dragon Tail)",
+      "part": 0,
+      "ids": [
+        393
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 276,
+      "label": "Office Worker Shane",
+      "part": 0,
+      "ids": [
+        427
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 291,
+      "label": "Ace Trainer Yuki",
+      "part": 0,
+      "ids": [
+        253
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 305,
+      "label": "Swimmer Kyra",
+      "part": 0,
+      "ids": [
+        488
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 320,
+      "label": "Preschooler Hunter",
+      "part": 0,
+      "ids": [
+        237
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 334,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        473
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 350,
+      "label": "Fisherman Hisato",
+      "part": 0,
+      "ids": [
+        257
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 364,
+      "label": "Swimmer Keoni",
+      "part": 0,
+      "ids": [
+        269
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 378,
+      "label": "Veteran Brone (Guards TM30 Shadow Ball)",
+      "part": 0,
+      "ids": [
+        518
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 392,
+      "label": "Collector Kawika",
+      "part": 0,
+      "ids": [
+        341
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 407,
+      "label": "Pokemon that appear in Acerola's Trial",
+      "part": 0,
+      "ids": [
+        10211
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 6",
+      "row": 421,
+      "label": "TOTEM FIGHT (+2 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10212
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 2,
+      "label": "Team Skull Admin Plumeria",
+      "part": 0,
+      "ids": [
+        238
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 16,
+      "label": "Surfer Jennis",
+      "part": 0,
+      "ids": [
+        533
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 30,
+      "label": "Swimmer Jared",
+      "part": 0,
+      "ids": [
+        271
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 44,
+      "label": "Swimmers Yumi and Jake",
+      "part": 0,
+      "ids": [
+        299
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 44,
+      "label": "Swimmers Yumi and Jake",
+      "part": 1,
+      "ids": [
+        270
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 58,
+      "label": "Swimmer Alexandria",
+      "part": 0,
+      "ids": [
+        300
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 72,
+      "label": "Ace Trainer Karla",
+      "part": 0,
+      "ids": [
+        251
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 87,
+      "label": "Team Skull Grunt (Inside Pokemon Center)",
+      "part": 0,
+      "ids": [
+        565
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 101,
+      "label": "Scientist Reid (Starts battle with X Special Defense)",
+      "part": 0,
+      "ids": [
+        342
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 115,
+      "label": "Preschooler Kindra (Guards TM for X-Scissor)",
+      "part": 0,
+      "ids": [
+        520
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 130,
+      "label": "Dancer Mireille",
+      "part": 0,
+      "ids": [
+        343
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 144,
+      "label": "Office Worker Michelle",
+      "part": 0,
+      "ids": [
+        428
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 158,
+      "label": "Lass Rylee",
+      "part": 0,
+      "ids": [
+        291
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 172,
+      "label": "Golfer Dean (Route Boss) (Reward: Flame Orb)",
+      "part": 0,
+      "ids": [
+        465
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 186,
+      "label": "Actor Meredith",
+      "part": 0,
+      "ids": [
+        538
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 202,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        319
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 216,
+      "label": "Team Skull Grunt (Middle Path of Canyon Puzzle)",
+      "part": 0,
+      "ids": [
+        311
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 230,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        310
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 244,
+      "label": "Team Skull Grunts",
+      "part": 0,
+      "ids": [
+        141
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 244,
+      "label": "Team Skull Grunts",
+      "part": 1,
+      "ids": [
+        227
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 260,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        231
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 274,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        232
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 288,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        524
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 302,
+      "label": "Team Skull Grunts",
+      "part": 0,
+      "ids": [
+        315
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 302,
+      "label": "Team Skull Grunts",
+      "part": 1,
+      "ids": [
+        316
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 316,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        318
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 330,
+      "label": "Team Skull Grunt (The one on top of the truck. Optional but hard to dodge)",
+      "part": 0,
+      "ids": [
+        324
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 345,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        321
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 359,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        312
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 373,
+      "label": "Team Skull Grunt (north room, first floor)",
+      "part": 0,
+      "ids": [
+        313
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 388,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        457
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 402,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        458
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 416,
+      "label": "Team Skull Grunt (Southwest Room, 2nd floor)",
+      "part": 0,
+      "ids": [
+        323
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 430,
+      "label": "Team Skull Grunt (2nd floor hallway)",
+      "part": 0,
+      "ids": [
+        322
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 444,
+      "label": "Team Skull Grunt (Roof) (Perminent Rain)",
+      "part": 0,
+      "ids": [
+        314
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 458,
+      "label": "Team Skull Boss Guzma",
+      "part": 0,
+      "ids": [
+        235
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 473,
+      "label": "Team Skull Gladion",
+      "part": 0,
+      "ids": [
+        239
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Grand Trial 3",
+      "row": 488,
+      "label": "Island Kahuna Nanu (1 Max Potion, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        154
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 2,
+      "label": "Aether Foundation Employee",
+      "part": 0,
+      "ids": [
+        258
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 16,
+      "label": "Aether Foundation Employee",
+      "part": 0,
+      "ids": [
+        348
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 30,
+      "label": "Aether Foundation Employee",
+      "part": 0,
+      "ids": [
+        259
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 44,
+      "label": "Aether Foundation Employee",
+      "part": 0,
+      "ids": [
+        346
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 58,
+      "label": "Aether Foundation Employee",
+      "part": 0,
+      "ids": [
+        517
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 72,
+      "label": "Aether Foundation Employee (Guards the TM for Toxic)",
+      "part": 0,
+      "ids": [
+        347
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 87,
+      "label": "Aether Brach Chief Faba",
+      "part": 0,
+      "ids": [
+        132
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 103,
+      "label": "Aether Foundation Employee (X defense)",
+      "part": 0,
+      "ids": [
+        137
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 117,
+      "label": "Aether Foundation Employee (X Special Attack)",
+      "part": 0,
+      "ids": [
+        242
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 131,
+      "label": "Aether Foundation Employee (X Defense)",
+      "part": 0,
+      "ids": [
+        243
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 146,
+      "label": "Rival Hau (Rowlet Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        450,
+        447,
+        220
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 160,
+      "label": "Rival Hau (Litten Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        451,
+        448,
+        221
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 174,
+      "label": "Rival Hau (Popplio Chosen) (Ally)",
+      "part": 0,
+      "ids": [
+        452,
+        449
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 188,
+      "label": "Aether Foundation Employees (Tag with Hau)",
+      "part": 0,
+      "ids": [
+        136
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 188,
+      "label": "Aether Foundation Employees (Tag with Hau)",
+      "part": 1,
+      "ids": [
+        134
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 204,
+      "label": "Aether Foundation Employees (Tag with Hau)",
+      "part": 0,
+      "ids": [
+        454
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 204,
+      "label": "Aether Foundation Employees (Tag with Hau)",
+      "part": 1,
+      "ids": [
+        453
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 219,
+      "label": "Team Skull Gladion",
+      "part": 0,
+      "ids": [
+        441
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 233,
+      "label": "Aether Foundation Employees (Tag with Gladion)",
+      "part": 0,
+      "ids": [
+        456
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 233,
+      "label": "Aether Foundation Employees (Tag with Gladion)",
+      "part": 1,
+      "ids": [
+        455
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 247,
+      "label": "Aether Brach Chief Faba and Employee (Tag with Hau) (Faba has an X Defense)",
+      "part": 0,
+      "ids": [
+        442
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 247,
+      "label": "Aether Brach Chief Faba and Employee (Tag with Hau) (Faba has an X Defense)",
+      "part": 1,
+      "ids": [
+        241
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 262,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        228
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 276,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        229
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 290,
+      "label": "Team Skull Boss Guzma",
+      "part": 0,
+      "ids": [
+        236
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 305,
+      "label": "Ultra Recon Squad Dulse (PHOTONIC SUN) (1 X Sp. Attack)",
+      "part": 0,
+      "ids": [
+        500
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 319,
+      "label": "Ultra Recon Squad Soliera (PRISMATIC MOON) (1 X Sp. Attack)",
+      "part": 0,
+      "ids": [
+        498
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 333,
+      "label": "Aether President Lusamine",
+      "part": 0,
+      "ids": [
+        131
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 348,
+      "label": "Ace Trainer Elwood (Ace Trainer closest to the beach)",
+      "part": 0,
+      "ids": [
+        545
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 362,
+      "label": "Capoeira Couple Cara and Douglas",
+      "part": 0,
+      "ids": [
+        178
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 362,
+      "label": "Capoeira Couple Cara and Douglas",
+      "part": 1,
+      "ids": [
+        511
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 376,
+      "label": "Ace Trainer Lindsey",
+      "part": 0,
+      "ids": [
+        446
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 390,
+      "label": "Ace Trainer Kekoa",
+      "part": 0,
+      "ids": [
+        445
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 404,
+      "label": "Cook Fil",
+      "part": 0,
+      "ids": [
+        330
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 418,
+      "label": "Dancer Julia (Route Boss) (Reward: Focus Sash)",
+      "part": 0,
+      "ids": [
+        466
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 433,
+      "label": "Collector Raymond",
+      "part": 0,
+      "ids": [
+        285
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 448,
+      "label": "Sightseer Jamie",
+      "part": 0,
+      "ids": [
+        277
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 462,
+      "label": "Swimmer Derek",
+      "part": 0,
+      "ids": [
+        526
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 478,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        233
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 492,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        230
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 507,
+      "label": "Ultra Recon Squad Dulse (PHOTONIC SUN) (1 X Attack)",
+      "part": 0,
+      "ids": [
+        501
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 521,
+      "label": "Ultra Recon Squad Soliera (PRISMATIC MOON) (1 X Sp. Def, 1 Full Restore)",
+      "part": 0,
+      "ids": [
+        499
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 536,
+      "label": "Veteran Harry",
+      "part": 0,
+      "ids": [
+        306
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 550,
+      "label": "Backpacker Perdy",
+      "part": 0,
+      "ids": [
+        297
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 564,
+      "label": "Ace Duo Kent and Aimee",
+      "part": 0,
+      "ids": [
+        265
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 564,
+      "label": "Ace Duo Kent and Aimee",
+      "part": 1,
+      "ids": [
+        262
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 579,
+      "label": "Hiker Zachary",
+      "part": 0,
+      "ids": [
+        289
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 595,
+      "label": "Veteran Lynn",
+      "part": 0,
+      "ids": [
+        309
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 609,
+      "label": "Ace Trainer Junko",
+      "part": 0,
+      "ids": [
+        261
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 624,
+      "label": "Scientist Ikaika (1 X Sp. Attack)",
+      "part": 0,
+      "ids": [
+        283
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 639,
+      "label": "Punk Girl Anna (Hard to dodge)",
+      "part": 0,
+      "ids": [
+        302
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 653,
+      "label": "Punk Guy Adam",
+      "part": 0,
+      "ids": [
+        301
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 667,
+      "label": "Black Belt Curtis",
+      "part": 0,
+      "ids": [
+        274
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 681,
+      "label": "Team Skull Grunt",
+      "part": 0,
+      "ids": [
+        525
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 696,
+      "label": "Black Belt Terry",
+      "part": 0,
+      "ids": [
+        275
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 710,
+      "label": "Surfer Joshah",
+      "part": 0,
+      "ids": [
+        632
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 725,
+      "label": "Ace Trainer Hiroshi",
+      "part": 0,
+      "ids": [
+        264
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 739,
+      "label": "Veteran Heather",
+      "part": 0,
+      "ids": [
+        308
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 753,
+      "label": "Veteran Eric",
+      "part": 0,
+      "ids": [
+        305
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 767,
+      "label": "Pokemon that appear in the Dragon totem trial",
+      "part": 0,
+      "ids": [
+        10310
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 7",
+      "row": 781,
+      "label": "TOTEM FIGHT (+2 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10311
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 2,
+      "label": "BOSS FIGHT (PHOTONIC SUN)",
+      "part": 0,
+      "ids": [
+        10312
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 16,
+      "label": "BOSS FIGHT (PRISMATIC MOON)",
+      "part": 0,
+      "ids": [
+        10313
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 31,
+      "label": "BOSS FIGHT (+2 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10314
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 46,
+      "label": "Youngster Kenway",
+      "part": 0,
+      "ids": [
+        569
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 61,
+      "label": "Trial Captain Mina",
+      "part": 0,
+      "ids": [
+        507
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 76,
+      "label": "Trial Captain Ilima",
+      "part": 0,
+      "ids": [
+        502
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 91,
+      "label": "Trial Captain Mallow (PHOTONIC SUN)",
+      "part": 0,
+      "ids": [
+        505
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 105,
+      "label": "Trial Captain Lana (PRISMATIC MOON)",
+      "part": 0,
+      "ids": [
+        503
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 121,
+      "label": "Trail Captain Kiawe",
+      "part": 0,
+      "ids": [
+        504
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 135,
+      "label": "Hiker David",
+      "part": 0,
+      "ids": [
+        535
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 150,
+      "label": "Trial Captain Sophocles (PHOTONIC SUN ONLY)",
+      "part": 0,
+      "ids": [
+        506
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 165,
+      "label": "Island Kahuna Nanu (PRISMATIC MOON ONLY)",
+      "part": 0,
+      "ids": [
+        508
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Island Trial 8",
+      "row": 180,
+      "label": "TOTEM FIGHT (+3 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10324
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Grand Trial 4",
+      "row": 2,
+      "label": "Island Kahuna Hapu",
+      "part": 0,
+      "ids": [
+        497
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 3,
+      "label": "Pokemon Trainer Gladion (Rowlet Chosen)",
+      "part": 0,
+      "ids": [
+        240
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 17,
+      "label": "Pokemon Trainer Gladion (Litten Chosen)",
+      "part": 0,
+      "ids": [
+        415
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 31,
+      "label": "Pokemon Trainer Gladion (Popplio Chosen)",
+      "part": 0,
+      "ids": [
+        416
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 46,
+      "label": "Ace Trainer Seth",
+      "part": 0,
+      "ids": [
+        612
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 60,
+      "label": "Ace Trainer Kailee",
+      "part": 0,
+      "ids": [
+        614
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 74,
+      "label": "Veteran Alonsa (Guards TM84 Poison Jab)",
+      "part": 0,
+      "ids": [
+        627
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 88,
+      "label": "Worker Ovid",
+      "part": 0,
+      "ids": [
+        622
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 104,
+      "label": "Sparring Parthers Allon and Eimar",
+      "part": 0,
+      "ids": [
+        618
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 104,
+      "label": "Sparring Parthers Allon and Eimar",
+      "part": 1,
+      "ids": [
+        617
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 118,
+      "label": "Sparring Partners Craig and Jason",
+      "part": 0,
+      "ids": [
+        620
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 118,
+      "label": "Sparring Partners Craig and Jason",
+      "part": 1,
+      "ids": [
+        619
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 134,
+      "label": "Backpacker Peren",
+      "part": 0,
+      "ids": [
+        624
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 148,
+      "label": "Veteran Ella (Guards Icium Z)",
+      "part": 0,
+      "ids": [
+        628
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 162,
+      "label": "Collector Minty",
+      "part": 0,
+      "ids": [
+        621
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 177,
+      "label": "Hiker Anuhea",
+      "part": 0,
+      "ids": [
+        625
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 192,
+      "label": "Ace Trainer Jada",
+      "part": 0,
+      "ids": [
+        615
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 207,
+      "label": "Master & Apprentice Kaimana and Breon",
+      "part": 0,
+      "ids": [
+        613
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Victory Road",
+      "row": 207,
+      "label": "Master & Apprentice Kaimana and Breon",
+      "part": 1,
+      "ids": [
+        626
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 1,
+      "label": "Elite Four Molayne (2 Full Restores, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        489
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 15,
+      "label": "Elite Four Olivia (2 Full Restores, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        153
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 29,
+      "label": "Elite Four Acerola (2 Full Restores, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        149
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 43,
+      "label": "Elite Four Kahili (2 Full Restores, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        156
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 57,
+      "label": "Rival Hau (Rowlet Chosen) (4 Full Restores)",
+      "part": 0,
+      "ids": [
+        494
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 71,
+      "label": "Rival Hau (Litten Chosen) (Full Restore x4)",
+      "part": 0,
+      "ids": [
+        495
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Elite 4",
+      "row": 85,
+      "label": "Rival Hau (Popplio Chosen) (Full Restore x4)",
+      "part": 0,
+      "ids": [
+        496
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 3,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        593
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 17,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        584
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 31,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        585
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 45,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        594
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 59,
+      "label": "Pokemon Trainer Lillie (Ally)",
+      "part": 0,
+      "ids": [
+        582
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 73,
+      "label": "Aether Brach Chief Faba and Employee (Tag with Lillie) (Faba has an X Defense)",
+      "part": 0,
+      "ids": [
+        544
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 73,
+      "label": "Aether Brach Chief Faba and Employee (Tag with Lillie) (Faba has an X Defense)",
+      "part": 1,
+      "ids": [
+        561
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 88,
+      "label": "Team Skull Boss Guzma (Ally)",
+      "part": 0,
+      "ids": [
+        558
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 102,
+      "label": "Team Rainbow Rocket Grunts (Tag with Guzma)",
+      "part": 0,
+      "ids": [
+        586
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 102,
+      "label": "Team Rainbow Rocket Grunts (Tag with Guzma)",
+      "part": 1,
+      "ids": [
+        595
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 118,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        599
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 133,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 1)",
+      "part": 0,
+      "ids": [
+        638
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 147,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        634
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 161,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        639
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 177,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 2)",
+      "part": 0,
+      "ids": [
+        635
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 191,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 3)",
+      "part": 0,
+      "ids": [
+        640
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 205,
+      "label": "Team Rainbow Rocket Grunt (Also Teleporter 3)",
+      "part": 0,
+      "ids": [
+        636
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 219,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 4)",
+      "part": 0,
+      "ids": [
+        641
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 5,
+      "exported_party_size": 5
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 233,
+      "label": "Team Rainbow Rocket Grunt (Also Teleporter 4)",
+      "part": 0,
+      "ids": [
+        642
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 247,
+      "label": "Team Rainbow Rocket Grunt (Ambushes you upon solving the 2nd teleporter puzzle)",
+      "part": 0,
+      "ids": [
+        600
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 263,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 5)",
+      "part": 0,
+      "ids": [
+        601
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 277,
+      "label": "Team Rainbow Rocket Grunt (Teleporter 6)",
+      "part": 0,
+      "ids": [
+        590
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 293,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        602
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 307,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        603
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 323,
+      "label": "Team Aqua Leader Archie (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        541
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 338,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        596
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 352,
+      "label": "Team Rainbow Rocket Grunt (ambushes you midway through the 3rd puzzle)",
+      "part": 0,
+      "ids": [
+        597
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 366,
+      "label": "Team Rainbow Rocket Grunt (ambushes you at a later point of the 3rd puzzle)",
+      "part": 0,
+      "ids": [
+        588
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 380,
+      "label": "Team Rainbow Rocket Grunt (Take the wrong teleporter which is the one to the right)",
+      "part": 0,
+      "ids": [
+        587
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 396,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        598
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 410,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        589
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 424,
+      "label": "Team Magma Leader Maxie (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        580
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 439,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        637
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 453,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        604
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 467,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        605
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 482,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        606
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 496,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        591
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 510,
+      "label": "Team Galactic Leader Cyrus (PHOTONIC SUN) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        542
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 524,
+      "label": "Team Galactic Leader Cyrus (PRISMATIC MOON) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        543
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 539,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        643
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 553,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        607
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 567,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        608
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 582,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        609
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 596,
+      "label": "Team Rainbow Rocket Grunt",
+      "part": 0,
+      "ids": [
+        592
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 610,
+      "label": "Team Flare Leader Lysandre (PHOTONIC SUN) (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        572
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 624,
+      "label": "Team Flare Leader Lysandre (PRISMATIC MOON) (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        573
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 639,
+      "label": "Team Plasma Leader Ghetsis (PHOTONIC SUN) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        559
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 653,
+      "label": "Team Plasma Leader Ghetsis (PRISMATIC MOON) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        560
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 667,
+      "label": "Team Rainbow Rocket Giovanni (PHOTONIC SUN) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        562
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rainbow_Rocket",
+      "row": 681,
+      "label": "Team Rainbow Rocket Giovanni (PRISMATIC MOON) (2 Full Restores)",
+      "part": 0,
+      "ids": [
+        645
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 2,
+      "label": "Black Belt Roy",
+      "part": 0,
+      "ids": [
+        272
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 16,
+      "label": "Ace Trainer Jackson",
+      "part": 0,
+      "ids": [
+        263
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 31,
+      "label": "Pokemon Trainer Dexio (Blocks access to Poni Meadow, ambushes you near the entrance)",
+      "part": 0,
+      "ids": [
+        412
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 45,
+      "label": "Police Officer Sheriff",
+      "part": 0,
+      "ids": [
+        528
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 59,
+      "label": "Hiker Ryan",
+      "part": 0,
+      "ids": [
+        288
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 73,
+      "label": "Ace Trainer Angela",
+      "part": 0,
+      "ids": [
+        260
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 87,
+      "label": "Veteran Leon",
+      "part": 0,
+      "ids": [
+        180
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 101,
+      "label": "Ace Trainer Cole (Route Boss) (Reward: TM60 Aura Sphere [which is already in Tapu Village])",
+      "part": 0,
+      "ids": [
+        475
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 116,
+      "label": "Actor Meradith",
+      "part": 0,
+      "ids": [
+        539
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 131,
+      "label": "Veteran Leticia",
+      "part": 0,
+      "ids": [
+        519
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 145,
+      "label": "Backpacker Maria",
+      "part": 0,
+      "ids": [
+        298
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 159,
+      "label": "Hiker Travis",
+      "part": 0,
+      "ids": [
+        290
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 174,
+      "label": "Tourist Couple Steve and Reika",
+      "part": 0,
+      "ids": [
+        515
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 174,
+      "label": "Tourist Couple Steve and Reika",
+      "part": 1,
+      "ids": [
+        534
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 188,
+      "label": "Young Athlete Anton",
+      "part": 0,
+      "ids": [
+        531
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 202,
+      "label": "Honeymooners Noriko and Devin",
+      "part": 0,
+      "ids": [
+        278
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 202,
+      "label": "Honeymooners Noriko and Devin",
+      "part": 1,
+      "ids": [
+        280
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 216,
+      "label": "Firefighter Aiden",
+      "part": 0,
+      "ids": [
+        532
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 231,
+      "label": "Scientist Kyle (1 X Speed)",
+      "part": 0,
+      "ids": [
+        282
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 245,
+      "label": "Veteran Sheri",
+      "part": 0,
+      "ids": [
+        181
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 259,
+      "label": "Backpacker Yuho",
+      "part": 0,
+      "ids": [
+        296
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 273,
+      "label": "Black Belt Tracy",
+      "part": 0,
+      "ids": [
+        273
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 287,
+      "label": "Punk Pair Marie and Troy",
+      "part": 0,
+      "ids": [
+        430
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 287,
+      "label": "Punk Pair Marie and Troy",
+      "part": 1,
+      "ids": [
+        429
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 301,
+      "label": "Veteran Duo Tsunekazu and Nobuko",
+      "part": 0,
+      "ids": [
+        307
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 301,
+      "label": "Veteran Duo Tsunekazu and Nobuko",
+      "part": 1,
+      "ids": [
+        303
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 317,
+      "label": "PokemonTrainer Red (4 Full Restores)",
+      "part": 0,
+      "ids": [
+        159
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 331,
+      "label": "Pokemon Trainer Blue",
+      "part": 0,
+      "ids": [
+        160
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 346,
+      "label": "Island Kahuna Hala (Reward: Z-Crystals for the starters you didn't choose)",
+      "part": 0,
+      "ids": [
+        650
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 361,
+      "label": "Glaceon User Rea (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        363
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 376,
+      "label": "Black Belt Duane",
+      "part": 0,
+      "ids": [
+        386
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 390,
+      "label": "Principal Asuka (Reward: King's Rock)",
+      "part": 0,
+      "ids": [
+        380
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 404,
+      "label": "Trial Captain Ilima (1 Full Restore, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        396
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 418,
+      "label": "Vaporeon User Polly (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        361
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 433,
+      "label": "Umbreon User Braiden (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        367
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 448,
+      "label": "TOTEM FIGHT (PHOTONIC SUN) (+3 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10436
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 462,
+      "label": "TOTEM FIGHT (PRISMATIC MOON) (+3 OMNIBOOST)",
+      "part": 0,
+      "ids": [
+        10437
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 477,
+      "label": "GAME FREAK Morimoto and GAME FREAK Iwao (Reward Oval Charm)",
+      "part": 0,
+      "ids": [
+        578
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 477,
+      "label": "GAME FREAK Morimoto and GAME FREAK Iwao (Reward Oval Charm)",
+      "part": 1,
+      "ids": [
+        557
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 491,
+      "label": "Flareon User Chad",
+      "part": 0,
+      "ids": [
+        364
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 506,
+      "label": "Trial Captain Kiawe (PHOTONIC SUN) (Night) (1 Full Restore and 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        398
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 521,
+      "label": "Eevee user Kagetora (Reward Eeveeium-Z)",
+      "part": 0,
+      "ids": [
+        379
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 2,
+      "exported_party_size": 2
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 536,
+      "label": "Trial Captain Mallow (PRISMATIC MOON) (1 Full Restore, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        146
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 551,
+      "label": "Leafeon User Linnea",
+      "part": 0,
+      "ids": [
+        368
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 566,
+      "label": "Twins Harper and Sarah",
+      "part": 0,
+      "ids": [
+        371
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 566,
+      "label": "Twins Harper and Sarah",
+      "part": 1,
+      "ids": [
+        372
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 580,
+      "label": "Trial Captain Lana (1 Full Restore, 1 Full Heal)",
+      "part": 0,
+      "ids": [
+        144
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 595,
+      "label": "Jolteon User Jane (1 Full Restore)",
+      "part": 0,
+      "ids": [
+        362
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 610,
+      "label": "Espeon User Ishaan",
+      "part": 0,
+      "ids": [
+        365
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 625,
+      "label": "Veteran Aristo (must battle every other Z trainer/Route Boss) (Reward: Life Orb)",
+      "part": 0,
+      "ids": [
+        577
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 641,
+      "label": "Pokemon Trainer Dexio (Battles you after getting the Zygarde Cells) (Reward: New Moves for Zyarde)",
+      "part": 0,
+      "ids": [
+        623
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 656,
+      "label": "Sightseer Marcus (Reward: 6 Nuggets)",
+      "part": 0,
+      "ids": [
+        388
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 670,
+      "label": "Sylveon User Kira",
+      "part": 0,
+      "ids": [
+        369
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 4,
+      "exported_party_size": 4
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 685,
+      "label": "Swimmer Girls Kylie and Ashlyn",
+      "part": 0,
+      "ids": [
+        374
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 685,
+      "label": "Swimmer Girls Kylie and Ashlyn",
+      "part": 1,
+      "ids": [
+        373
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 3,
+      "exported_party_size": 3
+    },
+    {
+      "sheet": "Rest of Post-Game",
+      "row": 700,
+      "label": "Aether Foundation Faba",
+      "part": 0,
+      "ids": [
+        410
+      ],
+      "id_source": "rom",
+      "sheet_party_size": 6,
+      "exported_party_size": 6
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Articuno",
+      "part": 0,
+      "ids": [
+        10457
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Zapdos",
+      "part": 0,
+      "ids": [
+        10458
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Moltres",
+      "part": 0,
+      "ids": [
+        10459
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Mewtwo",
+      "part": 0,
+      "ids": [
+        10460
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Raikou",
+      "part": 0,
+      "ids": [
+        10461
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Entei",
+      "part": 0,
+      "ids": [
+        10462
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Suicune",
+      "part": 0,
+      "ids": [
+        10463
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Lugia",
+      "part": 0,
+      "ids": [
+        10464
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Ho-Oh",
+      "part": 0,
+      "ids": [
+        10465
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Regirock",
+      "part": 0,
+      "ids": [
+        10466
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Regice",
+      "part": 0,
+      "ids": [
+        10467
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Registeel",
+      "part": 0,
+      "ids": [
+        10468
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Latias",
+      "part": 0,
+      "ids": [
+        10469
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Latios",
+      "part": 0,
+      "ids": [
+        10470
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Kyogre",
+      "part": 0,
+      "ids": [
+        10471
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Groudon",
+      "part": 0,
+      "ids": [
+        10472
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Rayquaza",
+      "part": 0,
+      "ids": [
+        10473
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Uxie",
+      "part": 0,
+      "ids": [
+        10474
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Mesprit",
+      "part": 0,
+      "ids": [
+        10475
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Azelf",
+      "part": 0,
+      "ids": [
+        10476
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Dialga",
+      "part": 0,
+      "ids": [
+        10477
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Palkia",
+      "part": 0,
+      "ids": [
+        10478
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Heatran",
+      "part": 0,
+      "ids": [
+        10479
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Regigigas",
+      "part": 0,
+      "ids": [
+        10480
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Giratina",
+      "part": 0,
+      "ids": [
+        10481
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Cresselia",
+      "part": 0,
+      "ids": [
+        10482
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Cobalion",
+      "part": 0,
+      "ids": [
+        10483
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Terrakion",
+      "part": 0,
+      "ids": [
+        10484
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Virizion",
+      "part": 0,
+      "ids": [
+        10485
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Tornadus",
+      "part": 0,
+      "ids": [
+        10486
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Thundurus",
+      "part": 0,
+      "ids": [
+        10487
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Reshiram",
+      "part": 0,
+      "ids": [
+        10488
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Zekrom",
+      "part": 0,
+      "ids": [
+        10489
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Landorus",
+      "part": 0,
+      "ids": [
+        10490
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Kyurem",
+      "part": 0,
+      "ids": [
+        10491
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Xerneas",
+      "part": 0,
+      "ids": [
+        10492
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Yveltal",
+      "part": 0,
+      "ids": [
+        10493
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Solgaleo",
+      "part": 0,
+      "ids": [
+        10494
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Lunala",
+      "part": 0,
+      "ids": [
+        10495
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Blacephalon",
+      "part": 0,
+      "ids": [
+        10496
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Stakataka",
+      "part": 0,
+      "ids": [
+        10497
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Tapu Koko",
+      "part": 0,
+      "ids": [
+        10498
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Tapu Lele",
+      "part": 0,
+      "ids": [
+        10499
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Tapu Bulu",
+      "part": 0,
+      "ids": [
+        10500
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Tapu Fini",
+      "part": 0,
+      "ids": [
+        10501
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    },
+    {
+      "sheet": "Legendary_Docs",
+      "row": 5,
+      "label": "Legendary encounter Zygarde",
+      "part": 0,
+      "ids": [
+        10502
+      ],
+      "id_source": "calculator_only",
+      "sheet_party_size": 1,
+      "exported_party_size": 1
+    }
+  ]
+}

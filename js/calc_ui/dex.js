@@ -6,6 +6,8 @@ const dexBridgeSlots = {
 };
 let dexBridgeRequestCounter = 0;
 const dexGameIdsByTitle = {
+	'Photonic Sun/Prismatic Moon': 'photonicsun',
+	'Photonic Sun Rebalanced': 'photonicsun',
 	'Blaze Black 2/Volt White 2 Redux': 'blazeblack2redux',
 	'Brutal Black': 'brutalblack',
 	'Wishy Washy White 2 Redux': 'wishywashywhite2redux',
@@ -65,7 +67,9 @@ function withDexGameContext(path, options) {
 }
 
 function getDexFrameUrl(path, options) {
-	return `https://ddex-chi.vercel.app/${withDexGameContext(path, options)}`;
+	const local = window.location.hostname === 'localhost' && window.location.port === '3001';
+	const origin = local ? 'http://localhost:3000' : 'https://ddex-chi.vercel.app';
+	return `${origin}/${withDexGameContext(path, options)}`;
 }
 
 function normalizeDexRoute(path) {
