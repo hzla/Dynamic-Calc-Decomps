@@ -234,6 +234,21 @@
                 }
             ]
         },
+        "firered-omega": {
+            id: "firered-omega",
+            title: "FireRed ω",
+            coverImage: "",
+            description: "",
+            sourceTitle: "FireRed ω",
+            variants: [
+                {
+                    label: "FireRed ω",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=frol&dmgGen=3&gen=3&switchIn=3&types=3&view=calculator",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "heart-gold-soul-silver": {
             id: "heart-gold-soul-silver",
             title: "Heart Gold/Soul Silver",
@@ -776,6 +791,7 @@
                 "brutal-black",
                 "cascade-white",
                 "emerald-but-bad",
+                "firered-omega",
                 "little-emerald",
                 "luminescent-platinum",
                 "maximum-platinum",
