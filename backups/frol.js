@@ -43366,12 +43366,12 @@ var backup_data = {
     },
     "Scyther": {
       "bs": {
-        "hp": 70,
+        "hp": 50,
         "at": 110,
-        "df": 80,
+        "df": 60,
         "sp": 105,
-        "sa": 55,
-        "sd": 80
+        "sa": 33,
+        "sd": 60
       },
       "types": [
         "Bug",
