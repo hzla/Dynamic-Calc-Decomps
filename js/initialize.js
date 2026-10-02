@@ -768,7 +768,8 @@ function normalizeBaseGameValue(baseGameValue) {
         gen7: "g7",
         radred: "rad_red",
         rad_red: "rad_red",
-        unbound: "unbound"
+        unbound: "unbound",
+        heartandsoul: "heartandsoul"
     };
     const aliasKey = normalizedValue.toLowerCase().replace(/[^a-z0-9_]/g, "");
     return baseGameAliases[aliasKey] || normalizedValue;
@@ -1345,6 +1346,16 @@ function setGameSettings(title) {
     showAI = false
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
+  } else if (title.includes("Heart & Soul")) {
+    gameGen = 8
+    settings.damageGen = 8
+    settings.sourceType = "full"
+    settings.readIncludes = true
+    settings.customPoks = true
+    settings.typeChart = 6
+    settings.critGen = 5
+    $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
+    $('label[for="hail"]').show()
   } else if (title.includes("Unbound")) {
     gameGen = 8
     settings.gameSwitchIn = 8
@@ -1592,6 +1603,8 @@ function setBaseGame(title) {
             if (localStorage.switchInfo == '1') {
               $('.trainer-pok-list.opposing').addClass('ai-show')
             }
+        } else if (title.includes("Heart & Soul")) {
+            window.baseGame = "heartandsoul"
         } else if (title.includes("Unbound")) {
             window.baseGame = "unbound"
         } else if (isPokemonColorsTitle(title)) {

@@ -1,0 +1,5422 @@
+{
+  "baseCommit": "167aa6d537b109bb229c231ddce4616974c4da71",
+  "difficultCommit": "8d28c37e295167efcebfe3f47ec1b48a3b3e8dcf",
+  "counts": {
+    "changedSpecies": 24,
+    "changedTrainerParties": 480,
+    "addedTrainers": 3
+  },
+  "changedSpeciesFields": {
+    "abilities": 24,
+    "bs": 14,
+    "learnset_info": 7,
+    "types": 6
+  },
+  "movesIdentical": true,
+  "saveLayoutsMatch": true,
+  "speciesChanges": [
+    {
+      "species": "Bayleef",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Leaf Guard"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Triage",
+            "H": "Leaf Guard"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 60,
+            "at": 62,
+            "df": 80,
+            "sp": 60,
+            "sa": 63,
+            "sd": 80
+          },
+          "difficult": {
+            "hp": 60,
+            "at": 62,
+            "df": 80,
+            "sp": 60,
+            "sa": 73,
+            "sd": 80
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                1,
+                "Razor Leaf"
+              ],
+              [
+                1,
+                "Poison Powder"
+              ],
+              [
+                1,
+                "Sleep Powder"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                13,
+                "Sleep Powder"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                18,
+                "Reflect"
+              ],
+              [
+                22,
+                "Magical Leaf"
+              ],
+              [
+                26,
+                "Natural Gift"
+              ],
+              [
+                27,
+                "Ancient Power"
+              ],
+              [
+                29,
+                "Giga Drain"
+              ],
+              [
+                32,
+                "Sweet Scent"
+              ],
+              [
+                36,
+                "Light Screen"
+              ],
+              [
+                40,
+                "Body Slam"
+              ],
+              [
+                46,
+                "Safeguard"
+              ],
+              [
+                50,
+                "Aromatherapy"
+              ],
+              [
+                54,
+                "Solar Beam"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Grass Knot",
+              "Hidden Power",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Rock Smash",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Echoed Voice",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                1,
+                "Razor Leaf"
+              ],
+              [
+                1,
+                "Poison Powder"
+              ],
+              [
+                1,
+                "Sleep Powder"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                13,
+                "Sleep Powder"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                18,
+                "Reflect"
+              ],
+              [
+                22,
+                "Magical Leaf"
+              ],
+              [
+                26,
+                "Draining Kiss"
+              ],
+              [
+                29,
+                "Ancient Power"
+              ],
+              [
+                32,
+                "Giga Drain"
+              ],
+              [
+                36,
+                "Light Screen"
+              ],
+              [
+                40,
+                "Body Slam"
+              ],
+              [
+                44,
+                "Play Rough"
+              ],
+              [
+                48,
+                "Safeguard"
+              ],
+              [
+                52,
+                "Aromatherapy"
+              ],
+              [
+                56,
+                "Moonblast"
+              ],
+              [
+                60,
+                "Solar Beam"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Grass Knot",
+              "Hidden Power",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Rock Smash",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Echoed Voice",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Grass"
+          ],
+          "difficult": [
+            "Grass",
+            "Fairy"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Beedrill",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Swarm",
+            "H": "Sniper"
+          },
+          "difficult": {
+            "0": "Swarm",
+            "1": "Adaptability",
+            "H": "Sniper"
+          }
+        }
+      }
+    },
+    {
+      "species": "Blastoise",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Rain Dish"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Mega Launcher",
+            "H": "Rain Dish"
+          }
+        }
+      }
+    },
+    {
+      "species": "Bulbasaur",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Chlorophyll"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Thick Fat",
+            "H": "Chlorophyll"
+          }
+        }
+      }
+    },
+    {
+      "species": "Charizard",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Solar Power"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Drought",
+            "H": "Solar Power"
+          }
+        }
+      }
+    },
+    {
+      "species": "Charmander",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Solar Power"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Drought",
+            "H": "Solar Power"
+          }
+        }
+      }
+    },
+    {
+      "species": "Charmeleon",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Solar Power"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Drought",
+            "H": "Solar Power"
+          }
+        }
+      }
+    },
+    {
+      "species": "Chikorita",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Leaf Guard"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Triage",
+            "H": "Leaf Guard"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 45,
+            "at": 49,
+            "df": 65,
+            "sp": 45,
+            "sa": 49,
+            "sd": 65
+          },
+          "difficult": {
+            "hp": 45,
+            "at": 49,
+            "df": 65,
+            "sp": 45,
+            "sa": 59,
+            "sd": 65
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                17,
+                "Reflect"
+              ],
+              [
+                20,
+                "Magical Leaf"
+              ],
+              [
+                23,
+                "Natural Gift"
+              ],
+              [
+                28,
+                "Sweet Scent"
+              ],
+              [
+                31,
+                "Light Screen"
+              ],
+              [
+                34,
+                "Body Slam"
+              ],
+              [
+                39,
+                "Safeguard"
+              ],
+              [
+                42,
+                "Aromatherapy"
+              ],
+              [
+                45,
+                "Solar Beam"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Grass Knot",
+              "Hidden Power",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Echoed Voice",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                17,
+                "Reflect"
+              ],
+              [
+                20,
+                "Magical Leaf"
+              ],
+              [
+                23,
+                "Draining Kiss"
+              ],
+              [
+                27,
+                "Sweet Scent"
+              ],
+              [
+                31,
+                "Light Screen"
+              ],
+              [
+                35,
+                "Giga Drain"
+              ],
+              [
+                39,
+                "Safeguard"
+              ],
+              [
+                43,
+                "Aromatherapy"
+              ],
+              [
+                47,
+                "Moonblast"
+              ],
+              [
+                51,
+                "Solar Beam"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Grass Knot",
+              "Hidden Power",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Echoed Voice",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "species": "Croconaw",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Sheer Force"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Strong Jaw",
+            "H": "Sheer Force"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 65,
+            "at": 80,
+            "df": 80,
+            "sp": 58,
+            "sa": 59,
+            "sd": 63
+          },
+          "difficult": {
+            "hp": 65,
+            "at": 80,
+            "df": 80,
+            "sp": 63,
+            "sa": 59,
+            "sd": 63
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Scratch"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Water Gun"
+              ],
+              [
+                6,
+                "Water Gun"
+              ],
+              [
+                8,
+                "Rage"
+              ],
+              [
+                13,
+                "Bite"
+              ],
+              [
+                15,
+                "Scary Face"
+              ],
+              [
+                21,
+                "Ice Fang"
+              ],
+              [
+                24,
+                "Flail"
+              ],
+              [
+                30,
+                "Crunch"
+              ],
+              [
+                33,
+                "Chip Away"
+              ],
+              [
+                39,
+                "Slash"
+              ],
+              [
+                42,
+                "Screech"
+              ],
+              [
+                48,
+                "Thrash"
+              ],
+              [
+                51,
+                "Aqua Tail"
+              ],
+              [
+                57,
+                "Superpower"
+              ],
+              [
+                60,
+                "Hydro Pump"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Blizzard",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Dragon Claw",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fling",
+              "Focus Punch",
+              "Frustration",
+              "Hail",
+              "Hidden Power",
+              "Ice Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Protect",
+              "Rain Dance",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Surf",
+              "Swagger",
+              "Swords Dance",
+              "Thief",
+              "Toxic",
+              "Waterfall",
+              "Water Pulse",
+              "Whirlpool",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Double-Edge",
+              "Dynamic Punch",
+              "Fury Cutter",
+              "Headbutt",
+              "Ice Punch",
+              "Icy Wind",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Scald",
+              "Seismic Toss",
+              "Snore",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Scratch"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Water Gun"
+              ],
+              [
+                6,
+                "Water Gun"
+              ],
+              [
+                8,
+                "Rage"
+              ],
+              [
+                13,
+                "Bite"
+              ],
+              [
+                15,
+                "Scary Face"
+              ],
+              [
+                19,
+                "Razor Shell"
+              ],
+              [
+                21,
+                "Flail"
+              ],
+              [
+                25,
+                "Ice Fang"
+              ],
+              [
+                28,
+                "Chip Away"
+              ],
+              [
+                32,
+                "Crunch"
+              ],
+              [
+                39,
+                "Slash"
+              ],
+              [
+                42,
+                "Screech"
+              ],
+              [
+                48,
+                "Thrash"
+              ],
+              [
+                51,
+                "Aqua Tail"
+              ],
+              [
+                57,
+                "Superpower"
+              ],
+              [
+                60,
+                "Hydro Pump"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Blizzard",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Dragon Claw",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fling",
+              "Focus Punch",
+              "Frustration",
+              "Hail",
+              "Hidden Power",
+              "Ice Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Protect",
+              "Rain Dance",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Surf",
+              "Swagger",
+              "Swords Dance",
+              "Thief",
+              "Toxic",
+              "Waterfall",
+              "Water Pulse",
+              "Whirlpool",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Double-Edge",
+              "Dynamic Punch",
+              "Fury Cutter",
+              "Headbutt",
+              "Ice Punch",
+              "Icy Wind",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Scald",
+              "Seismic Toss",
+              "Snore",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Water"
+          ],
+          "difficult": [
+            "Water",
+            "Dark"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Cyndaquil",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Flash Fire"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Earth Eater",
+            "H": "Flash Fire"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 39,
+            "at": 52,
+            "df": 43,
+            "sp": 65,
+            "sa": 60,
+            "sd": 50
+          },
+          "difficult": {
+            "hp": 39,
+            "at": 52,
+            "df": 43,
+            "sp": 65,
+            "sa": 65,
+            "sd": 50
+          }
+        }
+      }
+    },
+    {
+      "species": "Feraligatr",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Sheer Force"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Strong Jaw",
+            "H": "Sheer Force"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 85,
+            "at": 105,
+            "df": 100,
+            "sp": 78,
+            "sa": 79,
+            "sd": 83
+          },
+          "difficult": {
+            "hp": 85,
+            "at": 105,
+            "df": 100,
+            "sp": 83,
+            "sa": 79,
+            "sd": 83
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Agility"
+              ],
+              [
+                1,
+                "Scratch"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Water Gun"
+              ],
+              [
+                1,
+                "Rage"
+              ],
+              [
+                6,
+                "Water Gun"
+              ],
+              [
+                8,
+                "Rage"
+              ],
+              [
+                13,
+                "Bite"
+              ],
+              [
+                15,
+                "Scary Face"
+              ],
+              [
+                21,
+                "Ice Fang"
+              ],
+              [
+                24,
+                "Flail"
+              ],
+              [
+                32,
+                "Crunch"
+              ],
+              [
+                37,
+                "Chip Away"
+              ],
+              [
+                45,
+                "Slash"
+              ],
+              [
+                50,
+                "Screech"
+              ],
+              [
+                58,
+                "Thrash"
+              ],
+              [
+                63,
+                "Aqua Tail"
+              ],
+              [
+                71,
+                "Superpower"
+              ],
+              [
+                76,
+                "Hydro Pump"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Avalanche",
+              "Blizzard",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Dragon Claw",
+              "Dragon Pulse",
+              "Earthquake",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fling",
+              "Focus Blast",
+              "Focus Punch",
+              "Frustration",
+              "Giga Impact",
+              "Hail",
+              "Hidden Power",
+              "Hyper Beam",
+              "Ice Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Protect",
+              "Rain Dance",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Climb",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Surf",
+              "Swagger",
+              "Swords Dance",
+              "Thief",
+              "Toxic",
+              "Waterfall",
+              "Water Pulse",
+              "Whirlpool",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Double-Edge",
+              "Dragon Tail",
+              "Dynamic Punch",
+              "Fury Cutter",
+              "Headbutt",
+              "Hydro Cannon",
+              "Ice Punch",
+              "Icy Wind",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Scald",
+              "Seismic Toss",
+              "Snarl",
+              "Snore",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Agility"
+              ],
+              [
+                1,
+                "Scratch"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Water Gun"
+              ],
+              [
+                1,
+                "Rage"
+              ],
+              [
+                6,
+                "Water Gun"
+              ],
+              [
+                8,
+                "Rage"
+              ],
+              [
+                13,
+                "Bite"
+              ],
+              [
+                15,
+                "Scary Face"
+              ],
+              [
+                21,
+                "Ice Fang"
+              ],
+              [
+                24,
+                "Flail"
+              ],
+              [
+                32,
+                "Crunch"
+              ],
+              [
+                37,
+                "Jaw Lock"
+              ],
+              [
+                45,
+                "Slash"
+              ],
+              [
+                50,
+                "Poison Fang"
+              ],
+              [
+                52,
+                "Aqua Tail"
+              ],
+              [
+                55,
+                "Fishious Rend"
+              ],
+              [
+                63,
+                "Dragon Dance"
+              ],
+              [
+                71,
+                "Superpower"
+              ],
+              [
+                76,
+                "Hydro Pump"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Avalanche",
+              "Blizzard",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Dragon Claw",
+              "Dragon Pulse",
+              "Earthquake",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fling",
+              "Focus Blast",
+              "Focus Punch",
+              "Frustration",
+              "Giga Impact",
+              "Hail",
+              "Hidden Power",
+              "Hyper Beam",
+              "Ice Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Protect",
+              "Rain Dance",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Climb",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Surf",
+              "Swagger",
+              "Swords Dance",
+              "Thief",
+              "Toxic",
+              "Waterfall",
+              "Water Pulse",
+              "Whirlpool",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Double-Edge",
+              "Dragon Tail",
+              "Dynamic Punch",
+              "Fury Cutter",
+              "Headbutt",
+              "Hydro Cannon",
+              "Ice Punch",
+              "Icy Wind",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Scald",
+              "Seismic Toss",
+              "Snarl",
+              "Snore",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Water"
+          ],
+          "difficult": [
+            "Water",
+            "Dark"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Ivysaur",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Chlorophyll"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Thick Fat",
+            "H": "Chlorophyll"
+          }
+        }
+      }
+    },
+    {
+      "species": "Ledian",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Swarm",
+            "1": "Early Bird",
+            "H": "Iron Fist"
+          },
+          "difficult": {
+            "0": "Huge Power",
+            "1": "Early Bird",
+            "H": "Iron Fist"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 55,
+            "at": 35,
+            "df": 50,
+            "sp": 85,
+            "sa": 55,
+            "sd": 110
+          },
+          "difficult": {
+            "hp": 55,
+            "at": 45,
+            "df": 50,
+            "sp": 85,
+            "sa": 55,
+            "sd": 110
+          }
+        }
+      }
+    },
+    {
+      "species": "Ledyba",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Swarm",
+            "1": "Early Bird",
+            "H": "Rattled"
+          },
+          "difficult": {
+            "0": "Huge Power",
+            "1": "Early Bird",
+            "H": "Rattled"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 40,
+            "at": 20,
+            "df": 30,
+            "sp": 55,
+            "sa": 40,
+            "sd": 80
+          },
+          "difficult": {
+            "hp": 40,
+            "at": 25,
+            "df": 30,
+            "sp": 55,
+            "sa": 40,
+            "sd": 80
+          }
+        }
+      }
+    },
+    {
+      "species": "Meganium",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Leaf Guard"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Triage",
+            "H": "Leaf Guard"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 80,
+            "at": 82,
+            "df": 100,
+            "sp": 80,
+            "sa": 83,
+            "sd": 100
+          },
+          "difficult": {
+            "hp": 80,
+            "at": 82,
+            "df": 100,
+            "sp": 80,
+            "sa": 93,
+            "sd": 100
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                0,
+                "Petal Dance"
+              ],
+              [
+                1,
+                "Petal Dance"
+              ],
+              [
+                1,
+                "Petal Blizzard"
+              ],
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                1,
+                "Ancient Power"
+              ],
+              [
+                1,
+                "Sleep Powder"
+              ],
+              [
+                1,
+                "Razor Leaf"
+              ],
+              [
+                1,
+                "Poison Powder"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                18,
+                "Reflect"
+              ],
+              [
+                22,
+                "Magical Leaf"
+              ],
+              [
+                26,
+                "Natural Gift"
+              ],
+              [
+                29,
+                "Giga Drain"
+              ],
+              [
+                34,
+                "Sweet Scent"
+              ],
+              [
+                40,
+                "Light Screen"
+              ],
+              [
+                45,
+                "Play Rough"
+              ],
+              [
+                46,
+                "Body Slam"
+              ],
+              [
+                54,
+                "Safeguard"
+              ],
+              [
+                60,
+                "Aromatherapy"
+              ],
+              [
+                62,
+                "Moonblast"
+              ],
+              [
+                66,
+                "Solar Beam"
+              ],
+              [
+                70,
+                "Petal Blizzard"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Earthquake",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Giga Impact",
+              "Grass Knot",
+              "Hidden Power",
+              "Hyper Beam",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Rock Climb",
+              "Rock Smash",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Dragon Tail",
+              "Echoed Voice",
+              "Frenzy Plant",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                0,
+                "Petal Dance"
+              ],
+              [
+                1,
+                "Petal Dance"
+              ],
+              [
+                1,
+                "Petal Blizzard"
+              ],
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Growl"
+              ],
+              [
+                1,
+                "Ancient Power"
+              ],
+              [
+                1,
+                "Sleep Powder"
+              ],
+              [
+                1,
+                "Razor Leaf"
+              ],
+              [
+                1,
+                "Poison Powder"
+              ],
+              [
+                6,
+                "Razor Leaf"
+              ],
+              [
+                9,
+                "Poison Powder"
+              ],
+              [
+                10,
+                "Leech Seed"
+              ],
+              [
+                12,
+                "Synthesis"
+              ],
+              [
+                15,
+                "Mega Drain"
+              ],
+              [
+                18,
+                "Reflect"
+              ],
+              [
+                22,
+                "Magical Leaf"
+              ],
+              [
+                26,
+                "Draining Kiss"
+              ],
+              [
+                29,
+                "Giga Drain"
+              ],
+              [
+                34,
+                "Sweet Scent"
+              ],
+              [
+                40,
+                "Light Screen"
+              ],
+              [
+                45,
+                "Play Rough"
+              ],
+              [
+                50,
+                "Body Slam"
+              ],
+              [
+                54,
+                "Earth Power"
+              ],
+              [
+                58,
+                "Aromatherapy"
+              ],
+              [
+                60,
+                "Moonblast"
+              ],
+              [
+                62,
+                "Safeguard"
+              ],
+              [
+                65,
+                "Calm Mind"
+              ]
+            ],
+            "tms": [
+              "Attract",
+              "Bullet Seed",
+              "Captivate",
+              "Cut",
+              "Double Team",
+              "Earthquake",
+              "Endure",
+              "Energy Ball",
+              "Facade",
+              "Flash",
+              "Frustration",
+              "Giga Drain",
+              "Giga Impact",
+              "Grass Knot",
+              "Hidden Power",
+              "Hyper Beam",
+              "Iron Tail",
+              "Light Screen",
+              "Natural Gift",
+              "Protect",
+              "Reflect",
+              "Rest",
+              "Return",
+              "Rock Climb",
+              "Rock Smash",
+              "Safeguard",
+              "Secret Power",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Swords Dance",
+              "Toxic",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Dazzling Gleam",
+              "Double-Edge",
+              "Dragon Tail",
+              "Echoed Voice",
+              "Frenzy Plant",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Round",
+              "Snore",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Grass"
+          ],
+          "difficult": [
+            "Grass",
+            "Fairy"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Pidgeot",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
+            "H": "Big Pecks"
+          },
+          "difficult": {
+            "0": "Keen Eye",
+            "1": "No Guard",
+            "H": "Big Pecks"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 83,
+            "at": 80,
+            "df": 75,
+            "sp": 101,
+            "sa": 70,
+            "sd": 70
+          },
+          "difficult": {
+            "hp": 83,
+            "at": 80,
+            "df": 75,
+            "sp": 101,
+            "sa": 85,
+            "sd": 70
+          }
+        }
+      }
+    },
+    {
+      "species": "Pidgeotto",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
+            "H": "Big Pecks"
+          },
+          "difficult": {
+            "0": "Keen Eye",
+            "1": "No Guard",
+            "H": "Big Pecks"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 63,
+            "at": 60,
+            "df": 55,
+            "sp": 71,
+            "sa": 50,
+            "sd": 50
+          },
+          "difficult": {
+            "hp": 63,
+            "at": 60,
+            "df": 55,
+            "sp": 76,
+            "sa": 55,
+            "sd": 50
+          }
+        }
+      }
+    },
+    {
+      "species": "Pidgey",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
+            "H": "Big Pecks"
+          },
+          "difficult": {
+            "0": "Keen Eye",
+            "1": "No Guard",
+            "H": "Big Pecks"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 40,
+            "at": 45,
+            "df": 40,
+            "sp": 56,
+            "sa": 35,
+            "sd": 35
+          },
+          "difficult": {
+            "hp": 40,
+            "at": 45,
+            "df": 40,
+            "sp": 60,
+            "sa": 40,
+            "sd": 35
+          }
+        }
+      }
+    },
+    {
+      "species": "Quilava",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Flash Fire"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Earth Eater",
+            "H": "Flash Fire"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 58,
+            "at": 64,
+            "df": 58,
+            "sp": 80,
+            "sa": 80,
+            "sd": 65
+          },
+          "difficult": {
+            "hp": 58,
+            "at": 64,
+            "df": 58,
+            "sp": 80,
+            "sa": 85,
+            "sd": 65
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Smokescreen"
+              ],
+              [
+                6,
+                "Smokescreen"
+              ],
+              [
+                10,
+                "Ember"
+              ],
+              [
+                13,
+                "Quick Attack"
+              ],
+              [
+                20,
+                "Flame Wheel"
+              ],
+              [
+                21,
+                "Mud Shot"
+              ],
+              [
+                24,
+                "Defense Curl"
+              ],
+              [
+                27,
+                "Rollout"
+              ],
+              [
+                31,
+                "Swift"
+              ],
+              [
+                35,
+                "Flame Charge"
+              ],
+              [
+                42,
+                "Lava Plume"
+              ],
+              [
+                46,
+                "Flamethrower"
+              ],
+              [
+                53,
+                "Inferno"
+              ],
+              [
+                57,
+                "Rollout"
+              ],
+              [
+                64,
+                "Double-Edge"
+              ],
+              [
+                68,
+                "Burn Up"
+              ],
+              [
+                75,
+                "Eruption"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fire Blast",
+              "Flamethrower",
+              "Focus Punch",
+              "Frustration",
+              "Hidden Power",
+              "Iron Tail",
+              "Natural Gift",
+              "Overheat",
+              "Protect",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Smash",
+              "Secret Power",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Toxic",
+              "Will-O-Wisp",
+              "Body Slam",
+              "Confide",
+              "Defense Curl",
+              "Double-Edge",
+              "Flame Charge",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Rollout",
+              "Round",
+              "Snore",
+              "Swift",
+              "Wild Charge",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Smokescreen"
+              ],
+              [
+                6,
+                "Smokescreen"
+              ],
+              [
+                10,
+                "Ember"
+              ],
+              [
+                13,
+                "Quick Attack"
+              ],
+              [
+                16,
+                "Mud Bomb"
+              ],
+              [
+                20,
+                "Flame Wheel"
+              ],
+              [
+                21,
+                "Mud Shot"
+              ],
+              [
+                24,
+                "Defense Curl"
+              ],
+              [
+                24,
+                "Incinerate"
+              ],
+              [
+                27,
+                "Rollout"
+              ],
+              [
+                31,
+                "Swift"
+              ],
+              [
+                35,
+                "Flame Charge"
+              ],
+              [
+                42,
+                "Lava Plume"
+              ],
+              [
+                46,
+                "Flamethrower"
+              ],
+              [
+                51,
+                "Inferno"
+              ],
+              [
+                53,
+                "Scorching Sands"
+              ],
+              [
+                57,
+                "Rollout"
+              ],
+              [
+                64,
+                "Double-Edge"
+              ],
+              [
+                68,
+                "Burn Up"
+              ],
+              [
+                75,
+                "Eruption"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fire Blast",
+              "Flamethrower",
+              "Focus Punch",
+              "Frustration",
+              "Hidden Power",
+              "Iron Tail",
+              "Natural Gift",
+              "Overheat",
+              "Protect",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Smash",
+              "Secret Power",
+              "Sleep Talk",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Toxic",
+              "Will-O-Wisp",
+              "Body Slam",
+              "Confide",
+              "Defense Curl",
+              "Double-Edge",
+              "Flame Charge",
+              "Fury Cutter",
+              "Headbutt",
+              "Mimic",
+              "Mud-Slap",
+              "Rollout",
+              "Round",
+              "Snore",
+              "Swift",
+              "Wild Charge",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Fire"
+          ],
+          "difficult": [
+            "Fire",
+            "Ground"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Squirtle",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Rain Dish"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Mega Launcher",
+            "H": "Rain Dish"
+          }
+        }
+      }
+    },
+    {
+      "species": "Totodile",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Sheer Force"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Strong Jaw",
+            "H": "Sheer Force"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 50,
+            "at": 65,
+            "df": 64,
+            "sp": 43,
+            "sa": 44,
+            "sd": 48
+          },
+          "difficult": {
+            "hp": 50,
+            "at": 65,
+            "df": 64,
+            "sp": 48,
+            "sa": 44,
+            "sd": 48
+          }
+        }
+      }
+    },
+    {
+      "species": "Typhlosion",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Blaze",
+            "H": "Flash Fire"
+          },
+          "difficult": {
+            "0": "Blaze",
+            "1": "Earth Eater",
+            "H": "Flash Fire"
+          }
+        },
+        "bs": {
+          "base": {
+            "hp": 78,
+            "at": 84,
+            "df": 78,
+            "sp": 100,
+            "sa": 109,
+            "sd": 85
+          },
+          "difficult": {
+            "hp": 78,
+            "at": 84,
+            "df": 78,
+            "sp": 100,
+            "sa": 114,
+            "sd": 85
+          }
+        },
+        "learnset_info": {
+          "base": {
+            "learnset": [
+              [
+                1,
+                "Eruption"
+              ],
+              [
+                1,
+                "Double-Edge"
+              ],
+              [
+                1,
+                "Gyro Ball"
+              ],
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Smokescreen"
+              ],
+              [
+                1,
+                "Ember"
+              ],
+              [
+                6,
+                "Smokescreen"
+              ],
+              [
+                10,
+                "Ember"
+              ],
+              [
+                13,
+                "Quick Attack"
+              ],
+              [
+                20,
+                "Flame Wheel"
+              ],
+              [
+                21,
+                "Mud Shot"
+              ],
+              [
+                24,
+                "Defense Curl"
+              ],
+              [
+                27,
+                "Rollout"
+              ],
+              [
+                31,
+                "Swift"
+              ],
+              [
+                35,
+                "Flame Charge"
+              ],
+              [
+                43,
+                "Lava Plume"
+              ],
+              [
+                48,
+                "Flamethrower"
+              ],
+              [
+                56,
+                "Inferno"
+              ],
+              [
+                60,
+                "Double-Edge"
+              ],
+              [
+                64,
+                "Burn Up"
+              ],
+              [
+                72,
+                "Eruption"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Earthquake",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fire Blast",
+              "Flamethrower",
+              "Fling",
+              "Focus Blast",
+              "Focus Punch",
+              "Frustration",
+              "Giga Impact",
+              "Gyro Ball",
+              "Hidden Power",
+              "Hyper Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Overheat",
+              "Protect",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Climb",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Ball",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Toxic",
+              "Will-O-Wisp",
+              "Blast Burn",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Defense Curl",
+              "Double-Edge",
+              "Dynamic Punch",
+              "Fire Punch",
+              "Flame Charge",
+              "Fury Cutter",
+              "Headbutt",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Rollout",
+              "Round",
+              "Seismic Toss",
+              "Snore",
+              "Swift",
+              "Thunder Punch",
+              "Wild Charge",
+              "Work Up"
+            ]
+          },
+          "difficult": {
+            "learnset": [
+              [
+                1,
+                "Eruption"
+              ],
+              [
+                1,
+                "Double-Edge"
+              ],
+              [
+                1,
+                "Gyro Ball"
+              ],
+              [
+                1,
+                "Tackle"
+              ],
+              [
+                1,
+                "Leer"
+              ],
+              [
+                1,
+                "Smokescreen"
+              ],
+              [
+                1,
+                "Ember"
+              ],
+              [
+                6,
+                "Smokescreen"
+              ],
+              [
+                10,
+                "Ember"
+              ],
+              [
+                13,
+                "Quick Attack"
+              ],
+              [
+                20,
+                "Flame Wheel"
+              ],
+              [
+                21,
+                "Mud Shot"
+              ],
+              [
+                24,
+                "Defense Curl"
+              ],
+              [
+                27,
+                "Rollout"
+              ],
+              [
+                31,
+                "Swift"
+              ],
+              [
+                35,
+                "Flame Charge"
+              ],
+              [
+                37,
+                "Earth Power"
+              ],
+              [
+                43,
+                "Lava Plume"
+              ],
+              [
+                48,
+                "Flamethrower"
+              ],
+              [
+                54,
+                "Aura Sphere"
+              ],
+              [
+                56,
+                "Inferno"
+              ],
+              [
+                60,
+                "Scorching Sands"
+              ],
+              [
+                65,
+                "Eruption"
+              ],
+              [
+                69,
+                "Double-Edge"
+              ],
+              [
+                74,
+                "Burn Up"
+              ]
+            ],
+            "tms": [
+              "Aerial Ace",
+              "Attract",
+              "Brick Break",
+              "Captivate",
+              "Cut",
+              "Dig",
+              "Double Team",
+              "Earthquake",
+              "Endure",
+              "Facade",
+              "False Swipe",
+              "Fire Blast",
+              "Flamethrower",
+              "Fling",
+              "Focus Blast",
+              "Focus Punch",
+              "Frustration",
+              "Giga Impact",
+              "Gyro Ball",
+              "Hidden Power",
+              "Hyper Beam",
+              "Iron Tail",
+              "Natural Gift",
+              "Overheat",
+              "Protect",
+              "Rest",
+              "Return",
+              "Roar",
+              "Rock Climb",
+              "Rock Slide",
+              "Rock Smash",
+              "Rock Tomb",
+              "Secret Power",
+              "Shadow Ball",
+              "Shadow Claw",
+              "Sleep Talk",
+              "Solar Beam",
+              "Strength",
+              "Substitute",
+              "Sunny Day",
+              "Swagger",
+              "Toxic",
+              "Will-O-Wisp",
+              "Blast Burn",
+              "Body Slam",
+              "Bulldoze",
+              "Confide",
+              "Counter",
+              "Defense Curl",
+              "Double-Edge",
+              "Dynamic Punch",
+              "Fire Punch",
+              "Flame Charge",
+              "Fury Cutter",
+              "Headbutt",
+              "Mega Kick",
+              "Mega Punch",
+              "Mimic",
+              "Mud-Slap",
+              "Rollout",
+              "Round",
+              "Seismic Toss",
+              "Snore",
+              "Swift",
+              "Thunder Punch",
+              "Wild Charge",
+              "Work Up"
+            ]
+          }
+        },
+        "types": {
+          "base": [
+            "Fire"
+          ],
+          "difficult": [
+            "Fire",
+            "Ground"
+          ]
+        }
+      }
+    },
+    {
+      "species": "Venusaur",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Overgrow",
+            "H": "Chlorophyll"
+          },
+          "difficult": {
+            "0": "Overgrow",
+            "1": "Thick Fat",
+            "H": "Chlorophyll"
+          }
+        }
+      }
+    },
+    {
+      "species": "Wartortle",
+      "fields": {
+        "abilities": {
+          "base": {
+            "0": "Torrent",
+            "H": "Rain Dish"
+          },
+          "difficult": {
+            "0": "Torrent",
+            "1": "Mega Launcher",
+            "H": "Rain Dish"
+          }
+        }
+      }
+    }
+  ],
+  "changedTrainerParties": [
+    {
+      "trainer": "TRAINER_AARON_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ABE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ALAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ALBERT_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ALEX_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_ALFRED_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ALICE_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ALLAN_HNS",
+      "baseCount": 1,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_ALLEN_HNS",
+      "baseCount": 2,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_AL_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_AMY_AND_MAY_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ANABEL_BF_BRAIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ANDREW_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ANDRE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ANDY_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ANGELICA_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ANN_AND_ANNE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ANTHONY_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ARCHER_1_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARCHER_4_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARCHER_5_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARCHER_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARIANA_1_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARIANA_2_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ARNIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ARNOLD_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BAILEY_HNS",
+      "baseCount": 5,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_BARNEY_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BARRY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BENJAMIN_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BENNY_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BEN_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BERKE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BETHANY_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BETH_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BEVERLY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BILLY_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BILL_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BLAINE_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BLAKE_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BLUE_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BLUE_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BOB_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BORIS_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_BRAD_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BRANDON_BF_BRAIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BRANDON_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BRENDA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BRENT_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BRET_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BRIANA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_BRIAN_HNS",
+      "baseCount": 4,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_BRIDGET_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BROCK_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BROOKE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_BRUNO_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BRUNO_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BRYAN_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_BUGSY_1_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BUGSY_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_BURT_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CALVIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_CAMERON_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CARA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CARLENE_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_CAROLINE_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CAROL_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CARRIE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_CARTER_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CASSIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CHAD_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_CHARLES_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CHARLIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_CHOW_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_CHUCK_1_2_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CHUCK_1_3_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CHUCK_1_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CHUCK_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CINDY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CLAIR_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CLAIR_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CLARISSA_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CLYDE_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_CODY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_COLETTE_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_COLIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_CONNIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_COREY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_CYBIL_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DALE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DANA_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DANIEL_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DANNY_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DARIN_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DARYL_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DAVE_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DAVID_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DAWN_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_DEAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DEBRA_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DENISE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DENIS_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DEREK_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DEVIN_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DIANA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DICK_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DIRK_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DONALD_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DON_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DORIS_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_DOUGLAS_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_DOUG_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_DUDLEY_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DUFF_AND_EDA_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_DUNCAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_DWAYNE_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_EDDIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_EDMOND_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_EDNA_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_EDWARD_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ED_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ELAINE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ELLEN_HNS",
+      "baseCount": 2,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_ELLIOT_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_EMMA_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ERICK_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ERIC_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ERIKA_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ERIK_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ERIN_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ERNEST_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ETHAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ETHEL_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ETO_2_HNS",
+      "baseCount": 4,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_ETO_3_HNS",
+      "baseCount": 5,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_ETO_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_EUGENE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_EUSINE_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_FALKNER_1_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_FALKNER_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_FIDEL_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_FRANKLIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_FRAN_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_FRITZ_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GAKU_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GARRETT_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_GAVEN_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_GEORGE_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GEORGIA_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_GILBERT_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GINA_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GIOVANNI_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_GLENN_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GORDON_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRACE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRANT_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GREGG_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GREGORY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GREG_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRETA_BF_BRAIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_10_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_11_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_12_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_13_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRUNT_14_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRUNT_15_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRUNT_16_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_17_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRUNT_18_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_19_HNS",
+      "baseCount": 1,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_20_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_21_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRUNT_22_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_GRUNT_23_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_24_HNS",
+      "baseCount": 5,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_25_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRUNT_26_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_27_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_28_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_29_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRUNT_2_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_30_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_31_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_32_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRUNT_33_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_GRUNT_3_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_4_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_5_HNS",
+      "baseCount": 2,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_6_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_7_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_8_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_GRUNT_9_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_GRUNT_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_GWEN_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_HAL_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_HANK_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_HAROLD_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_HARRIS_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_HARRY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_HARVEY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_HEIDI_HNS",
+      "baseCount": 2,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_HENRY_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_HERMAN_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_HILLARY_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_HOPE_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_HORTON_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_HUEY_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_HUGH_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_IAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_IRENE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_IRWIN_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ISSAC_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_IVAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JACK_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JACLYN_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JAKE_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JAMES_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JAMIE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JANINE_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JARED_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_2_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_3_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JASMINE_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JASON_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JAY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JED_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JEFFREY_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JEFF_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JENN_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JEREMY_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_JEROME_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JERRY_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_JESSICA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JILL_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JIMMY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JIM_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JODY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JOEL_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JOEY_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JOE_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JOHNNY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JOHN_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JONAH_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JOSE_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JOSHUA_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_JOSH_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_JOYCE_HNS",
+      "baseCount": 5,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_JO_AND_ZOE_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_JULIA_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_JULIE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_JUSTIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KARA_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KAREN_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_KAREN_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_KATE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_KATIE_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KAYLEE_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_KAZU_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_KEITH_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KELLY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KENDRA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KENJI_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KENNETH_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KENNY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KENT_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KEN_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_KEVIN_HNS",
+      "baseCount": 4,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_KIM_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KIPP_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KIRK_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_KIYO_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KOGA_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_KOGA_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_KOJI_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_KRISE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_KUNI_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_KYLE_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LANCE_1_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_LAO_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_LARRY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_LAURA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LEA_AND_PIA_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LEONARD_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_LEROY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LEWIS_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_LINDA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LISA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_LIZ_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_LI_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_LLOYD_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LOIS_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_LOLA_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LORI_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_LTSURGE_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_LUCY_BF_BRAIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_LUNG_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_LYLE_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MARC_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MARGRET_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MARKUS_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_MARK_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MARTHA_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MARTIN_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MARVIN_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MARY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_MASA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MATHEW_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_MEGAN_HNS",
+      "baseCount": 4,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_MEG_AND_PEG_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MICHAEL_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MICHELLE_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_MIKEY_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MIKE_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_MIKI_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MILLER_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_MISTY_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_MITCH_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_MORTY_1_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_MORTY_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_NAOKO_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NARD_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NATE_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_NATHAN_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_NEAL_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NED_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NICK_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NICOLE_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_NICO_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_NIKKI_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_NOB_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_NOLAND_BF_BRAIN_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_NOLAND_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_NORMAN_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_NORTON_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_OLIVIA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_OTIS_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_OWEN_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PARKER_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PARRY_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PATON_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_PAT_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PAULA_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_PAUL_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PERRY_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PETER_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_PETREL_1_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PETREL_2_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PHILLIP_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_PHIL_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_PING_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_PRESTON_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_PROTON_1_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PROTON_2_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_2_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_3_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_PRYCE_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_QUENTIN_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_QUINN_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RACHAEL_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RALPH_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RANDALL_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RAYMOND_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RAY_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_REBECCA_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RED_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_REENA_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_REX_HNS",
+      "baseCount": 1,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_RICHARDO_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RICHARD_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RICH_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RICKY_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RICK_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_RILEY_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_1_HNS",
+      "baseCount": 1,
+      "difficultCount": 1
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_2_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_3_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_4_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_5_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_6_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CHIKORITA_7_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_1_HNS",
+      "baseCount": 1,
+      "difficultCount": 1
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_2_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_3_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_4_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_5_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_6_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_7_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_1_HNS",
+      "baseCount": 1,
+      "difficultCount": 1
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_2_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_3_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_4_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_5_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_6_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RIVAL_TOTODILE_7_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ROBERT_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ROB_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_RODNEY_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_ROD_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ROLAND_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RONALD_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_RON_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ROSS_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ROXANNE_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_ROY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_RUSSELL_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RUSS_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_RUTH_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_RYAN_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_SABRINA_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_SAMANTHA_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SAMUEL_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SAM_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_SAWYER_1_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SAYO_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SCOTT_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_SEAN_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_SETH_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_SHANE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_SHANNON_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_SHARON_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_SHAWN_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_SHIRLEY_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_SID_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_SIMON_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SPENCER_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SPENSER_BF_BRAIN_HNS",
+      "baseCount": 1,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_STANLY_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_STAN_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_STEPHEN_HNS",
+      "baseCount": 4,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_STEVE_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_SUSIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_TANYA_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TARA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_TED_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TERRELL_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_TERU_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_THEO_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_THERESA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_THOMAS_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_THOM_AND_KAE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_TIFFANY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TIMOTHY_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TIM_HNS",
+      "baseCount": 3,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_TOBY_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_TODD_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_TOMMY_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TOM_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_TONY_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_TREVOR_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_TROY_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_TUCKER_BF_BRAIN_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_TUCKER_HNS",
+      "baseCount": 2,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_TULLY_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_TYLER_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_VALERIE_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_VANCE_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_VERONICA_HNS",
+      "baseCount": 1,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_VICTORIA_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_VINCENT_HNS",
+      "baseCount": 4,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_VIRGIL_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_WADE_5_HNS",
+      "baseCount": 5,
+      "difficultCount": 5
+    },
+    {
+      "trainer": "TRAINER_WADE_HNS",
+      "baseCount": 2,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_WAI_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_WALTER_HNS",
+      "baseCount": 3,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_WALT_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_WARREN_HNS",
+      "baseCount": 1,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_WAYNE_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_WENDY_HNS",
+      "baseCount": 2,
+      "difficultCount": 2
+    },
+    {
+      "trainer": "TRAINER_WHITNEY_1_HNS",
+      "baseCount": 3,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_WHITNEY_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_WILLIAM_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_WILL_1_HNS",
+      "baseCount": 5,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_WILL_2_HNS",
+      "baseCount": 6,
+      "difficultCount": 6
+    },
+    {
+      "trainer": "TRAINER_WILTON_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_YOSHI_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    },
+    {
+      "trainer": "TRAINER_ZACH_HNS",
+      "baseCount": 3,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ZEKE_HNS",
+      "baseCount": 2,
+      "difficultCount": 4
+    },
+    {
+      "trainer": "TRAINER_ZUKI_HNS",
+      "baseCount": 1,
+      "difficultCount": 3
+    }
+  ],
+  "addedTrainers": [
+    "TRAINER_CHAMPIONBLUE_2_HNS",
+    "TRAINER_WILL_ROUTE39_HNS",
+    "TRAINER_WILL_ROUTE39_STRONG_HNS"
+  ],
+  "trainerIdChanges": [
+    {
+      "trainer": "TRAINER_BLAINE_POSTOBC_HNS",
+      "base": 643,
+      "difficult": 646
+    },
+    {
+      "trainer": "TRAINER_BLUE_POSTOBC_HNS",
+      "base": 644,
+      "difficult": 647
+    },
+    {
+      "trainer": "TRAINER_BROCK_POSTOBC_HNS",
+      "base": 639,
+      "difficult": 642
+    },
+    {
+      "trainer": "TRAINER_BRUNO_POSTOBC_HNS",
+      "base": 647,
+      "difficult": 650
+    },
+    {
+      "trainer": "TRAINER_BUGSY_POSTOBC_HNS",
+      "base": 632,
+      "difficult": 635
+    },
+    {
+      "trainer": "TRAINER_CHUCK_POSTOBC_HNS",
+      "base": 635,
+      "difficult": 638
+    },
+    {
+      "trainer": "TRAINER_CLAIR_POSTOBC_HNS",
+      "base": 638,
+      "difficult": 641
+    },
+    {
+      "trainer": "TRAINER_ERIKA_POSTOBC_HNS",
+      "base": 652,
+      "difficult": 655
+    },
+    {
+      "trainer": "TRAINER_FALKNER_POSTOBC_HNS",
+      "base": 631,
+      "difficult": 634
+    },
+    {
+      "trainer": "TRAINER_JANINE_POSTOBC_HNS",
+      "base": 641,
+      "difficult": 644
+    },
+    {
+      "trainer": "TRAINER_JASMINE_POSTOBC_HNS",
+      "base": 636,
+      "difficult": 639
+    },
+    {
+      "trainer": "TRAINER_KAREN_POSTOBC_HNS",
+      "base": 648,
+      "difficult": 651
+    },
+    {
+      "trainer": "TRAINER_KOGA_POSTOBC_HNS",
+      "base": 646,
+      "difficult": 649
+    },
+    {
+      "trainer": "TRAINER_LANCE_POSTOBC_HNS",
+      "base": 649,
+      "difficult": 652
+    },
+    {
+      "trainer": "TRAINER_LTSURGE_POSTOBC_HNS",
+      "base": 640,
+      "difficult": 643
+    },
+    {
+      "trainer": "TRAINER_MISTY_POSTOBC_HNS",
+      "base": 651,
+      "difficult": 654
+    },
+    {
+      "trainer": "TRAINER_MORTY_POSTOBC_HNS",
+      "base": 634,
+      "difficult": 637
+    },
+    {
+      "trainer": "TRAINER_PRYCE_POSTOBC_HNS",
+      "base": 637,
+      "difficult": 640
+    },
+    {
+      "trainer": "TRAINER_RED_POSTOBC_HNS",
+      "base": 650,
+      "difficult": 653
+    },
+    {
+      "trainer": "TRAINER_SABRINA_POSTOBC_HNS",
+      "base": 642,
+      "difficult": 645
+    },
+    {
+      "trainer": "TRAINER_WHITNEY_POSTOBC_HNS",
+      "base": 633,
+      "difficult": 636
+    },
+    {
+      "trainer": "TRAINER_WILL_POSTOBC_HNS",
+      "base": 645,
+      "difficult": 648
+    }
+  ],
+  "startingFields": [
+    {
+      "trainer": "TRAINER_FALKNER_2_HNS",
+      "field": {
+        "tailwind": true
+      }
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_HNS",
+      "field": {
+        "weather": "Hail"
+      }
+    },
+    {
+      "trainer": "TRAINER_PRYCE_2_HNS",
+      "field": {
+        "weather": "Hail"
+      }
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_2_HNS",
+      "field": {
+        "weather": "Hail"
+      }
+    },
+    {
+      "trainer": "TRAINER_PRYCE_1_3_HNS",
+      "field": {
+        "weather": "Hail"
+      }
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_HNS",
+      "field": {
+        "weather": "Rain"
+      }
+    },
+    {
+      "trainer": "TRAINER_JASMINE_2_HNS",
+      "field": {
+        "weather": "Rain"
+      }
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_2_HNS",
+      "field": {
+        "weather": "Rain"
+      }
+    },
+    {
+      "trainer": "TRAINER_JASMINE_1_3_HNS",
+      "field": {
+        "weather": "Rain"
+      }
+    },
+    {
+      "trainer": "TRAINER_CLAIR_1_HNS",
+      "field": {
+        "tailwind": true
+      }
+    },
+    {
+      "trainer": "TRAINER_CLAIR_2_HNS",
+      "field": {
+        "tailwind": true
+      }
+    },
+    {
+      "trainer": "TRAINER_BROCK_HNS",
+      "field": {
+        "weather": "Sand"
+      }
+    },
+    {
+      "trainer": "TRAINER_MISTY_HNS",
+      "field": {
+        "weather": "Rain"
+      }
+    },
+    {
+      "trainer": "TRAINER_LTSURGE_HNS",
+      "field": {
+        "terrain": "Electric"
+      }
+    },
+    {
+      "trainer": "TRAINER_ERIKA_HNS",
+      "field": {
+        "weather": "Sun"
+      }
+    },
+    {
+      "trainer": "TRAINER_SABRINA_HNS",
+      "field": {
+        "terrain": "Psychic"
+      }
+    },
+    {
+      "trainer": "TRAINER_JANINE_HNS",
+      "field": {
+        "playerToxicSpikes": 2
+      }
+    },
+    {
+      "trainer": "TRAINER_BLAINE_HNS",
+      "field": {
+        "weather": "Sun"
+      }
+    },
+    {
+      "trainer": "TRAINER_WILL_1_HNS",
+      "field": {
+        "terrain": "Psychic"
+      }
+    },
+    {
+      "trainer": "TRAINER_WILL_2_HNS",
+      "field": {
+        "terrain": "Psychic"
+      }
+    },
+    {
+      "trainer": "TRAINER_KOGA_1_HNS",
+      "field": {
+        "playerToxicSpikes": 2
+      }
+    },
+    {
+      "trainer": "TRAINER_KOGA_2_HNS",
+      "field": {
+        "playerToxicSpikes": 2
+      }
+    },
+    {
+      "trainer": "TRAINER_LANCE_1_HNS",
+      "field": {
+        "tailwind": true
+      }
+    },
+    {
+      "trainer": "TRAINER_CHAMPIONBLUE_2_HNS",
+      "field": {
+        "tailwind": true
+      }
+    }
+  ],
+  "notes": [
+    "Difficult Teams changes Pokémon as well as teams and starting field effects.",
+    "Official documentation describes the base game, so modified teams are verified against this fork.",
+    "Save layout compatibility does not imply matching Pokémon abilities; use variant-specific constants."
+  ]
+}

@@ -80,6 +80,7 @@
                 { value: "imp", label: "imp" },
                 { value: "inc_em", label: "inc_em" },
                 { value: "g3", label: "g3" },
+                { value: "heartandsoul", label: "Heart & Soul 2.0.6" },
                 { value: "g6", label: "g6" },
                 { value: "g7", label: "g7" }
             ],

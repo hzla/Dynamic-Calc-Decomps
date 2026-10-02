@@ -2965,14 +2965,35 @@ $(".set-selector").change(function () {
 		syncEvColumnVisibility();
 
 		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
-			var setGender = getGender(setdex[pokemonName][setName]["gender"]);
-			if (setGender === "M") {
+			var sourceGender = setdex[pokemonName][setName]["gender"];
+			var setGender = getGender(sourceGender);
+			if (sourceGender === "Random") {
+				pokeObj.find(".gender").val("Random");
+			} else if (setGender === "M") {
 				pokeObj.find(".gender").val("Male");
 			} else if (setGender === "F") {
 				pokeObj.find(".gender").val("Female");
 			} else {
 				pokeObj.find(".gender").val("");
 			}
+		}
+
+		if ($(this).hasClass('opposing') && TITLE === 'Heart & Soul Difficult Teams') {
+			var startingField = selectedSet && selectedSet.starting_field || {};
+			$('#tailwindR').prop('checked', !!startingField.tailwind);
+			// Reset trainer terrain before applying this team's starting condition.
+			lastManualTerrain = startingField.terrain || 'No terrain';
+			autosetTerrain(abilityObj.val(), 1);
+			if (startingField.terrain) {
+				$("input:checkbox[name='terrain']").prop('checked', false);
+				$("input:checkbox[name='terrain'][value='" + startingField.terrain + "']").prop('checked', true);
+			}
+			$('#ai-tags .hns-field-note').remove();
+			if (startingField.playerToxicSpikes) {
+				$('#ai-tags').append('<div class="hns-field-note">2 Toxic Spikes layers on player side</div>');
+			}
+			getTerrainEffects.call(abilityObj[0]);
+			$('#tailwindR').trigger('change');
 		}
 
 
@@ -3549,7 +3570,7 @@ function applyActiveImposterTransforms(p1, p2) {
 }
 
 function getGender(gender) {
-	if (!gender || gender === 'genderless' || gender === 'N') return 'N';
+	if (!gender || gender === 'genderless' || gender === 'N' || gender === 'Random') return 'N';
 	if (gender.toLowerCase() === 'male' || gender === 'M') return 'M';
 	return 'F';
 }
