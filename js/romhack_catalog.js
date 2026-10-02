@@ -1,5 +1,24 @@
 (function () {
     const games = {
+        "heart-and-soul": {
+            id: "heart-and-soul",
+            title: "Heart & Soul 2.0.6",
+            coverImage: "",
+            description: "Fairy typing, modern learnsets and Legendary abilities. Difficult Teams includes modified teams, Pokémon and starting field effects.",
+            sourceTitle: "Heart & Soul 2.0.6",
+            variants: [{
+                label: "Heart & Soul 2.0.6",
+                source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=heartandsoul&gen=8&dmgGen=8&types=6&critGen=5&noSwitch=1",
+                coverImage: "",
+                description: ""
+            }, {
+                label: "Heart & Soul Difficult Teams",
+                sourceTitle: "Heart & Soul Difficult Teams",
+                source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=heartandsouldifficult&gen=8&dmgGen=8&types=6&critGen=5&noSwitch=1",
+                coverImage: "",
+                description: "Modified trainer teams, Pokémon stats, types, abilities and learnsets, with trainer-specific starting field effects."
+            }]
+        },
         "ancestral-x": {
             id: "ancestral-x",
             title: "Ancestral X",
@@ -792,6 +811,7 @@
                 "cascade-white",
                 "emerald-but-bad",
                 "firered-omega",
+                "heart-and-soul",
                 "little-emerald",
                 "luminescent-platinum",
                 "maximum-platinum",

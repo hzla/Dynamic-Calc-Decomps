@@ -522,7 +522,8 @@ function applyMoveAiPreviewVisibility() {
 }
 
 function canShowPhysSpecSplitToggle() {
-    return Boolean(settings && settings.damageGen === 3)
+    return Boolean(settings && (settings.damageGen === 3 ||
+        (typeof TITLE === 'string' && TITLE.includes('Heart & Soul'))))
 }
 
 function applyPhysSpecSplitVisibility() {

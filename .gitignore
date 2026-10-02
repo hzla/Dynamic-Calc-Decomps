@@ -3,6 +3,7 @@
 cypress/screenshots
 tools/*
 !tools/gen7/
+!tools/heartandsoul/
 tools/gen7/__pycache__/
 pokeemerald/
 data/analytics/
