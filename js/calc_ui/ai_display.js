@@ -150,6 +150,19 @@ if (typeof window !== "undefined") {
 // One configured mask drives both the badges and Gen V reference. CSS visibility
 // is not state: the responsive calculator deliberately hides these badges.
 window.configuredTrainerAiMask = null
+function syncTrainerAiTagAvailability() {
+    let hasAiData = typeof setdex !== "undefined" && setdex && Object.keys(setdex).some(function(speciesName) {
+        return Object.keys(setdex[speciesName] || {}).some(function(setName) {
+            let set = setdex[speciesName][setName]
+            if (!set) return false
+            let ai = set.ai
+            return (ai !== null && ai !== undefined && ai !== "" && Number.isInteger(Number(ai)) && Number(ai) >= 0) ||
+                (Array.isArray(set.ai_tags) && set.ai_tags.length > 0)
+        })
+    })
+    $('#ai-tags').prop('hidden', !hasAiData)
+}
+
 function syncConfiguredTrainerAi(ai, generation) {
     let valid = ai !== null && ai !== undefined && ai !== "" && Number.isInteger(Number(ai)) && Number(ai) >= 0
     window.configuredTrainerAiMask = valid && (generation == 4 || generation == 5) ? Number(ai) : null

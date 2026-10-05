@@ -628,6 +628,9 @@ function normalizeImportedMoveName(move, importOptions) {
 function placeBsBtn() {
 	var importBtn = "<button id='import' class='bs-btn bs-btn-default'>Import</button>";
 	$("#import-1_wrapper").append(importBtn);
+	if (window.customOpponentTeams && window.customOpponentTeams.isEnabled()) {
+		$("#import-1_wrapper").append("<button type='button' id='import-right' class='bs-btn bs-btn-default'>Import Right Side</button>");
+	}
 
 	$("#import.bs-btn").click(function () {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
@@ -1034,6 +1037,7 @@ function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 	var currentRow = headerInfo.header.split(/[()@]/);
 	var speciesParts = headerInfo.header.split("@")[0].split(/[()]/);
 	var matches = [];
+	var importSpecies = settings.blankDevMode ? pokedex : calc.SPECIES[8];
 
 	for (var i = 0; i < speciesParts.length; i++) {
 		var rawCandidate = speciesParts[i].trim();
@@ -1045,7 +1049,7 @@ function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 		}
 		var candidate = checkExeptions(rawCandidate, importOptions);
 		candidate = resolveRadicalRedGenderedSpeciesName(candidate, headerInfo.gender, importOptions);
-		if (calc.SPECIES[8][candidate] !== undefined) {
+		if (importSpecies[candidate] !== undefined) {
 			matches.push({
 				index: i,
 				speciesName: candidate,
@@ -2602,13 +2606,14 @@ function addSets(pokes, name, importOptions) {
 			
 
 
-				if (calc.SPECIES[8][currentSpeciesCandidate] !== undefined) {
+				var importSpecies = settings.blankDevMode ? pokedex : calc.SPECIES[8];
+				if (importSpecies[currentSpeciesCandidate] !== undefined) {
 					if (!importedSpeciesName || currentSpeciesCandidate !== importedSpeciesName || importedHeaderProcessed) {
 						continue;
 					}
 					importedHeaderProcessed = true;
 
-					currentPoke = calc.SPECIES[8][currentSpeciesCandidate];
+					currentPoke = importSpecies[currentSpeciesCandidate];
 					currentPoke.name = currentSpeciesCandidate;
 					currentPoke.boxImportBatchId = importBatchId;
 					currentPoke.gender = headerInfo.gender;
@@ -3589,7 +3594,8 @@ $("#importedSets").click(function () {
 	}
 });
 
-$(document).ready(function () {
+$(document).ready(async function () {
+	if (settings.blankDevMode) await window.blankDevDefaults.load();
 	// customSets;
 	placeBsBtn();
 	if (localStorage.customsets) {

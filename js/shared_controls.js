@@ -206,7 +206,7 @@ function syncEvColumnVisibility() {
 
 var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
-var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
+var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
 var HIDDEN_POWER_REGEX = /Hidden Power(\w*)/;
 var TYPED_HIDDEN_POWER_REGEX = /^(?:Hidden Power|HP)\s+\w+$/;
 
@@ -3775,6 +3775,7 @@ var SETDEX = [
 	typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
 	typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
 	typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+	typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
 ];
 var RANDDEX = [
 	{},
@@ -3786,6 +3787,7 @@ var RANDDEX = [
 	typeof GEN6RANDOMBATTLE === 'undefined' ? {} : GEN6RANDOMBATTLE,
 	typeof GEN7RANDOMBATTLE === 'undefined' ? {} : GEN7RANDOMBATTLE,
 	typeof GEN8RANDOMBATTLE === 'undefined' ? {} : GEN8RANDOMBATTLE,
+	{},
 ];
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 $(".gen").change(function () {
@@ -3805,7 +3807,9 @@ $(".gen").change(function () {
 	if (!DEFAULTS_LOADED) {
 		pokedex = calc.SPECIES[gen];
 		setdex = SETDEX[gen];
-		if (TITLE == "Ancestral X")
+		if (settings.blankDevMode)
+			moves = calc.MOVES[gen];
+		else if (TITLE == "Ancestral X")
 			moves = calc.MOVES[6];
 		else
 			moves = calc.MOVES[9];
@@ -3814,8 +3818,9 @@ $(".gen").change(function () {
 
 	clearField();
 	$("#importedSets").prop("checked", false);
-	$(".gen-specific.g" + gameGen).show();
-	$(".gen-specific").not(".g" + gameGen).hide();
+	var displayGen = gameGen === 9 ? 8 : gameGen;
+	$(".gen-specific.g" + displayGen).show();
+	$(".gen-specific").not(".g" + displayGen).hide();
 	var typeOptions = getSelectOptions(Object.keys(typeChart));
 	$("select.type1, select.move-type").find("option").remove().end().append(typeOptions);
 	$("select.type2").find("option").remove().end().append("<option value=\"\">(none)</option>" + typeOptions);
@@ -3950,6 +3955,7 @@ function getSetOptions(sets) {
 					text: pokeName + " (" + setName + ")",
 					id: pokeName + " (" + setName + ")",
 					isCustom: setdex[pokeName][setName].isCustomSet,
+					isCustomOpponentTeam: !!setdex[pokeName][setName].isCustomOpponentTeam,
 					nickname: setdex[pokeName][setName].nickname || ""
 				});
 			}
@@ -4084,7 +4090,8 @@ function allPokemon(selector) {
 
 var g = settings.gen
 
-$(document).ready(function () {
+$(document).ready(async function () {
+	if (settings.blankDevMode) await window.blankDevDefaults.load();
 	
 
 	if (!settings.damageGen) {

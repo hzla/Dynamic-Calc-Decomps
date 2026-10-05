@@ -14,14 +14,14 @@
             name: "gen",
             label: "Calc Gen",
             type: "select",
-            options: ["1", "2", "3", "4", "5", "6", "7", "8"],
+            options: ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
             help: "Generation used for species, items, and move data tables."
         },
         {
             name: "damageGen",
             label: "Damage Gen",
             type: "select",
-            options: ["1", "2", "3", "4", "5", "6", "7", "8"],
+            options: ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
             help: "Generation of battle mechanics for the calculator."
         },
         {
@@ -37,7 +37,7 @@
             label: "Crit Gen",
             type: "number",
             min: "1",
-            max: "8",
+            max: "9",
             help: "Controls the critical-hit multiplier rules."
         },
         {

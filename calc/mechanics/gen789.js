@@ -9,7 +9,8 @@ var vanilla_gen789_1 = require("./vanilla/gen789");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
 function shouldUseVanillaGen789(title) {
-    return title === "Pokemon Null" || title === "Pokemon Null 1.2" ||
+    return (typeof settings !== "undefined" && settings.blankDevMode) ||
+        title === "Pokemon Null" || title === "Pokemon Null 1.2" ||
         (typeof title === "string" && title.indexOf("Little Emerald") !== -1);
 }
 function isCalcingForSwitchInsActive() {

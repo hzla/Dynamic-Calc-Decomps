@@ -45,6 +45,7 @@ const settings = {
 
 const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
 const isBlankDevMode = settings.devMode && !params.get('data');
+settings.blankDevMode = isBlankDevMode;
 const forceBlankConfig = getBool('forceBlankConfig');
 const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
 const SWITCH_PREVIEW_STORAGE_PREFIX = "calcSwitchPreview:";
@@ -485,16 +486,11 @@ function getBlankDevConfigDefaults() {
 }
 
 function getStoredBlankDevConfig() {
-    if (!isBlankDevMode || !window.devDataOverrides || typeof window.devDataOverrides.getStoredDevConfig !== "function") {
+    if (!isBlankDevMode || forceBlankConfig || !window.devDataOverrides || typeof window.devDataOverrides.getStoredDevConfig !== "function") {
         return null;
     }
 
-    const storedConfig = window.devDataOverrides.getStoredDevConfig();
-    if (storedConfig) {
-        return storedConfig;
-    }
-
-    return forceBlankConfig ? null : storedConfig;
+    return window.devDataOverrides.getStoredDevConfig();
 }
 
 // --- Global State -----------------------------------------------------------
@@ -1150,6 +1146,9 @@ async function tryLoadStoredDevOverride() {
 $(document).ready(async function() {
   $('.genSelection').hide()
   console.log(TITLE)
+  if (isBlankDevMode) {
+    await window.blankDevDefaults.load()
+  }
   if (await tryLoadStoredDevOverride()) {
     return
   }
@@ -1669,7 +1668,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?abee24b0';
+  script.src= './js/shared_controls.js?customteams1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -2279,11 +2278,11 @@ function loadDataSource(data) {
 
     if (settings.sourceType == "full") {
       poksData = data["poks"]
-      loadPoksData()
+      if (!isBlankSlateData) loadPoksData()
 
       moveData = data["moves"]
       backup_moves = data["moves"]
-      loadMovesData()
+      if (!isBlankSlateData) loadMovesData()
     }
 
     if (settings.readIncludes || mechanics == "hge") {
@@ -2332,7 +2331,7 @@ function loadDataSource(data) {
     $('#save-pok').show()
 
     // imperium changes
-    if (TITLE.includes("Emerald Imperium")) {
+    if (!settings.blankDevMode && TITLE.includes("Emerald Imperium")) {
 
         delete moves['Chloroblast'].recoil 
         delete MOVES_BY_ID[g].chloroblast.recoil
@@ -2390,6 +2389,9 @@ function loadDataSource(data) {
         $('#maxR').next().remove()
         pokedex["Raichu"]["types"] = ["Electric", "Normal"]
     }
+    if (window.customOpponentTeams) {
+        window.customOpponentTeams.loadStoredTeams()
+    }
     initCalc() 
 
 
@@ -2425,6 +2427,7 @@ function loadDataSource(data) {
 // Initializes set selection list UI
 
 function loadDefaultLists() {
+  syncTrainerAiTagAvailability()
   $(".player.set-selector").select2({
     formatResult: function (object) {
       if ($("#randoms").prop("checked")) {
@@ -2440,6 +2443,7 @@ function loadDefaultLists() {
       var options = getSetOptions();
       for (var i = 0; i < options.length; i++) {
         var option = options[i];
+        if (option.isCustomOpponentTeam) continue;
         // var pokeName = option.pokemon.toUpperCase();
         var fullName = option.text.toUpperCase();
         if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
@@ -2473,8 +2477,10 @@ function loadDefaultLists() {
       var pageSize = 30;
       var results = [];
       var options = getSetOptions();
+      var customTeamsOnly = window.customOpponentTeams && window.customOpponentTeams.showCustomTeamsOnly();
       for (var i = 0; i < options.length; i++) {
         var option = options[i];
+        if (customTeamsOnly && !option.isCustomOpponentTeam) continue;
         // var pokeName = option.pokemon.toUpperCase();
         var fullName = option.text.toUpperCase();
         if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {

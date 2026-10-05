@@ -1547,7 +1547,7 @@ function get_box() {
     var megaCount = 0
 
     for (i in names) {
-        if (names[i].includes("My Box")) {
+        if (names[i].split(" (")[1].split(")")[0] === "My Box") {
             var setId = names[i].split("[")[0]
             var speciesName = setId.split(" (")[0]
             var hidePrevosDead = shouldHidePrevosDead()

@@ -177,6 +177,10 @@ input[type="file"] {
     display: none;
 }
 
+#ai-tags[hidden] {
+    display: none;
+}
+
 #player-tags {
     justify-content: space-between;
     width: calc(100% - 12px);
@@ -334,7 +338,7 @@ input[type="file"] {
     display: none;
 }
 
-#box-remove {
+#box-remove, #custom-opponent-remove {
     color: #FF5555;
     border: 1px solid #f55555;
     display: block;
@@ -4537,6 +4541,39 @@ th {
     width: 100%;
 }
 
+#custom-opponent-teams-controls:not([hidden]) {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#custom-opponent-teams-filter:not([hidden]) {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    white-space: nowrap;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.9em;
+}
+
+#custom-opponent-remove {
+    background: none;
+    border-radius: 5px;
+    font: inherit;
+    line-height: 20px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+#custom-opponent-teams-controls[hidden],
+#custom-opponent-teams-filter[hidden],
+#custom-opponent-remove[hidden] {
+    display: none;
+}
+
 
 
 .info-selectors select {
@@ -4619,7 +4656,7 @@ select.toxic-counter {
     margin-top: 2px
 }
 
-.field-info button, #save-state, #read-save, #sync-master, #import, #clearSets, #download-sav, #fragsheet-howto, #sync-lua {
+.field-info button, #save-state, #read-save, #sync-master, #import, #import-right, #clearSets, #download-sav, #fragsheet-howto, #sync-lua {
     color: #bb86fc;
     border-radius: 8px;
     background: none;
@@ -6016,6 +6053,13 @@ table.field {
         height: 60px;
         line-height: 60px;
         font-size: 24px;
+    }
+
+    .poke-import #import-right {
+        width: auto;
+        max-width: 100%;
+        padding-inline: 12px;
+        white-space: nowrap;
     }
 
 

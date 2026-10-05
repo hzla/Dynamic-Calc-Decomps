@@ -10,7 +10,7 @@ var BW = GSC;
 var XY = GSC;
 var SM = GSC;
 var SS = GSC;
-exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
+exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SS];
 var HP_TYPES = [
     'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel',
     'Fire', 'Water', 'Grass', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark',
@@ -95,7 +95,7 @@ exports.Stats = new ((function () {
         return ivs;
     };
     class_1.prototype.calcStat = function (gen, stat, base, iv, ev, level, nature, manual=null) {
-        if (gen.num < 1 || gen.num > 8)
+        if (gen.num < 1 || gen.num > 9)
             throw new Error("Invalid generation ".concat(gen.num));
         if (gen.num < 3)
             return this.calcStatRBY(stat, base, iv, level);
