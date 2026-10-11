@@ -234,6 +234,7 @@
 
     $(document).ready(function () {
         if (!isEnabled()) return;
+        $(".mobile-side-panel-p2").addClass("custom-opponent-teams-enabled");
         $("#custom-opponent-teams-controls").prop("hidden", false);
         $("#custom-opponent-teams-filter").prop("hidden", false);
         $("#custom-opponent-teams-only")

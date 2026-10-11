@@ -181,6 +181,11 @@ input[type="file"] {
     display: none;
 }
 
+.custom-opponent-teams-enabled #ai-tags {
+    position: static;
+    margin: 0 10px 8px;
+}
+
 #player-tags {
     justify-content: space-between;
     width: calc(100% - 12px);
@@ -3857,6 +3862,25 @@ table td {
     height: auto;
     width:  100%;
     aspect-ratio: 40 / 30;
+}
+
+/* Keep the square G-max icons proportional inside rectangular sprite cards. */
+.trainer-pok[src*="/pokesprite/"]:is(
+    [src$="/butterfree-mega.png"],
+    [src$="/machamp-mega.png"],
+    [src$="/kingler-mega.png"],
+    [src$="/lapras-mega.png"],
+    [src$="/snorlax-mega.png"],
+    [src$="/orbeetle-mega.png"],
+    [src$="/drednaw-mega.png"],
+    [src$="/coalossal-mega.png"],
+    [src$="/sandaconda-mega.png"],
+    [src$="/toxtricity-mega.png"],
+    [src$="/centiskorch-mega.png"],
+    [src$="/grimmsnarl-mega.png"],
+    [src$="/copperajah-mega.png"]
+) {
+    object-fit: contain;
 }
 
 .trainer-pok.right-side.fainted {
