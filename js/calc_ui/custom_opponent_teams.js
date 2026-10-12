@@ -3,6 +3,11 @@
         return window.devDataOverrides && window.devDataOverrides.isDevModeEnabled();
     }
 
+    function hasDdexRomData() {
+        return Boolean(isEnabled() && new URLSearchParams(window.location.search).get("ddexBridgeOrigin") &&
+            typeof backup_data !== "undefined" && backup_data && !backup_data.__blankSlate);
+    }
+
     function getStorageKey() {
         return "calcCustomOpponentTeams:" + window.devDataOverrides.getCurrentSourceId();
     }
@@ -43,6 +48,7 @@
         if (!isEnabled()) return;
         getStoredTeams().forEach(applyTeam);
         refreshTrainerNames();
+        refreshRemoveButton();
     }
 
     function getSetId(pokemon) {
@@ -79,6 +85,10 @@
 
     function refreshRemoveButton() {
         var member = isEnabled() ? getSelectedMember(getStoredTeams()) : null;
+        var ddexSynced = hasDdexRomData();
+        $(".mobile-side-panel-p2").toggleClass("ddex-synced-calc", ddexSynced);
+        $("#custom-opponent-teams-filter").prop("hidden", !isEnabled() || ddexSynced);
+        $("#custom-opponent-teams-controls").prop("hidden", !isEnabled() || (ddexSynced && !member));
         $("#custom-opponent-remove").prop("hidden", !member);
     }
 
@@ -229,7 +239,7 @@
     }
 
     function showCustomTeamsOnly() {
-        return isEnabled() && $("#custom-opponent-teams-only").prop("checked");
+        return isEnabled() && !hasDdexRomData() && $("#custom-opponent-teams-only").prop("checked");
     }
 
     $(document).ready(function () {

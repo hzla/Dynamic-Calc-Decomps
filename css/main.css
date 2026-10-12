@@ -181,9 +181,18 @@ input[type="file"] {
     display: none;
 }
 
+.custom-opponent-teams-enabled {
+    flex-direction: column;
+}
+
 .custom-opponent-teams-enabled #ai-tags {
     position: static;
     margin: 0 10px 8px;
+}
+
+.ddex-synced-calc #ai-tags {
+    position: absolute;
+    margin: 0;
 }
 
 #player-tags {
