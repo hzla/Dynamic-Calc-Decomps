@@ -2594,7 +2594,7 @@ $(".set-selector").change(function () {
 			} else if (trName == prevTrainerName) {
 			} else if (prevTrainerName && prevTrainerName != trName && !partnerName) {
 				shouldAdjustWeather = true
-				clearField({ preserveFormat: true, preserveWeather: true });
+				clearField({ preserveFormat: true, preserveWeather: true, preserveBadgeBoosts: true });
 				prevTrainerName = trName
 			}
 		}
@@ -3920,14 +3920,16 @@ function clearField(options) {
 	$("#powerSpotR").prop("checked", false);
 	$("#switchingL").prop("checked", false);
 	$("#switchingR").prop("checked", false);
-	$("#AtkL").prop("checked", false);
-	$("#AtkR").prop("checked", false);
-	$("#DefL").prop("checked", false);
-	$("#DefR").prop("checked", false);
-	$("#SpeL").prop("checked", false);
-	$("#SpeR").prop("checked", false);
-	$("#SpecL").prop("checked", false);
-	$("#SpecR").prop("checked", false);
+	if (!options.preserveBadgeBoosts) {
+		$("#AtkL").prop("checked", false);
+		$("#AtkR").prop("checked", false);
+		$("#DefL").prop("checked", false);
+		$("#DefR").prop("checked", false);
+		$("#SpeL").prop("checked", false);
+		$("#SpeR").prop("checked", false);
+		$("#SpecL").prop("checked", false);
+		$("#SpecR").prop("checked", false);
+	}
 	$("input:checkbox[name='terrain']").prop("checked", false);
 }
 

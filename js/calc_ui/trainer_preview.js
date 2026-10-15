@@ -63,6 +63,13 @@ function get_trainer_name(set_name) {
         return null
     }
 
+    // Pixelmon labels include a per-Pokémon #slot, while the entire preset
+    // shares one trainer identity for team preview and navigation.
+    var importedSet = typeof getSetDataFromSetId === "function" ? getSetDataFromSetId(set_name) : null
+    if (importedSet && typeof importedSet.pixelmonTrainerName === "string") {
+        return importedSet.pixelmonTrainerName
+    }
+
     return getTrainerName(set_name)
 }
 

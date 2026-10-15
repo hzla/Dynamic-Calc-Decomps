@@ -220,7 +220,7 @@ function getGen3TypeBasedCategory(type) {
 }
 
 function shouldUseGen3IndexedHiddenPowerMoves() {
-    return typeof TITLE === "string" && TITLE == "Emerald Kaizo";
+    return typeof TITLE === "string" && (TITLE == "Emerald Kaizo" || TITLE == "Emerald but Bad");
 }
 
 function shouldUseGen3EmeraldPhase2Scores() {
@@ -231,11 +231,13 @@ function getGen3EmeraldMoveTableName(moveName) {
     if (!moveName) {
         return moveName;
     }
-    if (/^HP\s+\w+$/.test(moveName)) {
-        return shouldUseGen3IndexedHiddenPowerMoves() ? moveName.replace(/^HP\s+/, "Hidden Power ") : "Hidden Power";
-    }
-    if (/^Hidden Power\s+\w+$/.test(moveName)) {
-        return shouldUseGen3IndexedHiddenPowerMoves() ? moveName : "Hidden Power";
+    var hiddenPowerVariant = /^(?:HP|Hidden Power)\s+(\w+)$/.exec(moveName);
+    if (hiddenPowerVariant) {
+        if (!shouldUseGen3IndexedHiddenPowerMoves()) {
+            return "Hidden Power";
+        }
+        // Emerald but Bad exports separate move-table entries under the HP names.
+        return (TITLE == "Emerald but Bad" ? "HP " : "Hidden Power ") + hiddenPowerVariant[1];
     }
     if (moveName == "Hidden Power" || moveName == "HP") {
         return "Hidden Power";
