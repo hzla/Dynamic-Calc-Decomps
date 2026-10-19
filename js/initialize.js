@@ -1044,6 +1044,7 @@ function getCurrentBackupFileName() {
 }
 
 const backupFileCacheKeys = {
+    badem: "1.0.8",
     ek: "cf296d42",
     ek2: "508955ac"
 };

@@ -38,6 +38,69 @@ describe('Emerald but Bad calc configuration', () => {
     })
   })
 
+  it('loads the 1.0.8 move changes and trainer natures into the calculator', () => {
+    cy.window().its('backup_data.title').should('eq', 'Emerald but Bad')
+    cy.window().should((win) => {
+      expect(win.eval('initializing')).to.eq(false)
+      expect(win.MOVES_BY_ID[3].facade.basePower).to.eq(70)
+    }).then((win) => {
+      const movePowers = {
+        Facade: 70,
+        'Wing Attack': 80,
+        'Poison Fang': 80,
+        'Drill Run': 95,
+        'Crush Claw': 130,
+        'Double-Edge': 130,
+        'Ancient Power': 75,
+        'Silver Wind': 75,
+        Octazooka: 90
+      }
+      Object.entries(movePowers).forEach(([name, power]) => {
+        expect(win.MOVES_BY_ID[3][win.cleanString(name)].basePower, name).to.eq(power)
+      })
+      expect(win.MOVES_BY_ID[3].facade.pp).to.eq(2)
+      expect(win.MOVES_BY_ID[3].hyperbeam.accuracy).to.eq(100)
+      expect(win.MOVES_BY_ID[3].hyperbeam.recoil).to.deep.eq([33, 100])
+      expect(win.pokedex.Chansey.bs.at).to.eq(75)
+      expect(win.pokedex.Golem.bs.at).to.eq(120)
+
+      const expectedNatures = [
+        [471, 1, 'Dragonair', 'Jolly'],
+        [471, 2, 'Altaria', 'Gentle'],
+        [471, 3, 'Wigglytuff', 'Gentle'],
+        [627, 1, 'Golem', 'Careful'],
+        [627, 2, 'Sudowoodo', 'Calm'],
+        [712, 1, 'Chansey', 'Brave'],
+        [653, 0, 'Blissey', 'Jolly'],
+        [653, 1, 'Rhydon', 'Relaxed'],
+        [653, 2, 'Crobat', 'Lonely'],
+        [653, 3, 'Raticate', 'Timid'],
+        [653, 4, 'Sceptile', 'Mild'],
+        [764, 1, 'Yanma', 'Quirky'],
+        [764, 2, 'Pinsir', 'Calm'],
+        [764, 3, 'Venomoth', 'Timid'],
+        [764, 4, 'Gligar', 'Calm'],
+        [764, 5, 'Flygon', 'Bold'],
+        [586, 0, 'Golem', 'Sassy'],
+        [586, 1, 'Victreebel', 'Careful'],
+        [586, 2, 'Torkoal', 'Sassy'],
+        [586, 3, 'Sableye', 'Impish'],
+        [586, 4, 'Alakazam', 'Quiet'],
+        [116, 1, 'Chansey', 'Lax'],
+        [116, 2, 'Venusaur', 'Quiet'],
+        [116, 3, 'Latias', 'Naive'],
+        [116, 4, 'Banette', 'Relaxed'],
+        [116, 5, 'Entei', 'Lax']
+      ]
+      expectedNatures.forEach(([trainerId, slot, species, nature]) => {
+        const sets = Object.values(win.setdex[species])
+          .filter((set) => set.tr_id === trainerId && set.sub_index === slot)
+        expect(sets, `${species} trainer ${trainerId} slot ${slot}`).to.have.length(1)
+        expect(sets[0].nature, species).to.eq(nature)
+      })
+    })
+  })
+
   it('falls back to the calculator when the Fragsheet view is requested', () => {
     cy.visit(calcUrl.replace('view=calculator', 'view=fragsheet'))
     cy.get('#rom-title').should('have.text', 'Emerald but Bad')
