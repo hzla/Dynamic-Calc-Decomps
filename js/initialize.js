@@ -39,7 +39,8 @@ const settings = {
     physSpecSplit: getNum('dmgGen', 8) >= 4,
     invertTypes: false,
     customCascadeSwitchAI: getBool('cascAI'),
-    customCascadeSwitchAIG4: getBool('cascAIG4'),
+    // The current Cascade Dev game build enables DEFAULT_G4_AI.
+    customCascadeSwitchAIG4: params.has('cascAIG4') ? getBool('cascAIG4') : params.get('data') === 'casc2',
     showDex: false
 };
 
