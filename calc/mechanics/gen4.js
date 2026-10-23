@@ -33,6 +33,7 @@ var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
 function calculateDPP(gen, attacker, defender, move, field) {
     var title = typeof TITLE === "string" ? TITLE : "";
+    var isSwitchPreview = typeof calcingForSwitchIns !== "undefined" && calcingForSwitchIns;
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
     (0, util_1.applyBeatUpTitleOverride)(move, title);
     var ctx = {
@@ -51,7 +52,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
     // }
 
 
-    (0, util_1.checkAirLock)(attacker, field);
+    // Post-KO weather suppression counts living battlers only.
+    if (!isSwitchPreview) (0, util_1.checkAirLock)(attacker, field);
     (0, util_1.checkAirLock)(defender, field);
     (0, util_1.checkForecast)(attacker, field.weather);
     (0, util_1.checkForecast)(defender, field.weather);
@@ -82,7 +84,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
-    if (move.named('Beat Up') && Array.isArray(move.beatUpParty)) {
+    if (!isSwitchPreview && move.named('Beat Up') && Array.isArray(move.beatUpParty)) {
         if (move.hits > 1)
             desc.hits = move.hits;
         result.damage = (0, util_1.calculateLegacyBeatUpDamage)(gen, move, defender);
@@ -92,8 +94,9 @@ function calculateDPP(gen, attacker, defender, move, field) {
         defender.ability = '';
         desc.attackerAbility = attacker.ability;
     }
-    var isCritical = move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor');
+    var isCritical = !isSwitchPreview && move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor');
     var basePower = move.bp;
+    var phase2WeatherBallType;
     if (move.named('Weather Ball')) {
         if (field.hasWeather('Sun')) {
             move.type = 'Fire';
@@ -119,8 +122,15 @@ function calculateDPP(gen, attacker, defender, move, field) {
         else {
             move.type = 'Normal';
         }
+        if (isSwitchPreview) {
+            // CalcMoveDamage sees Weather Ball's table power/type. Only the
+            // later ApplyTypeChart call receives its weather-dependent type.
+            phase2WeatherBallType = move.type;
+            move.type = 'Normal';
+            basePower = move.bp;
+        }
         desc.weather = field.weather;
-        desc.moveType = move.type;
+        desc.moveType = phase2WeatherBallType || move.type;
         desc.moveBP = basePower;
         move.bp = basePower
     }
@@ -141,12 +151,18 @@ function calculateDPP(gen, attacker, defender, move, field) {
     }
     if (attacker.hasAbility('Normalize')) {
         move.type = 'Normal';
+        if (phase2WeatherBallType) phase2WeatherBallType = 'Normal';
         desc.attackerAbility = attacker.ability;
     }
+    var typeChartMove = move;
+    if (phase2WeatherBallType) {
+        typeChartMove = move.clone();
+        typeChartMove.type = phase2WeatherBallType;
+    }
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
-    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, false, false, false, false, profile, ctx);
+    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, typeChartMove, defender.types[0], isGhostRevealed, field.isGravity, false, false, false, false, profile, ctx);
     var type2Effectiveness = defender.types[1]
-        ? (0, util_1.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, false, profile, ctx)
+        ? (0, util_1.getMoveEffectiveness)(gen, typeChartMove, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, false, profile, ctx)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
     if (typeEffectiveness === 0 && move.hasType('Ground') && defender.hasItem('Iron Ball')) {
@@ -254,7 +270,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Payback':
-                if (turnOrder !== 'first') {
+                if (!isSwitchPreview && turnOrder !== 'first') {
                     basePower *= 2;
                     desc.moveBP = basePower;
                 }
@@ -320,7 +336,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             basePower = Math.floor(basePower * 1.5);
             desc.isHelpingHand = true;
         }
-        if ((attacker.hasAbility('Technician') && basePower <= 60 && !(move.named('Pursuit') && field.defenderSide.isSwitching))) {
+        if ((attacker.hasAbility('Technician') && basePower <= 60 && !(!isSwitchPreview && move.named('Pursuit') && field.defenderSide.isSwitching))) {
             basePower = Math.floor(basePower * 1.5);
             desc.attackerAbility = attacker.ability;
         }
@@ -583,12 +599,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
             ctx.state.profileModifierApplied = undefined;
             desc.attackerItem = attacker.item;
         }
-        if (move.named('Pursuit') && field.defenderSide.isSwitching) {
+        if (!isSwitchPreview && move.named('Pursuit') && field.defenderSide.isSwitching) {
             baseDamage = Math.floor(baseDamage * 2);
             desc.isSwitching = 'out';
         }
         var stabMod = 1;
-        if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false)) &&
+        if (typeChartMove.hasType.apply(typeChartMove, __spreadArray([], __read(attacker.types), false)) &&
             (scoresFutureSightAsSwitchMove || (!move.named('Future Sight') && !move.named('Doom Desire')))) {
             if (attacker.hasAbility('Adaptability')) {
                 stabMod = 2;
@@ -623,8 +639,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
             desc.attackerAbility = attacker.ability;
         }
         var berryMod = 1;
-        if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
-            (typeEffectiveness > 1 || move.hasType('Normal'))) {
+        if (typeChartMove.hasType((0, items_1.getBerryResistType)(defender.item)) &&
+            (typeEffectiveness > 1 || typeChartMove.hasType('Normal'))) {
             berryMod = 0.5;
             desc.defenderItem = defender.item;
         }
@@ -661,7 +677,9 @@ function calculateDPP(gen, attacker, defender, move, field) {
     result.damage = damage;
     desc.attackBoost =
         move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
-    if (move.timesUsed > 1 || move.hits > 1) {
+    // The post-KO routine calls CalcMoveDamage once, without executing any
+    // multi-hit/turn scripts (including Triple Kick's increasing hit power).
+    if (!isSwitchPreview && (move.timesUsed > 1 || move.hits > 1)) {
         var origDefBoost = desc.defenseBoost;
         var origAtkBoost = desc.attackBoost;
         var numAttacks = 1;

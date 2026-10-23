@@ -46,4 +46,41 @@ describe('Renegade Platinum Gen 4 switch preview', () => {
       expect(win.eval('calcingForSwitchIns')).to.eq(false)
     })
   })
+
+  it('scores conditional moves once at table power without halving slower attackers', () => {
+    cy.visit('./index.html?data=renegadeplatinum&view=calculator')
+    cy.get('#rom-title').should('have.text', 'Renegade Platinum')
+    cy.window().then((win) => {
+      win.$('#p1 .set-selector, #p2 .set-selector').val('Mew (Blank Set)').trigger('change')
+      win.$('#p1 .level, #p2 .level').val('50').trigger('change')
+      win.$('#p1 .nature, #p2 .nature').val('Serious').trigger('change')
+      win.$('#p1 .ability, #p2 .ability, #p1 .item, #p2 .item').val('')
+      win.$('#p1 .type1').val('Water')
+      win.$('#p2 .type1').val('Normal')
+      win.$('#p1 .type2, #p2 .type2').val('')
+      win.$('#p2 .sp .base').val('40').trigger('change')
+      win.$('#p2 .move-crit').prop('checked', true)
+      win.$('#clear').prop('checked', true)
+
+      const cases = [
+        ['Payback', 24], ['Avalanche', 14],
+        // Renegade's table has 60 BP Assurance, rather than vanilla's 50.
+        ['Assurance', 28], ['Triple Kick', 6], ['Beat Up', 6]
+      ]
+      win.SETDEX_BW.Mew = win.SETDEX_BW.Mew || {}
+      win.CURRENT_TRAINER_POKS = cases.map(([move], index) => {
+        const name = `Phase 2 audit ${index}`
+        win.SETDEX_BW.Mew[name] = { level: 50, sub_index: index,
+          moves: [move, 'Splash', 'Splash', 'Splash'] }
+        return `Mew (${name})[${index}]`
+      })
+      const rankings = win.get_next_in()
+      cases.forEach(([move, score]) => {
+        const row = rankings.find(row => row[4][0] === move)
+        expect(row[1], `${move} reaches phase 2`).to.eq(0)
+        expect(row[6], `${move} best move`).to.eq(move)
+        expect(row[5], `${move} score`).to.eq(score)
+      })
+    })
+  })
 })

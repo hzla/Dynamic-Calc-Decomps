@@ -645,8 +645,9 @@ function get_next_in_g4() {
 
                 dmg = getGen4Phase2DamageScore(results[n])
 
-                // correct for doubling dmg when slower moves
-                if (["Avalanche", "Payback", "Assurance"].includes(moveName) && results[n].attacker.rawStats.spe < results[n].defender.rawStats.spe) {
+                // The Gen 4 engine already uses table power for phase 2. Keep
+                // this legacy correction only for other damage-engine results.
+                if (!hasGen4Phase2BaseDamage(results[n]) && ["Avalanche", "Payback", "Assurance"].includes(moveName) && results[n].attacker.rawStats.spe < results[n].defender.rawStats.spe) {
                     dmg = dmg / 2
                 }
 
