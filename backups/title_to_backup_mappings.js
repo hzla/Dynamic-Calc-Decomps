@@ -45,6 +45,7 @@ backupFiles = {
 	"Emerald Kaizo": "ek2",
 	"Royal Sapphire": "roysaph",
 	"Pokemon Null 1.2": "null12",
+	"Pokemon Null 1.2.5": "null125",
 	"Pokemon Null 1.1": "null",
 	"Pokemon Colors Normal": "colorsnormal",
 	"Pokemon Colors Classic": "colorsclassic",
@@ -119,6 +120,10 @@ gameVersions = {
 		}
 	],
 	"Pokemon Null": [
+		{
+			url: "?data=null125",
+			id: "1.2.5"
+		},
 		{
 			url: "?data=null",
 			id: "1.2"

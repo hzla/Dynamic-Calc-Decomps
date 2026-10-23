@@ -1361,7 +1361,7 @@ $(".abilityToggle").bind("change keyup", function () {
 
 var lockerMove = "";
 function getDisplayedEnemyMovePP(pp) {
-	if (TITLE !== "Pokemon Null 1.2") {
+	if (TITLE !== "Pokemon Null 1.2" && TITLE !== "Pokemon Null 1.2.5") {
 		return pp
 	}
 

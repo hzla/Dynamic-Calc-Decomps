@@ -4,8 +4,8 @@ var fs = require("fs");
 var path = require("path");
 var vm = require("vm");
 
-function loadPokemonNullData() {
-    var source = fs.readFileSync(path.join(__dirname, "../../backups/null12.js"), "utf8");
+function loadPokemonNullData(version) {
+    var source = fs.readFileSync(path.join(__dirname, "../../backups/" + version + ".js"), "utf8");
     var context = {};
     vm.runInNewContext(source, context);
     return context.backup_data;
@@ -40,8 +40,8 @@ function loadTrainerPreviewContext(data) {
     return context;
 }
 
-describe("Pokemon Null generated data", function () {
-    var data = loadPokemonNullData();
+describe.each(["null12", "null125"])("Pokemon Null generated data (%s)", function (version) {
+    var data = loadPokemonNullData(version);
 
     test("uses current-generation Azumarill data", function () {
         expect(data.poks.Azumarill.types).toEqual(["Water", "Fairy"]);

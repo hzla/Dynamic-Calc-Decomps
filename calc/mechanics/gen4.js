@@ -216,11 +216,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 }
                 break;
             case 'Eruption':
-                basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
-                desc.moveBP = basePower;
-                break;
             case 'Water Spout':
-                basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
+                // Post-KO AI calls CalcMoveDamage with inPower=0 and skips the
+                // move's HP-scaling effect script, so phase 2 uses table power.
+                if (!calcingForSwitchIns) {
+                    basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
+                }
                 desc.moveBP = basePower;
                 break;
             case 'Facade':

@@ -3569,7 +3569,8 @@ $("#sync-lua").click(() => {
 			});
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnullv1.1.lua\n\n Last Updated 3/9/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
+			const nullLuaFile = TITLE === "Pokemon Null 1.2.5" ? "pokemonnull1.2.5.lua" : "pokemonnullv1.1.lua";
+			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the matching Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/" + nullLuaFile + "\n\nYou can view logs/frags on the Battle Logs tab of the Fragsheet page.");
 		}).finally(resetSyncState);
 		return;
 	}

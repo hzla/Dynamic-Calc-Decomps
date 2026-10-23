@@ -837,7 +837,7 @@
     const BATTLE_LOG_ROM_ADAPTERS = [
         {
             id: "null",
-            matchesTitle: (title) => title === "Pokemon Null 1.2",
+            matchesTitle: (title) => title === "Pokemon Null 1.2" || title === "Pokemon Null 1.2.5",
             enabled: true,
             getEnumList: getNullEnumList,
             getNatureList: () => Array.isArray(window.nullNatures) ? window.nullNatures : [],

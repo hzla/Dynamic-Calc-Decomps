@@ -7,7 +7,7 @@ if (typeof global.settings === "undefined") {
 var helper_1 = require("./helper");
 var types_1 = require("../data/types");
 
-function withNullGlobals(fn) {
+function withNullGlobals(fn, title) {
     var prev = {
         TITLE: global.TITLE,
         settings: global.settings,
@@ -16,7 +16,7 @@ function withNullGlobals(fn) {
         calcingForSwitchIns: global.calcingForSwitchIns,
         pokedex: global.pokedex
     };
-    global.TITLE = "Pokemon Null 1.2";
+    global.TITLE = title;
     global.settings = {
         type_chart: 6,
         typeChart: 6,
@@ -43,7 +43,7 @@ function withNullGlobals(fn) {
     }
 }
 
-describe("Pokemon Null gen8 mechanics", function () {
+describe.each(["Pokemon Null 1.2", "Pokemon Null 1.2.5"])("%s gen8 mechanics", function (title) {
     (0, helper_1.inGen)(8, function (_a) {
         var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
 
@@ -62,7 +62,7 @@ describe("Pokemon Null gen8 mechanics", function () {
                     nature: "Serious"
                 });
                 return calculate(attacker, defender, Move("Blaze Kick"), Field({}));
-            });
+            }, title);
         }
 
         test("Protean toggle does not double-count existing STAB", function () {

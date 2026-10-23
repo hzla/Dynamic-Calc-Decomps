@@ -495,6 +495,13 @@
             sourceTitle: "Pokemon Null",
             variants: [
                 {
+                    label: "1.2.5",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=null125",
+                    sourceTitle: "Pokemon Null 1.2.5",
+                    coverImage: "",
+                    description: ""
+                },
+                {
                     label: "1.2",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=null",
                     sourceTitle: "Pokemon Null 1.2",

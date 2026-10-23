@@ -10,7 +10,7 @@ var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
 function shouldUseVanillaGen789(title) {
     return (typeof settings !== "undefined" && settings.blankDevMode) ||
-        title === "Pokemon Null" || title === "Pokemon Null 1.2" ||
+        title === "Pokemon Null" || title === "Pokemon Null 1.2" || title === "Pokemon Null 1.2.5" ||
         (typeof title === "string" && title.indexOf("Little Emerald") !== -1);
 }
 function isCalcingForSwitchInsActive() {
