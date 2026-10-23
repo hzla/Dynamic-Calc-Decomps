@@ -817,20 +817,16 @@ function updateHeaderShellState() {
 
   updateMastersheetLink();
 
-  const currentTitle = typeof TITLE === "string" ? TITLE : "";
-  const syncMasterVisible = $('#sync-master').is(':visible');
-  const syncLuaVisible = $('#sync-lua').is(':visible');
+const currentTitle = typeof TITLE === "string" ? TITLE : "";
   const battleLogEnabled = typeof window.isBattleLogEnabledForTitle !== "function" || window.isBattleLogEnabledForTitle();
-  const saveFileBattleLogAvailable = typeof window.hasSaveFileBattleLogData === "function" && window.hasSaveFileBattleLogData();
 
   window.updateMainPageHeaderState({
     title: currentTitle,
     showDex,
     showFragsheet: typeof window.isFragsheetEnabledForTitle !== "function" || window.isFragsheetEnabledForTitle(currentTitle),
-    showBattleLog: battleLogEnabled && (syncMasterVisible || syncLuaVisible || saveFileBattleLogAvailable),
+    showBattleLog: battleLogEnabled,
     showMainNav: true
   })
-}
 
 window.refreshMainPageHeaderState = updateHeaderShellState
 
