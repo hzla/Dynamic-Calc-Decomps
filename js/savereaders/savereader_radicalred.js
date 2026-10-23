@@ -872,39 +872,46 @@
   function rrScanBoxData(boxData, partyCount, saveInfo, options) {
     var parsedParty = [];
     var parsedBoxes = [];
-    var foundMons = 0;
 
-    for (var offset = 0; offset < boxData.length - 1;) {
+    // Party records occupy a fixed region, even when a species cannot be parsed.
+    var partySlots = Math.min(partyCount, RR_PARTY_DATA_LENGTH / RR_PARTY_STRUCT_SIZE);
+    for (var partySlot = 0; partySlot < partySlots; partySlot++) {
+      var partyStart = partySlot * RR_PARTY_STRUCT_SIZE;
+      if (boxData[partyStart + 18] !== RR_MAGIC_A || boxData[partyStart + 19] !== RR_MAGIC_B) {
+        continue;
+      }
+
+      var partyMon = rrParsePartyMon(
+        boxData.subarray(partyStart, partyStart + RR_PARTY_STRUCT_SIZE),
+        partySlot + 1, saveInfo, options
+      );
+      if (partyMon) {
+        parsedParty.push(partyMon);
+      }
+    }
+
+    for (var offset = RR_PARTY_DATA_LENGTH; offset < boxData.length - 1;) {
       if (boxData[offset] !== RR_MAGIC_A || boxData[offset + 1] !== RR_MAGIC_B) {
         offset += 2;
         continue;
       }
 
-      var isParty = foundMons < partyCount;
-      var structSize = isParty ? RR_PARTY_STRUCT_SIZE : RR_BOX_STRUCT_SIZE;
       var structStart = offset - 18;
-      if (structStart < 0 || (structStart + structSize) > boxData.length) {
+      if (structStart < RR_PARTY_DATA_LENGTH || (structStart + RR_BOX_STRUCT_SIZE) > boxData.length) {
         offset += 2;
         continue;
       }
 
-      var monStruct = boxData.subarray(structStart, structStart + structSize);
-      var mon = isParty
-        ? rrParsePartyMon(monStruct, parsedParty.length + 1, saveInfo, options)
-        : rrParseBoxMon(monStruct, parsedBoxes.length + 1, saveInfo, options);
+      var monStruct = boxData.subarray(structStart, structStart + RR_BOX_STRUCT_SIZE);
+      var mon = rrParseBoxMon(monStruct, parsedBoxes.length + 1, saveInfo, options);
 
       if (!mon) {
         offset += 2;
         continue;
       }
 
-      if (isParty) {
-        parsedParty.push(mon);
-      } else {
-        parsedBoxes.push(mon);
-      }
-      foundMons++;
-      offset += structSize;
+      parsedBoxes.push(mon);
+      offset += RR_BOX_STRUCT_SIZE;
     }
 
     return {

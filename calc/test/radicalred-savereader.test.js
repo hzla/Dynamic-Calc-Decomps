@@ -6,6 +6,7 @@ var vm = require("vm");
 
 var parser = require("../../js/savereaders/savereader_radicalred.js");
 var rrConstants = require("../../js/savereaders/save_constants/radical_red_constants.js");
+var rrDexAbilityConstants = require("../../js/savereaders/save_constants/radical_red_dex_ability_constants.js");
 
 function loadGlobalScript(relativePath) {
   var absolutePath = path.resolve(__dirname, relativePath);
@@ -29,6 +30,36 @@ function writeU32LE(bytes, offset, value) {
   bytes[offset + 1] = (value >>> 8) & 0xFF;
   bytes[offset + 2] = (value >>> 16) & 0xFF;
   bytes[offset + 3] = (value >>> 24) & 0xFF;
+}
+
+function makeMonStruct(speciesId, isParty) {
+  var bytes = new Uint8Array(isParty ? 100 : 58);
+  writeU32LE(bytes, 0, 2);
+  bytes[18] = 2;
+  bytes[19] = 2;
+  writeU16LE(bytes, isParty ? 32 : 28, speciesId);
+  return bytes;
+}
+
+function makeSave(party, boxes) {
+  var bytes = new Uint8Array(0x20000);
+  writeU16LE(bytes, 0xEFFC, 0xFFFF);
+  bytes[0x1034] = party.length;
+  party.forEach(function (mon, index) { bytes.set(mon, 0x1038 + index * 100); });
+  boxes.forEach(function (mon, index) { bytes.set(mon, 0x5004 + index * 58); });
+  return bytes;
+}
+
+function setSaveRandomizerFlags(bytes, randomAbilities, restricted) {
+  // Keep unused sectors out of the latest trainer/game-sector lookup.
+  for (var offset = 0; offset < 0x1C000; offset += 0x1000) {
+    writeU16LE(bytes, offset + 0xFF4, 0xFFFF);
+  }
+  writeU16LE(bytes, 0xFF4, 0);
+  writeU16LE(bytes, 0x4FF4, 4);
+  writeU32LE(bytes, 0x00A, 2251340371);
+  bytes[0xF2C] = 1 | (randomAbilities ? 4 : 0);
+  bytes[0x4DC3] = restricted ? 0x40 : 0;
 }
 
 describe("Radical Red save reader helpers", function () {
@@ -213,6 +244,150 @@ describe("Radical Red save reader helpers", function () {
     expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 646, 0)).toBe("Jellicent-F");
     expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 646, 255)).toBe("Jellicent");
     expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 705, 255)).toBe("Jellicent-F");
+  });
+});
+
+describe("Radical Red Silvally forms", function () {
+  var forms = [
+    [990, "Silvally"],
+    [1048, "Silvally-Fighting"], [1049, "Silvally-Flying"],
+    [1050, "Silvally-Poison"], [1051, "Silvally-Ground"],
+    [1052, "Silvally-Rock"], [1053, "Silvally-Bug"],
+    [1054, "Silvally-Ghost"], [1055, "Silvally-Steel"],
+    [1056, "Silvally-Fire"], [1057, "Silvally-Water"],
+    [1058, "Silvally-Grass"], [1059, "Silvally-Electric"],
+    [1060, "Silvally-Psychic"], [1061, "Silvally-Ice"],
+    [1062, "Silvally-Dragon"], [1063, "Silvally-Dark"],
+    [1064, "Silvally-Fairy"]
+  ];
+
+  test.each(forms)("imports species %i as %s from both party and boxes", function (speciesId, speciesName) {
+    var parsed = parser.parseRadicalRedSaveFile(makeSave(
+      [makeMonStruct(speciesId, true), makeMonStruct(501, true)],
+      [makeMonStruct(speciesId, false), makeMonStruct(801, false)]
+    ), { randomizedAbilitiesEnabled: false });
+
+    expect(parsed.parsedParty.map(function (mon) { return mon.speciesName; })).toEqual([speciesName, "Lucario"]);
+    expect(parsed.parsedBoxes.map(function (mon) { return mon.speciesName; })).toEqual([speciesName, "Clawitzer"]);
+    expect(parsed.parsedParty[0].abilityName).toBe("Battle Armor");
+    expect(parsed.parsedBoxes[0].abilityName).toBe("Battle Armor");
+    expect(parsed.showdownImport).toContain(speciesName + "\n");
+  });
+
+  // Reference rolls for trainer ID 2251340371:
+  // https://github.com/JwowSquared/Radical-Red-Pokedex/blob/master/src/abilityRandomizer.js
+  test.each([
+    [false, ["Steam Engine", "Shadow Shield", "Sweet Veil", "Skill Link", "Plus", "Minus", "Hustle", "Cute Charm", "Pickup", "Truant", "Stalwart", "Hyper Cutter", "Blaze", "Torrent", "Liquid Ooze", "Overgrow", "Guts", "Marvel Scale"]],
+    [true, ["Heavy Metal", "Mountaineer", "Friend Guard", "Dazzling", "Gluttony", "Liquid Voice", "Innards Out", "Berserk", "Primal Armor", "Frisk", "Unnerve", "Earth Eater", "Toxic Chain", "Grass Pelt", "Anger Point", "Parasitic Waste", "Surge Surfer", "Merciless"]]
+  ])("uses saved randomized abilities for every form with restricted=%s and the UI toggle off", function (restricted, expectedAbilities) {
+    var abilities = forms.map(function (form) {
+      var save = makeSave([makeMonStruct(form[0], true)], [makeMonStruct(form[0], false)]);
+      setSaveRandomizerFlags(save, true, restricted);
+      var parsed = parser.parseRadicalRedSaveFile(save, { randomizedAbilitiesEnabled: false });
+
+      expect(parsed.rrSaveInfo.randomAbilities).toBe(true);
+      expect(parsed.rrSaveInfo.restricted).toBe(restricted);
+      return [parsed.parsedParty[0].abilityName, parsed.parsedBoxes[0].abilityName];
+    });
+
+    expect(abilities).toEqual(expectedAbilities.map(function (abilityName) { return [abilityName, abilityName]; }));
+  });
+
+  test("keeps normal abilities when only species randomization is saved and the UI toggle is on", function () {
+    var save = makeSave([makeMonStruct(1063, true)], [makeMonStruct(1063, false)]);
+    setSaveRandomizerFlags(save, false, false);
+    var parsed = parser.parseRadicalRedSaveFile(save, { randomizedAbilitiesEnabled: true });
+
+    expect(parsed.rrSaveInfo.normalSpecies).toBe(true);
+    expect(parsed.rrSaveInfo.randomAbilities).toBe(false);
+    expect(parsed.parsedParty[0].abilityName).toBe("Battle Armor");
+    expect(parsed.parsedBoxes[0].abilityName).toBe("Battle Armor");
+  });
+
+  test("imports the reported Dark Silvally record with its held item, moves, and randomized ability", function () {
+    var boxedMon = Buffer.from("7be61da653ba3086bddcdde1d5dde6d5ffff0202c4d9dce9ffffff0027048e006aff050000ff03afc9e3d79500000000000000590482ffffff3f", "hex");
+    var mon = parser.__test.parseBoxMon(boxedMon, 4, {
+      randomAbilities: true,
+      trainerIdSecret: 2251340371,
+      restricted: false
+    }, { levelCap: 85 });
+
+    expect(mon).toMatchObject({
+      speciesId: 1063,
+      speciesName: "Silvally-Dark",
+      abilityName: "Guts",
+      itemName: "Sitrus Berry",
+      moveNames: ["Fire Fang", "Crunch", "Iron Head", "Multi-Attack"]
+    });
+    expect(parser.__test.monToShowdown(mon)).toContain("Silvally-Dark @ Sitrus Berry\n");
+  });
+
+  test("keeps boxed records separate when a party species is unsupported", function () {
+    var parsed = parser.parseRadicalRedSaveFile(makeSave(
+      [makeMonStruct(0x7FFF, true), makeMonStruct(501, true)],
+      [makeMonStruct(801, false), makeMonStruct(634, false)]
+    ), { randomizedAbilitiesEnabled: false });
+
+    expect(parsed.parsedParty.map(function (mon) { return mon.speciesName; })).toEqual(["Lucario"]);
+    expect(parsed.parsedBoxes.map(function (mon) { return mon.speciesName; })).toEqual(["Clawitzer", "Swanna"]);
+  });
+});
+
+describe("Radical Red other alternate forms", function () {
+  // Audited against https://github.com/JwowSquared/Radical-Red-Pokedex/blob/master/data.js
+  var arceusTypes = [
+    "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel",
+    "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark"
+  ];
+  var forms = Array.from({ length: 27 }, function (_, index) { return [413 + index, "Unown"]; })
+    .concat(arceusTypes.map(function (type, index) { return [720 + index, "Arceus-" + type]; }))
+    .concat([[834, "Arceus-Fairy"], [751, "Cherrim-Sunshine"], [757, "Keldeo-Resolute"]])
+    .concat(Array.from({ length: 6 }, function (_, index) { return [1066 + index, "Minior"]; }))
+    .concat([
+      [1072, "Mimikyu-Busted"], [1073, "Magearna-Original"], [1087, "Pikachu-Cosplay"],
+      [1093, "Pikachu-Original"], [1094, "Pikachu-Hoenn"], [1095, "Pikachu-Sinnoh"],
+      [1096, "Pikachu-Unova"], [1097, "Pikachu-Kalos"], [1098, "Pikachu-Alola"],
+      [1099, "Pikachu-Partner"], [1190, "Cramorant-Gulping"], [1191, "Cramorant-Gorging"],
+      [1203, "Morpeko-Hangry"]
+    ]);
+
+  test.each(forms)("imports species %i as %s without dropping adjacent party or box records", function (speciesId, speciesName) {
+    var parsed = parser.parseRadicalRedSaveFile(makeSave(
+      [makeMonStruct(speciesId, true), makeMonStruct(501, true)],
+      [makeMonStruct(speciesId, false), makeMonStruct(801, false)]
+    ), { randomizedAbilitiesEnabled: false });
+
+    expect(parsed.parsedParty.map(function (mon) { return mon.speciesName; })).toEqual([speciesName, "Lucario"]);
+    expect(parsed.parsedBoxes.map(function (mon) { return mon.speciesName; })).toEqual([speciesName, "Clawitzer"]);
+    expect(parsed.parsedParty[0].speciesId).toBe(speciesId);
+    expect(parsed.parsedBoxes[0].speciesId).toBe(speciesId);
+    expect(parsed.parsedParty[0].abilityName).not.toBe("Unknown");
+    expect(parsed.parsedBoxes[0].abilityName).not.toBe("Unknown");
+    expect(parsed.showdownImport).toContain(speciesName + "\n");
+  });
+
+  test("uses calculator-supported names for every restored form", function () {
+    var species = require("../data/species.js").SPECIES[8];
+    expect(forms.filter(function (form) { return !species[form[1]]; })).toEqual([]);
+  });
+
+  test("has a species name for every populated Radical Red dex entry", function () {
+    var missing = [];
+    rrDexAbilityConstants.abilityIdsBySpeciesId.forEach(function (abilities, speciesId) {
+      if (Array.isArray(abilities) && (!rrConstants.mons[speciesId] || rrConstants.mons[speciesId] === "-----")) {
+        missing.push(speciesId);
+      }
+    });
+    expect(missing).toEqual([]);
+  });
+
+  test("continues rejecting unused species IDs and padding", function () {
+    var unusedIds = [0, 412, 920, 1036, 1038, 1214, 1224, 1376, 1377, 1378]
+      .concat(Array.from({ length: 25 }, function (_, index) { return 252 + index; }));
+    unusedIds.forEach(function (speciesId) {
+      expect(parser.__test.parsePartyMon(makeMonStruct(speciesId, true), 1, {}, {})).toBeNull();
+      expect(parser.__test.parseBoxMon(makeMonStruct(speciesId, false), 1, {}, {})).toBeNull();
+    });
   });
 });
 
