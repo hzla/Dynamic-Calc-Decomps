@@ -50,6 +50,7 @@ describe('Renegade Platinum Gen 4 switch preview', () => {
   it('scores conditional moves once at table power without halving slower attackers', () => {
     cy.visit('./index.html?data=renegadeplatinum&view=calculator')
     cy.get('#rom-title').should('have.text', 'Renegade Platinum')
+    cy.window().should(win => expect(win.pokedex && win.pokedex.Mew).to.be.an('object'))
     cy.window().then((win) => {
       win.$('#p1 .set-selector, #p2 .set-selector').val('Mew (Blank Set)').trigger('change')
       win.$('#p1 .level, #p2 .level').val('50').trigger('change')
@@ -81,6 +82,50 @@ describe('Renegade Platinum Gen 4 switch preview', () => {
         expect(row[6], `${move} best move`).to.eq(move)
         expect(row[5], `${move} score`).to.eq(score)
       })
+    })
+  })
+
+  it('uses selected abilities, retained items and defender boosts after faint cleanup', () => {
+    cy.visit('./index.html?data=renegadeplatinum&view=calculator')
+    cy.get('#rom-title').should('have.text', 'Renegade Platinum')
+    cy.window().should(win => expect(win.pokedex && win.pokedex.Mew).to.be.an('object'))
+    cy.window().then((win) => {
+      win.$('#p1 .set-selector, #p2 .set-selector').val('Mew (Blank Set)').trigger('change')
+      win.$('#p1 .level, #p2 .level').val('50').trigger('change')
+      win.$('#p1 .nature, #p2 .nature').val('Serious').trigger('change')
+      win.$('#p1 .type1').val('Water')
+      win.$('#p2 .type1').val('Normal')
+      win.$('#p1 .type2, #p2 .type2').val('')
+      win.$('#p1 .ability, #p2 .ability, #p1 .item, #p2 .item').val('')
+      win.$('#clear').prop('checked', true)
+      // A saved box ability must not overwrite the currently selected ability.
+      win.eval('customSets.Mew = { "My Box": { ability: "Pressure" } }')
+      win.SETDEX_BW.Mew = win.SETDEX_BW.Mew || {}
+      const preview = move => {
+        win.SETDEX_BW.Mew['Phase 2 damage audit'] = { level: 50, sub_index: 0,
+          moves: [move, '(No Move)', '(No Move)', '(No Move)'] }
+        win.CURRENT_TRAINER_POKS = ['Mew (Phase 2 damage audit)[0]']
+        return win.get_next_in()[0][5]
+      }
+      win.$('#p1 .ability').val('Levitate')
+      expect(preview('Earthquake'), 'selected Levitate').to.eq(0)
+      win.$('#p1 .ability').val('')
+      expect(preview('Earthquake'), 'selected ability changed').to.eq(46)
+      win.$('#p2 .move1 .move-selector').val('Earthquake').trigger('change')
+      win.$('#p2 .move1 .move-bp').val('999')
+      win.$('#p2 .move1 .move-type').val('Fire')
+      expect(preview('Earthquake'), 'move table data overrides active move edits').to.eq(46)
+      win.$('#p1 .item').val('Chilan Berry')
+      win.$('#p1 .itemToggle').prop('checked', true)
+      expect(preview('Hyper Voice'), 'resist berries are ignored').to.eq(61)
+      win.$('#p2 .ability').val('Slow Start')
+      win.$('#p2 .abilityToggle').prop('checked', false)
+      win.$('#p2 .item').val('Choice Band')
+      win.$('#p2 .itemToggle').prop('checked', true)
+      expect(win.createPokemon(win.$('#p2')).item).to.eq('Choice Band')
+      win.$('#p2 .at .boost').val('6')
+      win.$('#p1 .df .boost').val('1')
+      expect(preview('Bite'), 'Slow Start resets, Choice Band stays, defending boost stays').to.eq(15)
     })
   })
 })

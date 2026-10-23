@@ -31,10 +31,14 @@ var result_1 = require("../result");
 var util_1 = require("./util");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
+var gen4_switch_1 = require("./gen4-switch");
 function calculateDPP(gen, attacker, defender, move, field) {
     var title = typeof TITLE === "string" ? TITLE : "";
     var isSwitchPreview = typeof calcingForSwitchIns !== "undefined" && calcingForSwitchIns;
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
+    if (isSwitchPreview && profile.id === "vanilla") {
+        return (0, gen4_switch_1.calculateDPPPostKO)(gen, attacker, defender, move, field);
+    }
     (0, util_1.applyBeatUpTitleOverride)(move, title);
     var ctx = {
         gen: gen,

@@ -25,6 +25,7 @@ var Field = (function () {
         this.gameType = field.gameType || 'Singles';
         this.terrain = field.terrain;
         this.weather = field.weather;
+        this.g4Phase2State = field.g4Phase2State ? Object.assign({}, field.g4Phase2State) : undefined;
         this.isMagicRoom = !!field.isMagicRoom;
         this.isWonderRoom = !!field.isWonderRoom;
         this.isGravity = !!field.isGravity;
@@ -65,6 +66,7 @@ var Field = (function () {
         return new Field({
             gameType: this.gameType,
             weather: this.weather,
+            g4Phase2State: this.g4Phase2State,
             terrain: this.terrain,
             isMagicRoom: this.isMagicRoom,
             isWonderRoom: this.isWonderRoom,

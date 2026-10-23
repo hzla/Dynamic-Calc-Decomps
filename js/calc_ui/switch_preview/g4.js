@@ -219,6 +219,9 @@ function hasGen4Phase2BaseDamage(result) {
 
 function getGen4Phase2DamageScore(result) {
     var desc = result && result.rawDesc ? result.rawDesc : null
+    if (desc && Number.isFinite(desc.g4Phase2Score)) {
+        return desc.g4Phase2Score
+    }
 
     if (hasGen4Phase2BaseDamage(result)) {
         var score = gen4AiU8(desc.g4Phase2BaseDamage)
@@ -351,12 +354,6 @@ function get_next_in_g4() {
     p1Name = p1.name
     var p1field = createField();
     var p2field = p1field.clone().swap();
-
-    try {
-        p1.ability = customSets[p1.name]["My Box"].ability
-    } catch {
-        p1.ability = "Pressure"
-    }
 
     for (var i = 0; i < trainer_poks_source_order.length; i++) {
         var trainer_pok = trainer_poks_source_order[i]
@@ -592,12 +589,31 @@ function get_next_in_g4() {
         // create mon with ignoteStatMods = true
         p2 = createPokemon(p2info, pok_data["moves"], true)
         p2.originalCurHP = 1
+        var usesVanillaGen4PostKO = settings.damageGen == 4 && typeof getMechanicsProfile === "function" &&
+            getMechanicsProfile(TITLE, 4).id == "vanilla"
+        for (var moveIndex = 0; moveIndex < p2.moves.length; moveIndex++) {
+            if (usesVanillaGen4PostKO) {
+                var tableMove = getGen4Phase2MoveData(pok_data.moves[moveIndex])
+                var tablePower = getGen4Phase2MovePower(pok_data.moves[moveIndex])
+                if (tableMove && Number.isFinite(tablePower)) {
+                    p2.moves[moveIndex].bp = tablePower
+                    p2.moves[moveIndex].overrides = Object.assign({}, p2.moves[moveIndex].overrides, { basePower: tablePower })
+                    if (typeof tableMove.type == "string") p2.moves[moveIndex].overrides.type = tableMove.type
+                    if (typeof tableMove.category == "string") p2.moves[moveIndex].overrides.category = tableMove.category
+                }
+            }
+            if (p2.moves[moveIndex].named("Judgment")) {
+                p2.moves[moveIndex].overrides = Object.assign({}, p2.moves[moveIndex].overrides, {
+                    g4Phase2ReserveItem: pok_data.item || ""
+                })
+            }
+        }
 
-        if (p2.ability == "Reckless") {
+        if (!usesVanillaGen4PostKO && p2.ability == "Reckless") {
             p2.ability = "Minus"
         }
 
-        if (p2.item == "Life Orb") {
+        if (!usesVanillaGen4PostKO && p2.item == "Life Orb") {
             p2.item = "Leftovers"
         }
 
