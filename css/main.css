@@ -6985,3 +6985,10 @@ table.field {
 .move-ai-reserve strong, .move-ai-reserve small { flex-basis: 100%; }
 .move-ai-preview-footnote { display: block; color: #bbb; margin: 8px 0; font-size: 11px; }
 .move-ai-preview .move-ai-preview-trace-line { grid-template-columns: 32px 1fr; }
+
+/* Temporarily disable access to the Move AI preview, including saved enabled states. */
+#show-move-ai-preview,
+#toggle-move-ai-preview,
+#move-ai-preview {
+    display: none !important;
+}
