@@ -131,6 +131,79 @@ describe('Emerald but Bad calc configuration', () => {
     })
   })
 
+  it('loads the 1.0.8.3 base stats, enemy movesets and held items', () => {
+    cy.window({ timeout: 30000 }).should((win) => {
+      expect(win.backup_data && win.backup_data.title).to.eq('Emerald but Bad')
+      expect(win.pokedex && win.pokedex.Mightyena).to.exist
+      expect(win.eval('initializing')).to.eq(false)
+      expect(win.pokedex.Mightyena.bs).to.deep.eq({
+        hp: 90, at: 90, df: 70, sp: 80, sa: 90, sd: 70
+      })
+    }).then((win) => {
+      const expectedMovesets = [
+        [4, 1, 'Kingdra', ['Octazooka', 'Icy Wind', 'Twister', 'Smokescreen']],
+        [4, 2, 'Dragonite', ['Twister', 'Thunder', 'Waterfall', 'Wing Attack']],
+        [8, 4, 'Kingdra', ['Octazooka', 'Dragon Breath', 'Body Slam', 'Flash Cannon']],
+        [78, 1, 'Girafarig', ['Body Slam', 'Psybeam', 'Earthquake', 'Jump Kick']],
+        [78, 4, 'Raichu', ['Volt Tackle', 'Quick Attack', 'Submission', 'Petal Dance']],
+        [91, 0, 'Tauros', ['Return', 'Pursuit', 'HP Ground', 'Quick Attack']],
+        [94, 2, 'Beautifly', ['Leech Life', 'Heat Wave', 'Aerial Ace', 'Giga Drain']],
+        [201, 0, 'Kecleon', ['Extreme Speed', 'HP Rock', 'Shadow Ball', 'Brick Break']],
+        [265, 1, 'Lileep', ['Cosmic Power', 'Mud Shot', 'Mega Drain', 'Sandstorm']],
+        [601, 0, 'Arcanine', ['Heat Wave', 'Dragon Breath', 'Iron Tail', 'Extreme Speed']],
+        [602, 4, 'Sunflora', ['Sacred Fire', 'Giga Drain', 'HP Ice', 'Sunny Day']],
+        [626, 1, 'Kabutops', ['Surf', 'Submission', 'Rock Tomb', 'Agility']],
+        [626, 2, 'Armaldo', ['Rock Tomb', 'Surf', 'Brick Break', 'Twineedle']],
+        [648, 2, 'Octillery', ['Flamethrower', 'Octazooka', 'Icy Wind', 'Flash Cannon']],
+        [717, 0, 'Magcargo', ['Eruption', 'Explosion', 'Rock Tomb']],
+        [721, 3, 'Tangela', ['Giga Drain', 'Body Slam', 'Sludge Bomb', 'Ancient Power']],
+        [730, 1, 'Dodrio', ['Double-Edge', 'Sky Attack', 'Heat Wave', 'Quick Attack']]
+      ]
+      expectedMovesets.forEach(([trainerId, slot, species, moves]) => {
+        const sets = Object.values(win.setdex[species])
+          .filter((set) => set.tr_id === trainerId && set.sub_index === slot)
+        expect(sets, `${species} trainer ${trainerId} slot ${slot}`).to.have.length(1)
+        expect(sets[0].moves, species).to.deep.eq(moves)
+      })
+
+      const expectedItems = [
+        [4, 1, 'Kingdra', 'Sitrus Berry'],
+        [32, 1, 'Lapras', 'Sitrus Berry'],
+        [32, 3, 'Blastoise', 'Wiki Berry'],
+        [78, 4, 'Raichu', 'Leftovers'],
+        [96, 2, 'Swampert', 'Mystic Water'],
+        [201, 0, 'Kecleon', 'Sitrus Berry'],
+        [201, 2, 'Armaldo', 'Silver Powder'],
+        [398, 3, 'Shedinja', 'Spell Tag'],
+        [601, 5, 'Houndoom', 'Lum Berry'],
+        [602, 3, 'Sudowoodo', 'Sitrus Berry'],
+        [626, 1, 'Kabutops', 'Sitrus Berry']
+      ]
+      expectedItems.forEach(([trainerId, slot, species, item]) => {
+        const sets = Object.values(win.setdex[species])
+          .filter((set) => set.tr_id === trainerId && set.sub_index === slot)
+        expect(sets, `${species} trainer ${trainerId} slot ${slot}`).to.have.length(1)
+        expect(sets[0].item, species).to.eq(item)
+      })
+    })
+
+    cy.window().should((win) => expect(win.eval('changingSets')).to.eq(false)).then((win) => {
+      win.expYields = win.expYields || {}
+      win.$('input.opposing.set-selector')
+        .val('Lileep (Lvl 16 Leader Roxanne - Rustboro City / Underwater)')
+        .trigger('change')
+    })
+    cy.get('#p2 .move2 select.move-selector').should('have.value', 'Mud Shot')
+    cy.get('#p2 .move3 select.move-selector').should('have.value', 'Mega Drain')
+
+    cy.window().should((win) => expect(win.eval('changingSets')).to.eq(false)).then((win) => {
+      win.$('input.opposing.set-selector')
+        .val('Kingdra (Lvl 68 Team Aqua Grunt 3 - Aqua Hideout)')
+        .trigger('change')
+    })
+    cy.get('#p2 select.item').should('have.value', 'Sitrus Berry')
+  })
+
   it('falls back to the calculator when the Fragsheet view is requested', () => {
     cy.visit(calcUrl.replace('view=calculator', 'view=fragsheet'))
     cy.get('#rom-title').should('have.text', 'Emerald but Bad')
