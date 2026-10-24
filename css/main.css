@@ -2582,13 +2582,13 @@ input {
     font-size: 14px;
     left: 50%;
     margin: 0;
-    max-height: 220px;
+    max-height: min(70vh, 620px);
     overflow: auto;
     padding: 0 10px;
     position: absolute;
     top: 0;
     transform: translateX(-50%);
-    width: 260px;
+    width: min(440px, 85vw);
     z-index: 20;
 }
 
@@ -6971,3 +6971,17 @@ table.field {
         margin-left: auto;
     }
 }
+
+/* Compact, preview-only Platinum AI battle state controls. */
+.move-ai-preview details[data-ai-section] { border-top: 1px solid #444; padding: 6px 0; }
+.move-ai-preview details[data-ai-section] > summary { cursor: pointer; }
+.move-ai-preview details[data-ai-section] details { margin-left: 8px; }
+.move-ai-state-field { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin: 7px 0; }
+.move-ai-state-field > span { flex: 1; }
+.move-ai-state-field input:not([type=checkbox]), .move-ai-state-field select { width: 48%; min-width: 0; box-sizing: border-box; }
+.move-ai-state-field input[type=number], .move-ai-reserve input[type=number] { width: 65px; }
+.move-ai-effect { display: inline-block; margin: 4px 8px 4px 0; }
+.move-ai-reserve { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-bottom: 1px solid #444; padding: 8px 0; }
+.move-ai-reserve strong, .move-ai-reserve small { flex-basis: 100%; }
+.move-ai-preview-footnote { display: block; color: #bbb; margin: 8px 0; font-size: 11px; }
+.move-ai-preview .move-ai-preview-trace-line { grid-template-columns: 32px 1fr; }

@@ -412,7 +412,8 @@ function calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritic
         baseDamage = Math.floor(baseDamage * (0, util_1.getCriticalHitMultiplier)(gen));
         desc.isCritical = true;
     }
-    if (move.named('Pursuit') && field.defenderSide.isSwitching === 'out') {
+    // The calculator checkbox supplies a boolean; also accept the legacy API value.
+    if (move.named('Pursuit') && (field.defenderSide.isSwitching === true || field.defenderSide.isSwitching === 'out')) {
         baseDamage = Math.floor(baseDamage * 2);
         desc.isSwitching = 'out';
     }

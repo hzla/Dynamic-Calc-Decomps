@@ -39,7 +39,9 @@
 
     function canUseMoveAiPreviewSetting(title) {
         var calcSettings = getSettings();
-        return !!(calcSettings && calcSettings.damageGen === 4 && !isPlatinumKaizo(title));
+        var currentTitle = title || getTitle();
+        var profile = typeof root.getMechanicsProfile === "function" ? root.getMechanicsProfile(currentTitle, 4) : null;
+        return !!(calcSettings && calcSettings.damageGen === 4 && !isPlatinumKaizo(title) && isPlatinumFamily() && (!profile || profile.id === "vanilla"));
     }
 
     function getEnabled(title) {
@@ -116,30 +118,17 @@
         if (root.setdex && root.setdex[species] && root.setdex[species][setName]) {
             return root.setdex[species][setName];
         }
-        if (attacker && root.setdex && root.setdex[attacker.name]) {
-            var names = Object.keys(root.setdex[attacker.name]);
-            if (names.length) return root.setdex[attacker.name][names[0]];
-        }
         return null;
     }
 
     function getAiMask(attacker, assumptions) {
         var setData = getP2SetData(attacker);
-        if (setData && Number.isFinite(Number(setData.ai))) {
+        if (setData && setData.ai !== null && setData.ai !== undefined && setData.ai !== "" && Number.isFinite(Number(setData.ai))) {
             return Number(setData.ai);
         }
 
-        var mask = 0;
-        if ($("#ai1:visible").length) mask |= root.PlatinumMoveAiPreview.AI_FLAGS.BASIC;
-        if ($("#ai2:visible").length) mask |= root.PlatinumMoveAiPreview.AI_FLAGS.EVAL_ATTACK;
-        if ($("#ai3:visible").length) mask |= root.PlatinumMoveAiPreview.AI_FLAGS.EXPERT;
-        if (mask) {
-            assumptions.push("AI mask unavailable on set data; using visible AI badges.");
-            return mask;
-        }
-
-        assumptions.push("AI mask unavailable; assuming Basic only.");
-        return root.PlatinumMoveAiPreview.AI_FLAGS.BASIC;
+        assumptions.push("Trainer AI flags are unavailable.");
+        return null;
     }
 
     function ensurePanel() {
@@ -201,7 +190,7 @@
         var outcomes = (move.outcomes || []).map(function(outcome) {
             return '<div class="move-ai-preview-outcome">'
                 + '<div class="move-ai-preview-outcome-head">Score ' + escapeHtml(outcome.finalScore)
-                + ' <span>' + formatPct(outcome.probability) + ' of score paths</span></div>'
+                + ' <span>' + formatPct(outcome.probability) + ' of score paths; example trace</span></div>'
                 + renderTrace(outcome.trace)
                 + '</div>';
         }).join("");
@@ -209,7 +198,7 @@
         return '<details class="move-ai-preview-move">'
             + '<summary>'
             + '<span class="move-ai-preview-score">Score ' + escapeHtml(scoreRange(move)) + '</span>'
-            + '<span class="move-ai-preview-prob">' + formatPct(move.probability) + '</span>'
+            + '<span class="move-ai-preview-prob">' + (move.probability === null ? 'Unavailable' : formatPct(move.probability)) + '</span>'
             + '</summary>'
             + '<div class="move-ai-preview-outcomes">' + outcomes + '</div>'
             + '</details>';
@@ -224,11 +213,20 @@
                 + '</div>';
         }
 
-        html += '<div class="move-ai-preview-list">'
-            + (result.moves || []).map(renderMove).join("")
-            + '</div>';
+        if (result.supported) {
+            html += '<div class="move-ai-preview-model">Platinum AI estimate, conditional on the battle state below.</div>';
+            html += '<div class="move-ai-preview-list">' + (result.moves || []).map(renderMove).join("") + '</div>';
+        } else {
+            html += '<div class="move-ai-preview-warnings">Move probabilities are unavailable for this state.</div>';
+        }
+        html += '<details class="move-ai-preview-assumptions"><summary>Model and battle-state assumptions</summary>'
+            + (result.assumptions || []).map(function(a) { return '<div>' + escapeHtml(a) + '</div>'; }).join("") + '</details>';
 
-        ensurePanel().html(html).show();
+        html += root.PlatinumAiPreviewState.html();
+        html += '<small class="move-ai-preview-footnote">previous turn history required for fully accurate %s</small>';
+        var panel = ensurePanel(), scroll = panel.scrollTop();
+        panel.html(html).show().scrollTop(scroll);
+        root.PlatinumAiPreviewState.bind(panel, refresh);
     }
 
     function refresh() {
@@ -270,24 +268,33 @@
         }
 
         try {
-            var attacker = currentDamageResults[1][0] && currentDamageResults[1][0].attacker ? currentDamageResults[1][0].attacker : root.createPokemon($("#p2"));
-            var defender = currentDamageResults[1][0] && currentDamageResults[1][0].defender ? currentDamageResults[1][0].defender : root.createPokemon($("#p1"));
+            var attacker = root.createPokemon($("#p2"));
+            var defender = root.createPokemon($("#p1"));
+            // Damage results contain clones already changed by Intimidate,
+            // Download, Mold Breaker, item checks, etc. Start from visible state.
+            var dex = getGlobalValue("pokedex") || {};
+            var species = dex[defender.name] || {};
+            var possibleAbilities = species.abilities ? Object.values(species.abilities).filter(Boolean).slice(0, 2) : [];
+            var history = root.PlatinumAiPreviewState.snapshot(attacker, defender);
+            history.attackerPP = $("#p2 .move-pp").map(function() { return Number($(this).val()); }).get();
+            if (history.attackerPP.length !== 4) delete history.attackerPP;
             var assumptions = [];
             var aiMask = getAiMask(attacker, assumptions);
             var result = root.PlatinumMoveAiPreview.evaluate({
                 attacker: attacker,
                 defender: defender,
                 field: root.createField ? root.createField().clone().swap() : null,
-                damageResults: currentDamageResults[1],
+                defenderAbilities: possibleAbilities,
                 moveTable: root.backup_moves || (getGlobalValue("backup_data") && getGlobalValue("backup_data").moves) || getGlobalValue("moves"),
                 aiMask: aiMask,
-                stateOverrides: {},
-                options: { branchCap: 2048 }
+                stateOverrides: history,
+                options: { branchCap: 8192 }
             });
-            result.assumptions = assumptions.concat(result.assumptions || []);
+            result.assumptions = assumptions.concat(["Uses the Platinum AI script with this game’s move and species data; ROM-specific AI patches require separate verification."], result.assumptions || []);
             renderResult(result);
             $("#show-move-ai-preview").addClass("active");
-            updateStatus("rendered", {
+            root.lastPlatinumMoveAiResult = result;
+            updateStatus(result.supported ? "rendered" : "incomplete-state", {
                 panelVisible: true,
                 moveCount: result.moves ? result.moves.length : 0
             });

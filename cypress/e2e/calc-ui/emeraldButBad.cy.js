@@ -8,6 +8,36 @@ describe('Emerald but Bad calc configuration', () => {
     cy.visit(calcUrl)
   })
 
+  it('doubles Pursuit against the reported Tangela when Switching Out is checked', () => {
+    const trainer = 'Lvl 68 Team Aqua Grunt 20 - Aqua Hideout'
+    cy.window({ timeout: 30000 }).should((win) => {
+      expect(win.setdex && win.setdex.Sharpedo).to.have.property(trainer)
+      expect(win.eval('initializing')).to.eq(false)
+    }).then((win) => {
+      win.expYields = win.expYields || {}
+      win.updateDex({ Tangela: { 'My Box': {
+        level: 68, ability: 'Chlorophyll', nature: 'Brave', item: 'Leftovers',
+        ivs: { hp: 31, at: 22, df: 1, sa: 12, sd: 3, sp: 9 },
+        moves: ['Leech Seed', 'Giga Drain', 'Toxic', 'Ancient Power'], isCustomSet: true
+      } } })
+      win.$('#p1 .set-selector').val('Tangela (My Box)').trigger('change')
+    })
+    cy.window().should((win) => expect(win.eval('changingSets')).to.eq(false)).then((win) => {
+      win.$('#p2 .set-selector').val(`Sharpedo (${trainer})`).trigger('change')
+    })
+    cy.get('#resultDamageR3').should('contain', '25.3 - 29.8%')
+    cy.get('#switchingL').check({ force: true })
+    cy.get('#resultDamageR3').should('contain', '50.6 - 59.7%')
+    cy.window().then((win) => {
+      expect(win.createField().clone().swap().defenderSide.isSwitching).to.eq(true)
+      expect(win.damageResults[1][2].range()).to.deep.eq([122, 144])
+      expect(win.damageResults[1][2].rawDesc.isSwitching).to.eq('out')
+    })
+    cy.get('#switchingL').uncheck({ force: true })
+    cy.get('#switchingR').check({ force: true })
+    cy.get('#resultDamageR3').should('contain', '25.3 - 29.8%')
+  })
+
   it('loads as a vanilla Gen 3 Emerald profile with Dex enabled', () => {
     cy.get('#rom-title').should('have.text', 'Emerald but Bad')
     cy.window().its('backup_data.title').should('eq', 'Emerald but Bad')

@@ -117192,7 +117192,7 @@ backup_data = {
           "Knock Off"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -118691,7 +118691,7 @@ backup_data = {
           "Nasty Plot"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -133725,7 +133725,7 @@ backup_data = {
           "Spit Up"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Infiltrator",
         "sprite": "/images/trainer_sprites/pokefan.png",
         "form": 0,
         "evs": {
@@ -138974,7 +138974,7 @@ backup_data = {
           "Draining Kiss"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Flower Gift",
         "sprite": "/images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -144405,7 +144405,7 @@ backup_data = {
           "Gunk Shot"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146364,7 +146364,7 @@ backup_data = {
           "Magical Leaf"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Infiltrator",
         "sprite": "/images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -146430,7 +146430,7 @@ backup_data = {
           "Draining Kiss"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Infiltrator",
         "sprite": "/images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -151925,7 +151925,7 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 5,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -159717,7 +159717,7 @@ backup_data = {
           "Endeavor"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Defeatist",
         "sprite": "/images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -159783,7 +159783,7 @@ backup_data = {
           "Endeavor"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Defeatist",
         "sprite": "/images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -164737,7 +164737,7 @@ backup_data = {
           "Thunder Wave"
         ],
         "sub_index": 4,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 1,
         "evs": {
@@ -164770,7 +164770,7 @@ backup_data = {
           "Thunderbolt"
         ],
         "sub_index": 3,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 1,
         "evs": {
@@ -178069,7 +178069,7 @@ backup_data = {
           "Acid Armor"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -178234,7 +178234,7 @@ backup_data = {
           "Flash Cannon"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -179234,7 +179234,7 @@ backup_data = {
           "Smart Strike"
         ],
         "sub_index": 5,
-        "ability": " -",
+        "ability": "Flame Body",
         "sprite": "/images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -179366,7 +179366,7 @@ backup_data = {
           "High Horsepower"
         ],
         "sub_index": 4,
-        "ability": " -",
+        "ability": "Flame Body",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -179399,7 +179399,7 @@ backup_data = {
           "Blaze Kick"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Flame Body",
         "sprite": "/images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -179669,7 +179669,7 @@ backup_data = {
           "Night Daze"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -179702,7 +179702,7 @@ backup_data = {
           "Earth Power"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -180003,7 +180003,7 @@ backup_data = {
           "Hypnosis"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -195064,7 +195064,7 @@ backup_data = {
           "Crunch"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Hustle",
         "sprite": "/images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -195196,7 +195196,7 @@ backup_data = {
           "Head Smash"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Hustle",
         "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -195229,7 +195229,7 @@ backup_data = {
           "Body Slam"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Hustle",
         "sprite": "/images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -198861,7 +198861,7 @@ backup_data = {
           "Curse"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Iron Barbs",
         "sprite": "/images/trainer_sprites/maid.png",
         "form": 0,
         "evs": {
@@ -201942,7 +201942,7 @@ backup_data = {
           "Nuzzle"
         ],
         "sub_index": 2,
-        "ability": " -",
+        "ability": "Levitate",
         "sprite": "/images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -202558,7 +202558,7 @@ backup_data = {
           "Quick Attack"
         ],
         "sub_index": 1,
-        "ability": " -",
+        "ability": "Defeatist",
         "sprite": "/images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -202624,7 +202624,7 @@ backup_data = {
           "Dragon Breath"
         ],
         "sub_index": 3,
-        "ability": " -",
+        "ability": "Defeatist",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {

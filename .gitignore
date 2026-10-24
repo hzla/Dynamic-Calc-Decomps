@@ -4,6 +4,8 @@ cypress/screenshots
 tools/*
 !tools/gen7/
 !tools/heartandsoul/
+!tools/ai/
+tools/ai/__pycache__/
 tools/gen7/__pycache__/
 pokeemerald/
 data/analytics/

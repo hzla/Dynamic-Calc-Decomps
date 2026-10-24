@@ -46,37 +46,46 @@ function g4SwitchDivide(value, divisor) {
 }
 
 function calculateDPPPostKO(gen, attacker, defender, move, field) {
+    return calculateDPPAiCore(gen, attacker, defender, move, field, null);
+}
+function calculateDPPMoveChoice(gen, attacker, defender, move, field, state) {
+    return calculateDPPAiCore(gen, attacker, defender, move, field, state || {});
+}
+function calculateDPPAiCore(gen, attacker, defender, move, field, aiState) {
+    // The move-choice AI shares these C routines, but uses a living attacker
+    // and keeps full-width damage. Post-KO behavior remains the default.
+    var trainerAI = !!aiState;
     // Optional partner/volatile state supplements the two visible combatants.
     // Doubles defaults assume both partner slots are alive unless specified.
-    var state = field.g4Phase2State || {};
+    var state = aiState || field.g4Phase2State || {};
     var aSide = field.attackerSide, dSide = field.defenderSide;
     var doubles = field.gameType === "Doubles";
-    var aAbility = attacker.ability;
-    var dAbility = defender.ability;
+    var aAbility = state.attackerAbilitySuppressed ? "" : attacker.ability;
+    var dAbility = state.defenderAbilitySuppressed ? "" : defender.ability;
     var attackerPartnerAbility = state.attackerPartnerAbility;
     if (!attackerPartnerAbility && doubles && attacker.abilityOn && ["Plus", "Minus"].includes(aAbility)) {
         attackerPartnerAbility = aAbility === "Plus" ? "Minus" : "Plus";
     }
     if (dAbility === "Levitate" && (field.isGravity || state.defenderIngrain)) dAbility = "";
-    var aItem = aAbility === "Klutz" ? "" : attacker.item;
+    var aItem = aAbility === "Klutz" || state.attackerEmbargo ? "" : attacker.item;
     var dItem = dAbility === "Klutz" || state.defenderEmbargo ? "" : defender.item;
     var ignoresAbility = aAbility === "Mold Breaker";
     var defAbility = function (name) { return !ignoresAbility && dAbility === name; };
-    var weather = [dAbility, attackerPartnerAbility, state.defenderPartnerAbility].some(function (ability) {
+    var weather = [trainerAI ? aAbility : "", dAbility, attackerPartnerAbility, state.defenderPartnerAbility].some(function (ability) {
         return ability === "Cloud Nine" || ability === "Air Lock";
     }) ? "" : field.weather;
     var desc = { attackerName: attacker.name, defenderName: defender.name, moveName: move.name };
     var result = new switchResult.Result(gen, attacker, defender, move, field, 0, desc);
-    if (move.named("(No Move)")) return result;
+    if (move.named("(No Move)") && !state.allowNoMove) return result;
 
     var power = move.bp;
     var damageType = move.type;
-    if (move.named("Weather Ball", "Judgment", "Struggle")) damageType = "Normal";
+    if (move.named("Struggle") || (!trainerAI && move.named("Weather Ball", "Judgment"))) damageType = "Normal";
     if (move.named("Future Sight")) damageType = "Psychic";
     if (move.named("Doom Desire")) damageType = "Steel";
     var chartType = damageType;
-    if (move.named("Weather Ball")) chartType = ({ Sun: "Fire", Rain: "Water", Sand: "Rock", Hail: "Ice" })[weather] || "Normal";
-    if (move.named("Judgment")) {
+    if (!trainerAI && move.named("Weather Ball")) chartType = ({ Sun: "Fire", Rain: "Water", Sand: "Rock", Hail: "Ice" })[weather] || "Normal";
+    if (!trainerAI && move.named("Judgment")) {
         // Move_CalcVariableType uses the reserve's item, not the fainted user's.
         var reserveItem = move.overrides && move.overrides.g4Phase2ReserveItem;
         chartType = reserveItem && reserveItem.includes("Plate") ? switchItems.getItemBoostType(reserveItem) || "Normal" : "Normal";
@@ -94,10 +103,12 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
     var statMod = function (stat, n, d) { return g4SwitchRatio(stat, n, d) & 0xFFFF; };
 
     // CleanupFaintedMon clears Charge and Helping Hand; Technician remains.
+    if (trainerAI && state.charge && damageType === "Electric") power *= 2;
+    if (trainerAI && aSide.isHelpingHand) power = statMod(power, 15, 10);
     if (aAbility === "Technician" && !move.named("Struggle") && power <= 60) power = statMod(power, 3, 2);
     if (aAbility === "Huge Power" || aAbility === "Pure Power") atk = statMod(atk, 2, 1);
     // Faint cleanup resets slowStartTurnNumber to totalTurns+1.
-    if (aAbility === "Slow Start") atk = Math.floor(atk / 2);
+    if (aAbility === "Slow Start" && (!trainerAI || attacker.abilityOn)) atk = Math.floor(atk / 2);
     var boostedType = switchItems.getItemBoostType(aItem);
     // Shared item helpers also contain items absent from Platinum's item table.
     if (["Steel Feather", "Fairy Feather", "Pixie Plate", "Pink Bow", "Polkadot Bow"].includes(aItem)) boostedType = undefined;
@@ -114,7 +125,7 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
     if (aItem === "Thick Club" && attacker.named("Cubone", "Marowak")) atk = statMod(atk, 2, 1);
     if ((aItem === "Adamant Orb" && attacker.named("Dialga") && ["Dragon", "Steel"].includes(damageType)) ||
         (aItem === "Lustrous Orb" && attacker.named("Palkia") && ["Dragon", "Water"].includes(damageType)) ||
-        (aItem === "Griseous Orb" && attacker.named("Giratina", "Giratina-Origin") && ["Dragon", "Ghost"].includes(damageType))) {
+        (aItem === "Griseous Orb" && !state.attackerTransformed && attacker.named("Giratina", "Giratina-Origin") && ["Dragon", "Ghost"].includes(damageType))) {
         power = statMod(power, 120, 100);
     }
     if ((aItem === "Muscle Band" && physical) || (aItem === "Wise Glasses" && special)) power = statMod(power, 110, 100);
@@ -126,13 +137,16 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
         (aAbility === "Minus" && attackerPartnerAbility === "Plus")) spa = statMod(spa, 150, 100);
     if (damageType === "Electric" && state.mudSport) power = Math.floor(power / 2);
     if (damageType === "Fire" && state.waterSport) power = Math.floor(power / 2);
-    if ((aAbility === "Overgrow" && damageType === "Grass") || (aAbility === "Blaze" && damageType === "Fire") ||
-        (aAbility === "Torrent" && damageType === "Water") || (aAbility === "Swarm" && damageType === "Bug")) {
+    if ((!trainerAI || attacker.curHP() <= Math.floor(attacker.maxHP() / 3)) && ((aAbility === "Overgrow" && damageType === "Grass") || (aAbility === "Blaze" && damageType === "Fire") ||
+        (aAbility === "Torrent" && damageType === "Water") || (aAbility === "Swarm" && damageType === "Bug"))) {
         power = statMod(power, 150, 100);
         desc.attackerAbility = aAbility;
     }
     if (defAbility("Heatproof") && damageType === "Fire") power = Math.floor(power / 2);
     if (defAbility("Dry Skin") && damageType === "Fire") power = statMod(power, 125, 100);
+    var offenseStage = trainerAI ? attacker.boosts[physical ? "atk" : "spa"] || 0 : 0;
+    if (aAbility === "Simple") offenseStage = Math.max(-6, Math.min(6, offenseStage * 2));
+    if (defAbility("Unaware")) offenseStage = 0;
     var defenseStage = defender.boosts[physical ? "def" : "spd"] || 0;
     if (defAbility("Simple")) defenseStage = Math.max(-6, Math.min(6, defenseStage * 2));
     if (aAbility === "Unaware") defenseStage = 0;
@@ -143,14 +157,14 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
     if (weather === "Sun" && aAbility === "Solar Power") spa = statMod(spa, 15, 10);
     if (weather === "Sand" && defender.hasType("Rock")) spd = statMod(spd, 15, 10);
     // The fainted attacker's own Flower Gift is not counted as a living ally.
-    if (weather === "Sun" && (attackerPartnerAbility === "Flower Gift" || (doubles && aSide.isFlowerGift))) atk = statMod(atk, 15, 10);
+    if (weather === "Sun" && ((trainerAI && aAbility === "Flower Gift") || attackerPartnerAbility === "Flower Gift" || (doubles && aSide.isFlowerGift))) atk = statMod(atk, 15, 10);
     if (weather === "Sun" && !ignoresAbility && (dAbility === "Flower Gift" || state.defenderPartnerAbility === "Flower Gift" ||
         (doubles && dSide.isFlowerGift))) spd = statMod(spd, 15, 10);
     if (move.named("Explosion", "Self-Destruct")) def = Math.floor(def / 2);
 
     var damage = 0;
     if (physical || special) {
-        var offense = physical ? atk : spa;
+        var offense = g4SwitchStage(physical ? atk : spa, offenseStage);
         var defense = g4SwitchStage(physical ? def : spd, defenseStage);
         damage = Math.floor(offense * power * (Math.floor(attacker.level * 2 / 5) + 2) / Math.max(1, defense));
         damage = Math.floor(damage / 50);
@@ -173,12 +187,15 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
         if (damageType === "Water") damage = Math.floor(damage / 2);
     }
     // CleanupFaintedMon clears Flash Fire's moveEffectsData, so no boost here.
+    if (trainerAI && aAbility === "Flash Fire" && attacker.abilityOn && damageType === "Fire") damage = g4SwitchRatio(damage, 15, 10);
     damage += 2;
+    if (trainerAI && state.fixedDamage) damage = state.fixedDamage;
+    if (trainerAI && state.chartProbe !== undefined) damage = state.chartProbe;
     desc.g4Phase2BaseDamage = damage;
     desc.g4Phase2Power = power;
-    var score = damage & 0xFF;
+    var score = trainerAI ? damage : damage & 0xFF;
     var stab = attacker.hasType(chartType) ? (aAbility === "Adaptability" ? 2 : 1.5) : 1;
-    if (move.named("Struggle")) stab = 1;
+    if (move.named("Struggle") || state.fixedDamage) stab = 1;
     desc.g4Phase2StabMod = stab;
     score = g4SwitchRatio(score, stab === 1.5 ? 15 : stab, stab === 1.5 ? 10 : 1);
     var filter = 1, expert = 1, tinted = 1, immune = false, se = false, nve = false;
@@ -204,11 +221,11 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
             pairs.forEach(function (pair) {
                 if (pair.eff === 0) { score = 0; immune = true; se = nve = false; }
                 if (pair.eff === 0.5) {
-                    score = g4SwitchDivide(score * 5, 10);
+                    if (!state.fixedDamage) score = g4SwitchDivide(score * 5, 10);
                     if (move.bp) { if (se) se = false; else nve = true; }
                 }
                 if (pair.eff === 2) {
-                    score = g4SwitchDivide(score * 20, 10);
+                    if (!state.fixedDamage) score = g4SwitchDivide(score * 20, 10);
                     if (move.bp) { if (nve) nve = false; else se = true; }
                 }
             });
@@ -216,19 +233,21 @@ function calculateDPPPostKO(gen, attacker, defender, move, field) {
         if (defAbility("Wonder Guard") && !G4_WONDER_GUARD_CHARGE_MOVES.includes(move.name) && (!se || (se && nve)) && move.bp) {
             immune = true;
         } else {
-            if (se && move.bp) {
+            if (!state.fixedDamage && se && move.bp) {
                 if (defAbility("Filter") || defAbility("Solid Rock")) { filter = 0.75; score = g4SwitchDivide(score * 3, 4); }
                 if (aItem === "Expert Belt") { expert = 1.2; score = g4SwitchRatio(score, 120, 100); }
             }
-            if (nve && move.bp && aAbility === "Tinted Lens") { tinted = 2; score *= 2; }
+            if (!state.fixedDamage && nve && move.bp && aAbility === "Tinted Lens") { tinted = 2; score *= 2; }
         }
     }
+    if (trainerAI) desc.g4AiTypeFlags = { superEffective: se, notVeryEffective: nve, immune: immune };
     desc.g4Phase2FilterMod = filter;
     desc.g4Phase2ExpertBeltMod = expert;
     desc.g4Phase2TintedMod = tinted;
     desc.g4Phase2BerryMod = 1;
-    desc.g4Phase2Score = immune ? 0 : score & 0xFF;
+    desc.g4Phase2Score = immune ? 0 : trainerAI ? score : score & 0xFF;
     result.damage = desc.g4Phase2Score;
     return result;
 }
 exports.calculateDPPPostKO = calculateDPPPostKO;
+exports.calculateDPPMoveChoice = calculateDPPMoveChoice;

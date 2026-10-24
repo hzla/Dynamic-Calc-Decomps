@@ -50,7 +50,10 @@ describe('Renegade Platinum Gen 4 switch preview', () => {
   it('scores conditional moves once at table power without halving slower attackers', () => {
     cy.visit('./index.html?data=renegadeplatinum&view=calculator')
     cy.get('#rom-title').should('have.text', 'Renegade Platinum')
-    cy.window().should(win => expect(win.pokedex && win.pokedex.Mew).to.be.an('object'))
+    cy.window().should(win => {
+      expect(win.pokedex && win.pokedex.Mew).to.be.an('object')
+      expect(win.SETDEX_BW).to.be.an('object')
+    })
     cy.window().then((win) => {
       win.$('#p1 .set-selector, #p2 .set-selector').val('Mew (Blank Set)').trigger('change')
       win.$('#p1 .level, #p2 .level').val('50').trigger('change')
@@ -88,7 +91,10 @@ describe('Renegade Platinum Gen 4 switch preview', () => {
   it('uses selected abilities, retained items and defender boosts after faint cleanup', () => {
     cy.visit('./index.html?data=renegadeplatinum&view=calculator')
     cy.get('#rom-title').should('have.text', 'Renegade Platinum')
-    cy.window().should(win => expect(win.pokedex && win.pokedex.Mew).to.be.an('object'))
+    cy.window().should(win => {
+      expect(win.pokedex && win.pokedex.Mew).to.be.an('object')
+      expect(win.SETDEX_BW).to.be.an('object')
+    })
     cy.window().then((win) => {
       win.$('#p1 .set-selector, #p2 .set-selector').val('Mew (Blank Set)').trigger('change')
       win.$('#p1 .level, #p2 .level').val('50').trigger('change')
