@@ -827,6 +827,7 @@ const currentTitle = typeof TITLE === "string" ? TITLE : "";
     showBattleLog: battleLogEnabled,
     showMainNav: true
   })
+}
 
 window.refreshMainPageHeaderState = updateHeaderShellState
 
