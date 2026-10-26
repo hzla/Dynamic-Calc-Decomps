@@ -498,7 +498,7 @@ function isBadOdds(p1, p2) {
 
 const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush","Bull Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
 
-const defaultOffAbilities = ['Flash Fire','Minus', 'Plus','Unburden','Stakeout'];
+const defaultOffAbilities = ['Flash Fire','Minus', 'Plus','Unburden','Stakeout', 'Electromorphosis'];
 
 function deepMemoize(fn) {
   resultsCache = new Map();

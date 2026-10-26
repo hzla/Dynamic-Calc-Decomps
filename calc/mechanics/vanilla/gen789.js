@@ -484,6 +484,11 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
                 (0, util_2.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod, protect);
         }
         if (move.dropsStats && move.timesUsed > 1) {
+            var subsequentBasePower = basePower;
+            if (attacker.hasAbility('Electromorphosis') && attacker.abilityOn && move.hasType('Electric')) {
+                subsequentBasePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field,
+                    hasAteAbilityTypeChange, Object.assign({}, desc), 2, profile, ctx);
+            }
             var simpleMultiplier = attacker.hasAbility('Simple') ? 2 : 1;
             desc.moveTurns = "over ".concat(move.timesUsed, " turns");
             var hasWhiteHerb = attacker.hasItem('White Herb');
@@ -494,7 +499,7 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
                 var damageMultiplier = 0;
                 damage = damage.map(function (affectedAmount) {
                     if (times) {
-                        var newBaseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, newAttack, defense);
+                        var newBaseDamage = (0, util_2.getBaseDamage)(attacker.level, subsequentBasePower, newAttack, defense);
                         var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, stabMod, finalMod, protect);
                         damageMultiplier++;
                         return affectedAmount + newFinalDamage;
@@ -791,6 +796,13 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
         }
         if (move.named('Breakneck Blitz', 'Bloom Doom', 'Inferno Overdrive', 'Hydro Vortex', 'Gigavolt Havoc', 'Subzero Slammer', 'Supersonic Skystrike', 'Savage Spin-Out', 'Acid Downpour', 'Tectonic Rage', 'Continental Crush', 'All-Out Pummeling', 'Shattered Psyche', 'Never-Ending Nightmare', 'Devastating Drake', 'Black Hole Eclipse', 'Corkscrew Crash', 'Twinkle Tackle')) {
             desc.moveBP = move.bp;
+        }
+        // Match Platinum's Charge: double move power before BP modifiers, not final damage.
+        if (attacker.hasAbility('Electromorphosis') && attacker.abilityOn && move.hasType('Electric') &&
+            (move.timesUsed === 1 || hit === 1)) {
+            basePower *= 2;
+            desc.attackerAbility = attacker.ability;
+            desc.moveBP = basePower;
         }
         var bpMods = calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx);
         basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));

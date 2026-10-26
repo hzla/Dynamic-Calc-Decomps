@@ -1114,7 +1114,7 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 
 	var ability = pokeObj.find(".ability").val();
 
-	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download', 'Imposter'];
+	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download', 'Imposter', 'Electromorphosis'];
 
 	if (TITLE.includes(" Null")) {
 		TOGGLE_ABILITIES.push("Illuminate")
@@ -1127,6 +1127,11 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 		if (ability === "Imposter" && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
 			abilityToggle.prop("checked", true);
 		}
+		if (ability === "Electromorphosis" && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
+			abilityToggle.prop("checked", false);
+		}
+		abilityToggle.attr('title', ability === 'Electromorphosis' ? 'Charged: boost the next Electric move' : 'Is this ability active?');
+		abilityToggle.attr('aria-label', ability === 'Electromorphosis' ? 'Electromorphosis charged' : 'Ability active');
 		abilityToggle.attr("data-ability", ability);
 		abilityToggle.show();
 	} else {
@@ -3415,7 +3420,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			return new calc.Pokemon(gen, name, {
 				level: tmpLvl,
 				ability: set.ability,
-				abilityOn: true,
+				abilityOn: set.ability !== 'Electromorphosis',
 				item: item,
 				gender: getGender(set.gender),
 				nature: set.nature,

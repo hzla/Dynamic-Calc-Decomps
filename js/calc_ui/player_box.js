@@ -51,6 +51,7 @@ var BOX_FILTER_TOGGLE_ABILITY_ON_WHITELIST = [
     'Download'
 ]
 var BOX_FILTER_TOGGLE_ABILITIES = [
+    'Electromorphosis',
     'Flash Fire',
     'Intimidate',
     'Minus',
