@@ -4,7 +4,7 @@ const teamName = index => `Cypress Team ${String.fromCharCode(65 + index)}${inde
 const setId = (index, species = 'Charizard') => `${species} (Lvl 50 ${teamName(index)})`
 
 function storedTeams() {
-  return Array.from({ length: 6 }, (_, index) => ({
+  return Array.from({ length: 12 }, (_, index) => ({
     name: teamName(index), trainerId: -800 - index,
     pokemon: ['Charizard', 'Pikachu'].map((speciesName, subIndex) => ({
       speciesName, setName: `Lvl 50 ${teamName(index)}`,
@@ -91,11 +91,13 @@ describe('Opposing partner and B2B trainer lists', () => {
       add(3)
       cy.get('.opposing-team-group').should('have.length', 4)
       cy.get('.opposing-team-remove').should('have.length', 3)
-      cy.get('#add-opposing-team, #add-opposing-partner').should('be.disabled')
+      cy.get('#add-opposing-partner').should('be.disabled')
+      cy.get('#add-opposing-team').should('not.be.disabled')
       cy.get('#opposing-partner-active').should('not.be.visible')
       cy.get('.opposing-team-group').each($team => {
         cy.wrap($team).find('.trainer-pok').should('have.length', 2)
-        cy.wrap($team).find('.bp-info').should('have.length', 8)
+        cy.wrap($team).find('.bp-info').should('have.length', $team.hasClass('active-team') ? 8 : 0)
+        cy.wrap($team).find('.opposing-team-heading').should('have.length', $team.hasClass('active-team') ? 1 : 0)
       })
       selectTeam(2)
       cy.get('#doubles-format').should('be.checked')
@@ -104,7 +106,7 @@ describe('Opposing partner and B2B trainer lists', () => {
         expect(win.get_next_in().map(entry => entry[0]).sort()).to.deep.eq([`${setId(2)}[0]`, `${setId(2, 'Pikachu')}[1]`].sort())
         expect(win.eval('partnerName')).to.eq(null)
         expect(win.opposingPreviewState.teams.map(team => team.name)).to.deep.eq([0, 1, 2, 3].map(teamName))
-        expect(win.addOpposingPreviewTeam(setId(4), 'b2b')).to.eq(false)
+        expect(win.addOpposingPreviewTeam(setId(0), 'b2b')).to.eq(false)
       })
       selectTeam(1)
       cy.get('#singles-format').should('be.checked')
@@ -137,6 +139,26 @@ describe('Opposing partner and B2B trainer lists', () => {
     cy.get('input.opposing').should('have.value', setId(0))
     cy.get('.opposing-team-group').should('not.exist')
     cy.get('#add-opposing-partner').should('not.be.disabled')
+  })
+
+  it('supports ten B2B teams, restores all ten, and allows additions again after removal', () => {
+    visit()
+    for (let index = 1; index < 10; index++) add(index)
+    cy.get('.opposing-team-group').should('have.length', 10)
+    cy.get('.opposing-team-remove').should('have.length', 9)
+    cy.get('#add-opposing-team, #add-opposing-partner').should('be.disabled')
+    cy.window().then(win => expect(win.addOpposingPreviewTeam(setId(10), 'b2b')).to.eq(false))
+    selectTeam(9)
+    cy.reload()
+    ready()
+    cy.get('.opposing-team-group').should('have.length', 10)
+    cy.get('input.opposing').should('have.value', setId(9))
+    cy.get('.opposing-team-group.inactive-team .bp-info, .opposing-team-group.inactive-team .opposing-team-heading').should('not.exist')
+    cy.get('.opposing-team-remove[data-team-index="5"]').click()
+    cy.get('.opposing-team-group').should('have.length', 9)
+    cy.get('#add-opposing-team').should('not.be.disabled')
+    add(10)
+    cy.get('.opposing-team-group').should('have.length', 10)
   })
 
   it('restores the list, selection and format after reload, and resets on outside navigation', () => {

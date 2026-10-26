@@ -2183,6 +2183,8 @@ function renderTrainerPreviewPok(next_pok, inactiveTeam = false) {
 		pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
 	}
 
+	if (inactiveTeam) return pok + '</div>'
+
 	let pps = []
 	if (movePPs[dataID]) {
 		pps = movePPs[dataID]

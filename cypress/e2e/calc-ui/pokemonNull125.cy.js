@@ -9,6 +9,7 @@ describe('Pokemon Null versions', () => {
       cy.visit(`/index.html?data=${slug}`)
       cy.get('#rom-title', {timeout: 30000}).should('have.text', title)
       cy.get('#mainResult', {timeout: 30000}).should('not.have.text', 'Loading...')
+      cy.window().should(win => expect(win.backup_data && win.backup_data.formatted_sets).to.be.an('object'))
       cy.window().then(win => {
         expect(win.eval('TITLE')).to.eq(title)
         expect(win.eval('settings').damageGen).to.eq(8)
