@@ -4168,7 +4168,8 @@ table td {
     color: #101616;
 }
 
-.chip-damage--healing {
+.chip-damage--healing,
+.chip-damage--berry-healing {
     background-color: #50fa7b;
     color: #102016;
 }

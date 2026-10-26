@@ -757,12 +757,64 @@ function getHealingChipDamage(poke, maxHp) {
 	return createChipHealingEntry(healing, sources);
 }
 
+function getBerryHealingGenNum() {
+	var genNum = getChipDamageGenNum();
+	var mechanicsGen = typeof gameGen === "undefined" ? genNum : Number(gameGen);
+	// gen789 profiles use modern berries except the two Photonic Gen 7 games.
+	if (mechanicsGen >= 7) {
+		return typeof TITLE === "string" && ["Photonic Sun/Prismatic Moon", "Photonic Sun Rebalanced"].includes(TITLE) ? 7 : 8;
+	}
+	return genNum;
+}
+
+function getBerryHealingEntry(poke, maxHp) {
+	var genNum = getBerryHealingGenNum();
+	var item = getPokeInfoItem(poke);
+	var dislikedStats = {
+		"Figy Berry": "atk", "Wiki Berry": "spa", "Mago Berry": "spe",
+		"Aguav Berry": "spd", "Iapapa Berry": "def"
+	};
+	var divisor = item === "Sitrus Berry" && genNum >= 4 ? 4
+		: dislikedStats[item] && genNum >= 3 ? (genNum >= 8 ? 3 : genNum === 7 ? 2 : 8) : 0;
+	if (!maxHp || !divisor) {
+		return null;
+	}
+
+	var ability = getPokeInfoAbility(poke);
+	var opponent = $(poke).attr("id") === "p1" ? $("#p2") : $("#p1");
+	if (pokeInfoHasAbility(opponent, "Neutralizing Gas")) {
+		ability = "";
+	}
+	var healing = Math.max(1, Math.floor(maxHp / divisor));
+	var details = [];
+	if (ability === "Ripen") {
+		healing *= 2;
+		details.push("Ripen doubles recovery");
+	}
+
+	var nature = calc.NATURES[$(poke).find(".nature").val()];
+	var dislikesFlavor = nature && nature[0] !== nature[1] && nature[1] === dislikedStats[item];
+	var causesConfusion = dislikesFlavor && ability !== "Own Tempo";
+	if (causesConfusion) {
+		details.push("Disliked flavor: causes confusion when eaten");
+	} else if (dislikesFlavor && ability === "Own Tempo") {
+		details.push("Own Tempo prevents confusion");
+	}
+	return {
+		kind: "berry-healing",
+		label: item + ": restores " + healing + " HP when eaten" + (details.length ? "; " + details.join("; ") : ""),
+		damage: healing,
+		text: "+" + healing + (causesConfusion ? " + ??" : "")
+	};
+}
+
 function getChipDamageEntries(poke) {
 	var maxHp = getPokeInfoMaxHp(poke);
 	return [
 		getStatusChipDamage(poke, maxHp),
 		getWeatherChipDamage(poke, maxHp),
 		getHealingChipDamage(poke, maxHp),
+		getBerryHealingEntry(poke, maxHp),
 		getConfusionChipDamage(poke)
 	].filter(Boolean);
 }
@@ -958,6 +1010,7 @@ $(".level").change(function () {
 });
 $(".nature").bind("keyup recalc change", function () {
 	calcStats($(this).closest(".poke-info"));
+	renderPokeChipDamage($(this).closest(".poke-info"));
 });
 $(".hp .base, .hp .evs, .hp .ivs").bind("keyup recalc change", function () {
 	calcHP($(this).closest(".poke-info"));
