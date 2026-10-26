@@ -810,6 +810,14 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
         desc.moveBP = move.bp;
     }
 
+    // Platinum's Charge doubles move power before the damage formula and BP modifiers.
+    // All hits of the next move are charged, but subsequent turns are not.
+    if (attacker.hasAbility('Electromorphosis') && attacker.abilityOn && move.hasType('Electric') &&
+        (move.timesUsed === 1 || hit === 1)) {
+        basePower *= 2;
+        desc.attackerAbility = attacker.ability;
+        desc.moveBP = basePower;
+    }
     var bpMods = calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx);
     basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));
     if (attacker.teraType && move.type === attacker.teraType &&
