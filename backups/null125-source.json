@@ -10,11 +10,13 @@
     "calc/nature_calc.rb": "e9dd55ba2cda21b885e6b31105529ab17a53080d1c8fb01684404dffbd29b96d",
     "calc/parse_abilities.rb": "6802f79a051f7378ac4693f6da238c28553d36c06fef4d1ed147bcd76c144946",
     "calc/parse_encounters.rb": "a4169feba3c4194ccbd7a737218244a69f5240094fa2c3a89c7cbd4dfeadf167",
-    "calc/parse_mons.rb": "bc392bc6eae7cb9b32bd24ed1e8c6abf7d69a0a7d10832c234f735209f5cb7b0",
+    "calc/parse_mons.rb": "c80073c38c3f4d196c3621084bdef637b6c342a17f3136966803b73a8958f6a2",
     "calc/parse_moves.rb": "cefe6bd74f4a00f74b2084e1772f8ea75272b9f6592c1cf1f4910894573df452",
     "calc/parse_sets.rb": "0e4147b3d8a68585f54fa053228cc2c06ea3484f3c3c9690d45bf530b88d25de",
     "calc/parse_sets_for_nullcalc.rb": "adfb2c0567ee9dee17f2ea4175c368083cdd129ef8fae07f9751781c6443ea57",
     "calc/parse_tms.rb": "d016279a6113fbbd0f926e0491ac311794043d5a967596efce7c34da3346d341",
+    "calc/species_record_merger.rb": "3e3fb2c1a94117496646b379b4c615e738e3ccb58360a534c58d21b441a3d111",
+    "calc/test/species_record_merger_test.rb": "7b449a91014a330eb7ffa14fa9901bc7bc5ffe070f9d6bcf8d5bb3c4865fb538",
     "ddex/generate.rb": "c01ad11ebfab9f2b9a0c9d251524630a12e025472e679f51de61d1a67a220ce6",
     "ddex/lib/config_resolver.rb": "6f28da640bc581c196d982d695aee72496d4b27b25319f00aa6ceeb9a57985a3",
     "ddex/lib/ddex_generator.rb": "5efcafba00e9c6bf9722ca0eed4c04b283694880b5ce01ec9d13d63dc71e49c7",
@@ -23,14 +25,14 @@
     "ddex/lib/parsers/encounters_parser.rb": "e861fbb33e11a61f96fcfa4b52b665325e106cd9ba8a7f903f366063e02899e8",
     "ddex/lib/parsers/items_parser.rb": "80a2c0b946eeef0370aa22151043358ffa4475f0c528212b49b95f1090ff6d14",
     "ddex/lib/parsers/moves_parser.rb": "5fcc45b9d26a28731d5912ca2da4e0229e9488889271f29a4b200042a55a436c",
-    "ddex/lib/parsers/species_parser.rb": "65702eeb6a4ff55697e62465216fe8aa931352927d35f610fe71ca2825a2a9b2",
+    "ddex/lib/parsers/species_parser.rb": "6290ac8e83312f67fc87e446b14bd0d5f315a57b3d4573cd550efb116360cb9f",
     "ddex/lib/preprocessor.rb": "a651875f12d3377d3e84a8079b5354d1e82d9dbf70d372643792d83f43afbdc2",
     "ddex/lib/search_index_builder.rb": "9a540a9e70c8c608cfc335262a812346d7db380a98e1f70732b2fed18cba6e3c",
     "ddex/lib/serializer.rb": "b7d91e0c6b9a9bee3c7d36cece557c06cf31fc68692267b7e71dff04631c452a",
     "ddex/report_prevo_moves.rb": "c51440558ed3214cfa18e00f5a2e32c2047aa4ac6eb1efdbe5426f4e2a2cca56",
     "ddex/test/moves_parser_test.rb": "88da3b8815676118d92277989a792d3fc2861d4bf7363fbda576a319e11269d0",
     "ddex/test/preprocessor_test.rb": "e0a462ea3e28d0c60706267bf9e2b33ea0fb581902e66aa13072e56f1082ce45",
-    "ddex/test/species_parser_test.rb": "f016bb77c57d2a5dc5b0fcfe8407f689b554819661b4f7dd8e10016776d87d1c",
+    "ddex/test/species_parser_test.rb": "a3788d1588539164809449a0d279760169cd7259946122f7a9a1150318c47f6b",
     "export_validation.rb": "0480f990dc42a536d98cd527b9f616bdbbe6baeeab775026a166bf2895d33eea"
   },
   "rom": {
@@ -38,11 +40,11 @@
     "mapSha256": "7cd8ac8e09b06919d3f0bcff235f1891850627d7b5171cf71cd1e8e42be952d2"
   },
   "artifacts": {
-    "backups/null125.js": "e5492a925f67ab03d2937f9a572100b7ec99d4600dc2be9e3a5698dc31b9fe6e",
+    "backups/null125.js": "806f7c01e0816fc0c081e4e76623c35b1be1c086f77020206abe34f0a16c1fe2",
     "backups/trainer_orders/null125.js": "7196072dfbae5f4637e73f9b7178cacf42878dceff6cab8ab7dda6b7395817be",
     "js/savereaders/save_constants/null125_constants.js": "f0bcfd42505c2dc89413e3b16168b0a84c9af01c5c120f260097fd2270dc7da3",
     "lua/pokemonnull1.2.5.lua": "29d184b6c50a2549d48ecfcfd5c1d6e7bf59109346b4e8250ba450430359592f",
-    "../ddex/data/overrides/pokemonnull.js": "744c535d4ebde4404e4c1a3a2b32ef7ed8b9c98e635bf1155e110b1735962d00",
+    "../ddex/data/overrides/pokemonnull.js": "851fc8da714a5fd2920358c06df0ee59daa84f763da9361cceaa0aba89d568d7",
     "../ddex/data/overrides/pokemonnull_searchindex.js": "883fdf10f4ae5255be85ae8141f88aa6eaca675a969bba8cd7a39eebd4f8fe7f"
   }
 }
