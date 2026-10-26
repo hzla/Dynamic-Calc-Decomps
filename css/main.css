@@ -3214,6 +3214,100 @@ table td {
     display: block;
 }
 
+#p1, #p2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.opposing-panel-content,
+.player-panel-content {
+    display: flow-root;
+    width: 100%;
+}
+
+.opposing-preview-footer,
+.player-preview-footer {
+    margin-top: auto;
+    padding: 20px 10px 12px;
+}
+
+.opposing-preview-add-actions,
+.player-preview-add-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.opposing-preview-add-actions button,
+.player-preview-add-actions button {
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 4px;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    padding: 7px 10px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+}
+
+.opposing-preview-add-actions button:hover:not(:disabled),
+.player-preview-add-actions button:hover:not(:disabled) {
+    background: rgba(255,255,255,0.16);
+}
+
+.opposing-preview-add-actions button:disabled,
+.player-preview-add-actions button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+#opposing-partner-active,
+#opposing-preview-message:not(:empty) {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #bb86fc;
+}
+
+.trainer-pok-list.b2b-trainer-preview {
+    display: block;
+}
+
+.opposing-team-group + .opposing-team-group {
+    margin-top: 16px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.opposing-team-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.opposing-team-heading span {
+    overflow-wrap: anywhere;
+}
+
+.opposing-team-remove {
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+    color: #ff5555;
+    font-size: 20px;
+    line-height: 24px;
+    min-width: 28px;
+    min-height: 28px;
+    cursor: pointer;
+}
+
+.opposing-team-remove:hover,
+.opposing-team-remove:focus-visible {
+    background: rgba(255,85,85,0.16);
+}
+
 .trainer-preview-section {
     display: flex;
     flex-wrap: wrap;
@@ -4002,7 +4096,7 @@ table td {
     margin-left:  10px;
     align-items: center;
     padding:  5px;
-    width: calc(20% - 24px);
+    width: calc(16.66% - 24px);
     position: relative;
 }
 
@@ -4120,7 +4214,7 @@ table td {
 #p2 .bp-info {
     text-align: center;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #p2 .bp-info.switch-score, {
@@ -5829,12 +5923,12 @@ table.field {
         display: none;
     }
 
-    #p1 > .trainer-poks,
-    #p1 > #search-row,
-    #p1 > .player-megas-wrapper,
-    #p1 > #tooltip,
-    #p1 > #box-damage-tooltip,
-    #p1 > #player-poks-filter {
+    #p1 .player-panel-content > .trainer-poks,
+    #p1 .player-panel-content > #search-row,
+    #p1 .player-panel-content > .player-megas-wrapper,
+    #p1 .player-panel-content > #tooltip,
+    #p1 .player-panel-content > #box-damage-tooltip,
+    #p1 .player-panel-content > #player-poks-filter {
         display: none !important;
     }
 
@@ -5856,12 +5950,12 @@ table.field {
         display: flex;
     }
 
-    .panel-wrapper.mobile-dual-panel-layout #p1 > .trainer-poks,
-    .panel-wrapper.mobile-dual-panel-layout #p1 > .player-megas-wrapper {
+    .panel-wrapper.mobile-dual-panel-layout #p1 .player-panel-content > .trainer-poks,
+    .panel-wrapper.mobile-dual-panel-layout #p1 .player-panel-content > .player-megas-wrapper {
         display: block !important;
     }
 
-    .panel-wrapper.mobile-dual-panel-layout #p1 > #search-row {
+    .panel-wrapper.mobile-dual-panel-layout #p1 .player-panel-content > #search-row {
         display: flex !important;
     }
 
@@ -6616,7 +6710,7 @@ table.field {
         display: none !important;
     }
 
-    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing:not(.dual-trainer-preview),
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing:not(.dual-trainer-preview):not(.b2b-trainer-preview),
     .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(min(100%, calc((100% - 12px) / 3)), 1fr));
@@ -6625,7 +6719,8 @@ table.field {
         margin-top: 10px;
     }
 
-    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing.dual-trainer-preview {
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing.dual-trainer-preview,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing.b2b-trainer-preview {
         display: block;
     }
 
@@ -6662,7 +6757,7 @@ table.field {
     .panel-wrapper.mobile-dual-panel-layout #p2 .bp-infos,
     .panel-wrapper.mobile-dual-panel-layout #p2 .ai-infos,
     .panel-wrapper.mobile-dual-panel-layout #p2 .switch-infos,
-    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-label,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-label:not(.opposing-team-heading),
     .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-separator,
     .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-warning {
         display: none !important;
