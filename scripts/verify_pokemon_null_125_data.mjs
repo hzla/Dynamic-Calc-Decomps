@@ -49,10 +49,7 @@ puts JSON.generate(rows.map { |constant| [constant, resolver.species_constant_to
 `], {cwd: source, encoding: 'utf8'}));
 const id = text => text.toLowerCase().replace(/[^a-z0-9]/g, '');
 const byName = new Map();
-const aliases = new Map();
 for (const [constant, name] of names) {
-    if (!aliases.has(id(name))) aliases.set(id(name), []);
-    aliases.get(id(name)).push(constant);
     const existing = byName.get(id(name));
     if (!existing || id(constant.replace('SPECIES_', '')) === id(name)) byName.set(id(name), constant);
 }
@@ -62,7 +59,6 @@ const map = read('pokeemerald.map');
 const address = Number.parseInt(map.match(/0x([\da-f]+)\s+gSpeciesInfo\b/)[1], 16) - 0x08000000;
 const rom = fs.readFileSync(path.join(source, 'pokeemerald.gba'));
 const issues = [];
-const aliasMatches = [];
 const counts = {};
 for (const [label, records] of [['calc', calc.poks], ['dex', dex.poks]]) {
     let checked = 0;
@@ -71,15 +67,8 @@ for (const [label, records] of [['calc', calc.poks], ['dex', dex.poks]]) {
         // The calc follows Showdown's Core-as-base naming; ddex's base is Meteor.
         const constant = label === 'calc' && name === 'Minior' ? 'SPECIES_MINIOR_CORE_RED' : byName.get(id(name));
         if (!constant) continue; // Export-only learnset aliases have no ROM species slot.
-        function matches(candidate) {
-            const offset = address + number(candidate) * 36;
-            return ['hp', 'at', 'df', 'sp', 'sa', 'sd'].every((stat, index) => mon.bs?.[stat] === rom[offset + index]) &&
-                JSON.stringify(mon.types) === JSON.stringify([...new Set([rom[offset + 6], rom[offset + 7]].map(type => types.get(type)))]);
-        }
-        // Some source ability/form variants intentionally share one exported label.
-        const aliasMatch = !matches(constant) && aliases.get(id(name))?.find(matches);
-        if (aliasMatch) aliasMatches.push({dataset: label, name, sourceSpecies: aliasMatch});
-        const offset = address + number(aliasMatch || constant) * 36;
+        // Match the canonical ROM form, never a different alias with coincidentally matching stats.
+        const offset = address + number(constant) * 36;
         checked++;
         for (const [index, stat] of ['hp', 'at', 'df', 'sp', 'sa', 'sd'].entries()) {
             if (mon.bs?.[stat] !== rom[offset + index]) issues.push(`${label}: ${name} ${stat}: ${mon.bs?.[stat]} != ROM ${rom[offset + index]}`);
@@ -91,4 +80,3 @@ for (const [label, records] of [['calc', calc.poks], ['dex', dex.poks]]) {
 }
 assert.equal(issues.length, 0, issues.join('\n'));
 console.log(`Pinned exports match installed files; ROM stats/types verified for ${counts.calc} calc and ${counts.dex} dex species.`);
-if (aliasMatches.length) console.log('Shared-label source variants:', JSON.stringify(aliasMatches));

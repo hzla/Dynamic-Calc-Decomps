@@ -25,5 +25,30 @@ describe('Pokemon Null versions', () => {
         }
       })
     })
+
+    it(`uses distinct alternate-form stats in ${title}'s UI and damage engine`, () => {
+      cy.visit(`/index.html?data=${slug}`)
+      cy.get('#rom-title', {timeout: 30000}).should('have.text', title)
+      cy.get('#mainResult', {timeout: 30000}).should('not.have.text', 'Loading...')
+      for (const [base, forme, attack, specialAttack, speed] of [
+        ['Greninja', 'Greninja-Ash', 145, 153, 132],
+        ['Palafin', 'Palafin-Hero', 160, 106, 100]
+      ]) {
+        cy.window().then(win => {
+          win.$('#p1 input.set-selector').val(`${base} (Blank Set)`).change()
+        })
+        cy.get('#p1 .forme').select(forme)
+        cy.get('#p1 .at .base').should('have.value', String(attack))
+        cy.get('#p1 .sa .base').should('have.value', String(specialAttack))
+        cy.get('#p1 .sp .base').should('have.value', String(speed))
+        cy.window().then(win => {
+          const mon = win.createPokemon(win.$('#p1'))
+          expect(mon.species.baseStats.atk).to.eq(attack)
+          expect(mon.species.baseStats.spa).to.eq(specialAttack)
+          expect(mon.species.baseStats.spe).to.eq(speed)
+        })
+        cy.get('#p1 .forme').select(base)
+      }
+    })
   }
 })

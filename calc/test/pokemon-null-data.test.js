@@ -60,6 +60,21 @@ describe.each(["null12", "null125"])("Pokemon Null generated data (%s)", functio
         });
     });
 
+    test("keeps Ash-Greninja distinct from untransformed Greninja", function () {
+        expect(data.poks.Greninja.bs).toEqual({hp: 72, at: 95, df: 67, sa: 103, sd: 71, sp: 122});
+        expect(data.poks["Greninja-Ash"].bs).toEqual({hp: 72, at: 145, df: 67, sa: 153, sd: 71, sp: 132});
+    });
+
+    test("preserves other stat-changing forms", function () {
+        expect(data.poks["Basculegion-F"].bs.at).toBe(92);
+        expect(data.poks["Basculegion-F"].bs.sa).toBe(100);
+        expect(data.poks["Aegislash-Shield"].bs.at).toBe(50);
+        expect(data.poks["Aegislash-Blade"].bs.at).toBe(140);
+        expect(data.poks["Darmanitan-Zen"].bs).not.toEqual(data.poks.Darmanitan.bs);
+        expect(data.poks["Wishiwashi-School"].bs).not.toEqual(data.poks.Wishiwashi.bs);
+        expect(data.poks["Zygarde-10%"].bs.hp).toBe(54);
+    });
+
     test("double-battle trainer partners are reciprocal", function () {
         var trainerPartners = new Map();
         var taggedSets = 0;
