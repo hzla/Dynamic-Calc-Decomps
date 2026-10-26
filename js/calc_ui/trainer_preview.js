@@ -281,8 +281,9 @@ function get_trainer_poks(trainer_name, maybePartner=false, primaryOnly=false)
 // never become reserves of the trainer currently being calculated.
 var opposingPreviewState = {
     mode: null, teams: [], selectedSetId: "", suppressedPartner: false,
-    pending: null, pinnedSetId: ""
+    pending: null, pinnedSetId: "", presetGauntletId: ""
 }
+var MAX_OPPOSING_PREVIEW_TEAMS = 10
 var opposingPreviewReady = false
 var opposingPreviewRoster = null
 
@@ -313,6 +314,27 @@ function getOpposingPreviewTeamIndex(setId) {
     })
 }
 
+function getOpposingPreviewPreset(setId) {
+    if (typeof getPokemonNullGauntlet !== 'function') return null
+    var data = getSetDataBySetId(setId)
+    var group = data && !data.isCustomOpponentTeam && !data.isTemporaryOpponentSet
+        ? getPokemonNullGauntlet(data.tr_id, TITLE) : null
+    if (!group) return null
+    var ids = group.battles.flat()
+    if (ids.length > MAX_OPPOSING_PREVIEW_TEAMS) return null
+    var teams = ids.map(function(id) {
+        var lead = typeof customLeads !== 'undefined' && customLeads[id]
+        if (!lead) {
+            var sets = getTrainerSetsById(id)
+            lead = sets.length ? sets[0].setId : null
+        }
+        return lead ? getOpposingPreviewTeam(lead) : null
+    })
+    // A preset is atomic: incomplete/custom datasets keep ordinary previews.
+    if (teams.some(function(team) { return !team })) return null
+    return {id: group.id, teams: teams}
+}
+
 function saveOpposingPreviewState() {
     if (!opposingPreviewReady) return
     try {
@@ -320,7 +342,8 @@ function saveOpposingPreviewState() {
             version: 1, mode: opposingPreviewState.mode,
             teams: opposingPreviewState.teams.map(function(team) { return team.leadSetId }),
             selectedSetId: opposingPreviewState.selectedSetId,
-            suppressedPartner: opposingPreviewState.suppressedPartner
+            suppressedPartner: opposingPreviewState.suppressedPartner,
+            presetGauntletId: opposingPreviewState.presetGauntletId
         }))
     } catch (error) {
         console.warn('Could not save opposing trainer previews', error)
@@ -341,12 +364,12 @@ function restoreOpposingPreviewState() {
     if (typeof TR_NAMES === 'undefined' || !TR_NAMES.length) return getValidOpposingPreviewSelection(localStorage.right)
     opposingPreviewState = {
         mode: null, teams: [], selectedSetId: "", suppressedPartner: false,
-        pending: null, pinnedSetId: ""
+        pending: null, pinnedSetId: "", presetGauntletId: ""
     }
     var saved = null
     try { saved = JSON.parse(localStorage.getItem(getOpposingPreviewStorageKey()) || 'null') } catch (error) { /* Discard invalid saved state. */ }
     if (saved && saved.version === 1 && Array.isArray(saved.teams)) {
-        for (var ref of saved.teams.slice(0, saved.mode === 'partner' ? 2 : 4)) {
+        for (var ref of saved.teams.slice(0, saved.mode === 'partner' ? 2 : MAX_OPPOSING_PREVIEW_TEAMS)) {
             var team = typeof ref === 'string' ? getOpposingPreviewTeam(ref) : null
             // Without the original anchor, the saved list no longer represents this battle.
             if (!opposingPreviewState.teams.length && !team) break
@@ -358,6 +381,7 @@ function restoreOpposingPreviewState() {
             opposingPreviewState.mode = opposingPreviewState.teams.length > 1 && ['partner', 'b2b'].includes(saved.mode) ? saved.mode : null
             if (!opposingPreviewState.mode) opposingPreviewState.teams = opposingPreviewState.teams.slice(0, 1)
             opposingPreviewState.suppressedPartner = saved.suppressedPartner === true
+            opposingPreviewState.presetGauntletId = typeof saved.presetGauntletId === 'string' ? saved.presetGauntletId : ''
             opposingPreviewState.selectedSetId = getOpposingPreviewTeamIndex(saved.selectedSetId) >= 0
                 ? saved.selectedSetId.replace(/\[\d+\]$/, '') : opposingPreviewState.teams[0].leadSetId
         }
@@ -394,8 +418,8 @@ function restoreOpposingPreviewState() {
 function syncOpposingPreviewControls() {
     var state = opposingPreviewState
     var valid = state.teams.length > 0
-    $('#add-opposing-partner').prop('disabled', !valid || !!state.mode)
-    $('#add-opposing-team').prop('disabled', !valid || state.mode === 'partner' || state.teams.length >= 4)
+    $('#add-opposing-partner').prop('disabled', !valid || !!state.mode || !!state.presetGauntletId)
+    $('#add-opposing-team').prop('disabled', !valid || !!state.presetGauntletId || state.mode === 'partner' || state.teams.length >= MAX_OPPOSING_PREVIEW_TEAMS)
     $('#opposing-partner-active').prop('hidden', state.mode !== 'partner')
     $('#set-partner').text(state.mode === 'partner' || state.pinnedSetId ? 'Clear Partner' : 'Toggle as Partner')
 }
@@ -425,6 +449,7 @@ function syncOpposingPreviewState(setId) {
         state.suppressedPartner = false
         state.pending = null
         state.pinnedSetId = ''
+        state.presetGauntletId = ''
         $('#opposing-preview-message').text('')
         if (anchor && pinned && anchor.key !== pinned.key) {
             state.teams.push(pinned)
@@ -432,6 +457,14 @@ function syncOpposingPreviewState(setId) {
         }
     }
     state.selectedSetId = String(setId || '').replace(/\[\d+\]$/, '')
+    if (state.presetGauntletId || (state.teams.length === 1 && !state.mode && !state.suppressedPartner)) {
+        var preset = getOpposingPreviewPreset(setId)
+        state.presetGauntletId = preset ? preset.id : ''
+        if (preset) {
+            state.teams = preset.teams
+            state.mode = 'b2b'
+        }
+    }
     if (state.teams.length === 1 && !state.suppressedPartner) {
         var partnerId = getTrainerPreviewPartnerIdFromSet(setId)
         var partnerSets = partnerId ? getTrainerSetsById(partnerId) : []
@@ -453,12 +486,20 @@ function getOpposingPreviewCalculationSets(setId) {
     var state = opposingPreviewState
     if (state.mode === 'partner') return state.teams.flatMap(function(team) { return team.setIds })
     var index = getOpposingPreviewTeamIndex(setId)
+    if (index >= 0 && state.presetGauntletId && typeof getPokemonNullGauntlet === 'function') {
+        var data = getSetDataBySetId(setId)
+        var group = getPokemonNullGauntlet(data.tr_id, TITLE)
+        var battle = group && group.battles.find(function(ids) { return ids.includes(Number(data.tr_id)) })
+        if (battle) return state.teams.filter(function(team) {
+            return battle.includes(Number(getSetDataBySetId(team.leadSetId).tr_id))
+        }).flatMap(function(team) { return team.setIds })
+    }
     return index >= 0 ? state.teams[index].setIds.slice() : get_trainer_poks(setId, false, true)
 }
 
 function beginOpposingPreviewSelection(mode) {
     var state = opposingPreviewState
-    if (!state.teams.length || state.mode === 'partner' || (mode === 'partner' && state.mode) || state.teams.length >= 4) return
+    if (!state.teams.length || state.presetGauntletId || state.mode === 'partner' || (mode === 'partner' && state.mode) || state.teams.length >= MAX_OPPOSING_PREVIEW_TEAMS) return
     state.pending = mode
     $('#opposing-preview-message').text('')
     $('input.opposing.set-selector').first().select2('open')
@@ -467,7 +508,7 @@ function beginOpposingPreviewSelection(mode) {
 function addOpposingPreviewTeam(setId, mode) {
     var state = opposingPreviewState
     var team = getOpposingPreviewTeam(setId)
-    if (!['partner', 'b2b'].includes(mode) || !team || !state.teams.length || state.mode === 'partner' || (mode === 'partner' && state.mode) || state.teams.length >= 4) return false
+    if (!['partner', 'b2b'].includes(mode) || !team || !state.teams.length || state.presetGauntletId || state.mode === 'partner' || (mode === 'partner' && state.mode) || state.teams.length >= MAX_OPPOSING_PREVIEW_TEAMS) return false
     if (state.teams.some(function(existing) { return existing.key === team.key })) {
         $('#opposing-preview-message').text('That trainer is already in the list.')
         return false
@@ -500,7 +541,7 @@ function refreshOpposingPreviewState(updateFormat = false) {
 
 function removeOpposingPreviewTeam(index) {
     var state = opposingPreviewState
-    if (index < 1 || index >= state.teams.length) return
+    if (state.presetGauntletId || index < 1 || index >= state.teams.length) return
     var wasPartner = state.mode === 'partner'
     var removingActive = getOpposingPreviewTeamIndex(state.selectedSetId) === index
     state.teams.splice(index, 1)
@@ -546,9 +587,11 @@ function renderOpposingPreviewTeams(rankedEntries) {
                 return renderTrainerPreviewPok([id, 0, '', data.sub_index, (data.moves || []).slice()], true)
             }).join('')
         var label = state.mode === 'partner' && index > 0 ? 'Partner: ' : ''
-        var remove = index > 0 ? `<button type="button" class="opposing-team-remove" data-team-index="${index}" aria-label="Remove ${escapeOpposingPreviewText(team.name)}" title="Remove team">&times;</button>` : ''
-        return `<div class="opposing-team-group${active ? ' active-team' : ''}" data-team-index="${index}">
-            <div class="trainer-preview-label opposing-team-heading"><span>${label}${escapeOpposingPreviewText(team.name)}</span>${remove}</div>
+        var remove = index > 0 && !state.presetGauntletId ? `<button type="button" class="opposing-team-remove" data-team-index="${index}" aria-label="Remove ${escapeOpposingPreviewText(team.name)}" title="Remove team">&times;</button>` : ''
+        var showHeading = state.mode !== 'b2b' || active
+        var heading = showHeading ? `<div class="trainer-preview-label opposing-team-heading"><span>${label}${escapeOpposingPreviewText(team.name)}</span>${remove}</div>` : remove
+        return `<div class="opposing-team-group${active ? ' active-team' : ' inactive-team'}${state.presetGauntletId ? ' preset-gauntlet-team' : ''}" data-team-index="${index}" aria-label="${escapeOpposingPreviewText(team.name)}">
+            ${heading}
             <div class="trainer-preview-section ${index === 0 ? 'trainer-preview-primary' : state.mode === 'partner' ? 'trainer-preview-partner' : 'trainer-preview-b2b'}">${cards}</div>
         </div>`
     }).join('')
