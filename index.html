@@ -7,7 +7,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?d517e1c8" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?ad52b706" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?splitcolors1" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -709,6 +709,7 @@
 
             <img class="poke-sprite-weather" src="https://media2.giphy.com/media/Wmp1EOzVybWd13s5DB/200w.gif?cid=6c09b952rai5r3vmm3x48g9vu0yk62venn3mmwf8t1aqy9tx&ep=v1_gifs_search&rid=200w.gif&ct=s">
             <legend align="center">Pok&eacute;mon 1</legend>
+            <div class="player-panel-content">
             <input type="text" class="set-selector calc-trigger player" />
             
             <div class="info-group top">
@@ -1377,9 +1378,12 @@
                 </div>
             </div>
 
-           
-
-            
+            </div>
+            <div class="player-preview-footer">
+                <div class="player-preview-add-actions">
+                    <button type="button" id="add-player-partner">+ Multi Battle Partner</button>
+                </div>
+            </div>
         </fieldset>
     </div>
 
@@ -1872,6 +1876,7 @@
             <div class="frag-text">+1 Frag!</div>
             <div class="unfrag-text">-1 Frag!</div>
             <legend align="center">Pok&eacute;mon 2</legend>
+            <div class="opposing-panel-content">
             <input type="text" class="set-selector calc-trigger opposing" />
             <div id="custom-opponent-teams-controls" hidden>
                 <button type="button" id="custom-opponent-remove" hidden>Remove</button>
@@ -2443,6 +2448,15 @@
             </div>
 
             <div id="alt-team-bar"></div>
+            </div>
+            <div class="opposing-preview-footer">
+                <div class="opposing-preview-add-actions">
+                    <button type="button" id="add-opposing-partner" disabled>+ Multi Battle Partner</button>
+                    <button type="button" id="add-opposing-team" disabled>+ Team</button>
+                </div>
+                <div id="opposing-partner-active" role="status" hidden>Partner Mode Active</div>
+                <div id="opposing-preview-message" role="status"></div>
+            </div>
         </fieldset>
     </div>
     </div>
@@ -2599,7 +2613,7 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?ac9ccbf3"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/hge_includes.js?72ac966b"></script>
-    <script type="text/javascript" src="./js/initialize.js?nullforms20261026"></script>
+    <script type="text/javascript" src="./js/initialize.js?53b971a5"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?customteams1"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
@@ -2615,8 +2629,8 @@
     
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?aidata1"></script>
 
-    <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?843c828b"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?8f6dca56"></script>
+    <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?ce815c7e"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?e03af671"></script>
 
 
 
@@ -2695,7 +2709,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?4025a2a4"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?badgeboosts1"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?5631c7de"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?b492f1fe"></script>
     <script type="text/javascript" src="./js/moveset_import.js?null125"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?mobilefrags1"></script>

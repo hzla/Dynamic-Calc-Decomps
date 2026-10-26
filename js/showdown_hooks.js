@@ -824,23 +824,20 @@ $(document).ready(function() {
    })
 
    function setPartner() {
-        if (partnerName) {
-            partnerName = null
-            
-            $('#set-partner').text('Toggle as Partner')
-            alert("Partner trainer cleared")
-            localStorage.removeItem("partnerName")
-            console.log(localStorage.partnerName)
-        } else {
-            partnerName = getTrainerName($('.set-selector .select2-chosen')[1].innerHTML)
-            $('#set-partner').text(`Partner: ${partnerName}`.slice(0,34))
-
-            alert(`${partnerName} set as doubles partner for next trainer selected`)  
-            localStorage.partnerName = partnerName
-        }
+        toggleOpposingPreviewPartner()
     }
 
     $(document).on('click', '#set-partner', setPartner)
+
+    $(document).on('click', '#add-opposing-partner, #add-opposing-team', function() {
+        beginOpposingPreviewSelection(this.id === 'add-opposing-partner' ? 'partner' : 'b2b')
+    })
+
+    $(document).on('click', '.opposing-team-remove', function(e) {
+        e.preventDefault()
+        e.stopPropagation()
+        removeOpposingPreviewTeam(Number($(this).attr('data-team-index')))
+    })
 
     function isCalculatorHotkeyContextActive() {
         if (!document.getElementById('main-view-tabs')) {
@@ -945,6 +942,18 @@ $(document).ready(function() {
         clearManualTagPartnerSelectionPending()
     })
 
+    $('input.opposing.set-selector').on('select2-selecting', function(e) {
+        var mode = opposingPreviewState.pending
+        if (!mode) return
+        e.preventDefault()
+        opposingPreviewState.pending = null
+        var selectedSetId = (e.choice && e.choice.id) || e.val || ''
+        if (selectedSetId) addOpposingPreviewTeam(selectedSetId, mode)
+        $(this).select2('close')
+    }).on('select2-close', function() {
+        opposingPreviewState.pending = null
+    })
+
     $('body').on('change', 'select', function(e) {
         if (!e.originalEvent) return;
         if (this.id == 'box-sort-select') return;
@@ -1004,7 +1013,7 @@ $(document).ready(function() {
         loadLeftSideSet($(this).attr('data-id'))
     })
 
-    $(document).on('click', '.tag-partner-change', function(e) {
+    $(document).on('click', '.tag-partner-change, #add-player-partner', function(e) {
         e.preventDefault()
         beginManualTagPartnerSelection()
     })

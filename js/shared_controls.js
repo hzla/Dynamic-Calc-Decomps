@@ -797,6 +797,9 @@ function pushUniqueTrainerIdentityValue(values, nextValue) {
 }
 
 function getOpposingTrainerIdentity(setId, trainerSetIds) {
+	if (opposingPreviewState.mode === 'b2b' && getOpposingPreviewTeamIndex(setId) >= 0) {
+		trainerSetIds = opposingPreviewState.teams.flatMap(function(team) { return team.setIds });
+	}
 	var candidateSetIds = [];
 	var addCandidateSetId = function(nextSetId) {
 		if (typeof nextSetId !== 'string' || !nextSetId) {
@@ -2062,7 +2065,7 @@ function getTrainerPreviewBattleType(setData) {
 	return "Singles"
 }
 
-function renderTrainerPreviewPok(next_pok) {
+function renderTrainerPreviewPok(next_pok, inactiveTeam = false) {
 	if (!Array.isArray(next_pok) || typeof next_pok[0] !== "string" || !next_pok[0]) {
 		return ""
 	}
@@ -2093,7 +2096,7 @@ function renderTrainerPreviewPok(next_pok) {
 		return ""
 	}
 	var setData = setdex[species][set_name]
-	var previewBattleType = getTrainerPreviewBattleType(setData)
+	var previewBattleType = inactiveTeam ? setData.battle_type || 'Singles' : getTrainerPreviewBattleType(setData)
 
 	var isFainted = ""
 	if (fainted.includes(dataID)) {
@@ -2129,7 +2132,7 @@ function renderTrainerPreviewPok(next_pok) {
 		pps = [1,1,1,1]
 	}
 
-	var showSwitchAiInfo = settings.damageGen == 4 &&
+	var showSwitchAiInfo = !inactiveTeam && settings.damageGen == 4 &&
 		typeof shouldShowSwitchAiInfo === "function" &&
 		shouldShowSwitchAiInfo()
 	var showInclementPreviewDamage = typeof TITLE === "string" &&
@@ -2427,7 +2430,13 @@ function refresh_next_in() {
 	}
 
 	var showPartnerSections = !forceSingleTrainerPreview && primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasMultipleTrainerIds || hasDuplicateSubIndex || resolvedPartnerName)
-	if (showPartnerSections) {
+	var groupedTeamsHtml = renderOpposingPreviewTeams(next_poks.filter(function(entry) {
+		return !hideCurrentAiMon || getTrainerPreviewDataId(entry[0]) !== selectedOpposingDataId
+	}))
+	if (groupedTeamsHtml !== null) {
+		trpok_html = groupedTeamsHtml
+		$('.opposing.trainer-pok-list').toggleClass('dual-trainer-preview', opposingPreviewState.mode === 'partner')
+	} else if (showPartnerSections) {
 		var trainerOneHtml = primaryTrainerPoks.join("")
 		var trainerTwoHtml = partnerTrainerPoks.join("")
 		var trainerOneLabel = useGenericTrainerLabels ? `<div class="trainer-preview-label">Trainer 1</div>` : ""
@@ -2447,6 +2456,7 @@ function refresh_next_in() {
 		trpok_html += `<div class="trainer-preview-exp-total"><span class="trainer-preview-exp-total-label">Total: </span><span class="trainer-preview-exp-total-value">${expTotal}</span><span class="trainer-preview-exp-total-unit"> EXP</span></div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
+	$('.opposing.trainer-pok-list').toggleClass('b2b-trainer-preview', opposingPreviewState.mode === 'b2b')
 	if (typeof refreshEnemyPreviewBoxFiltersSafely === "function") {
 		refreshEnemyPreviewBoxFiltersSafely()
 	}
@@ -2567,6 +2577,7 @@ $(".set-selector").change(function () {
 
 	if ($(this).hasClass('opposing')) {
 		if (isTemporaryOpponentSet) {
+			syncOpposingPreviewState(fullSetName)
 			CURRENT_TRAINER_POKS = []
 			$(".nav-tag.next, .nav-tag.prev, .nav-tag.partner").hide().removeAttr('data-next')
 			$('#ai-tags').html("")
@@ -2576,7 +2587,7 @@ $(".set-selector").change(function () {
 				$(`#ai${tempAiIndex}`).hide()
 			}
 		} else {
-			CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
+			CURRENT_TRAINER_POKS = syncOpposingPreviewState(fullSetName)
 			localStorage["right"] = fullSetName
 			var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName, CURRENT_TRAINER_POKS)
 			if (!initializing && lastOpposingTrainerIdentity && currentOpposingTrainerIdentity && lastOpposingTrainerIdentity !== currentOpposingTrainerIdentity) {
@@ -2613,8 +2624,10 @@ $(".set-selector").change(function () {
 	} else {
 		var currentOpposingSet = $('#p2 .set-selector .select2-chosen').text()
 		var currentOpposingPartner = getTrainerPreviewPartnerIdFromSet(currentOpposingSet)
-		if ((partnerName || currentOpposingPartner) && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS[0]) {
-			CURRENT_TRAINER_POKS = get_trainer_poks(currentOpposingSet, currentOpposingPartner)
+		if (typeof CURRENT_TRAINER_POKS !== 'undefined' && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS[0]) {
+			CURRENT_TRAINER_POKS = opposingPreviewReady
+				? getOpposingPreviewCalculationSets(currentOpposingSet)
+				: get_trainer_poks(currentOpposingSet, currentOpposingPartner)
 		}
 		var left_max_hp = $("#p1 .max-hp").text()		
 		$("#p1 .current-hp").val(left_max_hp)//.change()
@@ -2719,7 +2732,9 @@ $(".set-selector").change(function () {
 				}
 
 				
-				if (!TITLE.includes(" Null")) {
+				if (opposingPreviewReady && (opposingPreviewState.mode || opposingPreviewState.suppressedPartner)) {
+					applyOpposingPreviewFormat(fullSetName)
+				} else if (!TITLE.includes(" Null")) {
 					if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 						$('#singles-format').click()
 					} else {
@@ -4116,6 +4131,7 @@ $(document).ready(async function () {
 	$("#percentage").prop("checked", true);
 	$("#percentage").change();
 	loadDefaultLists();
+	var restoredOpposingSet = restoreOpposingPreviewState();
 	$(".move-selector").select2({
 		dropdownAutoWidth: true,
 		matcher: function (term, text) {
@@ -4130,8 +4146,8 @@ $(document).ready(async function () {
 		refreshTagPartnerPreview()
 	}
 
-    if (localStorage["right"]) {
-      var set = localStorage["right"]
+    if (restoredOpposingSet) {
+      var set = restoredOpposingSet
       $('.opposing').val(set)
       $('.opposing').change()
       $('.opposing .select2-chosen').text(set)
