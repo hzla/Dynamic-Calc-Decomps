@@ -13,6 +13,7 @@ function loadData(version) {
 }
 
 function preview(setdex, title) {
+    setdex = structuredClone(setdex);
     const stored = new Map();
     const element = {prop() { return this; }, text() { return this; }, val() { return ''; }, click() { return this; }};
     const parse = id => String(id).match(/^(.*?) \((.*)\)(?:\[\d+\])?$/);
@@ -31,14 +32,18 @@ function preview(setdex, title) {
         getOpposingTrainerIdentity: id => id,
         renderTrainerPreviewPok: (entry, inactive) => `<div class="card" data-inactive="${!!inactive}"></div>`
     };
+    context.partySlots = [{speciesName: 'Pikachu', setData: {level: 80, nature: 'Timid', ability: 'Static', moves: ['Thunderbolt'], item: 'Light Ball'}}];
+    context.capturePartyPreviewSnapshot = () => ({previewSlots: context.partySlots});
     // These helpers are called as browser globals, not object methods.
     for (const name of ['getTrainerPreviewTrainerIdFromSet', 'getTrainerPreviewPartnerIdFromSet', 'getTrainerSetsById']) {
         context[name] = context[name].bind(context);
     }
     vm.createContext(context);
     vm.runInContext(read('js/data/null_gauntlets.js'), context);
+    vm.runInContext(read('js/calc_ui/null_wandering_spirit.js'), context);
     vm.runInContext(read('js/calc_ui/trainer_preview.js'), context);
     context.TR_NAMES = context.get_trainer_names();
+    context.syncPokemonNullWanderingSpirit();
     for (const id of context.TR_NAMES) {
         const data = context.getSetDataBySetId(id);
         if (Number(data.sub_index) === 0 && !context.customLeads[data.tr_id]) context.customLeads[data.tr_id] = id;
@@ -47,6 +52,56 @@ function preview(setdex, title) {
     context.opposingPreviewRoster = context.TR_NAMES;
     return context;
 }
+
+test('Wandering Spirit copies independent party slots, updates forms/sets, and removes stale records', () => {
+    const context = preview(loadData('null125'), 'Pokemon Null 1.2.5');
+    const original = {level: 83, nature: 'Jolly', ability: 'Huge Power', item: 'Sitrus Berry',
+        moves: ['Aqua Jet', 'Play Rough'], ivs: {hp: 24, at: 28}, evs: {hp: 12}, status: 'Poisoned', currentHp: 1};
+    context.partySlots = [
+        {speciesName: 'Azumarill', setData: original},
+        {speciesName: 'Azumarill', setData: {...original, level: 84, nature: 'Adamant', moves: ['Waterfall']}},
+        {speciesName: 'Palafin-Hero', setData: {...original, level: 82, ability: 'Zero to Hero'}}
+    ];
+    assert.equal(context.syncPokemonNullWanderingSpirit(), true);
+    assert.equal(context.syncPokemonNullWanderingSpirit(), false);
+    const team = context.getPokemonNullWanderingSpiritTeam();
+    assert.equal(team.setIds.length, 3);
+    assert.equal(new Set(team.setIds).size, 3);
+    const copy = context.getSetDataBySetId(team.setIds[0]);
+    for (const field of ['level', 'nature', 'ability', 'item', 'moves', 'ivs', 'evs']) {
+        assert.equal(JSON.stringify(copy[field]), JSON.stringify(original[field]));
+    }
+    assert.equal(copy.status, 'Healthy');
+    assert.equal(copy.currentHp, undefined);
+    copy.moves[0] = 'Tackle';
+    copy.ivs.hp = 0;
+    assert.equal(original.moves[0], 'Aqua Jet');
+    assert.equal(original.ivs.hp, 24);
+    context.syncPokemonNullWanderingSpirit();
+    context.syncOpposingPreviewState(context.customLeads[475]);
+    assert.equal(context.opposingPreviewState.teams.at(-1).trainerId, 843);
+    assert.deepEqual(Array.from(context.getOpposingPreviewCalculationSets(team.setIds[1])), Array.from(team.setIds));
+    context.partySlots = [];
+    context.syncPokemonNullWanderingSpirit();
+    context.syncOpposingPreviewState(context.customLeads[475]);
+    for (const id of team.setIds) assert.ok(!context.getSetDataBySetId(id));
+    assert.equal(context.opposingPreviewState.teams.length, 8);
+    assert.equal(context.opposingPreviewState.teams.at(-1).setIds.length, 0);
+    assert.ok(context.renderOpposingPreviewTeams([]).includes('Wandering Spirit mirrors your party'));
+    assert.ok(!context.renderOpposingPreviewTeams([]).includes('opposing-team-remove'));
+});
+
+test('Wandering Spirit runtime sets restore before saved trainer previews and do not affect other games', () => {
+    const context = preview(loadData('null12'), 'Pokemon Null 1.2');
+    const selected = context.pokemonNullWanderingSpirit.setIds[0];
+    context.syncOpposingPreviewState(selected);
+    const restored = context.restoreOpposingPreviewState();
+    assert.equal(restored, selected.replace(/\[\d+\]$/, ''));
+    assert.equal(context.opposingPreviewState.presetGauntletId, 'mt-pyre');
+    const other = preview({}, 'Other Game');
+    assert.equal(other.syncPokemonNullWanderingSpirit(), false);
+    assert.equal(Object.keys(other.setdex).length, 0);
+});
 
 for (const [version, title] of [['null12', 'Pokemon Null 1.2'], ['null125', 'Pokemon Null 1.2.5']]) {
     const data = loadData(version);
