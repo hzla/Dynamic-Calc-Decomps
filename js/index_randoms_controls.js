@@ -71,6 +71,7 @@ function isAirborne(mon) {
 }
 
 function performCalculations() {
+    if (typeof queuePokemonNullWanderingSpiritRefresh === 'function') queuePokemonNullWanderingSpiritRefresh()
 	var p1info = $("#p1");
 	var p2info = $("#p2");
 

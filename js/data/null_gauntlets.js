@@ -11,7 +11,7 @@ var pokemonNullGauntlets = [
     {id: 'shikamaru-marlene', battles: [[143], [206], [629, 712], [628], [183], [513], [752]]},
     {id: 'jagged-pass', battles: [[570], [474], [566]]},
     {id: 'route-118', battles: [[715, 408], [398]]},
-    {id: 'mt-pyre', battles: [[247], [236], [109], [108], [145], [9], [475]]},
+    {id: 'mt-pyre', battles: [[247], [236], [109], [108], [145], [9], [475], [843]]},
     {id: 'space-center', battles: [[588], [589], [590]]},
     {id: 'halo-puffy', battles: [[670, 674], [671]]},
     {id: 'rocket-grunts', battles: [[430], [431], [432]]},

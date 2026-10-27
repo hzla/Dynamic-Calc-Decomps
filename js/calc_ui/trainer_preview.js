@@ -297,6 +297,7 @@ function getOpposingPreviewStorageKey() {
 function getOpposingPreviewTeam(setId) {
     var data = getSetDataBySetId(setId)
     if (!data || data.isTemporaryOpponentSet || !get_trainer_name(setId)) return null
+    if (data.isPokemonNullWanderingSpirit) return getPokemonNullWanderingSpiritTeam()
     var sets = get_trainer_poks(setId, false, true).sort(function(a, b) {
         return (Number(getSetDataBySetId(a).sub_index) || 0) - (Number(getSetDataBySetId(b).sub_index) || 0)
     })
@@ -323,6 +324,10 @@ function getOpposingPreviewPreset(setId) {
     var ids = group.battles.flat()
     if (ids.length > MAX_OPPOSING_PREVIEW_TEAMS) return null
     var teams = ids.map(function(id) {
+        if (typeof POKEMON_NULL_WANDERING_SPIRIT_ID !== 'undefined' && id === POKEMON_NULL_WANDERING_SPIRIT_ID) {
+            syncPokemonNullWanderingSpirit()
+            return getPokemonNullWanderingSpiritTeam()
+        }
         var lead = typeof customLeads !== 'undefined' && customLeads[id]
         if (!lead) {
             var sets = getTrainerSetsById(id)
@@ -362,6 +367,7 @@ function restoreOpposingPreviewState() {
     // shared_controls also runs before the asynchronous game data has arrived.
     // Leave persisted state untouched until trainer references can be resolved.
     if (typeof TR_NAMES === 'undefined' || !TR_NAMES.length) return getValidOpposingPreviewSelection(localStorage.right)
+    if (typeof syncPokemonNullWanderingSpirit === 'function') syncPokemonNullWanderingSpirit()
     opposingPreviewState = {
         mode: null, teams: [], selectedSetId: "", suppressedPartner: false,
         pending: null, pinnedSetId: "", presetGauntletId: ""
@@ -431,6 +437,7 @@ function syncOpposingPreviewState(setId) {
     // membership then, including when a deleted lead has a surviving teammate.
     if (opposingPreviewRoster !== TR_NAMES) {
         state.teams = state.teams.map(function(team) {
+            if (team.isPokemonNullWanderingSpirit) return getPokemonNullWanderingSpiritTeam()
             var survivingSet = team.setIds.find(function(id) { return getSetDataBySetId(id) })
             return survivingSet ? getOpposingPreviewTeam(survivingSet) : null
         }).filter(Boolean)
@@ -491,7 +498,7 @@ function getOpposingPreviewCalculationSets(setId) {
         var group = getPokemonNullGauntlet(data.tr_id, TITLE)
         var battle = group && group.battles.find(function(ids) { return ids.includes(Number(data.tr_id)) })
         if (battle) return state.teams.filter(function(team) {
-            return battle.includes(Number(getSetDataBySetId(team.leadSetId).tr_id))
+            return battle.includes(Number(team.trainerId || getSetDataBySetId(team.leadSetId).tr_id))
         }).flatMap(function(team) { return team.setIds })
     }
     return index >= 0 ? state.teams[index].setIds.slice() : get_trainer_poks(setId, false, true)
@@ -586,6 +593,9 @@ function renderOpposingPreviewTeams(rankedEntries) {
                 var data = getSetDataBySetId(id)
                 return renderTrainerPreviewPok([id, 0, '', data.sub_index, (data.moves || []).slice()], true)
             }).join('')
+        if (!team.setIds.length && team.isPokemonNullWanderingSpirit) {
+            cards = '<div class="wandering-spirit-empty">Wandering Spirit mirrors your party. Add Pokémon to the left party preview to see its team.</div>'
+        }
         var label = state.mode === 'partner' && index > 0 ? 'Partner: ' : ''
         var remove = index > 0 && !state.presetGauntletId ? `<button type="button" class="opposing-team-remove" data-team-index="${index}" aria-label="Remove ${escapeOpposingPreviewText(team.name)}" title="Remove team">&times;</button>` : ''
         var showHeading = state.mode !== 'b2b' || active

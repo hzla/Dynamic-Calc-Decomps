@@ -1533,6 +1533,7 @@ function displayParty() {
     }
 
     refreshTagPartnerPreview()
+    if (typeof queuePokemonNullWanderingSpiritRefresh === 'function') queuePokemonNullWanderingSpiritRefresh()
 }
 
 
