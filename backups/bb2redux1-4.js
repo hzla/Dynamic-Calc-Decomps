@@ -104958,7 +104958,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 1,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -105059,7 +105059,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 2,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -105424,7 +105424,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 2,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -105855,7 +105855,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 249,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -105954,7 +105954,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106088,7 +106088,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 249,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -106121,7 +106121,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 369,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106451,7 +106451,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -106585,7 +106585,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 4,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106618,7 +106618,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 28,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -106651,7 +106651,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106816,7 +106816,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106849,7 +106849,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -106882,7 +106882,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107115,7 +107115,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 4,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107214,7 +107214,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 47,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -107280,7 +107280,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 430,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -107379,7 +107379,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107412,7 +107412,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107445,7 +107445,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107480,7 +107480,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 4,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107546,7 +107546,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 127,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -107711,7 +107711,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107744,7 +107744,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -107777,7 +107777,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -108212,7 +108212,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 7,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -108280,7 +108280,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 7,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -108313,7 +108313,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 237,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -108480,7 +108480,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 7,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -108746,7 +108746,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 8,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -108845,7 +108845,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 806,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -108880,7 +108880,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 9,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -108979,7 +108979,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 244,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109012,7 +109012,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 246,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109111,7 +109111,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 371,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -109443,7 +109443,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 9,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109476,7 +109476,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 77,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109509,7 +109509,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 130,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109542,7 +109542,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 136,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109575,7 +109575,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 240,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109608,7 +109608,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 241,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109641,7 +109641,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 241,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109674,7 +109674,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 244,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -109775,7 +109775,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 10,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109843,7 +109843,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 10,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109876,7 +109876,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 90,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -109911,7 +109911,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 10,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -110277,6 +110277,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -110542,7 +110543,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 113,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -110777,7 +110778,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 31,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -111107,7 +111108,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 806,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111175,7 +111176,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 88,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111209,6 +111210,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 147,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111309,7 +111311,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 13,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -111375,7 +111377,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 232,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -111408,7 +111410,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 805,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111443,7 +111445,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 13,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -111676,7 +111678,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 36,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111742,7 +111744,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 47,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111775,7 +111777,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 62,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -111874,7 +111876,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 103,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -111974,6 +111976,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 147,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -112006,7 +112009,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 237,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -112039,7 +112042,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 239,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -112305,7 +112308,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 15,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -112338,7 +112341,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 47,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -112505,7 +112508,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 15,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -112604,7 +112607,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 442,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -112705,7 +112708,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 15,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -112904,6 +112907,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -112938,7 +112942,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 16,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113006,7 +113010,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 16,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113040,6 +113044,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 221,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113173,7 +113178,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 16,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113307,7 +113312,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 17,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113342,7 +113347,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 17,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113408,7 +113413,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 237,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -113573,7 +113578,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 441,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -113674,7 +113679,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 17,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113874,7 +113879,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 18,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -113942,7 +113947,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 18,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114109,7 +114114,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 18,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114243,7 +114248,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 18,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114377,7 +114382,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 19,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114478,7 +114483,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 19,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114944,7 +114949,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 21,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -114977,7 +114982,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 21,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115043,7 +115048,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 138,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115110,6 +115115,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 213,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115144,7 +115150,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 22,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115177,7 +115183,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 22,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115243,7 +115249,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 50,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -115276,7 +115282,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 75,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115309,7 +115315,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 75,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115641,7 +115647,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 23,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115674,7 +115680,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 23,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115707,7 +115713,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 69,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -115740,7 +115746,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 70,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -115806,7 +115812,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 77,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -115872,7 +115878,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 113,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -116072,7 +116078,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 24,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -116105,7 +116111,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 24,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -116138,7 +116144,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 59,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116206,7 +116212,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 25,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -116239,7 +116245,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 29,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116272,7 +116278,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 54,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116439,7 +116445,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 25,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -116472,7 +116478,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 29,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116505,7 +116511,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 54,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116672,7 +116678,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 26,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116705,7 +116711,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 26,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116771,7 +116777,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 65,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116804,7 +116810,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116837,7 +116843,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 229,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116870,7 +116876,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 235,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -116903,7 +116909,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 236,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -117037,7 +117043,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 27,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -117138,7 +117144,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 27,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -117206,7 +117212,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 27,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -117439,7 +117445,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 28,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -117769,7 +117775,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -117837,7 +117844,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 28,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -117905,7 +117912,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 29,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -117938,7 +117945,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 54,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -117971,7 +117978,7 @@ backup_data = {
         "ai": 16,
         "noCh": false,
         "tr_id": 166,
-        "diff": 4,
+        "diff": 1,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118105,7 +118112,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 30,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118305,7 +118312,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 30,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118404,7 +118411,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 109,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -118470,7 +118477,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 234,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118637,7 +118644,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 31,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118738,7 +118745,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 31,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -118871,6 +118878,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 670,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -118971,7 +118979,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 32,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -119171,7 +119179,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 32,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -119338,7 +119346,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 33,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119372,6 +119380,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 669,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -119406,7 +119415,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 33,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119573,7 +119582,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 34,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119674,7 +119683,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 34,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119708,6 +119717,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 224,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119742,7 +119752,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 35,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119809,6 +119819,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 213,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119843,7 +119854,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 35,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -119944,7 +119955,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 35,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120010,7 +120021,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 628,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120045,7 +120056,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 36,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120179,7 +120190,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 37,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120280,7 +120291,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 37,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120511,7 +120522,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -120546,7 +120557,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 37,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -120777,7 +120788,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -120911,7 +120922,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 48,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -121043,7 +121054,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 251,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -121742,7 +121753,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 103,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -122008,7 +122019,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -122606,7 +122617,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 840,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -122674,7 +122685,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 105,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -123303,7 +123314,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 444,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -124033,7 +124044,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 451,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -124332,7 +124343,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -124431,7 +124442,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 840,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -124466,7 +124477,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -124730,7 +124741,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 839,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -124765,7 +124776,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -124798,7 +124809,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 121,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -125062,7 +125073,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 838,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -125097,7 +125108,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -125130,7 +125141,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 107,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -125396,7 +125407,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 41,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -126190,7 +126201,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -126390,7 +126401,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 110,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -126653,6 +126664,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -127549,7 +127561,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 130,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -127714,7 +127726,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -127747,7 +127759,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -127780,7 +127792,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -128013,7 +128025,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 371,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -128444,7 +128456,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 245,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -128477,7 +128489,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 246,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -128876,6 +128888,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -129009,7 +129022,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 91,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -129209,7 +129222,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 93,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -129409,7 +129422,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 116,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -129710,7 +129723,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 48,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -129743,7 +129756,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 256,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -130211,7 +130224,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 55,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -130244,7 +130257,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 83,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -130409,7 +130422,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 361,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -130442,7 +130455,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 364,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -130541,7 +130554,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -130574,7 +130587,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -130607,7 +130620,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -130675,7 +130688,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 55,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -130774,7 +130787,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 362,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -130807,7 +130820,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 365,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -130906,7 +130919,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -130939,7 +130952,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -130972,7 +130985,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -131040,7 +131053,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 55,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -131073,7 +131086,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 83,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -131172,7 +131185,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 360,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -131205,7 +131218,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 363,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -131304,7 +131317,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -131337,7 +131350,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -131370,7 +131383,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -131471,7 +131484,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 136,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -131772,7 +131785,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 60,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -131805,7 +131818,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 81,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -131838,7 +131851,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 81,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -132071,7 +132084,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 62,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -132104,7 +132117,7 @@ backup_data = {
         "ai": 16,
         "noCh": false,
         "tr_id": 166,
-        "diff": 4,
+        "diff": 1,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -132205,7 +132218,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 62,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -132238,7 +132251,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 238,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -132506,7 +132519,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 65,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -132539,7 +132552,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 73,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -132572,7 +132585,7 @@ backup_data = {
         "ai": 129,
         "noCh": false,
         "tr_id": 73,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -133671,7 +133684,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 88,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -133705,6 +133718,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 224,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -133772,7 +133786,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 88,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -133904,7 +133918,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 804,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -133939,7 +133953,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 89,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -134007,7 +134021,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 89,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -134108,7 +134122,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 89,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -134242,7 +134256,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 90,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -134376,7 +134390,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 90,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -134609,7 +134623,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 91,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -134840,7 +134854,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 841,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -134875,7 +134889,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 91,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -135174,7 +135188,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 92,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -135506,7 +135520,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 92,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -135737,7 +135751,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -135772,7 +135786,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 92,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -136037,6 +136051,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -136137,7 +136152,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 93,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -136304,7 +136319,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 93,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -136469,7 +136484,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -136504,7 +136519,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 93,
-        "diff": 3,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -136636,7 +136651,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 451,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -136770,7 +136785,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 94,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -136871,7 +136886,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 94,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -137038,7 +137053,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 94,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -137073,7 +137088,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 94,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -137370,7 +137385,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -137504,7 +137520,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -137638,7 +137654,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -137706,7 +137722,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -137840,7 +137856,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -137941,7 +137957,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138009,7 +138025,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 95,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138077,7 +138093,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138111,6 +138127,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 665,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138178,7 +138195,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138246,7 +138263,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138281,7 +138298,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138382,7 +138399,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138417,7 +138434,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 96,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138654,7 +138671,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 98,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138854,7 +138871,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 98,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -138887,7 +138904,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 114,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139087,7 +139104,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 98,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139120,7 +139137,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 114,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139320,7 +139337,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 99,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139388,7 +139405,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 99,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139520,7 +139537,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 441,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -139588,7 +139605,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 100,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139656,7 +139673,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 100,
-        "diff": 4,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139823,7 +139840,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 101,
-        "diff": 5,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -139990,7 +140007,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 102,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -140157,7 +140174,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 104,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -140290,6 +140307,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -140357,7 +140375,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 105,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -140458,7 +140476,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 105,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -140724,7 +140742,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 106,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -140957,7 +140975,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 107,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -141621,7 +141639,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 622,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -141654,7 +141672,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 627,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -141753,7 +141771,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 109,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -141854,7 +141872,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 109,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -142085,7 +142103,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -142118,7 +142136,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -142151,7 +142169,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -142514,7 +142532,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -142648,7 +142666,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 110,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -142815,7 +142833,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 111,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143015,7 +143033,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 111,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143049,6 +143067,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 225,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -143149,7 +143168,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 112,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143217,7 +143236,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 112,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143582,7 +143601,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 113,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143683,7 +143702,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 113,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -143751,7 +143770,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 113,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144083,7 +144102,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 114,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144151,7 +144170,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 115,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144318,7 +144337,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 115,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144450,7 +144469,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 443,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -144584,7 +144603,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 117,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144651,6 +144670,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 226,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144683,7 +144703,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 434,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -144817,7 +144837,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 118,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144850,7 +144870,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 119,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -144950,6 +144970,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 670,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -145644,7 +145665,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 120,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -145711,6 +145732,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 668,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -145778,7 +145800,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 120,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -146110,7 +146132,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 120,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -146242,7 +146264,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 840,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -146310,7 +146332,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 121,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -146510,7 +146532,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 122,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -146578,7 +146600,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 122,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -146745,7 +146767,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 123,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -146778,7 +146800,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 123,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -146976,7 +146998,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 841,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -147011,7 +147033,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 124,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -147211,7 +147233,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 124,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -147510,7 +147532,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 125,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -147544,6 +147566,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 666,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -147578,7 +147601,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 125,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -147844,7 +147867,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 126,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -147945,7 +147968,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 127,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -148376,7 +148399,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 128,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -148409,7 +148432,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 138,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -148543,7 +148566,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 128,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -148576,7 +148599,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 371,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -148776,7 +148799,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 129,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -149042,7 +149065,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 130,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -149108,7 +149131,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 238,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -149141,7 +149164,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 242,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -149275,7 +149298,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 131,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -149343,7 +149366,7 @@ backup_data = {
         "ai": 0,
         "noCh": false,
         "tr_id": 132,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -150012,6 +150035,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -152205,7 +152229,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 136,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -152374,7 +152398,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 138,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -152607,7 +152631,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 243,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -152673,7 +152697,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 803,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -152943,7 +152967,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 141,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -153207,7 +153231,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 804,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -153275,7 +153299,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 141,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -155304,7 +155328,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -155337,7 +155361,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -155370,7 +155394,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -155670,6 +155694,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 147,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -155702,7 +155727,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 361,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -155735,7 +155760,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 364,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -155801,7 +155826,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -156436,7 +156461,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -156469,7 +156494,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -157199,7 +157225,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -157232,7 +157258,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -157265,7 +157291,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -157399,7 +157425,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 183,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -157998,6 +158024,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -158031,6 +158058,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -158063,7 +158091,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -158798,6 +158827,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 213,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -158830,7 +158860,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 228,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -158863,7 +158893,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 230,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -159498,7 +159528,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 183,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -159962,7 +159992,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 622,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -160063,7 +160093,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 630,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -160600,6 +160630,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -160767,6 +160798,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -161562,7 +161594,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 701,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -161595,7 +161627,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 702,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -161628,7 +161660,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 703,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -161694,7 +161726,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 794,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -161727,7 +161759,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 795,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -161760,7 +161792,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 796,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -163125,7 +163157,7 @@ backup_data = {
         "ai": 16,
         "noCh": false,
         "tr_id": 166,
-        "diff": 4,
+        "diff": 1,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -163527,7 +163559,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 628,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -163560,7 +163592,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 629,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -163936,6 +163968,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 667,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -164038,7 +164071,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 626,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -164275,7 +164308,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 623,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -164514,7 +164547,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 227,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -164548,6 +164581,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 663,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -164850,7 +164884,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 183,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -165116,7 +165150,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 627,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -165217,7 +165251,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 626,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -165354,6 +165388,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 226,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -165419,7 +165454,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 434,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -165588,7 +165623,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 623,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -165725,6 +165760,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 667,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -165930,7 +165966,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 183,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -166262,7 +166298,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 430,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -166928,7 +166964,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -167096,6 +167132,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -167575,7 +167612,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 432,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -168175,7 +168212,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 432,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -168479,6 +168516,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 222,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -168676,7 +168714,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 451,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -170674,6 +170712,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -171458,7 +171497,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 624,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -171594,7 +171633,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 631,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -172066,7 +172105,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 804,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -173103,7 +173142,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 624,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173445,7 +173484,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 250,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173582,6 +173621,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 213,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -173614,7 +173654,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 232,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173647,7 +173687,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 234,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173715,7 +173755,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 242,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173748,7 +173788,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 243,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173781,7 +173821,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 245,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173814,7 +173854,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 625,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -173883,6 +173923,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 221,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -173950,7 +173991,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 236,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174052,6 +174093,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 223,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174120,6 +174162,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 223,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174155,6 +174198,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 221,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174190,6 +174234,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 222,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -174291,6 +174336,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 223,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174323,7 +174369,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 256,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174392,6 +174438,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 224,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174427,6 +174474,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 225,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -174495,6 +174543,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 226,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174527,7 +174576,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 247,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174563,6 +174612,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 226,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -174595,7 +174645,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 247,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174630,7 +174680,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 227,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174663,7 +174713,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 233,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174764,7 +174814,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 231,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -174997,7 +175047,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 233,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -175230,7 +175280,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 238,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -175298,7 +175348,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 248,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -175331,7 +175381,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 625,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 12,
           "at": 12,
@@ -176576,7 +176626,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 803,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -177846,7 +177896,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 803,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -178381,6 +178431,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 669,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -178748,6 +178799,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -179479,7 +179531,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 805,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -179547,7 +179599,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 805,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -179648,7 +179700,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 839,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -179681,7 +179733,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 841,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -179982,7 +180034,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 838,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -180015,7 +180067,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 840,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -181386,7 +181438,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 435,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -181419,7 +181471,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 450,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -181718,7 +181770,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 368,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -182082,6 +182134,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -182115,6 +182168,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 835,
         "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -184289,7 +184343,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 841,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -186297,7 +186351,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 439,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -186601,6 +186655,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 664,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -187473,6 +187528,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 771,
         "diff": 4,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -187672,7 +187728,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 368,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -187705,7 +187761,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 369,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -187738,7 +187794,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 370,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -187973,7 +188029,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 370,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -188572,6 +188628,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 669,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -189909,7 +189966,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -190713,7 +190771,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 370,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -190944,7 +191002,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 703,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -190977,7 +191035,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 708,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -191010,7 +191068,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 711,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -191109,7 +191167,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 796,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -191443,7 +191501,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 444,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -192039,7 +192097,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 701,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -192072,7 +192130,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 702,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -192105,7 +192163,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 703,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -192171,7 +192229,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 794,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -192204,7 +192262,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 795,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -192237,7 +192295,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 796,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -193041,7 +193099,8 @@ backup_data = {
         "ai": 183,
         "noCh": false,
         "tr_id": 837,
-        "diff": 4,
+        "diff": 0,
+        "weather": "Rain",
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -193409,6 +193468,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 666,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -193443,7 +193503,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 360,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -193476,7 +193536,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 363,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -193509,7 +193569,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -193544,7 +193604,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 362,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -193577,7 +193637,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 365,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 30,
           "at": 30,
@@ -193610,7 +193670,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 2,
+        "diff": 0,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -193645,7 +193705,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 368,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -193909,7 +193969,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 701,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -193942,7 +194002,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 706,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -193975,7 +194035,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 709,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194008,7 +194068,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 794,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194175,7 +194235,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 369,
-        "diff": 3,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194406,7 +194466,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 702,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194439,7 +194499,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 707,
-        "diff": 0,
+        "diff": 5,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194472,7 +194532,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 710,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -194505,7 +194565,7 @@ backup_data = {
         "ai": 135,
         "noCh": false,
         "tr_id": 795,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -195376,6 +195436,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 768,
         "diff": 0,
+        "weather": "Sand",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -196492,7 +196553,7 @@ backup_data = {
         "ai": 1,
         "noCh": false,
         "tr_id": 806,
-        "diff": 0,
+        "diff": 2,
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -197166,7 +197227,7 @@ backup_data = {
         "ai": 3,
         "noCh": false,
         "tr_id": 430,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -197632,7 +197693,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 438,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -197766,7 +197827,7 @@ backup_data = {
         "ai": 7,
         "noCh": false,
         "tr_id": 438,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -197900,7 +197961,7 @@ backup_data = {
         "ai": 5,
         "noCh": false,
         "tr_id": 439,
-        "diff": 0,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -199846,7 +199907,7 @@ backup_data = {
         "ai": 55,
         "noCh": false,
         "tr_id": 836,
-        "diff": 4,
+        "diff": 0,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -201234,6 +201295,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 665,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202398,6 +202460,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 662,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202433,6 +202496,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 662,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202468,6 +202532,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 663,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202503,6 +202568,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 663,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202538,6 +202604,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 664,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202639,6 +202706,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 665,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,
@@ -202707,6 +202775,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 666,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -202742,6 +202811,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 667,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 6,
           "at": 6,
@@ -202810,6 +202880,7 @@ backup_data = {
         "noCh": false,
         "tr_id": 670,
         "diff": 2,
+        "weather": "Sand",
         "ivs": {
           "hp": 0,
           "at": 0,

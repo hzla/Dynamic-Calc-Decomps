@@ -12,6 +12,8 @@ const dexGameIdsByTitle = {
 	'Brutal Black': 'brutalblack',
 	'Wishy Washy White 2 Redux': 'wishywashywhite2redux',
 	'Emerald but Bad': 'badem',
+	'Fire Red Deluxe Hard Mode': 'frd',
+	'Fire Red Deluxe Normal Mode': 'frdnormal',
 	'Platinum Redux': 'platinumredux',
 	'Platinum Redux HC': 'platinumredux'
 };

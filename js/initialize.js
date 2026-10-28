@@ -1041,6 +1041,8 @@ function getCurrentBackupFileName() {
 }
 
 const backupFileCacheKeys = {
+    frd: "20261028",
+    frdnormal: "20261028",
     null12: "forms-20261026",
     null125: "forms-20261026",
     badem: "1.0.8.3-full",
@@ -1049,6 +1051,8 @@ const backupFileCacheKeys = {
 };
 
 const trainerOrderFileCacheKeys = {
+    frd: "20261028",
+    frdnormal: "20261028",
     ek2: "ff68841b"
 };
 
@@ -1409,6 +1413,22 @@ function setGameSettings(title) {
     showDex = false
     showAI = false
     $('label[for="snow"]').hide()
+  } else if (title === "Fire Red Deluxe Hard Mode" || title === "Fire Red Deluxe Normal Mode") {
+    gameGen = 3
+    settings.gen = 8
+    settings.damageGen = 3
+    settings.gameSwitchIn = 3
+    settings.switchIn = 3
+    settings.typeChart = 3
+    settings.critGen = 5
+    settings.physSpecSplit = false
+    settings.customPoks = true
+    settings.sourceType = "full"
+    settings.hasMastersheet = false
+    save_expansion = false
+    showDex = true
+    showAI = false
+    $('label[for="snow"]').hide()
   } else if (TITLE == "Fire Red Omega" || TITLE === FIRE_RED_OMEGA_SYMBOL_TITLE || TITLE == "Emerald Kaizo" || TITLE == "Emerald but Bad" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red" || isPokemonColorsTitle(TITLE)) {
     gameGen = 3
     if (TITLE == "Emerald but Bad" || TITLE === FIRE_RED_OMEGA_SYMBOL_TITLE) {
@@ -1566,7 +1586,7 @@ function setBaseGame(title) {
         ? getBaseVersionForBaseGameValue(activeBlankDevConfig.baseGame)
         : ""
     if (!isBlankDevMode) {
-        if (title === FIRE_RED_OMEGA_SYMBOL_TITLE) {
+        if (title === FIRE_RED_OMEGA_SYMBOL_TITLE || title === "Fire Red Deluxe Hard Mode" || title === "Fire Red Deluxe Normal Mode") {
             window.baseGame = "g3"
             window.requestedBaseGame = "FRLG"
         } else if (title.includes("Radical Red")) {
@@ -1669,7 +1689,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?gauntlets1';
+  script.src= './js/shared_controls.js?frdeluxe1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);

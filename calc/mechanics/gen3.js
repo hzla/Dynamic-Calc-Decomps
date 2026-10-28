@@ -30,6 +30,11 @@ var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
 var ADV_SPECIAL_TYPES = ['Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark', 'Fairy'];
+function isFireRedDeluxeWeatherBall(move) {
+    return typeof TITLE === 'string' &&
+        ['Fire Red Deluxe Hard Mode', 'Fire Red Deluxe Normal Mode'].includes(TITLE) &&
+        move.named('Weather Ball', 'Weather Ball (Water)', 'Weather Ball (Fire)');
+}
 function shouldUsePhysSpecSplitADV() {
     if (typeof settings !== 'undefined' && settings && typeof settings.physSpecSplit !== 'undefined') {
         return !!settings.physSpecSplit;
@@ -86,14 +91,15 @@ function calculateADV(gen, attacker, defender, move, field) {
         result.damage = damage_1;
         return result;
     }
-    if (move.named('Weather Ball')) {
+    var deluxeWeatherBall = isFireRedDeluxeWeatherBall(move);
+    if (move.named('Weather Ball') || deluxeWeatherBall) {
         move.type =
             field.hasWeather('Sun') ? 'Fire'
                 : field.hasWeather('Rain') ? 'Water'
                     : field.hasWeather('Sand') ? 'Rock'
                         : field.hasWeather('Hail') ? 'Ice'
-                            : 'Normal';
-        move.category = move.type === 'Rock' ? 'Physical' : 'Special';
+                            : deluxeWeatherBall ? move.type : 'Normal';
+        move.category = move.type === 'Rock' || (deluxeWeatherBall && move.type === 'Normal') ? 'Physical' : 'Special';
         desc.weather = field.weather;
         desc.moveType = move.type;
         desc.moveBP = move.bp;
@@ -417,7 +423,7 @@ function calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritic
         baseDamage = Math.floor(baseDamage * 2);
         desc.isSwitching = 'out';
     }
-    if (move.named('Weather Ball') && field.weather) {
+    if ((move.named('Weather Ball') || isFireRedDeluxeWeatherBall(move)) && field.weather) {
         baseDamage *= 2;
         desc.moveBP = move.bp * 2;
     }
