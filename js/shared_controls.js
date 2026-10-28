@@ -1804,7 +1804,11 @@ function updateLeftPokeSprite(pokemonName) {
 }
 
 function getSpriteSpeciesName(pokemonName) {
-	return String(pokemonName || "").replace(/-Totem$/i, "");
+	var name = String(pokemonName || "").replace(/-Totem$/i, "");
+	if (typeof TITLE === "string" && (TITLE === "Fire Red Deluxe Hard Mode" || TITLE === "Fire Red Deluxe Normal Mode") && window.fireRedDeluxeSpriteAliases) {
+		return window.fireRedDeluxeSpriteAliases[name] || name;
+	}
+	return name;
 }
 
 function getPspmTotemBoostKey(pokemonName) {

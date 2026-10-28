@@ -238,6 +238,29 @@
                 }
             ]
         },
+        "fire-red-deluxe": {
+            id: "fire-red-deluxe",
+            title: "Fire Red Deluxe",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Fire Red Deluxe Normal Mode",
+            variants: [
+                {
+                    label: "Normal Mode",
+                    sourceTitle: "Fire Red Deluxe Normal Mode",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=frdnormal&gen=8&dmgGen=3&types=3&switchIn=3&view=calculator",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "Hard Mode",
+                    sourceTitle: "Fire Red Deluxe Hard Mode",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=frd&gen=8&dmgGen=3&types=3&switchIn=3&view=calculator",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "fire-red-omega": {
             id: "fire-red-omega",
             title: "Fire Red Omega",
@@ -817,6 +840,7 @@
                 "brutal-black",
                 "cascade-white",
                 "emerald-but-bad",
+                "fire-red-deluxe",
                 "firered-omega",
                 "heart-and-soul",
                 "little-emerald",

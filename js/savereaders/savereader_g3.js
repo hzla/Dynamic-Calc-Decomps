@@ -378,13 +378,14 @@ function g3ParseMonChunk(chunk, isParty, slot) {
     const growthWord1 = decrypted[(growthIndex * 3) + 1] >>> 0;
     const speciesInternalId = growthWord0 & 0xFFFF;
     const speciesId = g3GetNationalSpeciesId(speciesInternalId);
-    const speciesName = sav_pok_names[speciesId];
+    const romTables = g3GetFireRedDeluxeTables();
+    const speciesName = romTables ? romTables.species[speciesInternalId] : sav_pok_names[speciesId];
     if (!g3IsValidSpeciesName(speciesName)) {
         return null;
     }
 
     const itemId = (growthWord0 >>> 16) & 0xFFFF;
-    const itemName = g3NormalizeItemName(emImpItems[itemId]);
+    const itemName = g3NormalizeItemName(romTables ? romTables.items[itemId] : emImpItems[itemId]);
     const nickname = g3DecodeText(chunk, 0x08, 10);
     const natureName = natures[pid % 25] || null;
 
@@ -396,9 +397,10 @@ function g3ParseMonChunk(chunk, isParty, slot) {
         moveWord1 & 0xFFFF,
         (moveWord1 >>> 16) & 0xFFFF
     ];
+    const moveTable = romTables ? romTables.moves : pokeemeraldMoves;
     const moveNames = moveIds
-        .filter((id) => id > 0 && pokeemeraldMoves[id] && pokeemeraldMoves[id] !== 'None')
-        .map((id) => pokeemeraldMoves[id]);
+        .filter((id) => id > 0 && moveTable[id] && moveTable[id] !== 'None')
+        .map((id) => moveTable[id]);
 
     const evWord0 = decrypted[evsIndex * 3] >>> 0;
     const evWord1 = decrypted[(evsIndex * 3) + 1] >>> 0;
@@ -470,7 +472,18 @@ function g3ResolveLevel(speciesName, exp) {
     }
 }
 
+function g3GetFireRedDeluxeTables() {
+    if (typeof TITLE !== 'string' || !window.fireRedDeluxeSaveConstants) return null;
+    if (TITLE === 'Fire Red Deluxe Hard Mode') return window.fireRedDeluxeSaveConstants.frd || null;
+    if (TITLE === 'Fire Red Deluxe Normal Mode') return window.fireRedDeluxeSaveConstants.frdnormal || null;
+    return null;
+}
+
 function g3ResolveGrowthRate(speciesName) {
+    const romTables = g3GetFireRedDeluxeTables();
+    if (romTables && Number.isFinite(romTables.growthRates[speciesName])) {
+        return romTables.growthRates[speciesName];
+    }
     if (typeof learnsets === 'undefined' || !speciesName) {
         return null;
     }
