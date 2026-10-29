@@ -34,7 +34,7 @@ splitData = {
 		"titles": ["Cheren", "Roxie", "Burgh", "Elesa", "Clay", "Skyla", "Drayden", "Marlon", "Elite 4"],
 		"types": ["normal", "poison", "bug", "electric", "ground", "flying", "dragon", "water"]
 	},
-	"Blaze Black 2/Volt White 2 Redux 1.4": {
+	"Blaze Black 2/Volt White 2 Redux": {
 		"lvls": [13, 21, 29, 36, 45, 52, 61, 64, 74],
 		"titles": ["Cheren", "Roxie", "Burgh", "Elesa", "Clay", "Skyla", "Drayden", "Marlon", "Elite 4"],
 		"types": ["normal", "poison", "bug", "electric", "ground", "flying", "dragon", "water"]
@@ -48,6 +48,16 @@ splitData = {
 		"lvls": [17, 32, 38, 45, 49, 54, 67, 79, 84],
 		"titles": ["Viola", "Grant", "Korrina", "Ramos", "Clemont", "Valerie", "Olympia", "Wulfric", "Elite 4"],
 		"types": ["bug", "rock", "fighting", "grass", "electric", "fairy", "psychic", "ice"]
+	},
+	"Fire Red Deluxe Hard Mode": {
+		"lvls": [16, 23, 27, 34, 43, 47, 49, 51, 100],
+		"titles": ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni", "Elite 4"],
+		"types": ["rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"]
+	},
+	"Fire Red Deluxe Normal Mode": {
+		"lvls": [15, 23, 27, 34, 43, 47, 49, 51, 100],
+		"titles": ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni", "Elite 4"],
+		"types": ["rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"]
 	},
 	"Fire Red Omega": {
 		"lvls": [14, 23, 27, 35, 50, 53, 58, 63, 69],
@@ -156,3 +166,6 @@ splitData = {
 		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
 	}
 }
+
+splitData["Blaze Black 2/Volt White 2 Redux 1.4"] = splitData["Blaze Black 2/Volt White 2 Redux"]
+splitData["Blaze Black 2 Redux"] = splitData["Blaze Black 2/Volt White 2 Redux"]

@@ -178,6 +178,7 @@ function loadBattleLogRuntime(data) {
             buildBattleLogSessionsFromPayload, getCurrentTrainerOrder,
             rebuildEncounterFragsFromBattleLog,
             parseTrainerName, parseTrainerLeadLevel, trainerLeadSetHasHeldItem,
+            getBattleLogSessionSplitIndex, getBattleLogSplitTabsConfig,
         };
     `), context);
     return { window: context.window, stored, helpers: context.window.testHelpers };
@@ -205,6 +206,102 @@ function makeLoadedCascadeData() {
 }
 
 describe("Gen 5 save-file battle log decoder", function () {
+    test.each([
+        "Blaze Black 2/Volt White 2 Redux",
+        "Blaze Black 2 Redux",
+        "Blaze Black 2/Volt White 2 Redux 1.4",
+    ])("uses Redux's level splits for %s even with a conflicting Cascade trainer order", function (title) {
+        const source = {};
+        vm.runInNewContext(readFileSync(resolve(__dirname, "../../backups/bb2redux1-4.js"), "utf8"), source);
+        const cascade = {};
+        vm.runInNewContext(readFileSync(resolve(__dirname, "../../backups/trainer_orders/casc2.js"), "utf8"), cascade);
+        const splitConfig = {};
+        vm.runInNewContext(readFileSync(resolve(__dirname, "../data/splits.js"), "utf8"), splitConfig);
+        const runtime = loadBattleLogRuntime({
+            title, formatted_sets: source.backup_data.formatted_sets, order: cascade.trainerOrders,
+        });
+        runtime.window.splitData = splitConfig.splitData;
+        // Shared trainer IDs deliberately have different placements in Cascade.
+        const ids = [160, 259, 156, 157, 154, 153, 158, 155, 159, 523, 19, 52, 38];
+        const expected = [7, 3, 0, 1, 2, 3, 4, 5, 6, 5, 6, 7, 8];
+        const leads = {};
+        for (const [species, sets] of Object.entries(source.backup_data.formatted_sets)) {
+            for (const [label, set] of Object.entries(sets)) {
+                if (set.sub_index === 0 && !leads[set.tr_id]) leads[set.tr_id] = `${species} (${label})[0]`;
+            }
+        }
+        runtime.stored.set("customLeads", JSON.stringify(leads));
+        expect(splitRules.getProgressionForTitle(title)).toBeNull();
+        expect(splitRules.assignSplitIndexes(ids, cascade.trainerOrders,
+            splitRules.getProgressionForTitle("Cascade White Dev"))).not.toEqual(expected);
+
+        runtime.window.updateSaveFileBattleLog({ valid: true, hasLogs: true, records: ids.map(trainerId => ({
+            trainerId, playerCount: 1, playerSpeciesIds: [1, 0, 0, 0, 0, 0],
+            playerKoCreditsByEnemy: [1, 0, 0, 0, 0, 0], aiKoCreditsByPlayer: [0, 0, 0, 0, 0, 0],
+        })) }, [{ rawSpeciesId: 1, species: "Bulbasaur", level: 100 }], "redux.sav");
+        const payload = JSON.parse(runtime.stored.get("saveFileBattleLogs"));
+        for (let count = 0; count < 2; count++) {
+            const sessions = runtime.helpers.buildBattleLogSessionsFromPayload(payload);
+            expect(sessions.map(runtime.helpers.getBattleLogSessionSplitIndex)).toEqual(expected);
+            expect(runtime.helpers.getBattleLogSplitTabsConfig().map(tab => tab.label)).toEqual([
+                "Cheren", "Roxie", "Burgh", "Elesa", "Clay", "Skyla", "Drayden", "Marlon", "Elite 4",
+            ]);
+            runtime.window.encounters = { Bulbasaur: { setData: { "My Box": {} }, frags: [] } };
+            runtime.helpers.rebuildEncounterFragsFromBattleLog(sessions, sessions);
+            expect(Object.values(runtime.window.encounters.Bulbasaur.fragSplitIndexes)).toEqual(expected);
+        }
+    });
+
+    test.each([
+        ["Blaze Black 2/Volt White 2 Redux", "BW2"],
+        ["Black/White", "BW"],
+        ["Black 2/White 2", "BW2"],
+        ["Brutal Black", "BW"],
+        ["Unlisted Gen 5 Hack", "BW2"],
+    ])("enables imported logs and rebuilds frags for %s without a title allowlist", function (title, baseVersion) {
+        const runtime = loadBattleLogRuntime({
+            title,
+            formatted_sets: { Patrat: { Trainer: { tr_id: 1, sub_index: 0, level: 10 } } },
+        });
+        const refreshHeader = jest.fn();
+        runtime.window.refreshMainPageHeaderState = refreshHeader;
+        const enabledWithoutSave = runtime.window.isBattleLogEnabledForTitle();
+        expect(enabledWithoutSave).toBe(title === "Black/White" || title === "Brutal Black");
+
+        const bytes = new Uint8Array(0x80000);
+        const copyOffset = baseVersion === "BW2" ? 0x26000 : 0x24000;
+        initializeCopy(bytes, copyOffset, [1, 0, 0]);
+        const record = {
+            trainerId: 1, playerCount: 1, playerSpeciesIds: [1, 0, 0, 0, 0, 0],
+            playerKoCreditsByEnemy: [1, 0, 0, 0, 0, 0],
+            aiKoCreditsByPlayer: [0, 0, 0, 0, 0, 0],
+        };
+        writeRecord(bytes, copyOffset, 0, 0, record);
+        const parsed = parser.parse(bytes, { baseVersion });
+        expect(parsed.valid && parsed.hasLogs).toBe(true);
+        runtime.window.updateSaveFileBattleLog(parsed,
+            [{ rawSpeciesId: 1, species: "Bulbasaur" }], "other-game.sav");
+
+        expect(runtime.window.isBattleLogEnabledForTitle()).toBe(true);
+        expect(runtime.window.isSaveFileBattleLogActive()).toBe(true);
+        expect(refreshHeader).toHaveBeenCalled();
+        const payload = JSON.parse(runtime.stored.get("saveFileBattleLogs"));
+        const sessions = runtime.helpers.buildBattleLogSessionsFromPayload(payload);
+        expect(sessions).toHaveLength(1);
+        expect(sessions[0].start.enemyTrainerIdA).toBe(1);
+        expect(sessions[0].events).toContainEqual(expect.objectContaining({
+            type: "pKo", pSpecies: "Bulbasaur", aiSpecies: "Patrat",
+        }));
+        runtime.window.encounters = { Bulbasaur: { setData: { "My Box": {} }, frags: [] } };
+        runtime.helpers.rebuildEncounterFragsFromBattleLog(sessions, sessions);
+        expect(runtime.window.encounters.Bulbasaur.fragCount).toBe(1);
+        expect(runtime.window.encounters.Bulbasaur.frags[0]).toContain("Patrat");
+
+        runtime.window.updateSaveFileBattleLog(parser.parse(new Uint8Array(0x80000), { baseVersion }), [], "no-logs.sav");
+        expect(runtime.window.isBattleLogEnabledForTitle()).toBe(enabledWithoutSave);
+        expect(runtime.window.isSaveFileBattleLogActive()).toBe(false);
+    });
+
     test("retains manual KO credits across save-log rebuilds without duplicating matching entries", function () {
         const runtime = loadBattleLogRuntime(makeLoadedCascadeData());
         const payload = {

@@ -189,7 +189,6 @@ function setSettingsDefaults() {
     $('#battle-notes .notes-text').html(localStorage.notes);
   }
 
-  applyImperiumOnlySettingsVisibility()
   setSettingsTogglesFromLocalStorage()
 }
 
@@ -220,6 +219,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
+    applyImperiumOnlySettingsVisibility()
     $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-hide-prevos-dead input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
@@ -364,11 +364,13 @@ function applyImperiumOnlySettingsVisibility() {
         { selector: '#toggle-abil', storageKey: 'filterAbilities' }
     ]
     var shouldShow = isImperiumTitle()
+    // Backup aliases and uploaded data can resolve their title after defaults run.
+    var hasResolvedTitle = typeof TITLE === "string" && TITLE !== "NONE" && TITLE.trim() !== ""
 
     imperiumOnlySettings.forEach(function(setting) {
         $(setting.selector).toggle(shouldShow)
 
-        if (!shouldShow) {
+        if (!shouldShow && hasResolvedTitle) {
             localStorage[setting.storageKey] = 0
             $(setting.selector + ' input').prop('checked', false)
         }
@@ -376,7 +378,7 @@ function applyImperiumOnlySettingsVisibility() {
 
     var shouldShowRandomizedToggle = canShowRandomizedToggleForTitle()
     $('#toggle-rand').toggle(shouldShowRandomizedToggle)
-    if (!shouldShowRandomizedToggle) {
+    if (!shouldShowRandomizedToggle && hasResolvedTitle) {
         localStorage.randomized = 0
         $('#toggle-rand input').prop('checked', false)
     }
@@ -804,9 +806,23 @@ $('#toggle-sync-lua .slider').click(function(){
     applySyncLuaVisibility()
 })
 
-$('#toggle-switch-info .slider').click(function(){
-    localStorage.switchInfo = (parseInt(localStorage.switchInfo) + 1) % 2;   
-    location.reload()
+function showAdvancedSwitchInfoWarning() {
+    if (isImperiumTitle() && localStorage.switchInfo == '1' && !localStorage.alerted) {
+        alert("READ CAREFULLY!!!!!!!!! Switch in matchup info is an experimental feature and may be wrong. Rely on at your own risk! Make sure that your HP matches your hp in game. Info assumes ai party pokemon are at full HP for calcing whether or not you win 1v1")
+        localStorage.alerted = 1
+    }
+}
+
+$('#toggle-switch-info input').on('change', function(){
+    var enabled = isImperiumTitle() && $(this).prop('checked')
+    localStorage.switchInfo = enabled ? '1' : '0'
+    $(this).prop('checked', enabled)
+    $('.trainer-pok-list.opposing').toggleClass('ai-show', enabled)
+    $('#dynamic-type-bug').css('display', enabled ? 'flex' : 'none')
+    showAdvancedSwitchInfoWarning()
+    if (typeof refresh_next_in === "function") {
+        refresh_next_in()
+    }
 })
 
 $('#toggle-abil .slider').click(function(){

@@ -1070,6 +1070,11 @@ $(".ivs, .dvs").bind("keyup change", function () {
 	refreshInferredHiddenPower($(this).closest(".poke-info"));
 });
 
+$(".ivs-header").on("mouseenter focusin", function () {
+	var hiddenPower = calculateHiddenPowerFromIVs($(this).closest(".poke-info"));
+	$(this).find(".hidden-power-tooltip").text(hiddenPower.type);
+});
+
 $(".evs").bind("keyup change", function () {
 	syncEvColumnVisibility();
 });
@@ -1373,6 +1378,10 @@ function getHiddenPowerDetailsFromIVs(pokeObj, moveName) {
 		return null;
 	}
 
+	return calculateHiddenPowerFromIVs(pokeObj);
+}
+
+function calculateHiddenPowerFromIVs(pokeObj) {
 	var ivs = {};
 	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 		var legacyStat = LEGACY_STATS[gen][i];

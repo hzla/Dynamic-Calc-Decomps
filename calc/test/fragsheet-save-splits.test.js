@@ -162,3 +162,58 @@ describe("save-file fragsheet splits", () => {
         expect(render).not.toHaveBeenCalled();
     });
 });
+
+describe("level-cap fragsheet splits", () => {
+    function loadLevelCapFragsheet(title) {
+        const result = loadFragsheet(false);
+        const { context } = result;
+        vm.runInContext(fs.readFileSync(path.resolve(__dirname, "../data/splits.js"), "utf8"), context);
+        context.TITLE = title;
+        context.initializeSplits();
+        return result;
+    }
+
+    test.each([
+        "Blaze Black 2/Volt White 2 Redux",
+        "Blaze Black 2/Volt White 2 Redux 1.4",
+        "Blaze Black 2 Redux",
+        "Blaze Black 2 Redux 1.4",
+    ])("resolves %s to Redux caps, not Blaze Black 1", (title) => {
+        const { context, tabs } = loadLevelCapFragsheet(title);
+        expect(context.lvlcaps).toEqual([13, 21, 29, 36, 45, 52, 61, 64, 74]);
+        expect(tabs["#split-0-tab"]).toEqual({ visible: true, text: "Cheren" });
+        expect(tabs["#split-1-tab"].text).toBe("Roxie");
+        expect(tabs["#split-6-tab"].text).toBe("Drayden");
+        expect(tabs["#split-7-tab"].text).toBe("Marlon");
+        expect(context.getFragsheetSplitData("Blaze Black/Volt White").lvls)
+            .toEqual([14, 20, 30, 38, 44, 56, 63, 66, 73]);
+        expect(context.getFragsheetSplitData("Black/White").lvls)
+            .toEqual([14, 20, 23, 27, 31, 35, 39, 43, 50]);
+    });
+
+    test.each([["Hard", 16], ["Normal", 15]])("uses %s Mode's Deluxe caps and inclusive boundaries", (mode, brockCap) => {
+        const { context, tabs } = loadLevelCapFragsheet(`Fire Red Deluxe ${mode} Mode`);
+        const caps = [brockCap, 23, 27, 34, 43, 47, 49, 51, 100];
+        expect(context.lvlcaps).toEqual(caps);
+        expect(tabs["#split-0-tab"]).toEqual({ visible: true, text: "Brock" });
+        expect(tabs["#split-8-tab"]).toEqual({ visible: true, text: "Elite 4" });
+        const levels = caps.flatMap((cap, index) => [index ? caps[index - 1] + 1 : 1, cap]);
+        context.encounters = {
+            Bulbasaur: {
+                setData: { "My Box": {} }, alive: true,
+                frags: levels.map((level, index) => `Pidgey (Lvl ${level} Trainer ${index} )`),
+                fragCount: levels.length,
+            },
+        };
+        context.refreshTables();
+        expect(Array.from({ length: 9 }, (_, index) => context.rowData[0][`split${index}`]))
+            .toEqual(Array(9).fill(2));
+        expect(context.rowData[0].totalKo).toBe(levels.length);
+        context.activeSplit = 8;
+        context.refreshTables();
+        expect(context.rowData[0].totalKo).toBe(2);
+        expect(context.rowData[0].split7).toBe(0);
+        expect(context.rowData[0].split8FragInfo.map(entry => entry.value))
+            .toEqual(expect.arrayContaining([expect.stringContaining("Lvl 52"), expect.stringContaining("Lvl 100")]));
+    });
+});
