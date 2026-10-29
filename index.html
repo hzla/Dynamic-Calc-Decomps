@@ -7,7 +7,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?spirit1" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?hidden-power-tooltip1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?splitcolors1" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -744,7 +744,7 @@
                         <tr>
                             <th></th>
                             <th scope="col">Base</th>
-                            <th class="gen-specific g3 g4 g5 g6 g7 g8" scope="col">IVs</th>
+                            <th class="gen-specific g3 g4 g5 g6 g7 g8 ivs-header" scope="col" tabindex="0" aria-describedby="hidden-power-tooltip-p1">IVs<span id="hidden-power-tooltip-p1" class="hidden-power-tooltip" role="tooltip"></span></th>
                             <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label ev-col" scope="col">EVs</th>
                             <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
                             <th></th>
@@ -1917,7 +1917,7 @@
                         <tr>
                             <th></th>
                             <th scope="col">Base</th>
-                            <th class="gen-specific g3 g4 g5 g6 g7 g8" scope="col">IVs</th>
+                            <th class="gen-specific g3 g4 g5 g6 g7 g8 ivs-header" scope="col" tabindex="0" aria-describedby="hidden-power-tooltip-p2">IVs<span id="hidden-power-tooltip-p2" class="hidden-power-tooltip" role="tooltip"></span></th>
                             <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label ev-col" scope="col">EVs</th>
                             <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
                             <th></th>
@@ -2599,7 +2599,7 @@
     
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?5d768378"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?03e0d5da"></script>
+    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?imperium-switch-info1"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
@@ -2677,7 +2677,7 @@
 
     <script type="text/javascript" src="./calc/data/types.js?cebaa947"></script>
     <script type="text/javascript" src="./calc/data/evos.js?b935c17e"></script>
-    <script type="text/javascript" src="./calc/data/splits.js?null125"></script>
+    <script type="text/javascript" src="./calc/data/splits.js?redux-frdeluxe1"></script>
     <script type="text/javascript" src="./calc/data/learnsets.js?b935c170"></script>
 
     <script type="text/javascript" src="./calc/data/natures.js?407b5243"></script>
@@ -2714,7 +2714,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?4025a2a4"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?frdeluxe1"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?hidden-power-tooltip1"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?spirit1"></script>
     <script type="text/javascript" src="./js/moveset_import.js?null125"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?mobilefrags1"></script>
@@ -2754,10 +2754,7 @@
 </div>
 
 <script>
-  if (localStorage.switchInfo == '1' && !localStorage.alerted) {
-    alert("READ CAREFULLY!!!!!!!!! Switch in matchup info is an experimental feature and may be wrong. Rely on at your own risk! Make sure that your HP matches your hp in game. Info assumes ai party pokemon are at full HP for calcing whether or not you win 1v1")
-    localStorage.alerted = 1
-  }
+  showAdvancedSwitchInfoWarning()
   
 
 </script>
