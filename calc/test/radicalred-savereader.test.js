@@ -41,6 +41,13 @@ function makeMonStruct(speciesId, isParty) {
   return bytes;
 }
 
+function makeMonWithAbilitySlot(speciesId, abilitySlot, isParty) {
+  var bytes = makeMonStruct(speciesId, isParty);
+  writeU32LE(bytes, 0, abilitySlot === 1 ? 3 : 2);
+  writeU32LE(bytes, isParty ? 72 : 54, abilitySlot === 2 ? 0xBFFFFFFF : 0x3FFFFFFF);
+  return bytes;
+}
+
 function makeSave(party, boxes) {
   var bytes = new Uint8Array(0x20000);
   writeU16LE(bytes, 0xEFFC, 0xFFFF);
@@ -121,6 +128,69 @@ describe("Radical Red save reader helpers", function () {
     expect(parser.__test.resolveBaseAbilityId("Dragalge", 799, 0)).toBe(209);
     expect(parser.__test.resolveBaseAbilityId("Sandy Shocks", 1244, 0)).toBe(229);
     expect(parser.__test.resolveBaseAbilityId("Dragapult", 1179, 0)).toBe(29);
+  });
+
+  test("uses the numeric slot order even when the name table is outdated or reordered", function () {
+    expect([0, 1, 2].map(function (slot) {
+      return parser.__test.resolveBaseAbilityId("Escavalier", 642, slot);
+    })).toEqual([68, 4, 114]);
+    expect([0, 1, 2].map(function (slot) {
+      return parser.__test.resolveBaseAbilityId("Starmie", 121, slot);
+    })).toEqual([30, 89, 125]);
+    expect(parser.__test.resolveBaseAbilityId("Toedscruel", 1199, 1)).toBe(152);
+  });
+
+  test("falls back to the first regular ability when another slot is empty, not the hidden ability", function () {
+    expect(parser.__test.resolveBaseAbilityId("Pikachu", 25, 1)).toBe(9);
+    expect(parser.__test.resolveBaseAbilityId("Silvally", 990, 2)).toBe(4);
+    expect(parser.__test.resolveBaseAbilityId("Escavalier", 642, undefined)).toBe(68);
+  });
+
+  test.each([true, false])("imports every Escavalier slot with its correct normal and randomized name (party=%s)", function (isParty) {
+    var parseMon = isParty ? parser.__test.parsePartyMon : parser.__test.parseBoxMon;
+    // Equivalent effective randomizer parameters to the reported save, without its trainer identity.
+    var trainerIdSecret = (19 << 16) | 212;
+    var normalNames = ["Swarm", "Battle Armor", "Overcoat"];
+    var randomNames = ["Gluttony", "Toxic Boost", "Volt Absorb"];
+    [0, 1, 2].forEach(function (slot) {
+      var bytes = makeMonWithAbilitySlot(642, slot, isParty);
+      expect(parseMon(bytes, 1, { randomAbilities: false }, { levelCap: 34 }).abilityName).toBe(normalNames[slot]);
+      var mon = parseMon(bytes, 1, {
+        randomAbilities: true, restricted: false, trainerIdSecret: trainerIdSecret
+      }, { levelCap: 34 });
+      expect(mon.abilitySlot).toBe(slot);
+      expect(mon.abilityName).toBe(randomNames[slot]);
+      expect(parser.__test.monToShowdown(mon)).toContain("Ability: " + randomNames[slot] + "\n");
+    });
+  });
+
+  test.each([
+    [false, false], [true, false], [true, true]
+  ])("uses native IDs for every populated species/form slot (random=%s, restricted=%s)", function (randomAbilities, restricted) {
+    var trainerIdSecret = 2251340371;
+    var checked = 0;
+    rrDexAbilityConstants.abilityIdsBySpeciesId.forEach(function (ids, speciesId) {
+      if (!Array.isArray(ids)) return;
+      [1, 2, 0].forEach(function (tableIndex, slot) {
+        var baseId = ids[tableIndex];
+        if (!baseId) return;
+        expect({ speciesId: speciesId, slot: slot, abilityId: parser.__test.resolveBaseAbilityId(rrConstants.mons[speciesId], speciesId, slot) })
+          .toEqual({ speciesId: speciesId, slot: slot, abilityId: baseId });
+        var expectedId = randomAbilities ? parser.__test.randomizeAbilityId(trainerIdSecret, restricted, baseId, speciesId) : baseId;
+        var expectedName = parser.__test.resolveAbilityNameById(expectedId);
+        expect(typeof expectedName).toBe("string");
+        [true, false].forEach(function (isParty) {
+          var parseMon = isParty ? parser.__test.parsePartyMon : parser.__test.parseBoxMon;
+          var mon = parseMon(makeMonWithAbilitySlot(speciesId, slot, isParty), 1, {
+            randomAbilities: randomAbilities, restricted: restricted, trainerIdSecret: trainerIdSecret
+          }, { levelCap: 85 });
+          expect({ speciesId: speciesId, slot: slot, party: isParty, ability: mon.abilityName })
+            .toEqual({ speciesId: speciesId, slot: slot, party: isParty, ability: expectedName });
+          checked++;
+        });
+      });
+    });
+    expect(checked).toBeGreaterThan(4000);
   });
 
   test("resolves Radical Red held item names by item id", function () {
@@ -451,6 +521,23 @@ describe("Radical Red local save validation", function () {
     expect(randomized.parsedParty.length).toBeGreaterThan(0);
     expect(randomized.showdownImport).toContain(randomized.parsedParty[0].speciesName);
     expect(randomized.rrSaveInfo.valid).toBe(true);
+
+    if (path.basename(savePath) === "Pokemon Radical Red 4.1.sav") {
+      expect(randomized.parsedParty).toHaveLength(4);
+      expect(randomized.parsedBoxes).toHaveLength(15);
+      expect(randomized.rrSaveInfo.randomAbilities).toBe(true);
+      var abilities = Object.fromEntries(randomized.parsedParty.concat(randomized.parsedBoxes).map(function (mon) {
+        return [mon.speciesName, mon.abilityName];
+      }));
+      expect(abilities).toMatchObject({
+        Escavalier: "Toxic Boost", Starmie: "Hadron Engine", Toedscruel: "Unaware",
+        Krookodile: "Sand Rush", Gardevoir: "Stamina", Nidoqueen: "Iron Barbs",
+        Magnezone: "Thick Fat", Servine: "Sap Sipper", "Porygon-Z": "Quick Feet",
+        Crobat: "Wind Rider", Sandslash: "Lightning Rod", Stakataka: "Cloud Nine",
+        Regirock: "Stamina", Toxicroak: "Storm Drain", Lugia: "Shadow Tag",
+        Pupitar: "Trace", Jolteon: "Good as Gold", Sawk: "Tablets of Ruin", "Milotic-Sevii": "Thermal Exchange"
+      });
+    }
 
     if (path.basename(savePath) === "Radical Red 4.1.sav") {
       expect(randomized.parsedParty.slice(0, 6).map(function (mon) { return mon.speciesName; })).toEqual([

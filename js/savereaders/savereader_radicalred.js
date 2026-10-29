@@ -397,38 +397,17 @@
   }
 
   function rrResolveBaseAbilityId(speciesName, speciesId, abilitySlot) {
-    var baseAbilityName = rrResolveBaseAbilityName(speciesName, abilitySlot);
     var abilityIds = rrGetAbilityIdsForSpeciesId(speciesId);
-    var slot = Number.isInteger(abilitySlot) ? abilitySlot : 0;
+    var slot = [0, 1, 2].includes(abilitySlot) ? abilitySlot : 0;
 
     if (abilityIds.length) {
-      var targetKey = rrNormalizeAbilityNameKey(baseAbilityName);
-      if (targetKey) {
-        for (var abilityIndex = 0; abilityIndex < abilityIds.length; abilityIndex++) {
-          var candidateAbilityId = abilityIds[abilityIndex] || 0;
-          if (!candidateAbilityId) {
-            continue;
-          }
-
-          if (rrNormalizeAbilityNameKey(rrResolveAbilityNameById(candidateAbilityId)) === targetKey) {
-            return candidateAbilityId;
-          }
-        }
-      }
-
-      var slotAbilityId = abilityIds[slot] || 0;
-      if (slotAbilityId) {
-        return slotAbilityId;
-      }
-
-      for (var fallbackIndex = 0; fallbackIndex < abilityIds.length; fallbackIndex++) {
-        if (abilityIds[fallbackIndex]) {
-          return abilityIds[fallbackIndex];
-        }
-      }
+      // The native table is [hidden, regular 1, regular 2], unlike saved
+      // slots [regular 1, regular 2, hidden]. Names can be stale or reordered;
+      // randomized abilities must be seeded with the exact native numeric ID.
+      return abilityIds[[1, 2, 0][slot]] || abilityIds[1] || abilityIds[2] || abilityIds[0] || 0;
     }
 
-    return rrResolveAbilityIdByName(baseAbilityName);
+    return rrResolveAbilityIdByName(rrResolveBaseAbilityName(speciesName, slot));
   }
 
   function rrResolveFallbackAbilitySlot(monStruct, hiddenAbilityOffset) {
@@ -476,7 +455,8 @@
   }
 
   function rrResolveAbilityName(speciesName, speciesId, abilitySlot, saveInfo, options) {
-    var baseAbilityName = rrResolveBaseAbilityName(speciesName, abilitySlot);
+    var baseAbilityId = rrResolveBaseAbilityId(speciesName, speciesId, abilitySlot);
+    var baseAbilityName = rrResolveAbilityNameById(baseAbilityId) || rrResolveBaseAbilityName(speciesName, abilitySlot);
     if (!baseAbilityName) {
       return "Unknown";
     }
@@ -485,7 +465,6 @@
       return baseAbilityName;
     }
 
-    var baseAbilityId = rrResolveBaseAbilityId(speciesName, speciesId, abilitySlot);
     if (baseAbilityId < 1) {
       return baseAbilityName;
     }
