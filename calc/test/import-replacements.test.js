@@ -44,6 +44,7 @@ function loadImportNormalizer(overrides) {
         console: console,
         TITLE: "Autumn Red",
         gen: 3,
+        settings: { blankDevMode: false },
         cleanString: cleanString,
         calc: {
             SPECIES: {
