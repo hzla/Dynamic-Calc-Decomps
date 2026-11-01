@@ -22,6 +22,19 @@ function result(name = "Bite", options = {}) {
 const base = (name, options) => result(name, options).rawDesc.g4Phase2BaseDamage;
 const score = (name, options) => result(name, options).rawDesc.g4Phase2Score;
 
+test("type-based categories follow Normalize during switch scoring", () => {
+    global.settings.physSpecSplit = false;
+    try {
+        const attacker = { ability: "Normalize", evs: { atk: 252 } };
+        const actual = result("Water Pulse", { attacker });
+        const expected = result("Water Pulse", { attacker, move: { overrides: { type: "Normal" } } });
+        assert.equal(actual.move.category, "Physical");
+        assert.deepEqual(actual.damage, expected.damage);
+    } finally {
+        delete global.settings.physSpecSplit;
+    }
+});
+
 test("faint cleanup resets attacking stages but preserves the defender's stages", () => {
     for (const stage of [-6, -1, 0, 1, 6]) {
         assert.equal(base("Bite", { attacker: { boosts: { atk: stage } } }), 28);

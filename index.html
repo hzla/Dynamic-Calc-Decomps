@@ -7,7 +7,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?hidden-power-tooltip1" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?party-data1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?splitcolors1" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -18,7 +18,7 @@
     https://cdn.jsdelivr.net/npm/object-hash@3.0.0/dist/object_hash.min.js
     "></script>
     <script src="https://unpkg.com/pako@2.1.0/dist/pako.min.js"></script>
-    <script type="text/javascript" src="./js/romhack_catalog.js?frdeluxe1"></script>
+    <script type="text/javascript" src="./js/romhack_catalog.js?vintage-original1"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->    
     <script>
         params = new URLSearchParams(window.location.search)
@@ -146,6 +146,15 @@
             </div>
 
             <div class="menu-section-header">UI/Display</div>
+            <div id="toggle-party-data" class="menu-item">
+              <div class="menu-label">
+                Show Party Data
+              </div>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
              <div id="toggle-battle-notes" class="menu-item">
               <div class="menu-label">
                 Battle Notes
@@ -205,15 +214,6 @@
             <div id="toggle-mobile-dual-panel" class="menu-item">
               <div class="menu-label">
                 Mobile Dual Panel
-              </div>
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-            </div>
-            <div id="toggle-mobile-party-moves" class="menu-item">
-              <div class="menu-label">
-                Show Party Moves
               </div>
               <label class="switch">
                 <input type="checkbox">
@@ -468,6 +468,7 @@
                  <option data-source="https://hzla.github.io/Dynamic-Calc/?data=b819708dba8f8c0641d5&dmgGen=4&gen=7&switchIn=4&types=5">Sterling Silver 1.16</option>  
                  <option data-source="https://hzla.github.io/Dynamic-Calc-Unbound/?data=68bfb2ccba14b7f6b1f0&gen=8&types=6&dmgGen=8&switchIn=11&m=insane">Unbound 2.1.1</option> 
                 <option data-source="https://hzla.github.io/Dynamic-Calc-Decomps/?data=vwplus">Vintage White Plus</option>
+                <option data-source="https://hzla.github.io/Dynamic-Calc-Decomps/?data=vw&gen=8&dmgGen=5&types=5&view=calculator">Vintage White Original</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc-Decomps/?data=wishywashy&gen=8&types=5">Wishy Washy White 2</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc-Decomps/?data=wishywashywhite2redux&gen=8&types=5">Wishy Washy White 2 Redux</option>
                 
@@ -2574,7 +2575,7 @@
     
 
 
-     <script type="text/javascript" src="./backups/title_to_backup_mappings.js?frdeluxe1"></script>
+     <script type="text/javascript" src="./backups/title_to_backup_mappings.js?vintage-original1"></script>
 
 
     <script type="text/javascript" src="./calc/util.js?8fa0c7f3"></script>
@@ -2599,7 +2600,7 @@
     
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?5d768378"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?imperium-switch-info1"></script>
+    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?party-data1"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
@@ -2615,7 +2616,7 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?frdeluxe1"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/hge_includes.js?72ac966b"></script>
-    <script type="text/javascript" src="./js/initialize.js?frdeluxe1"></script>
+    <script type="text/javascript" src="./js/initialize.js?vintage-original1"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?spirit1"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
@@ -2686,7 +2687,7 @@
     <script type="text/javascript" src="./calc/data/items.js?1f686d9a"></script>
     <script type="text/javascript" src="./calc/data/index.js?083d2bcc"></script>
 
-    <script type="text/javascript" src="./calc/move.js?b8d10e72"></script>
+    <script type="text/javascript" src="./calc/move.js?ps-split1"></script>
     
     <script type="text/javascript" src="./calc/pokemon.js?20260516b"></script>
     <script type="text/javascript" src="./calc/field.js?33ad1378"></script>
@@ -2700,13 +2701,13 @@
     <script type="text/javascript" src="./calc/mechanics/romhacks/profiles/platinum-redux.js?d9c80af8"></script>
     <script type="text/javascript" src="./calc/mechanics/romhacks/index.js?0ca24f44"></script>
 
-    <script type="text/javascript" src="./calc/mechanics/gen789.js?electromorphosis1"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen789.js?ps-split1"></script>
 
-    <script type="text/javascript" src="./calc/mechanics/vanilla/gen789.js?electromorphosis1"></script>
+    <script type="text/javascript" src="./calc/mechanics/vanilla/gen789.js?ps-split1"></script>
 
-    <script type="text/javascript" src="./calc/mechanics/gen56.js?db5f8f01"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen4-switch.js?585c7659"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen4.js?4a2bbd71"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen56.js?ps-split1"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen4-switch.js?ps-split1"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen4.js?ps-split1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen3.js?frdeluxe1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen12.js?554f9d07"></script>
     <script type="text/javascript" src="./calc/calc.js?d7fc4fbd"></script>

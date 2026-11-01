@@ -28,6 +28,7 @@ exports.__esModule = true;
 
 var items_1 = require("../items");
 var result_1 = require("../result");
+var move_1 = require("../move");
 var util_1 = require("./util");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
@@ -158,6 +159,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         if (phase2WeatherBallType) phase2WeatherBallType = 'Normal';
         desc.attackerAbility = attacker.ability;
     }
+    move.category = (0, move_1.getMoveCategory)(gen, move, move.type);
     var typeChartMove = move;
     if (phase2WeatherBallType) {
         typeChartMove = move.clone();
@@ -300,7 +302,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 }
                 break;
             case 'Nature Power':
-                move.category = 'Special';
+                move.category = (0, move_1.getMoveCategory)(gen, { category: 'Special' }, move.type);
                 move.secondaries = true;
                 if (calcingForSwitchIns) {
                     basePower = 0;

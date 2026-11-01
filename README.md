@@ -48,6 +48,8 @@ Trainer set names are specified with the following Format `Lvl LEVEL TRAINER_NAM
 
 `dmgGen` the damage calc mechanics generation to use
 
+`psSplit=1` enables per-move physical/special categories; `psSplit=0` assigns damaging moves' categories by type, for any mechanics generation. Status moves remain Status. This overrides saved settings and game defaults; without it, existing defaults and saved preferences apply. The Phys/Spec Split menu toggle updates this parameter.
+
 `types` the type chart generation to use
 
 `switchIn` the generation of switchin mechanics to use

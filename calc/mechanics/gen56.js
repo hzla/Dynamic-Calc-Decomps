@@ -4,6 +4,7 @@ exports.__esModule = true;
 var util_1 = require("../util");
 var items_1 = require("../items");
 var result_1 = require("../result");
+var move_1 = require("../move");
 var util_2 = require("./util");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
@@ -169,6 +170,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.attackerAbility = attacker.ability;
         }
     }
+    move.category = (0, move_1.getMoveCategory)(gen, move, move.type);
     if (attacker.hasAbility('Gale Wings') && move.hasType('Flying')) {
         move.priority = 1;
         desc.attackerAbility = attacker.ability;
@@ -414,7 +416,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                     desc.moveName = 'Earthquake';
                 }
                 else {
-                    move.category = 'Special';
+                    move.category = (0, move_1.getMoveCategory)(gen, { category: 'Special' }, move.type);
                     move.secondaries = true;
                     switch (field.terrain) {
                         case 'Electric':

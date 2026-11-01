@@ -108,4 +108,49 @@ describe("phys/spec split setting", function () {
         expect(seedBomb.category).toBe("Special");
         expect(seedBombResult.damage).toEqual(gigaDrainResult.damage);
     });
+
+    test.each([
+        [3, ""], [4, ""], [5, ""], [6, ""], [7, ""], [8, ""], [9, ""],
+        [7, "Pokemon Null"], [8, "Pokemon Null"], [9, "Pokemon Null"]
+    ])("recalculates Weather Ball's category after changing type in gen %i (%s)", function (generation, title) {
+        var dataGeneration = Math.min(generation, 8);
+        global.gameGen = generation;
+        global.TITLE = title;
+        Object.assign(global.settings, { damageGen: generation, typeChart: 6, type_chart: 6, physSpecSplit: false });
+        global.typeChart = calc.TYPE_CHART[6];
+        global.FIELD_EFFECTS = {};
+        [
+            ["Rain", "Water", "Special"],
+            ["Sand", "Rock", "Physical"]
+        ].forEach(function (weather) {
+            var result = calc.calculate(dataGeneration,
+                new calc.Pokemon(dataGeneration, "Alakazam", { ability: "None", item: "", moves: ["Weather Ball"] }),
+                new calc.Pokemon(dataGeneration, "Mew", { ability: "None", item: "" }),
+                new calc.Move(dataGeneration, "Weather Ball"),
+                new calc.Field({ weather: weather[0] }));
+            expect(result.move.type).toBe(weather[1]);
+            expect(result.move.category).toBe(weather[2]);
+            expect(result.range()[1]).toBeGreaterThan(0);
+        });
+    });
+
+    test.each(["", "Pokemon Null"])("keeps adaptive moves type-based with the split disabled (%s)", function (title) {
+        global.gameGen = 8;
+        global.TITLE = title;
+        Object.assign(global.settings, { damageGen: 8, typeChart: 6, type_chart: 6, physSpecSplit: false });
+        global.typeChart = calc.TYPE_CHART[6];
+        global.FIELD_EFFECTS = {};
+        [
+            ["Photon Geyser", "Machamp", "Special"],
+            ["Shell Side Arm", "Alakazam", "Physical"],
+            ["Nature Power", "Alakazam", "Physical"]
+        ].forEach(function (example) {
+            var result = calc.calculate(8,
+                new calc.Pokemon(8, example[1], { ability: "None", item: "" }),
+                new calc.Pokemon(8, "Mew", { ability: "None", item: "" }),
+                new calc.Move(8, example[0]), new calc.Field({}));
+            expect(result.move.category).toBe(example[2]);
+            expect(result.range()[1]).toBeGreaterThan(0);
+        });
+    });
 });

@@ -66,6 +66,8 @@ backupFiles = {
 }
 
 sourceTitleAliases = {
+	"vw": "Vintage White",
+	"da1eedc0e39ea07b75bf": "Vintage White",
 	"aetherwhite": "Aether White 2",
 	"wishywashy": "Wishy Washy White 2",
 	"wishywashywhite2redux": "Wishy Washy White 2 Redux",
