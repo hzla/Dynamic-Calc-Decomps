@@ -3698,6 +3698,10 @@ table td {
     justify-content: flex-start ;
 }
 
+body.hide-party-data .player-party .bp-info {
+    display: none;
+}
+
 .tag-partner-preview-wrapper {
     display: none;
     width: 100%;
@@ -5877,16 +5881,7 @@ table.field {
     width: 18px;
   }
 
-  .player-party .nature-info,
-  .player-party .extra-info {
-    display: none !important;
-  }
-
-  .player-party .bp-info:not(.nature-info):not(.extra-info) {
-    display: none;
-  }
-
-  body.mobile-show-party-moves .player-party .bp-info:not(.nature-info):not(.extra-info) {
+  .player-party .bp-info {
     display: block;
     overflow: hidden;
     min-height: 15px;

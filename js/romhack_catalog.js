@@ -707,6 +707,13 @@
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=vwplus",
                     coverImage: "",
                     description: ""
+                },
+                {
+                    label: "Original",
+                    sourceTitle: "Vintage White",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=vw&gen=8&dmgGen=5&types=5&view=calculator",
+                    coverImage: "",
+                    description: ""
                 }
             ]
         },

@@ -3,6 +3,7 @@ exports.__esModule = true;
 
 var switchItems = require("../items");
 var switchResult = require("../result");
+var switchMove = require("../move");
 var switchUtil = require("./util");
 
 // pokeplatinum battle_lib.c: CleanupFaintedMon, CalcMoveDamage, ApplyTypeChart.
@@ -91,6 +92,7 @@ function calculateDPPAiCore(gen, attacker, defender, move, field, aiState) {
         chartType = reserveItem && reserveItem.includes("Plate") ? switchItems.getItemBoostType(reserveItem) || "Normal" : "Normal";
     }
     if (aAbility === "Normalize") damageType = chartType = "Normal";
+    move.category = switchMove.getMoveCategory(gen, move, damageType);
     desc.moveBP = power;
     desc.moveType = chartType;
 

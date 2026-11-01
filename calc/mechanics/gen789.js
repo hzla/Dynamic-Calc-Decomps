@@ -4,6 +4,7 @@ exports.__esModule = true;
 var util_1 = require("../util");
 var items_1 = require("../items");
 var result_1 = require("../result");
+var move_1 = require("../move");
 var util_2 = require("./util");
 var vanilla_gen789_1 = require("./vanilla/gen789");
 var romhacks_1 = require("./romhacks");
@@ -124,7 +125,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.flags.contact = 0;
     }
     
-    if ( (move.named('Shell Side Arm') || move.named("Draco Barrage")) &&
+    if ((0, move_1.shouldUsePhysSpecSplit)(gen) && (move.named('Shell Side Arm') || move.named("Draco Barrage")) &&
         (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom, field.weather) === 'Physical') {
 
         move.category = 'Physical';
@@ -316,6 +317,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     (0, romhack_helpers_1.runHooks)(profile, "afterMoveType", ctx);
+    move.category = (0, move_1.getMoveCategory)(gen, move, move.type);
     var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
         field.defenderSide.isForesight;
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
@@ -465,8 +467,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     var attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx);
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    if (move.named('Photon Geyser', 'Light That Burns the Sky') ||
-        (move.named('Tera Blast') && attackSource.teraType)) {
+    if ((0, move_1.shouldUsePhysSpecSplit)(gen) && (move.named('Photon Geyser', 'Light That Burns the Sky') ||
+        (move.named('Tera Blast') && attackSource.teraType))) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     // var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
@@ -732,7 +734,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             }
             break;
         case 'Nature Power':
-            move.category = 'Special';
+            move.category = (0, move_1.getMoveCategory)(gen, { category: 'Special' }, move.type);
             move.secondaries = true;
             if (attacker.hasAbility('Prankster') && defender.types.includes('Dark')) {
                 basePower = 0;
@@ -1084,8 +1086,8 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         ? (field.isWonderRoom ? 'spd' : 'def')
         : (move.category === 'Special' ? 'spa' : 'atk');
 
-    if (move.named('Photon Geyser', 'Light That Burns the Sky') ||
-        (move.named('Tera Blast') && attackSource.teraType)) {
+    if ((0, move_1.shouldUsePhysSpecSplit)(gen) && (move.named('Photon Geyser', 'Light That Burns the Sky') ||
+        (move.named('Tera Blast') && attackSource.teraType))) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     // var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';

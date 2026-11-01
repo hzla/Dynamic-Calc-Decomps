@@ -143,7 +143,7 @@ function setSettingsDefaults() {
 
   if (typeof settings !== 'undefined' && settings) {
     settings.hasEvs = localStorage.calcHasEvs == '1'
-    settings.physSpecSplit = localStorage.physSpecSplit == '1'
+    settings.physSpecSplit = getPhysSpecSplitUrlOverride() ?? (localStorage.physSpecSplit == '1')
     settings.invertTypes = localStorage.invertTypes == '1'
   }
   if (typeof localStorage.lvlCap != 'undefined') {
@@ -220,7 +220,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
     applyImperiumOnlySettingsVisibility()
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-hide-prevos-dead input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-party-data input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-hide-prevos-dead input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -262,8 +262,8 @@ function setSettingsTogglesFromLocalStorage() {
     if (savedMobileDualPanelLayout == '1' || (savedMobileDualPanelLayout === null && window.innerWidth <= 960)) {
         $('#toggle-mobile-dual-panel input').prop('checked', true)
     }
-    if (localStorage.mobileShowPartyMoves == '1') {
-        $('#toggle-mobile-party-moves input').prop('checked', true)
+    if (shouldShowPartyData()) {
+        $('#toggle-party-data input').prop('checked', true)
     }
     if (shouldShowMobileMoveUi()) {
         $('#toggle-mobile-move-ui input').prop('checked', true)
@@ -342,7 +342,7 @@ function setSettingsTogglesFromLocalStorage() {
     applyChallengeModeVisibility()
     applyTrainerPreviewExpBarVisibility()
     applyHideCurrentAiMonVisibility()
-    applyMobilePartyMovesPreference()
+    applyPartyDataPreference()
     applyMobileMoveUiPreference()
 }
 
@@ -524,8 +524,7 @@ function applyMoveAiPreviewVisibility() {
 }
 
 function canShowPhysSpecSplitToggle() {
-    return Boolean(settings && (settings.damageGen === 3 ||
-        (typeof TITLE === 'string' && TITLE.includes('Heart & Soul'))))
+    return Boolean(settings && settings.damageGen >= 1 && settings.damageGen <= 9)
 }
 
 function applyPhysSpecSplitVisibility() {
@@ -620,12 +619,18 @@ function applyHideCurrentAiMonVisibility() {
     $('#toggle-hide-current-ai-mon').toggle(canShowHideCurrentAiMonToggle())
 }
 
-function shouldShowMobilePartyMoves() {
-    return localStorage.mobileShowPartyMoves == '1'
+function shouldShowPartyData() {
+    var savedPartyData = localStorage.getItem('showPartyData')
+    if (savedPartyData === null) {
+        // Carry over an explicit mobile choice; otherwise preserve desktop's visible default.
+        savedPartyData = localStorage.getItem('mobileShowPartyMoves') === '0' ? '0' : '1'
+        localStorage.setItem('showPartyData', savedPartyData)
+    }
+    return savedPartyData === '1'
 }
 
-function applyMobilePartyMovesPreference() {
-    $('body').toggleClass('mobile-show-party-moves', shouldShowMobilePartyMoves())
+function applyPartyDataPreference() {
+    $('body').toggleClass('hide-party-data', !shouldShowPartyData())
 }
 
 function shouldShowMobileMoveUi() {
@@ -662,9 +667,9 @@ $('#toggle-mobile-dual-panel input').on('change', function(){
     }
 })
 
-$('#toggle-mobile-party-moves input').on('change', function(){
-    localStorage.mobileShowPartyMoves = $(this).prop('checked') ? '1' : '0'
-    applyMobilePartyMovesPreference()
+$('#toggle-party-data input').on('change', function(){
+    localStorage.showPartyData = $(this).prop('checked') ? '1' : '0'
+    applyPartyDataPreference()
 })
 
 $('#toggle-mobile-move-ui input').on('change', function(){

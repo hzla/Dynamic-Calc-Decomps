@@ -21,6 +21,11 @@ const getNum = (key, fallback) => {
 };
 const requestedTypeChart = getNum('types', 6);
 
+function getPhysSpecSplitUrlOverride() {
+    var value = params.get("psSplit");
+    return value === "1" ? true : value === "0" ? false : null;
+}
+
 // --- Settings ---------------------------------------------------------------
 
 const settings = {
@@ -36,7 +41,7 @@ const settings = {
     customPoks: !getBool('customPoks', '0'),
     challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
-    physSpecSplit: getNum('dmgGen', 8) >= 4,
+    physSpecSplit: getPhysSpecSplitUrlOverride() ?? (getNum('dmgGen', 8) >= 4),
     invertTypes: false,
     customCascadeSwitchAI: getBool('cascAI'),
     // The current Cascade Dev game build enables DEFAULT_G4_AI.
@@ -329,6 +334,10 @@ function getSwitchAiInfoEnabled(title) {
 }
 
 function getPhysSpecSplitEnabled(title) {
+    var urlOverride = getPhysSpecSplitUrlOverride();
+    if (urlOverride !== null) {
+        return urlOverride;
+    }
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     if (requiresPhysSpecSplit(resolvedTitle)) {
         return true;
@@ -379,7 +388,7 @@ function syncGameScopedPhysSpecSplitSettings(title) {
 
     if (typeof localStorage !== "undefined") {
         localStorage.physSpecSplit = physSpecSplitEnabled ? "1" : "0";
-        if (requiresPhysSpecSplit(resolvedTitle)) {
+        if (requiresPhysSpecSplit(resolvedTitle) && getPhysSpecSplitUrlOverride() === null) {
             localStorage.setItem(getTitleScopedStorageKey(PHYS_SPEC_SPLIT_STORAGE_PREFIX, resolvedTitle), "1");
         }
     }
@@ -415,7 +424,45 @@ function setSwitchAiInfoEnabled(enabled, title) {
 function setPhysSpecSplitEnabled(enabled, title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     setTitleScopedStoredBool(PHYS_SPEC_SPLIT_STORAGE_PREFIX, resolvedTitle, enabled);
+    params.set("psSplit", enabled ? "1" : "0");
+    var nextUrl = new URL(window.location.href);
+    nextUrl.searchParams.set("psSplit", enabled ? "1" : "0");
+    window.history.replaceState({}, "", nextUrl.toString());
     syncGameScopedPhysSpecSplitSettings(resolvedTitle);
+}
+
+function applyPhysSpecSplitMoveCategories() {
+    if (settings.physSpecSplit && getPhysSpecSplitUrlOverride() !== true) {
+        return;
+    }
+
+    function syncMoveTable(table) {
+        if (!table) return;
+        for (var moveName in table) {
+            var moveData = table[moveName];
+            if (!moveData) continue;
+            if (settings.physSpecSplit) {
+                if (!moveData.category) {
+                    var defaultCategory = getDefaultMoveCategoryForName(moveData.name || moveName);
+                    if (defaultCategory) moveData.category = defaultCategory;
+                }
+            } else {
+                var moveId = cleanString(moveData.name || moveName);
+                var defaultMoveData = MOVES_BY_ID[settings.gen] && MOVES_BY_ID[settings.gen][moveId];
+                var moveType = moveData.type || (defaultMoveData && defaultMoveData.type);
+                if (moveType) {
+                    var categoryData = moveData.category ? moveData : defaultMoveData || moveData;
+                    moveData.category = getMoveCategory({ num: settings.gen }, categoryData, moveType);
+                }
+            }
+        }
+    }
+
+    calc.MOVES.forEach(syncMoveTable);
+    MOVES_BY_ID.forEach(syncMoveTable);
+    syncMoveTable(moves);
+    syncMoveTable(jsonMoves);
+    syncMoveTable(customMoves);
 }
 
 function setInvertTypesEnabled(enabled, title) {
@@ -889,9 +936,9 @@ function applyBlankDevConfig(config) {
   settings.customPoks = !!mergedConfig.customPoks;
   settings.challengeMode = !!mergedConfig.challengeMode;
   settings.noSwitch = !!mergedConfig.noSwitch;
-  settings.physSpecSplit = typeof mergedConfig.physSpecSplit === "undefined"
+  settings.physSpecSplit = getPhysSpecSplitUrlOverride() ?? (typeof mergedConfig.physSpecSplit === "undefined"
     ? getDefaultPhysSpecSplitEnabled()
-    : !!mergedConfig.physSpecSplit;
+    : !!mergedConfig.physSpecSplit);
   settings.invertTypes = canUseInvertTypesSetting() && !!mergedConfig.invertTypes;
   settings.customCascadeSwitchAI = !!mergedConfig.customCascadeSwitchAI;
   settings.customCascadeSwitchAIG4 = !!mergedConfig.customCascadeSwitchAIG4;
@@ -1041,6 +1088,7 @@ function getCurrentBackupFileName() {
 }
 
 const backupFileCacheKeys = {
+    vw: "original-20261101",
     frd: "20261028",
     frdnormal: "20261028",
     null12: "forms-20261026",
@@ -1464,7 +1512,7 @@ function setGameSettings(title) {
       setupChallengeModeLevelBadge();
     }
     $('label[for="snow"]').hide()
-  } else if (title == "Vintage White Plus") {
+  } else if (title == "Vintage White" || title == "Vintage White Plus") {
     gameGen = 5
     settings.gameSwitchIn = 5;
     settings.switchIn = 5; 
@@ -1474,7 +1522,7 @@ function setGameSettings(title) {
     settings.typeChart = 5;
     settings.sourceType = "full"
     save_expansion = false,
-    showDex = true
+    showDex = title == "Vintage White Plus"
     showAI = true
     $('label[for="snow"]').hide()
   } else if (title == "Hardlove Gold" || title == "Heart Gold Engine Rom") {
@@ -2413,6 +2461,7 @@ function loadDataSource(data) {
     if (window.customOpponentTeams) {
         window.customOpponentTeams.loadStoredTeams()
     }
+    applyPhysSpecSplitMoveCategories()
     initCalc() 
 
 

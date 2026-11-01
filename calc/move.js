@@ -24,6 +24,8 @@ function getMoveCategory(gen, data, type) {
     }
     return data.category || (gen.num < 4 ? getTypeBasedCategory(type, data.category) : 'Status');
 }
+exports.shouldUsePhysSpecSplit = shouldUsePhysSpecSplit;
+exports.getMoveCategory = getMoveCategory;
 var Move = (function () {
     function Move(gen, name, options) {
         if (options === void 0) { options = {}; }
