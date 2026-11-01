@@ -2174,6 +2174,12 @@ input[type="file"] {
 
 .type-icon-grass {
     background-position: -192px -74.4px;
+}@media (min-width: 961px) {
+  body:not(.mobile-show-party-moves) .player-party .nature-info,
+  body:not(.mobile-show-party-moves) .player-party .extra-info,
+  body:not(.mobile-show-party-moves) .player-party .bp-info {
+    display: none !important;
+  }
 }
 
 .type-icon-ground {
@@ -3984,6 +3990,14 @@ table td {
 .nature-info {
     margin-top: 10px;
     color: #1abc9c;
+}
+
+@media (min-width: 961px) {
+  body:not(.mobile-show-party-moves) .player-party .nature-info,
+  body:not(.mobile-show-party-moves) .player-party .extra-info,
+  body:not(.mobile-show-party-moves) .player-party .bp-info {
+    display: none !important;
+  }
 }
 
 .no-switch-1 .bp-info[data-strong="true"] {
