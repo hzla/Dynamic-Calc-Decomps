@@ -69,6 +69,11 @@ describe('Inclement Emerald calc routing', () => {
     cy.visit(inclementEmeraldUrl)
     cy.get('#rom-title').should('have.text', 'Inclement Emerald')
     cy.get('#mainResult', { timeout: 15000 }).should('not.have.text', 'Loading...')
+    cy.window({ timeout: 30000 }).should(win => {
+      expect(win.setdex?.Garchomp).to.exist
+      expect(win.eval('initializing')).to.eq(false)
+      expect(win.eval('changingSets')).to.eq(false)
+    })
     cy.get('.select2-container.set-selector.player .select2-chosen:visible').first().click({ force: true })
     cy.get('.select2-results li:visible').should('have.length.greaterThan', 0)
     cy.get('.select2-search input:visible').first().type('Cynthia{enter}')

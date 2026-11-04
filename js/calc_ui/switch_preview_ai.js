@@ -599,12 +599,11 @@ function get_next_in() {
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
     p1Name = p1.name
+    // A saved selection can outlive its imported box; keep enemy navigation usable.
+    var hasPlayerPokemon = Boolean(p1 && p1.name && Array.isArray(p1.types) && p1.types[0] && p1.types[0] !== "???")
+    var showAdvancedSwitchInfo = localStorage.switchInfo == '1' && hasPlayerPokemon
     var showInclementPreviewDamage = typeof TITLE === "string" && TITLE.includes("Inclement Emerald")
-    var canCalculateInclementPreviewDamage = showInclementPreviewDamage &&
-        p1 &&
-        p1.name &&
-        Array.isArray(p1.types) &&
-        Boolean(p1.types[0])
+    var canCalculateInclementPreviewDamage = showInclementPreviewDamage && hasPlayerPokemon
 
     if (p1.ability == "Intimidate") {
         p1.ability = "Run Away"
@@ -664,13 +663,13 @@ function get_next_in() {
 
         let matchup = {}
         var all_results = null
-        if (localStorage.switchInfo == '1' || canCalculateInclementPreviewDamage) {
+        if (showAdvancedSwitchInfo || canCalculateInclementPreviewDamage) {
             var wasCalcingForSwitchIns = calcingForSwitchIns
             calcingForSwitchIns = true
             p1Name = p1.name
 
             try {
-                all_results = localStorage.switchInfo == '1'
+                all_results = showAdvancedSwitchInfo
                     ? memoizedCalc(settings.damageGen, p1, p1field, p2, p2field)
                     : calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)
             } finally {
@@ -678,7 +677,7 @@ function get_next_in() {
             }
         }
 
-        if (localStorage.switchInfo == '1') {
+        if (showAdvancedSwitchInfo) {
             player_results = all_results[0]
             results = all_results[1]
             matchup = postKoMatchupData(player_results, results, isCurrent)
@@ -699,7 +698,7 @@ function get_next_in() {
         let types = pokedex[pok_name].types
         let type_matchup = getTypeMatchup([player_type1, player_type2], types)
 
-        if (localStorage.switchInfo == '1') {
+        if (showAdvancedSwitchInfo) {
             matchup["type_matchup"] = type_matchup
 
             matchup.move = matchup.move.replace("Hidden Power", "HP")
@@ -707,7 +706,7 @@ function get_next_in() {
         }
 
         // Only one mon should receive the defensive mid-turn wall bonus.
-        if (!isDoubles && localStorage.switchInfo == '1' && matchup.winsMidTurn1v1 && !matchup.isTrapper && type_matchup >= 2 && matchup.attackerFastestKill > 3) {
+        if (!isDoubles && showAdvancedSwitchInfo && matchup.winsMidTurn1v1 && !matchup.isTrapper && type_matchup >= 2 && matchup.attackerFastestKill > 3) {
             if (
                 wallCandidate === null ||
                 matchup.attackerFastestKill > wallCandidate.hits ||
@@ -747,8 +746,8 @@ function get_next_in() {
         let type_matchup = trainerMatchup.type_matchup
         let switchInScore = 0
 
-        if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"
-        if (settings.damageGen != 4 || typeof shouldShowSwitchAiInfo !== "function" || shouldShowSwitchAiInfo()) {
+        if (showAdvancedSwitchInfo) analysis += "<div class='ai-infos'>"
+        if (hasPlayerPokemon && (settings.damageGen != 4 || typeof shouldShowSwitchAiInfo !== "function" || shouldShowSwitchAiInfo())) {
             analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>`
         }
 
@@ -756,7 +755,7 @@ function get_next_in() {
             currentTypeMatchup = type_matchup
         }
 
-        if (localStorage.switchInfo == '1') {
+        if (showAdvancedSwitchInfo) {
 
             
       
@@ -891,7 +890,7 @@ function get_next_in() {
     
     $('.bad-odds').hide()
 
-    if (localStorage.switchInfo == '1') {
+    if (showAdvancedSwitchInfo) {
         let badOdds = isBadOdds(p1, currentp2)
 
         if (badOdds[0]) {

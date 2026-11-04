@@ -29,11 +29,37 @@ describe('Fire Red Deluxe variants', () => {
           if (slug === 'frd') {
             expect(win.MOVES_BY_ID[8].weatherballwater.type).to.eq('Water')
             expect(win.MOVES_BY_ID[8].weatherballfire.type).to.eq('Fire')
+            expect(win.backup_data.moves['Weather Ball (Water)'].pp).to.eq(15)
           }
         })
         cy.get('#main-nav-dex').should('be.visible')
         cy.get('#show-ai').should('not.be.visible')
       })
+
+      if (slug === 'frd') {
+        it('loads the revised hard-mode teams from the patched ROM', () => {
+          cy.window().then(win => {
+            const party = Object.entries(win.setdex).flatMap(([species, sets]) =>
+              Object.entries(sets).map(([name, set]) => ({ species, name, ...set })))
+            expect(party).to.have.length(2331)
+            const electabuzz = party.find(mon => mon.tr_id === 221 && mon.species === 'Electabuzz')
+            expect(electabuzz.level).to.eq(25)
+            expect(electabuzz.ai).to.eq(7)
+            expect(electabuzz.ivs.hp).to.eq(20)
+            expect(electabuzz.moves).to.deep.eq(['Thunder Shock', 'Light Screen', 'Swift', 'Thunder Punch'])
+            const lori = party.filter(mon => mon.tr_id === 267).sort((a, b) => a.sub_index - b.sub_index)
+            expect(lori.map(mon => mon.species)).to.deep.eq(['Exeggutor', 'Venusaur', 'Starmie'])
+            expect(lori.map(mon => mon.item)).to.deep.eq(['Choice Band', 'Miracle Seed', 'Mystic Water'])
+            expect(lori.every(mon => mon.level === 33)).to.eq(true)
+            win.expYields = win.expYields || {}
+            win.setOpposing(`Venusaur (${lori[1].name})`)
+          })
+          cy.get('#levelR1').should('have.value', '33')
+          cy.get('.opposing.trainer-pok-list img.trainer-pok.right-side').should('have.length', 2)
+          cy.get('.opposing.trainer-pok-list img[data-id^="Starmie ("]').click()
+          cy.get('input.opposing.set-selector').invoke('val').should('include', 'Starmie (Lvl 33 Beauty Lori')
+        })
+      }
 
       it('renders the right Brock team with regional sprites', () => {
         cy.window().then(win => {

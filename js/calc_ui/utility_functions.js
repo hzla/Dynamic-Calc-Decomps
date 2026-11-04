@@ -7,6 +7,7 @@ const FNV_PRIME  = 0x01000193;
 const stats = ["hp","atk","def","spa","spd","spe"];
 
 function hashStr(h, s) {
+  s = String(s ?? "");
   for (let i = 0, n = s.length; i < n; i++) {
     h ^= s.charCodeAt(i);
     h = Math.imul(h, FNV_PRIME);
