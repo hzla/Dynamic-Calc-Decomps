@@ -81,6 +81,36 @@ for (const slug of ['frd', 'frdnormal']) {
   });
 }
 
+test('hard-mode Mega additions preserve ROM stats and decode their new save slots', () => {
+  const ctx = runtime('frd');
+  const tables = ctx.fireRedDeluxeSaveConstants.frd;
+  const fly = tables.moves.indexOf('Fly');
+  for (const [id, name, attack, speed, ability, item] of [
+    [270, 'Pidgeot-Mega', 145, 131, 'Limber', 'Leftovers'],
+    [271, 'Pinsir-Mega', 155, 105, 'Hyper Cutter', 'Soft Sand'],
+  ]) {
+    assert.equal(tables.species[id], name);
+    assert.equal(ctx.backup_data.poks[name].bs.at, attack);
+    assert.equal(ctx.backup_data.poks[name].bs.sp, speed);
+    assert.equal(ctx.backup_data.poks[name].abilities[0], ability);
+    const mon = ctx.g3ParseMonChunk(monChunk(id, fly, tables.items.indexOf(item)), true, 1);
+    assert.equal(mon.speciesName, name);
+    assert.equal(mon.abilityName, ability);
+    assert.equal(mon.itemName, item);
+    assert.deepEqual(Array.from(mon.moveNames), ['Fly']);
+    assert.equal(ctx.fireRedDeluxeSaveConstants.frdnormal.species[id], '?');
+  }
+  assert.equal(Object.keys(ctx.backup_data.poks).length, 405);
+  assert.equal(ctx.backup_data.poks['PIDGEOT-M'], undefined);
+  assert.equal(ctx.backup_data.poks['PINSIR-M'], undefined);
+  const party = Object.entries(ctx.backup_data.formatted_sets).flatMap(([species, sets]) =>
+    Object.values(sets).map(set => ({ species, ...set })));
+  assert.equal(party.find(mon => mon.tr_id === 229 && mon.species === 'Vaporeon').level, 46);
+  assert.equal(party.find(mon => mon.tr_id === 714 && mon.species === 'Mr. Rime').moves[1], 'Calm Mind');
+  assert.equal(party.find(mon => mon.tr_id === 574 && mon.sub_index === 1).species, 'Pinsir-Mega');
+  assert.equal(party.find(mon => mon.tr_id === 714 && mon.sub_index === 3).species, 'Pidgeot-Mega');
+});
+
 test('Deluxe Weather Ball variants retain their clear-weather type and use weather effects', () => {
   global.settings = { type_chart: 3, typeChart: 3, damageGen: 3, critGen: 5, gen: 3, physSpecSplit: false };
   global.TITLE = 'Fire Red Deluxe Hard Mode';

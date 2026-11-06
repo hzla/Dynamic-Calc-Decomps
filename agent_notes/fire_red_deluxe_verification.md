@@ -9,9 +9,33 @@ Regional abbreviations resolve to canonical species. Surfing/Flying Pikachu use 
 
 Hard Mode has three Weather Ball records. The Water and Fire variants are explicitly named Weather Ball (Water) and Weather Ball (Fire), preserving their distinct move IDs, types and PP.
 
+## Hard Mode DDex Update: 2026-11-06
+
+Regenerated `ddex/data/overrides/frd.js` and `frd_searchindex.js` from the same current calc ROM and verified the generated calc payload exactly matches `backups/frd.js`.
+
+- The dex now contains 405 species, including Pidgeot-Mega and Pinsir-Mega with their ROM-specific stats and abilities.
+- Updated level-up learnsets for Ditto and Mew, added Calm Mind TM compatibility to Butterfree, and removed Ice Beam TM compatibility from Sandy Shocks.
+- Weather Ball (Water) now has 15 PP, matching the calc.
+- Encounters, item and ability definitions are unchanged. Normal Mode data and trainer navigation are unchanged.
+- Added a hard-mode asset version so existing browsers reload the updated override and search index.
+- The workbook comparisons below remain the original v20.5 baseline, not a fresh spreadsheet verification of this ROM.
+
+## Hard Mode Calc Update: 2026-11-06
+
+Current calc ROM: `1636 - Pokemon Fire Red (U)(Squirrels) (patched) (1).gba`.
+SHA256: `835fa6173663d57ffa988b14e63671a10996b228b11d1c5bf86bdc25c436e34b`.
+
+- Regenerated `backups/frd.js` and the hard-mode save constants with the existing layout and exporter.
+- 21 existing party entries changed across trainer IDs 229, 371, 447, 462, 574 and 714. There are still 2331 trainer-party entries.
+- Added Pidgeot-Mega and Pinsir-Mega, resolving ROM names `PIDGEOT-M` and `PINSIR-M` to canonical calc/sprite names.
+- Preserved their ROM-specific stats and abilities: Pidgeot-Mega has 145 Attack, 131 Speed and Limber; Pinsir-Mega has Hyper Cutter.
+- Save species IDs 270 and 271 now resolve to those forms. Normal-mode save tables are unchanged.
+- All 512 trainer-order entries remain valid and unchanged. Move records and previously exported species definitions are unchanged.
+- Normal Mode and DDex data were not regenerated. Only the shared exporter aliases and their tests were extended in DDex.
+
 ## Hard Mode Calc Update: 2026-11-03
 
-Current calc ROM: `1636 - Pokemon Fire Red (U)(Squirrels) (patched).gba`.
+Previous calc ROM: `1636 - Pokemon Fire Red (U)(Squirrels) (patched).gba`.
 SHA256: `d86893c7e48c8ac0b72c8e21bd993ffe8013fac68e279ad42a815b016f904e63`.
 
 Regenerated only `backups/frd.js` using the existing Fire Red Deluxe layout and exporter.

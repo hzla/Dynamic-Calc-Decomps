@@ -59,6 +59,41 @@ describe('Fire Red Deluxe variants', () => {
           cy.get('.opposing.trainer-pok-list img[data-id^="Starmie ("]').click()
           cy.get('input.opposing.set-selector').invoke('val').should('include', 'Starmie (Lvl 33 Beauty Lori')
         })
+
+        it('renders the new Mega trainer sprites with their ROM-specific stats', () => {
+          for (const [name, trainerId, speciesId, attack, speed, ability] of [
+            ['Pinsir-Mega', 574, 271, 155, 105, 'Hyper Cutter'],
+            ['Pidgeot-Mega', 714, 270, 145, 131, 'Limber'],
+          ]) {
+            cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+            cy.window().then(win => {
+              expect(win.eval('g3GetFireRedDeluxeTables()').species[speciesId]).to.eq(name)
+              const lead = win.getSetOptions().find(option => {
+                const set = option.set && win.setdex[option.pokemon]?.[option.set]
+                return set && set.tr_id === trainerId && set.sub_index === 0
+              })
+              expect(lead).to.exist
+              win.expYields = win.expYields || {}
+              win.setOpposing(lead.id)
+            })
+            cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+            cy.get(`.opposing.trainer-pok-list img[data-id^="${name} ("]`)
+              .should($img => expect($img[0].naturalWidth).to.be.greaterThan(0)).click()
+            cy.get('#p2 .at .base').should('have.value', String(attack))
+            cy.get('#p2 .sp .base').should('have.value', String(speed))
+            cy.get('#p2 .ability').should('have.value', ability)
+            cy.get('#p2 .poke-sprite').should($img => {
+              expect($img.attr('src')).to.include(name.toLowerCase())
+              expect($img[0].naturalWidth).to.be.greaterThan(0)
+            })
+            cy.window().then(win => {
+              const mon = win.createPokemon(win.$('#p2'))
+              expect(mon.name).to.eq(name)
+              expect(mon.species.baseStats.atk).to.eq(attack)
+              expect(mon.species.baseStats.spe).to.eq(speed)
+            })
+          }
+        })
       }
 
       it('renders the right Brock team with regional sprites', () => {
