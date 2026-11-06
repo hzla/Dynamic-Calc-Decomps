@@ -51,5 +51,36 @@ describe('Pokemon Null versions', () => {
         cy.get('#p1 .forme').select(base)
       }
     })
+
+    it(`uses Null's 20-BP Water Shuriken against Winston in ${title}`, () => {
+      cy.visit(`/?data=${slug}&evs=0&view=calculator`)
+      cy.window({ timeout: 30000 }).should(win => {
+        expect(win.TITLE).to.eq(title)
+        expect(win.setdex?.Magcargo).to.exist
+        expect(win.eval('initializing')).to.eq(false)
+        expect(win.eval('changingSets')).to.eq(false)
+      })
+      cy.window().then(win => {
+        win.setdex.Greninja = win.setdex.Greninja || {}
+        win.setdex.Greninja['My Box'] = {
+          level: 38, ability: 'Protean', nature: 'Naive', item: '',
+          ivs: { hp: 31, at: 19, df: 31, sa: 31, sd: 24, sp: 25 },
+          moves: ['Water Shuriken', 'Icy Wind', 'Waterfall', 'Low Kick'],
+        }
+        win.$('input.player.set-selector').val('Greninja (My Box)').trigger('change')
+      })
+      cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+      cy.window().then(win => {
+        win.setOpposing('Magcargo (Lvl 36 Rich Boy Winston |Route 104|)')
+      })
+      cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+      cy.get('#p1 .move1 .move-bp').should('have.value', '20')
+      cy.get('#p1 .move1 .move-hits').select('2')
+      cy.get('label[for="resultMoveL1"]').click()
+      cy.get('#resultDamageL1').should('have.text', '96 - 120%')
+      cy.get('#mainResult').should('contain.text', 'Water Shuriken').and('contain.text', '96-120')
+      cy.get('#p1 .move1 .move-hits').select('3')
+      cy.get('#resultDamageL1').should('have.text', '144 - 180%')
+    })
   }
 })
