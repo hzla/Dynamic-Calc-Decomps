@@ -472,6 +472,18 @@ $(document).ready(function() {
 
     $(document).on('click', '#opposing-ko-toggle', toggleMobileOpponentKo)
 
+    $(document).on('change', '#double-ko-preview-toggle', function() {
+        g5DoubleKoPreviewState.enabled = this.checked
+        refresh_next_in()
+    })
+
+    $(document).on('change', '#singles-format, #doubles-format', function() {
+        if (typeof g5DoubleKoPreviewState !== "undefined" &&
+            (g5DoubleKoPreviewState.available || (settings.gameSwitchIn >= 5 && settings.gameSwitchIn <= 7))) {
+            queueRefreshNextIn()
+        }
+    })
+
     $(document).on('click', '#mid-panel-layout-toggle', function() {
         if (!isMidPanelLayoutToggleViewport()) {
             return

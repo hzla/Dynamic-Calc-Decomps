@@ -954,6 +954,59 @@ function g5FinalizeCascadeHybridRankings(phase1Mons, phase2Mons) {
     return g5ApplyMegaSwitchPreviewOrdering(rankedTrainerPoks)
 }
 
+var g5DoubleKoPreviewState = { available: false, enabled: false, teamKey: "" }
+
+function g5ApplyDoubleKoPreview(rankedTrainerPoks) {
+    var state = g5DoubleKoPreviewState
+    var supported = Array.isArray(rankedTrainerPoks) && typeof settings !== "undefined" &&
+        settings.gameSwitchIn >= 5 && settings.gameSwitchIn <= 7 && !settings.noSwitch &&
+        !TITLE.includes("Cascade") && $('#doubles-format').is(':checked') &&
+        !(typeof opposingPreviewState !== "undefined" && opposingPreviewState.mode === 'partner')
+
+    function reset() {
+        state.available = false
+        state.enabled = false
+        state.teamKey = ""
+        return rankedTrainerPoks
+    }
+
+    if (!supported) return reset()
+
+    var partyOrder = rankedTrainerPoks.slice().sort(function(a, b) { return Number(a[3]) - Number(b[3]) })
+    var partyIndices = new Set(partyOrder.map(function(row) { return Number(row[3]) }))
+    // Two opposing trainers select from their own parties, not one combined list.
+    if (partyIndices.size !== partyOrder.length) return reset()
+
+    var currentId = typeof getOpposingFaintDataId === "function" ? getOpposingFaintDataId() : ""
+    var eligible = partyOrder.filter(function(row) {
+        var dataId = row[0].split('[')[0]
+        var isFainted = typeof fainted !== "undefined" && (fainted.includes(row[0]) || fainted.includes(dataId))
+        // The two lead slots and the loaded enemy are already on the field.
+        return Number(row[3]) >= 2 && dataId !== currentId && !isFainted
+    })
+    if (eligible.length < 3) return reset()
+
+    var eligibleIds = new Set(eligible.map(function(row) { return row[0] }))
+    var separateKoOrder = rankedTrainerPoks.filter(function(row) { return eligibleIds.has(row[0]) })
+    var doubleKoOrder = g5ApplyMegaSwitchPreviewOrdering(g5CascadeGameSortRankings(eligible.slice()))
+    var differentPair = separateKoOrder.slice(0, 2).some(function(row, index) {
+        return row[0] !== doubleKoOrder[index][0]
+    })
+    if (!differentPair) return reset()
+
+    var teamKey = TITLE + ':' + settings.gameSwitchIn + ':' + partyOrder.map(function(row) { return row[0] }).join('|')
+    if (state.teamKey !== teamKey) state.enabled = false
+    state.teamKey = teamKey
+    state.available = true
+    if (!state.enabled) return rankedTrainerPoks
+
+    // Preserve the placement of lead/fainted cards while reordering the reserves.
+    var nextIndex = 0
+    return rankedTrainerPoks.map(function(row) {
+        return eligibleIds.has(row[0]) ? doubleKoOrder[nextIndex++] : row
+    })
+}
+
 function get_next_in_g5() {
     var trainer_poks = CURRENT_TRAINER_POKS
     var player_type1 = $('.type1').first().val()

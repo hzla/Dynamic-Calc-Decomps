@@ -37,6 +37,51 @@ describe('Fire Red Deluxe variants', () => {
       })
 
       if (slug === 'frd') {
+        it('uses Z-A Mega sprites for abbreviated species in both panels and team previews', () => {
+          for (const [raw, sprite] of [
+            ['CLEFABLE-M', 'clefable-mega'], ['RAICHU-X', 'raichu-mega-x'],
+            ['RAICHU-Y', 'raichu-mega-y'], ['DRAGONITEM', 'dragonite-mega'],
+          ]) {
+            cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+            cy.window().then(win => {
+              expect(win.getSpriteSpeciesName(raw).toLowerCase()).to.eq(sprite)
+              expect(win.getPreviewSpriteName(raw)).to.eq(sprite)
+              const [, set] = Object.entries(win.setdex[raw]).find(([, data]) => data.sub_index > 0)
+              const lead = win.getSetOptions().find(option => {
+                const data = option.set && win.setdex[option.pokemon]?.[option.set]
+                return data && data.tr_id === set.tr_id && data.sub_index === 0
+              })
+              expect(lead).to.exist
+              win.expYields = win.expYields || {}
+              win.setOpposing(lead.id)
+            })
+            cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+            cy.window().then(win => {
+              const [setName] = Object.entries(win.setdex[raw]).find(([, data]) => data.sub_index > 0)
+              win.$('#p1 .set-selector').val(`${raw} (${setName})`).trigger('change')
+            })
+            cy.window().should(win => expect(win.eval('changingSets')).to.eq(false))
+            cy.get(`.opposing.trainer-pok-list img[data-id^="${raw} ("]`)
+              .should($img => {
+                expect($img.attr('src')).to.include(`/pokesprite/${sprite}.png`)
+                expect($img[0].naturalWidth).to.be.greaterThan(0)
+              }).click()
+            cy.get('#p2 .poke-sprite').should($img => {
+              expect($img.attr('src')).to.include(`/front/${sprite}.gif`)
+              expect($img[0].naturalWidth).to.be.greaterThan(0)
+            })
+            cy.get('#p1 .poke-sprite').should($img => {
+              expect($img.attr('src')).to.include(`/back/${sprite}.gif`)
+              expect($img[0].naturalWidth).to.be.greaterThan(0)
+            })
+            cy.window().then(win => {
+              const mon = win.createPokemon(win.$('#p2'))
+              expect(mon.name).to.eq(raw)
+              expect(mon.species.baseStats.atk).to.eq(win.backup_data.poks[raw].bs.at)
+            })
+          }
+        })
+
         it('loads the revised hard-mode teams from the patched ROM', () => {
           cy.window().then(win => {
             const party = Object.entries(win.setdex).flatMap(([species, sets]) =>

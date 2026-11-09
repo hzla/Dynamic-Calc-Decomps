@@ -3416,6 +3416,26 @@ table td {
     line-height: 1.35;
 }
 
+.trainer-preview-double-ko {
+    grid-column: 1 / -1;
+}
+
+.trainer-preview-double-ko .trainer-preview-double-ko-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.trainer-preview-double-ko-toggle .mini-switch {
+    flex-shrink: 0;
+    width: 32px;
+    height: 16px;
+    margin-right: 0;
+}
+
 .trainer-preview-exp-total {
     width: calc(100% - 20px);
     margin: 18px 10px 0 auto;
@@ -6837,7 +6857,7 @@ table.field {
     .panel-wrapper.mobile-dual-panel-layout #p2 .switch-infos,
     .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-label:not(.opposing-team-heading),
     .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-separator,
-    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-warning {
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-warning:not(.trainer-preview-double-ko) {
         display: none !important;
     }
 

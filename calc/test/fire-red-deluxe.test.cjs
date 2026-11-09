@@ -111,6 +111,37 @@ test('hard-mode Mega additions preserve ROM stats and decode their new save slot
   assert.equal(party.find(mon => mon.tr_id === 714 && mon.sub_index === 3).species, 'Pidgeot-Mega');
 });
 
+test('Deluxe abbreviated Z-A Mega names resolve to existing sprites without changing species data', () => {
+  const ctx = runtime('frd');
+  const controls = read('js/shared_controls.js');
+  vm.runInContext(controls.slice(controls.indexOf('function getLeftPokeSpriteName('),
+    controls.indexOf('function getPspmTotemBoostKey(')), ctx);
+  const previews = read('js/calc_ui/player_box.js');
+  vm.runInContext(previews.slice(previews.indexOf('function getPreviewSpriteName('),
+    previews.indexOf('function isImportedEggSpecies(')), ctx);
+  for (const [raw, sprite] of [
+    ['CLEFABLE-M', 'Clefable-Mega'], ['RAICHU-X', 'Raichu-Mega-X'],
+    ['RAICHU-Y', 'Raichu-Mega-Y'], ['DRAGONITEM', 'Dragonite-Mega'],
+  ]) {
+    for (const title of ['Fire Red Deluxe Hard Mode', 'Fire Red Deluxe Normal Mode']) {
+      ctx.TITLE = title;
+      assert.equal(ctx.getSpriteSpeciesName(raw), sprite);
+      assert.equal(ctx.getLeftPokeSpriteName(raw), sprite.toLowerCase());
+      assert.equal(ctx.getPreviewSpriteName(raw), sprite.toLowerCase());
+    }
+    for (const [folder, extension] of [['front', 'gif'], ['back', 'gif'], ['pokesprite', 'png']]) {
+      assert.ok(fs.existsSync(path.join(root, `img/${folder}/${sprite.toLowerCase()}.${extension}`)));
+    }
+    assert.ok(ctx.backup_data.poks[raw]);
+    ctx.TITLE = 'Emerald but Bad';
+    assert.equal(ctx.getSpriteSpeciesName(raw), raw);
+  }
+  ctx.TITLE = 'Fire Red Deluxe Hard Mode';
+  assert.equal(ctx.getSpriteSpeciesName('URSAPLUFF'), 'Ursaring');
+  assert.equal(ctx.getSpriteSpeciesName('Pikachu-Surfing'), 'Pikachu');
+  assert.equal(ctx.getSpriteSpeciesName('Pidgeot-Mega'), 'Pidgeot-Mega');
+});
+
 test('Deluxe Weather Ball variants retain their clear-weather type and use weather effects', () => {
   global.settings = { type_chart: 3, typeChart: 3, damageGen: 3, critGen: 5, gen: 3, physSpecSplit: false };
   global.TITLE = 'Fire Red Deluxe Hard Mode';
