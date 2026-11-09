@@ -2331,6 +2331,9 @@ function getTrainerPreviewExpTotal(nextPoks) {
 
 function refresh_next_in() {
 	var next_poks = get_next_in()
+	if (typeof g5ApplyDoubleKoPreview === "function") {
+		next_poks = g5ApplyDoubleKoPreview(next_poks)
+	}
 
 	if (!Array.isArray(next_poks)) {
 		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview').html("")
@@ -2524,6 +2527,15 @@ function refresh_next_in() {
 
 	if (shouldShowGen4Phase2AccuracyWarning()) {
 		trpok_html += `<div class="trainer-preview-warning">Please mark fainted pokemon for fully accurate phase 2 dmg simulations for this trainer</div>`
+	}
+	if (typeof g5DoubleKoPreviewState !== "undefined" && g5DoubleKoPreviewState.available) {
+		trpok_html += `<div class="trainer-preview-warning trainer-preview-double-ko">
+			<span>Switch-In order can be different if you double KO in this position</span>
+			<label class="trainer-preview-double-ko-toggle">
+				<span class="switch mini-switch"><input id="double-ko-preview-toggle" type="checkbox"${g5DoubleKoPreviewState.enabled ? ' checked' : ''}><span class="slider"></span></span>
+				<span>Double KO</span>
+			</label>
+		</div>`
 	}
 	if (hasRenderedExpBar && expTotal !== null) {
 		trpok_html += `<div class="trainer-preview-exp-total"><span class="trainer-preview-exp-total-label">Total: </span><span class="trainer-preview-exp-total-value">${expTotal}</span><span class="trainer-preview-exp-total-unit"> EXP</span></div>`
