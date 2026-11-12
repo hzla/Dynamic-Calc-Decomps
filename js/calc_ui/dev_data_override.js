@@ -104,7 +104,8 @@
             type: "select",
             options: [
                 { value: "vanilla", label: "vanilla" },
-                { value: "hge", label: "hge" }
+                { value: "hge", label: "hge" },
+                { value: "tarnished-platinum", label: "Tarnished Platinum" }
             ],
             help: "Advanced mechanics mode used by some save readers."
         },
@@ -555,14 +556,11 @@
     }
 
     function getCurrentBlankConfigValues() {
-        const storedConfig = getStoredDevConfig();
-        if (storedConfig) {
-            return storedConfig;
-        }
         if (typeof window.getCurrentDevBlankConfig === "function") {
-            return window.getCurrentDevBlankConfig();
+            const config = window.getCurrentDevBlankConfig();
+            if (config) return config;
         }
-        return {};
+        return getStoredDevConfig() || {};
     }
 
     function createFieldNode(field, value) {

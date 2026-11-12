@@ -468,7 +468,8 @@ function toggle_additional_field_options() {
 }
 
 function applySyncLuaVisibility() {
-    var syncEnabled = localStorage.syncLua == '1';
+    var syncEnabled = localStorage.syncLua == '1' &&
+        (typeof mechanics === "undefined" || mechanics !== "tarnished-platinum");
     var usesHttpLuaSync = typeof TITLE === "string" && (
         TITLE.includes("Imperium") ||
         TITLE.includes(" Null") ||
