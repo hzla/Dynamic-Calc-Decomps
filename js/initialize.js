@@ -504,6 +504,10 @@ function shouldShowSwitchAiInfo() {
     return Boolean(canUseSwitchAiInfoForTitle() && getSwitchAiInfoEnabled());
 }
 
+function normalizeBlankDevMechanics(value) {
+    return value === "hge" || value === "tarnished-platinum" ? value : "vanilla";
+}
+
 function getBlankDevConfigDefaults() {
     return {
         gen: settings.gen,
@@ -526,7 +530,7 @@ function getBlankDevConfigDefaults() {
         showDex: false,
         showAI: false,
         saveExpansion: getBool('saveExpansion'),
-        mechanics: params.get('mechanics') === "hge" ? "hge" : "vanilla",
+        mechanics: normalizeBlankDevMechanics(params.get('mechanics')),
         baseGame: String(params.get('baseGame') || ""),
         titleOverride: "",
         platinumReduxTypeChart: isPlatinumReduxTypeChartEnabled()
@@ -593,7 +597,8 @@ function getBlankDevTitleOverride() {
 }
 
 function getBlankDevResolvedTitle(fallback = BLANK_DEV_TITLE) {
-    return getBlankDevTitleOverride() || fallback || BLANK_DEV_TITLE;
+    const profileTitle = activeBlankDevConfig?.mechanics === "tarnished-platinum" ? "Tarnished Platinum" : "";
+    return getBlankDevTitleOverride() || profileTitle || fallback || BLANK_DEV_TITLE;
 }
 
 function getDynamicCalcTitle(data) {
@@ -919,6 +924,11 @@ function applyBlankDevConfig(config) {
     mergedConfig.baseGame = "HGSS";
     mergedConfig.readIncludes = true;
     mergedConfig.saveExpansion = true;
+  } else if (mergedConfig.mechanics === "tarnished-platinum") {
+    mergedConfig.baseGame = "Pt";
+    mergedConfig.gen = 9;
+    mergedConfig.readIncludes = true;
+    mergedConfig.saveExpansion = false;
   }
 
   activeBlankDevConfig = mergedConfig;
@@ -948,7 +958,7 @@ function applyBlankDevConfig(config) {
   gameGen = settings.damageGen;
   showDex = !!mergedConfig.showDex;
   showAI = !!mergedConfig.showAI;
-  mechanics = mergedConfig.mechanics === "hge" ? "hge" : "vanilla";
+  mechanics = normalizeBlankDevMechanics(mergedConfig.mechanics);
   save_expansion = !!mergedConfig.saveExpansion;
   window.baseGame = normalizeBaseGameValue(mergedConfig.baseGame);
   baseVersion = getBaseVersionForBaseGameValue(mergedConfig.baseGame);
@@ -1708,7 +1718,9 @@ function setBaseGame(title) {
         window.baseGame = "g7"
     }
 
-    if (window.baseGame == "Pt" || window.baseGame == "HGSS") {
+    if (mechanics === "tarnished-platinum") {
+        $('#sync-lua, #desmume-icon').hide()
+    } else if (window.baseGame == "Pt" || window.baseGame == "HGSS") {
         $('#sync-lua, #desmume-icon').show()
     } else if (window.baseGame == "BW") {
         $('#sync-lua').show()
@@ -2369,7 +2381,9 @@ function loadDataSource(data) {
         ? embeddedIncludes
         : mechanics == "hge" && hgeDefaultIncludes
           ? hgeDefaultIncludes
-          : null
+          : mechanics === "tarnished-platinum"
+            ? window.TARNISHED_PLATINUM_SAVE_INCLUDES
+            : null
 
       if (includeSource) {
         if (mechanics == "hge") {
@@ -2390,7 +2404,7 @@ function loadDataSource(data) {
         sav_abilities = includes["abilities"]
         window.HGE_SAVE_INCLUDES_READY = mechanics == "hge"
         window.HGE_SAVE_INCLUDE_SOURCE = hasCompleteEmbeddedIncludes ? "backup" : "shared-fallback"
-        if (mechanics != "hge" && typeof window.extendSavArraysToGen67 === "function") {
+        if (mechanics !== "hge" && mechanics !== "tarnished-platinum" && typeof window.extendSavArraysToGen67 === "function") {
           window.extendSavArraysToGen67()
         }
       } else {

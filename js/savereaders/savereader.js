@@ -171,6 +171,10 @@ $(document).ready(function() {
     if ($('#save-upload').length > 0) return;
     const file = event.target.files[0];
     if (file) {
+        if (mechanics === "tarnished-platinum") {
+            importTarnishedPlatinumSave(file);
+            return;
+        }
         const reader = new FileReader();
         saveFileName = $('#save-upload-g45').val().split("\\").pop()
         savExt = saveFileName.slice(-3)
@@ -1149,9 +1153,17 @@ function decodeDsNickname(decryptedData, nicknameDataOffset) {
     return nickname.replaceAll('\u0000', '')
 }
 
+function getDsSaveEntry(table, id, unmappedIds) {
+    const name = table[id];
+    if (!name && id && unmappedIds) unmappedIds.add(id);
+    return name;
+}
+
 function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
 
     var showdownString = ""
+    const unmapped = parseContext?.unmappedIds;
+    const useStoredPartyLevel = parseContext?.useStoredPartyLevel;
 
      // Extract the first 4 bytes and convert them to a 32-bit integer
     pv = read32BitIntegerFromUint8Array(chunk)
@@ -1224,7 +1236,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
             encryptedBattleStat.push(word);
         }
 
-        const decryptedBattleStat = decryptData(encryptedBattleStat, pv, battleStatSize)
+        const decryptedBattleStat = decryptData(encryptedBattleStat, pv, useStoredPartyLevel ? battleStats.length / 2 : battleStatSize)
         if (parseContext && Number.isInteger(parseContext.partySlot)) {
             decryptedBattleStats[parseContext.partySlot] = decryptedBattleStat
         } else {
@@ -1266,11 +1278,12 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
         }
         return ""
     }
-    var mon_name = sav_pok_names[rawSpeciesId]
+    var mon_name = getDsSaveEntry(sav_pok_names, rawSpeciesId, unmapped?.species)
 
     try {
        mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name 
    } catch {
+        unmapped?.species.add(rawSpeciesId)
         invalidSavSpeciesDebugCount += 1
         console.log(`failed to parse species id: ${rawSpeciesId}`)
         if (invalidSavSpeciesDebugCount <= 25) {
@@ -1341,7 +1354,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
         } 
     }
 
-    var item_name = sav_item_names[decryptedData[mon_data_offset + 1]]
+    var item_name = getDsSaveEntry(sav_item_names, decryptedData[mon_data_offset + 1], unmapped?.items)
     if (typeof item_name !== "string" || !item_name.trim()) {
         item_name = "None"
     }
@@ -1453,14 +1466,15 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     
 
     var exp_table = expTables[resolveDsSavGrowthRateBySpeciesId(decryptedData[mon_data_offset])]
-    var level = resolveSavLevelFromExperience(mon_name, exp);
+    const partyLevel = is_party && useStoredPartyLevel ? decryptedBattleStats[partySlotIndex][2] & 0xFF : 0;
+    var level = partyLevel >= 1 && partyLevel <= 100 ? partyLevel : resolveSavLevelFromExperience(mon_name, exp);
     if (!Number.isFinite(level)) {
         level = get_level(exp_table, exp);
     }
-    var ability = sav_abilities[(decryptedData[mon_data_offset + 6] >> 8 & 0xFF) ]
+    var ability = getDsSaveEntry(sav_abilities, decryptedData[mon_data_offset + 6] >> 8 & 0xFF, unmapped?.abilities)
     var parsedMoveNames = []
     for (let i = 0; i < 4; i++) {
-        parsedMoveNames.push(sav_move_names[decryptedData[move_data_offset + i]])
+        parsedMoveNames.push(getDsSaveEntry(sav_move_names, decryptedData[move_data_offset + i], unmapped?.moves))
     }
 
     if (baseGame == "BW" && parseContext && !isEgg) {
@@ -1525,6 +1539,7 @@ function parsePKM(chunk, is_party=false, offset=0, parseContext=null) {
     showdownString += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[4]} SpA / ${ivs[5]} SpD / ${ivs[3]} Spe\n`
 
     for (let i = 0; i < parsedMoveNames.length; i++) {
+        if (unmapped && (!parsedMoveNames[i] || parsedMoveNames[i] === "-----")) continue;
         showdownString += `- ${parsedMoveNames[i]}\n`
     }
 

@@ -8,6 +8,9 @@
     function restoreData() {
         calc.SPECIES = JSON.parse(JSON.stringify(window.calcVanillaData.species));
         calc.MOVES = JSON.parse(JSON.stringify(window.calcVanillaData.moves));
+        if (typeof mechanics !== "undefined" && mechanics === "tarnished-platinum") {
+            addTarnishedPlatinumCosmeticForms(calc.SPECIES[9]);
+        }
         SPECIES_BY_ID.length = 0;
         MOVES_BY_ID.length = 0;
         calc.SPECIES.forEach(function (species, generation) {
