@@ -3688,8 +3688,17 @@ storageLoc = getPokemonNullMapSymbol("gPokemonStorage") or storageLoc
 speciesInfo = getPokemonNullMapSymbol("gSpeciesInfo") or speciesInfo
 speciesNameTable = getPokemonNullMapSymbol("gSpeciesNames") or speciesNameTable
 
+local function getPokemonNullRomTables()
+	-- The 1.2.6 GetLevelFromBoxMonExp literal pool identifies both relocated tables.
+	if emu:read32(0x08089034) == 0x083E3F50 and emu:read32(0x08089038) == 0x083E4BF0 then
+		return 0x083E4BF0, 0x083E3F50
+	end
+	return speciesInfo
+end
+
 function getCurve(n)
-	return emu:read8(speciesInfo+(36*n)+21)
+	local speciesTable = getPokemonNullRomTables()
+	return emu:read8(speciesTable+(36*n)+21)
 end
 function slowCurve(n)
     return math.floor((5*(n^3))/4)
@@ -3726,15 +3735,19 @@ function flutuatingCurve(n)
 end
 
 function calcLevel(exp, species)
-	level = 1
-	while (exp>=expRequired(species,level+1)) do
+	local level = 1
+	while level < 100 and exp >= expRequired(species, level+1) do
 		level=level+1
 	end
 	return level
 end
 
 function expRequired(species,level)
-	expCurve = getCurve(species)
+	local speciesTable, expTable = getPokemonNullRomTables()
+	local expCurve = emu:read8(speciesTable+(36*species)+21)
+	if expTable and expCurve <= 5 then
+		return emu:read32(expTable + (expCurve * 101 + level) * 4)
+	end
 	if (expCurve == 0) then return medfastCurve(level) end
 	if (expCurve == 1) then return erraticCurve(level) end
 	if (expCurve == 2) then return flutuatingCurve(level) end
@@ -3911,11 +3924,13 @@ function readPartyMon(address)
 end
 
 function getTest(n)
-	return console:log(string.format("%d",emu:read16(speciesInfo+(36*n)+24)))
+	local speciesTable = getPokemonNullRomTables()
+	return console:log(string.format("%d",emu:read16(speciesTable+(36*n)+24)))
 end
 
 function getAbility(mon)
-	current = abilities[emu:read16(speciesInfo+(36*mon.species)+24+(mon.altAbility*2))]
+	local speciesTable = getPokemonNullRomTables()
+	current = abilities[emu:read16(speciesTable+(36*mon.species)+24+(mon.altAbility*2))]
     if (current == "None") then
         current = ability[(mon.species*3)+1]
     end

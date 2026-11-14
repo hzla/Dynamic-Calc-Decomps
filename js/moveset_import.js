@@ -3569,8 +3569,15 @@ $("#sync-lua").click(() => {
 			});
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			const nullLuaFile = TITLE === "Pokemon Null 1.2.5" ? "pokemonnull1.2.5.lua" : "pokemonnullv1.1.lua";
-			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the matching Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/" + nullLuaFile + "\n\nYou can view logs/frags on the Battle Logs tab of the Fragsheet page.");
+			const nullLuaBase = "https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/";
+			const nullLuaFile = TITLE === "Pokemon Null 1.2.6" ? "pokemonnull1.2.6.lua"
+				: TITLE === "Pokemon Null 1.2.5" ? "pokemonnull1.2.5.lua"
+				: TITLE === "Pokemon Null 1.2" ? "pokemonnull1.2.lua" : "pokemonnullv1.1.lua";
+			const null126Link = TITLE === "Pokemon Null 1.2" || TITLE === "Pokemon Null 1.2.5"
+				? "\nFor the 1.2.6 ROM: " + nullLuaBase + "pokemonnull1.2.6.lua" : "";
+			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the matching Lua script here: "
+				+ nullLuaBase + nullLuaFile + null126Link
+				+ "\n\nYou can view logs/frags on the Battle Logs tab of the Fragsheet page.");
 		}).finally(resetSyncState);
 		return;
 	}
