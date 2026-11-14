@@ -7,18 +7,11 @@ var vm = require("vm");
 var parser = require("../../js/savereaders/savereader_radicalred.js");
 var rrConstants = require("../../js/savereaders/save_constants/radical_red_constants.js");
 var rrDexAbilityConstants = require("../../js/savereaders/save_constants/radical_red_dex_ability_constants.js");
+var rrGrowthGroups = require("../../js/savereaders/save_constants/radical_red_growth_constants.js");
 
-function loadGlobalScript(relativePath) {
-  var absolutePath = path.resolve(__dirname, relativePath);
-  var code = fs.readFileSync(absolutePath, "utf8");
-  vm.runInThisContext(code, { filename: absolutePath });
-}
-
-function ensureLevelDependenciesLoaded() {
-  if (typeof global.expTables === "undefined" || typeof global.get_level !== "function") {
-    loadGlobalScript("../../js/savereaders/enums.js");
-  }
-}
+var saveEnumsPath = path.resolve(__dirname, "../../js/savereaders/enums.js");
+var saveEnums = {};
+vm.runInNewContext(fs.readFileSync(saveEnumsPath, "utf8"), saveEnums, { filename: saveEnumsPath });
 
 function writeU16LE(bytes, offset, value) {
   bytes[offset] = value & 0xFF;
@@ -94,19 +87,13 @@ describe("Radical Red save reader helpers", function () {
   });
 
   test("resolves a level from a supplied exp table", function () {
-    var expTable = [0, 0, 100, 300, 600, 1000];
-    function getLevel(table, exp) {
-      var level = 1;
-      for (var i = 1; i < table.length; i++) {
-        if (table[i] <= exp) {
-          level = i;
-        }
-      }
-      return level;
-    }
-
-    expect(parser.__test.resolveLevelFromExpTable(expTable, 350, getLevel)).toBe(3);
-    expect(parser.__test.resolveLevelFromExpTable(expTable, 999, getLevel)).toBe(4);
+    var expTable = saveEnums.expTables[0];
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 0)).toBe(1);
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 39303)).toBe(33);
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 39304)).toBe(34);
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 999999)).toBe(99);
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 1000000)).toBe(100);
+    expect(parser.__test.resolveLevelFromExpTable(expTable, 1000001)).toBe(100);
   });
 
   test("maps randomized abilities through the normal and restricted pools", function () {
@@ -232,55 +219,41 @@ describe("Radical Red save reader helpers", function () {
     expect(parser.__test.monToShowdown(parsedBoxedMon).split("\n")[0]).toBe("Rabsca @ Wise Glasses");
   });
 
-  test("uses the active level cap instead of deriving Radical Red levels from EXP", function () {
-    var boltundId = rrConstants.mons.indexOf("Boltund");
-    var rabscaId = rrConstants.mons.indexOf("Rabsca");
-    expect(boltundId).toBeGreaterThan(0);
-    expect(rabscaId).toBeGreaterThan(0);
-
-    var partyMon = new Uint8Array(100);
-    writeU32LE(partyMon, 0, 2);
-    writeU16LE(partyMon, 32, boltundId);
-    writeU32LE(partyMon, 36, 1);
+  test("uses the stored party level and derives each boxed level from its native growth group", function () {
+    var partyMon = makeMonStruct(rrConstants.mons.indexOf("Boltund"), true);
+    writeU32LE(partyMon, 36, 0);
     partyMon[84] = 27;
+    var boxed = [
+      ["Jolteon", 39304, 34],
+      ["Milotic-Sevii", 51881, 34],
+      ["Vikavolt", 103827, 47],
+      ["Krookodile", 33104, 34],
+      ["Boltund", 15746, 27],
+      ["Clawitzer", 106480, 44]
+    ];
+    var save = makeSave([partyMon], boxed.map(function (entry) {
+      var mon = makeMonStruct(rrConstants.mons.indexOf(entry[0]), false);
+      writeU32LE(mon, 32, entry[1]);
+      return mon;
+    }));
+    var parsed = parser.parseRadicalRedSaveFile(save, { expTables: saveEnums.expTables });
 
-    var parsedPartyMon = parser.__test.parsePartyMon(partyMon, 1, { randomAbilities: false }, {
-      levelCap: 44,
-      learnsets: { boltund: { gr: 4 } },
-      expTables: [[0], [0], [0], [0], [0, 1]],
-      getLevelFn: function () { return 2; }
-    });
-    expect(parsedPartyMon.exp).toBe(1);
-    expect(parsedPartyMon.level).toBe(44);
+    expect(parsed.parsedParty[0].level).toBe(27);
+    expect(parsed.parsedBoxes.map(function (mon) {
+      return [mon.speciesName, mon.exp, mon.level];
+    })).toEqual(boxed);
+    expect(parsed.showdownImport).toContain("Clawitzer\nLevel: 44\n");
 
-    var boxedMon = new Uint8Array(58);
-    writeU32LE(boxedMon, 0, 2);
-    writeU16LE(boxedMon, 28, rabscaId);
-    writeU32LE(boxedMon, 32, 1);
-
-    var parsedBoxedMon = parser.__test.parseBoxMon(boxedMon, 1, { randomAbilities: false }, {
-      levelCap: 44,
-      learnsets: { rabsca: { gr: 4 } },
-      expTables: [[0], [0], [0], [0], [0, 1]],
-      getLevelFn: function () { return 2; }
-    });
-    expect(parsedBoxedMon.exp).toBe(1);
-    expect(parsedBoxedMon.level).toBe(44);
+    var override = parser.parseRadicalRedSaveFile(save, { levelCap: 85, expTables: saveEnums.expTables });
+    expect(override.parsedParty.concat(override.parsedBoxes).map(function (mon) { return mon.level; }))
+      .toEqual([85, 85, 85, 85, 85, 85, 85]);
   });
 
-  test("reads the current app level cap when no explicit Radical Red level cap is supplied", function () {
-    var previousGetActiveLevelCap = global.getActiveLevelCap;
-    global.getActiveLevelCap = function () { return "36"; };
-
-    try {
-      expect(parser.__test.resolveLevelCap(27, {})).toBe(36);
-    } finally {
-      if (typeof previousGetActiveLevelCap === "undefined") {
-        delete global.getActiveLevelCap;
-      } else {
-        global.getActiveLevelCap = previousGetActiveLevelCap;
-      }
-    }
+  test("has a ROM growth group for every importable species ID", function () {
+    var missing = rrConstants.mons.filter(function (name, id) {
+      return name && name !== "-----" && name !== "None" && !/^[0-5]$/.test(rrGrowthGroups[id]);
+    });
+    expect(missing).toEqual([]);
   });
 
   test("treats RR saves with randomized abilities enabled as randomized regardless of the UI toggle", function () {
@@ -495,27 +468,11 @@ describe("Radical Red local save validation", function () {
   var savePath = process.env.RADICAL_RED_SAVE_PATH;
   var maybeTest = savePath ? test : test.skip;
 
-  maybeTest("parses a local Radical Red save with level-cap levels and randomized abilities", function () {
-    ensureLevelDependenciesLoaded();
-
+  maybeTest("parses a local Radical Red save with saved levels and randomized abilities", function () {
     var save = fs.readFileSync(savePath);
-    var sampledLearnsets = {
-      talonflame: { gr: 3 },
-      gholdengo: { gr: 5 },
-      kommoo: { gr: 5 },
-      lunala: { gr: 5 },
-      lopunny: { gr: 0 },
-      tapufini: { gr: 5 },
-      samurotthisui: { gr: 3 },
-      ursalunabloodmoon: { gr: 0 },
-      fluttermane: { gr: 5 },
-    };
     var randomized = parser.parseRadicalRedSaveFile(save, {
       randomizedAbilitiesEnabled: false,
-      levelCap: 85,
-      learnsets: sampledLearnsets,
-      expTables: global.expTables,
-      getLevelFn: global.get_level,
+      expTables: saveEnums.expTables
     });
 
     expect(randomized.parsedParty.length).toBeGreaterThan(0);
@@ -526,7 +483,9 @@ describe("Radical Red local save validation", function () {
       expect(randomized.parsedParty).toHaveLength(4);
       expect(randomized.parsedBoxes).toHaveLength(15);
       expect(randomized.rrSaveInfo.randomAbilities).toBe(true);
-      var abilities = Object.fromEntries(randomized.parsedParty.concat(randomized.parsedBoxes).map(function (mon) {
+      var mons = randomized.parsedParty.concat(randomized.parsedBoxes);
+      expect(mons.every(function (mon) { return mon.level === 34; })).toBe(true);
+      var abilities = Object.fromEntries(mons.map(function (mon) {
         return [mon.speciesName, mon.abilityName];
       }));
       expect(abilities).toMatchObject({
@@ -539,27 +498,10 @@ describe("Radical Red local save validation", function () {
       });
     }
 
-    if (path.basename(savePath) === "Radical Red 4.1.sav") {
-      expect(randomized.parsedParty.slice(0, 6).map(function (mon) { return mon.speciesName; })).toEqual([
-        "Talonflame",
-        "Gholdengo",
-        "Kommo-o",
-        "Lunala",
-        "Lopunny",
-        "Tapu Fini",
-      ]);
-      expect(randomized.parsedParty.slice(0, 6).map(function (mon) { return mon.level; })).toEqual([85, 85, 85, 85, 85, 85]);
-      expect(randomized.parsedBoxes[0].speciesName).toBe("Samurott-Hisui");
-      expect(randomized.parsedBoxes[0].level).toBe(85);
-      expect(randomized.rrSaveInfo.randomAbilities).toBe(true);
-      expect(randomized.parsedParty[0].abilityName).toBe("Iron Fist");
-      expect(randomized.parsedParty[1].abilityName).toBe("Bone Zone");
-      expect(randomized.parsedParty[5].speciesName).toBe("Dragapult");
-      expect(randomized.parsedParty[5].abilityName).toBe("Download");
-      expect(randomized.parsedBoxes[1].speciesName).toBe("Wobbuffet");
-      expect(randomized.parsedBoxes[1].abilityName).toBe("Delta Stream");
-      expect(randomized.parsedBoxes[9].speciesName).toBe("Leavanny");
-      expect(randomized.parsedBoxes[9].abilityName).toBe("Pickup");
+    if (path.basename(savePath) === "RadicalRed 4.1 (New).sav") {
+      expect(randomized.parsedParty[0]).toMatchObject({ speciesName: "Lucario", level: 68 });
+      expect(randomized.parsedBoxes[0]).toMatchObject({ speciesName: "Stunfisk-Galar", level: 73 });
+      expect(randomized.parsedBoxes[4]).toMatchObject({ speciesName: "Clawitzer", level: 44 });
     }
   });
 });

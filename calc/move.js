@@ -26,6 +26,9 @@ function getMoveCategory(gen, data, type) {
 }
 exports.shouldUsePhysSpecSplit = shouldUsePhysSpecSplit;
 exports.getMoveCategory = getMoveCategory;
+function getLockedMoveBasePower(moveName) {
+    return typeof TITLE !== 'undefined' && TITLE === 'Ancestral X' && moveName === 'Return' ? 102 : undefined;
+}
 var Move = (function () {
     function Move(gen, name, options) {
         if (options === void 0) { options = {}; }
@@ -96,7 +99,7 @@ var Move = (function () {
         this.useMax = options.useMax;
         this.overrides = options.overrides;
         this.species = options.species;
-        this.bp = options.basePower || data.basePower;
+        this.bp = getLockedMoveBasePower(this.name) ?? (options.basePower || data.basePower);
         var typelessDamage = (gen.num >= 2 && data.id === 'struggle') ||
             (gen.num <= 4 && ['futuresight', 'doomdesire'].includes(data.id));
         this.type = typelessDamage ? '???' : data.type;

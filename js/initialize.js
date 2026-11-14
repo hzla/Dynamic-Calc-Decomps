@@ -1098,6 +1098,7 @@ function getCurrentBackupFileName() {
 }
 
 const backupFileCacheKeys = {
+    wishywashywhite2redux: "20261114",
     vw: "original-20261101",
     frd: "20261106",
     frdnormal: "20261028",
@@ -1749,7 +1750,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?double-ko-preview1';
+  script.src= './js/shared_controls.js?ancestral-x-return1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -2069,8 +2070,10 @@ function applyExportedMoveData(target, source, moveName, moveId) {
     targetMove.willCrit = source.eff === "ALWAYS"
   }
 
-  var basePower = source.basePower
-  if (typeof basePower === "undefined") basePower = source.bp
+  var basePower = getLockedMoveBasePower(moveName)
+  if (typeof basePower === "undefined") {
+    basePower = typeof source.basePower === "undefined" ? source.bp : source.basePower
+  }
   targetMove.name = moveName
   targetMove.id = moveId
   targetMove.bp = basePower

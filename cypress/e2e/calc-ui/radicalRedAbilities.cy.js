@@ -65,6 +65,34 @@ describe('Radical Red numeric ability slots', () => {
     })
   }
 
+  it('keeps saved party and boxed levels even when a level cap is set', () => {
+    const bytes = new Uint8Array(0x20000)
+    const view = new DataView(bytes.buffer)
+    view.setUint16(0xEFFC, 0xFFFF, true)
+    bytes[0x1034] = 1
+
+    const party = 0x1038
+    bytes.set([2, 2], party + 18)
+    view.setUint16(party + 32, 642, true) // Escavalier
+    view.setUint32(party + 36, 27000, true)
+    bytes[party + 84] = 30
+
+    const box = 0x5004
+    bytes.set([2, 2], box + 18)
+    view.setUint16(box + 28, 135, true) // Jolteon
+    view.setUint32(box + 32, 8000, true)
+
+    cy.get('#lvl-cap').should('have.value', '34')
+    cy.get('#save-upload').selectFile({contents: Cypress.Buffer.from(bytes), fileName: 'radical-red-levels.sav'}, {force: true})
+    cy.window().should(win => {
+      const sets = JSON.parse(win.localStorage.customsets)
+      expect(sets.Escavalier['My Box'].level).to.eq(30)
+      expect(sets.Jolteon['My Box'].level).to.eq(20)
+    })
+    cy.get('.player-poks [data-id="Jolteon (My Box)"]').click()
+    cy.get('#levelL1').should('have.value', '20')
+  })
+
   const savePath = Cypress.env('radicalRedSavePath')
   const testSave = savePath ? it : it.skip
   testSave('corrects the reported save through the actual file-upload control', () => {

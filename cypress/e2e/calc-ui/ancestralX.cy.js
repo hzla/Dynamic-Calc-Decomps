@@ -78,6 +78,35 @@ describe('Ancestral X calc configuration', () => {
     })
   })
 
+  it('locks Return to 102 BP in the panels and the damage calculation', () => {
+    cy.window().should((win) => {
+      expect(win.eval('DEFAULTS_LOADED && !initializing && !changingSets')).to.eq(true)
+      expect(win.moves.Return.bp).to.eq(102)
+      expect(win.MOVES_BY_ID[8].return.basePower).to.eq(102)
+    })
+
+    for (const panel of ['#p1', '#p2']) {
+      cy.get(`${panel} .move1 select.move-selector`).select('Return', { force: true })
+      cy.get(`${panel} .move1 .move-bp`).should('have.value', '102').and('have.prop', 'readOnly', true)
+    }
+
+    cy.window().then((win) => {
+      const moveInfo = win.$('#p1 .move1')
+      moveInfo.find('.move-bp').val(1)
+      const returnMove = win.getMoveDetails(moveInfo, 'Tauros')
+      const field = new win.calc.Field()
+      const attacker = new win.calc.Pokemon(8, 'Tauros', { item: 'None', moves: ['Tackle'] })
+      const defender = new win.calc.Pokemon(8, 'Blastoise', { item: 'None', moves: ['Tackle'] })
+      const equivalentMove = new win.calc.Move(8, 'Tackle', { basePower: 102 })
+      expect(returnMove.bp).to.eq(102)
+      expect(win.calc.calculate(6, attacker, defender, returnMove, field).damage)
+        .to.deep.eq(win.calc.calculate(6, attacker, defender, equivalentMove, field).damage)
+    })
+
+    cy.get('#p1 .move1 select.move-selector').select('Tackle', { force: true })
+    cy.get('#p1 .move1 .move-bp').should('have.prop', 'readOnly', false)
+  })
+
   it('applies baked-in replacements when adding regular custom sets', () => {
     cy.window().its('backup_data.move_replacements').should('have.property', 'Vice Grip', 'Tussle')
 

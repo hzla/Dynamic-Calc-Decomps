@@ -1455,7 +1455,10 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	var move = moves[moveName] || moves['(No Move)'];
 
 	var moveGroupObj = $(moveObj).parent();
-	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
+	var lockedBasePower = getLockedMoveBasePower(moveName);
+	moveGroupObj.children(".move-bp")
+		.val(lockedBasePower ?? (moveName === 'Present' ? 40 : move.bp))
+		.prop("readOnly", lockedBasePower !== undefined);
 
 	const isPlayer = $(moveObj).parents("#p1").length > 0
 	const moveIndex = $(moveObj).parent().attr('class')[4]

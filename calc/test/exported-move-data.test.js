@@ -4,16 +4,27 @@ var fs = require("fs");
 var path = require("path");
 var vm = require("vm");
 
-function loadExportedMoveMerger() {
+function loadExportedMoveMerger(title) {
     var source = fs.readFileSync(path.join(__dirname, "../../js/initialize.js"), "utf8");
+    var moveSource = fs.readFileSync(path.join(__dirname, "../move.js"), "utf8");
     var start = source.indexOf("function applyExportedMoveData");
     var end = source.indexOf("\nfunction loadMovesData", start);
-    var context = {};
-    vm.runInNewContext(source.slice(start, end), context);
+    var context = vm.createContext({ TITLE: title, exports: {}, require: () => require("../util") });
+    vm.runInContext(moveSource, context);
+    vm.runInContext(source.slice(start, end), context);
     return context.applyExportedMoveData;
 }
 
 describe("exported move metadata", function () {
+    test("Ancestral X keeps Return at 102 BP when merging an exported placeholder", function () {
+        var source = { basePower: 1, category: "Physical", type: "Normal" };
+        var result = loadExportedMoveMerger("Ancestral X")({}, source, "Return", "return");
+        expect(result).toMatchObject({ bp: 102, basePower: 102 });
+        expect(source.basePower).toBe(1);
+        expect(loadExportedMoveMerger("Ancestral X")({}, source, "Frustration", "frustration").bp).toBe(1);
+        expect(loadExportedMoveMerger("Other Game")({}, source, "Return", "return").bp).toBe(1);
+    });
+
     test("ROM effect data replaces stale vanilla always-crit metadata", function () {
         var merge = loadExportedMoveMerger();
 

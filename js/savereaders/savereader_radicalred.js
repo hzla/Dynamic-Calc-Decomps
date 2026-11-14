@@ -4,7 +4,8 @@
       require("./save_constants/radical_red_constants.js"),
       require("./save_constants/radical_red_randomizer_constants.js"),
       require("./save_constants/radical_red_dex_ability_constants.js"),
-      require("./save_constants/radical_red_item_constants.js")
+      require("./save_constants/radical_red_item_constants.js"),
+      require("./save_constants/radical_red_growth_constants.js")
     );
     return;
   }
@@ -13,11 +14,12 @@
     root.radicalRedSaveConstants || null,
     root.radicalRedRandomizerConstants || null,
     root.radicalRedDexAbilityConstants || null,
-    root.radicalRedItemConstants || null
+    root.radicalRedItemConstants || null,
+    root.radicalRedGrowthGroups || null
   );
   root.radicalRedSaveReader = api;
   root.parseRadicalRedSaveFile = api.parseRadicalRedSaveFile;
-})(typeof globalThis !== "undefined" ? globalThis : this, function (constants, randomizerConstants, dexAbilityConstants, itemConstants) {
+})(typeof globalThis !== "undefined" ? globalThis : this, function (constants, randomizerConstants, dexAbilityConstants, itemConstants, growthGroups) {
   "use strict";
 
   if (!constants) {
@@ -31,6 +33,9 @@
   }
   if (!itemConstants) {
     throw new Error("Radical Red item constants are required.");
+  }
+  if (!growthGroups) {
+    throw new Error("Radical Red growth group constants are required.");
   }
 
   var RR_SAVE_BLOCK_SIZE = 0xE000;
@@ -133,26 +138,11 @@
     return undefined;
   }
 
-  function rrGetLearnsets(options) {
-    if (options && options.learnsets) {
-      return options.learnsets;
-    }
-    return rrGetGlobalValue("learnsets");
-  }
-
   function rrGetExpTables(options) {
     if (options && options.expTables) {
       return options.expTables;
     }
     return rrGetGlobalValue("expTables");
-  }
-
-  function rrGetLevelFunction(options) {
-    if (options && typeof options.getLevelFn === "function") {
-      return options.getLevelFn;
-    }
-    var getLevelFn = rrGetGlobalValue("get_level");
-    return typeof getLevelFn === "function" ? getLevelFn : null;
   }
 
   function rrLocalStorageFlag(key) {
@@ -478,35 +468,17 @@
     return rrResolveAbilityNameById(randomizedAbilityId) || baseAbilityName;
   }
 
-  function rrResolveGrowthRate(speciesName, options) {
-    var learnsets = rrGetLearnsets(options);
-    if (!learnsets || !speciesName) {
+  function rrResolveLevelFromExpTable(expTable, exp) {
+    if (!Array.isArray(expTable)) {
       return null;
     }
-
-    var candidates = rrNormalizeLookupCandidates(speciesName).map(function (candidate) {
-      return candidate.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-    });
-
-    for (var i = 0; i < candidates.length; i++) {
-      var learnset = learnsets[candidates[i]];
-      if (learnset && Number.isFinite(learnset.gr)) {
-        return learnset.gr;
+    // The shared tables start at level 1 (not level 0).
+    for (var level = Math.min(expTable.length, RR_MAX_LEVEL); level >= 1; level--) {
+      if (exp >= expTable[level - 1]) {
+        return level;
       }
     }
     return null;
-  }
-
-  function rrResolveLevelFromExpTable(expTable, exp, getLevelFn) {
-    if (!Array.isArray(expTable) || typeof getLevelFn !== "function") {
-      return null;
-    }
-    try {
-      var level = getLevelFn(expTable, exp);
-      return (level >= 1 && level <= RR_MAX_LEVEL) ? level : null;
-    } catch (_err) {
-      return null;
-    }
   }
 
   function rrNormalizeLevel(level) {
@@ -516,49 +488,15 @@
       : null;
   }
 
-  function rrResolveLevelCap(fallbackLevel, options) {
-    if (options && typeof options.levelCap !== "undefined") {
-      var optionCap = rrNormalizeLevel(options.levelCap);
-      if (optionCap) {
-        return optionCap;
-      }
+  function rrResolveLevel(speciesId, exp, partyLevel, options) {
+    var savedLevel = rrNormalizeLevel(options && options.levelCap) || rrNormalizeLevel(partyLevel);
+    if (savedLevel) {
+      return savedLevel;
     }
 
-    var getActiveLevelCap = rrGetGlobalValue("getActiveLevelCap");
-    if (typeof getActiveLevelCap === "function") {
-      var activeCap = rrNormalizeLevel(getActiveLevelCap(fallbackLevel));
-      if (activeCap) {
-        return activeCap;
-      }
-    }
-
-    var globalCap = rrNormalizeLevel(rrGetGlobalValue("lvlCap"));
-    if (globalCap) {
-      return globalCap;
-    }
-
-    if (typeof document !== "undefined") {
-      var levelCapInput = document.getElementById("lvl-cap");
-      if (levelCapInput) {
-        var inputCap = rrNormalizeLevel(levelCapInput.value);
-        if (inputCap) {
-          return inputCap;
-        }
-      }
-    }
-
-    if (typeof localStorage !== "undefined") {
-      var storageCap = rrNormalizeLevel(localStorage.lvlCap);
-      if (storageCap) {
-        return storageCap;
-      }
-    }
-
-    return rrNormalizeLevel(fallbackLevel);
-  }
-
-  function rrResolveLevel(speciesName, exp, fallbackLevel, options) {
-    return rrResolveLevelCap(fallbackLevel, options) || RR_MAX_LEVEL;
+    var expTables = rrGetExpTables(options);
+    var growthGroup = growthGroups[speciesId];
+    return rrResolveLevelFromExpTable(expTables && expTables[growthGroup], exp) || RR_MAX_LEVEL;
   }
 
   function rrDecodePackedMoveIds(packedBytes) {
@@ -757,6 +695,7 @@
     speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolvePartyAbilitySlot(monStruct);
     var itemId = rrReadU16LE(monStruct, 34);
+    var exp = rrReadU32LE(monStruct, 36);
 
     var moveIds = [
       rrReadU16LE(monStruct, 44),
@@ -775,8 +714,8 @@
       speciesId: speciesId >>> 0,
       speciesName: speciesName,
       gender: speciesName === "Jellicent-F" ? "F" : undefined,
-      exp: rrReadU32LE(monStruct, 36) >>> 0,
-      level: rrResolveLevel(speciesName, rrReadU32LE(monStruct, 36) >>> 0, rrReadU8(monStruct, 84), options),
+      exp: exp,
+      level: rrResolveLevel(speciesId, exp, rrReadU8(monStruct, 84), options),
       natureName: rrNatures[pid % 25] || "Hardy",
       abilitySlot: abilitySlot,
       abilityName: rrResolveAbilityName(speciesName, speciesId, abilitySlot, saveInfo, options),
@@ -802,6 +741,7 @@
     speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolveBoxAbilitySlot(monStruct);
     var itemId = rrReadU16LE(monStruct, 30);
+    var exp = rrReadU32LE(monStruct, 32);
 
     var moveIds = rrDecodePackedMoveIds(monStruct.subarray(39, 45));
     var moveNames = rrMapMoveIdsToNames(moveIds).filter(function (moveName) {
@@ -815,8 +755,8 @@
       speciesId: speciesId >>> 0,
       speciesName: speciesName,
       gender: speciesName === "Jellicent-F" ? "F" : undefined,
-      exp: rrReadU32LE(monStruct, 32) >>> 0,
-      level: rrResolveLevel(speciesName, rrReadU32LE(monStruct, 32) >>> 0, null, options),
+      exp: exp,
+      level: rrResolveLevel(speciesId, exp, null, options),
       natureName: rrNatures[pid % 25] || "Hardy",
       abilitySlot: abilitySlot,
       abilityName: rrResolveAbilityName(speciesName, speciesId, abilitySlot, saveInfo, options),
@@ -1050,7 +990,6 @@
       readRandomizerSaveInfo: rrReadRandomizerSaveInfo,
       resolveActiveLayout: rrResolveActiveLayout,
       resolveLevelFromExpTable: rrResolveLevelFromExpTable,
-      resolveLevelCap: rrResolveLevelCap,
       resolveAbilityNameById: rrResolveAbilityNameById,
       resolveBaseAbilityId: rrResolveBaseAbilityId,
       resolveGenderedSpeciesName: rrResolveGenderedSpeciesName,
