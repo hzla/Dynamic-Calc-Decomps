@@ -25,6 +25,17 @@
             help: "Generation of battle mechanics for the calculator."
         },
         {
+            name: "coldWeather",
+            label: "Cold Weather",
+            type: "select",
+            options: [
+                { value: "auto", label: "Auto (Damage Gen)" },
+                { value: "hail", label: "Hail only" },
+                { value: "snow", label: "Snow only" },
+                { value: "both", label: "Hail and Snow" }
+            ]
+        },
+        {
             name: "typeChart",
             label: "Type Chart",
             type: "number",
@@ -733,7 +744,13 @@
             event.preventDefault();
             const values = collectConfigFormValues(elements.form);
             saveStoredDevConfig(values);
-            window.location.reload();
+            const url = new URL(window.location.href);
+            if (url.searchParams.get("forceBlankConfig") === "1") {
+                url.searchParams.delete("forceBlankConfig");
+                window.location.replace(url.href);
+            } else {
+                window.location.reload();
+            }
         });
     }
 

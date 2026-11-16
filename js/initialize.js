@@ -508,10 +508,15 @@ function normalizeBlankDevMechanics(value) {
     return value === "hge" || value === "tarnished-platinum" ? value : "vanilla";
 }
 
+function normalizeBlankDevColdWeather(value) {
+    return ["hail", "snow", "both"].includes(value) ? value : "auto";
+}
+
 function getBlankDevConfigDefaults() {
     return {
         gen: settings.gen,
         damageGen: settings.damageGen,
+        coldWeather: normalizeBlankDevColdWeather(params.get('coldWeather')),
         typeChart: settings.typeChart,
         switchIn: settings.switchIn,
         gameSwitchIn: settings.switchIn,
@@ -911,6 +916,13 @@ function updateMastersheetLink() {
   mastersheetLink.href = targetUrl.toString();
 }
 
+function getBlankDevColdWeather() {
+  if (settings.damageGen < 3) return "";
+  if (settings.coldWeather === "hail") return "Hail";
+  if (settings.coldWeather === "snow") return "Snow";
+  return settings.damageGen >= 9 ? "Snow" : "Hail";
+}
+
 function applyBlankDevConfig(config) {
   const defaults = getBlankDevConfigDefaults();
   const mergedConfig = {
@@ -935,6 +947,8 @@ function applyBlankDevConfig(config) {
 
   settings.gen = Number(mergedConfig.gen) || defaults.gen;
   settings.damageGen = Number(mergedConfig.damageGen) || defaults.damageGen;
+  mergedConfig.coldWeather = normalizeBlankDevColdWeather(mergedConfig.coldWeather);
+  settings.coldWeather = mergedConfig.coldWeather;
   settings.typeChart = Number(mergedConfig.typeChart) || defaults.typeChart;
   settings.type_chart = settings.typeChart;
   settings.defaultTypeChart = settings.typeChart;
@@ -976,8 +990,14 @@ function applyBlankDevConfig(config) {
   }
   $('#sync-lua, #desmume-icon').hide();
   $('label[for="fog"]').hide();
-  $('label[for="hail"]').hide();
-  $('label[for="snow"]').hide().removeClass('btn-mid').addClass('btn-right');
+  const coldWeather = getBlankDevColdWeather();
+  const showBoth = coldWeather !== "" && settings.coldWeather === "both";
+  const showHail = showBoth || coldWeather === "Hail";
+  const showSnow = showBoth || coldWeather === "Snow";
+  $('#hail').prop('disabled', !showHail);
+  $('#snow').prop('disabled', !showSnow);
+  $('label[for="hail"]').toggle(showHail);
+  $('label[for="snow"]').toggle(showSnow).toggleClass('btn-mid', showBoth).toggleClass('btn-right', !showBoth);
   $('#open-dex, #main-nav-dex').toggle(showDex);
   $('#dex-show').toggle(showDex);
   $('#show-ai').toggle(showAI).toggleClass('gen5-ai-button', gameGen == 5 && showAI);
@@ -1100,7 +1120,7 @@ function getCurrentBackupFileName() {
 const backupFileCacheKeys = {
     wishywashywhite2redux: "20261114",
     vw: "original-20261101",
-    frd: "20261106",
+    frd: "20261116",
     frdnormal: "20261028",
     null12: "forms-20261026",
     null125: "forms-20261026",

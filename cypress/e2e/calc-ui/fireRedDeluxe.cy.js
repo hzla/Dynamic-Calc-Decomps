@@ -105,6 +105,28 @@ describe('Fire Red Deluxe variants', () => {
           cy.get('input.opposing.set-selector').invoke('val').should('include', 'Starmie (Lvl 33 Beauty Lori')
         })
 
+        it('uses the frd4 Sabrina and Champion Terry teams', () => {
+          cy.window().then(win => {
+            const party = Object.entries(win.setdex).flatMap(([species, sets]) =>
+              Object.entries(sets).map(([name, set]) => ({ species, name, ...set })))
+            const sabrina = party.filter(mon => mon.tr_id === 63).sort((a, b) => a.sub_index - b.sub_index)
+            expect(sabrina.map(mon => mon.species)).to.deep.eq([
+              'Hypno', 'Machamp', 'Scream Tail', 'Articuno-Galar', 'Espeon', 'Alakazam-Mega',
+            ])
+            expect(party.find(mon => mon.tr_id === 332 && mon.sub_index === 0).moves[0]).to.eq('Shock Wave')
+            expect([438, 439, 440].map(id => party.find(mon => mon.tr_id === id && mon.sub_index === 1).species))
+              .to.deep.eq(['Blastoise-Mega', 'Venusaur-Mega', 'Charizard-Mega-X'])
+            expect(party.find(mon => mon.tr_id === 440 && mon.sub_index === 1).item).to.eq('White Herb')
+            win.expYields = win.expYields || {}
+            win.setOpposing(`Hypno (${sabrina[0].name})`)
+          })
+          cy.get('.opposing.trainer-pok-list img[data-id^="Articuno-Galar ("]')
+            .should($img => expect($img[0].naturalWidth).to.be.greaterThan(0)).click()
+          cy.get('#levelR1').should('have.value', '46')
+          cy.get('#p2 .ability').should('have.value', 'Pressure')
+          cy.get('#p2 .move2 select.move-selector').should('have.value', 'Calm Mind')
+        })
+
         it('renders the new Mega trainer sprites with their ROM-specific stats', () => {
           for (const [name, trainerId, speciesId, attack, speed, ability] of [
             ['Pinsir-Mega', 574, 271, 155, 105, 'Hyper Cutter'],

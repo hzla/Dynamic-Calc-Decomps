@@ -1290,14 +1290,13 @@ function autosetWeather(ability, i) {
 		$("#sand").prop("checked", true);
 		break;
 	case "Snow Warning":
-		if (settings.damageGen && settings.damageGen >= 8) {
-			lastAutoWeather[i] = "Snow";
-			$("#snow").prop("checked", true);
-		} else {
-			lastAutoWeather[i] = "Hail";
-			$("#hail").prop("checked", true);
+		var coldWeather = settings.blankDevMode
+			? getBlankDevColdWeather()
+			: (settings.damageGen >= 8 ? "Snow" : "Hail");
+		if (coldWeather) {
+			lastAutoWeather[i] = coldWeather;
+			$("#" + coldWeather.toLowerCase()).prop("checked", true);
 		}
-		
 		break;
 	case "Desolate Land":
 		lastAutoWeather[i] = "Harsh Sunshine";

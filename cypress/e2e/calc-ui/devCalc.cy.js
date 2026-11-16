@@ -255,6 +255,97 @@ describe('Dev calculator custom opponent teams', () => {
   })
 })
 
+describe('Blank dev cold weather', () => {
+  const tarnishedUrl = '/index.html?dev=1&gen=9&dmgGen=4&types=4&critGen=3&switchIn=4&mechanics=tarnished-platinum&view=calculator'
+
+  for (const [damageGen, saved, weather, hidden] of [
+    [4, false, 'Hail', 'snow'],
+    [9, true, 'Snow', 'hail'],
+  ]) {
+    it(`shows ${weather} for Tarnished Platinum with Damage Gen ${damageGen}`, () => {
+      cy.visit(tarnishedUrl, {
+        onBeforeLoad(win) {
+          win.localStorage.clear()
+          if (saved) {
+            win.localStorage.setItem('calcDevConfig:__blank_dev_calc__', JSON.stringify({
+              gen: 5, damageGen, mechanics: 'tarnished-platinum',
+            }))
+          }
+        },
+      })
+      cy.get('#rom-title').should('have.text', 'Tarnished Platinum')
+      waitForCalcReady()
+      cy.get(`label[for="${hidden}"]`).should('not.be.visible')
+      cy.get(`#${hidden}`).should('be.disabled')
+      cy.get(`label[for="${weather.toLowerCase()}"]`).should('be.visible').click()
+      cy.window().then((win) => {
+        expect(win.getCurrentDevBlankConfig().damageGen).to.eq(damageGen)
+        expect(win.getCurrentDevBlankConfig().gen).to.eq(9)
+        expect(win.createField().weather).to.eq(weather)
+      })
+      cy.get('label[for="clear"]').click()
+      cy.window().then((win) => {
+        win.autosetWeather('Snow Warning', 0)
+        expect(win.createField().weather).to.eq(weather)
+      })
+    })
+  }
+
+  it('sets Hail rather than hidden Snow when Snow Warning triggers in Gen 8', () => {
+    visitBlank(8)
+    cy.get('label[for="hail"]').should('be.visible')
+    cy.get('label[for="snow"]').should('not.be.visible')
+    cy.window().then((win) => {
+      win.autosetWeather('Snow Warning', 0)
+      expect(win.createField().weather).to.eq('Hail')
+    })
+  })
+
+  it('saves both weather controls through Calc Configs without changing Damage Gen', () => {
+    cy.visit(`${tarnishedUrl}&forceBlankConfig=1`, { onBeforeLoad(win) { win.localStorage.clear() } })
+    waitForCalcReady()
+    cy.get('#dev-open-configs').click()
+    cy.get('#dev-config-coldWeather').should('have.value', 'auto').select('both')
+    cy.get('#dev-config-form button[type="submit"]').click()
+    cy.location('search').should('not.include', 'forceBlankConfig')
+    waitForCalcReady()
+    cy.window().should((win) => {
+      expect(win.getCurrentDevBlankConfig()).to.include({ coldWeather: 'both', damageGen: 4 })
+    })
+
+    for (const weather of ['Snow', 'Hail']) {
+      const id = weather.toLowerCase()
+      cy.get(`label[for="${id}"]`).should('be.visible')
+      cy.get(`#${id}`).should('be.enabled').check({ force: true })
+      cy.window().then((win) => expect(win.createField().weather).to.eq(weather))
+    }
+    cy.get('#clear').check({ force: true })
+    cy.window().then((win) => {
+      win.autosetWeather('Snow Warning', 0)
+      expect(win.createField().weather).to.eq('Hail')
+    })
+    cy.get('#dev-open-configs').click()
+    cy.get('#dev-config-coldWeather').should('have.value', 'both').select('auto')
+    cy.get('#dev-config-form button[type="submit"]').click()
+    waitForCalcReady()
+    cy.get('label[for="hail"]').should('be.visible')
+    cy.get('label[for="snow"]').should('not.be.visible')
+  })
+
+  for (const [mode, weather, hidden] of [['hail', 'Hail', 'snow'], ['snow', 'Snow', 'hail']]) {
+    it(`uses the ${weather}-only override for both visibility and Snow Warning`, () => {
+      cy.visit(`${tarnishedUrl}&coldWeather=${mode}`, { onBeforeLoad(win) { win.localStorage.clear() } })
+      waitForCalcReady()
+      cy.get(`label[for="${weather.toLowerCase()}"]`).should('be.visible')
+      cy.get(`#${hidden}`).should('be.disabled')
+      cy.window().then((win) => {
+        win.autosetWeather('Snow Warning', 0)
+        expect(win.createField().weather).to.eq(weather)
+      })
+    })
+  }
+})
+
 describe('Blank dev base-game defaults', () => {
   ;[7, 8, 9].forEach((generation) => {
     it(`loads Smogon Gen ${generation} data and routes calculations through vanilla gen789`, () => {
