@@ -3430,6 +3430,13 @@ function resolveRelativeSetLevel(set, fallbackLevel) {
 
 
 
+function getCalcSpeciesFromSetId(setId) {
+	var name = (setId || "").split(" (", 1)[0];
+	if (pokedex?.[name]) return name;
+	var legacyName = name.replace("n Z", "n-Z").replace("o o", "o-o");
+	return pokedex?.[legacyName] ? legacyName : "";
+}
+
 function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
@@ -3513,24 +3520,13 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			overrides: Object.keys(speciesOverrides).length ? speciesOverrides : undefined
 		});
 	} else {
-		var setName = pokeInfo.find("input.set-selector").val();
-		var name;
-
-
-
-
-
-		if (setName.indexOf("(") === -1) {
-			name = setName;
-		} else {
-			var pokemonName = setName.substring(0, setName.indexOf(" (")).replace("n Z", "n-Z").replace("o o", "o-o");
-			
-			var species = pokedex[pokemonName];
+		var setName = pokeInfo.find("input.set-selector").val() || "";
+		var name = getCalcSpeciesFromSetId(setName);
+		if (name && setName.includes(" (") && !TITLE.includes("Lumi")) {
+			var species = pokedex[name];
 			var selectedForme = pokeInfo.find(".forme").is(":visible") ? pokeInfo.find(".forme").val() : null;
-			var shouldUseSelectedForme = (selectedForme && isLeftPlayerPoke(pokeInfo)) || (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName));
-			name = shouldUseSelectedForme ? (selectedForme || pokemonName) : pokemonName;
-			if (TITLE.includes("Lumi")) {
-				name = pokemonName
+			if (selectedForme && (isLeftPlayerPoke(pokeInfo) || species.otherFormes || (species.baseSpecies && species.baseSpecies !== name))) {
+				name = selectedForme;
 			}
 		}
 		var baseStats = {};
@@ -4227,8 +4223,9 @@ $(document).ready(async function () {
 		}
 	});
 
-    if (localStorage["left"]) {
-        $(`[data-id='${localStorage["left"]}']`).click()
+    var savedLeftSet = localStorage.left;
+    if (getCalcSpeciesFromSetId(savedLeftSet)) {
+        $(`[data-id="${CSS.escape(savedLeftSet)}"]`).click()
     } else {
 		refreshTagPartnerPreview()
 	}
@@ -4243,5 +4240,6 @@ $(document).ready(async function () {
       }
     }         
 
-	$(".terrain-trigger").bind("change keyup", getTerrainEffects);	
+	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
+	performCalculations();
 });

@@ -3614,9 +3614,4 @@ $(document).ready(async function () {
 	} else {
 		loadDefaultLists();
 	}
-	if (typeof rememberHpStatusEnabled === "function" && !rememberHpStatusEnabled() && typeof resetAllPlayerCustomSetStatusesToHealthy === "function") {
-		resetAllPlayerCustomSetStatusesToHealthy({
-			syncActiveUi: true
-		});
-	}
 });

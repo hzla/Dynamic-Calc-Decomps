@@ -567,7 +567,8 @@ let movePPs = {};
 let calcingForSwitchIns = false;
 let p1Name              = "";
 let changingSets        = false;
-var initializing        = false;
+// Blank dev starts loading defaults and the stored dataset before initCalc runs.
+var initializing        = isBlankDevMode;
 let terminalStarted     = false;
 let partnerName         = null;
 let customLeads         = null;
@@ -1770,7 +1771,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?ancestral-x-return1';
+  script.src= './js/shared_controls.js?valid-calc-selection1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -2512,7 +2513,14 @@ function loadDataSource(data) {
             localStorage.customsets = JSON.stringify(customSets)
             console.log("[HGE] Removed persisted Mega sets that are not present in the loaded ROM data.")
         }
-        updateDex(customSets)   
+        updateDex(customSets)
+    }
+
+    if (!rememberHpStatusEnabled()) {
+        resetAllPlayerCustomSetStatusesToHealthy({ syncActiveUi: true });
+    }
+
+    if (localStorage.customsets) {
         get_box()
         displayParty()
     }

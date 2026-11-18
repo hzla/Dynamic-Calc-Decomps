@@ -71,11 +71,23 @@ function isAirborne(mon) {
 }
 
 function performCalculations() {
+    if (!DEFAULTS_LOADED) return;
     if (typeof queuePokemonNullWanderingSpiritRefresh === 'function') queuePokemonNullWanderingSpiritRefresh()
 	var p1info = $("#p1");
 	var p2info = $("#p2");
 
-
+	if (!getCalcSpeciesFromSetId(p1info.find("input.set-selector").val()) ||
+		!getCalcSpeciesFromSetId(p2info.find("input.set-selector").val())) {
+		damageResults = undefined;
+		$(".result-move + label").text("(No Move)").removeAttr("title");
+		$(".resultDamage").text("—").removeAttr("data-full-damage-text").css("border", "");
+		$("#resultHeaderL .result-move-header-label").text("Pokémon 1 Moves");
+		$("#resultHeaderR .result-move-header-label").text("Pokémon 2 Moves");
+		$("#damageValues").hide();
+		$("#mainResult").text("Select a Pokémon on each side.");
+		return;
+	}
+	$("#damageValues").show();
 
 	var p1 = createPokemon(p1info);
 	var p2 = createPokemon(p2info);

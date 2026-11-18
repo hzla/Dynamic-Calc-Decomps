@@ -175,11 +175,6 @@ $(document).ready(function() {
             importTarnishedPlatinumSave(file);
             return;
         }
-        const reader = new FileReader();
-        saveFileName = $('#save-upload-g45').val().split("\\").pop()
-        savExt = saveFileName.slice(-3)
-        currentParty = []
-
         if (baseGame == "DP") {
             partyCountOffset = 0x94
             smallBlockSize = 0xC100
@@ -213,8 +208,15 @@ $(document).ready(function() {
                 checksumEnd = 0x25FA2
                 checksumTableSize = 0x94
             }
+        } else {
+            window.alert("Choose a base game in Calc Configs before importing a Nintendo DS save.")
+            return;
         }
 
+        const reader = new FileReader();
+        saveFileName = $('#save-upload-g45').val().split("\\").pop()
+        savExt = saveFileName.slice(-3)
+        currentParty = []
         battleStatSize = (partyPokSize - 136) / 2
 
         reader.onload = function(e) {

@@ -96,3 +96,49 @@ describe('DDEX synced calculator layout', () => {
     cy.get('#custom-opponent-teams-only').should('be.checked')
   })
 })
+
+describe('Pokeweb Gen 5 calculator startup', () => {
+  it('skips a saved Pokémon outside Gen 5 and calculates after a valid selection', () => {
+    const startupErrors = []
+    const savedSet = 'Meowscarada (My Box)'
+    cy.visit('/index.html?dev=1&forceBlankConfig=1&gen=5&dmgGen=5&types=5&critGen=5&switchIn=5&baseGame=BW2&view=calculator', {
+      onBeforeLoad(win) {
+        win.addEventListener('error', event => startupErrors.push(event.message))
+        win.localStorage.clear()
+        win.localStorage.left = savedSet
+        win.localStorage.right = 'Lillipup (Blank Set)'
+        win.localStorage.customsets = JSON.stringify({
+          Meowscarada: {
+            'My Box': { level: 50, moves: ['Leafage'], nature: 'Jolly', status: 'Poisoned' },
+          },
+        })
+      },
+    })
+
+    cy.get('#p1 input.set-selector').should('have.value', '')
+    cy.get('#p2 input.set-selector').should('have.value', 'Lillipup (Blank Set)')
+    cy.get('#mainResult').should('have.text', 'Select a Pokémon on each side.')
+    cy.get('#read-save').should('be.visible').and('have.attr', 'for', 'save-upload-g45')
+    cy.window().then(win => {
+      expect(win.getDsSaveLocationGameKey()).to.eq('BW2')
+      expect(win.localStorage.left).to.eq(savedSet)
+      expect(JSON.parse(win.localStorage.customsets).Meowscarada['My Box'].moves).to.deep.eq(['Leafage'])
+      const snivy = 'Snivy (Blank Set)'
+      win.$('#p1 input.set-selector').select2('data', { id: snivy, text: snivy }).trigger('change')
+    })
+    cy.get('#p1 .move1 select.move-selector').select('Tackle', { force: true })
+    cy.get('#mainResult').should('contain.text', 'Snivy Tackle vs.')
+    cy.then(() => {
+      expect(startupErrors.filter(message => /otherFormes|SETDEX_BW|reading 'length'/.test(message))).to.deep.eq([])
+    })
+  })
+
+  it('prompts for a base game when a DS save is uploaded from an unconfigured tab', () => {
+    cy.visit('/index.html?dev=1&forceBlankConfig=1&gen=5&dmgGen=5&view=calculator', {
+      onBeforeLoad(win) { win.localStorage.clear() },
+    })
+    cy.window().then(win => cy.stub(win, 'alert').as('saveConfigAlert'))
+    cy.get('#save-upload-g45').selectFile({ contents: Cypress.Buffer.alloc(512), fileName: 'test.sav' }, { force: true })
+    cy.get('@saveConfigAlert').should('have.been.calledOnceWith', 'Choose a base game in Calc Configs before importing a Nintendo DS save.')
+  })
+})
