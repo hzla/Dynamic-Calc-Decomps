@@ -2,6 +2,7 @@ const G67_PK_STORED_SIZE = 0xE8;
 const G67_PK_PARTY_SIZE = 0x104;
 const G67_PARTY_SLOTS = 6;
 const G67_BOX_SLOTS = 30;
+const G67_LIVING_BOX_COUNT = 6;
 const G67_BEEF_FOOTER_OFFSET = 0x1F0;
 const G67_ANCESTRAL_X_FAST_GROWTH = 4;
 const G67_ANCESTRAL_X_SLOW_GROWTH = 5;
@@ -202,6 +203,7 @@ function g67ParseSaveFile(arrayBuffer, variants) {
 
     const partyMons = [];
     const boxMons = [];
+    const deadMons = [];
     const partyBlock = variant.requiredBlocks.party;
     const boxesBlock = variant.requiredBlocks.boxes;
     const partyCount = Math.max(0, Math.min(g67ReadU8(bytes, partyBlock.offset + (G67_PARTY_SLOTS * G67_PK_PARTY_SIZE)), G67_PARTY_SLOTS));
@@ -221,7 +223,20 @@ function g67ParseSaveFile(arrayBuffer, variants) {
         const chunk = bytes.slice(offset, offset + G67_PK_STORED_SIZE);
         const mon = g67ParseMonChunk(chunk, variant, false, i + 1);
         if (mon) {
-            boxMons.push(mon);
+            if (i < G67_LIVING_BOX_COUNT * G67_BOX_SLOTS) {
+                boxMons.push(mon);
+            } else {
+                deadMons.push({
+                    speciesName: mon.speciesName,
+                    speciesId: mon.speciesId,
+                    nickname: mon.nickname || '',
+                    met: mon.metLocationName || '',
+                    metLocationId: mon.metLocationId,
+                    box: Math.floor(i / G67_BOX_SLOTS) + 1,
+                    slot: (i % G67_BOX_SLOTS) + 1,
+                    source: 'save-file'
+                });
+            }
         }
     }
 
@@ -233,7 +248,7 @@ function g67ParseSaveFile(arrayBuffer, variants) {
         showdownImport += g67MonToShowdown(mon);
     }
 
-    if (!showdownImport.trim()) {
+    if (!showdownImport.trim() && !deadMons.length) {
         throw new Error('No valid party or boxed Pokemon were found.');
     }
 
@@ -241,7 +256,7 @@ function g67ParseSaveFile(arrayBuffer, variants) {
         detectedGame: variant.detectedGame,
         partyMons,
         boxMons,
-        deadMons: [],
+        deadMons,
         partyCount,
         importedBoxCount: boxMons.length,
         showdownImport

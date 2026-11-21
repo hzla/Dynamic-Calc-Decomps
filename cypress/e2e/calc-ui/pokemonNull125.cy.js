@@ -27,6 +27,47 @@ describe('Pokemon Null versions', () => {
       })
     })
 
+    it(`can add Partner Steven to the player's side in ${title}`, () => {
+      const playerSet = 'Pikachu (My Box)'
+      const enemySet = 'Cobalion (Lvl 88 Space Center Team Magma Cobalt |Space Center|)'
+      const stevenTeam = [
+        'Heatran (Lvl 94 Partner Steven |Space Center|)',
+        'Zacian-Crowned (Lvl 95 Partner Steven |Space Center|)',
+        'Metagross (Lvl 100 Partner Steven |Space Center|)',
+        'Metagross-Mega (Lvl 100 Partner Steven |Space Center|)',
+      ]
+
+      cy.viewport(1440, 1000)
+      cy.visit(`/?data=${slug}&view=calculator`, {
+        onBeforeLoad(win) {
+          win.localStorage.customsets = JSON.stringify({
+            Pikachu: { 'My Box': {
+              level: 50, nature: 'Hardy', ability: 'Static', isCustomSet: true,
+              moves: ['Tackle', 'Protect', 'Growl', 'Tail Whip'],
+            } },
+          })
+          win.localStorage.left = playerSet
+          win.localStorage.right = enemySet
+        },
+      })
+      cy.get('input.player.set-selector', { timeout: 30000 }).should('have.value', playerSet)
+      cy.get('input.opposing.set-selector').should('have.value', enemySet)
+      cy.get('#add-player-partner').click()
+      cy.get('.select2-drop-active .select2-search input').type('Partner Steven')
+      cy.contains('.select2-drop-active .select2-result-label', stevenTeam[2]).click()
+      cy.get('.tag-partner-preview-wrapper').should('be.visible')
+      cy.get('.tag-partner-label').should('have.attr', 'title', 'Tag Partner: Partner Steven |Space Center|')
+      cy.get('.tag-partner-preview .tag-partner-pok').should($sprites => {
+        expect(Array.from($sprites, sprite => sprite.dataset.id)).to.deep.equal(stevenTeam)
+      })
+      cy.get('input.player.set-selector').should('have.value', playerSet)
+      cy.get('input.opposing.set-selector').should('have.value', enemySet)
+      cy.get('.tag-partner-preview .tag-partner-pok').first().click()
+      cy.get('input.player.set-selector').should('have.value', stevenTeam[0])
+      cy.get('.tag-partner-clear').click()
+      cy.get('.tag-partner-preview-wrapper').should('not.be.visible')
+    })
+
     it(`uses distinct alternate-form stats in ${title}'s UI and damage engine`, () => {
       cy.visit(`/index.html?data=${slug}`)
       cy.get('#rom-title', {timeout: 30000}).should('have.text', title)

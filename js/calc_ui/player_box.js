@@ -1132,7 +1132,7 @@ function isImportedEggSpecies(speciesName) {
 }
 
 var manualTagPartnerSelectionPending = false
-var manualTagPartnerTrainerId = false
+var manualTagPartnerTeamKey = false
 var manualTagPartnerLockedTrainerIds = []
 var clearedTagPartnerLockedTrainerIds = []
 
@@ -1182,17 +1182,27 @@ function getTagPartnerIdFromSet(setId) {
 }
 
 function getTrainerSetsById(trainerId) {
-    if (!trainerId || !setdex) {
+    if (!trainerId) {
         return []
     }
 
     var normalizedTrainerId = Number(trainerId)
+    return getMatchingTrainerSets(function(setData) {
+        return Number(setData.tr_id) === normalizedTrainerId
+    })
+}
+
+function getMatchingTrainerSets(matches) {
+    if (!setdex) {
+        return []
+    }
+
     var trainerSets = []
     var orderIndex = 0
 
     for (const [speciesName, sets] of Object.entries(setdex)) {
         for (const [setName, setData] of Object.entries(sets)) {
-            if (!setData || Number(setData.tr_id) !== normalizedTrainerId) {
+            if (!setData || !matches(setData, setName)) {
                 continue
             }
 
@@ -1217,12 +1227,11 @@ function getTrainerSetsById(trainerId) {
     return trainerSets
 }
 
-function getTagPartnerTrainerName(trainerId) {
+function getTagPartnerTrainerName(trainerId, trainerSets) {
     if (typeof customLeads !== "undefined" && customLeads && customLeads[trainerId]) {
         return get_trainer_name(customLeads[trainerId]) || "Tag Partner"
     }
 
-    var trainerSets = getTrainerSetsById(trainerId)
     if (trainerSets.length) {
         return get_trainer_name(trainerSets[0].setId) || "Tag Partner"
     }
@@ -1249,7 +1258,7 @@ function isManualTagPartnerSelectionPending() {
 }
 
 function clearManualTagPartnerOverride() {
-    manualTagPartnerTrainerId = false
+    manualTagPartnerTeamKey = false
     manualTagPartnerLockedTrainerIds = []
 }
 
@@ -1284,20 +1293,32 @@ function getCurrentTrainerPreviewIds() {
 }
 
 function setManualTagPartnerFromSet(setId) {
-    var trainerId = getTrainerIdFromSet(setId)
-    if (!trainerId) {
-        return false
+    var teamKey = getTrainerIdFromSet(setId)
+    if (!teamKey) {
+        // Some allied teams (e.g. Null's Space Center Steven) have no trainer ID.
+        var setData = getSetDataBySetId(setId)
+        var label = get_trainer_name(setId)
+        if (!setData || setData.tr_id != null || !label || !label.startsWith("Partner ")) {
+            return false
+        }
+        teamKey = label
     }
 
-    manualTagPartnerTrainerId = trainerId
+    manualTagPartnerTeamKey = teamKey
     manualTagPartnerLockedTrainerIds = getCurrentTrainerPreviewIds()
     clearedTagPartnerLockedTrainerIds = []
     refreshTagPartnerPreview()
     return true
 }
 
+function getNamedTagPartnerSets(label) {
+    return getMatchingTrainerSets(function(setData, setName) {
+        return setData.tr_id == null && stripTrainerLevelPrefix(setName).trimEnd() === label
+    })
+}
+
 function maybeClearManualTagPartnerOverride(selectedSetId) {
-    if (!manualTagPartnerTrainerId || !manualTagPartnerLockedTrainerIds.length) {
+    if (!manualTagPartnerTeamKey || !manualTagPartnerLockedTrainerIds.length) {
         return
     }
 
@@ -1433,37 +1454,32 @@ function refreshTagPartnerPreview() {
     var selectedSetId = getSelectedTagPartnerSourceSetId()
     maybeClearManualTagPartnerOverride(selectedSetId)
     maybeClearTagPartnerClearedState(selectedSetId)
-    var tagPartnerId = manualTagPartnerTrainerId || (isTagPartnerClearedForSelectedTrainer(selectedSetId) ? false : getTagPartnerIdFromSet(selectedSetId))
+    var tagPartnerKey = manualTagPartnerTeamKey || (isTagPartnerClearedForSelectedTrainer(selectedSetId) ? false : getTagPartnerIdFromSet(selectedSetId))
 
     destination.html("")
 
-    if (!tagPartnerId) {
+    if (!tagPartnerKey) {
         wrapper.hide()
         setTagPartnerLabel('Tag Partner', 'Tag Partner')
         return
     }
 
-    console.log('[Tag Partner] detected tag partner on right-side set', {
-        sourceSetId: selectedSetId,
-        tagPartnerId: tagPartnerId,
-        selectedSetData: getSetDataBySetId(selectedSetId)
-    })
-
-    var trainerSets = getTrainerSetsById(tagPartnerId)
+    var namedTeam = typeof manualTagPartnerTeamKey === "string"
+    var trainerSets = namedTeam ? getNamedTagPartnerSets(tagPartnerKey) : getTrainerSetsById(tagPartnerKey)
     if (!trainerSets.length) {
-        console.warn('[Tag Partner] no sets found for detected tag partner trainer id', {
+        console.warn('[Tag Partner] no sets found for tag partner', {
             sourceSetId: selectedSetId,
-            tagPartnerId: tagPartnerId
+            tagPartnerKey: tagPartnerKey
         })
         wrapper.hide()
         setTagPartnerLabel('Tag Partner', 'Tag Partner')
         return
     }
 
-    var trainerName = getTagPartnerTrainerName(tagPartnerId)
+    var trainerName = namedTeam ? tagPartnerKey : getTagPartnerTrainerName(tagPartnerKey, trainerSets)
     console.log('[Tag Partner] rendering tag partner preview', {
         sourceSetId: selectedSetId,
-        tagPartnerId: tagPartnerId,
+        tagPartnerKey: tagPartnerKey,
         trainerName: trainerName,
         trainerSetIds: trainerSets.map(function(trainerSet) {
             return trainerSet.setId

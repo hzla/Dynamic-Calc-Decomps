@@ -54,7 +54,7 @@ function expectPartner(index = 1) {
   cy.get('.tag-partner-preview .tag-partner-pok').should('have.length', 2)
     .first().should('have.attr', 'data-id', trainerSet(index))
   cy.window().then(win => {
-    expect(win.manualTagPartnerTrainerId).to.eq(-900 - index)
+    expect(win.manualTagPartnerTeamKey).to.eq(-900 - index)
     expect(win.getSelectedTagPartnerSourceSetId()).to.eq(trainerSet(0))
   })
 }
