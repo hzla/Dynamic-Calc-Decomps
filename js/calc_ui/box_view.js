@@ -51,6 +51,29 @@
     let boxViewWatcherStarted = false;
     let boxControlsInitialized = false;
 
+    // The Gen 5 UI (css/gen5.css, js/calc_ui/gen5_ui.js) draws the box with a card of its own: the sprite still on the
+    // game's grid, its type labels, ability, nature and where it was met, its KOs, a row of IVs or base stats, and its
+    // moves on the battle screen's move buttons. The classic card is unchanged.
+    const GEN5_SORT_PHRASES = {
+        frags: "most KOs first",
+        battles: "most battles first",
+        bst: "highest BST first",
+        hp: "highest base HP first",
+        at: "highest base Atk first",
+        df: "highest base Def first",
+        sa: "highest base SpA first",
+        sd: "highest base SpD first",
+        sp: "highest base Spe first"
+    };
+
+    function isGen5Ui() {
+        return document.documentElement.classList.contains("gen5ui");
+    }
+
+    function getSortLabel(option) {
+        return isGen5Ui() && option.key === "frags" ? "KOs" : option.label;
+    }
+
     function buildIvSumDistribution(statCount) {
         const maxSum = statCount * 31;
         let distribution = new Array(maxSum + 1).fill(0);
@@ -188,7 +211,8 @@
             localStorage.getItem("battleLogs") || "",
             localStorage.getItem("battleLogImportantTrainersOnly") || "",
             localStorage.getItem("showAbilitySlot") || "",
-            boxViewState.statView
+            boxViewState.statView,
+            isGen5Ui() ? "gen5" : ""
         ].join("::");
     }
 
@@ -703,10 +727,30 @@
         return counts;
     }
 
-    function setBoxEmptyState(kicker, title, copy) {
+    function setBoxEmptyState(kicker, title, copy, gen5) {
         const kickerEl = document.getElementById("box-empty-kicker");
         const titleEl = document.getElementById("box-empty-title");
         const copyEl = document.getElementById("box-empty-copy");
+        const emptyState = document.getElementById("box-view-empty");
+        let action = document.getElementById("g5-box-empty-action");
+        if (gen5 && isGen5Ui()) {
+            // The Gen 5 wording: what to do next, with the button that does it.
+            if (kickerEl) kickerEl.textContent = "";
+            if (titleEl) titleEl.textContent = gen5.title;
+            if (copyEl) copyEl.textContent = gen5.copy;
+            if (!action && emptyState) {
+                action = document.createElement("button");
+                action.type = "button";
+                action.id = "g5-box-empty-action";
+                emptyState.appendChild(action);
+            }
+            if (action) {
+                action.textContent = gen5.action;
+                action.setAttribute("data-g5-action", gen5.actionKey);
+            }
+            return;
+        }
+        if (action) action.remove();
         if (kickerEl) kickerEl.textContent = kicker;
         if (titleEl) titleEl.textContent = title;
         if (copyEl) copyEl.textContent = copy;
@@ -776,6 +820,138 @@
         `;
     }
 
+    // The front sprite's file name, as the battle log builds it (img/front mixes "mrmime" and "nidoran-f").
+    function getFrontSpritePath(speciesName) {
+        const slug = String(speciesName ?? "")
+            .toLowerCase()
+            .replace(/♀/g, "-f")
+            .replace(/♂/g, "-m")
+            .replace(/[’'.:]/g, "")
+            .replace(/[\s_]+/g, "")
+            .replace(/[^a-z0-9-]/g, "")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "");
+        return `./img/front/${slug}.gif`;
+    }
+
+    function getGen5NatureClass(setData, statKey) {
+        const nature = getNatureModifiers(setData);
+        const natureKey = NATURE_STAT_KEY_MAP[statKey];
+        if (!natureKey || natureKey === "hp" || nature.plus === nature.minus) {
+            return "";
+        }
+        if (nature.plus === natureKey) {
+            return "g5-up";
+        }
+        if (nature.minus === natureKey) {
+            return "g5-down";
+        }
+        return "";
+    }
+
+    // One row of six numbers in place of the radar: the IVs, or the base stats with their total.
+    function getGen5StatTableMarkup(entry, view) {
+        const isIvs = view === "ivs";
+        const heads = BOX_IV_STATS.map((stat) => {
+            const natureClass = getGen5NatureClass(entry.setData, stat.key);
+            return `<th scope="col"${natureClass ? ` class="${natureClass}"` : ""}>${escapeHtml(stat.label)}</th>`;
+        });
+        const cells = BOX_IV_STATS.map((stat) => `<td>${escapeHtml(isIvs ? getIvValue(entry.setData, stat.key) : entry.baseStats[stat.key])}</td>`);
+        if (!isIvs) {
+            heads.push('<th scope="col">BST</th>');
+            cells.push(`<td>${escapeHtml(entry.bst)}</td>`);
+        }
+        const isActive = normalizeBoxCardStatView(boxViewState.statView) === view;
+        return `
+            <table class="g5-box-stats box-card-radar-panel${isActive ? " active" : ""}" data-radar-panel="${view}" aria-label="${escapeHtml(entry.displayName)}'s ${isIvs ? "IVs" : "base stats"}">
+                <thead><tr>${heads.join("")}</tr></thead>
+                <tbody><tr>${cells.join("")}</tr></tbody>
+            </table>
+        `;
+    }
+
+    // KOs and battles, with whatever the box is sorted by in the selection colour.
+    function getGen5RecordMarkup(entry) {
+        const sortKey = boxViewState.sortKey;
+        const on = (text, key) => (sortKey === key ? `<span class="g5-on">${text}</span>` : text);
+        const kos = on(`${escapeHtml(entry.fragCount)} ${entry.fragCount === 1 ? "KO" : "KOs"}`, "frags");
+        const battles = entry.battleCount
+            ? on(`${escapeHtml(entry.battleCount)} ${entry.battleCount === 1 ? "battle" : "battles"}`, "battles")
+            : on("no battles yet", "battles");
+        let line = entry.battleCount ? `${kos} in ${battles}` : `${kos}, ${battles}`;
+        if (sortKey === "bst") {
+            line += `<br><span class="g5-on">BST ${escapeHtml(entry.bst)}</span>`;
+        } else if (Object.prototype.hasOwnProperty.call(entry.baseStats, sortKey)) {
+            const stat = BOX_IV_STATS.find((item) => item.key === sortKey);
+            line += `<br><span class="g5-on">Base ${escapeHtml(stat ? stat.label : sortKey)} ${escapeHtml(entry.baseStats[sortKey])}</span>`;
+        }
+        return line;
+    }
+
+    function getGen5MoveMarkup(moveName) {
+        if (!moveName) {
+            return '<span class="g5-box-move" data-g5-type="none"><span>-</span></span>';
+        }
+        const moveTypeSlug = normalizeSlug(getBattleLogMoveType(moveName));
+        return `<span class="g5-box-move" data-g5-type="${escapeHtml(moveTypeSlug)}"><span>${escapeHtml(moveName)}</span></span>`;
+    }
+
+    function renderGen5BoxCard(entry) {
+        const moves = Array.isArray(entry.setData.moves) ? entry.setData.moves.slice(0, 4) : [];
+        while (moves.length < 4) {
+            moves.push("");
+        }
+        const metLocation = entry.setData.met ? String(entry.setData.met).trim() : "";
+        const nature = entry.setData.nature ? String(entry.setData.nature).trim() : "";
+        const types = (entry.typeNames || []).map((typeName) => (
+            `<span class="g5-box-type" data-g5-type="${escapeHtml(normalizeSlug(typeName))}" role="img" aria-label="${escapeHtml(typeName)}" title="${escapeHtml(typeName)}"></span>`
+        )).join("");
+        const itemName = entry.setData.item ? String(entry.setData.item) : "";
+
+        return `
+            <article class="g5-box-card" data-species="${escapeHtml(entry.speciesName)}">
+                <div class="g5-box-top">
+                    <button type="button" class="g5-box-win g5-anim-host" data-dex-species="${escapeHtml(entry.speciesName)}" aria-label="Open ${escapeHtml(entry.speciesName)} in the Dex">
+                        <canvas class="g5-still" width="1" height="1" data-gif="${escapeHtml(getFrontSpritePath(entry.speciesName))}" data-fallback="./img/newhd/${escapeHtml(entry.spriteSlug)}.png" data-max="140x120"></canvas>
+                        <img class="g5-anim" alt="">
+                        ${itemName ? getItemSpriteMarkup(itemName).replace('class="box-card-item"', `class="g5-box-item" title="${escapeHtml(itemName)}"`) : ""}
+                    </button>
+                    <div class="g5-box-id">
+                        <div class="g5-box-name"><h3>${escapeHtml(entry.displayName)}${entry.genderMarkup ? ` ${entry.genderMarkup.replace(/([♂♀])/, "$1︎")}` : ""}</h3><span class="g5-box-level">Lv. ${escapeHtml(entry.level)}</span></div>
+                        ${types ? `<div class="g5-box-types">${types}</div>` : ""}
+                        <p class="g5-box-fact">${escapeHtml(getAbilityDisplayText(entry.setData))}</p>
+                        ${nature ? `<p class="g5-box-fact">${escapeHtml(nature)}</p>` : ""}
+                        ${metLocation ? `<p class="g5-box-fact g5-box-met">Met at ${escapeHtml(metLocation)}</p>` : ""}
+                        <p class="g5-box-record">${getGen5RecordMarkup(entry)}</p>
+                    </div>
+                </div>
+                ${getGen5StatTableMarkup(entry, "ivs")}
+                ${getGen5StatTableMarkup(entry, "base-stats")}
+                <div class="g5-box-moves">${moves.map(getGen5MoveMarkup).join("")}</div>
+            </article>
+        `;
+    }
+
+    // "64 Pokémon, most KOs first" above the cards, or "12 of 64" when a search or type filter narrows them.
+    function renderGen5BoxCount(shownCount, totalCount) {
+        const cardGrid = document.getElementById("box-card-grid");
+        let countLine = document.getElementById("g5-box-count");
+        if (!isGen5Ui() || !cardGrid || !totalCount) {
+            if (countLine) {
+                countLine.remove();
+            }
+            return;
+        }
+        if (!countLine) {
+            countLine = document.createElement("p");
+            countLine.id = "g5-box-count";
+            countLine.setAttribute("aria-live", "polite");
+            cardGrid.parentNode.insertBefore(countLine, cardGrid);
+        }
+        const shown = shownCount === totalCount ? `${totalCount}` : `${shownCount} of ${totalCount}`;
+        countLine.textContent = `${shown} Pokémon, ${GEN5_SORT_PHRASES[boxViewState.sortKey] || GEN5_SORT_PHRASES.frags}`;
+    }
+
     function syncBoxControlsUi() {
         const searchInput = document.getElementById("box-search-input");
         if (searchInput && searchInput.value !== boxViewState.search) {
@@ -799,7 +975,7 @@
         if (sortButtons) {
             sortButtons.innerHTML = BOX_SORT_OPTIONS.map((option) => `
                 <button type="button" class="box-filter-btn${option.key === boxViewState.sortKey ? " active" : ""}" data-box-sort="${escapeHtml(option.key)}">
-                    ${escapeHtml(option.label)}
+                    ${escapeHtml(getSortLabel(option))}
                 </button>
             `).join("");
         }
@@ -813,8 +989,10 @@
                     aria-label="${escapeHtml(`${titleCaseSlug(typeSlug)} (${Number(counts[typeSlug]) || 0})`)}"
                     title="${escapeHtml(`${titleCaseSlug(typeSlug)} (${Number(counts[typeSlug]) || 0})`)}"
                 >
-                    ${getTypeIconMarkup(typeSlug, "box-type-filter-icon")}
-                    <span class="box-type-filter-count">(${escapeHtml(Number(counts[typeSlug]) || 0)})</span>
+                    ${isGen5Ui()
+                        ? `<span class="g5-box-type" data-g5-type="${escapeHtml(typeSlug)}" aria-hidden="true"></span><span class="box-type-filter-count">${escapeHtml(Number(counts[typeSlug]) || 0)}</span>`
+                        : `${getTypeIconMarkup(typeSlug, "box-type-filter-icon")}
+                    <span class="box-type-filter-count">(${escapeHtml(Number(counts[typeSlug]) || 0)})</span>`}
                 </button>
             `).join("");
         }
@@ -870,8 +1048,16 @@
             renderBoxView(true);
         });
 
-        $(document).on("click", ".box-card-sprite-wrap", function () {
+        $(document).on("click", ".box-card-sprite-wrap, .g5-box-win", function () {
             openDexEntryForSpecies($(this).attr("data-dex-species"));
+        });
+
+        $(document).on("click", "#g5-box-empty-action", function () {
+            if ($(this).attr("data-g5-action") === "clear") {
+                $("#box-clear-filters").trigger("click");
+            } else if (typeof window.setMainPageView === "function") {
+                window.setMainPageView("calculator");
+            }
         });
 
         $(document).on("click", ".box-radar-tab[data-radar-view]", function () {
@@ -907,10 +1093,17 @@
 
         if (!allEntries.length) {
             cardGrid.innerHTML = "";
+            renderGen5BoxCount(0, 0);
             setBoxEmptyState(
                 "No Box Data",
                 "Import a save or box payload",
-                "The box view populates from customSets. Use the existing save or import flow in the calculator to load your box."
+                "The box view populates from customSets. Use the existing save or import flow in the calculator to load your box.",
+                {
+                    title: "Your box is empty",
+                    copy: "Import a save or paste a team in the calculator. Every Pokémon in it shows up here with its moves, IVs and KOs.",
+                    action: "Go to the calculator",
+                    actionKey: "calculator"
+                }
             );
             emptyState.style.display = "block";
             lastRenderedFingerprint = fingerprint;
@@ -924,10 +1117,17 @@
 
         if (!filteredEntries.length) {
             cardGrid.innerHTML = "";
+            renderGen5BoxCount(0, 0);
             setBoxEmptyState(
                 "No Matches",
                 "No Pokemon match the current filters",
-                "Clear the search or type filters to show more of your box."
+                "Clear the search or type filters to show more of your box.",
+                {
+                    title: "No Pokémon match",
+                    copy: "Nothing in your box matches this search and these types.",
+                    action: "Clear filters",
+                    actionKey: "clear"
+                }
             );
             emptyState.style.display = "block";
             lastRenderedFingerprint = fingerprint;
@@ -935,8 +1135,14 @@
         }
 
         emptyState.style.display = "none";
-        cardGrid.innerHTML = filteredEntries.map(renderBoxCard).join("");
+        const gen5 = isGen5Ui();
+        cardGrid.classList.toggle("g5-box-grid", gen5);
+        cardGrid.innerHTML = filteredEntries.map(gen5 ? renderGen5BoxCard : renderBoxCard).join("");
+        renderGen5BoxCount(filteredEntries.length, allEntries.length);
         syncBoxCardStatViewUi("#box-view");
+        if (gen5 && typeof window.g5HydrateStills === "function") {
+            window.g5HydrateStills(cardGrid);
+        }
         lastRenderedFingerprint = fingerprint;
     }
 

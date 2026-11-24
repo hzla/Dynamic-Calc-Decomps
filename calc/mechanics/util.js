@@ -139,7 +139,7 @@ function computeFinalStats(gen, attacker, defender, field) {
     }
 }
 exports.computeFinalStats = computeFinalStats;
-function getFinalSpeed(gen, pokemon, field, side) {
+function getFinalSpeed(gen, pokemon, field, side, extraMods, ignoresParalysis) {
     var weather = field.weather || '';
     var terrain = field.terrain;
     var speed = getModifiedStat(pokemon.rawStats.spe, pokemon.boosts.spe, gen);
@@ -195,8 +195,9 @@ function getFinalSpeed(gen, pokemon, field, side) {
     else if (pokemon.hasItem('Quick Powder') && pokemon.named('Ditto')) {
         speedMods.push(8192);
     }
+    if (extraMods) speedMods.push(...extraMods);
     speed = OF32(pokeRound((speed * chainMods(speedMods, 410, 131172)) / 4096));
-    if (pokemon.hasStatus('par') && !pokemon.hasAbility('Quick Feet')) {
+    if (pokemon.hasStatus('par') && !pokemon.hasAbility('Quick Feet') && !ignoresParalysis) {
         speed = Math.floor(OF32(speed * ((gen.num < 7 || TITLE.includes(" Null")) ? 25 : 50)) / 100);
     }
     speed = Math.min(gen.num <= 2 ? 999 : 10000, speed);

@@ -438,18 +438,18 @@
                 throw new Error("Calc sync is only available in dev mode.");
             }
 
-            const scriptText =
-                typeof data.scriptText === "string" && data.scriptText.trim()
-                    ? data.scriptText
-                    : data.backupData && typeof data.backupData === "object"
-                        ? buildBackupDataScriptText(data.backupData)
-                        : "";
-
-            if (!scriptText) {
+            const uploadedScript = typeof data.scriptText === "string" && data.scriptText.trim() ? data.scriptText : undefined;
+            const parsed = uploadedScript ? parseBackupDataScript(uploadedScript) : data.backupData;
+            if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
                 throw new Error("No calc data payload was provided.");
             }
 
-            parseBackupDataScript(scriptText);
+            const resolver = globalThis.PokewebAbilitySync;
+            if (!resolver && parsed.pokewebBattleRules?.abilityTemplates) {
+                throw new Error("This calculator cannot resolve the ability catalog. Reopen Calc and sync again.");
+            }
+            const expanded = resolver?.expand(parsed) ?? parsed;
+            const scriptText = uploadedScript && expanded === parsed ? uploadedScript : buildBackupDataScriptText(expanded);
 
             if (data.config && typeof data.config === "object") {
                 saveStoredDevConfig(data.config);
@@ -800,6 +800,7 @@
     postBridgeMessage({
         type: DDEX_CALC_READY_MESSAGE_TYPE,
         href: window.location.href,
+        pokewebAbilityCatalog: globalThis.PokewebAbilitySync?.capability,
     });
 
     document.addEventListener("DOMContentLoaded", initializeControls);

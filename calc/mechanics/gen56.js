@@ -8,6 +8,8 @@ var move_1 = require("../move");
 var util_2 = require("./util");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
+var pokewebRules = typeof PokewebCalcRules !== "undefined" ? PokewebCalcRules :
+    typeof module === "object" && module.exports ? require("./pokeweb-rules") : undefined;
 
 
 
@@ -29,25 +31,53 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         util: util_2,
         state: {}
     };
+    var romData = gen.num === 5 && pokewebRules?.active(typeof backup_data === "undefined" ? undefined : backup_data);
+    var manual = romData ? new Set(romData.warnings) : undefined;
+    var rules = romData ? pokewebRules.createContext(romData, attacker, defender, move, field, manual) : undefined;
+    if (rules) {
+        pokewebRules.prepare(rules, "ability");
+        pokewebRules.applyOpening(rules);
+        if (pokewebRules.nativePassive(rules, "airLock", attacker) ||
+            pokewebRules.nativePassive(rules, "airLock", defender)) field.weather = undefined;
+    }
     (0, util_2.checkAirLock)(attacker, field);
     (0, util_2.checkAirLock)(defender, field);
     (0, util_2.checkForecast)(attacker, field.weather);
     (0, util_2.checkForecast)(defender, field.weather);
     (0, util_2.checkItem)(attacker, field.isMagicRoom);
     (0, util_2.checkItem)(defender, field.isMagicRoom);
+    if (rules) {
+        pokewebRules.prepare(rules, "item");
+        pokewebRules.prepare(rules, "move");
+    }
+    const customItem = mon => rules?.providers.some(entry => entry.kind === "item" && entry.owner === mon && !entry.suppressed);
+    const customAttackerItem = customItem(attacker);
+    const customDefenderItem = customItem(defender);
     (0, util_2.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick, field.isWonderRoom);
     (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
     (0, util_2.checkSeedBoost)(attacker, field);
     (0, util_2.checkSeedBoost)(defender, field);
     (0, romhack_helpers_1.runHooks)(profile, "beforeStats", ctx);
-    (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
-    (0, util_2.checkIntimidate)(gen, attacker, defender);
-    (0, util_2.checkIntimidate)(gen, defender, attacker);
+    if (rules) pokewebRules.applyStages(rules, (base, stage) => (0, util_2.getModifiedStat)(base, stage, gen));
+    if (rules) {
+        (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd');
+        for (const [owner, side] of [[attacker, field.attackerSide], [defender, field.defenderSide]]) {
+            owner.stats.spe = (0, util_2.getFinalSpeed)(gen, owner, field, side,
+                pokewebRules.modifiers(rules, "speed", [], {owner}), pokewebRules.nativeException(rules, "ability", owner, 95));
+        }
+    } else {
+        (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
+    }
+    if (!rules || !pokewebRules.applyIntimidate(rules, attacker, defender)) (0, util_2.checkIntimidate)(gen, attacker, defender);
+    if (!rules || !pokewebRules.applyIntimidate(rules, defender, attacker)) (0, util_2.checkIntimidate)(gen, defender, attacker);
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'atk', 'spa');
     (0, util_2.checkInfiltrator)(attacker, field.defenderSide);
     (0, util_2.checkInfiltrator)(defender, field.attackerSide);
+    if (rules && pokewebRules.nativePassive(rules, "infiltrate", attacker)) {
+        field.defenderSide.isReflect = field.defenderSide.isLightScreen = field.defenderSide.isAuroraVeil = false;
+    }
     var desc = {
         attackerName: attacker.name,
         moveName: move.name,
@@ -55,6 +85,14 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         isWonderRoom: field.isWonderRoom
     };
     ctx.desc = desc;
+    const actualWeather = field.weather;
+    if (rules) {
+        rules.desc = desc;
+        desc.pokewebManual = manual;
+        desc.pokewebApplied = rules.applied;
+        pokewebRules.applyResidualGuards(rules);
+        pokewebRules.moveWeather(rules);
+    }
 
     var isAttackerTera = attacker.item.startsWith("Tera ")
     var isDefenderTera = defender.item.startsWith("Tera ")
@@ -81,20 +119,39 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
 
     
-    var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
+    const resultField = actualWeather !== field.weather ? field.clone() : field;
+    resultField.weather = actualWeather;
+    var result = new result_1.Result(gen, attacker, defender, move, resultField, 0, desc);
+    if (rules && (!pokewebRules.prerequisites(rules) || pokewebRules.flag(rules, "restriction"))) {
+        desc.pokewebBlocked = "Move prerequisites or held item prevent use";
+        return result;
+    }
     if (move.category === 'Status' && !move.named('Nature Power')) {
+        if (rules) {
+            rules.ignoreDefender = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze') ||
+                pokewebRules.flag(rules, "ignoreAbilities");
+            move.priority = pokewebRules.priority(rules, move.priority);
+            if (pokewebRules.flag(rules, "immunity")) desc.pokewebBlocked = "Ability blocks this move";
+        }
         return result;
     }
 
-    if (field.defenderSide.isProtected && !move.breaksProtect) {
-        desc.isProtected = true;
-        return result;
+    if (field.defenderSide.isProtected) {
+        const bypass = rules && pokewebRules.protection(rules);
+        if (!move.breaksProtect && !bypass) {
+            desc.isProtected = true;
+            return result;
+        }
     }
-    if (attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze') || attacker.hasItem("Ability Drill", "Tera Drill")) {
+    var stockBypass = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze') || attacker.hasItem("Ability Drill", "Tera Drill");
+    if (stockBypass || rules && pokewebRules.flag(rules, "ignoreAbilities")) {
+        if (rules) rules.ignoreDefender = true;
         defender.ability = '';
-        desc.attackerAbility = attacker.ability;
+        if (stockBypass) desc.attackerAbility = attacker.ability;
     }
-    var isCritical = move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor') && move.timesUsed === 1;
+    const criticalAllowed = !field.defenderSide.pokeweb?.luckychant && !defender.hasAbility('Battle Armor', 'Shell Armor') &&
+        !pokewebRules?.nativePassive(rules, "criticalGuard", defender) && move.timesUsed === 1;
+    var isCritical = move.isCrit && criticalAllowed;
     if (move.named('Weather Ball', "Weather Crash")) {
         move.type =
             field.hasWeather('Sun', 'Harsh Sunshine') ? 'Fire'
@@ -170,12 +227,22 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.attackerAbility = attacker.ability;
         }
     }
+    if (rules) {
+        pokewebRules.resolveType(rules);
+        pokewebRules.activeType(rules);
+    }
     move.category = (0, move_1.getMoveCategory)(gen, move, move.type);
+    if (rules) {
+        isCritical ||= criticalAllowed && pokewebRules.flag(rules, "critical");
+        if (pokewebRules.flag(rules, "ignoreStages")) move.ignoreDefensive = true;
+    }
     if (attacker.hasAbility('Gale Wings') && move.hasType('Flying')) {
         move.priority = 1;
         desc.attackerAbility = attacker.ability;
     }
-    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    if (rules) move.priority = pokewebRules.priority(rules, move.priority);
+    var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight ||
+        pokewebRules?.nativePassive(rules, 'scrappy', attacker, effect => effect.parameters?.immuneType === 7);
     var isCascadeProfile = profile.id === "cascade-white";
     var isCascadeWhiteDev = title.includes("Cascade White Dev") || sourceId === "casc2";
     var isDarkRevealed = attacker.hasAbility('Inner Focus') && isCascadeProfile
@@ -187,7 +254,15 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         ? (ctx.state.effectivenessType = defender.types[1],
             (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed, profile, ctx))
         : 1;
+    if (rules) {
+        type1Effectiveness = pokewebRules.matchup(rules, defender.types[0], type1Effectiveness);
+        if (defender.types[1]) type2Effectiveness = pokewebRules.matchup(rules, defender.types[1], type2Effectiveness);
+    }
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
+    if (rules) {
+        rules.effectiveness = typeEffectiveness;
+        typeEffectiveness = pokewebRules.overallMatchup(rules, typeEffectiveness);
+    }
 
     if (isForceNeutral) {
         typeEffectiveness = 1
@@ -234,6 +309,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
     }
 
+    if (rules) {
+        rules.effectiveness = typeEffectiveness;
+        if (pokewebRules.flag(rules, "immunity")) {
+            desc.pokewebBlocked = "Custom effect blocks this move";
+            return result;
+        }
+    }
     if (typeEffectiveness === 0) {
         return result;
     }
@@ -278,7 +360,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         return result;
     }
     desc.HPEVs = "".concat(defender.evs.hp, " HP");
-    var fixedDamage = (0, util_2.handleFixedDamageMoves)(attacker, move);
+    var fixedDamage = rules?.moveRule ? 0 : (0, util_2.handleFixedDamageMoves)(attacker, move);
     if (fixedDamage) {
         if (attacker.hasAbility('Parental Bond')) {
             result.damage = [fixedDamage, fixedDamage];
@@ -301,12 +383,16 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (isCascadeProfile && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
         isSpread = true;
     }
+    const extraStrike = rules && pokewebRules.extraStrike(rules, fixedDamage, isSpread);
+    if (extraStrike) desc.hits = 2;
     var computeDamageArray = function (hitCount) {
         if (hitCount === void 0) { hitCount = 0; }
-        var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+        var faster = attacker.stats.spe > defender.stats.spe;
+        if (field.pokeweb?.trickroom) faster = attacker.stats.spe < defender.stats.spe;
+        var turnOrder = faster ? 'first' : 'last';
         var basePower;
         var hitIndex = hitCount + 1;
-        switch (move.name) {
+        switch (rules?.moveRule ? "" : move.name) {
             case 'Payback':
                 basePower = move.bp * (turnOrder === 'last' ? 2 : 1);
                 desc.moveBP = basePower;
@@ -454,6 +540,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         ctx.state.hitCount = hitCount;
         ctx.state.turnOrder = turnOrder;
         basePower = (0, romhack_helpers_1.applyValueHooks)(profile, "moveBasePower", ctx, basePower);
+        if (rules) basePower = pokewebRules.rawPower(rules, basePower);
         if (basePower === 0) {
             return null;
         }
@@ -554,7 +641,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             }
             desc.attackerAbility = attacker.ability;
         }
-        if (attacker.item && (0, items_1.getItemBoostType)(attacker.item) === move.type) {
+        if (!customAttackerItem && attacker.item && (0, items_1.getItemBoostType)(attacker.item) === move.type) {
             var beforeProfileMods = bpMods.length;
             applyBPProfile("plateBoost");
             if (bpMods.length === beforeProfileMods) {
@@ -687,10 +774,15 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             }
         }
         applyBPProfile();
+        if (field.pokeweb?.watersport && move.hasType('Fire') || field.pokeweb?.mudsport && move.hasType('Electric')) {
+            bpMods.push(1352);
+        }
+        if (rules) pokewebRules.modifiers(rules, "power", bpMods, {power: basePower});
         basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));
         var attack;
         var attackSource = move.named('Foul Play') ? defender : attacker;
         var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
+        if (rules) attackStat = pokewebRules.attackingStat(rules, attackStat);
         desc.attackEVs =
             move.named('Foul Play')
                 ? (0, util_2.getStatDescriptionText)(gen, attackSource, attackStat, field.defenderSide.isPowerTrick, field.isWonderRoom)
@@ -702,7 +794,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             (isCritical && attackSource.boosts[attackStat] < 0)) {
             attack = attackSource.rawStats[attackStat];
         }
-        else if (defender.hasAbility('Unaware')) {
+        else if (defender.hasAbility('Unaware') || pokewebRules?.nativePassive(rules, "ignoreStages", defender)) {
             attack = attackSource.rawStats[attackStat];
             desc.defenderAbility = defender.ability;
         }
@@ -783,6 +875,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.attackerItem = attacker.item;
         }
         atMods = (0, romhack_helpers_1.applyValueHooks)(profile, "attackMods", ctx, atMods);
+        if (rules) pokewebRules.modifiers(rules, "attack", atMods);
         attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
         var defense;
         var defenseStat = move.overrideDefensiveStat || move.category === 'Physical' ? 'def' : 'spd';
@@ -797,7 +890,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             move.ignoreDefensive) {
             defense = defender.rawStats[defenseStat];
         }
-        else if (attacker.hasAbility('Unaware')) {
+        else if (attacker.hasAbility('Unaware') || pokewebRules?.nativePassive(rules, "ignoreStages", attacker)) {
             defense = defender.rawStats[defenseStat];
             desc.attackerAbility = attacker.ability;
         }
@@ -856,6 +949,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             dfMods.push(8192);
             desc.defenderAbility = defender.ability;
         }
+        if (rules) pokewebRules.modifiers(rules, "defense", dfMods, {defenseCategory: hitsPhysical ? 1 : 2});
         defense = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((defense * (0, util_2.chainMods)(dfMods, 410, 131072)) / 4096)));
         if (((move.named('Explosion') || move.named('Self-Destruct')) && settings.switchIn == 11) ||
             (move.named('Final Gambit') && isCascadeWhiteDev)) {
@@ -907,13 +1001,14 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         baseDamage = (0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", ctx, baseDamage);
         ctx.state.modifierId = undefined;
         if (!ctx.state.skipWeather) {
-            if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
-                (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
+            var damageWeather = rules ? pokewebRules.damageWeather(rules, field.weather) : field.weather;
+            if ((["Sun", "Harsh Sunshine"].includes(damageWeather) && move.hasType('Fire')) ||
+                (["Rain", "Heavy Rain"].includes(damageWeather) && move.hasType('Water'))) {
                 baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
                 desc.weather = field.weather;
             }
-            else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
-                (field.hasWeather('Rain') && move.hasType('Fire'))) {
+            else if ((damageWeather === 'Sun' && move.hasType('Water')) ||
+                (damageWeather === 'Rain' && move.hasType('Fire'))) {
                 baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
                 desc.weather = field.weather;
             }
@@ -937,7 +1032,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 desc.attackerAbility = attacker.ability;
             }
             else {
-                stabMod = 6144;
+                stabMod = pokewebRules?.stab(rules) || 6144;
             }
         }
         else if (attacker.hasAbility('Protean', "Savant")) {
@@ -946,7 +1041,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         var applyBurn = attacker.hasStatus('brn') &&
             move.category === 'Physical' &&
-            !attacker.hasAbility('Guts') &&
+            !attacker.hasAbility('Guts') && !pokewebRules?.nativeException(rules, 'ability', attacker, 62) &&
             !(move.named('Facade') && (gen.num === 6 || isCascadeProfile));
         desc.isBurned = applyBurn;
         var finalMods = [];
@@ -1012,10 +1107,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             finalMods.push(5324);
             desc.attackerItem = attacker.item;
         }
-        if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
+        if (!customDefenderItem && move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
             (typeEffectiveness > 1 || move.hasType('Normal')) &&
             hitCount === 0 &&
-            !attacker.hasAbility('Unnerve')) {
+            !attacker.hasAbility('Unnerve') && !pokewebRules?.nativePassive(rules, 'unnerve', attacker)) {
             finalMods.push(2048);
             desc.defenderItem = defender.item;
         }
@@ -1023,6 +1118,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             finalMods.push(1024);
             desc.isProtected = true;
         }
+        if (rules) pokewebRules.modifiers(rules, "damage", finalMods, {hit: hitCount, critical: isCritical, extraStrike: hitCount === 1 && extraStrike});
         var finalMod = (0, util_2.chainMods)(finalMods, 41, 131072);
         var damage = [];
         for (var i = 0; i < 16; i++) {
@@ -1038,7 +1134,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var damage = hitResult.damage;
     var attackStat = hitResult.attackStat;
     var childDamage;
-    if (attacker.hasAbility('Parental Bond') && move.hits === 1 && !isSpread) {
+    if (!extraStrike && attacker.hasAbility('Parental Bond') && move.hits === 1 && !isSpread) {
         var child = attacker.clone();
         child.ability = 'Parental Bond (Child)';
         (0, util_2.checkMultihitBoost)(gen, child, defender, move, field, desc);
@@ -1047,7 +1143,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     desc.attackBoost =
         move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
-    if (move.timesUsed > 1 || move.hits > 1) {
+    if (move.timesUsed > 1 || move.hits > 1 || extraStrike) {
         var damageMatrix = [damage];
         var origDefBoost = desc.defenseBoost;
         var origAtkBoost = desc.attackBoost;
@@ -1057,7 +1153,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             numAttacks = move.timesUsed;
         }
         else {
-            numAttacks = move.hits;
+            numAttacks = extraStrike ? 2 : move.hits;
         }
         var usedItems = [false, false];
         for (var times = 1; times < numAttacks; times++) {

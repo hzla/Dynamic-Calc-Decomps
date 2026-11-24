@@ -25,6 +25,7 @@ var Field = (function () {
         this.gameType = field.gameType || 'Singles';
         this.terrain = field.terrain;
         this.weather = field.weather;
+        this.pokeweb = field.pokeweb && {...field.pokeweb};
         this.g4Phase2State = field.g4Phase2State ? Object.assign({}, field.g4Phase2State) : undefined;
         this.isMagicRoom = !!field.isMagicRoom;
         this.isWonderRoom = !!field.isWonderRoom;
@@ -66,6 +67,7 @@ var Field = (function () {
         return new Field({
             gameType: this.gameType,
             weather: this.weather,
+            pokeweb: this.pokeweb,
             g4Phase2State: this.g4Phase2State,
             terrain: this.terrain,
             isMagicRoom: this.isMagicRoom,
@@ -92,6 +94,8 @@ var Side = (function () {
     function Side(side) {
         if (side === void 0) { side = {}; }
         this.spikes = side.spikes || 0;
+        this.pokeweb = side.pokeweb && {...side.pokeweb};
+        this.pokewebPosition = side.pokewebPosition;
         this.steelsurge = !!side.steelsurge;
         this.vinelash = !!side.vinelash;
         this.wildfire = !!side.wildfire;

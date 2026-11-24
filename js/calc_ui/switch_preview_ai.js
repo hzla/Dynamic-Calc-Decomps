@@ -505,7 +505,13 @@ function deepMemoize(fn) {
   matchupCache = new Map();
 
   return function(...args) {
-    currentKey = hashPokemonPair([compressPlayerPok(args[1]), compressTrainerPok(args[3])])
+    currentKey = hashPokemonPair([compressPlayerPok(args[1]), compressTrainerPok(args[3])]);
+    if (typeof backup_data !== "undefined" && backup_data?.pokewebBattleRules?.version === 1) {
+      const defender = args[3];
+      const abilityState = mon => [mon.pokewebAbilityId, mon.pokewebAbilityActive, mon.pokewebAbilitySuppressed, mon.alliesFainted];
+      currentKey += ":" + JSON.stringify([args[2], args[4], defender.originalCurHP, defender.status, defender.types,
+        defender.boosts, abilityState(args[1]), abilityState(defender)]);
+    }
     if (resultsCache.has(currentKey)) {
       return resultsCache.get(currentKey);
     }

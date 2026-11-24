@@ -5,9 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark">
+    <script>
+        // Gen 5 UI (css/gen5.css, js/calc_ui/gen5_ui.js): set before the page paints so the other look never flashes.
+        try {
+            // ?gen5ui=1 or ?gen5ui=0 shows or hides it for this visit without changing the saved setting.
+            var gen5uiParam = new URLSearchParams(window.location.search).get("gen5ui");
+            var gen5uiOn = gen5uiParam === "1" || gen5uiParam === "0" ? gen5uiParam === "1" : localStorage.getItem("gen5ui") === "1";
+            if (gen5uiOn) document.documentElement.classList.add("gen5ui");
+        } catch (error) {}
+    </script>
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?double-ko-preview1" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?trainer-lead1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?splitcolors1" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -50,6 +59,7 @@
     <script src="./js/vendor/jquery.terminal-2.43.0.min.js"></script>
     <script src="./js/vendor/ai.min.js?30e82835"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/31.0.1/ag-grid-community.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./css/gen5.css?pokeweb-abilities1-clear1-inline1-g5tabs1" />
 
 
 </head>
@@ -177,6 +187,15 @@
               <div class="menu-label">
                 Use New Layout
               </div> 
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div id="toggle-gen5-ui" class="menu-item">
+              <div class="menu-label">
+                Gen 5 UI
+              </div>
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
@@ -1023,7 +1042,9 @@
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="abilityL1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityL1"></select>
-                    <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
+                    <span class="ability-toggles" hidden>
+                        <input type="checkbox" title="Is this ability active?" aria-label="Ability active" class="abilityToggle calc-trigger">
+                    </span>
                     <select hidden aria-label="Allies fainted" class="alliesFainted calc-trigger">
                         <option value="0">Zero allies fainted</option>
                         <option value="1">One ally fainted</option>
@@ -1445,6 +1466,12 @@
                         <input aria-describedby="gravityInstruction" class="visually-hidden calc-trigger" type="checkbox" id="gravity" />
                         <label class="btn" for="gravity">Gravity</label>
                     </div>
+                    <details id="pokeweb-opening-fields" hidden>
+                        <summary>Additional Gen 5 field conditions</summary>
+                        <div id="pokeweb-opening-global"></div>
+                        <div id="pokeweb-opening-side-l"></div>
+                        <div id="pokeweb-opening-side-r"></div>
+                    </details>
                     <div class="g6 g7 g8 cascade-effects" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="cascade" value="" id="clear-cascade" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear-cascade">None</label>
@@ -2196,7 +2223,9 @@
                 <div class="gen-specific g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="abilityR1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityR1"></select>
-                    <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
+                    <span class="ability-toggles" hidden>
+                        <input type="checkbox" title="Is this ability active?" aria-label="Ability active" class="abilityToggle calc-trigger">
+                    </span>
                     <select hidden aria-label="Allies fainted" class="alliesFainted calc-trigger">
                         <option value="0">Zero allies fainted</option>
                         <option value="1">One ally fainted</option>
@@ -2601,13 +2630,16 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?imperium-preview1"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
     <script type="text/javascript" src="./js/calc_ui/menu_settings.js?tarnished-platinum1"></script>
-    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1"></script>
+    <script type="text/javascript" src="./js/calc_ui/gen5_ui.js?9"></script>
+    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1-g5tabs1"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
     <script type="text/javascript" src="./js/fragsheet/battle_log_split_rules.js?1"></script>
-    <script type="text/javascript" src="./js/fragsheet/battle_log.js?null125"></script>
-    <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/dev_data_override.js?blank-dev-weather2"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?null125-g5tabs1"></script>
+    <script type="text/javascript" src="./js/calc_ui/box_view.js?g5tabs1"></script>
+    <script src="./calc/mechanics/pokeweb-ability-catalog.js"></script>
+    <script src="./calc/mechanics/pokeweb-ability-sync.js"></script>
+    <script type="text/javascript" src="./js/calc_ui/dev_data_override.js?pokeweb-abilities1"></script>
     <script type="text/javascript" src="./js/calc_ui/custom_opponent_teams.js?4"></script>
     <script type="text/javascript" src="./js/calc_ui/vanilla_defaults.js?tarnished-platinum2"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js?badem"></script>
@@ -2616,11 +2648,11 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?frdeluxe1"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/hge_includes.js?72ac966b"></script>
-    <script type="text/javascript" src="./js/initialize.js?valid-calc-selection1"></script>
+    <script type="text/javascript" src="./js/initialize.js?pokeweb-abilities1-inline1"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?tag-partner-label1"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
-    <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?imperium-preview1"></script>
+    <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?pokeweb-abilities1"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g3.js?bademhp1"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g4.js?30a9c90e"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g5.js?double-ko-preview1"></script>
@@ -2635,7 +2667,7 @@
     <script type="text/javascript" src="./js/data/null_gauntlets.js?spirit1"></script>
     <script type="text/javascript" src="./js/calc_ui/null_wandering_spirit.js?1"></script>
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?spirit1"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?double-ko-preview1"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?hide-zero-frags1"></script>
 
 
 
@@ -2692,10 +2724,10 @@
 
     <script type="text/javascript" src="./calc/move.js?ancestral-x-return1"></script>
     
-    <script type="text/javascript" src="./calc/pokemon.js?20260516b"></script>
-    <script type="text/javascript" src="./calc/field.js?33ad1378"></script>
+    <script type="text/javascript" src="./calc/pokemon.js?pokeweb-abilities1"></script>
+    <script type="text/javascript" src="./calc/field.js?pokeweb-rules1"></script>
     <script type="text/javascript" src="./calc/items.js?05c5dab1"></script>
-    <script type="text/javascript" src="./calc/mechanics/util.js?56e93fa3"></script>
+    <script type="text/javascript" src="./calc/mechanics/util.js?pokeweb-rules1"></script>
     <script type="text/javascript" src="./calc/mechanics/boostModifiers.js?13c1ef48"></script>
     <script type="text/javascript" src="./calc/mechanics/romhacks/helpers.js?ecba37a1"></script>
     <script type="text/javascript" src="./calc/mechanics/romhacks/profiles/cascade-white.js?645bf6dc"></script>
@@ -2708,20 +2740,21 @@
 
     <script type="text/javascript" src="./calc/mechanics/vanilla/gen789.js?water-shuriken1"></script>
 
-    <script type="text/javascript" src="./calc/mechanics/gen56.js?ps-split1"></script>
+    <script type="text/javascript" src="./calc/mechanics/pokeweb-rules.js?pokeweb-abilities1"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen56.js?pokeweb-abilities1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen4-switch.js?ps-split1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen4.js?ps-split1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen3.js?frdeluxe1"></script>
     <script type="text/javascript" src="./calc/mechanics/gen12.js?554f9d07"></script>
     <script type="text/javascript" src="./calc/calc.js?d7fc4fbd"></script>
-    <script type="text/javascript" src="./calc/desc.js?075fc41f"></script>
-    <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
+    <script type="text/javascript" src="./calc/desc.js?pokeweb-abilities1"></script>
+    <script type="text/javascript" src="./calc/result.js?pokeweb-abilities1"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?4025a2a4"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?valid-calc-selection1"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?trainer-lead1"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?valid-calc-selection1"></script>
     <script type="text/javascript" src="./js/moveset_import.js?valid-calc-selection1"></script>
-    <script type="text/javascript" src="./js/fragsheet/frags.js?mobilefrags1"></script>
+    <script type="text/javascript" src="./js/fragsheet/frags.js?hide-zero-frags1"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
     <script type="text/javascript" src="./js/bug_report.js?e8161abf"></script>
 

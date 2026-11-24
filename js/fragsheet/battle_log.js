@@ -138,7 +138,17 @@
         return `<span class="box-type-icon type-icon-${escHtml(toBattleSpriteSlug(typeName))}${classSuffix}" aria-hidden="true" title="${escHtml(typeName)}"></span>`;
     }
 
+    // The Gen 5 UI (css/gen5.css) draws battles as rows in a panel per split, the team with still sprites and the
+    // battle screen's move buttons, and words a few labels differently. The classic markup is unchanged.
+    function isGen5Ui() {
+        return document.documentElement.classList.contains("gen5ui");
+    }
+
     function renderBattleLogMoveChip(moveName) {
+        if (isGen5Ui()) {
+            const typeSlug = moveName ? toBattleSpriteSlug(getBattleLogMoveType(moveName)) : "none";
+            return `<span class="g5-log-move" data-g5-type="${escHtml(typeSlug)}"><span>${escHtml(moveName ? getBattleLogMoveDisplayName(moveName) : "-")}</span></span>`;
+        }
         if (!moveName) {
             return '<div class="box-move box-move-empty">-</div>';
         }
@@ -2358,7 +2368,7 @@
             if (!exists) activeBattleLogSplitFilter = "all";
         }
 
-        let html = `<div class="battle-log-split-tab${activeBattleLogSplitFilter === "all" ? " active" : ""}" data-battle-log-split="all">All Splits</div>`;
+        let html = `<div class="battle-log-split-tab${activeBattleLogSplitFilter === "all" ? " active" : ""}" data-battle-log-split="all">${isGen5Ui() ? "All splits" : "All Splits"}</div>`;
         html += splitTabs.map((tab) => {
             const isActive = Number(activeBattleLogSplitFilter) === Number(tab.index);
             return `<div class="battle-log-split-tab${isActive ? " active" : ""}" data-battle-log-split="${escHtml(tab.index)}">${escHtml(tab.label)}</div>`;
@@ -2962,6 +2972,23 @@
                 `
                 : "";
 
+            if (isGen5Ui()) {
+                return `
+                <div class="battle-team-card${koLookup[idx] ? " ko" : ""}${hideMoves ? " no-moves" : ""}">
+                    ${editButton}
+                    <div class="battle-team-sprite-wrap g5-anim-host">
+                        <canvas class="g5-still" width="1" height="1" data-gif="${escHtml(animatedFrontSpritePath(mon.species))}" data-fallback="${escHtml(spritePath(mon.species))}" data-fallback-pixel data-max="190x100" role="img" aria-label="${escHtml(speciesName)}"></canvas>
+                        <img class="g5-anim" alt="">
+                        ${itemPath ? `<img class="battle-team-item" src="${itemPath}" alt="${escHtml(mon.heldItem || "")}" title="${escHtml(mon.heldItem || "")}" onerror="this.style.display='none'">` : ""}
+                    </div>
+                    <div class="g5-team-name">${escHtml(speciesName)}${isFainted ? ' <span class="g5-fainted">Fainted</span>' : ""}</div>
+                    <div class="g5-team-fact">${escHtml(mon.ability || "Unknown")}</div>
+                    <div class="g5-team-fact">${escHtml(mon.nature || "Unknown")}</div>
+                    ${hideMoves ? "" : `<div class="g5-team-moves">${moves.map(renderBattleLogMoveChip).join("")}</div>`}
+                </div>
+            `;
+            }
+
             return `
                 <div class="battle-team-card${koLookup[idx] ? " ko" : ""}${hideMoves ? " no-moves" : ""}">
                     ${editButton}
@@ -3101,13 +3128,16 @@
         }
 
         const pKos = getDisplayedPlayerKoEvents(session);
+        const gen5 = isGen5Ui();
+        const youLabel = gen5 ? "Your Pokémon" : "You";
+        const foeLabel = gen5 ? "Knocked out" : "Enemy KO'd";
 
         if (!pKos.length) {
             return `
                 <div class="battle-events">
                     <div class="battle-events-header">
-                        <div>You</div>
-                        <div>Enemy KO'd</div>
+                        <div>${youLabel}</div>
+                        <div>${foeLabel}</div>
                     </div>
                     <div class="battle-events-empty">No player-side KO events recorded in this session.</div>
                 </div>
@@ -3142,8 +3172,8 @@
         return `
             <div class="battle-events">
                 <div class="battle-events-header">
-                    <div>${hasPartnerKo ? "You / Partner" : "You"}</div>
-                    <div>Enemy KO'd</div>
+                    <div>${hasPartnerKo ? (gen5 ? "Yours and your partner's" : "You / Partner") : youLabel}</div>
+                    <div>${foeLabel}</div>
                 </div>
                 ${rows}
             </div>
@@ -3314,7 +3344,10 @@
         const trainerName = parseTrainerName(trainerId);
         const deathCount = getPlayerDeathCount(session);
         const deathSummaryClass = deathCount > 0 ? "deaths" : "deathless";
-        const deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
+        let deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
+        if (isGen5Ui()) {
+            deathSummaryText = deathCount === 0 ? "No deaths" : `${deathCount} ${deathCount === 1 ? "death" : "deaths"}`;
+        }
         const trainerTitle = renderBattleLogTrainerTitle(session, trainerName);
         const sessionClasses = ["battle-session"];
 
@@ -3342,9 +3375,62 @@
         `;
     }
 
+    // Gen 5: one panel per split, its title bar naming the split and counting its battles.
+    function renderGen5BattleLogSplitPanel(label, sessionHtml, sessionCount) {
+        const title = label == null
+            ? "Battles"
+            : (typeof window.g5SplitTitle === "function" ? window.g5SplitTitle(label) : String(label));
+        return `
+            <section class="g5-log-split" aria-label="${escHtml(title)}">
+                <div class="g5-log-split-bar"><h3>${escHtml(title)}</h3><span>${escHtml(sessionCount)} ${sessionCount === 1 ? "battle" : "battles"}</span></div>
+                ${sessionHtml}
+            </section>
+        `;
+    }
+
+    function renderGen5BattleLogSessions(sessions, editable, splitTabs) {
+        const tabs = Array.isArray(splitTabs) ? splitTabs : [];
+        if (activeBattleLogSplitFilter !== "all" || !tabs.length) {
+            const activeTab = tabs.find((tab) => Number(tab.index) === Number(activeBattleLogSplitFilter));
+            const html = sessions.map((session, index) => renderSession(session, index, editable)).join("");
+            return renderGen5BattleLogSplitPanel(activeTab ? activeTab.label : null, html, sessions.length);
+        }
+
+        const bySplit = {};
+        const withoutSplit = [];
+        sessions.forEach((session) => {
+            const splitIndex = getBattleLogSessionSplitIndex(session);
+            if (splitIndex == null) {
+                withoutSplit.push(session);
+                return;
+            }
+            (bySplit[splitIndex] = bySplit[splitIndex] || []).push(session);
+        });
+
+        let html = "";
+        let renderedIndex = 0;
+        const renderGroup = (label, group) => {
+            const groupHtml = group.map((session) => renderSession(session, renderedIndex++, editable)).join("");
+            html += renderGen5BattleLogSplitPanel(label, groupHtml, group.length);
+        };
+        tabs.forEach((tab) => {
+            if (Array.isArray(bySplit[tab.index]) && bySplit[tab.index].length) {
+                renderGroup(tab.label, bySplit[tab.index]);
+            }
+        });
+        if (withoutSplit.length) {
+            renderGroup("", withoutSplit);
+        }
+        return html;
+    }
+
     function renderBattleLogSessions(sessions, editable) {
         const normalizedSessions = Array.isArray(sessions) ? sessions : [];
         const splitTabs = getBattleLogSplitTabsConfig();
+
+        if (isGen5Ui()) {
+            return renderGen5BattleLogSessions(normalizedSessions, editable, splitTabs);
+        }
 
         if (activeBattleLogSplitFilter !== "all" || !Array.isArray(splitTabs) || !splitTabs.length) {
             return normalizedSessions.map((session, index) => renderSession(session, index, editable)).join("");
@@ -3565,8 +3651,21 @@
         }
 
         let html = "";
+        const gen5 = isGen5Ui();
         html += renderBattleLogEditModeToggle();
-        if (resolved.source) {
+        if (gen5) {
+            // One line: how many battles, and where they came from, in words rather than a storage key.
+            const count = filteredSessions.length;
+            const source = String(resolved.source || "");
+            let from = "saved in this browser";
+            if (source === "Source: Live Sync") {
+                from = "from the last sync";
+            } else if (source && !source.startsWith("localStorage:")) {
+                from = `from ${source.replace(/^Source:\s*/, "").replace(/\s*\(save file\)$/, "")}`;
+            }
+            const scope = activeBattleLogSplitFilter === "all" ? "" : " in this split";
+            html += `<div class="battle-log-note g5-log-status">${escHtml(count)} ${count === 1 ? "battle" : "battles"}${scope} ${escHtml(from)}</div>`;
+        } else if (resolved.source) {
             html += `<div class="battle-log-note">${escHtml(resolved.source)}</div>`;
         }
         if (resolved.sourceType === "save-file" && resolved.data.overflow) {
@@ -3581,7 +3680,9 @@
         } else if (hasEditableAttempt) {
             html += '<div class="battle-log-note">Edit mode is off. Toggle it on to adjust faint markers and KO events for this uploaded attempt.</div>';
         }
-        html += `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
+        if (!gen5) {
+            html += `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
+        }
         if (parseErrors.length) {
             html += `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) encountered while parsing battle log JSON.</div>`;
         }
@@ -3592,6 +3693,9 @@
         }
         container.innerHTML = html;
         restoreBattleLogUiState(uiState);
+        if (gen5 && typeof window.g5HydrateStills === "function") {
+            window.g5HydrateStills(container);
+        }
         lastRenderedBattleLogRaw = currentBattleLogRaw;
         lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
         lastRenderedImportantTrainerOnly = currentImportantTrainerOnly;

@@ -120,6 +120,79 @@ const splitsCellRenderer = (params) => {
     return `<div class="splits-cell">${params.value || 0}</div>`;
 };
 
+// The Gen 5 UI (css/gen5.css) gives the sheet one Pokémon column (icon, nickname, species), puts Status last, and
+// words a few headers differently. The classic columns are unchanged.
+function isGen5FragsheetUi() {
+    return document.documentElement.classList.contains("gen5ui");
+}
+
+const gen5PokemonCellRenderer = (params) => {
+    const species = params.data && params.data.species;
+    if (!species) {
+        return '';
+    }
+    const nickname = getDisplayNickname(params.data.nickname, species);
+    const slug = species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '').replace(/-totem$/g, '');
+    return `<span class="g5-sheet-mon"><img src="./img/pokesprite/${slug}.png" alt=""><span><b>${escapeFragHistoryHtml(nickname || species)}</b>${nickname ? `<small>${escapeFragHistoryHtml(species)}</small>` : ''}</span></span>`;
+};
+
+function applyGen5FragsheetColumns() {
+    columnDefs.forEach(function(column) {
+        if (column.field === 'rank') {
+            // One row element per row, so the picked row's ring is whole.
+            column.pinned = null;
+            column.width = 56;
+        } else if (column.field === 'encounterLocation') {
+            column.headerName = 'Met at';
+            column.width = 160;
+        } else if (column.field === 'koShare') {
+            column.headerName = 'Share of KOs';
+            column.flex = 1;
+            column.minWidth = 230;
+        } else if (column.field === 'status') {
+            column.width = 100;
+        } else if (column.colId === 'pokemonImage') {
+            column.headerName = 'Pokémon';
+            column.width = 220;
+            column.editable = true;
+            column.cellEditor = 'agTextCellEditor';
+            column.cellRenderer = gen5PokemonCellRenderer;
+            column.valueGetter = (params) => getDisplayNickname(params.data.nickname, params.data.species) || params.data.species;
+            column.valueSetter = (params) => {
+                params.data.nickname = params.newValue;
+                return true;
+            };
+            column.onCellValueChanged = (event) => {
+                updateEncounter('nn', event.data.species, event.newValue);
+            };
+        } else if (column.field === 'nickname' || (column.field === 'species' && !column.colId)) {
+            column.hide = true;
+        }
+    });
+    // Narrower columns where a view adds its own (the nine splits, or the stats), so a full-width sheet fits.
+    const bySplit = activeSplit == "all";
+    const stats = activeSplit == 9;
+    if (bySplit || stats) {
+        columnDefs.forEach(function(column) {
+            if (column.colId === 'pokemonImage') column.width = 200;
+            else if (column.field === 'encounterLocation') {
+                column.width = 130;
+                if (bySplit) column.hide = true;
+            } else if (/^split\d$/.test(column.field)) column.width = 50;
+            else if (column.field === 'totalKo') column.width = 60;
+            else if (column.field === 'koShare') column.minWidth = 120;
+            else if (column.field === 'ability') column.width = 130;
+            else if (column.field === 'nature') column.width = 90;
+            else if (['hp', 'at', 'df', 'sa', 'sd', 'sp'].includes(column.field)) column.width = 50;
+            if (column.field === 'hp') column.headerName = 'HP';
+        });
+    }
+    const statusIndex = columnDefs.findIndex((column) => column.field === 'status');
+    if (statusIndex !== -1) {
+        columnDefs.push(columnDefs.splice(statusIndex, 1)[0]);
+    }
+}
+
 function updateEncounter(field, species, value) {
     encounters[species][field] = value
     localStorage.encounters = JSON.stringify(encounters)
@@ -377,6 +450,14 @@ function setColumnDefs() {
         },
 
     ];
+    if (isGen5FragsheetUi()) {
+        applyGen5FragsheetColumns();
+    } else {
+        // The grid keeps a column's flex unless it is cleared, so turning the Gen 5 UI off restores the share width.
+        columnDefs.forEach(function(column) {
+            if (column.field === 'koShare') column.flex = null;
+        });
+    }
     const mobile = isMobileFragsheetViewport();
     const mobileColumns = new Set(['status', 'pokemonImage', 'totalKo']);
     columnDefs.forEach(function(column) {
@@ -390,7 +471,9 @@ function displayFragHistory(rowData) {
 
     $('#split-1-container').empty()
     $('.split-container').hide()
-    $('#stat-title').text(`${rowData.species}'s Battles`)
+    const gen5 = isGen5FragsheetUi()
+    let koCount = 0
+    $('#stat-title').text(gen5 ? `${rowData.species}'s battles` : `${rowData.species}'s Battles`)
     for (let i = 0; i < 9; i++) {
         let container = $(`#split-1-container`)
         let fragList = rowData[`split${i}FragInfo`]
@@ -413,9 +496,10 @@ function displayFragHistory(rowData) {
             let fragMonHtml = `<img src="${spritePath}" alt="${pokName}">`
 
             if (!hasRenderedSplitHeader) {
-                container.append(renderFragHistorySplitSectionHeader(splitTitles[i]))
+                container.append(renderFragHistorySplitSectionHeader(splitTitles[i], fragList.length))
                 hasRenderedSplitHeader = true
             }
+            koCount += 1
 
             if (!trainerKey) {
                 trainerKey = `split-${i}-battle-${battleCount}`
@@ -441,7 +525,14 @@ function displayFragHistory(rowData) {
         }
     }
     $('#delete-enc').show().text(`Delete ${rowData.species}`)
-    return battleCount    
+    $('#g5-frag-sum').remove()
+    if (gen5) {
+        const summary = koCount
+            ? `${koCount} ${koCount === 1 ? 'KO' : 'KOs'} in ${battleCount} ${battleCount === 1 ? 'battle' : 'battles'}`
+            : 'No KOs yet'
+        $('#stat-title').after($('<p id="g5-frag-sum"></p>').text(summary))
+    }
+    return battleCount
 }
 
 function extractLevel(str) {
@@ -754,7 +845,11 @@ function getFragHistorySplitHeaderSpriteCandidates(label) {
     return candidates
 }
 
-function renderFragHistorySplitSectionHeader(label) {
+function renderFragHistorySplitSectionHeader(label, koCount) {
+    if (isGen5FragsheetUi() && typeof window.g5SplitTitle === "function") {
+        const kos = Number(koCount) || 0
+        return `<div class="g5-band"><span>${escapeFragHistoryHtml(window.g5SplitTitle(label))}</span>${kos ? `<span class="g5-band-aside">${kos} ${kos === 1 ? 'KO' : 'KOs'}</span>` : ''}</div>`
+    }
     const splitLabel = String(label || "").trim()
     const title = splitLabel ? `${splitLabel} Split` : "Split"
     const lowerLabel = splitLabel.toLowerCase()
@@ -1424,8 +1519,22 @@ function ensureFragsheetGridInitialized() {
             currentDisplayedSpecies = event.data.species;
             displayFragHistory(event.data)
         },
-        rowHeight: 80,
-        headerHeight: 40
+        rowHeight: isGen5FragsheetUi() ? 56 : 80,
+        headerHeight: isGen5FragsheetUi() ? 34 : 40,
+        // Switching views sizes the columns to fit while the previous view's layout is still in place. The Gen 5
+        // sheet puts its own widths back once the grid has its real size, the share column taking what is left.
+        onGridSizeChanged: (params) => {
+            if (!isGen5FragsheetUi() || !Array.isArray(columnDefs)) {
+                return;
+            }
+            params.api.applyColumnState({
+                state: columnDefs.map((column) => ({
+                    colId: column.colId || column.field,
+                    width: column.flex ? undefined : column.width,
+                    flex: column.flex || null
+                }))
+            });
+        }
     };
     window.gridApi = agGrid.createGrid(gridDiv, gridOptions);
     fragsheetGridInitialized = true;

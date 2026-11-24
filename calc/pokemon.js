@@ -109,6 +109,9 @@ var Pokemon = (function () {
         this.gender = options.gender || this.species.gender || 'M';
         this.ability = options.ability || ((_b = this.species.abilities) === null || _b === void 0 ? void 0 : _b[0]) || undefined;
         this.abilityOn = !!options.abilityOn;
+        this.pokewebAbilityId = options.pokewebAbilityId;
+        this.pokewebAbilityActive = options.pokewebAbilityActive && {...options.pokewebAbilityActive};
+        this.pokewebAbilitySuppressed = !!options.pokewebAbilitySuppressed;
         this.itemOn = options.itemOn !== false;
         // this.isDynamaxed = !!options.isDynamaxed;
         // this.dynamaxLevel = this.isDynamaxed
@@ -298,6 +301,9 @@ var Pokemon = (function () {
             level: this.level,
             ability: this.ability,
             abilityOn: this.abilityOn,
+            pokewebAbilityId: this.pokewebAbilityId,
+            pokewebAbilityActive: this.pokewebAbilityActive,
+            pokewebAbilitySuppressed: this.pokewebAbilitySuppressed,
             itemOn: this.itemOn,
             isDynamaxed: this.isDynamaxed,
             dynamaxLevel: this.dynamaxLevel,

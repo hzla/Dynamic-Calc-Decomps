@@ -217,7 +217,8 @@ $(document).ready(function() {
                 const fragCount = encounters[speciesName].fragCount
 
                 $('#met-loc').text(`${met}`).show()
-                $('#frag-count').text(`Frags: ${fragCount}`).show()
+                // A Pokémon that hasn't knocked anything out shows no frag count.
+                $('#frag-count').text(`Frags: ${fragCount}`).toggle(Number(fragCount) > 0)
             } else {
                 $('#met-loc, #frag-count').hide()
             }

@@ -4104,6 +4104,10 @@ body.hide-party-data .player-party .bp-info {
     margin-bottom: 10px;
 }
 
+#p2 .poke-sprite.lead {
+    outline: 1px solid #bb86fc;
+}
+
 .trainer-pok.right-side.faster {
     border-bottom: 3px solid rgb(var(--box-filter-speed-rgb));
     border-bottom-left-radius: 0px;
@@ -4298,7 +4302,7 @@ body.hide-party-data .player-party .bp-info {
     overflow: visible;
 }
 
-.info-group.info-selectors .inline-toggle-field .abilityToggle,
+.info-group.info-selectors .inline-toggle-field .ability-toggles,
 .info-group.info-selectors .inline-toggle-field .itemToggle {
     position: absolute;
     left: -24px;
@@ -4306,6 +4310,22 @@ body.hide-party-data .player-party .bp-info {
     transform: translateY(-50%);
     margin: 0;
     z-index: 1;
+}
+
+.info-group.info-selectors .inline-toggle-field .ability-toggles {
+    right: calc(100% + 6px);
+    left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info-group.info-selectors .inline-toggle-field .ability-toggles[hidden] {
+    display: none;
+}
+
+.ability-toggles input[type="checkbox"] {
+    margin: 0;
 }
 
 .info-group.info-selectors label {
@@ -5465,13 +5485,24 @@ table.field {
     overflow: visible;
   }
 
-  .info-group.info-selectors .inline-toggle-field .abilityToggle,
+  .info-group.info-selectors .inline-toggle-field .ability-toggles,
   .info-group.info-selectors .inline-toggle-field .itemToggle {
     position: absolute;
     left: auto;
     top: 50%;
     transform: translateY(-50%);
     right: 4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .info-group.info-selectors .inline-toggle-field .ability-toggles {
+    right: 4rem;
+    width: max-content;
+    height: auto;
+  }
+
+  .ability-toggles input[type="checkbox"] {
     width: 1.5rem;
     height: 1.5rem;
   }
@@ -6691,7 +6722,7 @@ table.field {
         padding-right: 18px;
     }
 
-    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .abilityToggle,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .ability-toggles,
     .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .itemToggle {
         position: static;
         flex: 0 0 22px;
@@ -6699,6 +6730,17 @@ table.field {
         height: 22px;
         transform: none;
         margin: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .ability-toggles {
+        flex: none;
+        width: auto;
+        height: auto;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .ability-toggles input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
     }
 
     .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl {

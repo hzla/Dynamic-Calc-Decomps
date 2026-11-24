@@ -1,0 +1,4776 @@
+/*
+ * Gen 5 UI: the calculator in the style of the Black 2 / White 2 battle screen, as in Pokeweb's Mastersheet Viewer.
+ * Opt-in: everything here applies under html.gen5ui only (the "Gen 5 UI" setting, or ?gen5ui=1), so the usual look
+ * is untouched when it is off. js/calc_ui/gen5_ui.js keeps the data-g5-* attributes current.
+ *
+ * The layout stays the calculator's own: moves and damage across the top with the result between them, then
+ * Pokémon 1, the field with notes and import, and Pokémon 2. The art in img/gen5 is the game's, drawn by Pokeweb from
+ * a BW2 ROM: move button frames, type labels, the system message frame; grids and hatching are its patterns.
+ */
+
+@font-face { font-family: "G5 Menlo"; font-weight: 100 650; font-display: swap; src: local("Menlo-Regular"), local("Menlo Regular"), url("./fonts/dejavu-sans-mono-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "G5 Menlo"; font-weight: 651 1000; font-display: swap; src: local("Menlo-Bold"), local("Menlo Bold"), url("./fonts/dejavu-sans-mono-latin-700-normal.woff2") format("woff2"); }
+
+html.gen5ui {
+  --g5-black: #181818;
+  --g5-ground: #202020;
+  --g5-panel: #282828;
+  --g5-raised: #303030;
+  --g5-edge: #484848;
+  --g5-text: #f0f0f8;
+  --g5-soft: #d8d8e0;
+  --g5-label: #c4c4d0;
+  --g5-muted: #a0a0a0;
+  --g5-fight: #f82018;
+  --g5-bag: #f8c828;
+  --g5-mon: #70d830;
+  --g5-run: #20a0f8;
+  --g5-menu: #393950;
+  --g5-menu-edge: #9c9cac;
+  --g5-menu-on: #275988;
+  --g5-menu-on-edge: #b3cdd5;
+  --g5-selected: #74dbe5;
+  --g5-up: #ff8a80;
+  --g5-down: #8cc0f0;
+  --g5-font: "G5 Menlo", Menlo, "DejaVu Sans Mono", monospace;
+  --g5-hex: polygon(var(--cut, 7px) 0, calc(100% - var(--cut, 7px)) 0, 100% 50%, calc(100% - var(--cut, 7px)) 100%, var(--cut, 7px) 100%, 0 50%);
+  --g5-hex-face: polygon(calc(var(--cut, 7px) - 1px) 0, calc(100% - var(--cut, 7px) + 1px) 0, 100% 50%, calc(100% - var(--cut, 7px) + 1px) 100%, calc(var(--cut, 7px) - 1px) 100%, 0 50%);
+  background: var(--g5-ground) url("../img/gen5/ui/grid-ground.svg");
+  color-scheme: dark;
+}
+
+html.gen5ui body {
+  background: transparent;
+  color: var(--g5-text);
+  font-family: var(--g5-font);
+  font-variant-numeric: tabular-nums;
+}
+
+html.gen5ui body :is(input, select, textarea, button, label, legend, td, th, div, span, a) {
+  font-family: var(--g5-font);
+}
+
+html.gen5ui img.trainer-pok,
+html.gen5ui img.poke-sprite,
+html.gen5ui img.trainer-pok-item {
+  image-rendering: pixelated;
+}
+
+/* ---------- Fields: dark wells with a grey frame ---------- */
+
+html.gen5ui #calculator-view :is(input, select, textarea, label.btn, button, .select2-choice, .notes-text) {
+  box-sizing: border-box;
+}
+
+html.gen5ui :is(#calculator-view, .header-settings) :is(input[type="text"], input[type="number"], input:not([type]), select, textarea),
+html.gen5ui #calculator-view .notes-text {
+  min-height: 0;
+  border: 2px solid var(--g5-edge) !important;
+  border-radius: 0 !important;
+  background-color: var(--g5-black) !important;
+  color: var(--g5-text) !important;
+  box-shadow: none !important;
+  font-size: 13px;
+}
+
+html.gen5ui #calculator-view select {
+  appearance: none;
+  padding: 0 20px 0 6px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--g5-menu-edge) 50%), linear-gradient(135deg, var(--g5-menu-edge) 50%, transparent 50%) !important;
+  background-position: right 11px center, right 6px center !important;
+  background-size: 5px 5px, 5px 5px !important;
+  background-repeat: no-repeat !important;
+  text-overflow: ellipsis;
+}
+
+html.gen5ui #calculator-view option {
+  background: var(--g5-black);
+  color: var(--g5-text);
+}
+
+html.gen5ui #calculator-view :is(input, select, textarea):focus-visible,
+html.gen5ui #calculator-view .notes-text:focus-visible {
+  outline: 2px solid var(--g5-text);
+  outline-offset: 1px;
+}
+
+/* Select2 boxes (set and move pickers) */
+html.gen5ui .select2-container .select2-choice {
+  height: 30px;
+  border: 2px solid var(--g5-edge) !important;
+  border-radius: 0 !important;
+  background: var(--g5-black) !important;
+  color: var(--g5-text) !important;
+  box-shadow: none !important;
+  font: 400 13px/26px var(--g5-font);
+}
+
+html.gen5ui .select2-container .select2-choice .select2-arrow {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+html.gen5ui .select2-container .select2-choice .select2-arrow b {
+  background: none !important;
+}
+
+/* The calc gives a picker's text a box of its own; inside the well it showed as a second border. */
+html.gen5ui .select2-container .select2-choice > .select2-chosen {
+  height: auto;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.gen5ui .select2-container .select2-choice .select2-arrow b::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 4px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--g5-menu-edge);
+}
+
+html.gen5ui .select2-drop {
+  border: 2px solid var(--g5-menu-edge) !important;
+  border-radius: 0 !important;
+  background: var(--g5-black) !important;
+  color: var(--g5-text) !important;
+  font-family: var(--g5-font);
+}
+
+html.gen5ui .select2-search input {
+  border: 2px solid var(--g5-edge) !important;
+  background: var(--g5-ground) !important;
+  color: var(--g5-text) !important;
+}
+
+html.gen5ui .select2-results .select2-highlighted {
+  background: var(--g5-menu-on) !important;
+  color: var(--g5-text) !important;
+}
+
+/* ---------- Buttons: the hexagonal command button ---------- */
+
+html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin)),
+html.gen5ui .player-preview-add-actions button,
+html.gen5ui .opposing-preview-footer button,
+html.gen5ui #open-romhack-modal,
+html.gen5ui #footer :is(button, .btn) {
+  --edge: var(--g5-menu-edge);
+  --face: var(--g5-menu);
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  min-width: 0;
+  width: auto;
+  height: 26px;
+  margin: 0;
+  padding: 0 calc(var(--cut, 7px) + 8px);
+  line-height: 26px !important;
+  text-align: center;
+  vertical-align: middle;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: var(--edge) !important;
+  color: var(--g5-text) !important;
+  box-shadow: none !important;
+  font-family: var(--g5-font) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-decoration: none;
+  text-shadow: none;
+  white-space: nowrap;
+  cursor: pointer;
+  clip-path: var(--g5-hex);
+}
+
+html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin))::before,
+html.gen5ui .player-preview-add-actions button::before,
+html.gen5ui .opposing-preview-footer button::before,
+html.gen5ui #open-romhack-modal::before,
+html.gen5ui #footer :is(button, .btn)::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: -1;
+  background: var(--face);
+  clip-path: var(--g5-hex-face);
+}
+
+html.gen5ui #calculator-view :is(.btn, .bs-btn, button):hover {
+  --face: #474766;
+}
+
+/* A pressed toggle (radio and checkbox labels): the menus' selection blue. */
+html.gen5ui #calculator-view input:checked + label.btn,
+html.gen5ui #calculator-view .result-crit-toggle[aria-pressed="true"] {
+  --edge: var(--g5-menu-on-edge);
+  --face: var(--g5-menu-on);
+}
+
+html.gen5ui #calculator-view input:not(:checked) + label.btn {
+  color: var(--g5-label) !important;
+  font-weight: 500 !important;
+}
+
+/* The few that matter get a colour: Import green, Sync blue, removing things red. */
+html.gen5ui #calculator-view #import {
+  --edge: var(--g5-mon);
+  --face: #1f3a14;
+}
+
+html.gen5ui #calculator-view :is(#sync-lua, #sync-master) {
+  --edge: var(--g5-run);
+  --face: #0f3150;
+}
+
+html.gen5ui #calculator-view :is(#box-remove, #clearSets) {
+  --edge: var(--g5-fight);
+  --face: #3a1414;
+}
+
+/* ---------- Title bar and views ---------- */
+
+@media (min-width: 961px) {
+html.gen5ui .wrapper {
+  min-width: 0;
+  width: auto;
+  max-width: 1440px;
+  margin: 18px auto 0 !important;
+  padding: 0 24px;
+}
+
+/* The calculator runs wider, so partner battles show both trainers' teams up to six cards to a row. */
+html.gen5ui body.main-page-calculator-view :is(.wrapper, #footer) {
+  max-width: 1920px;
+}
+}
+
+html.gen5ui .header-settings.app-header-shell {
+  position: relative;
+  border-radius: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 14px;
+  min-height: 56px;
+  margin: 0 0 6px;
+  padding: 0 14px;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+}
+
+html.gen5ui #rom-title {
+  order: -2;
+  margin: 0;
+  color: var(--g5-text);
+  font: 600 28px/1.1 var(--g5-font);
+}
+
+@media (min-width: 961px) {
+html.gen5ui #main-view-tabs {
+  order: 5;
+  flex: 1 0 100%;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 -14px -2px;
+  padding: 6px 0 0 2px;
+  border: 0;
+  border-bottom: 2px solid #8cc0f0;
+  border-radius: 0;
+  background: var(--g5-ground) url("../img/gen5/ui/grid-ground.svg");
+}
+
+html.gen5ui .main-view-tabs-primary {
+  display: flex;
+  align-items: flex-end;
+  gap: 0;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+html.gen5ui .main-view-tab {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  height: 32px;
+  margin: 0 -10px 0 0 !important;
+  padding: 0 26px 0 14px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #5a5a5a !important;
+  color: #a7a7b0 !important;
+  box-shadow: none !important;
+  font: 600 15px/1 var(--g5-font) !important;
+  white-space: nowrap;
+  clip-path: polygon(0 100%, 0 0, calc(100% - 14px) 0, 100% 100%);
+}
+
+html.gen5ui .main-view-tab::before {
+  content: "";
+  position: absolute;
+  inset: 2px 2px 0;
+  z-index: -1;
+  background: #1c1c1c;
+  clip-path: polygon(0 100%, 0 0, calc(100% - 13px) 0, calc(100% - 1px) 100%);
+}
+
+html.gen5ui .main-view-tab:hover {
+  background: var(--g5-menu-edge) !important;
+  color: var(--g5-text) !important;
+}
+
+html.gen5ui .main-view-tab.active {
+  z-index: 20;
+  height: 37px;
+  margin-bottom: -2px !important;
+  background: #8cc0f0 !important;
+  color: var(--g5-selected) !important;
+}
+
+html.gen5ui .main-view-tab.active::before {
+  background: var(--g5-ground);
+}
+
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(1) { z-index: 10; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(2) { z-index: 9; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(3) { z-index: 8; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(4) { z-index: 7; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(5) { z-index: 6; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab:nth-child(6) { z-index: 5; }
+html.gen5ui .main-view-tabs-primary > .main-view-tab.active { z-index: 20; }
+}
+
+html.gen5ui #open-romhack-modal {
+  order: 2;
+  min-height: 0;
+  margin-left: auto !important;
+}
+
+html.gen5ui .header-settings.app-header-shell #open-menu {
+  order: 3;
+  flex: none;
+  margin-left: 0;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  border: 2px solid var(--g5-menu-edge);
+  background: var(--g5-menu);
+  filter: none;
+}
+
+html.gen5ui .title-text {
+  order: 1;
+}
+
+/* ---------- Moves and damage across the top, the result between them ---------- */
+
+html.gen5ui #calculator-view > hr {
+  display: none;
+}
+
+/* The move picker is drawn as the move button itself, so its box has no frame of its own. */
+html.gen5ui #calculator-view .select2-container.move-selector {
+  height: auto;
+  border: 0;
+  background: none;
+}
+
+/* An empty party takes no room. */
+html.gen5ui #calculator-view .trainer-poks:has(> .player-party):not(:has(> .player-party > *)) {
+  display: none;
+}
+
+/* The box's Mega strip (shown on phones). */
+html.gen5ui #calculator-view .player-megas {
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-black);
+}
+
+@media (min-width: 961px) {
+html.gen5ui body.main-page-calculator-view #calculator-view {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 20px;
+  align-items: start;
+}
+
+html.gen5ui #calculator-view > * {
+  grid-column: 1 / -1;
+}
+
+
+/* The results row stands on the battle screen's black cross grid. */
+html.gen5ui #calculator-view::before {
+  content: "";
+  grid-row: 1 / 4;
+  grid-column: 1 / -1;
+  margin: 0 -16px;
+  border: 2px solid var(--g5-black);
+  background: #000 url("../img/gen5/ui/grid-cross.svg");
+}
+
+html.gen5ui #calculator-view .move-result-group {
+  display: contents;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup {
+  grid-row: 1;
+  float: none;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 14px 0 0;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup:not(.results-right) {
+  grid-column: 1;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup.results-right {
+  grid-column: 2;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup > div:not(.result-move-header) {
+  display: grid;
+  grid-template-columns: 204px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-height: 36px;
+  padding: 2px 10px 2px 2px;
+  border: 2px solid transparent;
+  background: var(--g5-black);
+}
+
+html.gen5ui #calculator-view .move-result-subgroup.results-right > div:not(.result-move-header) {
+  grid-template-columns: minmax(0, 1fr) 204px;
+  padding: 2px 2px 2px 10px;
+}
+
+/* Each damage figure sits beside its move, as in the calculator. */
+html.gen5ui #calculator-view .move-result-subgroup .resultDamage {
+  justify-self: start;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup.results-right .resultDamage {
+  justify-self: end;
+  text-align: right;
+}
+}
+
+/* The chosen row: the selection blue, dimmed so it marks the row without outshining the move buttons. */
+html.gen5ui #calculator-view .move-result-subgroup > div:has(> input:checked) {
+  border-color: #56788f;
+  background: #1f354a;
+}
+
+html.gen5ui #calculator-view .resultDamage {
+  padding: 0;
+  border: 0 !important;
+  color: var(--g5-text);
+  font: 600 16px/1 var(--g5-font);
+  text-align: right;
+  white-space: nowrap;
+}
+
+html.gen5ui #calculator-view .results-right .resultDamage {
+  text-align: left;
+}
+
+html.gen5ui #calculator-view .move-result-subgroup > div:not(.result-move-header) {
+  cursor: pointer;
+}
+
+html.gen5ui #calculator-view .resultDamage:hover {
+  color: var(--g5-selected);
+}
+
+/* A crit shows in red, as in the calc; a row kept on screen after a crit toggle (locked) has a yellow edge. */
+html.gen5ui #calculator-view .resultDamage.crit-text {
+  color: var(--g5-up);
+}
+
+html.gen5ui #calculator-view .move-result-subgroup > div:has(> input.locked-move:checked) {
+  border-color: var(--g5-bag);
+}
+
+/* Each move is the battle screen's move button in its type's colours. */
+html.gen5ui #calculator-view .move-result-group label.btn,
+html.gen5ui #calculator-view .move-result-group input:checked + label.btn,
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+  --s: 1.5;
+  display: block;
+  width: 204px;
+  min-height: 0;
+  height: calc(19px * var(--s));
+  margin: 0;
+  padding: 0 calc(22px * var(--s)) 0 calc(24px * var(--s));
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: var(--l, url("../img/gen5/moves/none-l.png")) left top / calc(24px * var(--s)) 100% no-repeat border-box, var(--r, url("../img/gen5/moves/none-r.png")) right top / calc(22px * var(--s)) 100% no-repeat border-box, var(--m, url("../img/gen5/moves/none-m.png")) left top / calc(3px * var(--s)) 100% repeat-x content-box !important;
+  color: #f8f8f8 !important;
+  font: 600 14px/calc(19px * var(--s)) var(--g5-font) !important;
+  text-align: center;
+  text-shadow: 1.5px 0 #585858, 0 1.5px #585858, 1.5px 1.5px #585858;
+  white-space: nowrap;
+  overflow: visible;
+  image-rendering: pixelated;
+  clip-path: none;
+}
+
+html.gen5ui #calculator-view .move-result-group label.btn::before {
+  content: none;
+}
+
+html.gen5ui #calculator-view .move-result-group label.btn:hover,
+html.gen5ui #calculator-view .move-result-subgroup > div:hover > label.btn,
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice:hover {
+  filter: brightness(1.3);
+}
+
+html.gen5ui #calculator-view .move-result-group label.btn,
+html.gen5ui #calculator-view .move-result-group input:checked + label.btn {
+  text-overflow: clip;
+  overflow: hidden;
+  padding: 0 14px;
+  font-size: 16px !important;
+}
+
+/* Full-size windows: the result rows' move names at 24px on the button drawn at twice its pixel size (38px tall,
+   wide enough for sixteen letters), and the damage beside them at 20px. */
+@media (min-width: 1200px) {
+  html.gen5ui #calculator-view .move-result-subgroup > div:not(.result-move-header) {
+    grid-template-columns: 276px minmax(0, 1fr);
+    gap: 16px;
+    min-height: 44px;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup.results-right > div:not(.result-move-header) {
+    grid-template-columns: minmax(0, 1fr) 276px;
+  }
+
+  html.gen5ui #calculator-view .move-result-group label.btn,
+  html.gen5ui #calculator-view .move-result-group input:checked + label.btn {
+    --s: 2;
+    width: 276px;
+    padding: 0 22px;
+    font-size: 24px !important;
+    text-shadow: 2px 0 #585858, 0 2px #585858, 2px 2px #585858;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup .resultDamage {
+    font-size: 20px;
+  }
+}
+
+html.gen5ui [data-g5-type="normal"] { --l: url("../img/gen5/moves/normal-l.png") !important; --m: url("../img/gen5/moves/normal-m.png") !important; --r: url("../img/gen5/moves/normal-r.png") !important; }
+html.gen5ui [data-g5-type="fighting"] { --l: url("../img/gen5/moves/fighting-l.png") !important; --m: url("../img/gen5/moves/fighting-m.png") !important; --r: url("../img/gen5/moves/fighting-r.png") !important; }
+html.gen5ui [data-g5-type="flying"] { --l: url("../img/gen5/moves/flying-l.png") !important; --m: url("../img/gen5/moves/flying-m.png") !important; --r: url("../img/gen5/moves/flying-r.png") !important; }
+html.gen5ui [data-g5-type="poison"] { --l: url("../img/gen5/moves/poison-l.png") !important; --m: url("../img/gen5/moves/poison-m.png") !important; --r: url("../img/gen5/moves/poison-r.png") !important; }
+html.gen5ui [data-g5-type="ground"] { --l: url("../img/gen5/moves/ground-l.png") !important; --m: url("../img/gen5/moves/ground-m.png") !important; --r: url("../img/gen5/moves/ground-r.png") !important; }
+html.gen5ui [data-g5-type="rock"] { --l: url("../img/gen5/moves/rock-l.png") !important; --m: url("../img/gen5/moves/rock-m.png") !important; --r: url("../img/gen5/moves/rock-r.png") !important; }
+html.gen5ui [data-g5-type="bug"] { --l: url("../img/gen5/moves/bug-l.png") !important; --m: url("../img/gen5/moves/bug-m.png") !important; --r: url("../img/gen5/moves/bug-r.png") !important; }
+html.gen5ui [data-g5-type="ghost"] { --l: url("../img/gen5/moves/ghost-l.png") !important; --m: url("../img/gen5/moves/ghost-m.png") !important; --r: url("../img/gen5/moves/ghost-r.png") !important; }
+html.gen5ui [data-g5-type="steel"] { --l: url("../img/gen5/moves/steel-l.png") !important; --m: url("../img/gen5/moves/steel-m.png") !important; --r: url("../img/gen5/moves/steel-r.png") !important; }
+html.gen5ui [data-g5-type="fire"] { --l: url("../img/gen5/moves/fire-l.png") !important; --m: url("../img/gen5/moves/fire-m.png") !important; --r: url("../img/gen5/moves/fire-r.png") !important; }
+html.gen5ui [data-g5-type="water"] { --l: url("../img/gen5/moves/water-l.png") !important; --m: url("../img/gen5/moves/water-m.png") !important; --r: url("../img/gen5/moves/water-r.png") !important; }
+html.gen5ui [data-g5-type="grass"] { --l: url("../img/gen5/moves/grass-l.png") !important; --m: url("../img/gen5/moves/grass-m.png") !important; --r: url("../img/gen5/moves/grass-r.png") !important; }
+html.gen5ui [data-g5-type="electric"] { --l: url("../img/gen5/moves/electric-l.png") !important; --m: url("../img/gen5/moves/electric-m.png") !important; --r: url("../img/gen5/moves/electric-r.png") !important; }
+html.gen5ui [data-g5-type="psychic"] { --l: url("../img/gen5/moves/psychic-l.png") !important; --m: url("../img/gen5/moves/psychic-m.png") !important; --r: url("../img/gen5/moves/psychic-r.png") !important; }
+html.gen5ui [data-g5-type="ice"] { --l: url("../img/gen5/moves/ice-l.png") !important; --m: url("../img/gen5/moves/ice-m.png") !important; --r: url("../img/gen5/moves/ice-r.png") !important; }
+html.gen5ui [data-g5-type="dragon"] { --l: url("../img/gen5/moves/dragon-l.png") !important; --m: url("../img/gen5/moves/dragon-m.png") !important; --r: url("../img/gen5/moves/dragon-r.png") !important; }
+html.gen5ui [data-g5-type="dark"] { --l: url("../img/gen5/moves/dark-l.png") !important; --m: url("../img/gen5/moves/dark-m.png") !important; --r: url("../img/gen5/moves/dark-r.png") !important; }
+html.gen5ui [data-g5-type="fairy"] { --l: url("../img/gen5/moves/fairy-l.png") !important; --m: url("../img/gen5/moves/fairy-m.png") !important; --r: url("../img/gen5/moves/fairy-r.png") !important; }
+
+/* The result line and its rolls beneath the moves, in one dark box. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .main-result-group {
+  grid-row: 2;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 10px 0 14px;
+}
+}
+
+html.gen5ui #calculator-view .main-result-group {
+  padding: 0;
+  border: 2px solid var(--g5-edge);
+  border-radius: 0;
+  background: var(--g5-black);
+}
+
+html.gen5ui #calculator-view .main-result-group .big-text {
+  margin: 0;
+  padding: 8px 12px 4px;
+  border: 0;
+  border-image: none;
+  background: none;
+  color: var(--g5-text);
+  text-shadow: none;
+  font: 600 15px/1.5 var(--g5-font);
+}
+
+html.gen5ui #calculator-view #mainResult {
+  color: var(--g5-text);
+}
+
+html.gen5ui #calculator-view .main-result-group .small-text {
+  padding: 0 12px 8px;
+  border: 0;
+  background: none;
+  color: var(--g5-soft);
+  font: 400 13px/1.5 var(--g5-font);
+}
+
+html.gen5ui #calculator-view #damageValues summary {
+  color: var(--g5-soft);
+}
+
+html.gen5ui #calculator-view #damageValues a,
+html.gen5ui #calculator-view #damageValues .max-roll {
+  color: var(--g5-selected);
+}
+
+@media (min-width: 961px) {
+/* View AI sits inside the result box at its right, centred top to bottom (its margins match the box's). */
+html.gen5ui #calculator-view #show-ai {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: end;
+  align-self: center;
+  position: relative;
+  inset: auto;
+  z-index: 2;
+  margin: 10px 12px 14px 0;
+}
+
+html.gen5ui #calculator-view .main-result-group .big-text {
+  padding-right: 120px;
+}
+
+/* The pin, at the left of the result box: keeps the results at the top of the window while the page scrolls. */
+html.gen5ui #calculator-view .main-result-group {
+  position: relative;
+}
+
+html.gen5ui #calculator-view .main-result-group > :is(.big-text, .small-text) {
+  padding-left: 58px;
+}
+
+html.gen5ui #calculator-view .g5-pin {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid var(--g5-menu-edge);
+  border-radius: 0;
+  background: var(--g5-menu);
+  color: var(--g5-label);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+html.gen5ui #calculator-view .g5-pin:hover,
+html.gen5ui #calculator-view .g5-pin:focus-visible {
+  background: #474766;
+  color: var(--g5-text);
+  outline: none;
+}
+
+html.gen5ui #calculator-view .g5-pin[aria-pressed="true"] {
+  border-color: var(--g5-menu-on-edge);
+  background: var(--g5-menu-on);
+  color: var(--g5-text);
+}
+
+html.gen5ui #calculator-view .g5-pin svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+/* Pinned: the calculator stacks as a column, so the moves' band and the result box can stay at the top (a sticky
+   grid item stays within its own row); the rest keeps its order beneath. */
+html.gen5ui.g5-pin-results body.main-page-calculator-view #calculator-view {
+  display: flex !important;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+html.gen5ui.g5-pin-results #calculator-view::before {
+  display: none;
+}
+
+html.gen5ui.g5-pin-results #calculator-view .move-result-group {
+  order: 1;
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 20px;
+  align-items: start;
+  margin: 0 -16px;
+  padding: 0 14px 10px;
+  border: 2px solid var(--g5-black);
+  border-bottom: 0;
+  background: #000 url("../img/gen5/ui/grid-cross.svg");
+}
+
+html.gen5ui.g5-pin-results #calculator-view .main-result-group {
+  order: 2;
+  position: sticky;
+  top: var(--g5-pin-moves, 0px);
+  z-index: 60;
+  margin: 0 0 14px;
+  box-shadow: -16px 0 0 #000, 16px 0 0 #000, 0 14px 0 #000, -16px 14px 0 #000, 16px 14px 0 #000;
+}
+
+/* View AI rides on the result box: drawn after it in the column, lifted back over its right end and held there. */
+html.gen5ui.g5-pin-results #calculator-view #show-ai {
+  order: 3;
+  align-self: flex-end;
+  position: sticky;
+  top: calc(var(--g5-pin-moves, 0px) + var(--g5-pin-box, 0px) / 2 - 13px);
+  z-index: 61;
+  margin: calc(-14px - var(--g5-pin-box, 0px) / 2 - 13px) 12px calc(var(--g5-pin-box, 0px) / 2 + 1px) 0;
+}
+
+html.gen5ui.g5-pin-results #calculator-view #show-move-ai-preview { order: 4; align-self: flex-start; }
+html.gen5ui.g5-pin-results #calculator-view #ai-container { order: 5; }
+html.gen5ui.g5-pin-results #calculator-view .panel-wrapper { order: 6; }
+
+html.gen5ui #calculator-view #show-move-ai-preview {
+  grid-row: 3;
+  grid-column: 1;
+  justify-self: start;
+  position: static;
+  margin: 0 0 14px;
+}
+
+html.gen5ui #calculator-view #ai-container {
+  grid-row: 4;
+}
+}
+
+/* ---------- The three columns ---------- */
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .panel-wrapper {
+  grid-row: 5;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  min-width: 0;
+  margin-top: 16px;
+}
+
+html.gen5ui #calculator-view .panel-wrapper > .panel {
+  float: none;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  font-size: 14px;
+}
+}
+
+html.gen5ui #calculator-view .panel.third {
+  border: 2px solid var(--g5-black);
+  background: var(--g5-panel);
+}
+
+html.gen5ui #calculator-view .panel-mid {
+  gap: 16px;
+}
+
+/* main.css floats fieldsets, which shrank these to their content and left the right-hand gap 5px wider. */
+html.gen5ui #calculator-view .panel-mid fieldset {
+  box-sizing: border-box;
+  float: none;
+  width: 100%;
+  margin: 0;
+  border: 2px solid var(--g5-black) !important;
+  border-radius: 0;
+  background: var(--g5-panel);
+}
+
+/* Each panel's legend becomes a title bar with its hatching: blue for yours, red for the foe. */
+html.gen5ui #calculator-view fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0 12px 12px;
+  border: 0;
+  border-radius: 0;
+}
+
+html.gen5ui #calculator-view fieldset > legend {
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  align-items: center;
+  width: calc(100% + 24px);
+  min-height: 34px;
+  margin: 0 -12px 12px;
+  padding: 0 12px;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 600 15px/1.25 var(--g5-font);
+  text-align: left;
+}
+
+html.gen5ui #calculator-view fieldset > legend::after {
+  content: "";
+  width: 40px;
+  height: 16px;
+  margin-left: auto;
+  background: url("../img/gen5/ui/hatch-grey.svg") no-repeat;
+}
+
+html.gen5ui #calculator-view fieldset > legend + * {
+  clear: both;
+}
+
+html.gen5ui #calculator-view #p1 > legend::after { background-image: url("../img/gen5/ui/hatch-blue.svg"); }
+html.gen5ui #calculator-view #p2 > legend::after { background-image: url("../img/gen5/ui/hatch-red.svg"); }
+html.gen5ui #calculator-view .poke-import:first-of-type > legend::after { background-image: url("../img/gen5/ui/hatch-yellow.svg"); }
+html.gen5ui #calculator-view .poke-import:last-of-type > legend::after { background-image: url("../img/gen5/ui/hatch-green.svg"); }
+
+/* ---------- A Pokémon ---------- */
+
+html.gen5ui #calculator-view :is(#p1, #p2) {
+  background: transparent;
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view :is(#p1, #p2) {
+  position: relative;
+  box-sizing: border-box;
+  float: none;
+  width: 100%;
+  padding-top: 0;
+}
+
+html.gen5ui #calculator-view :is(.info-group, .move1, .move2, .move3, .move4) {
+  padding: 0;
+}
+
+html.gen5ui #calculator-view .set-selector .select2-choice {
+  height: 34px;
+  font: 600 16px/30px var(--g5-font);
+}
+
+/* The chips under each set picker: Dex, Save, Remove; the foe's AI views and partner toggle. */
+html.gen5ui #calculator-view #player-tags {
+  position: absolute;
+  top: 90px;
+  left: 14px;
+  right: 14px;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+html.gen5ui #calculator-view :is(#tags-left, #tags-right) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+}
+
+html.gen5ui #calculator-view :is(#met-loc, #frag-count) {
+  color: var(--g5-label);
+  font-size: 12px;
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view :is(#ai-tags, #mobile-tags, #nav-tags) {
+  top: 90px;
+  gap: 6px;
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view #ai-tags {
+  left: 14px;
+  right: 14px;
+  flex-wrap: wrap;
+}
+
+html.gen5ui #calculator-view :is(#mobile-tags, #nav-tags) {
+  right: 14px;
+}
+
+html.gen5ui #calculator-view :is(#ai-tags, #mobile-tags, #nav-tags) > div,
+html.gen5ui #calculator-view :is(#learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove) {
+  margin: 0;
+}
+
+html.gen5ui #calculator-view :is(#ai-tags, #mobile-tags, #nav-tags) > div {
+  align-items: center;
+  max-height: none;
+  height: 26px;
+}
+
+html.gen5ui #calculator-view .player-panel-content > .info-group.top,
+html.gen5ui #calculator-view .opposing-panel-content > .info-group.top {
+  margin-top: calc(46px + var(--g5-tags-extra, 0px));
+}
+
+/* The one sprite, on the cross grid, beside the type, form, gender and level. */
+html.gen5ui #calculator-view .poke-info > img.poke-sprite {
+  position: absolute;
+  top: calc(128px + var(--g5-tags-extra, 0px));
+  right: 12px;
+  z-index: 1;
+  width: 150px;
+  height: 132px;
+  padding: 4px;
+  border: 2px solid var(--g5-black);
+  background: #000 url("../img/gen5/ui/grid-cross.svg");
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+html.gen5ui #calculator-view .info-group.top {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 12px;
+  padding-right: 164px;
+}
+
+/* The calc shows these rows with an inline display, so the grid needs !important; hidden ones stay hidden. */
+html.gen5ui #calculator-view .info-group.top > div:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+  display: grid !important;
+  grid-template-columns: 78px minmax(0, 1fr);
+  align-items: center;
+  gap: 4px 8px;
+}
+
+html.gen5ui #calculator-view .info-group.top > div:first-child:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+  grid-template-columns: 78px max-content max-content;
+  column-gap: 6px;
+}
+
+/* Form and gender share one row, the gender mark just after the form's well (which is as wide as its name). The rows
+   are the group's second and third (both panels); when either is hidden the other keeps a full row. */
+html.gen5ui #calculator-view .info-group.top {
+  grid-template-columns: minmax(0, max-content) auto minmax(0, 1fr);
+  column-gap: 8px;
+}
+
+html.gen5ui #calculator-view .info-group.top > div {
+  grid-column: 1 / -1;
+}
+
+html.gen5ui #calculator-view .info-group.top:has(> div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) + div:nth-child(3):is(:not(.hide), [style*="display: block"]):not([style*="display: none"])) > div:nth-child(2) {
+  grid-column: 1;
+}
+
+html.gen5ui #calculator-view .info-group.top > div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) + div:nth-child(3):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+  grid-column: 2;
+  grid-template-columns: auto;
+}
+
+html.gen5ui #calculator-view .info-group.top > div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) + div:nth-child(3):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) > label {
+  display: none;
+}
+}
+
+html.gen5ui #calculator-view .info-group label {
+  color: var(--g5-muted);
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .info-group label {
+  font-size: 13px;
+}
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .info-group.top :is(select, input) {
+  width: 100%;
+  height: 28px;
+  margin: 0;
+}
+
+html.gen5ui #calculator-view .info-group.top .level {
+  width: 64px;
+  text-align: right;
+}
+
+/* A calc with a level cap keeps the level and the cap on the one Level row. */
+html.gen5ui #calculator-view .info-group.top > .level-cap-row:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+  grid-template-columns: 78px max-content max-content;
+  column-gap: 6px;
+}
+
+html.gen5ui #calculator-view .info-group.top #panel-lvl-cap {
+  width: 64px;
+  padding: 0 6px;
+  text-align: right;
+}
+}
+
+@container g5side (max-width: 440px) {
+  html.gen5ui #calculator-view .info-group.top > .level-cap-row:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 64px max-content max-content;
+  }
+
+  /* "Level/Cap" outgrows the narrow label column, so it takes the calc's own short label ("Lvl/Cp"). */
+  html.gen5ui #calculator-view .info-group.top > .level-cap-row > label[data-mobile-label] {
+    font-size: 0;
+  }
+
+  html.gen5ui #calculator-view .info-group.top > .level-cap-row > label[data-mobile-label]::before {
+    content: attr(data-mobile-label);
+    font-size: 13px;
+  }
+}
+
+/* Type dropdowns show the game's type label. */
+html.gen5ui #calculator-view :is(select.type1, select.type2, select.move-type)[data-g5-type]:not([data-g5-type=""]) {
+  color: transparent !important;
+  background-position: 3px center, right 11px center, right 6px center !important;
+  background-size: 48px 18px, 5px 5px, 5px 5px !important;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #calculator-view :is(select.type1, select.type2, select.move-type)[data-g5-type]:not([data-g5-type=""]) option {
+  color: var(--g5-text);
+}
+
+html.gen5ui #calculator-view select[data-g5-type="normal"] { background-image: url("../img/gen5/types/normal.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="fighting"] { background-image: url("../img/gen5/types/fighting.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="flying"] { background-image: url("../img/gen5/types/flying.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="poison"] { background-image: url("../img/gen5/types/poison.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="ground"] { background-image: url("../img/gen5/types/ground.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="rock"] { background-image: url("../img/gen5/types/rock.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="bug"] { background-image: url("../img/gen5/types/bug.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="ghost"] { background-image: url("../img/gen5/types/ghost.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="steel"] { background-image: url("../img/gen5/types/steel.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="fire"] { background-image: url("../img/gen5/types/fire.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="water"] { background-image: url("../img/gen5/types/water.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="grass"] { background-image: url("../img/gen5/types/grass.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="electric"] { background-image: url("../img/gen5/types/electric.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="psychic"] { background-image: url("../img/gen5/types/psychic.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="ice"] { background-image: url("../img/gen5/types/ice.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="dragon"] { background-image: url("../img/gen5/types/dragon.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="dark"] { background-image: url("../img/gen5/types/dark.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+html.gen5ui #calculator-view select[data-g5-type="fairy"] { background-image: url("../img/gen5/types/fairy.png"), linear-gradient(45deg, transparent 50%, #9c9cac 50%), linear-gradient(135deg, #9c9cac 50%, transparent 50%) !important; }
+
+/* Stats and the nature, ability, item and status beside them. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) {
+  float: left;
+  width: calc(100% - 176px);
+  height: auto;
+  margin: 0 0 12px;
+}
+
+/* The stats table is only as wide as its columns, at the left, as in the calculator. */
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) table {
+  width: auto;
+  border-collapse: separate;
+  border-spacing: 0 2px;
+}
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) :is(th, td) {
+  border: 0;
+  background: transparent;
+  color: var(--g5-text);
+  font-weight: 400;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody tr :is(th, td) {
+  background: var(--g5-ground);
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) thead th {
+  color: var(--g5-muted);
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody :is(th, th label) {
+  color: var(--g5-label);
+}
+
+html.gen5ui #calculator-view tr[data-g5-nature="up"] th,
+html.gen5ui #calculator-view tr[data-g5-nature="up"] th label { color: var(--g5-up) !important; }
+html.gen5ui #calculator-view tr[data-g5-nature="down"] th,
+html.gen5ui #calculator-view tr[data-g5-nature="down"] th label { color: var(--g5-down) !important; }
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) :is(th, td) {
+  padding: 2px 4px;
+  font-size: 13px;
+  text-align: right;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) thead th {
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody th {
+  width: auto;
+  padding-left: 6px;
+  padding-right: 14px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody td:last-child {
+  padding-right: 6px;
+}
+
+/* The calculated stat is the number that matters, so it reads at 20px; every cell centres on it. */
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody :is(th, td) {
+  vertical-align: middle;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) .total {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody th label {
+  font-size: 13px;
+}
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) input {
+  width: 42px;
+  height: 26px;
+  padding: 0 5px;
+  text-align: right;
+}
+
+html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) select {
+  width: 50px;
+  height: 26px;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors {
+  position: static;
+  max-width: none;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 164px;
+  margin: 22px 0 12px;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors > div:not(.hide) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors label:not(.switch) {
+  display: none;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors select {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  height: 28px;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"] {
+  position: static;
+  order: -1;
+  transform: none;
+  flex: none;
+  appearance: none;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  border: 2px solid var(--g5-menu-edge);
+  background: var(--g5-black);
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors .inline-toggle-field .ability-toggles {
+  position: static;
+  order: -1;
+  transform: none;
+  flex: none;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"]:checked {
+  border-color: var(--g5-menu-on-edge);
+  background: var(--g5-menu-on);
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"]:checked::after {
+  content: "";
+  width: 9px;
+  height: 5px;
+  margin-top: -3px;
+  border-left: 2px solid var(--g5-text);
+  border-bottom: 2px solid var(--g5-text);
+  transform: rotate(-45deg);
+}
+
+html.gen5ui #calculator-view .info-group.hp-cntrl {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+html.gen5ui #calculator-view .info-group.hp-cntrl br {
+  display: none;
+}
+
+html.gen5ui #calculator-view .info-group.hp-cntrl input {
+  width: 58px;
+  height: 28px;
+  padding: 0 5px;
+  text-align: right;
+}
+}
+
+html.gen5ui #calculator-view .info-group.hp-cntrl label {
+  color: var(--g5-text);
+  font-size: 14px;
+}
+
+/* Moves: the move button with its power, type label, PP and crit. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 4px;
+}
+
+html.gen5ui #calculator-view .move4 {
+  margin-bottom: 14px;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
+  flex: none;
+  width: 204px !important;
+  margin: 0;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice .select2-chosen {
+  width: auto !important;
+  margin: 0 calc(-17px * var(--s)) 0 calc(-19px * var(--s)) !important;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-arrow {
+  display: none;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) :is(.move-bp, .move-pp) {
+  width: 50px;
+  height: 28px;
+  padding: 0 5px;
+  text-align: right;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .move-pp {
+  width: 44px;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) select.move-type {
+  width: 76px;
+  height: 28px;
+}
+
+html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice > .select2-chosen {
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+/* ---------- Party, box and the foe's team ---------- */
+
+html.gen5ui #calculator-view .trainer-pok-list:is(.player-party, .tag-partner-preview) {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+/* On desktop every party and team (yours, a tag partner's, the foe's and the foe's partner's) lays its cards six to a
+   row when the panel gives each at least 100px, otherwise three (two in the narrowest panels), so a full team always
+   fills whole rows. A partner or multi-team preview gives each trainer a heading and rows of its own. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view :is(.trainer-pok-list.player-party, .trainer-pok-list.tag-partner-preview, #p2 .trainer-poks .trainer-pok-list, #p2 .trainer-preview-section) {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-poks .trainer-pok-list > :not(.trainer-pok-container) {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+html.gen5ui #calculator-view #p2 .opposing-team-group {
+  display: block;
+}
+
+/* Each card measures itself (see the g5card query after the foe's cards). */
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview, #p2 .trainer-poks) .trainer-pok-container {
+  container: g5card / inline-size;
+}
+}
+
+@container g5side (min-width: 660px) {
+  html.gen5ui #calculator-view :is(.trainer-pok-list.player-party, .trainer-pok-list.tag-partner-preview, #p2 .trainer-poks .trainer-pok-list, #p2 .trainer-preview-section) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@container g5side (max-width: 340px) {
+  html.gen5ui #calculator-view :is(.trainer-pok-list.player-party, .trainer-pok-list.tag-partner-preview, #p2 .trainer-poks .trainer-pok-list, #p2 .trainer-preview-section) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Party cards (and the foe's team below): the icon at twice its size in a grid window, the set beneath it on plain black. */
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .trainer-pok-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 8px;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-black);
+  align-items: stretch;
+  text-align: left;
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .trainer-pok-container > img.trainer-pok {
+  box-sizing: border-box;
+  width: 100%;
+  height: 76px;
+  margin: 0 0 6px;
+  padding: 8px 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  background: var(--g5-ground) url("../img/gen5/ui/grid-button.svg") !important;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview, #p2) .trainer-pok-container:hover {
+  border-color: var(--g5-menu-edge);
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .trainer-pok-container:has(> img.trainer-pok:is(.active, .selected)) {
+  border-color: var(--g5-selected);
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .trainer-pok-container > img.trainer-pok-item {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info {
+  padding: 0 8px;
+  overflow: hidden;
+  color: var(--g5-soft);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info.nature-info {
+  margin-top: 4px;
+  color: var(--g5-selected);
+}
+
+html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info.extra-info {
+  color: var(--g5-label);
+}
+
+/* The box: small icon tiles, coloured by how each fares against the foe. */
+html.gen5ui #calculator-view #search-row {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 6px;
+}
+
+html.gen5ui #calculator-view #search-row #search-box {
+  flex: 1;
+  height: 28px;
+  padding: 0 8px;
+}
+
+html.gen5ui #calculator-view #search-row select {
+  width: 150px;
+  height: 28px;
+}
+}
+
+/* Box tiles: as large as eight to a row allows, never smaller than 52px. */
+html.gen5ui #calculator-view .trainer-pok-list.player-poks {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(max(52px, calc((100% - 28px) / 8)), 1fr));
+  gap: 4px;
+  margin: 0;
+  padding: 6px;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-black);
+}
+
+html.gen5ui #calculator-view .player-poks .box-sort-card {
+  display: block;
+  width: auto;
+  min-width: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #calculator-view .player-poks .box-sort-metric {
+  display: none;
+}
+
+/* The first six after a stat or damage sort carry their value on a plate above the tile; every tile sits at the foot
+   of its row, so the rest of the top row lines up with them. */
+html.gen5ui #calculator-view .player-poks .box-sort-card {
+  align-self: end;
+}
+
+html.gen5ui #calculator-view .player-poks .box-sort-card.featured {
+  position: relative;
+  padding-top: 17px;
+}
+
+html.gen5ui #calculator-view .player-poks .box-sort-card.featured .box-sort-metric {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  width: auto;
+  height: 15px;
+  padding: 0 2px;
+  border-radius: 0;
+  transform: none;
+  background: var(--g5-ground);
+  color: var(--g5-selected);
+  font: 600 11px/15px var(--g5-font);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+html.gen5ui #calculator-view .player-poks img.trainer-pok {
+  --L: transparent;
+  --R: transparent;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 6 / 5;
+  margin: 0;
+  padding: 2px;
+  border: 0;
+  border-radius: 0;
+  background: linear-gradient(90deg, var(--L) 50%, var(--R) 50%), var(--g5-ground) url("../img/gen5/ui/grid-button.svg") !important;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #calculator-view .player-poks img.trainer-pok.mb-ohko { --L: rgba(112, 216, 48, 0.35); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.ohko { --L: rgba(112, 216, 48, 0.8); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.mb-ohkod { --R: rgba(248, 32, 24, 0.32); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.ohkod { --R: rgba(248, 32, 24, 0.75); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.killer { --L: rgba(248, 32, 24, 0.4); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.defender { --R: rgba(98, 114, 164, 0.8); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.faster { box-shadow: inset 0 -3px 0 var(--g5-selected); }
+html.gen5ui #calculator-view .player-poks img.trainer-pok.active,
+html.gen5ui #calculator-view .player-poks img.trainer-pok.selected { outline: 2px solid var(--g5-text); outline-offset: -2px; }
+
+html.gen5ui #calculator-view #tooltip {
+  margin: 6px 0;
+  color: var(--g5-muted);
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view #player-poks-filter {
+  margin: 8px 0;
+  padding: 8px;
+  background: var(--g5-ground);
+  color: var(--g5-label);
+  font-size: 12px;
+}
+
+/* Shown only when the calc has shown it (the Box Filters setting), so the panel and the setting agree. */
+html.gen5ui #calculator-view #player-poks-filter:is([style*="block"], [style*="flex"]) {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+}
+
+html.gen5ui #calculator-view #player-poks-filter > br {
+  display: none;
+}
+
+html.gen5ui #calculator-view #player-poks-filter .filter-row {
+  display: flex;
+  flex: 1 1 100%;
+  width: auto;
+  height: 28px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+}
+
+html.gen5ui #calculator-view #player-poks-filter .filter-row:has(#ohko-label, #mb-ohko-label, #ohkod-label, #mb-ohkod-label) {
+  flex: 0 0 auto;
+  width: auto;
+  height: 22px;
+}
+
+html.gen5ui #calculator-view #player-poks-filter :is(#min-dealt-label, #max-taken-label, #filter-move-label, #faster-label) {
+  color: var(--g5-label) !important;
+}
+
+html.gen5ui #calculator-view #player-poks-filter :is(#ohko-label, #mb-ohko-label, #ohkod-label, #mb-ohkod-label) {
+  flex: none;
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--g5-label) !important;
+}
+
+html.gen5ui #calculator-view #player-poks-filter :is(#ohko-label, #mb-ohko-label, #ohkod-label, #mb-ohkod-label)::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--g5-edge);
+}
+
+html.gen5ui #calculator-view #ohko-label::before { background: rgba(112, 216, 48, 0.8); }
+html.gen5ui #calculator-view #mb-ohko-label::before { background: rgba(112, 216, 48, 0.35); }
+html.gen5ui #calculator-view #ohkod-label::before { background: rgba(248, 32, 24, 0.75); }
+html.gen5ui #calculator-view #mb-ohkod-label::before { background: rgba(248, 32, 24, 0.32); }
+
+/* Switches (settings and the box filter): a menu-navy track, selection blue when on. */
+html.gen5ui .switch .slider {
+  border: 2px solid var(--g5-menu-edge);
+  border-radius: 0 !important;
+  background: var(--g5-menu) !important;
+}
+
+/* The knob sits 2px inside the track's border on every side (the base knob is as tall as the whole switch,
+   so inside a bordered track it rode up over the top edge). The base translateX still lands it 2px from the right. */
+html.gen5ui .switch .slider::before {
+  top: 2px;
+  bottom: auto;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 0 !important;
+  background: var(--g5-menu-edge) !important;
+}
+
+html.gen5ui :is(.mini-switch, #toggle-auto-import-megas-inline) .slider::before {
+  width: 8px;
+  height: 8px;
+}
+
+html.gen5ui .switch input:checked + .slider {
+  border-color: var(--g5-menu-on-edge);
+  background: var(--g5-menu-on) !important;
+}
+
+html.gen5ui .switch input:checked + .slider::before {
+  background: var(--g5-text) !important;
+}
+
+html.gen5ui #calculator-view #player-poks-filter .filter-desc {
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view #player-poks-filter input {
+  width: 56px;
+  height: 26px;
+}
+
+/* Trainer headings in partner and multi-team previews (and your tag partner's): the panel's label text, a dark rule
+   between trainers, the remove button at the right. */
+html.gen5ui #calculator-view :is(.trainer-preview-label, .trainer-preview-separator) {
+  box-sizing: border-box;
+  width: auto;
+  margin: 12px 0 6px;
+  padding: 0;
+  color: var(--g5-label);
+  font: 600 13px/1.3 var(--g5-font);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html.gen5ui #calculator-view .trainer-pok-list > .trainer-preview-label:first-child,
+html.gen5ui #calculator-view .opposing-team-group:first-child > .trainer-preview-label {
+  margin-top: 0;
+}
+
+html.gen5ui #calculator-view .trainer-preview-separator,
+html.gen5ui #calculator-view .opposing-team-group + .opposing-team-group {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 2px solid var(--g5-black);
+}
+
+html.gen5ui #calculator-view .opposing-team-group + .opposing-team-group > .trainer-preview-label {
+  margin-top: 0;
+}
+
+html.gen5ui #calculator-view .opposing-team-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 26px;
+}
+
+html.gen5ui #calculator-view .trainer-preview-partner {
+  padding-bottom: 0;
+}
+
+html.gen5ui #calculator-view :is(.trainer-preview-warning, .trainer-preview-exp-total) {
+  box-sizing: border-box;
+  width: auto;
+  margin: 10px 0 0;
+  color: var(--g5-muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+html.gen5ui #calculator-view .tag-partner-preview-wrapper {
+  margin-top: 12px;
+}
+
+html.gen5ui #calculator-view .tag-partner-header {
+  margin-top: 0;
+}
+
+/* The foe's team: like the party, with the EXP bar under the window and the AI's line under the moves. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view #p2 .trainer-pok-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 8px;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-black);
+  align-items: stretch;
+  text-align: left;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container > img.trainer-pok {
+  order: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 76px;
+  margin: 0;
+  padding: 8px 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  background: var(--g5-ground) url("../img/gen5/ui/grid-button.svg") !important;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container > img.trainer-pok-item {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .bp-infos {
+  order: 2;
+  min-width: 0;
+  padding: 6px 8px 0;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .bp-info {
+  overflow: hidden;
+  color: var(--g5-soft);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .switch-ai-info {
+  margin-top: 4px;
+}
+
+/* EXP: the bar and its amount on one line; the fill is a share of the bar's column. */
+html.gen5ui #calculator-view #p2 .trainer-pok-container .exp-bar {
+  order: 1;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 5px 8px 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .exp-bar::before {
+  content: "";
+  grid-row: 1;
+  grid-column: 1;
+  position: static;
+  box-sizing: border-box;
+  height: 8px;
+  border: 1px solid #77b3b4;
+  border-radius: 0;
+  background: #2b3131;
+  box-shadow: none;
+  transform: none;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .exp-bar-fill {
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: start;
+  position: static;
+  max-width: calc(100% - 2px);
+  height: 6px;
+  margin-left: 1px;
+  border: 0;
+  border-radius: 0;
+  background: #20a0f8;
+  transform: none;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .exp-bar-label {
+  grid-row: 1;
+  grid-column: 2;
+  position: static;
+  color: var(--g5-label);
+  font-size: 11px;
+  line-height: 1.2;
+  text-shadow: none;
+  white-space: nowrap;
+  transform: none;
+}
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container .p2-source-move,
+html.gen5ui #calculator-view #p2 .trainer-pok-container .switch-ai-info,
+html.gen5ui #calculator-view #p2 .trainer-pok-container .p2-dmg {
+  color: var(--g5-selected) !important;
+  font-weight: 600;
+}
+
+/* A type matchup score, and the move it comes from, read in red so they stand apart from damage. */
+html.gen5ui #calculator-view #p2 .trainer-pok-container .switch-ai-info:has(.type-mu),
+html.gen5ui #calculator-view #p2 .trainer-pok-container .switch-ai-info .type-mu,
+html.gen5ui #calculator-view #p2 .trainer-pok-container:has(.type-mu) .p2-source-move {
+  color: var(--g5-up) !important;
+}
+
+/* Narrow cards (six to a row on a laptop, or three in a narrow panel): 12px text, so a twelve-letter move or a
+   three-digit score still fits; wider cards keep 14px. */
+@container g5card (max-width: 124px) {
+  html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info {
+    padding-inline: 6px;
+    font-size: 12px;
+  }
+
+  html.gen5ui #calculator-view #p2 .trainer-pok-container :is(.bp-infos, .exp-bar) {
+    padding-inline: 6px;
+  }
+
+  html.gen5ui #calculator-view #p2 .trainer-pok-container :is(.bp-info, .switch-ai-info) {
+    font-size: 12px;
+  }
+}
+
+/* ---------- Advanced switch info (Emerald Imperium): one Pokémon to a row ----------
+ * Each row reads: the icon, the AI's reasoning, its two switch-in orders (mid turn, and after a KO) on numbered
+ * plates, then the moves, with the move the reasoning names in cyan. gen5_ui.js tags the lines (good or bad
+ * matchup, the move named, the order numbers); untagged they still read as plain lines. Desktop only: phones keep
+ * the calculator's own layout. */
+@media (min-width: 961px) {
+html.gen5ui #calculator-view #p2 .trainer-pok-list.opposing.ai-show:has(.ai-infos),
+html.gen5ui #calculator-view #p2 .trainer-pok-list.opposing.ai-show:has(.ai-infos) .trainer-preview-section {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr) 144px 138px;
+  grid-template-areas: "icon why prio moves";
+  align-items: center;
+  column-gap: 12px;
+  height: auto;
+  min-height: 84px;
+  padding: 2px 12px 2px 2px;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > img.trainer-pok {
+  grid-area: icon;
+  width: 80px;
+  height: 76px;
+  padding: 8px 2px;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .ai-infos {
+  grid-area: why;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .switch-infos {
+  grid-area: prio;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  margin: 0;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .bp-infos {
+  grid-area: moves;
+  order: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .exp-bar {
+  grid-column: 2 / -1;
+  padding: 0 0 4px;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) :is(.ai-infos, .bp-infos) > .bp-info {
+  margin: 0;
+  padding: 0;
+  color: var(--g5-soft);
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .ai-infos > .g5-good {
+  color: var(--g5-mon);
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .ai-infos > .g5-bad {
+  color: var(--g5-up);
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .ai-infos .g5-k {
+  color: var(--g5-muted);
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .ai-infos .g5-mv,
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .bp-infos > .bp-info.g5-hit {
+  color: var(--g5-selected);
+}
+
+/* The orders: a label at the left and the number at the right, Post KO's in yellow. */
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .bp-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0;
+  padding: 0 8px;
+  background: var(--g5-panel);
+  color: var(--g5-soft);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > [data-g5-v] {
+  font-size: 0;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .g5-word {
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > :is([data-g5-v], .g5-word)::before {
+  content: attr(data-g5-k);
+  color: var(--g5-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > [data-g5-v]::after {
+  content: attr(data-g5-v);
+  color: var(--g5-text);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .switch-score[data-g5-v]::after {
+  color: var(--g5-bag);
+}
+
+/* Loses the 1v1 mid turn: one plate, "Loses 1v1 after" over the move that wins it. */
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .mt-switch-score.loses {
+  height: auto;
+  padding-top: 4px;
+  color: var(--g5-up);
+}
+
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .mt-switch-move {
+  height: auto;
+  margin-top: -4px;
+  padding-bottom: 4px;
+  overflow: hidden;
+  color: var(--g5-text);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The toggle under the team gets its own line. */
+html.gen5ui #calculator-view #dynamic-type-bug {
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 2px solid var(--g5-black);
+  color: var(--g5-soft);
+  font-size: 13px;
+}
+
+html.gen5ui #calculator-view #dynamic-type-bug .menu-label {
+  margin: 0;
+}
+}
+
+/* A narrower panel: the moves move under the reasoning, two to a line. */
+@container g5side (max-width: 619px) {
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) {
+    grid-template-columns: 80px minmax(0, 1fr) 136px;
+    grid-template-areas: "icon why prio" "icon moves moves";
+    row-gap: 6px;
+    padding-block: 4px;
+  }
+
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .bp-infos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 12px;
+  }
+}
+
+/* Narrowest panels: the two orders sit side by side under the icon and the reasoning. */
+@container g5side (max-width: 440px) {
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) {
+    grid-template-columns: 80px minmax(0, 1fr);
+    grid-template-areas: "icon why" "prio prio" "moves moves";
+  }
+
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) > .switch-infos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 6px;
+  }
+
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > :is(.mt-switch-score, .mt-switch-move) {
+    grid-column: 1;
+  }
+
+  html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .switch-infos > .switch-score {
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    align-self: start;
+  }
+}
+
+/* ---------- Field, notes, import ---------- */
+
+html.gen5ui #calculator-view .field-info {
+  text-align: center;
+}
+
+/* Each set of field buttons is a grid of equal buttons, up to three a row (two or one for long names). */
+html.gen5ui #calculator-view .field-info #weather-bar {
+  align-self: stretch;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+html.gen5ui #calculator-view .field-info :is(.field-info > [role="radiogroup"]:not(#weather-bar), #terrain-bar, #weather-bar > div:not([title="Is gravity in effect?"]), #additional-field-options > div):not(.hide):not([hidden]):not([style*="display: none"]) {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(max(68px, calc((100% - 12px) / 3)), 1fr));
+  align-self: stretch;
+  gap: 6px;
+  width: 100% !important;
+  margin: 0 0 10px !important;
+}
+
+html.gen5ui #calculator-view .field-info :is(#weather-bar > div, #additional-field-options > div):has(.btn-xxxwide):not(.hide):not([style*="display: none"]) {
+  grid-template-columns: repeat(auto-fit, minmax(max(120px, calc((100% - 6px) / 2)), 1fr));
+}
+
+html.gen5ui #calculator-view .field-info :is(#weather-bar > div, #additional-field-options > div):has(.btn-xxxxwide):not(.hide):not([style*="display: none"]) {
+  grid-template-columns: repeat(auto-fit, minmax(max(190px, calc((100% - 6px) / 2)), 1fr));
+}
+
+/* Gravity, on its own, stays button-sized. */
+html.gen5ui #calculator-view .field-info #weather-bar > div[title="Is gravity in effect?"]:not([style*="display: none"]) {
+  display: flex !important;
+  justify-content: center;
+  width: 100% !important;
+  margin: 0 0 10px !important;
+}
+
+/* Thin rules divide the format, the weather and the field effects. */
+html.gen5ui #calculator-view .field-info > [role="radiogroup"]:has(#singles-format):not([style*="display: none"]) {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--g5-black);
+}
+
+html.gen5ui #calculator-view .field-info #weather-bar > div[title="Is gravity in effect?"]:not([style*="display: none"]) {
+  padding-top: 10px;
+  border-top: 2px solid var(--g5-black);
+}
+
+html.gen5ui #calculator-view .field-info :is(.hide, [hidden], [style*="display: none"]) {
+  display: none !important;
+}
+
+html.gen5ui #calculator-view .field-info label.btn {
+  min-width: 0;
+  width: auto !important;
+  margin: 0 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* The selected weather tints the field box, as in the calculator. */
+html.gen5ui #calculator-view .field-info.sun { background-image: linear-gradient(rgba(168, 71, 0, 0.15), rgba(168, 71, 0, 0.15)); }
+html.gen5ui #calculator-view .field-info.rain { background-image: linear-gradient(rgba(26, 88, 174, 0.15), rgba(26, 88, 174, 0.15)); }
+html.gen5ui #calculator-view .field-info.sand { background-image: linear-gradient(rgba(120, 102, 0, 0.15), rgba(120, 102, 0, 0.15)); }
+html.gen5ui #calculator-view :is(.field-info.snow, .field-info.hail) { background-image: linear-gradient(rgba(92, 153, 153, 0.15), rgba(92, 153, 153, 0.15)); }
+
+html.gen5ui #calculator-view #toggle-additional-field-options {
+  display: block;
+  width: 100%;
+  margin: 4px 0 0;
+}
+
+@media (min-width: 961px) {
+html.gen5ui #calculator-view #mid-panel-layout-toggle {
+  position: absolute;
+  top: 4px;
+  right: 58px;
+  z-index: 2;
+  height: 24px;
+  line-height: 24px !important;
+}
+}
+
+html.gen5ui #calculator-view .field-info table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+
+/* Show More: each side's toggles fill their half, yours from the left and the foe's from the right. */
+html.gen5ui #calculator-view .field-info table td {
+  padding: 0;
+  vertical-align: top;
+}
+
+html.gen5ui #calculator-view .field-info table td + td {
+  padding-left: 8px;
+}
+
+html.gen5ui #calculator-view .field-info table td > :is(.left, .right) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  float: none;
+  width: auto;
+}
+
+html.gen5ui #calculator-view .field-info table td > .right {
+  justify-content: flex-end;
+}
+
+html.gen5ui #calculator-view .field-info table td > :is(.left, .right) > :is(label.btn, button) {
+  flex: 1 1 auto;
+  margin: 0 !important;
+}
+
+/* The two sides match row for row. The foe's side is written as a mirror of yours (LScreen before Reflect, 3 Spikes
+   before 2, 1, 0), which put its rows out of step once the buttons wrapped; its second-of-a-pair and its Spikes
+   counts come first, so both sides read Reflect over LScreen and the counts over 3 Spikes, counts mirrored. */
+html.gen5ui #calculator-view .field-info table td > .right > label:is(.btn-right, .btn-xsmall) {
+  order: -1;
+}
+
+html.gen5ui #calculator-view .field-info table td > :is(.left, .right) > label[for^="spikes"].btn-wide {
+  flex-basis: 100%;
+}
+
+/* Export: set apart from the toggles above and in the bag's yellow; each side's Export first, Export All under it. */
+html.gen5ui #calculator-view .field-info table tr.field-exports td {
+  padding-top: 10px;
+  border-top: 2px solid var(--g5-black);
+}
+
+html.gen5ui #calculator-view .field-info table tr.field-exports td + td {
+  padding-left: 8px;
+}
+
+html.gen5ui #calculator-view :is(#exportL, #exportR, #exportAllL) {
+  --edge: var(--g5-bag);
+  --face: #3a3010;
+}
+
+html.gen5ui #calculator-view :is(#exportL, #exportR, #exportAllL):hover {
+  --face: #54461a;
+}
+
+html.gen5ui #calculator-view #exportL {
+  order: -1;
+}
+
+html.gen5ui #calculator-view #battle-notes .notes-text {
+  width: 100%;
+  min-height: 340px;
+  margin: 0;
+  padding: 10px 12px;
+  color: var(--g5-text);
+  font-size: 13px;
+  line-height: 1.55;
+  text-align: left;
+}
+
+html.gen5ui #calculator-view .poke-import textarea.import-team-text {
+  width: 100%;
+  min-height: 90px;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view .poke-import .import-name-text {
+  width: 100%;
+  height: 28px;
+  margin: 0 0 6px;
+  padding: 0 8px;
+}
+
+/* Import / Export: the text, then Read .sav, Sync and Import as one row of equal buttons, then DeSmuME and Clear. */
+html.gen5ui #calculator-view #import-1_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+html.gen5ui #calculator-view #import-1_wrapper > form {
+  flex: 1 1 100%;
+  margin: 0 0 4px;
+}
+
+html.gen5ui #calculator-view #import-1_wrapper > :is(#read-save, #sync-master, #sync-lua, #import, #import-right) {
+  flex: 1 1 0;
+  min-width: max-content;
+  height: 30px;
+  margin: 0;
+  padding: 0 12px;
+  line-height: 30px !important;
+  font-size: 13px !important;
+}
+
+html.gen5ui #calculator-view .poke-import :is(#desmume, .importedSetsOptions) {
+  display: inline-block;
+  margin: 12px 0 0;
+  vertical-align: middle;
+}
+
+html.gen5ui #calculator-view .poke-import #desmume {
+  margin-right: 10px;
+}
+
+html.gen5ui #calculator-view .poke-import #clearSets {
+  margin: 0;
+}
+
+/* main.css drops the icon 20px; without that it centres on the Clear Imported Sets button. */
+html.gen5ui #calculator-view #desmume-icon {
+  display: block;
+  width: 30px;
+  height: auto;
+  margin: 0;
+}
+
+/* The party's Clear button: a gap from the cards above and from the moves below. */
+html.gen5ui #calculator-view #clear-party {
+  margin: 8px 0 14px;
+}
+
+/* ---------- Footer ---------- */
+
+html.gen5ui #footer {
+  width: auto;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 460px);
+  gap: 16px 40px;
+  align-items: start;
+  max-width: 1440px;
+  margin: 24px auto;
+  padding: 0 24px;
+  color: var(--g5-muted);
+  font: 400 12px/1.6 var(--g5-font);
+}
+
+html.gen5ui #footer .credits > br:first-child,
+html.gen5ui #footer .credits > br:first-child + br {
+  display: none;
+}
+
+html.gen5ui #footer .shortcut-info {
+  width: auto;
+  min-width: 0;
+  color: var(--g5-label);
+  font-size: 13px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+html.gen5ui #footer .footer-title {
+  display: flex;
+  align-items: center;
+  min-height: 28px;
+  margin: 0 0 10px;
+  padding: 0 22px 0 10px;
+  background: var(--g5-raised) url("../img/gen5/ui/hatch-grey.svg") no-repeat right 22px center;
+  color: var(--g5-text);
+  font: 600 13px/1.2 var(--g5-font);
+  text-align: left;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+}
+
+html.gen5ui #footer a {
+  color: #8cc0f0;
+}
+
+/* ---------- Your Pokémon's chips and the town map's location plate ---------- */
+/* Saved: the button takes the menus' selected colours for a moment and the panel's edge flashes once. */
+html.gen5ui #calculator-view #save-pok.g5-saved {
+  --edge: var(--g5-menu-on-edge);
+  --face: var(--g5-menu-on);
+}
+
+html.gen5ui #calculator-view .panel.third.g5-saved {
+  animation: g5-saved-flash 0.7s ease-out;
+}
+
+@keyframes g5-saved-flash {
+  from { box-shadow: 0 0 0 2px var(--g5-selected); }
+  to { box-shadow: 0 0 0 2px transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.gen5ui #calculator-view .panel.third.g5-saved {
+    animation: none;
+  }
+}
+
+html.gen5ui #calculator-view #frag-count {
+  margin: 0;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--g5-label);
+  font-size: 12px;
+}
+
+/* Where it was caught, on the plate the town map shows a place's name on. */
+html.gen5ui #calculator-view #met-loc {
+  box-sizing: border-box;
+  height: 22px;
+  min-width: 48px;
+  margin: 0;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 0;
+  background:
+    linear-gradient(#282828 0 1px, #f8f8f8 1px calc(100% - 1px), #282828 calc(100% - 1px)) center / calc(100% - 18px) 100% no-repeat,
+    url("../img/gen5/ui/location-plate.png") left top / 21px 22px no-repeat,
+    url("../img/gen5/ui/location-plate.png") right top / 21px 22px no-repeat;
+  color: #585050;
+  text-shadow: 1px 1px 0 #a0a0a8;
+  font: 600 12px/22px var(--g5-font);
+  white-space: nowrap;
+  image-rendering: pixelated;
+}
+
+/* ---------- Pickers (js/calc_ui/gen5_ui.js) ----------
+ * Types and genders show as the game's graphics, the form as its name; a click opens a small box of choices.
+ * The calc's own selects stay laid out (1px, see-through), so its checks for a visible select still hold. */
+html.gen5ui #calculator-view select.g5-picked {
+  position: absolute !important;
+  width: 1px !important;
+  min-width: 0 !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  clip-path: inset(50%);
+}
+
+html.gen5ui #calculator-view .g5-pick {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  box-sizing: border-box;
+  min-width: 0;
+  height: 28px;
+  margin: 0;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--g5-text);
+  font: 400 13px/1 var(--g5-font);
+  cursor: pointer;
+}
+
+html.gen5ui #calculator-view .g5-pick:hover,
+html.gen5ui #calculator-view .g5-pick:focus-visible,
+html.gen5ui #calculator-view .g5-pick[aria-expanded="true"] {
+  outline: 2px solid var(--g5-menu-edge);
+  outline-offset: 0;
+}
+
+html.gen5ui #calculator-view .g5-pick img,
+html.gen5ui .g5-pop img {
+  display: block;
+  image-rendering: pixelated;
+}
+
+/* The type label at twice its size fills the room the select took. */
+html.gen5ui #calculator-view .g5-pick-type img {
+  width: 64px;
+  height: 24px;
+}
+
+html.gen5ui #calculator-view .g5-pick-type .g5-pick-text {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 64px;
+  height: 24px;
+  font-size: 12px;
+}
+
+html.gen5ui #calculator-view .g5-pick .g5-pick-empty {
+  border: 2px dashed var(--g5-edge);
+  color: var(--g5-muted);
+}
+
+html.gen5ui #calculator-view .g5-pick-gender {
+  min-width: 28px;
+}
+
+html.gen5ui #calculator-view .g5-pick-gender img {
+  width: auto;
+  height: 24px;
+}
+
+html.gen5ui #calculator-view .g5-pick-gender .g5-pick-text {
+  color: var(--g5-muted);
+  font-size: 16px;
+}
+
+html.gen5ui #calculator-view .g5-pick-gender .g5-pick-empty {
+  border: 0;
+}
+
+/* The form keeps its name, in a well like the other fields, as wide as the name needs (never past its column). */
+html.gen5ui #calculator-view .g5-pick-forme {
+  justify-content: flex-start;
+  justify-self: start;
+  width: auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 24px 0 8px;
+  border: 2px solid var(--g5-edge);
+  background:
+    linear-gradient(45deg, transparent 50%, var(--g5-menu-edge) 50%) right 13px center / 5px 5px no-repeat,
+    linear-gradient(135deg, var(--g5-menu-edge) 50%, transparent 50%) right 8px center / 5px 5px no-repeat,
+    var(--g5-black);
+  text-align: left;
+}
+
+html.gen5ui #calculator-view .g5-pick-forme .g5-pick-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The box of choices. */
+html.gen5ui .g5-pop {
+  position: absolute;
+  z-index: 1000;
+  box-sizing: border-box;
+  max-width: min(440px, calc(100vw - 16px));
+  padding: 8px;
+  border: 2px solid var(--g5-menu-edge);
+  background: var(--g5-black);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+  color: var(--g5-text);
+  font: 400 12px/1.3 var(--g5-font);
+}
+
+html.gen5ui .g5-pop-group + .g5-pop-group {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 2px solid var(--g5-raised);
+}
+
+html.gen5ui .g5-pop-label {
+  margin: 0 0 6px;
+  color: var(--g5-muted);
+}
+
+html.gen5ui .g5-pop-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+html.gen5ui .g5-pop-type .g5-pop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+html.gen5ui .g5-pop-opt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 3px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background: var(--g5-ground);
+  color: var(--g5-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+html.gen5ui .g5-pop-opt:hover,
+html.gen5ui .g5-pop-opt:focus-visible {
+  border-color: var(--g5-menu-edge);
+  outline: none;
+}
+
+html.gen5ui .g5-pop-opt[aria-pressed="true"] {
+  border-color: var(--g5-menu-on-edge);
+  background: var(--g5-menu-on);
+}
+
+html.gen5ui .g5-pop-type .g5-pop-opt img {
+  width: 64px;
+  height: 24px;
+}
+
+html.gen5ui .g5-pop-type .g5-pick-text {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 24px;
+}
+
+html.gen5ui .g5-pop-gender .g5-pop-opt {
+  min-width: 40px;
+  height: 36px;
+  padding: 3px 8px;
+}
+
+html.gen5ui .g5-pop-gender .g5-pop-opt img {
+  height: 24px;
+}
+
+html.gen5ui .g5-pop-gender .g5-pick-text {
+  color: var(--g5-muted);
+}
+
+/* Status: the party menu's icon at twice its size; Healthy and Confused, which have none, as text. */
+html.gen5ui #calculator-view .g5-pick-status {
+  justify-content: flex-start;
+  min-width: 48px;
+  padding: 0 4px;
+}
+
+html.gen5ui #calculator-view .g5-pick-status img,
+html.gen5ui .g5-pop-status .g5-pop-opt img {
+  width: 38px;
+  height: 12px;
+}
+
+html.gen5ui #calculator-view .g5-pick-status .g5-pick-text {
+  color: var(--g5-soft);
+}
+
+/* With no status the button reads Set Status, white on a white edge, at the right of its row
+   (a toxic counter, when shown, goes to its left). */
+html.gen5ui #calculator-view .g5-pick-status {
+  margin-left: auto;
+}
+
+html.gen5ui #calculator-view .info-group.info-selectors .toxic-counter {
+  order: -1;
+}
+
+html.gen5ui #calculator-view .g5-pick-status[data-value="Healthy"] .g5-pick-text {
+  padding: 0 6px;
+  border: 2px solid var(--g5-text);
+  color: var(--g5-text);
+  line-height: 20px;
+}
+
+html.gen5ui .g5-pop-status .g5-pop-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+html.gen5ui .g5-pop-status .g5-pop-opt {
+  min-width: 50px;
+  height: 30px;
+  padding: 3px 8px;
+}
+
+/* Form choices are the box icons, at their own size. */
+html.gen5ui .g5-pop-forme .g5-pop-opt {
+  width: 52px;
+  height: 44px;
+  padding: 0;
+}
+
+html.gen5ui .g5-pop-forme .g5-pop-opt img {
+  width: 40px;
+  height: 30px;
+}
+
+html.gen5ui .g5-pop-forme .g5-pick-text {
+  overflow: hidden;
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui .g5-pop-name {
+  margin: 8px 0 0;
+  padding: 6px 0 0;
+  border-top: 2px solid var(--g5-raised);
+  color: var(--g5-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- Narrower desktop windows ----------
+ * Below 1440px the side panels lose width (the calculator also offers its ↓ button there, which moves the field panel
+ * below them). Each side panel arranges itself by its own width, so either layout works. */
+@media (min-width: 961px) {
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) {
+    container: g5side / inline-size;
+  }
+
+  html.gen5ui #calculator-view #search-row {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0;
+  }
+
+  html.gen5ui #calculator-view #search-row #search-box {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: none;
+  }
+
+  html.gen5ui #calculator-view #search-row #box-sort-select {
+    flex: 0 0 150px;
+    min-width: 0;
+    max-width: none;
+  }
+
+  html.gen5ui #calculator-view #search-row #box-sort-direction {
+    flex: none;
+  }
+}
+
+/* Under 1200px the field column narrows. */
+@media (min-width: 961px) and (max-width: 1199px) {
+  html.gen5ui #calculator-view .panel-wrapper {
+    grid-template-columns: minmax(0, 1fr) 260px minmax(0, 1fr);
+  }
+}
+
+/* The field panel below the side panels (the calculator's ↓ button, 961–1439px): field, notes and import side by side. */
+@media (min-width: 961px) and (max-width: 1439px) {
+  html.gen5ui #calculator-view .panel-wrapper.mid-panel-bottom-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper.mid-panel-bottom-layout > .mobile-side-panel-p1 { grid-row: 1; grid-column: 1; }
+  html.gen5ui #calculator-view .panel-wrapper.mid-panel-bottom-layout > .mobile-side-panel-p2 { grid-row: 1; grid-column: 2; }
+
+  html.gen5ui #calculator-view .panel-wrapper.mid-panel-bottom-layout > .panel-mid {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    align-items: start;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper.mid-panel-bottom-layout > .panel-mid > div[aria-label="Import team"] {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+  }
+}
+
+/* A side panel under 521px wide: the stats take the full width with the nature, ability, item and status in two
+   columns beneath; the move button gives up width to its power, type and PP; party and team cards stack. */
+@container g5side (max-width: 520px) {
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) {
+    float: none;
+    width: 100%;
+  }
+
+  html.gen5ui #calculator-view .info-group.info-selectors {
+    float: none;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 6px 8px;
+    width: 100%;
+    margin: 0 0 12px;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
+    flex: 1 1 0;
+    width: auto !important;
+    min-width: 0;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    width: 100%;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .move-bp {
+    width: 42px;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) select.move-type {
+    width: 64px;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .move-pp {
+    width: 44px;
+  }
+}
+
+@container g5side (max-width: 440px) {
+  html.gen5ui #calculator-view .poke-info > img.poke-sprite {
+    width: 100px;
+    height: 100px;
+  }
+
+  html.gen5ui #calculator-view .info-group.top {
+    padding-right: 112px;
+  }
+
+  html.gen5ui #calculator-view .info-group.top > div:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 64px minmax(0, 1fr);
+  }
+
+  html.gen5ui #calculator-view .info-group.top > div:first-child:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 64px max-content max-content;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    --s: 1.25;
+    font-size: 13px !important;
+  }
+
+  html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info,
+  html.gen5ui #calculator-view #p2 .trainer-pok-container :is(.bp-infos, .exp-bar) {
+    padding-inline: 6px;
+  }
+
+  html.gen5ui #calculator-view #search-row {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+
+  html.gen5ui #calculator-view #search-row #search-box {
+    flex-basis: 100%;
+  }
+
+  html.gen5ui #calculator-view #search-row #box-sort-select {
+    flex: 1 1 0;
+  }
+}
+
+/* Under 381px: short stat names, and each move button on its own row. */
+@container g5side (max-width: 380px) {
+  /* The short names come from ::after on a zero-size label, which the table doesn't count, so the column is sized here. */
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody th {
+    width: 28px;
+    padding-right: 8px;
+  }
+
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody th label {
+    font-size: 0;
+  }
+
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody th label::after {
+    font-size: 13px;
+  }
+
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.hp th label::after { content: "HP"; }
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.at th label::after { content: "Atk"; }
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.df th label::after { content: "Def"; }
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.sa th label::after { content: "SpA"; }
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.sd th label::after { content: "SpD"; }
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tr.sp th label::after { content: "Spe"; }
+
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) input {
+    width: 38px;
+  }
+
+  html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) select {
+    width: 46px;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) {
+    flex-wrap: wrap;
+    row-gap: 3px;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
+    flex-basis: 100%;
+  }
+}
+
+/* Under 341px the sprite gives its room to the fields. */
+@container g5side (max-width: 340px) {
+  html.gen5ui #calculator-view .poke-info > img.poke-sprite {
+    display: none;
+  }
+
+  html.gen5ui #calculator-view .info-group.top {
+    padding-right: 0;
+  }
+}
+
+/* ---------- Full-size side panels: 20px type ----------
+ * When a side panel is 660px or wider (a full-screen window), every label, field, menu, move name and button in it
+ * reads at 20px, and the fields, move buttons and the columns holding them grow to match. The party cards keep their
+ * own sizes; the type, gender and status icons grow with the text and item icons keep their size. */
+@container g5side (min-width: 660px) {
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(label, th, td, .max-hp, .chip-damage, #tooltip, .filter-desc, .trainer-preview-label, .trainer-preview-separator, .trainer-preview-warning, .trainer-preview-exp-total, #frag-count, .g5-pick-text) {
+    font-size: 20px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.hp-cntrl {
+    font-size: 20px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(input:not([type="checkbox"]):not([type="radio"]), select):not(.g5-picked):not(.visually-hidden):not(.select2-offscreen):not(.set-selector):not(.move-selector) {
+    height: 36px;
+    font-size: 20px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin)) {
+    height: 34px;
+    line-height: 34px !important;
+    font-size: 20px !important;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick {
+    height: 36px;
+    font-size: 20px;
+  }
+
+  /* The set picker and the chips beneath it. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .set-selector .select2-choice {
+    height: 40px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(#player-tags, #ai-tags, #mobile-tags, #nav-tags) {
+    top: 96px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .player-panel-content > .info-group.top,
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .opposing-panel-content > .info-group.top {
+    margin-top: calc(48px + var(--g5-tags-extra, 0px));
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .poke-info > img.poke-sprite {
+    top: calc(136px + var(--g5-tags-extra, 0px));
+  }
+
+  /* Type, form, gender, level. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top {
+    gap: 8px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top > div:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 112px minmax(0, 1fr);
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top > div:first-child:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 112px max-content max-content;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top > div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) + div:nth-child(3):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: auto;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top .level {
+    width: 84px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top > .level-cap-row:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    grid-template-columns: 112px max-content max-content;
+    column-gap: 8px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.top #panel-lvl-cap {
+    width: 84px;
+  }
+
+  /* Stats beside the nature, ability, item and status, which take a wider column. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) {
+    width: calc(100% - 240px);
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) :is(th, td) {
+    padding-inline: 3px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) tbody th label {
+    width: auto;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) input {
+    width: 50px;
+    height: 34px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) select {
+    width: 66px;
+    height: 34px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group:is(.left-table, .right-table) tbody th {
+    padding-left: 6px;
+    padding-right: 8px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.info-selectors {
+    width: 228px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.info-selectors input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* HP. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .info-group.hp-cntrl input {
+    width: 74px;
+  }
+
+  /* Moves: the move button at twice its pixel size, with its power, type and PP fields beside it. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) {
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
+    width: 268px !important;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    --s: 2;
+    width: 268px;
+    font-size: 20px !important;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) .move-bp {
+    width: 66px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) .move-pp {
+    width: 56px;
+  }
+
+  /* The box's search and sort, and its filters. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) #search-row #box-sort-select {
+    flex: 0 0 230px;
+    width: 230px;
+  }
+
+  /* Icons grow with the text (three times their pixel size); item icons keep theirs. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-type img,
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-type .g5-pick-text {
+    width: 96px;
+    height: 36px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-gender img {
+    height: 36px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-status img {
+    width: 57px;
+    height: 18px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-status[data-value="Healthy"] .g5-pick-text {
+    line-height: 28px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) #player-poks-filter .filter-row {
+    height: auto;
+    min-height: 36px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) #player-poks-filter input {
+    width: 76px;
+    height: 34px;
+  }
+}
+
+/* ---------- Phones and narrow windows (960px and under) ----------
+ * The calculator's own phone layout stays in charge here (the results pinned to the top, the two Pokémon side by side
+ * or behind tabs, the field below); this only dresses it, plus two changes from the mockup: each move button gets its
+ * own row so the whole name fits, and the result rows mirror on the foe's side. */
+@media (max-width: 960px) {
+  /* The calculator keeps its results at the top on phones already, so the pin isn't offered. */
+  html.gen5ui #calculator-view .g5-pin {
+    display: none;
+  }
+
+  html.gen5ui #calculator-view .main-result-group > :is(.big-text, .small-text) {
+    padding-left: 12px;
+  }
+
+  html.gen5ui .header-settings.app-header-shell {
+    flex-wrap: nowrap;
+    gap: 8px;
+    min-height: 50px;
+    margin: 0 0 8px;
+    padding: 0 10px;
+  }
+
+  html.gen5ui .header-settings.app-header-shell #rom-title {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html.gen5ui .main-view-menu-toggle {
+    order: 3;
+    width: 30px;
+    height: 30px;
+    gap: 4px;
+    border: 2px solid var(--g5-menu-edge);
+    border-radius: 0;
+    background: var(--g5-menu);
+    color: var(--g5-text);
+  }
+
+  html.gen5ui .main-view-menu-toggle span {
+    width: 14px;
+    border-radius: 0;
+  }
+
+  html.gen5ui .header-settings.app-header-shell #open-menu {
+    order: 4;
+  }
+
+  /* The views menu opens as a Gen 5 list menu. */
+  html.gen5ui #main-view-tabs {
+    top: calc(100% + 4px);
+    padding: 4px;
+    border: 2px solid var(--g5-menu-edge);
+    border-radius: 0;
+    background: var(--g5-black);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+  }
+
+  html.gen5ui :is(.main-view-tab, .main-view-version-link) {
+    height: 36px;
+    padding: 0 12px !important;
+    border: 2px solid transparent !important;
+    border-radius: 0 !important;
+    background: var(--g5-menu) !important;
+    color: var(--g5-text) !important;
+    box-shadow: none !important;
+    font: 600 15px/1 var(--g5-font) !important;
+  }
+
+  html.gen5ui .main-view-tab.active {
+    border-color: var(--g5-menu-on-edge) !important;
+    background: var(--g5-menu-on) !important;
+  }
+
+  /* Moves and damage, pinned to the top as the calculator has them on phones. */
+  html.gen5ui #calculator-view .move-result-group {
+    gap: 4px;
+    margin: 0 0 10px;
+    padding: 4px;
+    border: 2px solid var(--g5-black);
+    background: #000 url("../img/gen5/ui/grid-cross.svg");
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup,
+  html.gen5ui #calculator-view .move-result-subgroup.results-right {
+    border: 2px solid var(--g5-black);
+    border-radius: 0;
+    background: var(--g5-black);
+  }
+
+  html.gen5ui #calculator-view .result-move-header {
+    height: 28px;
+    min-height: 28px;
+    padding: 0 3px 0 7px;
+    border-bottom: 2px solid var(--g5-text);
+    background: var(--g5-black);
+    color: var(--g5-text);
+    font: 600 11px/1.2 var(--g5-font);
+  }
+
+  html.gen5ui #calculator-view .result-crit-toggle {
+    --cut: 6px;
+    height: 22px;
+    min-height: 0;
+    padding: 0 12px;
+    line-height: 22px !important;
+    font-size: 11px !important;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup > div:not(.result-move-header) {
+    grid-template-columns: clamp(90px, 40%, 204px) minmax(0, 1fr);
+    gap: 4px;
+    align-items: center;
+    min-height: 30px;
+    padding: 1px 4px 1px 1px;
+    border: 2px solid transparent;
+    box-shadow: none;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup.results-right > div:not(.result-move-header) {
+    grid-template-columns: minmax(0, 1fr) clamp(90px, 40%, 204px);
+    padding: 1px 1px 1px 4px;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup.results-right > div > .resultDamage { order: 1; }
+  html.gen5ui #calculator-view .move-result-subgroup.results-right > div > label { order: 2; }
+
+  html.gen5ui #calculator-view .move-result-group label.btn,
+  html.gen5ui #calculator-view .move-result-group input:checked + label.btn {
+    --s: 1.25;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 0 8px;
+    box-shadow: none;
+    font-size: 12px !important;
+    text-shadow: 1px 0 #585858, 0 1px #585858, 1px 1px #585858;
+  }
+
+  html.gen5ui #calculator-view .resultDamage {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: -0.2px;
+    text-align: right;
+    white-space: normal;
+    box-shadow: none !important;
+  }
+
+  html.gen5ui #calculator-view .results-right .resultDamage {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup > div > .resultDamage {
+    justify-self: end;
+    max-width: 100%;
+  }
+
+  html.gen5ui #calculator-view .move-result-subgroup.results-right > div > .resultDamage {
+    justify-self: start;
+  }
+
+  html.gen5ui #calculator-view .main-result-group .big-text {
+    font-size: 13px;
+  }
+
+  html.gen5ui #calculator-view .main-result-group .small-text {
+    font-size: 12px;
+  }
+
+  /* The set pickers keep the calculator's phone heights, which its chips are placed by. */
+  html.gen5ui #calculator-view .panel-wrapper:not(.mobile-dual-panel-layout) .select2-container.set-selector .select2-choice {
+    height: 80px;
+    font-size: 16px;
+    line-height: 76px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper:not(.mobile-dual-panel-layout) .move-bp {
+    width: 38px;
+  }
+
+  html.gen5ui #calculator-view .select2-container.set-selector .select2-choice > .select2-chosen {
+    border: 0;
+    background: transparent;
+  }
+
+  /* The panels: the calculator hides the Pokémon titles on phones and pins the chips under the set picker. */
+  html.gen5ui #calculator-view :is(#p1, #p2) {
+    padding: 0 0 8px;
+  }
+
+  html.gen5ui #calculator-view :is(#p1, #p2) > legend {
+    display: none;
+  }
+
+  html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"] {
+    appearance: none;
+    display: grid;
+    place-items: center;
+    border: 2px solid var(--g5-menu-edge);
+    border-radius: 0;
+    background: var(--g5-black);
+  }
+
+  html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"]:checked {
+    border-color: var(--g5-menu-on-edge);
+    background: var(--g5-menu-on);
+  }
+
+  html.gen5ui #calculator-view .info-group.info-selectors input[type="checkbox"]:checked::after {
+    content: "";
+    width: 9px;
+    height: 5px;
+    margin-top: -3px;
+    border-left: 2px solid var(--g5-text);
+    border-bottom: 2px solid var(--g5-text);
+    transform: rotate(-45deg);
+  }
+
+  html.gen5ui #calculator-view .info-group.hp-cntrl label {
+    color: var(--g5-text);
+  }
+
+  html.gen5ui #calculator-view .g5-pick-type img,
+  html.gen5ui #calculator-view .g5-pick-type .g5-pick-text {
+    width: 48px;
+    height: 18px;
+  }
+
+  html.gen5ui #calculator-view .g5-pick-gender img {
+    height: 18px;
+  }
+
+  html.gen5ui #calculator-view .g5-pick-forme {
+    flex: 0 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+
+  /* Type selects are narrow here: a smaller label and no arrow. */
+  html.gen5ui #calculator-view :is(select.type1, select.type2)[data-g5-type]:not([data-g5-type=""]) {
+    padding-right: 4px;
+    background-position: 3px center, right 8px center, right 3px center !important;
+    background-size: 40px 15px, 0 0, 0 0 !important;
+  }
+
+  /* Each move button on its own row, its power and type beneath. */
+  html.gen5ui #calculator-view .panel-wrapper.mobile-dual-panel-layout :is(.move1, .move2, .move3, .move4) {
+    grid-template-columns: 40px minmax(0, 1fr);
+    row-gap: 3px;
+    margin: 0 0 6px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper.mobile-dual-panel-layout :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
+    grid-column: 1 / -1;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    --s: 1.25;
+    width: 100% !important;
+    padding: 0 8px;
+    font-size: 12px !important;
+    text-shadow: 1px 0 #585858, 0 1px #585858, 1px 1px #585858;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice .select2-chosen {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: calc(19px * var(--s));
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-arrow {
+    display: none;
+  }
+
+  /* A tag partner's team takes the party's three-to-a-row grid, and its Change and Clear wrap under the heading. */
+  html.gen5ui #calculator-view .trainer-pok-list.tag-partner-preview:not(:empty) {
+    box-sizing: border-box;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 6px;
+    align-items: start;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    overflow: visible;
+  }
+
+  html.gen5ui #calculator-view .tag-partner-preview .trainer-pok-container,
+  html.gen5ui #calculator-view .tag-partner-preview .trainer-pok-container:first-child {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  html.gen5ui #calculator-view .tag-partner-header {
+    flex-wrap: wrap;
+  }
+
+  /* Party and box: the game's grid tiles. */
+  html.gen5ui #calculator-view .player-party .trainer-pok.left-side,
+  html.gen5ui #calculator-view .tag-partner-preview .trainer-pok.tag-partner-pok,
+  html.gen5ui #calculator-view #p2 .trainer-pok-container {
+    border: 2px solid var(--g5-black);
+    border-radius: 0;
+    background: var(--g5-ground) url("../img/gen5/ui/grid-button.svg");
+  }
+
+  html.gen5ui #calculator-view #p2 .trainer-pok-container > img.trainer-pok {
+    border-radius: 0;
+  }
+
+  html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    color: var(--g5-soft);
+    font-size: 10px;
+    line-height: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info.nature-info { color: var(--g5-selected); }
+  html.gen5ui #calculator-view :is(.player-party, .tag-partner-preview) .bp-info.extra-info { color: var(--g5-label); }
+
+  html.gen5ui #calculator-view .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks {
+    grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+    gap: 3px;
+    margin: 8px 8px 0;
+    padding: 4px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks .box-sort-card {
+    padding: 0;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper.mobile-dual-panel-layout #p1 .player-poks .box-sort-card img.trainer-pok.left-side {
+    width: 100%;
+    height: 34px;
+    padding: 2px 1px;
+  }
+
+  /* The box filter wraps its rows instead of running past the panel. */
+  html.gen5ui #calculator-view #player-poks-filter {
+    margin: 8px;
+  }
+
+  html.gen5ui #calculator-view #player-poks-filter .filter-row {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+    min-height: 22px;
+    gap: 4px 8px;
+  }
+
+  html.gen5ui #calculator-view #player-poks-filter .filter-desc {
+    flex: 1 1 100%;
+    width: auto;
+  }
+
+  html.gen5ui #calculator-view #player-poks-filter :is(input, select) {
+    max-width: 100%;
+  }
+
+  html.gen5ui #calculator-view .box-filter-colors-trigger-row {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 6px 10px;
+  }
+
+  html.gen5ui #calculator-view #open-box-filter-colors {
+    flex: none;
+  }
+
+  html.gen5ui .player-preview-add-actions button,
+  html.gen5ui .opposing-preview-footer button {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 11px !important;
+    text-overflow: ellipsis;
+  }
+}
+
+/* ==========================================================================================================
+ * Box, Fragsheet and Battle Log tabs.
+ * The same parts as the calculator: one frame per panel, black title bars with a white rule, hexagonal command
+ * buttons, the battle screen's move buttons and type labels, the game's button grid behind sprites. No rounded
+ * corners, no shadows, no outlines inside a panel; groups are made with fills and spacing. Colours keep one
+ * meaning each: cyan for the active choice, green for a good outcome, red for a bad one or for removing things.
+ * Sprites are stills (js/calc_ui/gen5_ui.js draws each one's first frame) that animate only under the pointer.
+ * ========================================================================================================== */
+
+/* Command buttons in these tabs. */
+html.gen5ui :is(#box-view, #fragsheet-shell) :where(#box-clear-filters, .box-stat-view-option, .box-filter-btn, #g5-box-empty-action, .sheet-btn, #reset-sheet, #delete-enc, .tab, .battle-log-split-tab, .battle-log-toolbar-btn, .battle-team-edit-btn, .status-alive, .status-dead) {
+  --edge: var(--g5-menu-edge);
+  --face: var(--g5-menu);
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 0;
+  height: 28px;
+  min-height: 0;
+  margin: 0;
+  padding: 0 calc(var(--cut, 7px) + 8px);
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: var(--edge) !important;
+  color: var(--g5-text) !important;
+  box-shadow: none !important;
+  font: 600 13px/1 var(--g5-font) !important;
+  text-decoration: none;
+  text-shadow: none;
+  white-space: nowrap;
+  cursor: pointer;
+  clip-path: var(--g5-hex);
+  transition: none;
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) :where(#box-clear-filters, .box-stat-view-option, .box-filter-btn, #g5-box-empty-action, .sheet-btn, #reset-sheet, #delete-enc, .tab, .battle-log-split-tab, .battle-log-toolbar-btn, .battle-team-edit-btn, .status-alive, .status-dead)::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: -1;
+  background: var(--face);
+  clip-path: var(--g5-hex-face);
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) :where(#box-clear-filters, .box-stat-view-option, .box-filter-btn, #g5-box-empty-action, .sheet-btn, #reset-sheet, #delete-enc, .tab, .battle-log-split-tab, .battle-log-toolbar-btn, .battle-team-edit-btn, .status-alive, .status-dead):hover {
+  --face: #474766;
+}
+
+/* Small toggles: the sort, view and split choices, the sheet's status, the battle log's KO marks. */
+html.gen5ui :is(#box-view, #fragsheet-shell) :is(.box-filter-btn, .tab, .battle-log-split-tab, .battle-team-edit-btn, .status-alive, .status-dead) {
+  --cut: 6px;
+  height: 24px;
+  padding: 0 12px;
+  font-size: 12px !important;
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) :is(.box-stat-view-option, .box-filter-btn, .tab, .battle-log-split-tab):not(.active) {
+  color: var(--g5-label) !important;
+  font-weight: 500 !important;
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) :is(.box-stat-view-option, .box-filter-btn, .tab, .battle-log-split-tab).active {
+  --edge: var(--g5-menu-on-edge);
+  --face: var(--g5-menu-on);
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) :is(#g5-box-empty-action, #import-sheet) {
+  --edge: var(--g5-mon);
+  --face: #1f3a14;
+}
+
+html.gen5ui #fragsheet-shell :is(#reload-box-battlelog, #sync-battle-log) {
+  --edge: var(--g5-run);
+  --face: #0f3150;
+}
+
+html.gen5ui #fragsheet-shell :is(#reset-sheet, #delete-enc, #clear-save-file-battle-log, .status-dead) {
+  --edge: var(--g5-fight);
+  --face: #3a1414;
+}
+
+html.gen5ui #fragsheet-shell :is(#reset-sheet, #delete-enc) {
+  width: auto;
+  min-width: 0;
+}
+
+/* Delete shows once a Pokémon is picked (the sheet sets it to display: block then). */
+html.gen5ui #fragsheet-shell #delete-enc:not([style*="block"]) {
+  display: none !important;
+}
+
+html.gen5ui #fragsheet-shell #delete-enc[style*="block"] {
+  display: inline-flex !important;
+}
+
+/* ---------- Box ---------- */
+
+html.gen5ui #box-view {
+  padding: 0;
+}
+
+html.gen5ui #box-view #box-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 0 14px;
+  padding: 12px;
+  border: 2px solid var(--g5-black);
+  background: var(--g5-panel);
+}
+
+html.gen5ui #box-view .box-controls-search-row {
+  gap: 10px;
+  margin: 0;
+}
+
+html.gen5ui #box-view #box-search-input {
+  height: 32px;
+  padding: 0 9px;
+  border: 2px solid var(--g5-edge);
+  border-radius: 0;
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 400 14px/28px var(--g5-font);
+}
+
+html.gen5ui #box-view #box-search-input::placeholder {
+  color: var(--g5-muted);
+}
+
+html.gen5ui #box-view #box-search-input:focus-visible {
+  outline: 2px solid var(--g5-text);
+  outline-offset: 1px;
+}
+
+html.gen5ui #box-view .box-stat-view-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  height: auto;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #box-view .box-stat-view-option + .box-stat-view-option {
+  border-left: 0;
+}
+
+/* "Sort by" and "Type" label their rows; the choices wrap beside the label. */
+html.gen5ui #box-view :is(#box-sort-buttons, #box-type-filters) {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2px;
+  margin: 0;
+  padding-left: 74px;
+}
+
+html.gen5ui #box-view #box-type-filters {
+  gap: 6px;
+}
+
+html.gen5ui #box-view :is(#box-sort-buttons, #box-type-filters)::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--g5-muted);
+  font: 400 13px/24px var(--g5-font);
+}
+
+html.gen5ui #box-view #box-sort-buttons::before { content: "Sort by"; }
+html.gen5ui #box-view #box-type-filters::before { content: "Type"; line-height: 28px; }
+
+html.gen5ui #box-view .box-type-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  height: 28px;
+  padding: 0 10px 0 5px;
+  border: 0;
+  border-radius: 0;
+  background: var(--g5-black);
+  color: var(--g5-soft);
+  font: 400 13px/1 var(--g5-font);
+  transition: none;
+}
+
+html.gen5ui #box-view .box-type-filter:hover {
+  background: var(--g5-raised);
+}
+
+html.gen5ui #box-view .box-type-filter.active {
+  outline: 2px solid var(--g5-text);
+  outline-offset: -2px;
+  background: var(--g5-menu-on);
+  color: var(--g5-text);
+}
+
+html.gen5ui #box-view .box-type-filter-count {
+  font: inherit;
+}
+
+/* The type labels are the game's own (img/gen5/types). */
+html.gen5ui .g5-box-type {
+  display: inline-block;
+  flex: none;
+  width: 48px;
+  height: 18px;
+  background: center / 100% 100% no-repeat;
+  image-rendering: pixelated;
+}
+
+html.gen5ui .g5-box-type[data-g5-type="normal"] { background-image: url("../img/gen5/types/normal.png"); }
+html.gen5ui .g5-box-type[data-g5-type="fire"] { background-image: url("../img/gen5/types/fire.png"); }
+html.gen5ui .g5-box-type[data-g5-type="water"] { background-image: url("../img/gen5/types/water.png"); }
+html.gen5ui .g5-box-type[data-g5-type="electric"] { background-image: url("../img/gen5/types/electric.png"); }
+html.gen5ui .g5-box-type[data-g5-type="grass"] { background-image: url("../img/gen5/types/grass.png"); }
+html.gen5ui .g5-box-type[data-g5-type="ice"] { background-image: url("../img/gen5/types/ice.png"); }
+html.gen5ui .g5-box-type[data-g5-type="fighting"] { background-image: url("../img/gen5/types/fighting.png"); }
+html.gen5ui .g5-box-type[data-g5-type="poison"] { background-image: url("../img/gen5/types/poison.png"); }
+html.gen5ui .g5-box-type[data-g5-type="ground"] { background-image: url("../img/gen5/types/ground.png"); }
+html.gen5ui .g5-box-type[data-g5-type="flying"] { background-image: url("../img/gen5/types/flying.png"); }
+html.gen5ui .g5-box-type[data-g5-type="psychic"] { background-image: url("../img/gen5/types/psychic.png"); }
+html.gen5ui .g5-box-type[data-g5-type="bug"] { background-image: url("../img/gen5/types/bug.png"); }
+html.gen5ui .g5-box-type[data-g5-type="rock"] { background-image: url("../img/gen5/types/rock.png"); }
+html.gen5ui .g5-box-type[data-g5-type="ghost"] { background-image: url("../img/gen5/types/ghost.png"); }
+html.gen5ui .g5-box-type[data-g5-type="dragon"] { background-image: url("../img/gen5/types/dragon.png"); }
+html.gen5ui .g5-box-type[data-g5-type="dark"] { background-image: url("../img/gen5/types/dark.png"); }
+html.gen5ui .g5-box-type[data-g5-type="steel"] { background-image: url("../img/gen5/types/steel.png"); }
+html.gen5ui .g5-box-type[data-g5-type="fairy"] { background-image: url("../img/gen5/types/fairy.png"); }
+
+html.gen5ui #box-view #g5-box-count {
+  margin: 0 0 10px;
+  color: var(--g5-label);
+  font: 400 13px/1.45 var(--g5-font);
+}
+
+html.gen5ui #box-view #box-card-grid.g5-box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+  gap: 16px;
+}
+
+html.gen5ui #box-view .g5-box-card {
+  container: g5boxcard / inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px;
+  border: 2px solid var(--g5-black);
+  background: var(--g5-panel);
+}
+
+html.gen5ui #box-view .g5-box-top {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 14px;
+}
+
+/* Sprite windows: the game's button grid, the sprite in the middle, the held item in the corner. */
+html.gen5ui :is(#box-view .g5-box-win, #fragsheet-shell .battle-team-sprite-wrap) {
+  position: relative;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--g5-ground) url("../img/gen5/ui/grid-button.svg");
+}
+
+html.gen5ui #box-view .g5-box-win {
+  width: 150px;
+  height: 132px;
+  cursor: pointer;
+}
+
+html.gen5ui #box-view .g5-box-win:hover {
+  background-color: var(--g5-raised);
+}
+
+html.gen5ui :is(.g5-still, .g5-anim) {
+  grid-area: 1 / 1;
+  max-width: 100%;
+  height: auto !important;
+  image-rendering: pixelated;
+}
+
+html.gen5ui .g5-still.g5-smooth {
+  image-rendering: auto;
+}
+
+html.gen5ui .g5-anim {
+  display: none;
+}
+
+html.gen5ui .g5-anim-host:is(:hover, :focus-visible) .g5-anim.g5-ready {
+  display: block;
+}
+
+html.gen5ui .g5-anim-host:is(:hover, :focus-visible):has(.g5-anim.g5-ready) .g5-still {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.gen5ui .g5-anim-host .g5-anim.g5-ready { display: none; }
+  html.gen5ui .g5-anim-host .g5-still { visibility: visible !important; }
+}
+
+html.gen5ui :is(#box-view .g5-box-item, #fragsheet-shell .battle-team-item) {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #box-view .g5-box-id {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+html.gen5ui #box-view .g5-box-name {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+html.gen5ui #box-view .g5-box-name h3 {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: var(--g5-text);
+  font: 600 17px/1.3 var(--g5-font);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui #box-view .g5-box-name .box-card-gender {
+  font-size: 15px;
+}
+
+html.gen5ui #box-view .g5-box-name .gender-male { color: var(--g5-down); }
+html.gen5ui #box-view .g5-box-name .gender-female { color: var(--g5-up); }
+
+html.gen5ui #box-view .g5-box-level {
+  margin-left: auto;
+  color: var(--g5-soft);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+html.gen5ui #box-view .g5-box-types {
+  display: flex;
+  gap: 4px;
+  margin: 4px 0 6px;
+}
+
+html.gen5ui #box-view .g5-box-fact {
+  margin: 0;
+  overflow: hidden;
+  color: var(--g5-soft);
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui #box-view .g5-box-fact.g5-box-met {
+  color: var(--g5-label);
+}
+
+html.gen5ui #box-view .g5-box-record {
+  margin: auto 0 0;
+  padding-top: 4px;
+  color: var(--g5-soft);
+  font-size: 13px;
+}
+
+html.gen5ui :is(#box-view, #fragsheet-shell) .g5-on {
+  color: var(--g5-selected);
+  font-weight: 600;
+}
+
+html.gen5ui #box-view table.g5-box-stats {
+  display: none;
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: var(--g5-black);
+}
+
+html.gen5ui #box-view table.g5-box-stats.active {
+  display: table;
+}
+
+html.gen5ui #box-view .g5-box-stats th {
+  padding: 6px 0 0;
+  color: var(--g5-muted);
+  font: 400 12px/1.3 var(--g5-font);
+  text-align: center;
+}
+
+html.gen5ui #box-view .g5-box-stats th.g5-up { color: var(--g5-up); }
+html.gen5ui #box-view .g5-box-stats th.g5-down { color: var(--g5-down); }
+
+html.gen5ui #box-view .g5-box-stats td {
+  padding: 0 0 6px;
+  color: var(--g5-text);
+  font: 600 15px/1.4 var(--g5-font);
+  text-align: center;
+}
+
+html.gen5ui #box-view .g5-box-moves {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+/* Moves on the battle screen's move buttons, drawn from the type's ROM frame pieces. */
+html.gen5ui :is(.g5-box-move, .g5-log-move) {
+  --s: 1.5;
+  display: block;
+  min-width: 0;
+  height: calc(19px * var(--s));
+  padding: 0 calc(22px * var(--s)) 0 calc(24px * var(--s));
+  background: var(--l, url("../img/gen5/moves/none-l.png")) left top / calc(24px * var(--s)) 100% no-repeat border-box, var(--r, url("../img/gen5/moves/none-r.png")) right top / calc(22px * var(--s)) 100% no-repeat border-box, var(--m, url("../img/gen5/moves/none-m.png")) left top / calc(3px * var(--s)) 100% repeat-x content-box;
+  color: #f8f8f8;
+  font: 600 14px/calc(19px * var(--s)) var(--g5-font);
+  text-align: center;
+  text-shadow: 1.5px 0 #585858, 0 1.5px #585858, 1.5px 1.5px #585858;
+  image-rendering: pixelated;
+}
+
+html.gen5ui :is(.g5-box-move, .g5-log-move) > span {
+  display: block;
+  margin: 0 calc(8px - 22px * var(--s)) 0 calc(8px - 24px * var(--s));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Narrow cards (phones): a smaller sprite window, so the name and facts keep their room. */
+@container g5boxcard (max-width: 380px) {
+  html.gen5ui #box-view .g5-box-top {
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  html.gen5ui #box-view .g5-box-win {
+    width: 112px;
+    height: 112px;
+  }
+
+  html.gen5ui #box-view .g5-box-name h3 {
+    font-size: 15px;
+  }
+}
+
+/* An empty box, or a search with no matches: a panel that says what to do next. */
+html.gen5ui #box-view #box-view-empty.box-placeholder-card {
+  max-width: 720px;
+  min-height: 0;
+  padding: 0;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-panel);
+}
+
+html.gen5ui #box-view #box-empty-kicker:empty {
+  display: none;
+}
+
+html.gen5ui #box-view #box-empty-title {
+  margin: 0;
+  padding: 7px 12px;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 600 15px/1.3 var(--g5-font);
+}
+
+html.gen5ui #box-view #box-empty-copy {
+  max-width: 60ch;
+  margin: 0;
+  padding: 14px 16px 0;
+  color: var(--g5-soft);
+  font: 400 14px/1.45 var(--g5-font);
+}
+
+html.gen5ui #box-view #g5-box-empty-action {
+  margin: 14px 16px 16px;
+}
+
+/* ---------- Fragsheet ---------- */
+
+html.gen5ui #fragsheet-shell #sheet-btns {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+html.gen5ui #fragsheet-shell #sheet-btns > :is(#import-sheet, #export-sheet, #reload-box-battlelog, #reset-sheet) {
+  flex: 0 0 auto;
+  width: auto;
+  line-height: 1;
+}
+
+html.gen5ui #fragsheet-shell #sheet-btns > #reset-sheet {
+  margin-left: auto;
+}
+
+html.gen5ui #fragsheet-shell .btn-icon,
+html.gen5ui #fragsheet-shell #delete-btns {
+  display: none;
+}
+
+/* The views: "Show" totals, by split or stats and IVs; "One split" picks a split's KOs. */
+html.gen5ui #fragsheet-shell #tabs {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2px;
+  width: 100%;
+  height: auto;
+  margin: 0 0 12px;
+  padding: 0;
+  overflow: visible;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell #tabs::before,
+html.gen5ui #fragsheet-shell #tabs::after {
+  color: var(--g5-muted);
+  font: 400 13px/24px var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #tabs::before {
+  content: "Show";
+  order: 0;
+  margin-right: 8px;
+}
+
+html.gen5ui #fragsheet-shell #tabs::after {
+  content: "One split";
+  order: 4;
+  margin: 0 8px 0 26px;
+}
+
+html.gen5ui #fragsheet-shell #tabs:not(:has(.tab[data-split="0"]:not([style*="none"])))::after {
+  display: none;
+}
+
+html.gen5ui #fragsheet-shell #tabs > .tab { order: 5; }
+html.gen5ui #fragsheet-shell #tabs > #all-simple-tab { order: 1; }
+html.gen5ui #fragsheet-shell #tabs > #all-tab { order: 2; }
+html.gen5ui #fragsheet-shell #tabs > #stats-tab { order: 3; margin-left: 0; }
+
+html.gen5ui #fragsheet-shell #tabs .tab[style*="none"] {
+  display: none !important;
+}
+
+/* The sheet: the grid's theme variables in Gen 5 colours. */
+html.gen5ui #fragsheet-shell #myGrid.ag-theme-alpine-dark {
+  --ag-background-color: var(--g5-panel);
+  --ag-odd-row-background-color: var(--g5-panel);
+  --ag-header-background-color: var(--g5-black);
+  --ag-header-foreground-color: var(--g5-text);
+  --ag-header-cell-hover-background-color: var(--g5-black);
+  --ag-header-column-separator-display: none;
+  --ag-header-column-resize-handle-color: var(--g5-edge);
+  --ag-foreground-color: var(--g5-text);
+  --ag-data-color: var(--g5-text);
+  --ag-secondary-foreground-color: var(--g5-label);
+  --ag-border-color: var(--g5-black);
+  --ag-row-border-color: var(--g5-black);
+  --ag-row-border-width: 2px;
+  --ag-row-hover-color: var(--g5-raised);
+  --ag-selected-row-background-color: var(--g5-menu-on);
+  --ag-input-focus-border-color: var(--g5-text);
+  --ag-range-selection-border-color: transparent;
+  --ag-font-family: var(--g5-font);
+  --ag-font-size: 14px;
+  --ag-cell-horizontal-padding: 12px;
+  --ag-wrapper-border-radius: 0;
+  --ag-borders: solid 2px;
+  border: 0;
+  font-family: var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-root-wrapper {
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-header {
+  border-bottom: 2px solid var(--g5-text);
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-header-cell-text {
+  font: 600 13px/1 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-cell {
+  display: flex;
+  align-items: center;
+  border-right: 0;
+}
+
+html.gen5ui #fragsheet-shell #myGrid :is(.rank-1, .rank-2, .rank-3) {
+  background: transparent;
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-cell > span {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-header-cell-resize::after {
+  background: transparent;
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-cell[col-id="rank"] {
+  justify-content: flex-end;
+  color: var(--g5-label);
+}
+
+/* The Pokémon you picked: the menus' selection blue with a ring, the way the calculator marks a choice. */
+html.gen5ui #fragsheet-shell #myGrid .ag-row.ag-row-focus {
+  outline: 2px solid var(--g5-menu-on-edge);
+  outline-offset: -2px;
+  background: var(--g5-menu-on);
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-row.ag-row-focus .ag-cell {
+  color: var(--g5-text);
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-cell-focus:not(.ag-cell-range-selected):focus-within {
+  border-color: transparent;
+}
+
+html.gen5ui #fragsheet-shell .g5-sheet-mon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  line-height: 1.25;
+}
+
+html.gen5ui #fragsheet-shell .g5-sheet-mon img {
+  flex: none;
+  width: 60px;
+  height: 45px;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #fragsheet-shell .g5-sheet-mon > span {
+  min-width: 0;
+  overflow: hidden;
+}
+
+html.gen5ui #fragsheet-shell .g5-sheet-mon b {
+  display: block;
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+
+html.gen5ui #fragsheet-shell .g5-sheet-mon small {
+  display: block;
+  color: var(--g5-label);
+  font-size: 12px;
+}
+
+html.gen5ui #fragsheet-shell #myGrid .ag-row-focus .g5-sheet-mon small {
+  color: var(--g5-text);
+}
+
+/* Share of KOs: the game's EXP bar, its percentage beside it. */
+html.gen5ui #fragsheet-shell .progress-bar {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 1 200px;
+  height: 10px;
+  margin: 0 54px 0 0;
+  padding: 1px;
+  overflow: visible;
+  border: 1px solid #77b3b4;
+  border-radius: 0;
+  background: #2b3131;
+}
+
+html.gen5ui #fragsheet-shell .progress-fill {
+  height: 100%;
+  border-radius: 0;
+  background: var(--g5-run);
+  transition: none;
+}
+
+html.gen5ui #fragsheet-shell .progress-text {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 8px);
+  width: 46px;
+  transform: translateY(-50%);
+  color: var(--g5-text);
+  font: 400 13px/1 var(--g5-font);
+  text-align: right;
+  text-shadow: none;
+}
+
+/* The battles panel beside the sheet. */
+html.gen5ui #fragsheet-shell #frag-history {
+  box-sizing: border-box;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-panel);
+}
+
+html.gen5ui #fragsheet-shell #stat-title {
+  box-sizing: border-box;
+  height: auto;
+  min-height: 34px;
+  margin: 0;
+  padding: 7px 12px;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 600 15px/1.3 var(--g5-font);
+  text-align: left;
+  white-space: normal;
+}
+
+html.gen5ui #fragsheet-shell #g5-frag-sum {
+  margin: 12px 12px 0;
+  color: var(--g5-soft);
+  font: 400 14px/1.45 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #split-1-container {
+  padding: 0 12px 4px;
+}
+
+html.gen5ui :is(#fragsheet-shell, #box-view) .g5-band {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 28px;
+  margin: 12px 0 4px;
+  padding: 0 22px 0 10px;
+  background: var(--g5-raised);
+  font: 600 13px/1.2 var(--g5-font);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+}
+
+html.gen5ui #fragsheet-shell .g5-band-aside {
+  margin-left: auto;
+  color: var(--g5-label);
+  font-weight: 400;
+}
+
+html.gen5ui #fragsheet-shell .frag-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 10px;
+  min-height: 36px;
+  padding: 2px 4px 2px 10px;
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .fragged-tr {
+  height: auto;
+  padding: 0;
+  border: 0;
+  color: var(--g5-text);
+  font: 400 14px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .fragged-mons {
+  justify-content: flex-end;
+  gap: 2px;
+  width: auto;
+  min-height: 0;
+  padding: 0;
+}
+
+html.gen5ui #fragsheet-shell .fragged-mons img {
+  width: 40px;
+  height: 30px;
+}
+
+html.gen5ui #fragsheet-shell .fragged-note {
+  flex-basis: 100%;
+  padding: 0;
+  color: var(--g5-label);
+  font: 400 12px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #frag-history > #delete-enc {
+  margin: 10px 12px 14px;
+}
+
+html.gen5ui body.battle-log-mode #fragsheet-shell #frag-history > #delete-enc {
+  display: none !important;
+}
+
+/* ---------- Battle Log ---------- */
+
+html.gen5ui #fragsheet-shell #battle-log-split-tabs {
+  flex-wrap: wrap;
+  gap: 2px;
+  width: 100%;
+  height: auto;
+  margin: 0 0 12px;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell #battle-log-view {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell #battle-log-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell #g5-load-hint {
+  color: var(--g5-label);
+  font: 400 13px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #load-battle-log-file[style*="none"] + #g5-load-hint {
+  display: none;
+}
+
+html.gen5ui #fragsheet-shell #battle-log-upload-status {
+  flex-basis: 100%;
+  margin: 0 !important;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--g5-label) !important;
+  font: 400 13px/1.3 var(--g5-font);
+}
+
+/* Switches: a menu-navy track, selection blue when on (as in settings). */
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--g5-soft);
+  font: 400 13px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle-slider {
+  position: relative;
+  flex: none;
+  box-sizing: border-box;
+  width: 36px;
+  height: 20px;
+  border: 2px solid var(--g5-menu-edge);
+  border-radius: 0;
+  background: var(--g5-menu);
+}
+
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle-slider::after {
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  background: var(--g5-menu-edge);
+  box-shadow: none;
+  transform: none;
+  transition: none;
+}
+
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider {
+  border-color: var(--g5-menu-on-edge);
+  background: var(--g5-menu-on);
+}
+
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider::after {
+  left: 18px;
+  background: var(--g5-text);
+}
+
+html.gen5ui #fragsheet-shell .battle-log-edit-toggle input:focus-visible + .battle-log-edit-toggle-slider {
+  outline: 2px solid var(--g5-text);
+  outline-offset: 2px;
+}
+
+html.gen5ui #fragsheet-shell #battle-log-container {
+  padding: 0;
+}
+
+html.gen5ui #fragsheet-shell #battle-log-container .battle-log-note,
+html.gen5ui #fragsheet-shell #battle-log-container .battle-log-edit-toggle-row {
+  margin: 0 0 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--g5-soft);
+  font: 400 13px/1.45 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell #battle-log-container .battle-log-empty {
+  padding: 14px 16px;
+  border: 2px solid var(--g5-black);
+  border-radius: 0;
+  background: var(--g5-panel);
+  color: var(--g5-soft);
+}
+
+/* One panel per split; each battle a row in it. */
+html.gen5ui #fragsheet-shell .g5-log-split {
+  margin: 0 0 14px;
+  border: 2px solid var(--g5-black);
+  background: var(--g5-panel);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split-bar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 34px;
+  padding: 0 12px;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split-bar h3 {
+  margin: 0;
+  color: var(--g5-text);
+  font: 600 15px/1.25 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split-bar span {
+  margin-left: auto;
+  color: var(--g5-label);
+  font: 400 13px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session + .battle-session {
+  border-top: 2px solid var(--g5-black);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 12px;
+  align-items: center;
+  gap: 16px;
+  box-sizing: border-box;
+  min-height: 92px;
+  padding: 6px 14px 6px 8px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  cursor: pointer;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header:hover {
+  background: var(--g5-raised);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header:focus-visible {
+  outline: 2px solid var(--g5-text);
+  outline-offset: -2px;
+}
+
+/* The arrow that opens and closes a battle. */
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header::after {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: var(--g5-menu-edge);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title {
+  display: flex;
+  flex: 0 0 300px;
+  align-items: center;
+  gap: 12px;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-trainer-sprite-wrap {
+  flex: none;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-trainer-sprite {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title-text-wrap {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title-text,
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title-highlighted .battle-session-title-text {
+  margin: 0;
+  color: var(--g5-text);
+  font: 600 16px/1.3 var(--g5-font);
+  letter-spacing: 0;
+  text-shadow: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title-highlighted .battle-session-title-text-suffix {
+  color: var(--g5-label);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  min-width: 0;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary-sprite {
+  width: 60px;
+  height: 45px;
+  margin: 0;
+  image-rendering: pixelated;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary-vs {
+  color: var(--g5-muted);
+  font: 400 13px/1 var(--g5-font);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary-empty {
+  color: var(--g5-label);
+  font: 400 13px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-meta {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: 600 14px/1.3 var(--g5-font);
+  white-space: nowrap;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-meta.deathless { color: var(--g5-mon); }
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session-meta.deaths { color: var(--g5-up); }
+
+/* An open battle: the team, then who knocked out whom. */
+html.gen5ui #fragsheet-shell .g5-log-split .battle-session.expanded .battle-session-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 2px 14px 16px;
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-team {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-team-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  text-align: left;
+  opacity: 1;
+  filter: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-team-sprite-wrap {
+  width: auto;
+  height: 112px;
+  min-height: 0;
+  margin: 0 0 4px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-team-edit-btn {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 1;
+}
+
+html.gen5ui #fragsheet-shell .g5-team-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 8px;
+  color: var(--g5-text);
+  font: 600 15px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .g5-fainted {
+  color: var(--g5-up);
+  font-size: 13px;
+}
+
+html.gen5ui #fragsheet-shell .g5-team-fact {
+  overflow: hidden;
+  color: var(--g5-soft);
+  font: 400 13px/1.4 var(--g5-font);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.gen5ui #fragsheet-shell .g5-team-moves {
+  display: grid;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-events {
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: var(--g5-ground);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-events-header {
+  min-height: 30px;
+  align-items: center;
+  border-bottom: 2px solid var(--g5-text);
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 600 13px/1.2 var(--g5-font);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split :is(.battle-events-header, .battle-event-row) > div {
+  padding: 6px 12px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-row {
+  border: 0;
+  background: none;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-row + .battle-event-row {
+  border-top: 2px solid var(--g5-panel);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-row > div {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-cell {
+  gap: 10px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-cell img {
+  width: 60px;
+  height: 45px;
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-event-main {
+  color: var(--g5-text);
+  font: 400 14px/1.3 var(--g5-font);
+}
+
+html.gen5ui #fragsheet-shell .g5-log-split .battle-events-empty {
+  padding: 10px 12px;
+  background: none;
+  color: var(--g5-label);
+  font: 400 13px/1.4 var(--g5-font);
+}
+
+/* Narrower windows: the team three across, then two; a battle's row stacks its parts. */
+@media (max-width: 1180px) {
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-team {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 960px) {
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header {
+    min-height: 0;
+    padding: 8px 12px 8px 8px;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-title {
+    flex: none;
+    align-self: flex-start;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-trainer-sprite-wrap,
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-trainer-sprite {
+    width: 56px;
+    height: 56px;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-summary-sprite {
+    width: 40px;
+    height: 30px;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-events-header,
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-event-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  html.gen5ui #fragsheet-shell .battle-log-edit-toggle {
+    margin-left: 0;
+  }
+
+  html.gen5ui #fragsheet-shell #sheet-btns > #reset-sheet {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-header {
+    grid-template-columns: minmax(0, 1fr) 12px;
+  }
+
+  html.gen5ui #fragsheet-shell .g5-log-split .battle-session-meta {
+    grid-row: 2;
+    grid-column: 1;
+  }
+}

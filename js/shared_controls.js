@@ -100,7 +100,10 @@ function hasMoveTypeChangeAbility(ability) {
 
 function syncMoveTypeToggleState(pokeObj, resetChecked) {
 	var $pokeObj = $(pokeObj);
-	var hasMoveTypeAbility = hasMoveTypeChangeAbility($pokeObj.find(".ability").val());
+	const selectedAbility = $pokeObj.find(".ability").val();
+	var hasMoveTypeAbility = hasMoveTypeChangeAbility(selectedAbility) &&
+		!globalThis.PokewebCalcRules?.abilityControls(currentPokewebAbilities(), selectedAbility,
+			readPokewebAbilityState($pokeObj).pokewebAbilityId);
 	var $toggles = $pokeObj.find(".move-type-toggle");
 	var $labels = $pokeObj.find(".move-type-toggle-btn");
 
@@ -264,6 +267,87 @@ var STATUS_ALIAS_MAP = {
 };
 
 var lastOpposingTrainerIdentity = null;
+
+var pokewebOpening = {
+	global: {trickroom: "Trick Room", watersport: "Water Sport", mudsport: "Mud Sport"},
+	side: {safeguard: "Safeguard", mist: "Mist", luckychant: "Lucky Chant", rainbow: "Rainbow",
+		seaoffire: "Sea of Fire", swamp: "Swamp", toxicspikes: "Toxic Spikes"}
+};
+var pokewebOpeningSource;
+var pokewebOpeningTrainer;
+var pokewebOpeningHasWeather;
+
+function pokewebOpeningInput(name, suffix) {
+	return $("#pokeweb-" + name + suffix);
+}
+
+function buildPokewebOpeningInputs() {
+	if ($("#pokeweb-opening-global").children().length) return;
+	for (const [suffix, fields, container] of [
+		["", pokewebOpening.global, "#pokeweb-opening-global"],
+		["L", pokewebOpening.side, "#pokeweb-opening-side-l"],
+		["R", pokewebOpening.side, "#pokeweb-opening-side-r"]
+	]) {
+		if (suffix) $(container).append($("<div>").text(suffix === "L" ? "Player's side" : "Opponent's side"));
+		for (const [field, label] of Object.entries(fields)) {
+			const controlId = "pokeweb-" + field + suffix;
+			const control = field === "toxicspikes" ?
+				$("<select>").append([0, 1, 2].map(n => $("<option>", {value: n, text: n}))) :
+				$("<input>", {type: "checkbox"});
+			control.attr("id", controlId).addClass("calc-trigger").on("change", function () {
+				setTimeout(performCalculations, 0);
+			});
+			$(container).append($("<label>").attr("for", controlId).append(control, " " + label + " "));
+		}
+	}
+}
+
+function applyPokewebOpening(set) {
+	const data = typeof backup_data === "undefined" ? undefined : backup_data;
+	const enabled = data?.pokewebBattleRules?.version === 1;
+	$("#pokeweb-opening-fields").prop("hidden", !enabled);
+	if (!enabled) {
+		pokewebOpeningSource = undefined;
+		pokewebOpeningTrainer = undefined;
+		pokewebOpeningHasWeather = false;
+		return false;
+	}
+	buildPokewebOpeningInputs();
+	const trainer = Number.isInteger(set?.tr_id) ? set.tr_id : null;
+	if (pokewebOpeningSource === data && pokewebOpeningTrainer === trainer) return true;
+	const values = PokewebCalcRules.openingValues(trainer === null ? undefined : set);
+	pokewebOpeningSource = data;
+	pokewebOpeningTrainer = trainer;
+	for (const field of ["gravity", "magicroom", "wonderroom"]) {
+		$("#" + field).prop("checked", Boolean(values.global[field]));
+	}
+	for (const [suffix, side] of [["L", values.left], ["R", values.right]]) {
+		for (const [field, control] of Object.entries({reflect: "reflect", lightscreen: "lightScreen", tailwind: "tailwind", stealthrock: "sr"})) {
+			$("#" + control + suffix).prop("checked", Boolean(side[field]));
+		}
+		$("#spikes" + suffix + (side.spikes || 0)).prop("checked", true);
+		pokewebOpeningInput("toxicspikes", suffix).val(side.toxicspikes || 0);
+		for (const field of Object.keys(pokewebOpening.side)) {
+			pokewebOpeningInput(field, suffix).prop("checked", Boolean(side[field]));
+		}
+	}
+	for (const field of Object.keys(pokewebOpening.global)) {
+		pokewebOpeningInput(field, "").prop("checked", Boolean(values.global[field]));
+	}
+	pokewebOpeningHasWeather = trainer !== null && ["Clear", "Sun", "Rain", "Hail", "Sand", "Snow"].includes(set.weather);
+	if (pokewebOpeningHasWeather) $("#" + set.weather.toLowerCase()).prop("checked", true);
+	return pokewebOpeningHasWeather;
+}
+
+function readPokewebOpening(fields, suffix) {
+	const values = {};
+	if ($("#pokeweb-opening-fields").prop("hidden") !== false) return values;
+	for (const field of Object.keys(fields)) {
+		const control = pokewebOpeningInput(field, suffix);
+		values[field] = field === "toxicspikes" ? Number(control.val()) || 0 : Number(control.prop("checked"));
+	}
+	return values;
+}
 
 function normalizeStoredStatus(statusValue) {
 	var normalizedKey = String(statusValue == null ? '' : statusValue).trim().toLowerCase();
@@ -498,6 +582,15 @@ function syncStatusSelectUi(statusSelect) {
 
 	applyStatusSelectColor(select);
 	renderPokeChipDamage(select.closest(".poke-info"));
+}
+
+function trainerOpeningHp(set, maximum) {
+	if (!set || !Number.isFinite(maximum) || maximum <= 0) return maximum;
+	if (Number.isInteger(set.startingHp) && set.startingHp > 0) return Math.min(maximum, set.startingHp);
+	if (Number.isInteger(set.startingHpPercent) && set.startingHpPercent > 0 && set.startingHpPercent <= 100) {
+		return Math.max(1, Math.floor(maximum * set.startingHpPercent / 100));
+	}
+	return maximum;
 }
 
 function getNormalizedSetStatus(setData) {
@@ -1161,6 +1254,69 @@ $(".current-hp, .percent-hp").on("input keyup change blur", function () {
 });
 
 
+function currentPokewebAbilities() {
+	const data = typeof backup_data === "undefined" ? undefined : backup_data;
+	return globalThis.PokewebCalcRules?.active(data);
+}
+
+function readPokewebAbilityState(pokeObj) {
+	const select = pokeObj.find(".ability")[0];
+	const active = {};
+	pokeObj.find(".ability-toggles [data-effect-index]:checked").each(function () {
+		active[this.dataset.effectIndex] = true;
+	});
+	return {
+		pokewebAbilityId: Number(select?.selectedOptions[0]?.dataset.romAbilityId) || undefined,
+		pokewebAbilityActive: active
+	};
+}
+
+function syncPokewebAbilityControls(pokeObj, data, recipe, abilityToggle) {
+	const controls = abilityToggle.parent();
+	const previous = controls.data("recipeContext");
+	if (!previous && !recipe) return;
+	const set = pokeObj.find("input.set-selector").val();
+	if (recipe && previous?.data === data && previous.slot === recipe.slot && previous.set === set) return;
+
+	controls.find(".ability-effect-toggle").remove();
+	abilityToggle.removeAttr("data-effect-index data-ability").prop("checked", false);
+	if (!recipe) {
+		controls.removeData("recipeContext");
+		return;
+	}
+	controls.data("recipeContext", {data, slot: recipe.slot, set});
+	controls.prop("hidden", !recipe.toggles.length);
+	pokeObj.find(".alliesFainted").val("0");
+
+	recipe.toggles.forEach(({index, label, title}, position) => {
+		const repeated = recipe.toggles.some(other => other.index !== index && other.label === label);
+		const description = repeated ? label + " · " + title + " #" + (index + 1) : label;
+		const input = position === 0 ? abilityToggle : $("<input>", {type: "checkbox", class: "ability-effect-toggle"})
+			.on("change", function () {
+				if (typeof queueRefreshNextIn === "function") queueRefreshNextIn();
+				performCalculations();
+			}).appendTo(controls);
+		input.attr({"data-effect-index": index, "aria-label": description, title: description});
+	});
+}
+
+function selectSetAbility(select, set, fallback, allowCustomValue) {
+	setSelectValueIfValid(select, set?.ability, fallback, {allowCustomValue});
+	const data = currentPokewebAbilities();
+	if (!data || !set?.ability || !select[0]) return;
+	const matches = Array.from(select[0].options).filter(option => option.value === set.ability);
+	if (set.abilityId && data.abilityIds.get(set.abilityId) === set.ability) {
+		addPokewebAbilityOptions(select[0], [[set.abilityId, set.ability]]);
+		const option = Array.from(select[0].options).find(option => Number(option.dataset.romAbilityId) === set.abilityId);
+		if (option) select[0].selectedIndex = option.index;
+	} else if (matches.length > 1) {
+		const placeholder = matches.find(option => !option.dataset.romAbilityId) ||
+			new Option(set.ability + " (choose ROM slot)", set.ability);
+		if (!placeholder.parentNode) select[0].add(placeholder);
+		select[0].selectedIndex = placeholder.index;
+	}
+}
+
 function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 	var pokeObj = $(abilityObj).closest(".poke-info");
 	updateImportedAbilitySlotDisplay(pokeObj);
@@ -1179,22 +1335,23 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 		TOGGLE_ABILITIES.push("Protean")
 	}
 
-	var abilityToggle = $(abilityObj).closest(".poke-info").find(".abilityToggle");
-	var previousToggleAbility = abilityToggle.attr("data-ability") || "";
-	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
-		if (ability === "Imposter" && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
-			abilityToggle.prop("checked", true);
+	const abilityToggle = pokeObj.find(".abilityToggle");
+	const data = currentPokewebAbilities();
+	const slot = Number(pokeObj.find(".ability")[0]?.selectedOptions[0]?.dataset.romAbilityId);
+	const recipe = globalThis.PokewebCalcRules?.abilityControls(data, ability, slot);
+	syncPokewebAbilityControls(pokeObj, data, recipe, abilityToggle);
+	if (!recipe) {
+		const previousToggleAbility = abilityToggle.attr("data-ability");
+		const showToggle = TOGGLE_ABILITIES.includes(ability);
+		if (["Imposter", "Electromorphosis"].includes(ability) && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
+			abilityToggle.prop("checked", ability === "Imposter");
 		}
-		if (ability === "Electromorphosis" && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
-			abilityToggle.prop("checked", false);
-		}
-		abilityToggle.attr('title', ability === 'Electromorphosis' ? 'Charged: boost the next Electric move' : 'Is this ability active?');
-		abilityToggle.attr('aria-label', ability === 'Electromorphosis' ? 'Electromorphosis charged' : 'Ability active');
-		abilityToggle.attr("data-ability", ability);
-		abilityToggle.show();
-	} else {
-		abilityToggle.attr("data-ability", ability);
-		abilityToggle.hide();
+		abilityToggle.attr({
+			"data-ability": ability,
+			"title": ability === "Electromorphosis" ? "Charged: boost the next Electric move" : "Is this ability active?",
+			"aria-label": ability === "Electromorphosis" ? "Electromorphosis charged" : "Ability active"
+		});
+		abilityToggle.parent().prop("hidden", !showToggle);
 	}
 	var boostedStat = $(abilityObj).closest(".poke-info").find(".boostedStat");
 
@@ -1205,13 +1362,10 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 		boostedStat.hide();
 	}
 
-	if (ability === "Supreme Overlord") {
-		$(abilityObj).closest(".poke-info").find(".alliesFainted").show();
-	} else {
-		$(abilityObj).closest(".poke-info").find(".alliesFainted").val('0');
-		$(abilityObj).closest(".poke-info").find(".alliesFainted").hide();
-
-	}
+	const fainted = pokeObj.find(".alliesFainted");
+	const usesFaintedCount = recipe ? recipe.fainted : ability === "Supreme Overlord";
+	fainted.toggle(usesFaintedCount);
+	if (!usesFaintedCount) fainted.val("0");
 	syncMoveTypeToggleState(pokeObj, !!resetMoveTypeToggle);
 	refreshChipDamageDisplays();
 	// detectAutoWeather(abilityObj)
@@ -1221,9 +1375,16 @@ $(".ability").bind("keyup change", function () {
 	showAbilityExtras(this)
 });
 
-function detectAutoWeather() {
+function detectAutoWeather(event) {
+	if (event?.type === "recalc" && pokewebOpeningHasWeather) {
+		autosetTerrain($(this).val(), 0);
+		refreshChipDamageDisplays();
+		return;
+	}
 	var is_p1 = $(this).parents("#p1").length > 0
 	var ability = $(this).val()
+	if (globalThis.PokewebCalcRules?.abilityControls(currentPokewebAbilities(), ability,
+		Number(this.selectedOptions?.[0]?.dataset.romAbilityId))) return;
 	var weather_abilities = ["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream", "Orichalcum Pulse"]
 
 
@@ -2138,6 +2299,18 @@ function getTrainerPreviewBattleType(setData) {
 	return "Singles"
 }
 
+function isTrainerPreviewLead(setData, inactiveTeam = false) {
+	if (!setData || setData.sub_index == null || setData.sub_index === "") {
+		return false
+	}
+
+	var slot = Number(setData.sub_index)
+	var battleType = inactiveTeam ? setData.battle_type : getTrainerPreviewBattleType(setData)
+	return slot === 0 ||
+		(slot === 1 && (battleType === "Doubles" || battleType === "Triples") && TITLE !== "Platinum Kaizo") ||
+		(slot === 2 && battleType === "Triples")
+}
+
 function renderTrainerPreviewPok(next_pok, inactiveTeam = false) {
 	if (!Array.isArray(next_pok) || typeof next_pok[0] !== "string" || !next_pok[0]) {
 		return ""
@@ -2169,24 +2342,13 @@ function renderTrainerPreviewPok(next_pok, inactiveTeam = false) {
 		return ""
 	}
 	var setData = setdex[species][set_name]
-	var previewBattleType = inactiveTeam ? setData.battle_type || 'Singles' : getTrainerPreviewBattleType(setData)
 
 	var isFainted = ""
 	if (fainted.includes(dataID)) {
 		isFainted = "fainted"
 	}
 
-	var isLead = ""
-
-	if (next_pok[0].includes("[0]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7)) {
-		isLead = "lead"
-	}
-	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 5) && previewBattleType != "Singles" && TITLE != "Platinum Kaizo") {
-		isLead = "lead"
-	}
-	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7) && previewBattleType == "Triples") {
-		isLead = "lead"
-	}
+	var isLead = isTrainerPreviewLead(setData, inactiveTeam) ? "lead" : ""
 
 	var pok = `<div class="trainer-pok-container ${isFainted}">
 	<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
@@ -2338,6 +2500,7 @@ function refresh_next_in() {
 	}
 
 	if (!Array.isArray(next_poks)) {
+		$('#p2 .poke-sprite').removeClass('lead')
 		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview').html("")
 		if (typeof syncOpposingKoButton === "function") {
 			syncOpposingKoButton()
@@ -2408,6 +2571,7 @@ function refresh_next_in() {
 	var hideCurrentAiMon = typeof canShowHideCurrentAiMonToggle === "function" &&
 		canShowHideCurrentAiMonToggle() &&
 		localStorage.hideCurrentAiMon == "1"
+	var hiddenCurrentLead = false
 
 	
 
@@ -2436,6 +2600,7 @@ function refresh_next_in() {
 			continue
 		}
 		if (hideCurrentAiMon && selectedOpposingDataId && getTrainerPreviewDataId(setId) === selectedOpposingDataId) {
+			hiddenCurrentLead = isTrainerPreviewLead(getSetDataBySetId(setId))
 			continue
 		}
 
@@ -2543,6 +2708,7 @@ function refresh_next_in() {
 		trpok_html += `<div class="trainer-preview-exp-total"><span class="trainer-preview-exp-total-label">Total: </span><span class="trainer-preview-exp-total-value">${expTotal}</span><span class="trainer-preview-exp-total-unit"> EXP</span></div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
+	$('#p2 .poke-sprite').toggleClass('lead', hiddenCurrentLead)
 	$('.opposing.trainer-pok-list').toggleClass('b2b-trainer-preview', opposingPreviewState.mode === 'b2b')
 	if (typeof refreshEnemyPreviewBoxFiltersSafely === "function") {
 		refreshEnemyPreviewBoxFiltersSafely()
@@ -2643,6 +2809,7 @@ $(".set-selector").change(function () {
 	var selectedSet = setdex && setdex[pokemonName] ? setdex[pokemonName][setName] : null
 	var isTemporaryOpponentSet = $(this).hasClass('opposing') && selectedSet && selectedSet.isTemporaryOpponentSet
 	if ($(this).hasClass('opposing')) {
+		if (!Number.isInteger(selectedSet?.tr_id)) applyPokewebOpening(null);
 		syncConfiguredTrainerAi(isTemporaryOpponentSet || !selectedSet ? null : selectedSet.ai, settings.damageGen)
 	}
 
@@ -2830,9 +2997,10 @@ $(".set-selector").change(function () {
 				}
 				
 
-				if (weather) {
+				var pokewebWasSeeded = applyPokewebOpening(selectedSet);
+				if (weather && !pokewebWasSeeded) {
 					$(`#${weather.toLowerCase()}`).prop("checked", true);
-				} else if (shouldAdjustWeather) {
+				} else if (!pokewebWasSeeded && shouldAdjustWeather) {
 					if (!["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream", "Orichalcum Pulse"].includes(setdex[pokemonName][setName].ability)) {
 						$(`#clear`).prop("checked", true);
 					}
@@ -2973,9 +3141,7 @@ $(".set-selector").change(function () {
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
 
-			setSelectValueIfValid(abilityObj, set.ability, abilityFallback, {
-				allowCustomValue: Boolean(set && set.isCustomSet)
-			});
+			selectSetAbility(abilityObj, set, abilityFallback, Boolean(set && set.isCustomSet));
 			setSelectValueIfValid(itemObj, set.item, "");
 			updateImportedAbilitySlotDisplay(pokeObj);
 
@@ -3015,7 +3181,8 @@ $(".set-selector").change(function () {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
-			setSelectValueIfValid(abilityObj, pokemon.abilities[0], "");
+			selectSetAbility(abilityObj, {ability: pokemon.abilities[0],
+				abilityId: typeof backup_data === "undefined" ? undefined : backup_data?.poks?.[pokemonName]?.abilityIds?.[0]}, "");
 			// setSelectValueIfValid(abilityObj, pokemon.ab, "Torrent");
 			itemObj.val("");
 			for (i = 0; i < 4; i++) {
@@ -3063,6 +3230,14 @@ $(".set-selector").change(function () {
 		}
 		syncStatusSelectUi(pokeObj.find(".status"));
 		syncItemState(itemObj);
+		if ($(this).hasClass("opposing") && selectedSet && (selectedSet.startingHp || selectedSet.startingHpPercent)) {
+			const maximum = Number(pokeObj.find(".max-hp").text());
+			const current = trainerOpeningHp(selectedSet, maximum);
+			if (maximum > 0 && Number.isFinite(current)) {
+				pokeObj.find(".current-hp").val(current);
+				calcPercentHP(pokeObj, maximum, current);
+			}
+		}
 		applyRememberedHpStatusToPokeInfo(pokeObj, fullSetName);
 		syncEvColumnVisibility();
 
@@ -3288,9 +3463,7 @@ $(".forme").change(function () {
 	var isAltForme = $(this).val() !== pokemonName;
 	if (chosenSet) {
 		let abilityFallback = pokedex[pokemonName].abilities[0];
-		setSelectValueIfValid(container.find(".ability"), chosenSet.ability, abilityFallback, {
-			allowCustomValue: Boolean(chosenSet && chosenSet.isCustomSet)
-		});
+		selectSetAbility(container.find(".ability"), chosenSet, abilityFallback, Boolean(chosenSet.isCustomSet));
 	} else if (isAltForme && abilities.indexOf(altForme.abilities[0]) !== -1 && !greninjaSet) {
 		container.find(".ability").val(altForme.abilities[0]);
 	} else if (greninjaSet) {
@@ -3506,9 +3679,10 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 
 		let status = CALC_STATUS[getNormalizedSetStatus(set)]
 		
-			return new calc.Pokemon(gen, name, {
+		const opposingPokemon = new calc.Pokemon(gen, name, {
 				level: tmpLvl,
 				ability: set.ability,
+				pokewebAbilityId: set.abilityId,
 				abilityOn: set.ability !== 'Electromorphosis',
 				item: item,
 				gender: getGender(set.gender),
@@ -3519,6 +3693,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			status: status,
 			overrides: Object.keys(speciesOverrides).length ? speciesOverrides : undefined
 		});
+		opposingPokemon.originalCurHP = trainerOpeningHp(set, opposingPokemon.maxHP(true));
+		return opposingPokemon;
 	} else {
 		var setName = pokeInfo.find("input.set-selector").val() || "";
 		var name = getCalcSpeciesFromSetId(setName);
@@ -3592,7 +3768,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		return new calc.Pokemon(gen, name, {
 			level: ~~pokeInfo.find(".level").val(),
 			ability: ability,
-			abilityOn: pokeInfo.find(".abilityToggle").is(":checked"),
+			...readPokewebAbilityState(pokeInfo),
+			abilityOn: pokeInfo.find(".abilityToggle:not([data-effect-index])").is(":checked"),
 			item: item,
 			itemOn: itemOn,
 			gender: pokeInfo.find(".gender").is(":visible") ? getGender(pokeInfo.find(".gender").val()) : "N",
@@ -3785,6 +3962,8 @@ function createField() {
 
 	var createSide = function (i) {
 		return new calc.Side({
+			pokeweb: readPokewebOpening(pokewebOpening.side, i === 0 ? "L" : "R"),
+			pokewebPosition: i,
 			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i], isPowerTrick: isPowerTrick[i],
 			vinelash: vinelash[i], wildfire: wildfire[i], cannonade: cannonade[i], volcalith: volcalith[i],
 			isReflect: isReflect[i], isLightScreen: isLightScreen[i],
@@ -3795,6 +3974,7 @@ function createField() {
 	};
 	// console.log(is10Buff)
 	return new calc.Field({
+		pokeweb: readPokewebOpening(pokewebOpening.global, ""),
 		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
 		isTabletsOfRuin: isTabletsOfRuin, isBeadsOfRuin: isBeadsOfRuin, isVesselOfRuin: isVesselOfRuin, isSwordOfRuin: isSwordOfRuin, isInverse: isInverse, isShadowyVeil: isShadowyVeil,
 		attackerSide: createSide(0), defenderSide: createSide(1)
@@ -3928,6 +4108,7 @@ $(".gen").change(function () {
 	$("select.ability").find("option").remove().end().append("<option value=\"\">(other)</option>" + abilityOptions);
 	var itemOptions = getSelectOptions(items, true);
 	$("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
+	if (typeof backup_data !== "undefined") addPokewebEffectOptions(backup_data);
 });
 
 function getFirstValidSetOption(side="left") {
@@ -3952,6 +4133,8 @@ $(".notation").change(function () {
 
 function clearField(options) {
 	options = options || {};
+	$("#pokeweb-opening-fields input").prop("checked", false);
+	$("#pokeweb-opening-fields select").val(0);
 	if (!options.preserveFormat) {
 		$("#singles-format").prop("checked", true);
 		$("#doubles-format").prop("checked", false);

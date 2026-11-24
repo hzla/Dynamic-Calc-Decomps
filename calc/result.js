@@ -52,7 +52,11 @@ var Result = (function () {
     Result.prototype.fullDesc = function (notation, err) {
         if (notation === void 0) { notation = '%'; }
         if (err === void 0) { err = true; }
-        return (0, desc_1.display)(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, this.rawDesc, notation, err);
+        var text = (0, desc_1.display)(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, this.rawDesc, notation, err);
+        if (this.rawDesc.pokewebApplied?.length) text += " · " + this.rawDesc.pokewebApplied.join(", ");
+        if (this.rawDesc.pokewebBlocked) text += " · " + this.rawDesc.pokewebBlocked;
+        if (this.rawDesc.pokewebManual?.size) text += " · Manual adjustment: " + [...this.rawDesc.pokewebManual].join(", ");
+        return text;
     };
     Result.prototype.moveDesc = function (notation) {
         if (notation === void 0) { notation = '%'; }

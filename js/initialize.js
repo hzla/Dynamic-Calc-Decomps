@@ -1771,7 +1771,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?valid-calc-selection1';
+  script.src= './js/shared_controls.js?pokeweb-abilities1-inline1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -2326,8 +2326,62 @@ function loadMovesData() {
     syncPlatinumKaizoRecoilData(TITLE, moves, MOVES_BY_ID)
 }
 
+function addPokewebAbilityOptions(select, rows) {
+    const totals = new Map();
+    for (const [, name] of rows) totals.set(name, (totals.get(name) || 0) + 1);
+    for (const [id, name] of rows) {
+        if (!name) continue;
+        const options = Array.from(select.options);
+        if (options.some(option => Number(option.dataset.romAbilityId) === id)) continue;
+        let option = options.find(option => option.value === name && !option.dataset.romAbilityId);
+        if (!option) {
+            option = new Option(name, name);
+            select.add(option);
+        }
+        option.dataset.romAbilityId = id;
+        option.text = totals.get(name) > 1 ? name + " (#" + id + ")" : name;
+    }
+}
+
+function addPokewebEffectOptions(data) {
+    const rules = data?.pokewebBattleRules;
+    if (rules?.version !== 1) return;
+    const runtimeItems = new Set((rules.items || []).map(row => row[0]));
+    $("select.ability").each(function () {
+        addPokewebAbilityOptions(this, rules.names?.abilities || []);
+    });
+    $("select.item").each(function () {
+        const available = new Set(Array.from(this.options, option => option.value));
+        for (const [id, name] of rules.names?.items || []) {
+            if (!runtimeItems.has(id) || !name || available.has(name)) continue;
+            this.add(new Option(name, name));
+            available.add(name);
+        }
+    });
+}
+
 function loadDataSource(data) {
+    const pokewebRules = data?.pokewebBattleRules;
+    if (pokewebRules?.version === 1) {
+        gameGen = settings.damageGen = settings.critGen = 5;
+        settings.sourceType = "full";
+        settings.readIncludes = false;
+        settings.gameSwitchIn = 5;
+        settings.type_chart = settings.typeChart = 5;
+        mechanics = "vanilla";
+        if (["BW", "BW2"].includes(pokewebRules.baseGame)) {
+            window.baseGame = "BW";
+            baseVersion = pokewebRules.baseGame;
+        }
+        $('label[for="hail"]').show();
+        $('label[for="snow"]').hide();
+        toggleGen3SwitchGuide();
+    }
     applyBackupDataTypeChart(data)
+    if (pokewebRules?.version === 1 && gen !== 5) {
+        g = settings.gen = 5;
+        $("#gen5").prop("checked", true).change();
+    }
     const isBlankSlateData = !!(data && data.__blankSlate)
     const blankTrainerData = isBlankSlateData ? (data.trainers || {}) : null
 

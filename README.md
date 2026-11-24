@@ -56,7 +56,15 @@ Trainer set names are specified with the following Format `Lvl LEVEL TRAINER_NAM
 
 ### Easy Calc data generation with Pokeweb (Gen 5)
 
-Generate the data in one click with [Pokeweb](https://github.com/hzla/Pokeweb-Live) for Gen 4/5 only. 
+Sync a Black, White, Black 2 or White 2 project from Pokeweb or load its calculator export in Dev Mode. Selecting a trainer loads its configured weather, field and side conditions. The selected Pokémon also starts with its configured HP and status.
+
+Current Pokeweb exports include a versioned `pokewebBattleRules` object inside `backup_data`. The calculator applies supported ability, move and held-item effects to the current matchup, including stat, power and damage modifiers and their conditions. The damage result names effects that need manual adjustment. Set any stat stages, HP, or other conditions that would have changed earlier in the battle before running the calculation.
+
+Generated calculator files include the full ability recipes. Sync uses references for unchanged templates when Pokeweb and the calculator share a catalog fingerprint. The calculator resolves those references before saving the dataset. For effects that depend on earlier actions, use the checkboxes beside the ability dropdown or the **Allies fainted** selector. Hover over a checkbox to see its trigger. The result lists any applied stage changes and identifies effects that need manual adjustment.
+
+To regenerate the calculator catalog and Pokeweb's matching fingerprint, run `npm run calc:abilities:sync -- <calculator-checkout>/calc/mechanics/pokeweb-ability-catalog.js` from Pokeweb. Pass `--check` to verify both files are current.
+
+The legacy exporter is available in [Pokeweb-Live](https://github.com/hzla/Pokeweb-Live).
 
 Use pokeweb `prod-g4` branch for gen 4. Replace all relevant text files in Pokeweb/texts with your rom hack's text files before exporting calc. Adjust Pokeweb/models/trpok.rb for further customization.
 

@@ -266,7 +266,7 @@ function addFrag(e, options = {}) {
 	const feedback = alreadyRecorded ? '#p2 .unfrag-text' : '#p2 .frag-text'
 	$(feedback).show()
 	setTimeout(function() { $(feedback).hide() }, 300)
-	$('#frag-count').text(`Frags: ${encounter.fragCount}`)
+	$('#frag-count').text(`Frags: ${encounter.fragCount}`).toggle(encounter.fragCount > 0 && $('#met-loc').is(':visible'))
 	return currentEncounters
 }
 
