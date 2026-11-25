@@ -1,5 +1,6534 @@
 backup_data = {
   "title": "Brutal Black",
+  "pokewebBattleRules": {
+    "version": 1,
+    "baseGame": "BW",
+    "abilities": [],
+    "items": [],
+    "moves": [],
+    "names": {
+      "abilities": [
+        [
+          1,
+          "Stench"
+        ],
+        [
+          2,
+          "Drizzle"
+        ],
+        [
+          3,
+          "Speed Boost"
+        ],
+        [
+          4,
+          "Battle Armor"
+        ],
+        [
+          5,
+          "Sturdy"
+        ],
+        [
+          6,
+          "Damp"
+        ],
+        [
+          7,
+          "Limber"
+        ],
+        [
+          8,
+          "Sand Veil"
+        ],
+        [
+          9,
+          "Static"
+        ],
+        [
+          10,
+          "Volt Absorb"
+        ],
+        [
+          11,
+          "Water Absorb"
+        ],
+        [
+          12,
+          "Oblivious"
+        ],
+        [
+          13,
+          "Cloud Nine"
+        ],
+        [
+          14,
+          "Compound Eyes"
+        ],
+        [
+          15,
+          "Insomnia"
+        ],
+        [
+          16,
+          "Color Change"
+        ],
+        [
+          17,
+          "Immunity"
+        ],
+        [
+          18,
+          "Flash Fire"
+        ],
+        [
+          19,
+          "Shield Dust"
+        ],
+        [
+          20,
+          "Own Tempo"
+        ],
+        [
+          21,
+          "Suction Cups"
+        ],
+        [
+          22,
+          "Intimidate"
+        ],
+        [
+          23,
+          "Shadow Tag"
+        ],
+        [
+          24,
+          "Rough Skin"
+        ],
+        [
+          25,
+          "Wonder Guard"
+        ],
+        [
+          26,
+          "Levitate"
+        ],
+        [
+          27,
+          "Effect Spore"
+        ],
+        [
+          28,
+          "Synchronize"
+        ],
+        [
+          29,
+          "Clear Body"
+        ],
+        [
+          30,
+          "Natural Cure"
+        ],
+        [
+          31,
+          "Lightning Rod"
+        ],
+        [
+          32,
+          "Serene Grace"
+        ],
+        [
+          33,
+          "Swift Swim"
+        ],
+        [
+          34,
+          "Chlorophyll"
+        ],
+        [
+          35,
+          "Illuminate"
+        ],
+        [
+          36,
+          "Trace"
+        ],
+        [
+          37,
+          "Huge Power"
+        ],
+        [
+          38,
+          "Poison Point"
+        ],
+        [
+          39,
+          "Inner Focus"
+        ],
+        [
+          40,
+          "Magma Armor"
+        ],
+        [
+          41,
+          "Water Veil"
+        ],
+        [
+          42,
+          "Magnet Pull"
+        ],
+        [
+          43,
+          "Soundproof"
+        ],
+        [
+          44,
+          "Rain Dish"
+        ],
+        [
+          45,
+          "Sand Stream"
+        ],
+        [
+          46,
+          "Pressure"
+        ],
+        [
+          47,
+          "Thick Fat"
+        ],
+        [
+          48,
+          "Early Bird"
+        ],
+        [
+          49,
+          "Flame Body"
+        ],
+        [
+          50,
+          "Run Away"
+        ],
+        [
+          51,
+          "Keen Eye"
+        ],
+        [
+          52,
+          "Hyper Cutter"
+        ],
+        [
+          53,
+          "Pickup"
+        ],
+        [
+          54,
+          "Truant"
+        ],
+        [
+          55,
+          "Hustle"
+        ],
+        [
+          56,
+          "Cute Charm"
+        ],
+        [
+          57,
+          "Plus"
+        ],
+        [
+          58,
+          "Minus"
+        ],
+        [
+          59,
+          "Forecast"
+        ],
+        [
+          60,
+          "Sticky Hold"
+        ],
+        [
+          61,
+          "Shed Skin"
+        ],
+        [
+          62,
+          "Guts"
+        ],
+        [
+          63,
+          "Marvel Scale"
+        ],
+        [
+          64,
+          "Liquid Ooze"
+        ],
+        [
+          65,
+          "Overgrow"
+        ],
+        [
+          66,
+          "Blaze"
+        ],
+        [
+          67,
+          "Torrent"
+        ],
+        [
+          68,
+          "Swarm"
+        ],
+        [
+          69,
+          "Rock Head"
+        ],
+        [
+          70,
+          "Drought"
+        ],
+        [
+          71,
+          "Arena Trap"
+        ],
+        [
+          72,
+          "Vital Spirit"
+        ],
+        [
+          73,
+          "White Smoke"
+        ],
+        [
+          74,
+          "Pure Power"
+        ],
+        [
+          75,
+          "Shell Armor"
+        ],
+        [
+          76,
+          "Air Lock"
+        ],
+        [
+          77,
+          "Tangled Feet"
+        ],
+        [
+          78,
+          "Motor Drive"
+        ],
+        [
+          79,
+          "Rivalry"
+        ],
+        [
+          80,
+          "Steadfast"
+        ],
+        [
+          81,
+          "Snow Cloak"
+        ],
+        [
+          82,
+          "Gluttony"
+        ],
+        [
+          83,
+          "Anger Point"
+        ],
+        [
+          84,
+          "Unburden"
+        ],
+        [
+          85,
+          "Heatproof"
+        ],
+        [
+          86,
+          "Simple"
+        ],
+        [
+          87,
+          "Dry Skin"
+        ],
+        [
+          88,
+          "Download"
+        ],
+        [
+          89,
+          "Iron Fist"
+        ],
+        [
+          90,
+          "Poison Heal"
+        ],
+        [
+          91,
+          "Adaptability"
+        ],
+        [
+          92,
+          "Skill Link"
+        ],
+        [
+          93,
+          "Hydration"
+        ],
+        [
+          94,
+          "Solar Power"
+        ],
+        [
+          95,
+          "Quick Feet"
+        ],
+        [
+          96,
+          "Normalize"
+        ],
+        [
+          97,
+          "Sniper"
+        ],
+        [
+          98,
+          "Magic Guard"
+        ],
+        [
+          99,
+          "No Guard"
+        ],
+        [
+          100,
+          "Stall"
+        ],
+        [
+          101,
+          "Technician"
+        ],
+        [
+          102,
+          "Leaf Guard"
+        ],
+        [
+          103,
+          "Klutz"
+        ],
+        [
+          104,
+          "Mold Breaker"
+        ],
+        [
+          105,
+          "Super Luck"
+        ],
+        [
+          106,
+          "Aftermath"
+        ],
+        [
+          107,
+          "Anticipation"
+        ],
+        [
+          108,
+          "Forewarn"
+        ],
+        [
+          109,
+          "Unaware"
+        ],
+        [
+          110,
+          "Tinted Lens"
+        ],
+        [
+          111,
+          "Filter"
+        ],
+        [
+          112,
+          "Slow Start"
+        ],
+        [
+          113,
+          "Scrappy"
+        ],
+        [
+          114,
+          "Storm Drain"
+        ],
+        [
+          115,
+          "Ice Body"
+        ],
+        [
+          116,
+          "Solid Rock"
+        ],
+        [
+          117,
+          "Snow Warning"
+        ],
+        [
+          118,
+          "Honey Gather"
+        ],
+        [
+          119,
+          "Frisk"
+        ],
+        [
+          120,
+          "Reckless"
+        ],
+        [
+          121,
+          "Multitype"
+        ],
+        [
+          122,
+          "Flower Gift"
+        ],
+        [
+          123,
+          "Bad Dreams"
+        ],
+        [
+          124,
+          "Pickpocket"
+        ],
+        [
+          125,
+          "Sheer Force"
+        ],
+        [
+          126,
+          "Contrary"
+        ],
+        [
+          127,
+          "Unnerve"
+        ],
+        [
+          128,
+          "Defiant"
+        ],
+        [
+          129,
+          "Defeatist"
+        ],
+        [
+          130,
+          "Cursed Body"
+        ],
+        [
+          131,
+          "Healer"
+        ],
+        [
+          132,
+          "Friend Guard"
+        ],
+        [
+          133,
+          "Weak Armor"
+        ],
+        [
+          134,
+          "Heavy Metal"
+        ],
+        [
+          135,
+          "Light Metal"
+        ],
+        [
+          136,
+          "Multiscale"
+        ],
+        [
+          137,
+          "Toxic Boost"
+        ],
+        [
+          138,
+          "Flare Boost"
+        ],
+        [
+          139,
+          "Harvest"
+        ],
+        [
+          140,
+          "Telepathy"
+        ],
+        [
+          141,
+          "Moody"
+        ],
+        [
+          142,
+          "Overcoat"
+        ],
+        [
+          143,
+          "Poison Touch"
+        ],
+        [
+          144,
+          "Regenerator"
+        ],
+        [
+          145,
+          "Big Pecks"
+        ],
+        [
+          146,
+          "Sand Rush"
+        ],
+        [
+          147,
+          "Wonder Skin"
+        ],
+        [
+          148,
+          "Analytic"
+        ],
+        [
+          149,
+          "Illusion"
+        ],
+        [
+          150,
+          "Imposter"
+        ],
+        [
+          151,
+          "Infiltrator"
+        ],
+        [
+          152,
+          "Mummy"
+        ],
+        [
+          153,
+          "Moxie"
+        ],
+        [
+          154,
+          "Justified"
+        ],
+        [
+          155,
+          "Rattled"
+        ],
+        [
+          156,
+          "Magic Bounce"
+        ],
+        [
+          157,
+          "Sap Sipper"
+        ],
+        [
+          158,
+          "Prankster"
+        ],
+        [
+          159,
+          "Sand Force"
+        ],
+        [
+          160,
+          "Iron Barbs"
+        ],
+        [
+          161,
+          "Zen Mode"
+        ],
+        [
+          162,
+          "Victory Star"
+        ],
+        [
+          163,
+          "Turboblaze"
+        ],
+        [
+          164,
+          "Teravolt"
+        ]
+      ],
+      "items": [
+        [
+          1,
+          "Master Ball"
+        ],
+        [
+          2,
+          "Ultra Ball"
+        ],
+        [
+          3,
+          "Great Ball"
+        ],
+        [
+          4,
+          "Poke Ball"
+        ],
+        [
+          5,
+          "Safari Ball"
+        ],
+        [
+          6,
+          "Net Ball"
+        ],
+        [
+          7,
+          "Dive Ball"
+        ],
+        [
+          8,
+          "Nest Ball"
+        ],
+        [
+          9,
+          "Repeat Ball"
+        ],
+        [
+          10,
+          "Timer Ball"
+        ],
+        [
+          11,
+          "Luxury Ball"
+        ],
+        [
+          12,
+          "Premier Ball"
+        ],
+        [
+          13,
+          "Dusk Ball"
+        ],
+        [
+          14,
+          "Heal Ball"
+        ],
+        [
+          15,
+          "Quick Ball"
+        ],
+        [
+          16,
+          "Cherish Ball"
+        ],
+        [
+          17,
+          "Potion"
+        ],
+        [
+          18,
+          "Antidote"
+        ],
+        [
+          19,
+          "Burn Heal"
+        ],
+        [
+          20,
+          "Ice Heal"
+        ],
+        [
+          21,
+          "Awakening"
+        ],
+        [
+          22,
+          "Parlyz Heal"
+        ],
+        [
+          23,
+          "Full Restore"
+        ],
+        [
+          24,
+          "Max Potion"
+        ],
+        [
+          25,
+          "Hyper Potion"
+        ],
+        [
+          26,
+          "Super Potion"
+        ],
+        [
+          27,
+          "Full Heal"
+        ],
+        [
+          28,
+          "Revive"
+        ],
+        [
+          29,
+          "Max Revive"
+        ],
+        [
+          30,
+          "Fresh Water"
+        ],
+        [
+          31,
+          "Soda Pop"
+        ],
+        [
+          32,
+          "Lemonade"
+        ],
+        [
+          33,
+          "Moomoo Milk"
+        ],
+        [
+          34,
+          "EnergyPowder"
+        ],
+        [
+          35,
+          "Energy Root"
+        ],
+        [
+          36,
+          "Heal Powder"
+        ],
+        [
+          37,
+          "Revival Herb"
+        ],
+        [
+          38,
+          "Ether"
+        ],
+        [
+          39,
+          "Max Ether"
+        ],
+        [
+          40,
+          "Elixir"
+        ],
+        [
+          41,
+          "Max Elixir"
+        ],
+        [
+          42,
+          "Lava Cookie"
+        ],
+        [
+          43,
+          "Berry Juice"
+        ],
+        [
+          44,
+          "Sacred Ash"
+        ],
+        [
+          45,
+          "HP Up"
+        ],
+        [
+          46,
+          "Protein"
+        ],
+        [
+          47,
+          "Iron"
+        ],
+        [
+          48,
+          "Carbos"
+        ],
+        [
+          49,
+          "Calcium"
+        ],
+        [
+          50,
+          "Rare Candy"
+        ],
+        [
+          51,
+          "PP Up"
+        ],
+        [
+          52,
+          "Zinc"
+        ],
+        [
+          53,
+          "PP Max"
+        ],
+        [
+          54,
+          "Old Gateau"
+        ],
+        [
+          55,
+          "Guard Spec."
+        ],
+        [
+          56,
+          "Dire Hit"
+        ],
+        [
+          57,
+          "X Attack"
+        ],
+        [
+          58,
+          "X Defend"
+        ],
+        [
+          59,
+          "X Speed"
+        ],
+        [
+          60,
+          "X Accuracy"
+        ],
+        [
+          61,
+          "X Special"
+        ],
+        [
+          62,
+          "X Sp. Def"
+        ],
+        [
+          63,
+          "Poké Doll"
+        ],
+        [
+          64,
+          "Fluffy Tail"
+        ],
+        [
+          65,
+          "Blue Flute"
+        ],
+        [
+          66,
+          "Yellow Flute"
+        ],
+        [
+          67,
+          "Red Flute"
+        ],
+        [
+          68,
+          "Black Flute"
+        ],
+        [
+          69,
+          "White Flute"
+        ],
+        [
+          70,
+          "Shoal Salt"
+        ],
+        [
+          71,
+          "Shoal Shell"
+        ],
+        [
+          72,
+          "Red Shard"
+        ],
+        [
+          73,
+          "Blue Shard"
+        ],
+        [
+          74,
+          "Yellow Shard"
+        ],
+        [
+          75,
+          "Green Shard"
+        ],
+        [
+          76,
+          "Super Repel"
+        ],
+        [
+          77,
+          "Max Repel"
+        ],
+        [
+          78,
+          "Escape Rope"
+        ],
+        [
+          79,
+          "Repel"
+        ],
+        [
+          80,
+          "Sun Stone"
+        ],
+        [
+          81,
+          "Moon Stone"
+        ],
+        [
+          82,
+          "Fire Stone"
+        ],
+        [
+          83,
+          "Thunder Stone"
+        ],
+        [
+          84,
+          "Water Stone"
+        ],
+        [
+          85,
+          "Leaf Stone"
+        ],
+        [
+          86,
+          "TinyMushroom"
+        ],
+        [
+          87,
+          "Big Mushroom"
+        ],
+        [
+          88,
+          "Pearl"
+        ],
+        [
+          89,
+          "Big Pearl"
+        ],
+        [
+          90,
+          "Stardust"
+        ],
+        [
+          91,
+          "Star Piece"
+        ],
+        [
+          92,
+          "Nugget"
+        ],
+        [
+          93,
+          "Heart Scale"
+        ],
+        [
+          94,
+          "Honey"
+        ],
+        [
+          95,
+          "Growth Mulch"
+        ],
+        [
+          96,
+          "Damp Mulch"
+        ],
+        [
+          97,
+          "Stable Mulch"
+        ],
+        [
+          98,
+          "Gooey Mulch"
+        ],
+        [
+          99,
+          "Root Fossil"
+        ],
+        [
+          100,
+          "Claw Fossil"
+        ],
+        [
+          101,
+          "Helix Fossil"
+        ],
+        [
+          102,
+          "Dome Fossil"
+        ],
+        [
+          103,
+          "Old Amber"
+        ],
+        [
+          104,
+          "Armor Fossil"
+        ],
+        [
+          105,
+          "Skull Fossil"
+        ],
+        [
+          106,
+          "Rare Bone"
+        ],
+        [
+          107,
+          "Shiny Stone"
+        ],
+        [
+          108,
+          "Dusk Stone"
+        ],
+        [
+          109,
+          "Dawn Stone"
+        ],
+        [
+          110,
+          "Oval Stone"
+        ],
+        [
+          111,
+          "Odd Keystone"
+        ],
+        [
+          112,
+          "Griseous Orb"
+        ],
+        [
+          113,
+          "???"
+        ],
+        [
+          114,
+          "???"
+        ],
+        [
+          115,
+          "???"
+        ],
+        [
+          116,
+          "Douse Drive"
+        ],
+        [
+          117,
+          "Shock Drive"
+        ],
+        [
+          118,
+          "Burn Drive"
+        ],
+        [
+          119,
+          "Chill Drive"
+        ],
+        [
+          120,
+          "???"
+        ],
+        [
+          121,
+          "???"
+        ],
+        [
+          122,
+          "???"
+        ],
+        [
+          123,
+          "???"
+        ],
+        [
+          124,
+          "???"
+        ],
+        [
+          125,
+          "???"
+        ],
+        [
+          126,
+          "???"
+        ],
+        [
+          127,
+          "???"
+        ],
+        [
+          128,
+          "???"
+        ],
+        [
+          129,
+          "???"
+        ],
+        [
+          130,
+          "???"
+        ],
+        [
+          131,
+          "???"
+        ],
+        [
+          132,
+          "???"
+        ],
+        [
+          133,
+          "???"
+        ],
+        [
+          134,
+          "Sweet Heart"
+        ],
+        [
+          135,
+          "Adamant Orb"
+        ],
+        [
+          136,
+          "Lustrous Orb"
+        ],
+        [
+          137,
+          "Greet Mail"
+        ],
+        [
+          138,
+          "Favored Mail"
+        ],
+        [
+          139,
+          "RSVP Mail"
+        ],
+        [
+          140,
+          "Thanks Mail"
+        ],
+        [
+          141,
+          "Inquiry Mail"
+        ],
+        [
+          142,
+          "Like Mail"
+        ],
+        [
+          143,
+          "Reply Mail"
+        ],
+        [
+          144,
+          "BridgeMail S"
+        ],
+        [
+          145,
+          "BridgeMail D"
+        ],
+        [
+          146,
+          "BridgeMail T"
+        ],
+        [
+          147,
+          "BridgeMail V"
+        ],
+        [
+          148,
+          "BridgeMail M"
+        ],
+        [
+          149,
+          "Cheri Berry"
+        ],
+        [
+          150,
+          "Chesto Berry"
+        ],
+        [
+          151,
+          "Pecha Berry"
+        ],
+        [
+          152,
+          "Rawst Berry"
+        ],
+        [
+          153,
+          "Aspear Berry"
+        ],
+        [
+          154,
+          "Leppa Berry"
+        ],
+        [
+          155,
+          "Oran Berry"
+        ],
+        [
+          156,
+          "Persim Berry"
+        ],
+        [
+          157,
+          "Lum Berry"
+        ],
+        [
+          158,
+          "Sitrus Berry"
+        ],
+        [
+          159,
+          "Figy Berry"
+        ],
+        [
+          160,
+          "Wiki Berry"
+        ],
+        [
+          161,
+          "Mago Berry"
+        ],
+        [
+          162,
+          "Aguav Berry"
+        ],
+        [
+          163,
+          "Iapapa Berry"
+        ],
+        [
+          164,
+          "Razz Berry"
+        ],
+        [
+          165,
+          "Bluk Berry"
+        ],
+        [
+          166,
+          "Nanab Berry"
+        ],
+        [
+          167,
+          "Wepear Berry"
+        ],
+        [
+          168,
+          "Pinap Berry"
+        ],
+        [
+          169,
+          "Pomeg Berry"
+        ],
+        [
+          170,
+          "Kelpsy Berry"
+        ],
+        [
+          171,
+          "Qualot Berry"
+        ],
+        [
+          172,
+          "Hondew Berry"
+        ],
+        [
+          173,
+          "Grepa Berry"
+        ],
+        [
+          174,
+          "Tamato Berry"
+        ],
+        [
+          175,
+          "Cornn Berry"
+        ],
+        [
+          176,
+          "Magost Berry"
+        ],
+        [
+          177,
+          "Rabuta Berry"
+        ],
+        [
+          178,
+          "Nomel Berry"
+        ],
+        [
+          179,
+          "Spelon Berry"
+        ],
+        [
+          180,
+          "Pamtre Berry"
+        ],
+        [
+          181,
+          "Watmel Berry"
+        ],
+        [
+          182,
+          "Durin Berry"
+        ],
+        [
+          183,
+          "Belue Berry"
+        ],
+        [
+          184,
+          "Occa Berry"
+        ],
+        [
+          185,
+          "Passho Berry"
+        ],
+        [
+          186,
+          "Wacan Berry"
+        ],
+        [
+          187,
+          "Rindo Berry"
+        ],
+        [
+          188,
+          "Yache Berry"
+        ],
+        [
+          189,
+          "Chople Berry"
+        ],
+        [
+          190,
+          "Kebia Berry"
+        ],
+        [
+          191,
+          "Shuca Berry"
+        ],
+        [
+          192,
+          "Coba Berry"
+        ],
+        [
+          193,
+          "Payapa Berry"
+        ],
+        [
+          194,
+          "Tanga Berry"
+        ],
+        [
+          195,
+          "Charti Berry"
+        ],
+        [
+          196,
+          "Kasib Berry"
+        ],
+        [
+          197,
+          "Haban Berry"
+        ],
+        [
+          198,
+          "Colbur Berry"
+        ],
+        [
+          199,
+          "Babiri Berry"
+        ],
+        [
+          200,
+          "Chilan Berry"
+        ],
+        [
+          201,
+          "Liechi Berry"
+        ],
+        [
+          202,
+          "Ganlon Berry"
+        ],
+        [
+          203,
+          "Salac Berry"
+        ],
+        [
+          204,
+          "Petaya Berry"
+        ],
+        [
+          205,
+          "Apicot Berry"
+        ],
+        [
+          206,
+          "Lansat Berry"
+        ],
+        [
+          207,
+          "Starf Berry"
+        ],
+        [
+          208,
+          "Enigma Berry"
+        ],
+        [
+          209,
+          "Micle Berry"
+        ],
+        [
+          210,
+          "Custap Berry"
+        ],
+        [
+          211,
+          "Jaboca Berry"
+        ],
+        [
+          212,
+          "Rowap Berry"
+        ],
+        [
+          213,
+          "Bright Powder"
+        ],
+        [
+          214,
+          "White Herb"
+        ],
+        [
+          215,
+          "Macho Brace"
+        ],
+        [
+          216,
+          "Exp. Share"
+        ],
+        [
+          217,
+          "Quick Claw"
+        ],
+        [
+          218,
+          "Soothe Bell"
+        ],
+        [
+          219,
+          "Mental Herb"
+        ],
+        [
+          220,
+          "Choice Band"
+        ],
+        [
+          221,
+          "King's Rock"
+        ],
+        [
+          222,
+          "Silver Powder"
+        ],
+        [
+          223,
+          "Amulet Coin"
+        ],
+        [
+          224,
+          "Cleanse Tag"
+        ],
+        [
+          225,
+          "Soul Dew"
+        ],
+        [
+          226,
+          "Deep Sea Tooth"
+        ],
+        [
+          227,
+          "Deep Sea Scale"
+        ],
+        [
+          228,
+          "Smoke Ball"
+        ],
+        [
+          229,
+          "Everstone"
+        ],
+        [
+          230,
+          "Focus Band"
+        ],
+        [
+          231,
+          "Lucky Egg"
+        ],
+        [
+          232,
+          "Scope Lens"
+        ],
+        [
+          233,
+          "Metal Coat"
+        ],
+        [
+          234,
+          "Leftovers"
+        ],
+        [
+          235,
+          "Dragon Scale"
+        ],
+        [
+          236,
+          "Light Ball"
+        ],
+        [
+          237,
+          "Soft Sand"
+        ],
+        [
+          238,
+          "Hard Stone"
+        ],
+        [
+          239,
+          "Miracle Seed"
+        ],
+        [
+          240,
+          "Black Glasses"
+        ],
+        [
+          241,
+          "Black Belt"
+        ],
+        [
+          242,
+          "Magnet"
+        ],
+        [
+          243,
+          "Mystic Water"
+        ],
+        [
+          244,
+          "Sharp Beak"
+        ],
+        [
+          245,
+          "Poison Barb"
+        ],
+        [
+          246,
+          "Never-Melt Ice"
+        ],
+        [
+          247,
+          "Spell Tag"
+        ],
+        [
+          248,
+          "Twisted Spoon"
+        ],
+        [
+          249,
+          "Charcoal"
+        ],
+        [
+          250,
+          "Dragon Fang"
+        ],
+        [
+          251,
+          "Silk Scarf"
+        ],
+        [
+          252,
+          "Up-Grade"
+        ],
+        [
+          253,
+          "Shell Bell"
+        ],
+        [
+          254,
+          "Sea Incense"
+        ],
+        [
+          255,
+          "Lax Incense"
+        ],
+        [
+          256,
+          "Lucky Punch"
+        ],
+        [
+          257,
+          "Metal Powder"
+        ],
+        [
+          258,
+          "Thick Club"
+        ],
+        [
+          259,
+          "Stick"
+        ],
+        [
+          260,
+          "Red Scarf"
+        ],
+        [
+          261,
+          "Blue Scarf"
+        ],
+        [
+          262,
+          "Pink Scarf"
+        ],
+        [
+          263,
+          "Green Scarf"
+        ],
+        [
+          264,
+          "Yellow Scarf"
+        ],
+        [
+          265,
+          "Wide Lens"
+        ],
+        [
+          266,
+          "Muscle Band"
+        ],
+        [
+          267,
+          "Wise Glasses"
+        ],
+        [
+          268,
+          "Expert Belt"
+        ],
+        [
+          269,
+          "Light Clay"
+        ],
+        [
+          270,
+          "Life Orb"
+        ],
+        [
+          271,
+          "Power Herb"
+        ],
+        [
+          272,
+          "Toxic Orb"
+        ],
+        [
+          273,
+          "Flame Orb"
+        ],
+        [
+          274,
+          "Quick Powder"
+        ],
+        [
+          275,
+          "Focus Sash"
+        ],
+        [
+          276,
+          "Zoom Lens"
+        ],
+        [
+          277,
+          "Metronome"
+        ],
+        [
+          278,
+          "Iron Ball"
+        ],
+        [
+          279,
+          "Lagging Tail"
+        ],
+        [
+          280,
+          "Destiny Knot"
+        ],
+        [
+          281,
+          "Black Sludge"
+        ],
+        [
+          282,
+          "Icy Rock"
+        ],
+        [
+          283,
+          "Smooth Rock"
+        ],
+        [
+          284,
+          "Heat Rock"
+        ],
+        [
+          285,
+          "Damp Rock"
+        ],
+        [
+          286,
+          "Grip Claw"
+        ],
+        [
+          287,
+          "Choice Scarf"
+        ],
+        [
+          288,
+          "Sticky Barb"
+        ],
+        [
+          289,
+          "Power Bracer"
+        ],
+        [
+          290,
+          "Power Belt"
+        ],
+        [
+          291,
+          "Power Lens"
+        ],
+        [
+          292,
+          "Power Band"
+        ],
+        [
+          293,
+          "Power Anklet"
+        ],
+        [
+          294,
+          "Power Weight"
+        ],
+        [
+          295,
+          "Shed Shell"
+        ],
+        [
+          296,
+          "Big Root"
+        ],
+        [
+          297,
+          "Choice Specs"
+        ],
+        [
+          298,
+          "Flame Plate"
+        ],
+        [
+          299,
+          "Splash Plate"
+        ],
+        [
+          300,
+          "Zap Plate"
+        ],
+        [
+          301,
+          "Meadow Plate"
+        ],
+        [
+          302,
+          "Icicle Plate"
+        ],
+        [
+          303,
+          "Fist Plate"
+        ],
+        [
+          304,
+          "Toxic Plate"
+        ],
+        [
+          305,
+          "Earth Plate"
+        ],
+        [
+          306,
+          "Sky Plate"
+        ],
+        [
+          307,
+          "Mind Plate"
+        ],
+        [
+          308,
+          "Insect Plate"
+        ],
+        [
+          309,
+          "Stone Plate"
+        ],
+        [
+          310,
+          "Spooky Plate"
+        ],
+        [
+          311,
+          "Draco Plate"
+        ],
+        [
+          312,
+          "Dread Plate"
+        ],
+        [
+          313,
+          "Iron Plate"
+        ],
+        [
+          314,
+          "Odd Incense"
+        ],
+        [
+          315,
+          "Rock Incense"
+        ],
+        [
+          316,
+          "Full Incense"
+        ],
+        [
+          317,
+          "Wave Incense"
+        ],
+        [
+          318,
+          "Rose Incense"
+        ],
+        [
+          319,
+          "Luck Incense"
+        ],
+        [
+          320,
+          "Pure Incense"
+        ],
+        [
+          321,
+          "Protector"
+        ],
+        [
+          322,
+          "Electirizer"
+        ],
+        [
+          323,
+          "Magmarizer"
+        ],
+        [
+          324,
+          "Dubious Disc"
+        ],
+        [
+          325,
+          "Reaper Cloth"
+        ],
+        [
+          326,
+          "Razor Claw"
+        ],
+        [
+          327,
+          "Razor Fang"
+        ],
+        [
+          328,
+          "TM01"
+        ],
+        [
+          329,
+          "TM02"
+        ],
+        [
+          330,
+          "TM03"
+        ],
+        [
+          331,
+          "TM04"
+        ],
+        [
+          332,
+          "TM05"
+        ],
+        [
+          333,
+          "TM06"
+        ],
+        [
+          334,
+          "TM07"
+        ],
+        [
+          335,
+          "TM08"
+        ],
+        [
+          336,
+          "TM09"
+        ],
+        [
+          337,
+          "TM10"
+        ],
+        [
+          338,
+          "TM11"
+        ],
+        [
+          339,
+          "TM12"
+        ],
+        [
+          340,
+          "TM13"
+        ],
+        [
+          341,
+          "TM14"
+        ],
+        [
+          342,
+          "TM15"
+        ],
+        [
+          343,
+          "TM16"
+        ],
+        [
+          344,
+          "TM17"
+        ],
+        [
+          345,
+          "TM18"
+        ],
+        [
+          346,
+          "TM19"
+        ],
+        [
+          347,
+          "TM20"
+        ],
+        [
+          348,
+          "TM21"
+        ],
+        [
+          349,
+          "TM22"
+        ],
+        [
+          350,
+          "TM23"
+        ],
+        [
+          351,
+          "TM24"
+        ],
+        [
+          352,
+          "TM25"
+        ],
+        [
+          353,
+          "TM26"
+        ],
+        [
+          354,
+          "TM27"
+        ],
+        [
+          355,
+          "TM28"
+        ],
+        [
+          356,
+          "TM29"
+        ],
+        [
+          357,
+          "TM30"
+        ],
+        [
+          358,
+          "TM31"
+        ],
+        [
+          359,
+          "TM32"
+        ],
+        [
+          360,
+          "TM33"
+        ],
+        [
+          361,
+          "TM34"
+        ],
+        [
+          362,
+          "TM35"
+        ],
+        [
+          363,
+          "TM36"
+        ],
+        [
+          364,
+          "TM37"
+        ],
+        [
+          365,
+          "TM38"
+        ],
+        [
+          366,
+          "TM39"
+        ],
+        [
+          367,
+          "TM40"
+        ],
+        [
+          368,
+          "TM41"
+        ],
+        [
+          369,
+          "TM42"
+        ],
+        [
+          370,
+          "TM43"
+        ],
+        [
+          371,
+          "TM44"
+        ],
+        [
+          372,
+          "TM45"
+        ],
+        [
+          373,
+          "TM46"
+        ],
+        [
+          374,
+          "TM47"
+        ],
+        [
+          375,
+          "TM48"
+        ],
+        [
+          376,
+          "TM49"
+        ],
+        [
+          377,
+          "TM50"
+        ],
+        [
+          378,
+          "TM51"
+        ],
+        [
+          379,
+          "TM52"
+        ],
+        [
+          380,
+          "TM53"
+        ],
+        [
+          381,
+          "TM54"
+        ],
+        [
+          382,
+          "TM55"
+        ],
+        [
+          383,
+          "TM56"
+        ],
+        [
+          384,
+          "TM57"
+        ],
+        [
+          385,
+          "TM58"
+        ],
+        [
+          386,
+          "TM59"
+        ],
+        [
+          387,
+          "TM60"
+        ],
+        [
+          388,
+          "TM61"
+        ],
+        [
+          389,
+          "TM62"
+        ],
+        [
+          390,
+          "TM63"
+        ],
+        [
+          391,
+          "TM64"
+        ],
+        [
+          392,
+          "TM65"
+        ],
+        [
+          393,
+          "TM66"
+        ],
+        [
+          394,
+          "TM67"
+        ],
+        [
+          395,
+          "TM68"
+        ],
+        [
+          396,
+          "TM69"
+        ],
+        [
+          397,
+          "TM70"
+        ],
+        [
+          398,
+          "TM71"
+        ],
+        [
+          399,
+          "TM72"
+        ],
+        [
+          400,
+          "TM73"
+        ],
+        [
+          401,
+          "TM74"
+        ],
+        [
+          402,
+          "TM75"
+        ],
+        [
+          403,
+          "TM76"
+        ],
+        [
+          404,
+          "TM77"
+        ],
+        [
+          405,
+          "TM78"
+        ],
+        [
+          406,
+          "TM79"
+        ],
+        [
+          407,
+          "TM80"
+        ],
+        [
+          408,
+          "TM81"
+        ],
+        [
+          409,
+          "TM82"
+        ],
+        [
+          410,
+          "TM83"
+        ],
+        [
+          411,
+          "TM84"
+        ],
+        [
+          412,
+          "TM85"
+        ],
+        [
+          413,
+          "TM86"
+        ],
+        [
+          414,
+          "TM87"
+        ],
+        [
+          415,
+          "TM88"
+        ],
+        [
+          416,
+          "TM89"
+        ],
+        [
+          417,
+          "TM90"
+        ],
+        [
+          418,
+          "TM91"
+        ],
+        [
+          419,
+          "TM92"
+        ],
+        [
+          420,
+          "HM01"
+        ],
+        [
+          421,
+          "HM02"
+        ],
+        [
+          422,
+          "HM03"
+        ],
+        [
+          423,
+          "HM04"
+        ],
+        [
+          424,
+          "HM05"
+        ],
+        [
+          425,
+          "HM06"
+        ],
+        [
+          426,
+          "???"
+        ],
+        [
+          427,
+          "???"
+        ],
+        [
+          428,
+          "Explorer Kit"
+        ],
+        [
+          429,
+          "Loot Sack"
+        ],
+        [
+          430,
+          "Rule Book"
+        ],
+        [
+          431,
+          "Poké Radar"
+        ],
+        [
+          432,
+          "Point Card"
+        ],
+        [
+          433,
+          "Journal"
+        ],
+        [
+          434,
+          "Seal Case"
+        ],
+        [
+          435,
+          "Fashion Case"
+        ],
+        [
+          436,
+          "Seal Bag"
+        ],
+        [
+          437,
+          "Pal Pad"
+        ],
+        [
+          438,
+          "Works Key"
+        ],
+        [
+          439,
+          "Old Charm"
+        ],
+        [
+          440,
+          "Galactic Key"
+        ],
+        [
+          441,
+          "Red Chain"
+        ],
+        [
+          442,
+          "Town Map"
+        ],
+        [
+          443,
+          "Vs. Seeker"
+        ],
+        [
+          444,
+          "Coin Case"
+        ],
+        [
+          445,
+          "Old Rod"
+        ],
+        [
+          446,
+          "Good Rod"
+        ],
+        [
+          447,
+          "Super Rod"
+        ],
+        [
+          448,
+          "Sprayduck"
+        ],
+        [
+          449,
+          "Poffin Case"
+        ],
+        [
+          450,
+          "Bicycle"
+        ],
+        [
+          451,
+          "Suite Key"
+        ],
+        [
+          452,
+          "Oak's Letter"
+        ],
+        [
+          453,
+          "Lunar Wing"
+        ],
+        [
+          454,
+          "Member Card"
+        ],
+        [
+          455,
+          "Azure Flute"
+        ],
+        [
+          456,
+          "S.S. Ticket"
+        ],
+        [
+          457,
+          "Contest Pass"
+        ],
+        [
+          458,
+          "Magma Stone"
+        ],
+        [
+          459,
+          "Parcel"
+        ],
+        [
+          460,
+          "Coupon 1"
+        ],
+        [
+          461,
+          "Coupon 2"
+        ],
+        [
+          462,
+          "Coupon 3"
+        ],
+        [
+          463,
+          "Storage Key"
+        ],
+        [
+          464,
+          "SecretPotion"
+        ],
+        [
+          465,
+          "Vs. Recorder"
+        ],
+        [
+          466,
+          "Gracidea"
+        ],
+        [
+          467,
+          "Secret Key"
+        ],
+        [
+          468,
+          "Apricorn Box"
+        ],
+        [
+          469,
+          "Unown Report"
+        ],
+        [
+          470,
+          "Berry Pots"
+        ],
+        [
+          471,
+          "Dowsing MCHN"
+        ],
+        [
+          472,
+          "Blue Card"
+        ],
+        [
+          473,
+          "SlowpokeTail"
+        ],
+        [
+          474,
+          "Clear Bell"
+        ],
+        [
+          475,
+          "Card Key"
+        ],
+        [
+          476,
+          "Basement Key"
+        ],
+        [
+          477,
+          "SquirtBottle"
+        ],
+        [
+          478,
+          "Red Scale"
+        ],
+        [
+          479,
+          "Lost Item"
+        ],
+        [
+          480,
+          "Pass"
+        ],
+        [
+          481,
+          "Machine Part"
+        ],
+        [
+          482,
+          "Silver Wing"
+        ],
+        [
+          483,
+          "Rainbow Wing"
+        ],
+        [
+          484,
+          "Mystery Egg"
+        ],
+        [
+          485,
+          "Red Apricorn"
+        ],
+        [
+          486,
+          "Blu Apricorn"
+        ],
+        [
+          487,
+          "Ylw Apricorn"
+        ],
+        [
+          488,
+          "Grn Apricorn"
+        ],
+        [
+          489,
+          "Pnk Apricorn"
+        ],
+        [
+          490,
+          "Wht Apricorn"
+        ],
+        [
+          491,
+          "Blk Apricorn"
+        ],
+        [
+          492,
+          "Fast Ball"
+        ],
+        [
+          493,
+          "Level Ball"
+        ],
+        [
+          494,
+          "Lure Ball"
+        ],
+        [
+          495,
+          "Heavy Ball"
+        ],
+        [
+          496,
+          "Love Ball"
+        ],
+        [
+          497,
+          "Friend Ball"
+        ],
+        [
+          498,
+          "Moon Ball"
+        ],
+        [
+          499,
+          "Sport Ball"
+        ],
+        [
+          500,
+          "Park Ball"
+        ],
+        [
+          501,
+          "Photo Album"
+        ],
+        [
+          502,
+          "GB Sounds"
+        ],
+        [
+          503,
+          "Tidal Bell"
+        ],
+        [
+          504,
+          "RageCandyBar"
+        ],
+        [
+          505,
+          "Data Card 01"
+        ],
+        [
+          506,
+          "Data Card 02"
+        ],
+        [
+          507,
+          "Data Card 03"
+        ],
+        [
+          508,
+          "Data Card 04"
+        ],
+        [
+          509,
+          "Data Card 05"
+        ],
+        [
+          510,
+          "Data Card 06"
+        ],
+        [
+          511,
+          "Data Card 07"
+        ],
+        [
+          512,
+          "Data Card 08"
+        ],
+        [
+          513,
+          "Data Card 09"
+        ],
+        [
+          514,
+          "Data Card 10"
+        ],
+        [
+          515,
+          "Data Card 11"
+        ],
+        [
+          516,
+          "Data Card 12"
+        ],
+        [
+          517,
+          "Data Card 13"
+        ],
+        [
+          518,
+          "Data Card 14"
+        ],
+        [
+          519,
+          "Data Card 15"
+        ],
+        [
+          520,
+          "Data Card 16"
+        ],
+        [
+          521,
+          "Data Card 17"
+        ],
+        [
+          522,
+          "Data Card 18"
+        ],
+        [
+          523,
+          "Data Card 19"
+        ],
+        [
+          524,
+          "Data Card 20"
+        ],
+        [
+          525,
+          "Data Card 21"
+        ],
+        [
+          526,
+          "Data Card 22"
+        ],
+        [
+          527,
+          "Data Card 23"
+        ],
+        [
+          528,
+          "Data Card 24"
+        ],
+        [
+          529,
+          "Data Card 25"
+        ],
+        [
+          530,
+          "Data Card 26"
+        ],
+        [
+          531,
+          "Data Card 27"
+        ],
+        [
+          532,
+          "Jade Orb"
+        ],
+        [
+          533,
+          "Lock Capsule"
+        ],
+        [
+          534,
+          "Red Orb"
+        ],
+        [
+          535,
+          "Blue Orb"
+        ],
+        [
+          536,
+          "Enigma Stone"
+        ],
+        [
+          537,
+          "Prism Scale"
+        ],
+        [
+          538,
+          "Eviolite"
+        ],
+        [
+          539,
+          "Float Stone"
+        ],
+        [
+          540,
+          "Rocky Helmet"
+        ],
+        [
+          541,
+          "Air Balloon"
+        ],
+        [
+          542,
+          "Red Card"
+        ],
+        [
+          543,
+          "Ring Target"
+        ],
+        [
+          544,
+          "Binding Band"
+        ],
+        [
+          545,
+          "Absorb Bulb"
+        ],
+        [
+          546,
+          "Cell Battery"
+        ],
+        [
+          547,
+          "Eject Button"
+        ],
+        [
+          548,
+          "Fire Gem"
+        ],
+        [
+          549,
+          "Water Gem"
+        ],
+        [
+          550,
+          "Electric Gem"
+        ],
+        [
+          551,
+          "Grass Gem"
+        ],
+        [
+          552,
+          "Ice Gem"
+        ],
+        [
+          553,
+          "Fighting Gem"
+        ],
+        [
+          554,
+          "Poison Gem"
+        ],
+        [
+          555,
+          "Ground Gem"
+        ],
+        [
+          556,
+          "Flying Gem"
+        ],
+        [
+          557,
+          "Psychic Gem"
+        ],
+        [
+          558,
+          "Bug Gem"
+        ],
+        [
+          559,
+          "Rock Gem"
+        ],
+        [
+          560,
+          "Ghost Gem"
+        ],
+        [
+          561,
+          "Dragon Gem"
+        ],
+        [
+          562,
+          "Dark Gem"
+        ],
+        [
+          563,
+          "Steel Gem"
+        ],
+        [
+          564,
+          "Normal Gem"
+        ],
+        [
+          565,
+          "Health Wing"
+        ],
+        [
+          566,
+          "Muscle Wing"
+        ],
+        [
+          567,
+          "Resist Wing"
+        ],
+        [
+          568,
+          "Genius Wing"
+        ],
+        [
+          569,
+          "Clever Wing"
+        ],
+        [
+          570,
+          "Swift Wing"
+        ],
+        [
+          571,
+          "Pretty Wing"
+        ],
+        [
+          572,
+          "Cover Fossil"
+        ],
+        [
+          573,
+          "Plume Fossil"
+        ],
+        [
+          574,
+          "Liberty Pass"
+        ],
+        [
+          575,
+          "Pass Orb"
+        ],
+        [
+          576,
+          "Dream Ball"
+        ],
+        [
+          577,
+          "Poké Toy"
+        ],
+        [
+          578,
+          "Prop Case"
+        ],
+        [
+          579,
+          "Dragon Skull"
+        ],
+        [
+          580,
+          "BalmMushroom"
+        ],
+        [
+          581,
+          "Big Nugget"
+        ],
+        [
+          582,
+          "Pearl String"
+        ],
+        [
+          583,
+          "Comet Shard"
+        ],
+        [
+          584,
+          "Relic Copper"
+        ],
+        [
+          585,
+          "Relic Silver"
+        ],
+        [
+          586,
+          "Relic Gold"
+        ],
+        [
+          587,
+          "Relic Vase"
+        ],
+        [
+          588,
+          "Relic Band"
+        ],
+        [
+          589,
+          "Relic Statue"
+        ],
+        [
+          590,
+          "Relic Crown"
+        ],
+        [
+          591,
+          "Casteliacone"
+        ],
+        [
+          592,
+          "Dire Hit 2"
+        ],
+        [
+          593,
+          "X Speed 2"
+        ],
+        [
+          594,
+          "X Special 2"
+        ],
+        [
+          595,
+          "X Sp. Def 2"
+        ],
+        [
+          596,
+          "X Defend 2"
+        ],
+        [
+          597,
+          "X Attack 2"
+        ],
+        [
+          598,
+          "X Accuracy 2"
+        ],
+        [
+          599,
+          "X Speed 3"
+        ],
+        [
+          600,
+          "X Special 3"
+        ],
+        [
+          601,
+          "X Sp. Def 3"
+        ],
+        [
+          602,
+          "X Defend 3"
+        ],
+        [
+          603,
+          "X Attack 3"
+        ],
+        [
+          604,
+          "X Accuracy 3"
+        ],
+        [
+          605,
+          "X Speed 6"
+        ],
+        [
+          606,
+          "X Special 6"
+        ],
+        [
+          607,
+          "X Sp. Def 6"
+        ],
+        [
+          608,
+          "X Defend 6"
+        ],
+        [
+          609,
+          "X Attack 6"
+        ],
+        [
+          610,
+          "X Accuracy 6"
+        ],
+        [
+          611,
+          "Ability Urge"
+        ],
+        [
+          612,
+          "Item Drop"
+        ],
+        [
+          613,
+          "Item Urge"
+        ],
+        [
+          614,
+          "Reset Urge"
+        ],
+        [
+          615,
+          "Dire Hit 3"
+        ],
+        [
+          616,
+          "Light Stone"
+        ],
+        [
+          617,
+          "Dark Stone"
+        ],
+        [
+          618,
+          "TM93"
+        ],
+        [
+          619,
+          "TM94"
+        ],
+        [
+          620,
+          "TM95"
+        ],
+        [
+          621,
+          "Xtransceiver"
+        ],
+        [
+          622,
+          "???"
+        ],
+        [
+          623,
+          "Gram 1"
+        ],
+        [
+          624,
+          "Gram 2"
+        ],
+        [
+          625,
+          "Gram 3"
+        ],
+        [
+          626,
+          "Xtransceiver"
+        ]
+      ]
+    },
+    "moveData": [
+      [
+        1,
+        "Pound",
+        73,
+        0
+      ],
+      [
+        2,
+        "Karate Chop",
+        73,
+        0
+      ],
+      [
+        3,
+        "Double Slap",
+        73,
+        0
+      ],
+      [
+        4,
+        "Comet Punch",
+        201,
+        0
+      ],
+      [
+        5,
+        "Mega Punch",
+        201,
+        0
+      ],
+      [
+        6,
+        "Pay Day",
+        72,
+        0
+      ],
+      [
+        7,
+        "Fire Punch",
+        201,
+        0
+      ],
+      [
+        8,
+        "Ice Punch",
+        201,
+        0
+      ],
+      [
+        9,
+        "Thunder Punch",
+        201,
+        0
+      ],
+      [
+        10,
+        "Scratch",
+        73,
+        0
+      ],
+      [
+        11,
+        "Vise Grip",
+        73,
+        0
+      ],
+      [
+        12,
+        "Guillotine",
+        73,
+        0
+      ],
+      [
+        13,
+        "Razor Wind",
+        72,
+        0
+      ],
+      [
+        14,
+        "Swords Dance",
+        32,
+        0
+      ],
+      [
+        15,
+        "Cut",
+        73,
+        8
+      ],
+      [
+        16,
+        "Gust",
+        2120,
+        32
+      ],
+      [
+        17,
+        "Wing Attack",
+        2121,
+        0
+      ],
+      [
+        18,
+        "Whirlwind",
+        8280,
+        32
+      ],
+      [
+        19,
+        "Fly",
+        2635,
+        0
+      ],
+      [
+        20,
+        "Bind",
+        73,
+        0
+      ],
+      [
+        21,
+        "Slam",
+        73,
+        0
+      ],
+      [
+        22,
+        "Vine Whip",
+        73,
+        0
+      ],
+      [
+        23,
+        "Stomp",
+        73,
+        0
+      ],
+      [
+        24,
+        "Double Kick",
+        73,
+        0
+      ],
+      [
+        25,
+        "Mega Kick",
+        73,
+        0
+      ],
+      [
+        26,
+        "Jump Kick",
+        585,
+        0
+      ],
+      [
+        27,
+        "Rolling Kick",
+        73,
+        0
+      ],
+      [
+        28,
+        "Sand Attack",
+        88,
+        0
+      ],
+      [
+        29,
+        "Headbutt",
+        73,
+        0
+      ],
+      [
+        30,
+        "Horn Attack",
+        73,
+        0
+      ],
+      [
+        31,
+        "Fury Attack",
+        73,
+        0
+      ],
+      [
+        32,
+        "Horn Drill",
+        73,
+        0
+      ],
+      [
+        33,
+        "Tackle",
+        73,
+        0
+      ],
+      [
+        34,
+        "Body Slam",
+        73,
+        0
+      ],
+      [
+        35,
+        "Wrap",
+        73,
+        0
+      ],
+      [
+        36,
+        "Take Down",
+        73,
+        0
+      ],
+      [
+        37,
+        "Thrash",
+        73,
+        0
+      ],
+      [
+        38,
+        "Double-Edge",
+        73,
+        0
+      ],
+      [
+        39,
+        "Tail Whip",
+        88,
+        0
+      ],
+      [
+        40,
+        "Poison Sting",
+        72,
+        0
+      ],
+      [
+        41,
+        "Twineedle",
+        72,
+        0
+      ],
+      [
+        42,
+        "Pin Missile",
+        72,
+        0
+      ],
+      [
+        43,
+        "Leer",
+        88,
+        0
+      ],
+      [
+        44,
+        "Bite",
+        73,
+        1
+      ],
+      [
+        45,
+        "Growl",
+        344,
+        0
+      ],
+      [
+        46,
+        "Roar",
+        8536,
+        0
+      ],
+      [
+        47,
+        "Sing",
+        344,
+        0
+      ],
+      [
+        48,
+        "Supersonic",
+        344,
+        0
+      ],
+      [
+        49,
+        "Sonic Boom",
+        72,
+        0
+      ],
+      [
+        50,
+        "Disable",
+        8280,
+        0
+      ],
+      [
+        51,
+        "Acid",
+        72,
+        0
+      ],
+      [
+        52,
+        "Ember",
+        72,
+        0
+      ],
+      [
+        53,
+        "Flamethrower",
+        72,
+        0
+      ],
+      [
+        54,
+        "Mist",
+        32,
+        0
+      ],
+      [
+        55,
+        "Water Gun",
+        72,
+        0
+      ],
+      [
+        56,
+        "Hydro Pump",
+        72,
+        0
+      ],
+      [
+        57,
+        "Surf",
+        72,
+        0
+      ],
+      [
+        58,
+        "Ice Beam",
+        72,
+        0
+      ],
+      [
+        59,
+        "Blizzard",
+        72,
+        32
+      ],
+      [
+        60,
+        "Psybeam",
+        72,
+        0
+      ],
+      [
+        61,
+        "Bubble Beam",
+        72,
+        0
+      ],
+      [
+        62,
+        "Aurora Beam",
+        72,
+        0
+      ],
+      [
+        63,
+        "Hyper Beam",
+        72,
+        0
+      ],
+      [
+        64,
+        "Peck",
+        2121,
+        0
+      ],
+      [
+        65,
+        "Drill Peck",
+        2121,
+        0
+      ],
+      [
+        66,
+        "Submission",
+        73,
+        0
+      ],
+      [
+        67,
+        "Low Kick",
+        73,
+        0
+      ],
+      [
+        68,
+        "Counter",
+        9,
+        0
+      ],
+      [
+        69,
+        "Seismic Toss",
+        73,
+        0
+      ],
+      [
+        70,
+        "Strength",
+        73,
+        0
+      ],
+      [
+        71,
+        "Absorb",
+        72,
+        64
+      ],
+      [
+        72,
+        "Mega Drain",
+        72,
+        64
+      ],
+      [
+        73,
+        "Leech Seed",
+        88,
+        0
+      ],
+      [
+        74,
+        "Growth",
+        32,
+        0
+      ],
+      [
+        75,
+        "Razor Leaf",
+        72,
+        8
+      ],
+      [
+        76,
+        "Solar Beam",
+        74,
+        0
+      ],
+      [
+        77,
+        "Poison Powder",
+        88,
+        16
+      ],
+      [
+        78,
+        "Stun Spore",
+        88,
+        16
+      ],
+      [
+        79,
+        "Sleep Powder",
+        88,
+        16
+      ],
+      [
+        80,
+        "Petal Dance",
+        73,
+        0
+      ],
+      [
+        81,
+        "String Shot",
+        88,
+        0
+      ],
+      [
+        82,
+        "Dragon Rage",
+        72,
+        0
+      ],
+      [
+        83,
+        "Fire Spin",
+        72,
+        0
+      ],
+      [
+        84,
+        "Thunder Shock",
+        72,
+        0
+      ],
+      [
+        85,
+        "Thunderbolt",
+        72,
+        0
+      ],
+      [
+        86,
+        "Thunder Wave",
+        88,
+        0
+      ],
+      [
+        87,
+        "Thunder",
+        72,
+        0
+      ],
+      [
+        88,
+        "Rock Throw",
+        72,
+        0
+      ],
+      [
+        89,
+        "Earthquake",
+        72,
+        0
+      ],
+      [
+        90,
+        "Fissure",
+        72,
+        0
+      ],
+      [
+        91,
+        "Dig",
+        75,
+        0
+      ],
+      [
+        92,
+        "Toxic",
+        88,
+        0
+      ],
+      [
+        93,
+        "Confusion",
+        72,
+        0
+      ],
+      [
+        94,
+        "Psychic",
+        72,
+        0
+      ],
+      [
+        95,
+        "Hypnosis",
+        88,
+        0
+      ],
+      [
+        96,
+        "Meditate",
+        32,
+        0
+      ],
+      [
+        97,
+        "Agility",
+        32,
+        0
+      ],
+      [
+        98,
+        "Quick Attack",
+        73,
+        0
+      ],
+      [
+        99,
+        "Rage",
+        73,
+        0
+      ],
+      [
+        100,
+        "Teleport",
+        0,
+        0
+      ],
+      [
+        101,
+        "Night Shade",
+        72,
+        0
+      ],
+      [
+        102,
+        "Mimic",
+        8200,
+        0
+      ],
+      [
+        103,
+        "Screech",
+        344,
+        0
+      ],
+      [
+        104,
+        "Double Team",
+        32,
+        0
+      ],
+      [
+        105,
+        "Recover",
+        4128,
+        64
+      ],
+      [
+        106,
+        "Harden",
+        32,
+        0
+      ],
+      [
+        107,
+        "Minimize",
+        32,
+        0
+      ],
+      [
+        108,
+        "Smokescreen",
+        88,
+        0
+      ],
+      [
+        109,
+        "Confuse Ray",
+        88,
+        0
+      ],
+      [
+        110,
+        "Withdraw",
+        32,
+        0
+      ],
+      [
+        111,
+        "Defense Curl",
+        32,
+        0
+      ],
+      [
+        112,
+        "Barrier",
+        32,
+        0
+      ],
+      [
+        113,
+        "Light Screen",
+        32,
+        0
+      ],
+      [
+        114,
+        "Haze",
+        0,
+        0
+      ],
+      [
+        115,
+        "Reflect",
+        32,
+        0
+      ],
+      [
+        116,
+        "Focus Energy",
+        32,
+        0
+      ],
+      [
+        117,
+        "Bide",
+        9,
+        0
+      ],
+      [
+        118,
+        "Metronome",
+        0,
+        0
+      ],
+      [
+        119,
+        "Mirror Move",
+        0,
+        0
+      ],
+      [
+        120,
+        "Self-Destruct",
+        72,
+        0
+      ],
+      [
+        121,
+        "Egg Bomb",
+        72,
+        4
+      ],
+      [
+        122,
+        "Lick",
+        73,
+        0
+      ],
+      [
+        123,
+        "Smog",
+        72,
+        0
+      ],
+      [
+        124,
+        "Sludge",
+        72,
+        0
+      ],
+      [
+        125,
+        "Bone Club",
+        72,
+        0
+      ],
+      [
+        126,
+        "Fire Blast",
+        72,
+        0
+      ],
+      [
+        127,
+        "Waterfall",
+        73,
+        0
+      ],
+      [
+        128,
+        "Clamp",
+        73,
+        0
+      ],
+      [
+        129,
+        "Swift",
+        72,
+        0
+      ],
+      [
+        130,
+        "Skull Bash",
+        75,
+        0
+      ],
+      [
+        131,
+        "Spike Cannon",
+        72,
+        0
+      ],
+      [
+        132,
+        "Constrict",
+        73,
+        0
+      ],
+      [
+        133,
+        "Amnesia",
+        32,
+        0
+      ],
+      [
+        134,
+        "Kinesis",
+        88,
+        0
+      ],
+      [
+        135,
+        "Soft-Boiled",
+        4128,
+        64
+      ],
+      [
+        136,
+        "High Jump Kick",
+        585,
+        0
+      ],
+      [
+        137,
+        "Glare",
+        88,
+        0
+      ],
+      [
+        138,
+        "Dream Eater",
+        72,
+        64
+      ],
+      [
+        139,
+        "Poison Gas",
+        88,
+        0
+      ],
+      [
+        140,
+        "Barrage",
+        72,
+        4
+      ],
+      [
+        141,
+        "Leech Life",
+        73,
+        64
+      ],
+      [
+        142,
+        "Lovely Kiss",
+        88,
+        0
+      ],
+      [
+        143,
+        "Sky Attack",
+        2120,
+        0
+      ],
+      [
+        144,
+        "Transform",
+        0,
+        0
+      ],
+      [
+        145,
+        "Bubble",
+        72,
+        0
+      ],
+      [
+        146,
+        "Dizzy Punch",
+        201,
+        0
+      ],
+      [
+        147,
+        "Spore",
+        88,
+        16
+      ],
+      [
+        148,
+        "Flash",
+        88,
+        0
+      ],
+      [
+        149,
+        "Psywave",
+        72,
+        0
+      ],
+      [
+        150,
+        "Splash",
+        512,
+        0
+      ],
+      [
+        151,
+        "Acid Armor",
+        32,
+        0
+      ],
+      [
+        152,
+        "Crabhammer",
+        73,
+        0
+      ],
+      [
+        153,
+        "Explosion",
+        72,
+        0
+      ],
+      [
+        154,
+        "Fury Swipes",
+        73,
+        0
+      ],
+      [
+        155,
+        "Bonemerang",
+        72,
+        0
+      ],
+      [
+        156,
+        "Rest",
+        4128,
+        64
+      ],
+      [
+        157,
+        "Rock Slide",
+        72,
+        0
+      ],
+      [
+        158,
+        "Hyper Fang",
+        73,
+        1
+      ],
+      [
+        159,
+        "Sharpen",
+        32,
+        0
+      ],
+      [
+        160,
+        "Conversion",
+        32,
+        0
+      ],
+      [
+        161,
+        "Tri Attack",
+        72,
+        0
+      ],
+      [
+        162,
+        "Super Fang",
+        73,
+        0
+      ],
+      [
+        163,
+        "Slash",
+        73,
+        8
+      ],
+      [
+        164,
+        "Substitute",
+        32,
+        0
+      ],
+      [
+        165,
+        "Struggle",
+        9,
+        0
+      ],
+      [
+        166,
+        "Sketch",
+        8192,
+        0
+      ],
+      [
+        167,
+        "Triple Kick",
+        73,
+        0
+      ],
+      [
+        168,
+        "Thief",
+        73,
+        0
+      ],
+      [
+        169,
+        "Spider Web",
+        88,
+        0
+      ],
+      [
+        170,
+        "Mind Reader",
+        72,
+        0
+      ],
+      [
+        171,
+        "Nightmare",
+        72,
+        0
+      ],
+      [
+        172,
+        "Flame Wheel",
+        1097,
+        0
+      ],
+      [
+        173,
+        "Snore",
+        328,
+        0
+      ],
+      [
+        174,
+        "Curse",
+        8192,
+        0
+      ],
+      [
+        175,
+        "Flail",
+        73,
+        0
+      ],
+      [
+        176,
+        "Conversion 2",
+        8192,
+        0
+      ],
+      [
+        177,
+        "Aeroblast",
+        2120,
+        32
+      ],
+      [
+        178,
+        "Cotton Spore",
+        88,
+        16
+      ],
+      [
+        179,
+        "Reversal",
+        73,
+        0
+      ],
+      [
+        180,
+        "Spite",
+        8280,
+        0
+      ],
+      [
+        181,
+        "Powder Snow",
+        72,
+        0
+      ],
+      [
+        182,
+        "Protect",
+        0,
+        0
+      ],
+      [
+        183,
+        "Mach Punch",
+        201,
+        0
+      ],
+      [
+        184,
+        "Scary Face",
+        88,
+        0
+      ],
+      [
+        185,
+        "Feint Attack",
+        73,
+        0
+      ],
+      [
+        186,
+        "Sweet Kiss",
+        88,
+        0
+      ],
+      [
+        187,
+        "Belly Drum",
+        32,
+        0
+      ],
+      [
+        188,
+        "Sludge Bomb",
+        72,
+        4
+      ],
+      [
+        189,
+        "Mud-Slap",
+        72,
+        0
+      ],
+      [
+        190,
+        "Octazooka",
+        72,
+        4
+      ],
+      [
+        191,
+        "Spikes",
+        16,
+        0
+      ],
+      [
+        192,
+        "Zap Cannon",
+        72,
+        4
+      ],
+      [
+        193,
+        "Foresight",
+        8280,
+        0
+      ],
+      [
+        194,
+        "Destiny Bond",
+        8192,
+        0
+      ],
+      [
+        195,
+        "Perish Song",
+        10496,
+        0
+      ],
+      [
+        196,
+        "Icy Wind",
+        72,
+        32
+      ],
+      [
+        197,
+        "Detect",
+        0,
+        0
+      ],
+      [
+        198,
+        "Bone Rush",
+        72,
+        0
+      ],
+      [
+        199,
+        "Lock-On",
+        72,
+        0
+      ],
+      [
+        200,
+        "Outrage",
+        73,
+        0
+      ],
+      [
+        201,
+        "Sandstorm",
+        0,
+        0
+      ],
+      [
+        202,
+        "Giga Drain",
+        72,
+        64
+      ],
+      [
+        203,
+        "Endure",
+        0,
+        0
+      ],
+      [
+        204,
+        "Charm",
+        88,
+        0
+      ],
+      [
+        205,
+        "Rollout",
+        73,
+        0
+      ],
+      [
+        206,
+        "False Swipe",
+        73,
+        0
+      ],
+      [
+        207,
+        "Swagger",
+        88,
+        0
+      ],
+      [
+        208,
+        "Milk Drink",
+        4128,
+        64
+      ],
+      [
+        209,
+        "Spark",
+        73,
+        0
+      ],
+      [
+        210,
+        "Fury Cutter",
+        73,
+        8
+      ],
+      [
+        211,
+        "Steel Wing",
+        73,
+        0
+      ],
+      [
+        212,
+        "Mean Look",
+        88,
+        0
+      ],
+      [
+        213,
+        "Attract",
+        8280,
+        0
+      ],
+      [
+        214,
+        "Sleep Talk",
+        0,
+        0
+      ],
+      [
+        215,
+        "Heal Bell",
+        288,
+        0
+      ],
+      [
+        216,
+        "Return",
+        73,
+        0
+      ],
+      [
+        217,
+        "Present",
+        72,
+        0
+      ],
+      [
+        218,
+        "Frustration",
+        73,
+        0
+      ],
+      [
+        219,
+        "Safeguard",
+        32,
+        0
+      ],
+      [
+        220,
+        "Pain Split",
+        72,
+        0
+      ],
+      [
+        221,
+        "Sacred Fire",
+        1096,
+        0
+      ],
+      [
+        222,
+        "Magnitude",
+        72,
+        0
+      ],
+      [
+        223,
+        "Dynamic Punch",
+        201,
+        0
+      ],
+      [
+        224,
+        "Megahorn",
+        73,
+        0
+      ],
+      [
+        225,
+        "Dragon Breath",
+        72,
+        0
+      ],
+      [
+        226,
+        "Baton Pass",
+        0,
+        0
+      ],
+      [
+        227,
+        "Encore",
+        8280,
+        0
+      ],
+      [
+        228,
+        "Pursuit",
+        73,
+        0
+      ],
+      [
+        229,
+        "Rapid Spin",
+        73,
+        0
+      ],
+      [
+        230,
+        "Sweet Scent",
+        88,
+        0
+      ],
+      [
+        231,
+        "Iron Tail",
+        73,
+        0
+      ],
+      [
+        232,
+        "Metal Claw",
+        73,
+        0
+      ],
+      [
+        233,
+        "Vital Throw",
+        73,
+        0
+      ],
+      [
+        234,
+        "Morning Sun",
+        4128,
+        64
+      ],
+      [
+        235,
+        "Synthesis",
+        4128,
+        64
+      ],
+      [
+        236,
+        "Moonlight",
+        4128,
+        64
+      ],
+      [
+        237,
+        "Hidden Power",
+        72,
+        0
+      ],
+      [
+        238,
+        "Cross Chop",
+        73,
+        0
+      ],
+      [
+        239,
+        "Twister",
+        72,
+        32
+      ],
+      [
+        240,
+        "Rain Dance",
+        0,
+        0
+      ],
+      [
+        241,
+        "Sunny Day",
+        0,
+        0
+      ],
+      [
+        242,
+        "Crunch",
+        73,
+        1
+      ],
+      [
+        243,
+        "Mirror Coat",
+        8,
+        0
+      ],
+      [
+        244,
+        "Psych Up",
+        8192,
+        0
+      ],
+      [
+        245,
+        "Extreme Speed",
+        73,
+        0
+      ],
+      [
+        246,
+        "Ancient Power",
+        72,
+        0
+      ],
+      [
+        247,
+        "Shadow Ball",
+        72,
+        4
+      ],
+      [
+        248,
+        "Future Sight",
+        0,
+        0
+      ],
+      [
+        249,
+        "Rock Smash",
+        73,
+        0
+      ],
+      [
+        250,
+        "Whirlpool",
+        72,
+        0
+      ],
+      [
+        251,
+        "Beat Up",
+        72,
+        0
+      ],
+      [
+        252,
+        "Fake Out",
+        73,
+        0
+      ],
+      [
+        253,
+        "Uproar",
+        328,
+        0
+      ],
+      [
+        254,
+        "Stockpile",
+        32,
+        0
+      ],
+      [
+        255,
+        "Spit Up",
+        8,
+        0
+      ],
+      [
+        256,
+        "Swallow",
+        4128,
+        64
+      ],
+      [
+        257,
+        "Heat Wave",
+        72,
+        32
+      ],
+      [
+        258,
+        "Hail",
+        0,
+        0
+      ],
+      [
+        259,
+        "Torment",
+        8280,
+        0
+      ],
+      [
+        260,
+        "Flatter",
+        88,
+        0
+      ],
+      [
+        261,
+        "Will-O-Wisp",
+        88,
+        0
+      ],
+      [
+        262,
+        "Memento",
+        72,
+        0
+      ],
+      [
+        263,
+        "Facade",
+        73,
+        0
+      ],
+      [
+        264,
+        "Focus Punch",
+        137,
+        0
+      ],
+      [
+        265,
+        "Smelling Salts",
+        73,
+        0
+      ],
+      [
+        266,
+        "Follow Me",
+        0,
+        0
+      ],
+      [
+        267,
+        "Nature Power",
+        0,
+        0
+      ],
+      [
+        268,
+        "Charge",
+        32,
+        0
+      ],
+      [
+        269,
+        "Taunt",
+        8280,
+        0
+      ],
+      [
+        270,
+        "Helping Hand",
+        8192,
+        0
+      ],
+      [
+        271,
+        "Trick",
+        72,
+        0
+      ],
+      [
+        272,
+        "Role Play",
+        8192,
+        0
+      ],
+      [
+        273,
+        "Wish",
+        4128,
+        64
+      ],
+      [
+        274,
+        "Assist",
+        0,
+        0
+      ],
+      [
+        275,
+        "Ingrain",
+        32,
+        0
+      ],
+      [
+        276,
+        "Superpower",
+        73,
+        0
+      ],
+      [
+        277,
+        "Magic Coat",
+        0,
+        0
+      ],
+      [
+        278,
+        "Recycle",
+        32,
+        0
+      ],
+      [
+        279,
+        "Revenge",
+        73,
+        0
+      ],
+      [
+        280,
+        "Brick Break",
+        73,
+        0
+      ],
+      [
+        281,
+        "Yawn",
+        88,
+        0
+      ],
+      [
+        282,
+        "Knock Off",
+        73,
+        0
+      ],
+      [
+        283,
+        "Endeavor",
+        73,
+        0
+      ],
+      [
+        284,
+        "Eruption",
+        72,
+        0
+      ],
+      [
+        285,
+        "Skill Swap",
+        8264,
+        0
+      ],
+      [
+        286,
+        "Imprison",
+        8224,
+        0
+      ],
+      [
+        287,
+        "Refresh",
+        32,
+        0
+      ],
+      [
+        288,
+        "Grudge",
+        8192,
+        0
+      ],
+      [
+        289,
+        "Snatch",
+        8192,
+        0
+      ],
+      [
+        290,
+        "Secret Power",
+        72,
+        0
+      ],
+      [
+        291,
+        "Dive",
+        75,
+        0
+      ],
+      [
+        292,
+        "Arm Thrust",
+        73,
+        0
+      ],
+      [
+        293,
+        "Camouflage",
+        32,
+        0
+      ],
+      [
+        294,
+        "Tail Glow",
+        32,
+        0
+      ],
+      [
+        295,
+        "Luster Purge",
+        72,
+        0
+      ],
+      [
+        296,
+        "Mist Ball",
+        72,
+        4
+      ],
+      [
+        297,
+        "Feather Dance",
+        88,
+        0
+      ],
+      [
+        298,
+        "Teeter Dance",
+        72,
+        0
+      ],
+      [
+        299,
+        "Blaze Kick",
+        73,
+        0
+      ],
+      [
+        300,
+        "Mud Sport",
+        0,
+        0
+      ],
+      [
+        301,
+        "Ice Ball",
+        73,
+        4
+      ],
+      [
+        302,
+        "Needle Arm",
+        73,
+        0
+      ],
+      [
+        303,
+        "Slack Off",
+        4128,
+        64
+      ],
+      [
+        304,
+        "Hyper Voice",
+        328,
+        0
+      ],
+      [
+        305,
+        "Poison Fang",
+        73,
+        1
+      ],
+      [
+        306,
+        "Crush Claw",
+        73,
+        0
+      ],
+      [
+        307,
+        "Blast Burn",
+        72,
+        0
+      ],
+      [
+        308,
+        "Hydro Cannon",
+        72,
+        0
+      ],
+      [
+        309,
+        "Meteor Mash",
+        201,
+        0
+      ],
+      [
+        310,
+        "Astonish",
+        73,
+        0
+      ],
+      [
+        311,
+        "Weather Ball",
+        72,
+        4
+      ],
+      [
+        312,
+        "Aromatherapy",
+        32,
+        0
+      ],
+      [
+        313,
+        "Fake Tears",
+        88,
+        0
+      ],
+      [
+        314,
+        "Air Cutter",
+        72,
+        40
+      ],
+      [
+        315,
+        "Overheat",
+        72,
+        0
+      ],
+      [
+        316,
+        "Odor Sleuth",
+        8280,
+        0
+      ],
+      [
+        317,
+        "Rock Tomb",
+        72,
+        0
+      ],
+      [
+        318,
+        "Silver Wind",
+        72,
+        0
+      ],
+      [
+        319,
+        "Metal Sound",
+        344,
+        0
+      ],
+      [
+        320,
+        "Grass Whistle",
+        344,
+        0
+      ],
+      [
+        321,
+        "Tickle",
+        88,
+        0
+      ],
+      [
+        322,
+        "Cosmic Power",
+        32,
+        0
+      ],
+      [
+        323,
+        "Water Spout",
+        72,
+        0
+      ],
+      [
+        324,
+        "Signal Beam",
+        72,
+        0
+      ],
+      [
+        325,
+        "Shadow Punch",
+        201,
+        0
+      ],
+      [
+        326,
+        "Extrasensory",
+        72,
+        0
+      ],
+      [
+        327,
+        "Sky Uppercut",
+        201,
+        0
+      ],
+      [
+        328,
+        "Sand Tomb",
+        72,
+        0
+      ],
+      [
+        329,
+        "Sheer Cold",
+        72,
+        0
+      ],
+      [
+        330,
+        "Muddy Water",
+        72,
+        0
+      ],
+      [
+        331,
+        "Bullet Seed",
+        72,
+        4
+      ],
+      [
+        332,
+        "Aerial Ace",
+        2121,
+        8
+      ],
+      [
+        333,
+        "Icicle Spear",
+        72,
+        0
+      ],
+      [
+        334,
+        "Iron Defense",
+        32,
+        0
+      ],
+      [
+        335,
+        "Block",
+        88,
+        0
+      ],
+      [
+        336,
+        "Howl",
+        32,
+        0
+      ],
+      [
+        337,
+        "Dragon Claw",
+        73,
+        0
+      ],
+      [
+        338,
+        "Frenzy Plant",
+        72,
+        0
+      ],
+      [
+        339,
+        "Bulk Up",
+        32,
+        0
+      ],
+      [
+        340,
+        "Bounce",
+        2635,
+        0
+      ],
+      [
+        341,
+        "Mud Shot",
+        72,
+        0
+      ],
+      [
+        342,
+        "Poison Tail",
+        73,
+        0
+      ],
+      [
+        343,
+        "Covet",
+        73,
+        0
+      ],
+      [
+        344,
+        "Volt Tackle",
+        73,
+        0
+      ],
+      [
+        345,
+        "Magical Leaf",
+        72,
+        0
+      ],
+      [
+        346,
+        "Water Sport",
+        0,
+        0
+      ],
+      [
+        347,
+        "Calm Mind",
+        32,
+        0
+      ],
+      [
+        348,
+        "Leaf Blade",
+        73,
+        8
+      ],
+      [
+        349,
+        "Dragon Dance",
+        32,
+        0
+      ],
+      [
+        350,
+        "Rock Blast",
+        72,
+        4
+      ],
+      [
+        351,
+        "Shock Wave",
+        72,
+        0
+      ],
+      [
+        352,
+        "Water Pulse",
+        2120,
+        2
+      ],
+      [
+        353,
+        "Doom Desire",
+        0,
+        0
+      ],
+      [
+        354,
+        "Psycho Boost",
+        72,
+        0
+      ],
+      [
+        355,
+        "Roost",
+        4128,
+        64
+      ],
+      [
+        356,
+        "Gravity",
+        0,
+        0
+      ],
+      [
+        357,
+        "Miracle Eye",
+        8280,
+        0
+      ],
+      [
+        358,
+        "Wake-Up Slap",
+        73,
+        0
+      ],
+      [
+        359,
+        "Hammer Arm",
+        201,
+        0
+      ],
+      [
+        360,
+        "Gyro Ball",
+        73,
+        4
+      ],
+      [
+        361,
+        "Healing Wish",
+        4128,
+        64
+      ],
+      [
+        362,
+        "Brine",
+        72,
+        0
+      ],
+      [
+        363,
+        "Natural Gift",
+        72,
+        0
+      ],
+      [
+        364,
+        "Feint",
+        0,
+        0
+      ],
+      [
+        365,
+        "Pluck",
+        2121,
+        0
+      ],
+      [
+        366,
+        "Tailwind",
+        32,
+        32
+      ],
+      [
+        367,
+        "Acupressure",
+        0,
+        0
+      ],
+      [
+        368,
+        "Metal Burst",
+        72,
+        0
+      ],
+      [
+        369,
+        "U-turn",
+        73,
+        0
+      ],
+      [
+        370,
+        "Close Combat",
+        73,
+        0
+      ],
+      [
+        371,
+        "Payback",
+        73,
+        0
+      ],
+      [
+        372,
+        "Assurance",
+        73,
+        0
+      ],
+      [
+        373,
+        "Embargo",
+        88,
+        0
+      ],
+      [
+        374,
+        "Fling",
+        72,
+        0
+      ],
+      [
+        375,
+        "Psycho Shift",
+        72,
+        0
+      ],
+      [
+        376,
+        "Trump Card",
+        73,
+        0
+      ],
+      [
+        377,
+        "Heal Block",
+        88,
+        0
+      ],
+      [
+        378,
+        "Wring Out",
+        73,
+        0
+      ],
+      [
+        379,
+        "Power Trick",
+        32,
+        0
+      ],
+      [
+        380,
+        "Gastro Acid",
+        88,
+        0
+      ],
+      [
+        381,
+        "Lucky Chant",
+        32,
+        0
+      ],
+      [
+        382,
+        "Me First",
+        8200,
+        0
+      ],
+      [
+        383,
+        "Copycat",
+        0,
+        0
+      ],
+      [
+        384,
+        "Power Swap",
+        8264,
+        0
+      ],
+      [
+        385,
+        "Guard Swap",
+        8264,
+        0
+      ],
+      [
+        386,
+        "Punishment",
+        73,
+        0
+      ],
+      [
+        387,
+        "Last Resort",
+        73,
+        0
+      ],
+      [
+        388,
+        "Worry Seed",
+        88,
+        0
+      ],
+      [
+        389,
+        "Sucker Punch",
+        73,
+        0
+      ],
+      [
+        390,
+        "Toxic Spikes",
+        16,
+        0
+      ],
+      [
+        391,
+        "Heart Swap",
+        8264,
+        0
+      ],
+      [
+        392,
+        "Aqua Ring",
+        32,
+        0
+      ],
+      [
+        393,
+        "Magnet Rise",
+        544,
+        0
+      ],
+      [
+        394,
+        "Flare Blitz",
+        1097,
+        0
+      ],
+      [
+        395,
+        "Force Palm",
+        73,
+        0
+      ],
+      [
+        396,
+        "Aura Sphere",
+        2120,
+        6
+      ],
+      [
+        397,
+        "Rock Polish",
+        32,
+        0
+      ],
+      [
+        398,
+        "Poison Jab",
+        73,
+        0
+      ],
+      [
+        399,
+        "Dark Pulse",
+        2120,
+        2
+      ],
+      [
+        400,
+        "Night Slash",
+        73,
+        8
+      ],
+      [
+        401,
+        "Aqua Tail",
+        73,
+        0
+      ],
+      [
+        402,
+        "Seed Bomb",
+        72,
+        4
+      ],
+      [
+        403,
+        "Air Slash",
+        2120,
+        8
+      ],
+      [
+        404,
+        "X-Scissor",
+        73,
+        8
+      ],
+      [
+        405,
+        "Bug Buzz",
+        328,
+        0
+      ],
+      [
+        406,
+        "Dragon Pulse",
+        2120,
+        2
+      ],
+      [
+        407,
+        "Dragon Rush",
+        73,
+        0
+      ],
+      [
+        408,
+        "Power Gem",
+        72,
+        0
+      ],
+      [
+        409,
+        "Drain Punch",
+        201,
+        64
+      ],
+      [
+        410,
+        "Vacuum Wave",
+        72,
+        0
+      ],
+      [
+        411,
+        "Focus Blast",
+        72,
+        4
+      ],
+      [
+        412,
+        "Energy Ball",
+        72,
+        4
+      ],
+      [
+        413,
+        "Brave Bird",
+        2121,
+        0
+      ],
+      [
+        414,
+        "Earth Power",
+        72,
+        0
+      ],
+      [
+        415,
+        "Switcheroo",
+        72,
+        0
+      ],
+      [
+        416,
+        "Giga Impact",
+        73,
+        0
+      ],
+      [
+        417,
+        "Nasty Plot",
+        32,
+        0
+      ],
+      [
+        418,
+        "Bullet Punch",
+        201,
+        0
+      ],
+      [
+        419,
+        "Avalanche",
+        73,
+        0
+      ],
+      [
+        420,
+        "Ice Shard",
+        72,
+        0
+      ],
+      [
+        421,
+        "Shadow Claw",
+        73,
+        0
+      ],
+      [
+        422,
+        "Thunder Fang",
+        73,
+        1
+      ],
+      [
+        423,
+        "Ice Fang",
+        73,
+        1
+      ],
+      [
+        424,
+        "Fire Fang",
+        73,
+        1
+      ],
+      [
+        425,
+        "Shadow Sneak",
+        73,
+        0
+      ],
+      [
+        426,
+        "Mud Bomb",
+        72,
+        4
+      ],
+      [
+        427,
+        "Psycho Cut",
+        72,
+        8
+      ],
+      [
+        428,
+        "Zen Headbutt",
+        73,
+        0
+      ],
+      [
+        429,
+        "Mirror Shot",
+        72,
+        0
+      ],
+      [
+        430,
+        "Flash Cannon",
+        72,
+        0
+      ],
+      [
+        431,
+        "Rock Climb",
+        73,
+        0
+      ],
+      [
+        432,
+        "Defog",
+        8280,
+        0
+      ],
+      [
+        433,
+        "Trick Room",
+        64,
+        0
+      ],
+      [
+        434,
+        "Draco Meteor",
+        72,
+        0
+      ],
+      [
+        435,
+        "Discharge",
+        72,
+        0
+      ],
+      [
+        436,
+        "Lava Plume",
+        72,
+        0
+      ],
+      [
+        437,
+        "Leaf Storm",
+        72,
+        0
+      ],
+      [
+        438,
+        "Power Whip",
+        73,
+        0
+      ],
+      [
+        439,
+        "Rock Wrecker",
+        72,
+        4
+      ],
+      [
+        440,
+        "Cross Poison",
+        73,
+        8
+      ],
+      [
+        441,
+        "Gunk Shot",
+        72,
+        0
+      ],
+      [
+        442,
+        "Iron Head",
+        73,
+        0
+      ],
+      [
+        443,
+        "Magnet Bomb",
+        72,
+        4
+      ],
+      [
+        444,
+        "Stone Edge",
+        72,
+        0
+      ],
+      [
+        445,
+        "Captivate",
+        88,
+        0
+      ],
+      [
+        446,
+        "Stealth Rock",
+        16,
+        0
+      ],
+      [
+        447,
+        "Grass Knot",
+        73,
+        0
+      ],
+      [
+        448,
+        "Chatter",
+        2312,
+        0
+      ],
+      [
+        449,
+        "Judgment",
+        72,
+        0
+      ],
+      [
+        450,
+        "Bug Bite",
+        73,
+        0
+      ],
+      [
+        451,
+        "Charge Beam",
+        72,
+        0
+      ],
+      [
+        452,
+        "Wood Hammer",
+        73,
+        0
+      ],
+      [
+        453,
+        "Aqua Jet",
+        73,
+        0
+      ],
+      [
+        454,
+        "Attack Order",
+        72,
+        0
+      ],
+      [
+        455,
+        "Defend Order",
+        32,
+        0
+      ],
+      [
+        456,
+        "Heal Order",
+        4128,
+        64
+      ],
+      [
+        457,
+        "Head Smash",
+        73,
+        0
+      ],
+      [
+        458,
+        "Double Hit",
+        73,
+        0
+      ],
+      [
+        459,
+        "Roar of Time",
+        72,
+        0
+      ],
+      [
+        460,
+        "Spacial Rend",
+        72,
+        0
+      ],
+      [
+        461,
+        "Lunar Dance",
+        4128,
+        64
+      ],
+      [
+        462,
+        "Crush Grip",
+        73,
+        0
+      ],
+      [
+        463,
+        "Magma Storm",
+        72,
+        0
+      ],
+      [
+        464,
+        "Dark Void",
+        88,
+        0
+      ],
+      [
+        465,
+        "Seed Flare",
+        72,
+        0
+      ],
+      [
+        466,
+        "Ominous Wind",
+        72,
+        0
+      ],
+      [
+        467,
+        "Shadow Force",
+        67,
+        0
+      ],
+      [
+        468,
+        "Hone Claws",
+        32,
+        0
+      ],
+      [
+        469,
+        "Wide Guard",
+        32,
+        0
+      ],
+      [
+        470,
+        "Guard Split",
+        8,
+        0
+      ],
+      [
+        471,
+        "Power Split",
+        8,
+        0
+      ],
+      [
+        472,
+        "Wonder Room",
+        64,
+        0
+      ],
+      [
+        473,
+        "Psyshock",
+        72,
+        0
+      ],
+      [
+        474,
+        "Venoshock",
+        72,
+        0
+      ],
+      [
+        475,
+        "Autotomize",
+        32,
+        0
+      ],
+      [
+        476,
+        "Rage Powder",
+        0,
+        16
+      ],
+      [
+        477,
+        "Telekinesis",
+        600,
+        0
+      ],
+      [
+        478,
+        "Magic Room",
+        64,
+        0
+      ],
+      [
+        479,
+        "Smack Down",
+        72,
+        0
+      ],
+      [
+        480,
+        "Storm Throw",
+        73,
+        0
+      ],
+      [
+        481,
+        "Flame Burst",
+        72,
+        0
+      ],
+      [
+        482,
+        "Sludge Wave",
+        72,
+        0
+      ],
+      [
+        483,
+        "Quiver Dance",
+        32,
+        0
+      ],
+      [
+        484,
+        "Heavy Slam",
+        73,
+        0
+      ],
+      [
+        485,
+        "Synchronoise",
+        72,
+        0
+      ],
+      [
+        486,
+        "Electro Ball",
+        72,
+        4
+      ],
+      [
+        487,
+        "Soak",
+        88,
+        0
+      ],
+      [
+        488,
+        "Flame Charge",
+        73,
+        0
+      ],
+      [
+        489,
+        "Coil",
+        32,
+        0
+      ],
+      [
+        490,
+        "Low Sweep",
+        73,
+        0
+      ],
+      [
+        491,
+        "Acid Spray",
+        72,
+        4
+      ],
+      [
+        492,
+        "Foul Play",
+        73,
+        0
+      ],
+      [
+        493,
+        "Simple Beam",
+        88,
+        0
+      ],
+      [
+        494,
+        "Entrainment",
+        88,
+        0
+      ],
+      [
+        495,
+        "After You",
+        8192,
+        0
+      ],
+      [
+        496,
+        "Round",
+        328,
+        0
+      ],
+      [
+        497,
+        "Echoed Voice",
+        328,
+        0
+      ],
+      [
+        498,
+        "Chip Away",
+        73,
+        0
+      ],
+      [
+        499,
+        "Clear Smog",
+        72,
+        0
+      ],
+      [
+        500,
+        "Stored Power",
+        72,
+        0
+      ],
+      [
+        501,
+        "Quick Guard",
+        32,
+        0
+      ],
+      [
+        502,
+        "Ally Switch",
+        0,
+        0
+      ],
+      [
+        503,
+        "Scald",
+        1096,
+        0
+      ],
+      [
+        504,
+        "Shell Smash",
+        32,
+        0
+      ],
+      [
+        505,
+        "Heal Pulse",
+        6168,
+        66
+      ],
+      [
+        506,
+        "Hex",
+        72,
+        0
+      ],
+      [
+        507,
+        "Sky Drop",
+        2635,
+        0
+      ],
+      [
+        508,
+        "Shift Gear",
+        32,
+        0
+      ],
+      [
+        509,
+        "Circle Throw",
+        73,
+        0
+      ],
+      [
+        510,
+        "Incinerate",
+        72,
+        0
+      ],
+      [
+        511,
+        "Quash",
+        72,
+        0
+      ],
+      [
+        512,
+        "Acrobatics",
+        2121,
+        0
+      ],
+      [
+        513,
+        "Reflect Type",
+        8200,
+        0
+      ],
+      [
+        514,
+        "Retaliate",
+        73,
+        0
+      ],
+      [
+        515,
+        "Final Gambit",
+        9,
+        0
+      ],
+      [
+        516,
+        "Bestow",
+        72,
+        0
+      ],
+      [
+        517,
+        "Inferno",
+        72,
+        0
+      ],
+      [
+        518,
+        "Water Pledge",
+        72,
+        0
+      ],
+      [
+        519,
+        "Fire Pledge",
+        72,
+        0
+      ],
+      [
+        520,
+        "Grass Pledge",
+        72,
+        0
+      ],
+      [
+        521,
+        "Volt Switch",
+        72,
+        0
+      ],
+      [
+        522,
+        "Struggle Bug",
+        72,
+        0
+      ],
+      [
+        523,
+        "Bulldoze",
+        72,
+        0
+      ],
+      [
+        524,
+        "Frost Breath",
+        72,
+        0
+      ],
+      [
+        525,
+        "Dragon Tail",
+        73,
+        0
+      ],
+      [
+        526,
+        "Work Up",
+        32,
+        0
+      ],
+      [
+        527,
+        "Electroweb",
+        72,
+        0
+      ],
+      [
+        528,
+        "Wild Charge",
+        73,
+        0
+      ],
+      [
+        529,
+        "Drill Run",
+        73,
+        0
+      ],
+      [
+        530,
+        "Dual Chop",
+        73,
+        0
+      ],
+      [
+        531,
+        "Heart Stamp",
+        73,
+        0
+      ],
+      [
+        532,
+        "Horn Leech",
+        73,
+        64
+      ],
+      [
+        533,
+        "Sacred Sword",
+        73,
+        8
+      ],
+      [
+        534,
+        "Razor Shell",
+        73,
+        8
+      ],
+      [
+        535,
+        "Heat Crash",
+        73,
+        0
+      ],
+      [
+        536,
+        "Leaf Tornado",
+        72,
+        0
+      ],
+      [
+        537,
+        "Steamroller",
+        73,
+        0
+      ],
+      [
+        538,
+        "Cotton Guard",
+        32,
+        0
+      ],
+      [
+        539,
+        "Night Daze",
+        72,
+        0
+      ],
+      [
+        540,
+        "Psystrike",
+        72,
+        0
+      ],
+      [
+        541,
+        "Tail Slap",
+        73,
+        0
+      ],
+      [
+        542,
+        "Hurricane",
+        2120,
+        32
+      ],
+      [
+        543,
+        "Head Charge",
+        73,
+        0
+      ],
+      [
+        544,
+        "Gear Grind",
+        73,
+        0
+      ],
+      [
+        545,
+        "Searing Shot",
+        72,
+        4
+      ],
+      [
+        546,
+        "Techno Blast",
+        72,
+        4
+      ],
+      [
+        547,
+        "Relic Song",
+        328,
+        0
+      ],
+      [
+        548,
+        "Secret Sword",
+        72,
+        8
+      ],
+      [
+        549,
+        "Glaciate",
+        72,
+        0
+      ],
+      [
+        550,
+        "Bolt Strike",
+        73,
+        0
+      ],
+      [
+        551,
+        "Blue Flare",
+        72,
+        0
+      ],
+      [
+        552,
+        "Fiery Dance",
+        72,
+        0
+      ],
+      [
+        553,
+        "Freeze Shock",
+        74,
+        0
+      ],
+      [
+        554,
+        "Ice Burn",
+        74,
+        0
+      ],
+      [
+        555,
+        "Snarl",
+        328,
+        0
+      ],
+      [
+        556,
+        "Icicle Crash",
+        72,
+        0
+      ],
+      [
+        557,
+        "V-create",
+        73,
+        0
+      ],
+      [
+        558,
+        "Fusion Flare",
+        1096,
+        0
+      ],
+      [
+        559,
+        "Fusion Bolt",
+        72,
+        0
+      ]
+    ]
+  },
   "pok_replacements": {},
   "move_replacements": {},
   "ability_replacements": {},
@@ -3823,7 +10352,7 @@ backup_data = {
       "category": "Status",
       "pp": 30,
       "accuracy": 101,
-      "priority": 0,
+      "priority": 1,
       "e_id": 240
     },
     "Me First": {
@@ -4849,7 +11378,7 @@ backup_data = {
     },
     "Synchronoise": {
       "type": "Psychic",
-      "basePower": 70,
+      "basePower": 160,
       "category": "Special",
       "pp": 15,
       "accuracy": 100,
@@ -5713,6 +12242,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -5730,6 +12260,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ],
       "evos": [
         "Ivysaur"
@@ -5860,6 +12395,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -5877,6 +12413,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ],
       "evos": [
         "Venusaur"
@@ -6010,6 +12551,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -6029,6 +12571,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        34
       ]
     },
     "Charmander": {
@@ -6137,6 +12684,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -6157,6 +12705,11 @@ backup_data = {
         "Blaze",
         "Solar Power",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        94,
+        94
       ],
       "evos": [
         "Charmeleon"
@@ -6277,6 +12830,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -6297,6 +12851,11 @@ backup_data = {
         "Blaze",
         "Solar Power",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        94,
+        94
       ],
       "evos": [
         "Charizard"
@@ -6422,6 +12981,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -6448,6 +13008,11 @@ backup_data = {
         "Blaze",
         "Levitate",
         "Solar Power"
+      ],
+      "abilityIds": [
+        66,
+        26,
+        94
       ]
     },
     "Squirtle": {
@@ -6550,6 +13115,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -6568,6 +13134,11 @@ backup_data = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ],
       "evos": [
         "Wartortle"
@@ -6681,6 +13252,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -6699,6 +13271,11 @@ backup_data = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ],
       "evos": [
         "Blastoise"
@@ -6817,6 +13394,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -6840,6 +13418,11 @@ backup_data = {
         "Shell Armor",
         "No Guard",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        75,
+        99,
+        44
       ]
     },
     "Caterpie": {
@@ -6876,12 +13459,19 @@ backup_data = {
             "Bug Bite"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Metapod"
@@ -6926,12 +13516,19 @@ backup_data = {
             "Harden"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        61
       ],
       "evos": [
         "Butterfree"
@@ -7023,6 +13620,10 @@ backup_data = {
           [
             42,
             "Attack Order"
+          ],
+          [
+            44,
+            "Psycho Boost"
           ]
         ],
         "tms": [
@@ -7061,6 +13662,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Weedle": {
@@ -7138,12 +13744,19 @@ backup_data = {
             "Rage Powder"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Poison Point",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        50
       ],
       "evos": [
         "Kakuna"
@@ -7189,12 +13802,19 @@ backup_data = {
             "Harden"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Poison Point",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        61
       ],
       "evos": [
         "Beedrill"
@@ -7314,6 +13934,11 @@ backup_data = {
         "Adaptability",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        97
       ]
     },
     "Pidgey": {
@@ -7421,8 +14046,13 @@ backup_data = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ],
       "evos": [
         "Pidgeotto"
@@ -7434,7 +14064,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        16
+        14
       ]
     },
     "Pidgeotto": {
@@ -7542,8 +14172,13 @@ backup_data = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ],
       "evos": [
         "Pidgeot"
@@ -7665,8 +14300,13 @@ backup_data = {
       },
       "abs": [
         "No Guard",
-        "Quick Feet",
+        "",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        145
       ]
     },
     "Rattata": {
@@ -7791,6 +14431,11 @@ backup_data = {
         "Guts",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        55
       ],
       "evos": [
         "Raticate"
@@ -7932,6 +14577,11 @@ backup_data = {
         "Guts",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        55
       ]
     },
     "Spearow": {
@@ -8042,6 +14692,11 @@ backup_data = {
         "Intimidate",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        97
       ],
       "evos": [
         "Fearow"
@@ -8166,6 +14821,11 @@ backup_data = {
         "Intimidate",
         "",
         "Sniper"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        97
       ]
     },
     "Ekans": {
@@ -8226,6 +14886,10 @@ backup_data = {
             "Dragon Claw"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             27,
             "Poison Jab"
           ],
@@ -8280,6 +14944,11 @@ backup_data = {
         "Intimidate",
         "Intimidate",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        22,
+        127
       ],
       "evos": [
         "Arbok"
@@ -8353,6 +15022,10 @@ backup_data = {
             "Dragon Claw"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             27,
             "Poison Jab"
           ],
@@ -8410,6 +15083,11 @@ backup_data = {
         "Intimidate",
         "Intimidate",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        22,
+        127
       ]
     },
     "Pikachu": {
@@ -8490,11 +15168,11 @@ backup_data = {
             "Thunderbolt"
           ],
           [
-            48,
+            55,
             "Surf"
           ],
           [
-            54,
+            60,
             "Zap Cannon"
           ],
           [
@@ -8518,6 +15196,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -8538,6 +15217,11 @@ backup_data = {
         "Static",
         "Static",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        31
       ],
       "evos": [
         "Raichu"
@@ -8631,11 +15315,11 @@ backup_data = {
             "Thunderbolt"
           ],
           [
-            48,
+            55,
             "Surf"
           ],
           [
-            54,
+            60,
             "Zap Cannon"
           ],
           [
@@ -8683,6 +15367,11 @@ backup_data = {
         "Mold Breaker",
         "Mold Breaker",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        104,
+        104,
+        31
       ]
     },
     "Sandshrew": {
@@ -8799,6 +15488,11 @@ backup_data = {
         "Rough Skin",
         "Sand Rush",
         "Sand Rush"
+      ],
+      "abilityIds": [
+        24,
+        146,
+        146
       ],
       "evos": [
         "Sandslash"
@@ -8932,6 +15626,11 @@ backup_data = {
         "Rough Skin",
         "Sand Rush",
         "Sand Force"
+      ],
+      "abilityIds": [
+        24,
+        146,
+        159
       ]
     },
     "Nidoran-F": {
@@ -9051,6 +15750,11 @@ backup_data = {
         "Poison Point",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        55
       ],
       "evos": [
         "Nidorina"
@@ -9185,6 +15889,11 @@ backup_data = {
         "Battle Armor",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        55
       ],
       "evos": [
         "Nidoqueen"
@@ -9341,6 +16050,11 @@ backup_data = {
         "Battle Armor",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        111
       ]
     },
     "Nidoran-M": {
@@ -9476,6 +16190,11 @@ backup_data = {
         "Poison Point",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        38,
+        0,
+        55
       ],
       "evos": [
         "Nidorino"
@@ -9624,6 +16343,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        55
       ],
       "evos": [
         "Nidoking"
@@ -9795,6 +16519,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Clefairy": {
@@ -9855,6 +16584,10 @@ backup_data = {
             "Tri Attack"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -9899,6 +16632,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -9921,6 +16655,11 @@ backup_data = {
         "Magic Guard",
         "Magic Guard",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        132
       ],
       "evos": [
         "Clefable"
@@ -9993,6 +16732,10 @@ backup_data = {
             "Tri Attack"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -10038,6 +16781,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -10062,6 +16806,11 @@ backup_data = {
         "Magic Guard",
         "Magic Guard",
         "Unaware"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        109
       ]
     },
     "Vulpix": {
@@ -10153,6 +16902,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Energy Ball",
@@ -10167,6 +16917,11 @@ backup_data = {
         "Flash Fire",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        70
       ],
       "evos": [
         "Ninetales"
@@ -10275,6 +17030,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Energy Ball",
@@ -10291,6 +17047,11 @@ backup_data = {
         "Flash Fire",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        70
       ]
     },
     "Jigglypuff": {
@@ -10393,6 +17154,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -10413,9 +17175,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Soundproof",
+        "Analytic",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        148,
+        0,
+        132
       ],
       "evos": [
         "Wigglytuff"
@@ -10531,6 +17298,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -10553,9 +17321,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Soundproof",
+        "Analytic",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        148,
+        0,
+        119
       ]
     },
     "Zubat": {
@@ -10697,6 +17470,11 @@ backup_data = {
         "Inner Focus",
         "Infiltrator",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        39,
+        151,
+        151
       ],
       "evos": [
         "Golbat"
@@ -10853,6 +17631,11 @@ backup_data = {
         "Infiltrator",
         "Infiltrator"
       ],
+      "abilityIds": [
+        39,
+        151,
+        151
+      ],
       "evos": [
         "Crobat"
       ],
@@ -10933,6 +17716,10 @@ backup_data = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -10975,6 +17762,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -10990,6 +17778,11 @@ backup_data = {
         "Chlorophyll",
         "Shield Dust",
         "Run Away"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        50
       ],
       "evos": [
         "Gloom"
@@ -11071,6 +17864,10 @@ backup_data = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -11113,6 +17910,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -11129,6 +17927,11 @@ backup_data = {
         "Chlorophyll",
         "Shield Dust",
         "Stench"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        1
       ],
       "evos": [
         "Vileplume",
@@ -11214,6 +18017,10 @@ backup_data = {
             "Sludge Bomb"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -11257,6 +18064,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -11274,6 +18082,11 @@ backup_data = {
         "Chlorophyll",
         "Shield Dust",
         "Effect Spore"
+      ],
+      "abilityIds": [
+        34,
+        19,
+        27
       ]
     },
     "Paras": {
@@ -11385,6 +18198,11 @@ backup_data = {
         "Water Absorb",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        6
       ],
       "evos": [
         "Parasect"
@@ -11510,6 +18328,11 @@ backup_data = {
         "Water Absorb",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        6
       ]
     },
     "Venonat": {
@@ -11615,6 +18438,11 @@ backup_data = {
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Venomoth"
@@ -11735,9 +18563,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Shield Dust",
+        "Poison Heal",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        90,
+        0,
+        147
       ]
     },
     "Diglett": {
@@ -11856,6 +18689,11 @@ backup_data = {
         "Arena Trap",
         "",
         "Sand Force"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        159
       ],
       "evos": [
         "Dugtrio"
@@ -11990,6 +18828,11 @@ backup_data = {
         "Arena Trap",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        8
       ]
     },
     "Meowth": {
@@ -12059,10 +18902,6 @@ backup_data = {
             "Knock Off"
           ],
           [
-            50,
-            "Beat Up"
-          ],
-          [
             55,
             "Double Hit"
           ],
@@ -12073,6 +18912,10 @@ backup_data = {
           [
             62,
             "Night Daze"
+          ],
+          [
+            65,
+            "Beat Up"
           ]
         ],
         "tms": [
@@ -12117,6 +18960,11 @@ backup_data = {
         "Technician",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        127
       ],
       "evos": [
         "Persian"
@@ -12198,10 +19046,6 @@ backup_data = {
             "Knock Off"
           ],
           [
-            50,
-            "Beat Up"
-          ],
-          [
             55,
             "Double Hit"
           ],
@@ -12212,6 +19056,10 @@ backup_data = {
           [
             62,
             "Night Daze"
+          ],
+          [
+            65,
+            "Beat Up"
           ]
         ],
         "tms": [
@@ -12241,7 +19089,7 @@ backup_data = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -12260,6 +19108,11 @@ backup_data = {
         "Technician",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        127
       ]
     },
     "Psyduck": {
@@ -12325,6 +19178,10 @@ backup_data = {
             "Surf"
           ],
           [
+            39,
+            "Wonder Room"
+          ],
+          [
             44,
             "Soak"
           ],
@@ -12362,6 +19219,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -12380,6 +19238,11 @@ backup_data = {
         "Quick Feet",
         "Cloud Nine",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        95,
+        13,
+        33
       ],
       "evos": [
         "Golduck"
@@ -12457,6 +19320,10 @@ backup_data = {
             "Surf"
           ],
           [
+            39,
+            "Wonder Room"
+          ],
+          [
             44,
             "Soak"
           ],
@@ -12495,6 +19362,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -12516,6 +19384,11 @@ backup_data = {
         "Quick Feet",
         "Cloud Nine",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        95,
+        13,
+        33
       ]
     },
     "Mankey": {
@@ -12642,9 +19515,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Inner Focus",
+        "Defiant",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        128
       ],
       "evos": [
         "Primeape"
@@ -12785,9 +19663,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Inner Focus",
+        "Defiant",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        128
       ]
     },
     "Growlithe": {
@@ -12910,9 +19793,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Justified",
         "Rock Head",
-        "Justified"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        154,
+        69,
+        22
       ],
       "evos": [
         "Arcanine"
@@ -13051,9 +19939,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Justified",
         "Rock Head",
-        "Justified"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        154,
+        69,
+        22
       ]
     },
     "Poliwag": {
@@ -13155,6 +20048,11 @@ backup_data = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ],
       "evos": [
         "Poliwhirl"
@@ -13274,6 +20172,11 @@ backup_data = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ],
       "evos": [
         "Poliwrath",
@@ -13416,6 +20319,11 @@ backup_data = {
         "Water Absorb",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        11,
+        33,
+        33
       ]
     },
     "Abra": {
@@ -13514,7 +20422,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Magical Leaf",
@@ -13529,6 +20437,11 @@ backup_data = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ],
       "evos": [
         "Kadabra"
@@ -13639,7 +20552,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Magical Leaf",
@@ -13654,6 +20567,11 @@ backup_data = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ],
       "evos": [
         "Alakazam"
@@ -13766,7 +20684,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -13782,6 +20700,11 @@ backup_data = {
         "Levitate",
         "Magic Guard",
         "Magic Guard"
+      ],
+      "abilityIds": [
+        26,
+        98,
+        98
       ]
     },
     "Machop": {
@@ -13900,6 +20823,11 @@ backup_data = {
         "Guts",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        62,
+        99,
+        80
       ],
       "evos": [
         "Machoke"
@@ -14030,6 +20958,11 @@ backup_data = {
         "Guts",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        62,
+        99,
+        80
       ],
       "evos": [
         "Machamp"
@@ -14163,6 +21096,11 @@ backup_data = {
         "Battle Armor",
         "No Guard",
         "Steadfast"
+      ],
+      "abilityIds": [
+        4,
+        99,
+        80
       ]
     },
     "Bellsprout": {
@@ -14220,6 +21158,10 @@ backup_data = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -14269,6 +21211,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        82
       ],
       "evos": [
         "Weepinbell"
@@ -14338,6 +21285,10 @@ backup_data = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -14387,6 +21338,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        82
       ],
       "evos": [
         "Victreebel"
@@ -14456,6 +21412,10 @@ backup_data = {
             "Poison Jab"
           ],
           [
+            25,
+            "Gastro Acid"
+          ],
+          [
             28,
             "Leech Seed"
           ],
@@ -14508,6 +21468,11 @@ backup_data = {
         "No Guard",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        82
       ]
     },
     "Tentacool": {
@@ -14616,6 +21581,11 @@ backup_data = {
         "Clear Body",
         "Unnerve",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        29,
+        127,
+        44
       ],
       "evos": [
         "Tentacruel"
@@ -14738,6 +21708,11 @@ backup_data = {
         "Clear Body",
         "Unnerve",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        29,
+        127,
+        44
       ]
     },
     "Geodude": {
@@ -14799,23 +21774,23 @@ backup_data = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -14838,6 +21813,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -14857,6 +21833,11 @@ backup_data = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ],
       "evos": [
         "Graveler"
@@ -14930,23 +21911,23 @@ backup_data = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -14969,6 +21950,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -14988,6 +21970,11 @@ backup_data = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ],
       "evos": [
         "Golem"
@@ -15061,23 +22048,23 @@ backup_data = {
             "Rock Climb"
           ],
           [
+            40,
+            "Protect"
+          ],
+          [
             44,
             "Earthquake"
           ],
           [
-            50,
-            "Protect"
+            55,
+            "Rock Wrecker"
           ],
           [
             60,
             "Fissure"
           ],
           [
-            65,
-            "Rock Wrecker"
-          ],
-          [
-            70,
+            62,
             "Stealth Rock"
           ]
         ],
@@ -15102,6 +22089,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -15123,6 +22111,11 @@ backup_data = {
         "Solid Rock",
         "Sturdy",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        116,
+        5,
+        8
       ]
     },
     "Ponyta": {
@@ -15216,6 +22209,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -15233,6 +22227,11 @@ backup_data = {
         "Flash Fire",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        49
       ],
       "evos": [
         "Rapidash"
@@ -15340,6 +22339,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -15359,6 +22359,11 @@ backup_data = {
         "Reckless",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        49
       ]
     },
     "Slowpoke": {
@@ -15455,6 +22460,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -15476,6 +22482,11 @@ backup_data = {
         "Oblivious",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        12,
+        144,
+        144
       ],
       "evos": [
         "Slowbro",
@@ -15591,6 +22602,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -15616,6 +22628,11 @@ backup_data = {
         "Shell Armor",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        75,
+        144,
+        144
       ]
     },
     "Magnemite": {
@@ -15707,6 +22724,7 @@ backup_data = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -15726,6 +22744,11 @@ backup_data = {
         "Levitate",
         "Analytic",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        148
       ],
       "evos": [
         "Magneton"
@@ -15830,6 +22853,7 @@ backup_data = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -15850,6 +22874,11 @@ backup_data = {
         "Levitate",
         "Analytic",
         "Magnet Pull"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        42
       ],
       "evos": [
         "Magnezone"
@@ -15969,6 +22998,11 @@ backup_data = {
         "Defiant",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        128,
+        0,
+        105
       ]
     },
     "Doduo": {
@@ -16030,6 +23064,10 @@ backup_data = {
             "Drill Peck"
           ],
           [
+            37,
+            "Head Charge"
+          ],
+          [
             40,
             "Blaze Kick"
           ],
@@ -16038,15 +23076,19 @@ backup_data = {
             "Rock Climb"
           ],
           [
+            47,
+            "Superpower"
+          ],
+          [
             50,
             "Earthquake"
           ],
           [
-            62,
+            60,
             "Brave Bird"
           ],
           [
-            67,
+            65,
             "Fissure"
           ]
         ],
@@ -16081,6 +23123,11 @@ backup_data = {
         "Reckless",
         "",
         "Tangled Feet"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        77
       ],
       "evos": [
         "Dodrio"
@@ -16154,6 +23201,10 @@ backup_data = {
             "Drill Peck"
           ],
           [
+            37,
+            "Head Charge"
+          ],
+          [
             40,
             "Blaze Kick"
           ],
@@ -16162,15 +23213,19 @@ backup_data = {
             "Rock Climb"
           ],
           [
+            47,
+            "Superpower"
+          ],
+          [
             50,
             "Earthquake"
           ],
           [
-            62,
+            60,
             "Brave Bird"
           ],
           [
-            67,
+            65,
             "Fissure"
           ]
         ],
@@ -16201,6 +23256,7 @@ backup_data = {
           "Self-Destruct",
           "Swagger",
           "Pluck",
+          "U-turn",
           "Natural Gift",
           "Fly",
           "Strength"
@@ -16210,6 +23266,11 @@ backup_data = {
         "Reckless",
         "",
         "Arena Trap"
+      ],
+      "abilityIds": [
+        120,
+        0,
+        71
       ]
     },
     "Seel": {
@@ -16283,6 +23344,10 @@ backup_data = {
             "Surf"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Fake Out"
           ],
@@ -16314,6 +23379,7 @@ backup_data = {
           "Round",
           "Echoed Voice",
           "Fling",
+          "Self-Destruct",
           "Swagger",
           "Natural Gift",
           "Surf",
@@ -16325,6 +23391,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        115
       ],
       "evos": [
         "Dewgong"
@@ -16410,6 +23481,10 @@ backup_data = {
             "Surf"
           ],
           [
+            46,
+            "Toxic"
+          ],
+          [
             50,
             "Fake Out"
           ],
@@ -16444,6 +23519,7 @@ backup_data = {
           "Fling",
           "Giga Impact",
           "Frost Breath",
+          "Self-Destruct",
           "Swagger",
           "Natural Gift",
           "Surf",
@@ -16455,6 +23531,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        115
       ]
     },
     "Grimer": {
@@ -16577,6 +23658,11 @@ backup_data = {
         "Water Absorb",
         "Regenerator",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        11,
+        144,
+        143
       ],
       "evos": [
         "Muk"
@@ -16716,6 +23802,11 @@ backup_data = {
         "Water Absorb",
         "Regenerator",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        11,
+        144,
+        143
       ]
     },
     "Shellder": {
@@ -16802,6 +23893,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -16815,6 +23907,11 @@ backup_data = {
         "Shell Armor",
         "Skill Link",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        92,
+        142
       ],
       "evos": [
         "Cloyster"
@@ -16915,6 +24012,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -16931,6 +24029,11 @@ backup_data = {
         "Shell Armor",
         "Skill Link",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        92,
+        142
       ]
     },
     "Gastly": {
@@ -17028,7 +24131,7 @@ backup_data = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Self-Destruct",
@@ -17042,6 +24145,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Haunter"
@@ -17152,7 +24260,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -17168,6 +24276,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Gengar"
@@ -17282,7 +24395,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -17301,6 +24414,11 @@ backup_data = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Onix": {
@@ -17355,11 +24473,7 @@ backup_data = {
           ],
           [
             35,
-            "Crunch"
-          ],
-          [
-            35,
-            "Fire Fang"
+            "Ice Fang"
           ],
           [
             35,
@@ -17367,7 +24481,11 @@ backup_data = {
           ],
           [
             35,
-            "Ice Fang"
+            "Fire Fang"
+          ],
+          [
+            35,
+            "Crunch"
           ],
           [
             40,
@@ -17413,6 +24531,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -17434,6 +24553,11 @@ backup_data = {
         "Rock Head",
         "Sturdy",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        5,
+        133
       ],
       "evos": [
         "Steelix"
@@ -17503,6 +24627,10 @@ backup_data = {
             "Poison Gas"
           ],
           [
+            25,
+            "Psycho Shift"
+          ],
+          [
             29,
             "Dark Pulse"
           ],
@@ -17565,9 +24693,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Bad Dreams",
         "Magic Guard",
+        "",
         "Illusion"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        149
       ],
       "evos": [
         "Hypno"
@@ -17637,6 +24770,10 @@ backup_data = {
             "Poison Gas"
           ],
           [
+            25,
+            "Psycho Shift"
+          ],
+          [
             29,
             "Dark Pulse"
           ],
@@ -17702,9 +24839,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Bad Dreams",
         "Magic Guard",
+        "",
         "Illusion"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        149
       ]
     },
     "Krabby": {
@@ -17807,6 +24949,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        125
       ],
       "evos": [
         "Kingler"
@@ -17926,6 +25073,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        125
       ]
     },
     "Voltorb": {
@@ -18017,6 +25169,7 @@ backup_data = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Flash Cannon",
           "Wild Charge"
         ]
       },
@@ -18024,6 +25177,11 @@ backup_data = {
         "Static",
         "Static",
         "Aftermath"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        106
       ],
       "evos": [
         "Electrode"
@@ -18129,6 +25287,7 @@ backup_data = {
           "Self-Destruct",
           "Swagger",
           "Natural Gift",
+          "Flash Cannon",
           "Wild Charge"
         ]
       },
@@ -18136,6 +25295,11 @@ backup_data = {
         "Static",
         "Static",
         "Aftermath"
+      ],
+      "abilityIds": [
+        9,
+        9,
+        106
       ]
     },
     "Exeggcute": {
@@ -18179,6 +25343,10 @@ backup_data = {
           [
             19,
             "Psybeam"
+          ],
+          [
+            22,
+            "Lucky Chant"
           ],
           [
             25,
@@ -18248,6 +25416,11 @@ backup_data = {
         "",
         "Harvest"
       ],
+      "abilityIds": [
+        34,
+        0,
+        139
+      ],
       "evos": [
         "Exeggutor"
       ],
@@ -18302,6 +25475,10 @@ backup_data = {
           [
             19,
             "Psybeam"
+          ],
+          [
+            22,
+            "Lucky Chant"
           ],
           [
             25,
@@ -18373,6 +25550,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Harvest"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        139
       ]
     },
     "Cubone": {
@@ -18488,6 +25670,11 @@ backup_data = {
         "Rock Head",
         "Sand Rush",
         "Battle Armor"
+      ],
+      "abilityIds": [
+        69,
+        146,
+        4
       ],
       "evos": [
         "Marowak"
@@ -18620,6 +25807,11 @@ backup_data = {
         "Rock Head",
         "Sand Rush",
         "Battle Armor"
+      ],
+      "abilityIds": [
+        69,
+        146,
+        4
       ]
     },
     "Hitmonlee": {
@@ -18717,6 +25909,11 @@ backup_data = {
         "Unburden",
         "",
         "Unburden"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        84
       ]
     },
     "Hitmonchan": {
@@ -18824,6 +26021,11 @@ backup_data = {
         "Iron Fist",
         "",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        89,
+        0,
+        39
       ]
     },
     "Lickitung": {
@@ -18941,6 +26143,11 @@ backup_data = {
         "Thick Fat",
         "Thick Fat",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        13
       ],
       "evos": [
         "Lickilicky"
@@ -19060,6 +26267,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Weezing"
@@ -19181,6 +26393,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Rhyhorn": {
@@ -19305,6 +26522,11 @@ backup_data = {
         "Lightning Rod",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        31,
+        116,
+        120
       ],
       "evos": [
         "Rhydon"
@@ -19451,6 +26673,11 @@ backup_data = {
         "Lightning Rod",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        31,
+        116,
+        120
       ],
       "evos": [
         "Rhyperior"
@@ -19611,6 +26838,11 @@ backup_data = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
+      ],
+      "abilityIds": [
+        30,
+        32,
+        131
       ]
     },
     "Tangela": {
@@ -19717,6 +26949,11 @@ backup_data = {
         "Thick Fat",
         "Regenerator"
       ],
+      "abilityIds": [
+        47,
+        47,
+        144
+      ],
       "evos": [
         "Tangrowth"
       ],
@@ -19791,18 +27028,6 @@ backup_data = {
           [
             38,
             "Flail"
-          ],
-          [
-            42,
-            "Last Resort"
-          ],
-          [
-            50,
-            "Thrash"
-          ],
-          [
-            50,
-            "Outrage"
           ]
         ],
         "tms": [
@@ -19839,6 +27064,7 @@ backup_data = {
           "Focus Blast",
           "Fling",
           "Incinerate",
+          "Explosion",
           "Shadow Claw",
           "Retaliate",
           "Giga Impact",
@@ -19857,6 +27083,11 @@ backup_data = {
         "Thick Fat",
         "Thick Fat",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        39
       ]
     },
     "Horsea": {
@@ -19909,15 +27140,19 @@ backup_data = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -19935,6 +27170,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -19949,6 +27185,11 @@ backup_data = {
         "Swift Swim",
         "Swift Swim",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        6
       ],
       "evos": [
         "Seadra"
@@ -20014,15 +27255,19 @@ backup_data = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -20041,6 +27286,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -20056,6 +27302,11 @@ backup_data = {
         "Swift Swim",
         "Swift Swim",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        6
       ],
       "evos": [
         "Kingdra"
@@ -20145,6 +27396,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Poison Jab",
@@ -20160,6 +27412,11 @@ backup_data = {
         "Swift Swim",
         "Lightning Rod",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        33,
+        31,
+        31
       ],
       "evos": [
         "Seaking"
@@ -20250,6 +27507,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -20266,6 +27524,11 @@ backup_data = {
         "Swift Swim",
         "Lightning Rod",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        33,
+        31,
+        31
       ]
     },
     "Staryu": {
@@ -20363,6 +27626,7 @@ backup_data = {
           "Water Pulse",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Scald",
           "Flash",
@@ -20381,6 +27645,11 @@ backup_data = {
         "No Guard",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        148
       ],
       "evos": [
         "Starmie"
@@ -20492,6 +27761,7 @@ backup_data = {
           "Water Pulse",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -20514,6 +27784,11 @@ backup_data = {
         "No Guard",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        148
       ]
     },
     "Mr. Mime": {
@@ -20646,6 +27921,11 @@ backup_data = {
         "Technician",
         "",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        101
       ]
     },
     "Scyther": {
@@ -20752,6 +28032,11 @@ backup_data = {
         "Technician",
         "Technician",
         "Steadfast"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        80
       ],
       "evos": [
         "Scizor"
@@ -20893,6 +28178,11 @@ backup_data = {
         "Water Absorb",
         "Trace",
         "Dry Skin"
+      ],
+      "abilityIds": [
+        11,
+        36,
+        87
       ]
     },
     "Electabuzz": {
@@ -20943,15 +28233,15 @@ backup_data = {
           ],
           [
             25,
-            "Thunder Punch"
-          ],
-          [
-            25,
             "Fire Punch"
           ],
           [
             25,
             "Ice Punch"
+          ],
+          [
+            25,
+            "Thunder Punch"
           ],
           [
             30,
@@ -21024,6 +28314,11 @@ backup_data = {
         "Motor Drive",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        89,
+        78,
+        72
+      ],
       "evos": [
         "Electivire"
       ],
@@ -21034,7 +28329,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        55
+        50
       ]
     },
     "Magmar": {
@@ -21165,6 +28460,11 @@ backup_data = {
         "No Guard",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        18,
+        99,
+        72
+      ],
       "evos": [
         "Magmortar"
       ],
@@ -21175,7 +28475,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        55
+        50
       ]
     },
     "Pinsir": {
@@ -21303,6 +28603,11 @@ backup_data = {
         "Sheer Force",
         "Mold Breaker",
         "Moxie"
+      ],
+      "abilityIds": [
+        125,
+        104,
+        153
       ]
     },
     "Tauros": {
@@ -21386,6 +28691,10 @@ backup_data = {
           [
             65,
             "Head Charge"
+          ],
+          [
+            67,
+            "Fissure"
           ]
         ],
         "tms": [
@@ -21411,6 +28720,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Payback",
@@ -21432,6 +28742,11 @@ backup_data = {
         "Sheer Force",
         "Reckless",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        120,
+        125
       ]
     },
     "Magikarp": {
@@ -21500,12 +28815,19 @@ backup_data = {
             "Aqua Tail"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Swift Swim",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        155
       ],
       "evos": [
         "Gyarados"
@@ -21609,6 +28931,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Incinerate",
@@ -21632,6 +28955,11 @@ backup_data = {
         "Intimidate",
         "",
         "Moxie"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        153
       ]
     },
     "Lapras": {
@@ -21721,6 +29049,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -21740,6 +29069,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        115
       ]
     },
     "Ditto": {
@@ -21774,6 +29108,11 @@ backup_data = {
         "Limber",
         "",
         "Imposter"
+      ],
+      "abilityIds": [
+        7,
+        0,
+        150
       ]
     },
     "Eevee": {
@@ -21893,7 +29232,7 @@ backup_data = {
           "Quash",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -21938,6 +29277,11 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Anticipation"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        107
       ],
       "evos": [
         "Leafeon",
@@ -22065,6 +29409,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -22084,6 +29429,11 @@ backup_data = {
         "Water Absorb",
         "Water Absorb",
         "Hydration"
+      ],
+      "abilityIds": [
+        11,
+        11,
+        93
       ]
     },
     "Jolteon": {
@@ -22175,6 +29525,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -22195,6 +29546,11 @@ backup_data = {
         "Volt Absorb",
         "Volt Absorb",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        10,
+        10,
+        95
       ]
     },
     "Flareon": {
@@ -22286,6 +29642,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -22305,6 +29662,11 @@ backup_data = {
         "Flash Fire",
         "Flash Fire",
         "Guts"
+      ],
+      "abilityIds": [
+        18,
+        18,
+        62
       ]
     },
     "Porygon": {
@@ -22417,6 +29779,11 @@ backup_data = {
         "Analytic",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        148,
+        88,
+        148
       ],
       "evos": [
         "Porygon2"
@@ -22533,6 +29900,11 @@ backup_data = {
         "Shell Armor",
         "Shell Armor",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        75,
+        133
       ],
       "evos": [
         "Omastar"
@@ -22652,6 +30024,11 @@ backup_data = {
         "Shell Armor",
         "Shell Armor",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        75,
+        75,
+        33
       ]
     },
     "Kabuto": {
@@ -22761,6 +30138,7 @@ backup_data = {
           "Natural Gift",
           "Rock Smash",
           "Surf",
+          "Strength",
           "Waterfall"
         ]
       },
@@ -22768,6 +30146,11 @@ backup_data = {
         "Rock Head",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        133
       ],
       "evos": [
         "Kabutops"
@@ -22897,6 +30280,7 @@ backup_data = {
           "Rock Smash",
           "Cut",
           "Surf",
+          "Strength",
           "Waterfall",
           "Dive"
         ]
@@ -22905,6 +30289,11 @@ backup_data = {
         "Rock Head",
         "Rock Head",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        69,
+        69,
+        33
       ]
     },
     "Aerodactyl": {
@@ -23023,6 +30412,11 @@ backup_data = {
         "Rock Head",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        127
       ]
     },
     "Snorlax": {
@@ -23121,6 +30515,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -23142,6 +30537,11 @@ backup_data = {
         "Thick Fat",
         "Thick Fat",
         "Scrappy"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        113
       ]
     },
     "Articuno": {
@@ -23258,6 +30658,11 @@ backup_data = {
         "Pressure",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        81
       ]
     },
     "Zapdos": {
@@ -23377,6 +30782,11 @@ backup_data = {
         "Pressure",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        31
       ]
     },
     "Moltres": {
@@ -23496,6 +30906,11 @@ backup_data = {
         "Pressure",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        49
       ]
     },
     "Dratini": {
@@ -23597,6 +31012,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Thunder Wave",
@@ -23611,6 +31027,11 @@ backup_data = {
         "Marvel Scale",
         "",
         "Marvel Scale"
+      ],
+      "abilityIds": [
+        63,
+        0,
+        63
       ],
       "evos": [
         "Dragonair"
@@ -23724,6 +31145,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Thunder Wave",
@@ -23738,6 +31160,11 @@ backup_data = {
         "Marvel Scale",
         "",
         "Marvel Scale"
+      ],
+      "abilityIds": [
+        63,
+        0,
+        63
       ],
       "evos": [
         "Dragonite"
@@ -23860,6 +31287,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -23886,6 +31314,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ]
     },
     "Mewtwo": {
@@ -24026,7 +31459,7 @@ backup_data = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Stone Edge",
@@ -24048,6 +31481,11 @@ backup_data = {
         "Pressure",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        127
       ]
     },
     "Mew": {
@@ -24187,7 +31625,7 @@ backup_data = {
           "Quash",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Shadow Claw",
           "Payback",
@@ -24232,6 +31670,11 @@ backup_data = {
         "Synchronize",
         "",
         ""
+      ],
+      "abilityIds": [
+        28,
+        0,
+        0
       ]
     },
     "Chikorita": {
@@ -24338,6 +31781,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -24354,6 +31798,11 @@ backup_data = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ],
       "evos": [
         "Bayleef"
@@ -24473,6 +31922,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -24491,6 +31941,11 @@ backup_data = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ],
       "evos": [
         "Meganium"
@@ -24611,6 +32066,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -24632,6 +32088,11 @@ backup_data = {
         "Thick Fat",
         "Filter",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        47,
+        111,
+        102
       ]
     },
     "Cyndaquil": {
@@ -24705,11 +32166,11 @@ backup_data = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -24728,6 +32189,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -24742,6 +32204,11 @@ backup_data = {
         "Blaze",
         "Flash Fire",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        18
       ],
       "evos": [
         "Quilava"
@@ -24828,11 +32295,11 @@ backup_data = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -24853,6 +32320,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -24869,6 +32337,11 @@ backup_data = {
         "Blaze",
         "Flash Fire",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        18
       ],
       "evos": [
         "Typhlosion"
@@ -24955,11 +32428,11 @@ backup_data = {
           ],
           [
             50,
-            "Helping Hand"
+            "Flare Blitz"
           ],
           [
             55,
-            "Flare Blitz"
+            "Fissure"
           ]
         ],
         "tms": [
@@ -24983,6 +32456,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Focus Blast",
@@ -25006,6 +32480,11 @@ backup_data = {
         "Blaze",
         "Flash Fire",
         "Sand Rush"
+      ],
+      "abilityIds": [
+        66,
+        18,
+        146
       ]
     },
     "Totodile": {
@@ -25110,6 +32589,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -25128,6 +32608,11 @@ backup_data = {
         "Sheer Force",
         "Rough Skin",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        24,
+        125
       ],
       "evos": [
         "Croconaw"
@@ -25246,6 +32731,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -25266,6 +32752,11 @@ backup_data = {
         "Sheer Force",
         "Rough Skin",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        24,
+        125
       ],
       "evos": [
         "Feraligatr"
@@ -25386,6 +32877,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -25410,6 +32902,11 @@ backup_data = {
         "Sheer Force",
         "Battle Armor",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        4,
+        125
       ]
     },
     "Sentret": {
@@ -25525,6 +33022,11 @@ backup_data = {
         "Quick Feet",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        95,
+        0,
+        119
       ],
       "evos": [
         "Furret"
@@ -25659,6 +33161,11 @@ backup_data = {
         "Quick Feet",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        95,
+        0,
+        119
       ]
     },
     "Hoothoot": {
@@ -25754,6 +33261,10 @@ backup_data = {
           [
             44,
             "Psycho Boost"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ]
         ],
         "tms": [
@@ -25788,6 +33299,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ],
       "evos": [
         "Noctowl"
@@ -25895,6 +33411,10 @@ backup_data = {
           [
             44,
             "Psycho Boost"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ]
         ],
         "tms": [
@@ -25931,6 +33451,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Ledyba": {
@@ -26038,6 +33563,11 @@ backup_data = {
         "Shield Dust",
         "Swarm",
         "Rattled"
+      ],
+      "abilityIds": [
+        19,
+        68,
+        155
       ],
       "evos": [
         "Ledian"
@@ -26161,6 +33691,11 @@ backup_data = {
         "Shield Dust",
         "Swarm",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        19,
+        68,
+        89
       ]
     },
     "Spinarak": {
@@ -26226,12 +33761,12 @@ backup_data = {
             "Rage Powder"
           ],
           [
-            42,
-            "U-turn"
+            40,
+            "Sucker Punch"
           ],
           [
-            47,
-            "Sucker Punch"
+            42,
+            "U-turn"
           ]
         ],
         "tms": [
@@ -26267,6 +33802,11 @@ backup_data = {
         "Insomnia",
         "Sniper"
       ],
+      "abilityIds": [
+        148,
+        15,
+        97
+      ],
       "evos": [
         "Ariados"
       ],
@@ -26293,12 +33833,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 90,
+        "hp": 80,
         "at": 120,
-        "df": 90,
-        "sa": 60,
-        "sd": 90,
-        "sp": 20
+        "df": 80,
+        "sa": 40,
+        "sd": 80,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -26343,12 +33883,12 @@ backup_data = {
             "Rage Powder"
           ],
           [
-            42,
-            "U-turn"
+            40,
+            "Sucker Punch"
           ],
           [
-            47,
-            "Sucker Punch"
+            42,
+            "U-turn"
           ]
         ],
         "tms": [
@@ -26385,6 +33925,11 @@ backup_data = {
         "Analytic",
         "Insomnia",
         "Sniper"
+      ],
+      "abilityIds": [
+        148,
+        15,
+        97
       ]
     },
     "Crobat": {
@@ -26530,6 +34075,11 @@ backup_data = {
         "Inner Focus",
         "Infiltrator",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        39,
+        151,
+        151
       ]
     },
     "Chinchou": {
@@ -26595,6 +34145,10 @@ backup_data = {
             "Muddy Water"
           ],
           [
+            47,
+            "Volt Switch"
+          ],
+          [
             50,
             "Electroweb"
           ],
@@ -26619,6 +34173,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Charge Beam",
@@ -26637,6 +34192,11 @@ backup_data = {
         "Volt Absorb",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        10,
+        11,
+        11
       ],
       "evos": [
         "Lanturn"
@@ -26714,6 +34274,10 @@ backup_data = {
             "Muddy Water"
           ],
           [
+            47,
+            "Volt Switch"
+          ],
+          [
             50,
             "Electroweb"
           ],
@@ -26739,6 +34303,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Charge Beam",
@@ -26758,6 +34323,11 @@ backup_data = {
         "Volt Absorb",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        10,
+        11,
+        11
       ]
     },
     "Pichu": {
@@ -26837,6 +34407,11 @@ backup_data = {
         "Static",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        9,
+        0,
+        31
       ]
     },
     "Cleffa": {
@@ -26930,6 +34505,11 @@ backup_data = {
         "Cute Charm",
         "Magic Guard",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        56,
+        98,
+        132
       ]
     },
     "Igglybuff": {
@@ -27018,6 +34598,11 @@ backup_data = {
         "Cute Charm",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        56,
+        0,
+        132
       ]
     },
     "Togepi": {
@@ -27043,7 +34628,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -27094,6 +34679,10 @@ backup_data = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -27119,6 +34708,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -27138,6 +34728,11 @@ backup_data = {
         "Overcoat",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        105
       ],
       "evos": [
         "Togetic"
@@ -27175,7 +34770,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -27226,6 +34821,10 @@ backup_data = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -27254,6 +34853,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -27276,6 +34876,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        105
       ],
       "evos": [
         "Togekiss"
@@ -27353,6 +34958,10 @@ backup_data = {
             "Psyshock"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -27417,6 +35026,11 @@ backup_data = {
         "Synchronize",
         "Magic Guard",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        28,
+        98,
+        156
       ],
       "evos": [
         "Xatu"
@@ -27494,6 +35108,10 @@ backup_data = {
             "Psyshock"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -27562,6 +35180,11 @@ backup_data = {
         "Synchronize",
         "Magic Guard",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        28,
+        98,
+        156
       ]
     },
     "Mareep": {
@@ -27658,6 +35281,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -27672,6 +35296,11 @@ backup_data = {
         "Static",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        9,
+        47,
+        57
       ],
       "evos": [
         "Flaaffy"
@@ -27781,6 +35410,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -27799,6 +35429,11 @@ backup_data = {
         "Static",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        9,
+        47,
+        57
       ],
       "evos": [
         "Ampharos"
@@ -27910,6 +35545,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -27931,6 +35567,11 @@ backup_data = {
         "Mold Breaker",
         "Thick Fat",
         "Plus"
+      ],
+      "abilityIds": [
+        104,
+        47,
+        57
       ]
     },
     "Bellossom": {
@@ -27996,6 +35637,10 @@ backup_data = {
             "Flamethrower"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Synthesis"
           ],
@@ -28040,6 +35685,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -28057,6 +35703,11 @@ backup_data = {
         "Flash Fire",
         "Chlorophyll",
         "Healer"
+      ],
+      "abilityIds": [
+        18,
+        34,
+        131
       ]
     },
     "Marill": {
@@ -28149,6 +35800,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Fling",
@@ -28167,6 +35819,11 @@ backup_data = {
         "Huge Power",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        37,
+        37,
+        37
       ],
       "evos": [
         "Azumarill"
@@ -28272,6 +35929,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -28293,6 +35951,11 @@ backup_data = {
         "Huge Power",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        37,
+        37,
+        37
       ]
     },
     "Sudowoodo": {
@@ -28406,6 +36069,11 @@ backup_data = {
         "Solid Rock",
         "Rock Head",
         "Rattled"
+      ],
+      "abilityIds": [
+        116,
+        69,
+        155
       ]
     },
     "Politoed": {
@@ -28521,6 +36189,11 @@ backup_data = {
         "Rain Dish",
         "Water Absorb",
         "Drizzle"
+      ],
+      "abilityIds": [
+        44,
+        11,
+        2
       ]
     },
     "Hoppip": {
@@ -28627,6 +36300,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -28643,6 +36317,11 @@ backup_data = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ],
       "evos": [
         "Skiploom"
@@ -28761,6 +36440,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -28777,6 +36457,11 @@ backup_data = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ],
       "evos": [
         "Jumpluff"
@@ -28896,6 +36581,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Acrobatics",
@@ -28913,6 +36599,11 @@ backup_data = {
         "Prankster",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        151
       ]
     },
     "Aipom": {
@@ -29032,6 +36723,11 @@ backup_data = {
         "Skill Link",
         "Technician",
         "Skill Link"
+      ],
+      "abilityIds": [
+        92,
+        101,
+        92
       ]
     },
     "Sunkern": {
@@ -29126,6 +36822,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -29141,6 +36838,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        70
       ],
       "evos": [
         "Sunflora"
@@ -29249,6 +36951,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -29265,6 +36968,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Solar Power"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        94
       ]
     },
     "Yanma": {
@@ -29342,7 +37050,7 @@ backup_data = {
             "U-turn"
           ],
           [
-            75,
+            70,
             "Draco Meteor"
           ]
         ],
@@ -29374,6 +37082,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        119
       ],
       "evos": [
         "Yanmega"
@@ -29483,6 +37196,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Flash",
@@ -29499,6 +37213,11 @@ backup_data = {
         "Unaware",
         "Water Absorb",
         "Unaware"
+      ],
+      "abilityIds": [
+        109,
+        11,
+        109
       ],
       "evos": [
         "Quagsire"
@@ -29634,6 +37353,11 @@ backup_data = {
         "Unaware",
         "Water Absorb",
         "Unaware"
+      ],
+      "abilityIds": [
+        109,
+        11,
+        109
       ]
     },
     "Espeon": {
@@ -29726,6 +37450,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Retaliate",
@@ -29745,6 +37470,11 @@ backup_data = {
         "Magic Bounce",
         "Magic Bounce",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        156,
+        156,
+        156
       ]
     },
     "Umbreon": {
@@ -29835,6 +37565,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Payback",
@@ -29854,6 +37585,11 @@ backup_data = {
         "Magic Guard",
         "Magic Guard",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        98,
+        98,
+        39
       ]
     },
     "Murkrow": {
@@ -29952,7 +37688,7 @@ backup_data = {
           "Thief",
           "Round",
           "Quash",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Thunder Wave",
@@ -29968,6 +37704,11 @@ backup_data = {
         "Prankster",
         "Insomnia",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        15,
+        158
       ],
       "evos": [
         "Honchkrow"
@@ -30078,6 +37819,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -30105,6 +37847,11 @@ backup_data = {
         "Regenerator",
         "Shell Armor",
         "Drizzle"
+      ],
+      "abilityIds": [
+        144,
+        75,
+        2
       ]
     },
     "Misdreavus": {
@@ -30170,6 +37917,10 @@ backup_data = {
             "Shadow Ball"
           ],
           [
+            46,
+            "Wonder Room"
+          ],
+          [
             50,
             "Future Sight"
           ],
@@ -30203,10 +37954,11 @@ backup_data = {
           "Echoed Voice",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
+          "Magical Leaf",
           "Dream Eater",
           "Swagger",
           "Natural Gift",
@@ -30217,6 +37969,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Mismagius"
@@ -30263,6 +38020,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Wobbuffet": {
@@ -30309,6 +38071,11 @@ backup_data = {
         "Battle Armor",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        23
       ]
     },
     "Girafarig": {
@@ -30433,6 +38200,11 @@ backup_data = {
         "Adaptability",
         "",
         "Adaptability"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        91
       ]
     },
     "Pineco": {
@@ -30467,10 +38239,6 @@ backup_data = {
           [
             5,
             "Metal Sound"
-          ],
-          [
-            10,
-            "Baton Pass"
           ],
           [
             15,
@@ -30526,6 +38294,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -30543,6 +38312,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ],
       "evos": [
         "Forretress"
@@ -30590,10 +38364,6 @@ backup_data = {
           [
             5,
             "Metal Sound"
-          ],
-          [
-            10,
-            "Baton Pass"
           ],
           [
             15,
@@ -30650,6 +38420,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -30671,6 +38442,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        5
       ]
     },
     "Dunsparce": {
@@ -30800,6 +38576,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        155
       ]
     },
     "Gligar": {
@@ -30929,8 +38710,13 @@ backup_data = {
       },
       "abs": [
         "Immunity",
-        "Rough Skin",
+        "Rattled",
         "Immunity"
+      ],
+      "abilityIds": [
+        17,
+        155,
+        17
       ],
       "evos": [
         "Gliscor"
@@ -30997,11 +38783,7 @@ backup_data = {
           ],
           [
             35,
-            "Crunch"
-          ],
-          [
-            35,
-            "Fire Fang"
+            "Ice Fang"
           ],
           [
             35,
@@ -31009,7 +38791,11 @@ backup_data = {
           ],
           [
             35,
-            "Ice Fang"
+            "Fire Fang"
+          ],
+          [
+            35,
+            "Crunch"
           ],
           [
             40,
@@ -31056,6 +38842,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -31079,6 +38866,11 @@ backup_data = {
         "Rock Head",
         "Sheer Force",
         "Sand Force"
+      ],
+      "abilityIds": [
+        69,
+        125,
+        159
       ]
     },
     "Snubbull": {
@@ -31152,6 +38944,10 @@ backup_data = {
             "Submission"
           ],
           [
+            55,
+            "Close Combat"
+          ],
+          [
             62,
             "Facade"
           ],
@@ -31208,6 +39004,11 @@ backup_data = {
         "Quick Feet",
         "Guts",
         "Rattled"
+      ],
+      "abilityIds": [
+        95,
+        62,
+        155
       ],
       "evos": [
         "Granbull"
@@ -31293,6 +39094,10 @@ backup_data = {
             "Submission"
           ],
           [
+            55,
+            "Close Combat"
+          ],
+          [
             62,
             "Facade"
           ],
@@ -31356,6 +39161,11 @@ backup_data = {
         "Quick Feet",
         "Guts",
         "Rattled"
+      ],
+      "abilityIds": [
+        95,
+        62,
+        155
       ]
     },
     "Qwilfish": {
@@ -31393,6 +39203,10 @@ backup_data = {
             "Poison Sting"
           ],
           [
+            1,
+            "Pound"
+          ],
+          [
             9,
             "Bubble Beam"
           ],
@@ -31401,12 +39215,20 @@ backup_data = {
             "Aqua Jet"
           ],
           [
-            21,
+            20,
+            "Dive"
+          ],
+          [
+            22,
             "Poison Fang"
           ],
           [
             25,
             "Revenge"
+          ],
+          [
+            27,
+            "Poison Jab"
           ],
           [
             29,
@@ -31417,28 +39239,20 @@ backup_data = {
             "Waterfall"
           ],
           [
-            37,
-            "Poison Jab"
+            40,
+            "Aqua Tail"
           ],
           [
             42,
             "Destiny Bond"
           ],
           [
-            45,
-            "Aqua Tail"
-          ],
-          [
-            50,
+            44,
             "Gunk Shot"
           ],
           [
-            55,
-            "Icy Wind"
-          ],
-          [
-            60,
-            "Haze"
+            50,
+            "Endure"
           ]
         ],
         "tms": [
@@ -31459,6 +39273,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Explosion",
@@ -31477,6 +39292,11 @@ backup_data = {
         "Iron Barbs",
         "Intimidate",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        160,
+        22,
+        33
       ]
     },
     "Scizor": {
@@ -31575,6 +39395,7 @@ backup_data = {
           "Giga Impact",
           "Swords Dance",
           "Struggle Bug",
+          "Bulldoze",
           "X-Scissor",
           "Swagger",
           "U-turn",
@@ -31589,6 +39410,11 @@ backup_data = {
         "Technician",
         "Technician",
         "Light Metal"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        135
       ]
     },
     "Shuckle": {
@@ -31708,6 +39534,11 @@ backup_data = {
         "Sturdy",
         "Gluttony",
         "Contrary"
+      ],
+      "abilityIds": [
+        5,
+        82,
+        126
       ]
     },
     "Heracross": {
@@ -31846,6 +39677,11 @@ backup_data = {
         "Skill Link",
         "Guts",
         "Moxie"
+      ],
+      "abilityIds": [
+        92,
+        62,
+        153
       ]
     },
     "Sneasel": {
@@ -31947,7 +39783,7 @@ backup_data = {
           "Round",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -31969,6 +39805,11 @@ backup_data = {
         "Technician",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        124
       ],
       "evos": [
         "Weavile"
@@ -32101,6 +39942,11 @@ backup_data = {
         "Guts",
         "Quick Feet",
         "Honey Gather"
+      ],
+      "abilityIds": [
+        62,
+        95,
+        118
       ],
       "evos": [
         "Ursaring"
@@ -32238,6 +40084,11 @@ backup_data = {
         "Guts",
         "Quick Feet",
         "Unnerve"
+      ],
+      "abilityIds": [
+        62,
+        95,
+        127
       ]
     },
     "Slugma": {
@@ -32317,6 +40168,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -32332,6 +40184,11 @@ backup_data = {
         "Water Absorb",
         "Magma Armor",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        40,
+        133
       ],
       "evos": [
         "Magcargo"
@@ -32429,6 +40286,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -32451,6 +40309,11 @@ backup_data = {
         "Water Absorb",
         "Shell Armor",
         "Simple"
+      ],
+      "abilityIds": [
+        11,
+        75,
+        86
       ]
     },
     "Swinub": {
@@ -32547,6 +40410,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Bulldoze",
           "Rock Slide",
@@ -32560,6 +40424,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ],
       "evos": [
         "Piloswine"
@@ -32669,6 +40538,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -32684,6 +40554,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        47
       ],
       "evos": [
         "Mamoswine"
@@ -32751,6 +40626,10 @@ backup_data = {
           [
             40,
             "Shadow Ball"
+          ],
+          [
+            50,
+            "Lucky Chant"
           ]
         ],
         "tms": [
@@ -32776,6 +40655,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Will-O-Wisp",
@@ -32795,6 +40675,11 @@ backup_data = {
         "Shell Armor",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        75,
+        144,
+        144
       ]
     },
     "Remoraid": {
@@ -32859,15 +40744,23 @@ backup_data = {
             "Ice Beam"
           ],
           [
-            38,
+            37,
             "Bullet Seed"
           ],
           [
-            42,
+            40,
             "Rock Blast"
           ],
           [
-            60,
+            43,
+            "Spike Cannon"
+          ],
+          [
+            47,
+            "Blast Burn"
+          ],
+          [
+            50,
             "Water Spout"
           ]
         ],
@@ -32908,6 +40801,11 @@ backup_data = {
         "Water Absorb",
         "Sniper",
         "Moody"
+      ],
+      "abilityIds": [
+        11,
+        97,
+        141
       ],
       "evos": [
         "Octillery"
@@ -32985,15 +40883,23 @@ backup_data = {
             "Ice Beam"
           ],
           [
-            38,
+            37,
             "Bullet Seed"
           ],
           [
-            42,
+            40,
             "Rock Blast"
           ],
           [
-            60,
+            43,
+            "Spike Cannon"
+          ],
+          [
+            47,
+            "Blast Burn"
+          ],
+          [
+            50,
             "Water Spout"
           ]
         ],
@@ -33040,6 +40946,11 @@ backup_data = {
         "Water Absorb",
         "Skill Link",
         "Moody"
+      ],
+      "abilityIds": [
+        11,
+        92,
+        141
       ]
     },
     "Delibird": {
@@ -33150,6 +41061,11 @@ backup_data = {
         "Technician",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        110
       ]
     },
     "Mantine": {
@@ -33240,6 +41156,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Acrobatics",
@@ -33258,6 +41175,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Water Veil"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        41
       ]
     },
     "Skarmory": {
@@ -33373,6 +41295,11 @@ backup_data = {
         "Rock Head",
         "Filter",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        69,
+        111,
+        133
       ]
     },
     "Houndour": {
@@ -33479,7 +41406,7 @@ backup_data = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Dream Eater",
@@ -33493,6 +41420,11 @@ backup_data = {
         "Intimidate",
         "Flash Fire",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        18,
+        127
       ],
       "evos": [
         "Houndoom"
@@ -33612,7 +41544,7 @@ backup_data = {
           "Overheat",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -33628,6 +41560,11 @@ backup_data = {
         "Intimidate",
         "Flash Fire",
         "Unnerve"
+      ],
+      "abilityIds": [
+        22,
+        18,
+        127
       ]
     },
     "Kingdra": {
@@ -33681,15 +41618,19 @@ backup_data = {
             "Octazooka"
           ],
           [
+            47,
+            "Muddy Water"
+          ],
+          [
             50,
             "Yawn"
           ],
           [
-            70,
+            60,
             "Hydro Cannon"
           ],
           [
-            74,
+            64,
             "Draco Meteor"
           ]
         ],
@@ -33708,6 +41649,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Quash",
@@ -33724,6 +41666,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Damp"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        6
       ]
     },
     "Phanpy": {
@@ -33807,6 +41754,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -33821,6 +41769,11 @@ backup_data = {
         "Battle Armor",
         "Battle Armor",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        4,
+        4,
+        8
       ],
       "evos": [
         "Donphan"
@@ -33917,6 +41870,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -33936,6 +41890,11 @@ backup_data = {
         "Battle Armor",
         "Battle Armor",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        4,
+        4,
+        8
       ]
     },
     "Porygon2": {
@@ -34048,6 +42007,11 @@ backup_data = {
         "Analytic",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        148,
+        88,
+        148
       ],
       "evos": [
         "Porygon-Z"
@@ -34186,6 +42150,11 @@ backup_data = {
         "Intimidate",
         "",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        22
       ]
     },
     "Smeargle": {
@@ -34256,6 +42225,11 @@ backup_data = {
         "Own Tempo",
         "Technician",
         "Moody"
+      ],
+      "abilityIds": [
+        20,
+        101,
+        141
       ]
     },
     "Tyrogue": {
@@ -34319,6 +42293,11 @@ backup_data = {
         "Guts",
         "",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        72
       ],
       "evos": [
         "Hitmonchan",
@@ -34434,6 +42413,7 @@ backup_data = {
           "Rock Slide",
           "Self-Destruct",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Rock Smash",
           "Strength"
@@ -34443,6 +42423,11 @@ backup_data = {
         "Technician",
         "",
         "Steadfast"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        80
       ]
     },
     "Smoochum": {
@@ -34565,6 +42550,11 @@ backup_data = {
         "Water Absorb",
         "Trace",
         "Hydration"
+      ],
+      "abilityIds": [
+        11,
+        36,
+        93
       ],
       "evos": [
         "Jynx"
@@ -34703,6 +42693,11 @@ backup_data = {
         "Motor Drive",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        89,
+        78,
+        72
+      ],
       "evos": [
         "Electabuzz"
       ],
@@ -34839,6 +42834,11 @@ backup_data = {
         "No Guard",
         "Vital Spirit"
       ],
+      "abilityIds": [
+        18,
+        99,
+        72
+      ],
       "evos": [
         "Magmar"
       ],
@@ -34944,6 +42944,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -34967,6 +42968,11 @@ backup_data = {
         "Regenerator",
         "Regenerator",
         "Scrappy"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        113
       ]
     },
     "Blissey": {
@@ -35116,6 +43122,11 @@ backup_data = {
         "Natural Cure",
         "Serene Grace",
         "Healer"
+      ],
+      "abilityIds": [
+        30,
+        32,
+        131
       ]
     },
     "Raikou": {
@@ -35239,6 +43250,11 @@ backup_data = {
         "Pressure",
         "",
         "Volt Absorb"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        10
       ]
     },
     "Entei": {
@@ -35363,6 +43379,11 @@ backup_data = {
         "Pressure",
         "",
         "Flash Fire"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        18
       ]
     },
     "Suicune": {
@@ -35484,6 +43505,11 @@ backup_data = {
         "Pressure",
         "",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        11
       ]
     },
     "Larvitar": {
@@ -35586,6 +43612,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -35603,6 +43630,11 @@ backup_data = {
         "Guts",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        62,
+        0,
+        8
       ],
       "evos": [
         "Pupitar"
@@ -35718,6 +43750,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -35735,6 +43768,11 @@ backup_data = {
         "Battle Armor",
         "",
         "Sand Stream"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        45
       ],
       "evos": [
         "Tyranitar"
@@ -35860,6 +43898,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -35887,6 +43926,11 @@ backup_data = {
         "Battle Armor",
         "",
         "Intimidate"
+      ],
+      "abilityIds": [
+        4,
+        0,
+        22
       ]
     },
     "Lugia": {
@@ -36030,6 +44074,11 @@ backup_data = {
         "Pressure",
         "",
         "Multiscale"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        136
       ]
     },
     "Ho-Oh": {
@@ -36172,6 +44221,11 @@ backup_data = {
         "Pressure",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        144
       ]
     },
     "Celebi": {
@@ -36297,6 +44351,11 @@ backup_data = {
         "Natural Cure",
         "",
         ""
+      ],
+      "abilityIds": [
+        30,
+        0,
+        0
       ]
     },
     "Treecko": {
@@ -36407,6 +44466,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -36428,6 +44488,11 @@ backup_data = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ],
       "evos": [
         "Grovyle"
@@ -36555,6 +44620,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Energy Ball",
@@ -36579,6 +44645,11 @@ backup_data = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ],
       "evos": [
         "Sceptile"
@@ -36711,6 +44782,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -36738,6 +44810,11 @@ backup_data = {
         "Technician",
         "Overgrow",
         "Unburden"
+      ],
+      "abilityIds": [
+        101,
+        65,
+        84
       ]
     },
     "Torchic": {
@@ -36851,6 +44928,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -36871,6 +44949,11 @@ backup_data = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ],
       "evos": [
         "Combusken"
@@ -36999,6 +45082,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -37024,6 +45108,11 @@ backup_data = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ],
       "evos": [
         "Blaziken"
@@ -37156,6 +45245,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -37185,6 +45275,11 @@ backup_data = {
         "Blaze",
         "Reckless",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        66,
+        120,
+        3
       ]
     },
     "Mudkip": {
@@ -37294,6 +45389,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -37309,8 +45405,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ],
       "evos": [
         "Marshtomp"
@@ -37436,6 +45537,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -37453,8 +45555,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ],
       "evos": [
         "Swampert"
@@ -37582,6 +45689,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -37602,8 +45710,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Damp",
+        "Mold Breaker",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        104,
+        6
       ]
     },
     "Poochyena": {
@@ -37704,7 +45817,7 @@ backup_data = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -37717,6 +45830,11 @@ backup_data = {
         "Intimidate",
         "Quick Feet",
         "Rattled"
+      ],
+      "abilityIds": [
+        22,
+        95,
+        155
       ],
       "evos": [
         "Mightyena"
@@ -37830,7 +45948,7 @@ backup_data = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -37845,6 +45963,11 @@ backup_data = {
         "Intimidate",
         "Quick Feet",
         "Moxie"
+      ],
+      "abilityIds": [
+        22,
+        95,
+        153
       ]
     },
     "Zigzagoon": {
@@ -37972,6 +46095,11 @@ backup_data = {
         "Scrappy",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        95
       ],
       "evos": [
         "Linoone"
@@ -38116,6 +46244,11 @@ backup_data = {
         "Scrappy",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        95
       ]
     },
     "Wurmple": {
@@ -38152,12 +46285,19 @@ backup_data = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Silcoon",
@@ -38210,12 +46350,19 @@ backup_data = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shed Skin",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        61,
+        0,
+        61
       ],
       "evos": [
         "Beautifly"
@@ -38330,6 +46477,11 @@ backup_data = {
         "Swarm",
         "",
         "Rivalry"
+      ],
+      "abilityIds": [
+        68,
+        0,
+        79
       ]
     },
     "Cascoon": {
@@ -38366,12 +46518,19 @@ backup_data = {
             "Poison Sting"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Shed Skin",
         "",
         "Shed Skin"
+      ],
+      "abilityIds": [
+        61,
+        0,
+        61
       ],
       "evos": [
         "Dustox"
@@ -38417,35 +46576,39 @@ backup_data = {
             "Venoshock"
           ],
           [
+            13,
+            "Protect"
+          ],
+          [
             16,
             "Silver Wind"
           ],
           [
             20,
-            "Moonlight"
+            "Roost"
           ],
           [
             23,
             "Smog"
           ],
           [
+            23,
+            "Toxic"
+          ],
+          [
+            25,
+            "Sludge Bomb"
+          ],
+          [
+            25,
+            "Bug Buzz"
+          ],
+          [
             27,
             "U-turn"
           ],
           [
-            32,
-            "Bug Buzz"
-          ],
-          [
-            36,
-            "Sludge Bomb"
-          ],
-          [
-            40,
-            "Toxic"
-          ],
-          [
-            44,
+            35,
             "Sludge Wave"
           ]
         ],
@@ -38483,6 +46646,11 @@ backup_data = {
         "Shield Dust",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        110
       ]
     },
     "Lotad": {
@@ -38598,6 +46766,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ],
       "evos": [
         "Lombre"
@@ -38731,6 +46904,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ],
       "evos": [
         "Ludicolo"
@@ -38867,6 +47045,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        20
       ]
     },
     "Seedot": {
@@ -38965,6 +47148,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -38983,6 +47167,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ],
       "evos": [
         "Nuzleaf"
@@ -39104,7 +47293,7 @@ backup_data = {
           "Energy Ball",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -39125,6 +47314,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ],
       "evos": [
         "Shiftry"
@@ -39248,7 +47442,7 @@ backup_data = {
           "Energy Ball",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Retaliate",
@@ -39271,6 +47465,11 @@ backup_data = {
         "Chlorophyll",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        124
       ]
     },
     "Taillow": {
@@ -39328,6 +47527,10 @@ backup_data = {
             "Return"
           ],
           [
+            32,
+            "Double Kick"
+          ],
+          [
             35,
             "U-turn"
           ],
@@ -39350,6 +47553,14 @@ backup_data = {
           [
             50,
             "Brave Bird"
+          ],
+          [
+            55,
+            "Razor Wind"
+          ],
+          [
+            62,
+            "Double Hit"
           ]
         ],
         "tms": [
@@ -39380,6 +47591,11 @@ backup_data = {
         "Technician",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        113
       ],
       "evos": [
         "Swellow"
@@ -39449,6 +47665,10 @@ backup_data = {
             "Return"
           ],
           [
+            32,
+            "Double Kick"
+          ],
+          [
             35,
             "U-turn"
           ],
@@ -39471,6 +47691,14 @@ backup_data = {
           [
             50,
             "Brave Bird"
+          ],
+          [
+            55,
+            "Razor Wind"
+          ],
+          [
+            62,
+            "Double Hit"
           ]
         ],
         "tms": [
@@ -39503,6 +47731,11 @@ backup_data = {
         "Technician",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        113
       ]
     },
     "Wingull": {
@@ -39622,6 +47855,11 @@ backup_data = {
         "Keen Eye",
         "",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        51,
+        0,
+        44
       ],
       "evos": [
         "Pelipper"
@@ -39759,6 +47997,11 @@ backup_data = {
         "Air Lock",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        76,
+        0,
+        2
       ]
     },
     "Ralts": {
@@ -39827,6 +48070,10 @@ backup_data = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -39873,6 +48120,11 @@ backup_data = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ],
       "evos": [
         "Kirlia"
@@ -39953,6 +48205,10 @@ backup_data = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -39999,6 +48255,11 @@ backup_data = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ],
       "evos": [
         "Gardevoir",
@@ -40084,6 +48345,10 @@ backup_data = {
             "Future Sight"
           ],
           [
+            58,
+            "Heart Swap"
+          ],
+          [
             62,
             "Psycho Boost"
           ]
@@ -40134,6 +48399,11 @@ backup_data = {
         "Trace",
         "Trace",
         "Telepathy"
+      ],
+      "abilityIds": [
+        36,
+        36,
+        140
       ]
     },
     "Surskit": {
@@ -40244,6 +48514,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Rain Dish"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        44
       ],
       "evos": [
         "Masquerain"
@@ -40373,6 +48648,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        127
       ]
     },
     "Shroomish": {
@@ -40455,6 +48735,10 @@ backup_data = {
           [
             60,
             "Close Combat"
+          ],
+          [
+            65,
+            "Spore"
           ]
         ],
         "tms": [
@@ -40471,6 +48755,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -40486,6 +48771,11 @@ backup_data = {
         "Effect Spore",
         "Poison Heal",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        27,
+        90,
+        95
       ],
       "evos": [
         "Breloom"
@@ -40583,7 +48873,7 @@ backup_data = {
             "Close Combat"
           ],
           [
-            75,
+            65,
             "Spore"
           ]
         ],
@@ -40605,6 +48895,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -40631,6 +48922,11 @@ backup_data = {
         "Technician",
         "Poison Heal",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        90,
+        101
       ]
     },
     "Slakoth": {
@@ -40735,6 +49031,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -40753,6 +49050,11 @@ backup_data = {
         "Truant",
         "",
         ""
+      ],
+      "abilityIds": [
+        54,
+        0,
+        0
       ],
       "evos": [
         "Vigoroth"
@@ -40872,6 +49174,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -40893,6 +49196,11 @@ backup_data = {
         "Vital Spirit",
         "",
         ""
+      ],
+      "abilityIds": [
+        72,
+        0,
+        0
       ],
       "evos": [
         "Slaking"
@@ -41014,6 +49322,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -41037,6 +49346,11 @@ backup_data = {
         "Truant",
         "",
         ""
+      ],
+      "abilityIds": [
+        54,
+        0,
+        0
       ]
     },
     "Nincada": {
@@ -41121,6 +49435,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "False Swipe",
           "Flash",
@@ -41135,6 +49450,11 @@ backup_data = {
         "Shield Dust",
         "",
         "Run Away"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        50
       ],
       "evos": [
         "Ninjask"
@@ -41254,6 +49574,11 @@ backup_data = {
         "Technician",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        151
       ]
     },
     "Shedinja": {
@@ -41364,6 +49689,11 @@ backup_data = {
         "Wonder Guard",
         "",
         "Wonder Guard"
+      ],
+      "abilityIds": [
+        25,
+        0,
+        25
       ]
     },
     "Whismur": {
@@ -41451,6 +49781,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -41465,6 +49796,11 @@ backup_data = {
         "Soundproof",
         "",
         "Rattled"
+      ],
+      "abilityIds": [
+        43,
+        0,
+        155
       ],
       "evos": [
         "Loudred"
@@ -41570,6 +49906,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -41589,6 +49926,11 @@ backup_data = {
         "Soundproof",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        43,
+        0,
+        113
       ],
       "evos": [
         "Exploud"
@@ -41621,7 +49963,7 @@ backup_data = {
         "df": 68,
         "sa": 111,
         "sd": 63,
-        "sp": 98
+        "sp": 103
       },
       "learnset_info": {
         "learnset": [
@@ -41696,6 +50038,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -41704,6 +50047,8 @@ backup_data = {
           "Incinerate",
           "Retaliate",
           "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
           "Bulldoze",
           "Rock Slide",
           "Self-Destruct",
@@ -41718,6 +50063,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        113
       ]
     },
     "Makuhita": {
@@ -41743,7 +50093,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Mach Punch"
+            "Tackle"
           ],
           [
             1,
@@ -41751,7 +50101,7 @@ backup_data = {
           ],
           [
             1,
-            "Tackle"
+            "Mach Punch"
           ],
           [
             10,
@@ -41815,6 +50165,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -41835,6 +50186,11 @@ backup_data = {
         "Thick Fat",
         "Guts",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        47,
+        62,
+        125
       ],
       "evos": [
         "Hariyama"
@@ -41872,7 +50228,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Mach Punch"
+            "Tackle"
           ],
           [
             1,
@@ -41880,7 +50236,7 @@ backup_data = {
           ],
           [
             1,
-            "Tackle"
+            "Mach Punch"
           ],
           [
             10,
@@ -41945,6 +50301,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -41968,6 +50325,11 @@ backup_data = {
         "Thick Fat",
         "Guts",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        47,
+        62,
+        125
       ]
     },
     "Azurill": {
@@ -42044,6 +50406,11 @@ backup_data = {
         "Thick Fat",
         "Huge Power",
         "Huge Power"
+      ],
+      "abilityIds": [
+        47,
+        37,
+        37
       ]
     },
     "Nosepass": {
@@ -42132,6 +50499,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -42150,6 +50518,11 @@ backup_data = {
         "Magnet Pull",
         "Magnet Pull",
         "Sand Force"
+      ],
+      "abilityIds": [
+        42,
+        42,
+        159
       ],
       "evos": [
         "Probopass"
@@ -42273,6 +50646,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -42294,6 +50668,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        147
       ],
       "evos": [
         "Delcatty"
@@ -42418,6 +50797,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -42442,6 +50822,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Wonder Skin"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        147
       ]
     },
     "Sableye": {
@@ -42551,7 +50936,7 @@ backup_data = {
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -42569,6 +50954,11 @@ backup_data = {
         "Prankster",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        158
       ]
     },
     "Mawile": {
@@ -42656,6 +51046,10 @@ backup_data = {
           [
             65,
             "Guillotine"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -42682,13 +51076,14 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
           "Fling",
           "Charge Beam",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Stone Edge",
@@ -42707,6 +51102,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Aron": {
@@ -42802,6 +51202,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -42818,6 +51219,11 @@ backup_data = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ],
       "evos": [
         "Lairon"
@@ -42925,6 +51331,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -42942,6 +51349,11 @@ backup_data = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ],
       "evos": [
         "Aggron"
@@ -43061,6 +51473,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -43087,6 +51500,11 @@ backup_data = {
         "Battle Armor",
         "Rock Head",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        4,
+        69,
+        134
       ]
     },
     "Meditite": {
@@ -43141,7 +51559,7 @@ backup_data = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             30,
@@ -43149,7 +51567,7 @@ backup_data = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             35,
@@ -43199,6 +51617,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -43220,6 +51639,11 @@ backup_data = {
         "Pure Power",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        74,
+        0,
+        140
       ],
       "evos": [
         "Medicham"
@@ -43286,7 +51710,7 @@ backup_data = {
           ],
           [
             30,
-            "Ice Punch"
+            "Fire Punch"
           ],
           [
             30,
@@ -43294,7 +51718,7 @@ backup_data = {
           ],
           [
             30,
-            "Fire Punch"
+            "Ice Punch"
           ],
           [
             35,
@@ -43345,6 +51769,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -43368,6 +51793,11 @@ backup_data = {
         "Pure Power",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        74,
+        0,
+        140
       ]
     },
     "Electrike": {
@@ -43488,6 +51918,11 @@ backup_data = {
         "Intimidate",
         "",
         "Minus"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        58
       ],
       "evos": [
         "Manectric"
@@ -43622,6 +52057,11 @@ backup_data = {
         "Intimidate",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        31
       ]
     },
     "Plusle": {
@@ -43707,6 +52147,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -43724,6 +52165,11 @@ backup_data = {
         "Motor Drive",
         "",
         ""
+      ],
+      "abilityIds": [
+        78,
+        0,
+        0
       ]
     },
     "Minun": {
@@ -43825,6 +52271,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -43843,6 +52290,11 @@ backup_data = {
         "Volt Absorb",
         "",
         ""
+      ],
+      "abilityIds": [
+        10,
+        0,
+        0
       ]
     },
     "Volbeat": {
@@ -43960,6 +52412,7 @@ backup_data = {
           "Thunder Wave",
           "Struggle Bug",
           "Magical Leaf",
+          "X-Scissor",
           "Swagger",
           "U-turn",
           "Natural Gift",
@@ -43970,6 +52423,11 @@ backup_data = {
         "Volt Absorb",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        10,
+        0,
+        158
       ]
     },
     "Illumise": {
@@ -44081,6 +52539,11 @@ backup_data = {
         "Flash Fire",
         "",
         "Prankster"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        158
       ]
     },
     "Roselia": {
@@ -44186,6 +52649,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -44202,6 +52666,11 @@ backup_data = {
         "Natural Cure",
         "Poison Point",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        30,
+        38,
+        102
       ],
       "evos": [
         "Roserade"
@@ -44248,6 +52717,10 @@ backup_data = {
           [
             1,
             "Poison Gas"
+          ],
+          [
+            10,
+            "Gastro Acid"
           ],
           [
             14,
@@ -44299,6 +52772,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Dream Eater",
@@ -44312,6 +52786,11 @@ backup_data = {
         "Regenerator",
         "Regenerator",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        144
       ],
       "evos": [
         "Swalot"
@@ -44358,6 +52837,10 @@ backup_data = {
           [
             1,
             "Poison Gas"
+          ],
+          [
+            10,
+            "Gastro Acid"
           ],
           [
             14,
@@ -44411,6 +52894,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -44427,6 +52911,11 @@ backup_data = {
         "Regenerator",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        82
       ]
     },
     "Carvanha": {
@@ -44537,6 +53026,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        3
       ],
       "evos": [
         "Sharpedo"
@@ -44668,6 +53162,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Speed Boost"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        3
       ]
     },
     "Wailmer": {
@@ -44753,6 +53252,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -44772,6 +53272,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Pressure"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        46
       ],
       "evos": [
         "Wailord"
@@ -44870,6 +53375,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -44890,6 +53396,11 @@ backup_data = {
         "Levitate",
         "",
         "Pressure"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        46
       ]
     },
     "Numel": {
@@ -44993,6 +53504,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -45011,6 +53523,11 @@ backup_data = {
         "Solid Rock",
         "Sheer Force",
         "Own Tempo"
+      ],
+      "abilityIds": [
+        116,
+        125,
+        20
       ],
       "evos": [
         "Camerupt"
@@ -45130,6 +53647,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -45153,6 +53671,11 @@ backup_data = {
         "Shell Armor",
         "Sheer Force",
         "Simple"
+      ],
+      "abilityIds": [
+        75,
+        125,
+        86
       ]
     },
     "Torkoal": {
@@ -45244,6 +53767,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -45265,6 +53789,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ]
     },
     "Spoink": {
@@ -45291,15 +53820,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Pound"
-          ],
-          [
-            1,
             "Foul Play"
           ],
           [
             1,
             "Disable"
+          ],
+          [
+            1,
+            "Lucky Chant"
           ],
           [
             5,
@@ -45387,6 +53916,11 @@ backup_data = {
         "",
         "Gluttony"
       ],
+      "abilityIds": [
+        47,
+        0,
+        82
+      ],
       "evos": [
         "Grumpig"
       ],
@@ -45424,15 +53958,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Pound"
-          ],
-          [
-            1,
             "Foul Play"
           ],
           [
             1,
             "Disable"
+          ],
+          [
+            1,
+            "Lucky Chant"
           ],
           [
             5,
@@ -45526,6 +54060,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Gluttony"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        82
       ]
     },
     "Spinda": {
@@ -45644,6 +54183,11 @@ backup_data = {
         "Adaptability",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        126
       ]
     },
     "Trapinch": {
@@ -45742,6 +54286,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Struggle Bug",
           "Bulldoze",
@@ -45756,6 +54301,11 @@ backup_data = {
         "Arena Trap",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        71,
+        0,
+        125
       ],
       "evos": [
         "Vibrava"
@@ -45867,6 +54417,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Struggle Bug",
           "Bulldoze",
@@ -45883,6 +54434,11 @@ backup_data = {
         "Levitate",
         "Levitate",
         "Levitate"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        26
       ],
       "evos": [
         "Flygon"
@@ -45999,6 +54555,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Giga Impact",
@@ -46019,6 +54576,11 @@ backup_data = {
         "Levitate",
         "Levitate",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        125
       ]
     },
     "Cacnea": {
@@ -46115,6 +54677,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -46133,6 +54696,11 @@ backup_data = {
         "Water Absorb",
         "Sand Rush",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        11,
+        146,
+        11
       ],
       "evos": [
         "Cacturne"
@@ -46242,11 +54810,12 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -46265,6 +54834,11 @@ backup_data = {
         "Water Absorb",
         "Sand Rush",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        146,
+        8
       ]
     },
     "Swablu": {
@@ -46377,6 +54951,11 @@ backup_data = {
         "Cloud Nine",
         "",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        13,
+        0,
+        13
       ],
       "evos": [
         "Altaria"
@@ -46512,6 +55091,11 @@ backup_data = {
         "Cloud Nine",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        13,
+        0,
+        111
       ]
     },
     "Zangoose": {
@@ -46625,7 +55209,7 @@ backup_data = {
           "False Swipe",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -46644,6 +55228,11 @@ backup_data = {
         "Toxic Boost",
         "",
         "Scrappy"
+      ],
+      "abilityIds": [
+        137,
+        0,
+        113
       ]
     },
     "Seviper": {
@@ -46705,6 +55294,10 @@ backup_data = {
             "Submission"
           ],
           [
+            35,
+            "Gastro Acid"
+          ],
+          [
             38,
             "Poison Jab"
           ],
@@ -46762,6 +55355,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Infiltrator"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        151
       ]
     },
     "Lunatone": {
@@ -46777,7 +55375,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 90,
         "at": 55,
         "df": 70,
         "sa": 125,
@@ -46807,27 +55405,35 @@ backup_data = {
             "Hypnosis"
           ],
           [
+            23,
+            "Ancient Power"
+          ],
+          [
             25,
             "Hex"
+          ],
+          [
+            29,
+            "Power Gem"
           ],
           [
             32,
             "Moonlight"
           ],
           [
-            38,
+            34,
             "Shadow Ball"
           ],
           [
-            42,
-            "Power Gem"
+            40,
+            "Will-O-Wisp"
           ],
           [
             46,
             "Earth Power"
           ],
           [
-            60,
+            50,
             "Stealth Rock"
           ]
         ],
@@ -46855,10 +55461,11 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -46880,6 +55487,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Solrock": {
@@ -46895,7 +55507,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 90,
         "at": 125,
         "df": 110,
         "sa": 55,
@@ -46981,13 +55593,14 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Rock Polish",
@@ -47008,6 +55621,11 @@ backup_data = {
         "Levitate",
         "",
         "Drought"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        70
       ]
     },
     "Barboach": {
@@ -47099,6 +55717,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Bulldoze",
@@ -47113,6 +55732,11 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Hydration"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        93
       ],
       "evos": [
         "Whiscash"
@@ -47218,6 +55842,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -47237,6 +55862,11 @@ backup_data = {
         "Adaptability",
         "Adaptability",
         "Drizzle"
+      ],
+      "abilityIds": [
+        91,
+        91,
+        2
       ]
     },
     "Corphish": {
@@ -47342,6 +55972,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Scald",
@@ -47363,6 +55994,11 @@ backup_data = {
         "Adaptability",
         "Shell Armor",
         "Adaptability"
+      ],
+      "abilityIds": [
+        91,
+        75,
+        91
       ],
       "evos": [
         "Crawdaunt"
@@ -47483,6 +56119,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Scald",
@@ -47508,6 +56145,11 @@ backup_data = {
         "Adaptability",
         "Shell Armor",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        75,
+        149
       ]
     },
     "Baltoy": {
@@ -47573,6 +56215,10 @@ backup_data = {
             "Earth Power"
           ],
           [
+            40,
+            "Wonder Room"
+          ],
+          [
             44,
             "Trick Room"
           ],
@@ -47607,6 +56253,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Ally Switch",
           "Charge Beam",
@@ -47630,6 +56277,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        26,
+        0,
+        0
+      ],
       "evos": [
         "Claydol"
       ],
@@ -47640,7 +56292,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        36
+        34
       ]
     },
     "Claydol": {
@@ -47706,6 +56358,10 @@ backup_data = {
             "Earth Power"
           ],
           [
+            40,
+            "Wonder Room"
+          ],
+          [
             44,
             "Trick Room"
           ],
@@ -47741,6 +56397,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Ally Switch",
           "Charge Beam",
@@ -47767,6 +56424,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Lileep": {
@@ -47853,6 +56515,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Rock Polish",
@@ -47870,6 +56533,11 @@ backup_data = {
         "Poison Heal",
         "Water Absorb",
         "Storm Drain"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        114
       ],
       "evos": [
         "Cradily"
@@ -47971,6 +56639,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -47993,6 +56662,11 @@ backup_data = {
         "Poison Heal",
         "Water Absorb",
         "Storm Drain"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        114
       ]
     },
     "Anorith": {
@@ -48104,6 +56778,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Rock Polish",
@@ -48122,6 +56797,11 @@ backup_data = {
         "Battle Armor",
         "Skill Link",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        4,
+        92,
+        33
       ],
       "evos": [
         "Armaldo"
@@ -48247,6 +56927,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Giga Impact",
@@ -48270,6 +56951,11 @@ backup_data = {
         "Battle Armor",
         "Skill Link",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        4,
+        92,
+        33
       ]
     },
     "Feebas": {
@@ -48330,6 +57016,10 @@ backup_data = {
             "Rest"
           ],
           [
+            60,
+            "Heart Swap"
+          ],
+          [
             65,
             "Hydro Cannon"
           ]
@@ -48348,6 +57038,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -48361,6 +57052,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Adaptability"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        91
       ],
       "evos": [
         "Milotic",
@@ -48437,6 +57133,10 @@ backup_data = {
             "Rest"
           ],
           [
+            60,
+            "Heart Swap"
+          ],
+          [
             65,
             "Hydro Cannon"
           ]
@@ -48458,6 +57158,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -48474,6 +57175,11 @@ backup_data = {
         "Water Absorb",
         "",
         "Filter"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        111
       ]
     },
     "Castform": {
@@ -48499,7 +57205,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Lucky Chant"
           ],
           [
             10,
@@ -48530,8 +57236,16 @@ backup_data = {
             "Air Slash"
           ],
           [
+            35,
+            "Volt Switch"
+          ],
+          [
             40,
             "Flamethrower"
+          ],
+          [
+            40,
+            "Thunderbolt"
           ],
           [
             40,
@@ -48542,8 +57256,24 @@ backup_data = {
             "Aeroblast"
           ],
           [
-            40,
-            "Thunderbolt"
+            45,
+            "Hydro Cannon"
+          ],
+          [
+            45,
+            "Razor Wind"
+          ],
+          [
+            45,
+            "Overheat"
+          ],
+          [
+            45,
+            "Zap Cannon"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -48556,10 +57286,6 @@ backup_data = {
           [
             50,
             "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
           ],
           [
             50,
@@ -48597,6 +57323,7 @@ backup_data = {
           "Incinerate",
           "Retaliate",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Magical Leaf",
           "Self-Destruct",
@@ -48608,6 +57335,11 @@ backup_data = {
         "Forecast",
         "",
         "Trace"
+      ],
+      "abilityIds": [
+        59,
+        0,
+        36
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -48647,6 +57379,10 @@ backup_data = {
           [
             1,
             "Knock Off"
+          ],
+          [
+            1,
+            "Shadow Sneak"
           ],
           [
             5,
@@ -48747,6 +57483,11 @@ backup_data = {
         "Adaptability",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        149
       ]
     },
     "Shuppet": {
@@ -48785,11 +57526,11 @@ backup_data = {
           ],
           [
             7,
-            "Shadow Sneak"
+            "Headbutt"
           ],
           [
             12,
-            "Headbutt"
+            "Shadow Sneak"
           ],
           [
             17,
@@ -48846,7 +57587,7 @@ backup_data = {
           "Round",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -48860,6 +57601,11 @@ backup_data = {
         "Insomnia",
         "Shadow Tag",
         "Cursed Body"
+      ],
+      "abilityIds": [
+        15,
+        23,
+        130
       ],
       "evos": [
         "Banette"
@@ -48910,11 +57656,11 @@ backup_data = {
           ],
           [
             7,
-            "Shadow Sneak"
+            "Headbutt"
           ],
           [
             12,
-            "Headbutt"
+            "Shadow Sneak"
           ],
           [
             17,
@@ -48974,7 +57720,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -48990,6 +57736,11 @@ backup_data = {
         "Insomnia",
         "Shadow Tag",
         "Cursed Body"
+      ],
+      "abilityIds": [
+        15,
+        23,
+        130
       ]
     },
     "Duskull": {
@@ -49110,7 +57861,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -49123,6 +57874,11 @@ backup_data = {
         "Levitate",
         "Pressure",
         ""
+      ],
+      "abilityIds": [
+        26,
+        46,
+        0
       ],
       "evos": [
         "Dusclops"
@@ -49258,7 +58014,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -49276,6 +58032,11 @@ backup_data = {
         "Cursed Body",
         "Pressure",
         ""
+      ],
+      "abilityIds": [
+        130,
+        46,
+        0
       ],
       "evos": [
         "Dusknoir"
@@ -49390,6 +58151,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -49410,6 +58172,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Harvest"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        139
       ]
     },
     "Chimecho": {
@@ -49518,6 +58285,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -49536,6 +58304,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Absol": {
@@ -49686,6 +58459,11 @@ backup_data = {
         "Rattled",
         "Justified",
         "Super Luck"
+      ],
+      "abilityIds": [
+        155,
+        154,
+        105
       ]
     },
     "Wynaut": {
@@ -49744,6 +58522,11 @@ backup_data = {
         "Shadow Tag",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        23,
+        0,
+        140
       ],
       "evos": [
         "Wobbuffet"
@@ -49827,6 +58610,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Flash",
           "Frost Breath",
@@ -49838,6 +58622,11 @@ backup_data = {
         "Inner Focus",
         "",
         "Moody"
+      ],
+      "abilityIds": [
+        39,
+        0,
+        141
       ],
       "evos": [
         "Glalie",
@@ -49911,8 +58700,16 @@ backup_data = {
             "Rock Slide"
           ],
           [
+            33,
+            "Head Charge"
+          ],
+          [
             37,
             "Icicle Crash"
+          ],
+          [
+            40,
+            "Superpower"
           ],
           [
             43,
@@ -49921,6 +58718,10 @@ backup_data = {
           [
             50,
             "Stone Edge"
+          ],
+          [
+            65,
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -49942,6 +58743,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Payback",
@@ -49958,9 +58760,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Rock Head",
         "",
-        "Rock Head"
+        "Intimidate"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        22
       ]
     },
     "Spheal": {
@@ -50057,6 +58864,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -50075,6 +58883,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ],
       "evos": [
         "Sealeo"
@@ -50184,6 +58997,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Bulldoze",
@@ -50202,6 +59016,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ],
       "evos": [
         "Walrein"
@@ -50316,6 +59135,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Giga Impact",
@@ -50335,6 +59155,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Oblivious"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        12
       ]
     },
     "Clamperl": {
@@ -50389,6 +59214,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -50402,6 +59228,11 @@ backup_data = {
         "Shell Armor",
         "Swift Swim",
         "Rattled"
+      ],
+      "abilityIds": [
+        75,
+        33,
+        155
       ],
       "evos": [
         "Huntail",
@@ -50504,6 +59335,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -50518,6 +59350,11 @@ backup_data = {
         "Shell Armor",
         "Swift Swim",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        75,
+        33,
+        125
       ]
     },
     "Gorebyss": {
@@ -50607,6 +59444,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -50622,6 +59460,11 @@ backup_data = {
         "Swift Swim",
         "Shell Armor",
         "Hydration"
+      ],
+      "abilityIds": [
+        33,
+        75,
+        93
       ]
     },
     "Relicanth": {
@@ -50727,6 +59570,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -50747,6 +59591,11 @@ backup_data = {
         "Swift Swim",
         "Rock Head",
         "Sturdy"
+      ],
+      "abilityIds": [
+        33,
+        69,
+        5
       ]
     },
     "Luvdisc": {
@@ -50808,6 +59657,10 @@ backup_data = {
             "Hydro Pump"
           ],
           [
+            51,
+            "Heart Swap"
+          ],
+          [
             54,
             "Mist Ball"
           ],
@@ -50838,6 +59691,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -50851,6 +59705,11 @@ backup_data = {
         "Swift Swim",
         "",
         "Hydration"
+      ],
+      "abilityIds": [
+        33,
+        0,
+        93
       ]
     },
     "Bagon": {
@@ -50951,6 +59810,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -50966,6 +59826,11 @@ backup_data = {
         "Rock Head",
         "Sheer Force",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        69,
+        125,
+        125
       ],
       "evos": [
         "Shelgon"
@@ -51078,6 +59943,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -51093,6 +59959,11 @@ backup_data = {
         "Rock Head",
         "Shell Armor",
         "Overcoat"
+      ],
+      "abilityIds": [
+        69,
+        75,
+        142
       ],
       "evos": [
         "Salamence"
@@ -51208,6 +60079,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -51228,6 +60100,11 @@ backup_data = {
         "Rock Head",
         "Intimidate",
         "Moxie"
+      ],
+      "abilityIds": [
+        69,
+        22,
+        153
       ]
     },
     "Beldum": {
@@ -51305,12 +60182,19 @@ backup_data = {
             "Heavy Slam"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ],
       "evos": [
         "Metang"
@@ -51421,6 +60305,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -51441,6 +60326,11 @@ backup_data = {
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ],
       "evos": [
         "Metagross"
@@ -51551,6 +60441,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -51572,6 +60463,11 @@ backup_data = {
         "Clear Body",
         "Iron Fist",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        89,
+        135
       ]
     },
     "Regirock": {
@@ -51690,6 +60586,11 @@ backup_data = {
         "Clear Body",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        5
       ]
     },
     "Regice": {
@@ -51809,6 +60710,11 @@ backup_data = {
         "Clear Body",
         "",
         "Ice Body"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        115
       ]
     },
     "Registeel": {
@@ -51937,6 +60843,11 @@ backup_data = {
         "Clear Body",
         "",
         "Light Metal"
+      ],
+      "abilityIds": [
+        29,
+        0,
+        135
       ]
     },
     "Latias": {
@@ -52090,6 +61001,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Latios": {
@@ -52243,6 +61159,11 @@ backup_data = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Kyogre": {
@@ -52361,6 +61282,11 @@ backup_data = {
         "Drizzle",
         "",
         ""
+      ],
+      "abilityIds": [
+        2,
+        0,
+        0
       ]
     },
     "Groudon": {
@@ -52491,6 +61417,11 @@ backup_data = {
         "Drought",
         "",
         ""
+      ],
+      "abilityIds": [
+        70,
+        0,
+        0
       ]
     },
     "Rayquaza": {
@@ -52628,6 +61559,11 @@ backup_data = {
         "Air Lock",
         "",
         ""
+      ],
+      "abilityIds": [
+        76,
+        0,
+        0
       ]
     },
     "Jirachi": {
@@ -52762,6 +61698,11 @@ backup_data = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ]
     },
     "Deoxys": {
@@ -52900,6 +61841,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Deoxys-Attack",
@@ -53004,6 +61950,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -53021,6 +61968,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Grotle"
@@ -53128,6 +62080,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -53146,6 +62099,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Torterra"
@@ -53258,6 +62216,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -53280,6 +62239,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Rock Head"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        69
       ]
     },
     "Chimchar": {
@@ -53333,15 +62297,15 @@ backup_data = {
           ],
           [
             32,
-            "Thunder Punch"
-          ],
-          [
-            32,
             "Shadow Punch"
           ],
           [
             32,
             "Fire Punch"
+          ],
+          [
+            32,
+            "Thunder Punch"
           ],
           [
             36,
@@ -53400,6 +62364,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -53422,6 +62387,11 @@ backup_data = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ],
       "evos": [
         "Monferno"
@@ -53488,15 +62458,15 @@ backup_data = {
           ],
           [
             32,
-            "Fire Punch"
-          ],
-          [
-            32,
             "Thunder Punch"
           ],
           [
             32,
             "Shadow Punch"
+          ],
+          [
+            32,
+            "Fire Punch"
           ],
           [
             36,
@@ -53556,6 +62526,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -53583,6 +62554,11 @@ backup_data = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ],
       "evos": [
         "Infernape"
@@ -53649,15 +62625,15 @@ backup_data = {
           ],
           [
             32,
-            "Shadow Punch"
-          ],
-          [
-            32,
             "Fire Punch"
           ],
           [
             32,
             "Thunder Punch"
+          ],
+          [
+            32,
+            "Shadow Punch"
           ],
           [
             36,
@@ -53722,6 +62698,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Overheat",
@@ -53752,6 +62729,11 @@ backup_data = {
         "Iron Fist",
         "No Guard",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        89
       ]
     },
     "Piplup": {
@@ -53850,6 +62832,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -53867,8 +62850,13 @@ backup_data = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Defiant"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        128
       ],
       "evos": [
         "Prinplup"
@@ -53980,6 +62968,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -54000,8 +62989,13 @@ backup_data = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Defiant"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        128
       ],
       "evos": [
         "Empoleon"
@@ -54117,6 +63111,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -54142,8 +63137,13 @@ backup_data = {
       },
       "abs": [
         "Swift Swim",
-        "Vital Spirit",
+        "Swift Swim",
         "Drizzle"
+      ],
+      "abilityIds": [
+        33,
+        33,
+        2
       ]
     },
     "Starly": {
@@ -54248,6 +63248,11 @@ backup_data = {
         "Keen Eye",
         "Reckless",
         "Keen Eye"
+      ],
+      "abilityIds": [
+        51,
+        120,
+        51
       ],
       "evos": [
         "Staravia"
@@ -54365,6 +63370,11 @@ backup_data = {
         "Intimidate",
         "Reckless",
         "Reckless"
+      ],
+      "abilityIds": [
+        22,
+        120,
+        120
       ],
       "evos": [
         "Staraptor"
@@ -54484,6 +63494,11 @@ backup_data = {
         "Intimidate",
         "Reckless",
         "Reckless"
+      ],
+      "abilityIds": [
+        22,
+        120,
+        120
       ]
     },
     "Bidoof": {
@@ -54602,6 +63617,11 @@ backup_data = {
         "Unaware",
         "Unaware",
         "Moody"
+      ],
+      "abilityIds": [
+        109,
+        109,
+        141
       ],
       "evos": [
         "Bibarel"
@@ -54742,6 +63762,11 @@ backup_data = {
         "Unaware",
         "Unaware",
         "Simple"
+      ],
+      "abilityIds": [
+        109,
+        109,
+        86
       ]
     },
     "Kricketot": {
@@ -54811,6 +63836,10 @@ backup_data = {
             "Hyper Voice"
           ],
           [
+            35,
+            "Twineedle"
+          ],
+          [
             40,
             "U-turn"
           ],
@@ -54819,12 +63848,19 @@ backup_data = {
             "Perish Song"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Bulldoze"
+        ]
       },
       "abs": [
         "Technician",
         "Adaptability",
         "Run Away"
+      ],
+      "abilityIds": [
+        101,
+        91,
+        50
       ],
       "evos": [
         "Kricketune"
@@ -54906,6 +63942,10 @@ backup_data = {
             "Hyper Voice"
           ],
           [
+            35,
+            "Twineedle"
+          ],
+          [
             40,
             "U-turn"
           ],
@@ -54932,6 +63972,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "False Swipe",
@@ -54939,6 +63980,7 @@ backup_data = {
           "Flash",
           "Swords Dance",
           "Struggle Bug",
+          "Bulldoze",
           "X-Scissor",
           "Swagger",
           "Natural Gift",
@@ -54951,6 +63993,11 @@ backup_data = {
         "Technician",
         "Adaptability",
         "Technician"
+      ],
+      "abilityIds": [
+        101,
+        91,
+        101
       ]
     },
     "Shinx": {
@@ -55000,15 +64047,19 @@ backup_data = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -55027,7 +64078,19 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -55056,6 +64119,7 @@ backup_data = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Flash",
           "Volt Switch",
@@ -55069,8 +64133,13 @@ backup_data = {
       },
       "abs": [
         "Rivalry",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        79,
+        120,
+        62
       ],
       "evos": [
         "Luxio"
@@ -55133,15 +64202,19 @@ backup_data = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -55160,7 +64233,19 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -55189,6 +64274,7 @@ backup_data = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Flash",
           "Volt Switch",
@@ -55202,8 +64288,13 @@ backup_data = {
       },
       "abs": [
         "No Guard",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        99,
+        120,
+        62
       ],
       "evos": [
         "Luxray"
@@ -55266,15 +64357,19 @@ backup_data = {
           ],
           [
             25,
-            "Thunder Fang"
-          ],
-          [
-            25,
             "Fire Fang"
           ],
           [
             25,
             "Ice Fang"
+          ],
+          [
+            25,
+            "Thunder Fang"
+          ],
+          [
+            27,
+            "Head Charge"
           ],
           [
             30,
@@ -55293,7 +64388,19 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            50,
+            44,
+            "Thunder"
+          ],
+          [
+            46,
+            "Superpower"
+          ],
+          [
+            49,
+            "Focus Blast"
+          ],
+          [
+            52,
             "Volt Tackle"
           ],
           [
@@ -55323,6 +64430,7 @@ backup_data = {
           "Attract",
           "Thief",
           "Round",
+          "Focus Blast",
           "Charge Beam",
           "Giga Impact",
           "Flash",
@@ -55337,8 +64445,13 @@ backup_data = {
       },
       "abs": [
         "No Guard",
-        "Intimidate",
+        "Reckless",
         "Guts"
+      ],
+      "abilityIds": [
+        99,
+        120,
+        62
       ]
     },
     "Budew": {
@@ -55404,6 +64517,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -55419,6 +64533,11 @@ backup_data = {
         "Natural Cure",
         "Poison Point",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        30,
+        38,
+        102
       ]
     },
     "Roserade": {
@@ -55525,6 +64644,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -55542,6 +64662,11 @@ backup_data = {
         "Natural Cure",
         "Technician",
         "Technician"
+      ],
+      "abilityIds": [
+        30,
+        101,
+        101
       ]
     },
     "Cranidos": {
@@ -55663,6 +64788,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ],
       "evos": [
         "Rampardos"
@@ -55805,6 +64935,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        125
       ]
     },
     "Shieldon": {
@@ -55907,6 +65042,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Rock Polish",
@@ -55924,6 +65060,11 @@ backup_data = {
         "Shield Dust",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        43
       ],
       "evos": [
         "Bastiodon"
@@ -56039,6 +65180,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Giga Impact",
@@ -56057,6 +65199,11 @@ backup_data = {
         "Shield Dust",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        19,
+        0,
+        43
       ]
     },
     "Burmy": {
@@ -56121,12 +65268,19 @@ backup_data = {
             "Leaf Storm"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Overcoat",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        142
       ],
       "evos": [
         "Wormadam",
@@ -56204,6 +65358,10 @@ backup_data = {
             "Energy Ball"
           ],
           [
+            44,
+            "Trick Room"
+          ],
+          [
             50,
             "Leaf Storm"
           ]
@@ -56242,6 +65400,11 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -56361,6 +65524,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        110
       ]
     },
     "Combee": {
@@ -56415,7 +65583,11 @@ backup_data = {
           ],
           [
             32,
-            "Bug Buzz"
+            "Attack Order"
+          ],
+          [
+            34,
+            "U-turn"
           ],
           [
             35,
@@ -56423,23 +65595,26 @@ backup_data = {
           ],
           [
             38,
-            "Attack Order"
+            "Toxic"
           ],
           [
             42,
             "Heal Order"
-          ],
-          [
-            50,
-            "Toxic"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Honey Gather",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        118,
+        0,
+        55
       ],
       "evos": [
         "Vespiquen"
@@ -56506,7 +65681,11 @@ backup_data = {
           ],
           [
             32,
-            "Bug Buzz"
+            "Attack Order"
+          ],
+          [
+            34,
+            "U-turn"
           ],
           [
             35,
@@ -56514,15 +65693,11 @@ backup_data = {
           ],
           [
             38,
-            "Attack Order"
+            "Toxic"
           ],
           [
             42,
             "Heal Order"
-          ],
-          [
-            50,
-            "Toxic"
           ]
         ],
         "tms": [
@@ -56560,6 +65735,11 @@ backup_data = {
         "Filter",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        111,
+        0,
+        127
       ]
     },
     "Pachirisu": {
@@ -56643,6 +65823,14 @@ backup_data = {
           [
             50,
             "Helping Hand"
+          ],
+          [
+            54,
+            "Psycho Boost"
+          ],
+          [
+            58,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -56663,6 +65851,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -56681,6 +65870,11 @@ backup_data = {
         "Volt Absorb",
         "",
         "Volt Absorb"
+      ],
+      "abilityIds": [
+        10,
+        0,
+        10
       ]
     },
     "Buizel": {
@@ -56784,6 +65978,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -56802,6 +65997,11 @@ backup_data = {
         "Technician",
         "",
         "Water Veil"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        41
       ],
       "evos": [
         "Floatzel"
@@ -56921,6 +66121,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -56942,6 +66143,11 @@ backup_data = {
         "Technician",
         "",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        33
       ]
     },
     "Cherubi": {
@@ -56970,12 +66176,24 @@ backup_data = {
             "Razor Leaf"
           ],
           [
+            5,
+            "Lucky Chant"
+          ],
+          [
             10,
             "Morning Sun"
           ],
           [
-            25,
+            15,
             "Flame Wheel"
+          ],
+          [
+            20,
+            "Seed Bomb"
+          ],
+          [
+            25,
+            "Blaze Kick"
           ],
           [
             27,
@@ -56987,27 +66205,19 @@ backup_data = {
           ],
           [
             33,
-            "Blaze Kick"
-          ],
-          [
-            35,
-            "Seed Bomb"
-          ],
-          [
-            40,
-            "Helping Hand"
-          ],
-          [
-            43,
             "Rock Climb"
           ],
           [
-            46,
+            36,
+            "Flare Blitz"
+          ],
+          [
+            40,
             "Wood Hammer"
           ],
           [
-            50,
-            "Flare Blitz"
+            44,
+            "Helping Hand"
           ]
         ],
         "tms": [
@@ -57022,6 +66232,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -57035,7 +66246,12 @@ backup_data = {
       "abs": [
         "Chlorophyll",
         "",
-        ""
+        "Flower Gift"
+      ],
+      "abilityIds": [
+        34,
+        0,
+        122
       ],
       "evos": [
         "Cherrim"
@@ -57077,12 +66293,24 @@ backup_data = {
             "Razor Leaf"
           ],
           [
+            5,
+            "Lucky Chant"
+          ],
+          [
             10,
             "Morning Sun"
           ],
           [
-            25,
+            15,
             "Flame Wheel"
+          ],
+          [
+            20,
+            "Seed Bomb"
+          ],
+          [
+            25,
+            "Blaze Kick"
           ],
           [
             27,
@@ -57094,27 +66322,19 @@ backup_data = {
           ],
           [
             33,
-            "Blaze Kick"
-          ],
-          [
-            35,
-            "Seed Bomb"
-          ],
-          [
-            40,
-            "Helping Hand"
-          ],
-          [
-            43,
             "Rock Climb"
           ],
           [
-            46,
+            36,
+            "Flare Blitz"
+          ],
+          [
+            40,
             "Wood Hammer"
           ],
           [
-            50,
-            "Flare Blitz"
+            44,
+            "Helping Hand"
           ]
         ],
         "tms": [
@@ -57133,6 +66353,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
@@ -57146,9 +66367,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Flower Gift",
+        "Sap Sipper",
         "",
-        ""
+        "Flower Gift"
+      ],
+      "abilityIds": [
+        157,
+        0,
+        122
       ]
     },
     "Shellos": {
@@ -57240,6 +66466,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -57252,6 +66479,11 @@ backup_data = {
         "Poison Heal",
         "Water Absorb",
         "Sand Force"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        159
       ],
       "evos": [
         "Gastrodon"
@@ -57362,6 +66594,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -57382,6 +66615,11 @@ backup_data = {
         "Poison Heal",
         "Water Absorb",
         "Sand Force"
+      ],
+      "abilityIds": [
+        90,
+        11,
+        159
       ]
     },
     "Ambipom": {
@@ -57505,6 +66743,11 @@ backup_data = {
         "Technician",
         "Skill Link"
       ],
+      "abilityIds": [
+        92,
+        101,
+        92
+      ],
       "evos": [
         "Aipom"
       ],
@@ -57581,6 +66824,10 @@ backup_data = {
             "Tailwind"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Roost"
           ],
@@ -57616,7 +66863,7 @@ backup_data = {
           "Charge Beam",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Flash",
@@ -57634,6 +66881,11 @@ backup_data = {
         "Flare Boost",
         "Unburden",
         "Flare Boost"
+      ],
+      "abilityIds": [
+        138,
+        84,
+        138
       ],
       "evos": [
         "Drifblim"
@@ -57711,6 +66963,10 @@ backup_data = {
             "Tailwind"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Roost"
           ],
@@ -57746,7 +67002,7 @@ backup_data = {
           "Charge Beam",
           "Will-O-Wisp",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Payback",
           "Giga Impact",
@@ -57766,6 +67022,11 @@ backup_data = {
         "Flare Boost",
         "Unburden",
         "Flare Boost"
+      ],
+      "abilityIds": [
+        138,
+        84,
+        138
       ]
     },
     "Buneary": {
@@ -57804,6 +67065,10 @@ backup_data = {
           [
             10,
             "Double Kick"
+          ],
+          [
+            13,
+            "Mach Punch"
           ],
           [
             16,
@@ -57870,9 +67135,11 @@ backup_data = {
           "Dig",
           "Shadow Ball",
           "Double Team",
+          "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Fling",
@@ -57891,6 +67158,11 @@ backup_data = {
         "Scrappy",
         "Technician",
         "Limber"
+      ],
+      "abilityIds": [
+        113,
+        101,
+        7
       ],
       "evos": [
         "Lopunny"
@@ -57944,6 +67216,10 @@ backup_data = {
             "Double Kick"
           ],
           [
+            13,
+            "Mach Punch"
+          ],
+          [
             16,
             "Headbutt"
           ],
@@ -57961,15 +67237,15 @@ backup_data = {
           ],
           [
             33,
-            "Thunder Punch"
-          ],
-          [
-            33,
             "Fire Punch"
           ],
           [
             33,
             "Ice Punch"
+          ],
+          [
+            33,
+            "Thunder Punch"
           ],
           [
             37,
@@ -58012,9 +67288,11 @@ backup_data = {
           "Dig",
           "Shadow Ball",
           "Double Team",
+          "Aerial Ace",
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -58036,6 +67314,11 @@ backup_data = {
         "Scrappy",
         "Technician",
         "Limber"
+      ],
+      "abilityIds": [
+        113,
+        101,
+        7
       ]
     },
     "Mismagius": {
@@ -58101,6 +67384,10 @@ backup_data = {
             "Shadow Ball"
           ],
           [
+            46,
+            "Wonder Room"
+          ],
+          [
             50,
             "Future Sight"
           ],
@@ -58137,11 +67424,12 @@ backup_data = {
           "Energy Ball",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
+          "Magical Leaf",
           "Dream Eater",
           "Swagger",
           "Natural Gift",
@@ -58152,6 +67440,11 @@ backup_data = {
         "Levitate",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        23
       ]
     },
     "Honchkrow": {
@@ -58252,7 +67545,7 @@ backup_data = {
           "Round",
           "Incinerate",
           "Quash",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -58270,6 +67563,11 @@ backup_data = {
         "Prankster",
         "Insomnia",
         "Moxie"
+      ],
+      "abilityIds": [
+        158,
+        15,
+        153
       ]
     },
     "Glameow": {
@@ -58397,6 +67695,11 @@ backup_data = {
         "Defiant",
         "Keen Eye"
       ],
+      "abilityIds": [
+        47,
+        128,
+        51
+      ],
       "evos": [
         "Purugly"
       ],
@@ -58489,7 +67792,7 @@ backup_data = {
             "U-turn"
           ],
           [
-            65,
+            60,
             "Sucker Punch"
           ]
         ],
@@ -58538,6 +67841,11 @@ backup_data = {
         "Thick Fat",
         "Defiant",
         "Defiant"
+      ],
+      "abilityIds": [
+        47,
+        128,
+        128
       ]
     },
     "Chingling": {
@@ -58646,6 +67954,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Charge Beam",
@@ -58662,6 +67971,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Chimecho"
@@ -58799,6 +68113,11 @@ backup_data = {
         "Flare Boost",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        138,
+        0,
+        127
       ],
       "evos": [
         "Skuntank"
@@ -58940,6 +68259,11 @@ backup_data = {
         "Flare Boost",
         "",
         "Unnerve"
+      ],
+      "abilityIds": [
+        138,
+        0,
+        127
       ]
     },
     "Bronzor": {
@@ -59041,6 +68365,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -59062,6 +68387,11 @@ backup_data = {
         "Levitate",
         "Heatproof",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        26,
+        85,
+        134
       ],
       "evos": [
         "Bronzong"
@@ -59176,6 +68506,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -59201,6 +68532,11 @@ backup_data = {
         "Levitate",
         "Heatproof",
         "Heavy Metal"
+      ],
+      "abilityIds": [
+        26,
+        85,
+        134
       ]
     },
     "Bonsly": {
@@ -59306,6 +68642,11 @@ backup_data = {
         "Solid Rock",
         "Rock Head",
         "Rattled"
+      ],
+      "abilityIds": [
+        116,
+        69,
+        155
       ],
       "evos": [
         "Sudowoodo"
@@ -59458,6 +68799,11 @@ backup_data = {
         "Filter",
         "Technician"
       ],
+      "abilityIds": [
+        43,
+        111,
+        101
+      ],
       "evos": [
         "Mr. Mime"
       ],
@@ -59552,6 +68898,11 @@ backup_data = {
         "Serene Grace",
         "Friend Guard"
       ],
+      "abilityIds": [
+        30,
+        32,
+        132
+      ],
       "evos": [
         "Chansey"
       ],
@@ -59633,7 +68984,7 @@ backup_data = {
           ],
           [
             46,
-            "Taunt"
+            "Aeroblast"
           ],
           [
             50,
@@ -59679,9 +69030,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Soundproof",
-        "",
+        "Static",
+        "Quick Feet",
         "Big Pecks"
+      ],
+      "abilityIds": [
+        9,
+        95,
+        145
       ]
     },
     "Spiritomb": {
@@ -59743,11 +69099,11 @@ backup_data = {
             "Dark Pulse"
           ],
           [
-            60,
+            45,
             "Payback"
           ],
           [
-            65,
+            50,
             "Sucker Punch"
           ]
         ],
@@ -59774,7 +69130,7 @@ backup_data = {
           "Round",
           "Quash",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Retaliate",
           "Giga Impact",
@@ -59791,6 +69147,11 @@ backup_data = {
         "Unnerve",
         "Magic Bounce",
         "Wonder Guard"
+      ],
+      "abilityIds": [
+        127,
+        156,
+        25
       ]
     },
     "Gible": {
@@ -59896,6 +69257,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -59913,6 +69275,11 @@ backup_data = {
         "Sand Veil",
         "",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        8,
+        0,
+        24
       ],
       "evos": [
         "Gabite"
@@ -60030,6 +69397,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Incinerate",
           "Shadow Claw",
@@ -60047,6 +69415,11 @@ backup_data = {
         "Rough Skin",
         "Sand Force",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        24,
+        159,
+        24
       ],
       "evos": [
         "Garchomp"
@@ -60166,6 +69539,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -60190,6 +69564,11 @@ backup_data = {
         "Rough Skin",
         "Sand Force",
         "Rough Skin"
+      ],
+      "abilityIds": [
+        24,
+        159,
+        24
       ]
     },
     "Munchlax": {
@@ -60287,6 +69666,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Incinerate",
@@ -60305,6 +69685,11 @@ backup_data = {
         "Thick Fat",
         "Thick Fat",
         "Gluttony"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        82
       ],
       "evos": [
         "Snorlax"
@@ -60420,6 +69805,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -60439,9 +69825,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
+        "Justified",
+        "",
         "Prankster"
+      ],
+      "abilityIds": [
+        154,
+        0,
+        158
       ],
       "evos": [
         "Lucario"
@@ -60563,6 +69954,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -60585,9 +69977,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
-        "Justified"
+        "Justified",
+        "",
+        "Inner Focus"
+      ],
+      "abilityIds": [
+        154,
+        0,
+        39
       ]
     },
     "Hippopotas": {
@@ -60656,11 +70053,15 @@ backup_data = {
             "Rest"
           ],
           [
-            55,
+            44,
+            "Stealth Rock"
+          ],
+          [
+            50,
             "Slack Off"
           ],
           [
-            65,
+            60,
             "Fissure"
           ]
         ],
@@ -60680,6 +70081,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Bulldoze",
           "Rock Slide",
@@ -60693,6 +70095,11 @@ backup_data = {
         "Filter",
         "Shield Dust",
         "Sand Force"
+      ],
+      "abilityIds": [
+        111,
+        19,
+        159
       ],
       "evos": [
         "Hippowdon"
@@ -60773,11 +70180,15 @@ backup_data = {
             "Rest"
           ],
           [
-            55,
+            44,
+            "Stealth Rock"
+          ],
+          [
+            50,
             "Slack Off"
           ],
           [
-            65,
+            60,
             "Fissure"
           ]
         ],
@@ -60798,6 +70209,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -60813,6 +70225,11 @@ backup_data = {
         "Filter",
         "Shield Dust",
         "Sand Force"
+      ],
+      "abilityIds": [
+        111,
+        19,
+        159
       ]
     },
     "Skorupi": {
@@ -60943,8 +70360,13 @@ backup_data = {
       },
       "abs": [
         "Battle Armor",
-        "Rough Skin",
+        "Rattled",
         "Keen Eye"
+      ],
+      "abilityIds": [
+        4,
+        155,
+        51
       ],
       "evos": [
         "Drapion"
@@ -61094,8 +70516,13 @@ backup_data = {
       },
       "abs": [
         "Battle Armor",
-        "Rough Skin",
+        "Rattled",
         "Sniper"
+      ],
+      "abilityIds": [
+        4,
+        155,
+        97
       ]
     },
     "Croagunk": {
@@ -61229,7 +70656,7 @@ backup_data = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Bulldoze",
@@ -61248,6 +70675,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Poison Touch"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        143
       ],
       "evos": [
         "Toxicroak"
@@ -61394,7 +70826,7 @@ backup_data = {
           "Round",
           "Focus Blast",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -61417,6 +70849,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        33
       ]
     },
     "Carnivine": {
@@ -61527,6 +70964,11 @@ backup_data = {
         "Poison Heal",
         "",
         "Arena Trap"
+      ],
+      "abilityIds": [
+        90,
+        0,
+        71
       ]
     },
     "Finneon": {
@@ -61626,6 +71068,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -61643,6 +71086,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Water Veil"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        41
       ],
       "evos": [
         "Lumineon"
@@ -61755,6 +71203,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -61773,6 +71222,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Drizzle"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        2
       ]
     },
     "Mantyke": {
@@ -61883,6 +71337,11 @@ backup_data = {
         "Water Absorb",
         "Water Veil"
       ],
+      "abilityIds": [
+        33,
+        11,
+        41
+      ],
       "evos": [
         "Mantine"
       ],
@@ -61963,6 +71422,10 @@ backup_data = {
             "Icicle Crash"
           ],
           [
+            46,
+            "Dragon Claw"
+          ],
+          [
             50,
             "Wood Hammer"
           ],
@@ -61976,6 +71439,7 @@ backup_data = {
           ]
         ],
         "tms": [
+          "Dragon Claw",
           "Toxic",
           "Hidden Power",
           "Ice Beam",
@@ -61992,6 +71456,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -62008,6 +71473,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        43
       ],
       "evos": [
         "Abomasnow"
@@ -62089,6 +71559,10 @@ backup_data = {
             "Icicle Crash"
           ],
           [
+            46,
+            "Dragon Claw"
+          ],
+          [
             50,
             "Wood Hammer"
           ],
@@ -62102,6 +71576,7 @@ backup_data = {
           ]
         ],
         "tms": [
+          "Dragon Claw",
           "Toxic",
           "Hidden Power",
           "Ice Beam",
@@ -62122,6 +71597,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -62145,6 +71621,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Snow Warning"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        117
       ]
     },
     "Weavile": {
@@ -62248,7 +71729,7 @@ backup_data = {
           "Focus Blast",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -62271,6 +71752,11 @@ backup_data = {
         "Technician",
         "",
         "Pickpocket"
+      ],
+      "abilityIds": [
+        101,
+        0,
+        124
       ]
     },
     "Magnezone": {
@@ -62363,6 +71849,7 @@ backup_data = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Explosion",
@@ -62383,6 +71870,11 @@ backup_data = {
         "Levitate",
         "Analytic",
         "Magnet Pull"
+      ],
+      "abilityIds": [
+        26,
+        148,
+        42
       ]
     },
     "Lickilicky": {
@@ -62503,6 +71995,11 @@ backup_data = {
         "Thick Fat",
         "Thick Fat",
         "Cloud Nine"
+      ],
+      "abilityIds": [
+        47,
+        47,
+        13
       ]
     },
     "Rhyperior": {
@@ -62638,6 +72135,11 @@ backup_data = {
         "Rock Head",
         "Solid Rock",
         "Reckless"
+      ],
+      "abilityIds": [
+        69,
+        116,
+        120
       ]
     },
     "Tangrowth": {
@@ -62754,6 +72256,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        144
       ]
     },
     "Electivire": {
@@ -62892,6 +72399,11 @@ backup_data = {
         "Iron Fist",
         "Motor Drive",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        89,
+        78,
+        72
       ]
     },
     "Magmortar": {
@@ -63031,6 +72543,11 @@ backup_data = {
         "Flash Fire",
         "No Guard",
         "Vital Spirit"
+      ],
+      "abilityIds": [
+        18,
+        99,
+        72
       ]
     },
     "Togekiss": {
@@ -63056,7 +72573,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Lucky Chant"
           ],
           [
             1,
@@ -63107,6 +72624,10 @@ backup_data = {
             "Tailwind"
           ],
           [
+            60,
+            "Psycho Shift"
+          ],
+          [
             65,
             "Razor Wind"
           ]
@@ -63134,6 +72655,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -63157,6 +72679,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        32
       ]
     },
     "Yanmega": {
@@ -63234,7 +72761,7 @@ backup_data = {
             "U-turn"
           ],
           [
-            75,
+            70,
             "Draco Meteor"
           ]
         ],
@@ -63269,6 +72796,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Frisk"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        119
       ]
     },
     "Leafeon": {
@@ -63358,6 +72890,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -63378,6 +72911,11 @@ backup_data = {
         "Sap Sipper",
         "Sap Sipper",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        157,
+        157,
+        34
       ]
     },
     "Glaceon": {
@@ -63423,7 +72961,7 @@ backup_data = {
           ],
           [
             23,
-            "Quick Attack"
+            "Ice Shard"
           ],
           [
             30,
@@ -63435,7 +72973,7 @@ backup_data = {
           ],
           [
             42,
-            "Extrasensory"
+            "Frost Breath"
           ],
           [
             47,
@@ -63443,7 +72981,7 @@ backup_data = {
           ],
           [
             52,
-            "Frost Breath"
+            "Extrasensory"
           ],
           [
             60,
@@ -63468,6 +73006,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Retaliate",
@@ -63481,9 +73020,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Shield Dust",
-        "Shield Dust",
+        "Technician",
+        "Technician",
         "Ice Body"
+      ],
+      "abilityIds": [
+        101,
+        101,
+        115
       ]
     },
     "Gliscor": {
@@ -63615,8 +73159,13 @@ backup_data = {
       },
       "abs": [
         "Poison Heal",
-        "Rough Skin",
+        "Rattled",
         "Poison Heal"
+      ],
+      "abilityIds": [
+        90,
+        155,
+        90
       ]
     },
     "Mamoswine": {
@@ -63715,6 +73264,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Giga Impact",
           "Stone Edge",
@@ -63730,6 +73280,11 @@ backup_data = {
         "Thick Fat",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        47,
+        0,
+        81
       ]
     },
     "Porygon-Z": {
@@ -63827,7 +73382,7 @@ backup_data = {
           "Thief",
           "Round",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -63843,6 +73398,11 @@ backup_data = {
         "Adaptability",
         "Download",
         "Analytic"
+      ],
+      "abilityIds": [
+        91,
+        88,
+        148
       ]
     },
     "Gallade": {
@@ -63987,9 +73547,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Inner Focus",
-        "Inner Focus",
-        "Unburden"
+        "Unburden",
+        "Unburden",
+        "Inner Focus"
+      ],
+      "abilityIds": [
+        84,
+        84,
+        39
       ]
     },
     "Probopass": {
@@ -64080,6 +73645,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -64100,6 +73666,11 @@ backup_data = {
         "Levitate",
         "Levitate",
         "Sand Force"
+      ],
+      "abilityIds": [
+        26,
+        26,
+        159
       ]
     },
     "Dusknoir": {
@@ -64225,7 +73796,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -64243,6 +73814,11 @@ backup_data = {
         "Levitate",
         "Iron Fist",
         ""
+      ],
+      "abilityIds": [
+        26,
+        89,
+        0
       ]
     },
     "Froslass": {
@@ -64332,9 +73908,10 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -64349,6 +73926,11 @@ backup_data = {
         "Levitate",
         "",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        81
       ]
     },
     "Rotom": {
@@ -64451,6 +74033,11 @@ backup_data = {
         "Levitate",
         "",
         "Telepathy"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        140
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -64584,6 +74171,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Mesprit": {
@@ -64702,6 +74294,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Azelf": {
@@ -64825,6 +74422,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Dialga": {
@@ -64956,6 +74558,11 @@ backup_data = {
         "Pressure",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        23
       ]
     },
     "Palkia": {
@@ -65089,6 +74696,11 @@ backup_data = {
         "Pressure",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        46,
+        0,
+        23
       ]
     },
     "Heatran": {
@@ -65209,6 +74821,11 @@ backup_data = {
         "Flash Fire",
         "",
         "Flame Body"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        49
       ]
     },
     "Regigigas": {
@@ -65329,6 +74946,11 @@ backup_data = {
         "Slow Start",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        112,
+        0,
+        23
       ]
     },
     "Giratina": {
@@ -65457,6 +75079,11 @@ backup_data = {
         "",
         "Telepathy"
       ],
+      "abilityIds": [
+        46,
+        0,
+        140
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Giratina-Origin"
@@ -65577,6 +75204,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Phione": {
@@ -65676,6 +75308,11 @@ backup_data = {
         "Hydration",
         "",
         ""
+      ],
+      "abilityIds": [
+        93,
+        0,
+        0
       ]
     },
     "Manaphy": {
@@ -65792,6 +75429,11 @@ backup_data = {
         "Hydration",
         "",
         ""
+      ],
+      "abilityIds": [
+        93,
+        0,
+        0
       ]
     },
     "Darkrai": {
@@ -65896,7 +75538,7 @@ backup_data = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -65921,6 +75563,11 @@ backup_data = {
         "Bad Dreams",
         "",
         ""
+      ],
+      "abilityIds": [
+        123,
+        0,
+        0
       ]
     },
     "Shaymin": {
@@ -66022,6 +75669,11 @@ backup_data = {
         "Natural Cure",
         "",
         ""
+      ],
+      "abilityIds": [
+        30,
+        0,
+        0
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -66189,6 +75841,11 @@ backup_data = {
         "Multitype",
         "",
         ""
+      ],
+      "abilityIds": [
+        121,
+        0,
+        0
       ]
     },
     "Victini": {
@@ -66315,7 +75972,7 @@ backup_data = {
           "Charge Beam",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -66334,6 +75991,11 @@ backup_data = {
         "Victory Star",
         "",
         ""
+      ],
+      "abilityIds": [
+        162,
+        0,
+        0
       ]
     },
     "Snivy": {
@@ -66453,6 +76115,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -66469,6 +76132,11 @@ backup_data = {
         "Overgrow",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        126
       ],
       "evos": [
         "Servine"
@@ -66601,6 +76269,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -66617,6 +76286,11 @@ backup_data = {
         "Overgrow",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        126
       ],
       "evos": [
         "Serperior"
@@ -66644,8 +76318,8 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 75,
-        "at": 60,
+        "hp": 85,
+        "at": 70,
         "df": 95,
         "sa": 112,
         "sd": 95,
@@ -66750,6 +76424,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Fling",
@@ -66770,6 +76445,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Contrary"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        126
       ]
     },
     "Tepig": {
@@ -66856,6 +76536,10 @@ backup_data = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -66876,6 +76560,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Overheat",
@@ -66894,6 +76579,11 @@ backup_data = {
         "Adaptability",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        47
       ],
       "evos": [
         "Pignite"
@@ -66993,6 +76683,10 @@ backup_data = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -67014,6 +76708,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -67040,6 +76735,11 @@ backup_data = {
         "Adaptability",
         "",
         "Thick Fat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        47
       ],
       "evos": [
         "Emboar"
@@ -67070,7 +76770,7 @@ backup_data = {
         "hp": 110,
         "at": 125,
         "df": 90,
-        "sa": 80,
+        "sa": 70,
         "sd": 90,
         "sp": 55
       },
@@ -67139,6 +76839,10 @@ backup_data = {
           [
             60,
             "Flare Blitz"
+          ],
+          [
+            65,
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -67164,6 +76868,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Echoed Voice",
@@ -67192,6 +76897,11 @@ backup_data = {
         "Adaptability",
         "",
         "Reckless"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        120
       ]
     },
     "Oshawott": {
@@ -67303,6 +77013,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -67325,6 +77036,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Dewott"
@@ -67449,6 +77165,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -67471,6 +77188,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ],
       "evos": [
         "Samurott"
@@ -67498,10 +77220,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 95,
+        "hp": 90,
         "at": 115,
         "df": 100,
-        "sa": 75,
+        "sa": 80,
         "sd": 80,
         "sp": 85
       },
@@ -67596,6 +77318,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "False Swipe",
@@ -67621,6 +77344,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Shell Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        75
       ]
     },
     "Patrat": {
@@ -67719,6 +77447,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Retaliate",
@@ -67734,6 +77463,11 @@ backup_data = {
         "Run Away",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        50,
+        0,
+        148
       ],
       "evos": [
         "Watchog"
@@ -67761,12 +77495,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 90,
+        "hp": 80,
         "at": 105,
         "df": 79,
         "sa": 60,
         "sd": 79,
-        "sp": 87
+        "sp": 97
       },
       "learnset_info": {
         "learnset": [
@@ -67849,6 +77583,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -67872,6 +77607,11 @@ backup_data = {
         "Compound Eyes",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        14,
+        0,
+        148
       ]
     },
     "Lillipup": {
@@ -67910,6 +77650,10 @@ backup_data = {
           [
             10,
             "Yawn"
+          ],
+          [
+            13,
+            "Fake Out"
           ],
           [
             16,
@@ -67973,6 +77717,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Retaliate",
           "Giga Impact",
@@ -67986,9 +77731,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Vital Spirit",
+        "Scrappy",
         "",
-        "Run Away"
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ],
       "evos": [
         "Herdier"
@@ -68041,6 +77791,10 @@ backup_data = {
             "Yawn"
           ],
           [
+            13,
+            "Fake Out"
+          ],
+          [
             16,
             "Retaliate"
           ],
@@ -68102,6 +77856,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -68118,9 +77873,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
-        "Sand Rush",
-        "Scrappy"
+        "Scrappy",
+        "",
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ],
       "evos": [
         "Stoutland"
@@ -68171,6 +77931,10 @@ backup_data = {
           [
             10,
             "Yawn"
+          ],
+          [
+            13,
+            "Fake Out"
           ],
           [
             16,
@@ -68237,6 +78001,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -68253,9 +78018,14 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
-        "Sand Rush",
-        "Scrappy"
+        "Scrappy",
+        "",
+        "Sand Rush"
+      ],
+      "abilityIds": [
+        113,
+        0,
+        146
       ]
     },
     "Purrloin": {
@@ -68356,7 +78126,7 @@ backup_data = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Thunder Wave",
@@ -68373,6 +78143,11 @@ backup_data = {
         "Prankster",
         "Unburden",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        84,
+        158
       ],
       "evos": [
         "Liepard"
@@ -68486,7 +78261,7 @@ backup_data = {
           "Thief",
           "Round",
           "Echoed Voice",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Giga Impact",
@@ -68505,6 +78280,11 @@ backup_data = {
         "Prankster",
         "Unburden",
         "Prankster"
+      ],
+      "abilityIds": [
+        158,
+        84,
+        158
       ]
     },
     "Pansage": {
@@ -68631,6 +78411,11 @@ backup_data = {
         "Overgrow",
         "",
         "Overgrow"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        65
       ],
       "evos": [
         "Simisage"
@@ -68774,6 +78559,11 @@ backup_data = {
         "Overgrow",
         "",
         "Overgrow"
+      ],
+      "abilityIds": [
+        65,
+        0,
+        65
       ]
     },
     "Pansear": {
@@ -68899,6 +78689,11 @@ backup_data = {
         "Blaze",
         "",
         "Blaze"
+      ],
+      "abilityIds": [
+        66,
+        0,
+        66
       ],
       "evos": [
         "Simisear"
@@ -69041,6 +78836,11 @@ backup_data = {
         "Blaze",
         "",
         "Blaze"
+      ],
+      "abilityIds": [
+        66,
+        0,
+        66
       ]
     },
     "Panpour": {
@@ -69167,6 +78967,11 @@ backup_data = {
         "Torrent",
         "",
         "Torrent"
+      ],
+      "abilityIds": [
+        67,
+        0,
+        67
       ],
       "evos": [
         "Simipour"
@@ -69310,6 +79115,11 @@ backup_data = {
         "Torrent",
         "",
         "Torrent"
+      ],
+      "abilityIds": [
+        67,
+        0,
+        67
       ]
     },
     "Munna": {
@@ -69374,6 +79184,10 @@ backup_data = {
             "Trick"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Psystrike"
           ],
@@ -69384,6 +79198,10 @@ backup_data = {
           [
             44,
             "Future Sight"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ],
           [
             65,
@@ -69410,6 +79228,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Charge Beam",
@@ -69428,6 +79247,11 @@ backup_data = {
         "Magic Bounce",
         "Analytic",
         "Telepathy"
+      ],
+      "abilityIds": [
+        156,
+        148,
+        140
       ],
       "evos": [
         "Musharna"
@@ -69504,6 +79328,10 @@ backup_data = {
             "Trick"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Psystrike"
           ],
@@ -69514,6 +79342,10 @@ backup_data = {
           [
             44,
             "Future Sight"
+          ],
+          [
+            47,
+            "Psycho Shift"
           ],
           [
             65,
@@ -69541,6 +79373,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Charge Beam",
@@ -69560,6 +79393,11 @@ backup_data = {
         "Magic Bounce",
         "Analytic",
         "Telepathy"
+      ],
+      "abilityIds": [
+        156,
+        148,
+        140
       ]
     },
     "Pidove": {
@@ -69628,6 +79466,10 @@ backup_data = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -69645,6 +79487,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Self-Destruct",
@@ -69660,6 +79503,11 @@ backup_data = {
         "",
         "Rivalry"
       ],
+      "abilityIds": [
+        84,
+        0,
+        79
+      ],
       "evos": [
         "Tranquill"
       ],
@@ -69670,7 +79518,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        16
+        14
       ]
     },
     "Tranquill": {
@@ -69739,6 +79587,10 @@ backup_data = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -69756,6 +79608,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Self-Destruct",
@@ -69770,6 +79623,11 @@ backup_data = {
         "Unburden",
         "",
         "Rivalry"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        79
       ],
       "evos": [
         "Unfezant"
@@ -69851,6 +79709,10 @@ backup_data = {
             "Shadow Sneak"
           ],
           [
+            50,
+            "Acrobatics"
+          ],
+          [
             60,
             "Brave Bird"
           ]
@@ -69869,8 +79731,10 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
+          "Acrobatics",
           "Shadow Claw",
           "Giga Impact",
           "Magical Leaf",
@@ -69886,6 +79750,11 @@ backup_data = {
         "Unburden",
         "",
         "Super Luck"
+      ],
+      "abilityIds": [
+        84,
+        0,
+        105
       ]
     },
     "Blitzle": {
@@ -69982,6 +79851,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Flash",
@@ -69996,6 +79866,11 @@ backup_data = {
         "Reckless",
         "Motor Drive",
         "Rock Head"
+      ],
+      "abilityIds": [
+        120,
+        78,
+        69
       ],
       "evos": [
         "Zebstrika"
@@ -70105,6 +79980,7 @@ backup_data = {
           "Flame Charge",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Overheat",
           "Charge Beam",
@@ -70123,6 +79999,11 @@ backup_data = {
         "Reckless",
         "Motor Drive",
         "Rock Head"
+      ],
+      "abilityIds": [
+        120,
+        78,
+        69
       ]
     },
     "Roggenrola": {
@@ -70210,6 +80091,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -70229,6 +80111,11 @@ backup_data = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ],
       "evos": [
         "Boldore"
@@ -70328,6 +80215,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Rock Polish",
@@ -70347,6 +80235,11 @@ backup_data = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ],
       "evos": [
         "Gigalith"
@@ -70448,6 +80341,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -70468,6 +80362,11 @@ backup_data = {
         "Sturdy",
         "Solid Rock",
         "Sand Force"
+      ],
+      "abilityIds": [
+        5,
+        116,
+        159
       ]
     },
     "Woobat": {
@@ -70579,7 +80478,7 @@ backup_data = {
           "Energy Ball",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Thunder Wave",
           "Gyro Ball",
@@ -70597,6 +80496,11 @@ backup_data = {
         "Unaware",
         "",
         "Simple"
+      ],
+      "abilityIds": [
+        109,
+        0,
+        86
       ],
       "evos": [
         "Swoobat"
@@ -70721,7 +80625,7 @@ backup_data = {
           "Energy Ball",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Thunder Wave",
@@ -70740,6 +80644,11 @@ backup_data = {
         "Sheer Force",
         "",
         "Simple"
+      ],
+      "abilityIds": [
+        125,
+        0,
+        86
       ]
     },
     "Drilbur": {
@@ -70839,6 +80748,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Shadow Claw",
@@ -70858,6 +80768,11 @@ backup_data = {
         "Sand Rush",
         "Mold Breaker",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        146,
+        104,
+        104
       ],
       "evos": [
         "Excadrill"
@@ -70971,6 +80886,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Fling",
@@ -70992,6 +80908,11 @@ backup_data = {
         "Sand Rush",
         "Mold Breaker",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        146,
+        104,
+        104
       ]
     },
     "Audino": {
@@ -71044,6 +80965,10 @@ backup_data = {
             "Hyper Beam"
           ],
           [
+            35,
+            "Lucky Chant"
+          ],
+          [
             37,
             "Soft-Boiled"
           ],
@@ -71092,6 +81017,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -71115,6 +81041,11 @@ backup_data = {
         "Regenerator",
         "Regenerator",
         "Magic Bounce"
+      ],
+      "abilityIds": [
+        144,
+        144,
+        156
       ]
     },
     "Timburr": {
@@ -71220,6 +81151,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -71241,6 +81173,11 @@ backup_data = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ],
       "evos": [
         "Gurdurr"
@@ -71358,6 +81295,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -71379,6 +81317,11 @@ backup_data = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ],
       "evos": [
         "Conkeldurr"
@@ -71499,6 +81442,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -71522,6 +81466,11 @@ backup_data = {
         "Iron Fist",
         "Sheer Force",
         "Iron Fist"
+      ],
+      "abilityIds": [
+        89,
+        125,
+        89
       ]
     },
     "Tympole": {
@@ -71612,6 +81561,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -71624,6 +81574,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ],
       "evos": [
         "Palpitoad"
@@ -71727,6 +81682,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Scald",
@@ -71741,6 +81697,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ],
       "evos": [
         "Seismitoad"
@@ -71850,6 +81811,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -71872,6 +81834,11 @@ backup_data = {
         "Swift Swim",
         "Water Absorb",
         "Water Absorb"
+      ],
+      "abilityIds": [
+        33,
+        11,
+        11
       ]
     },
     "Throh": {
@@ -71965,6 +81932,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -71988,6 +81956,11 @@ backup_data = {
         "Mold Breaker",
         "",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        104,
+        0,
+        104
       ]
     },
     "Sawk": {
@@ -72085,6 +82058,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -72108,6 +82082,11 @@ backup_data = {
         "Mold Breaker",
         "",
         "Sturdy"
+      ],
+      "abilityIds": [
+        104,
+        0,
+        5
       ]
     },
     "Sewaddle": {
@@ -72198,6 +82177,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -72215,6 +82195,11 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "evos": [
         "Swadloon"
@@ -72317,6 +82302,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -72334,6 +82320,11 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "evos": [
         "Leavanny"
@@ -72439,6 +82430,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -72464,6 +82456,11 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ]
     },
     "Venipede": {
@@ -72555,6 +82552,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Gyro Ball",
@@ -72570,6 +82568,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ],
       "evos": [
         "Whirlipede"
@@ -72673,6 +82676,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Gyro Ball",
@@ -72688,6 +82692,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ],
       "evos": [
         "Scolipede"
@@ -72794,6 +82803,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Giga Impact",
@@ -72815,6 +82825,11 @@ backup_data = {
         "Speed Boost",
         "",
         "Quick Feet"
+      ],
+      "abilityIds": [
+        3,
+        0,
+        95
       ]
     },
     "Cottonee": {
@@ -72824,7 +82839,7 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Moon Stone",
+        "None",
         "None",
         "None"
       ],
@@ -72912,6 +82927,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -72927,6 +82943,11 @@ backup_data = {
         "Prankster",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        34
       ],
       "evos": [
         "Whimsicott"
@@ -73059,6 +83080,11 @@ backup_data = {
         "Prankster",
         "",
         "Chlorophyll"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        34
       ]
     },
     "Petilil": {
@@ -73068,7 +83094,7 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Sun Stone",
+        "None",
         "None",
         "None"
       ],
@@ -73139,6 +83165,10 @@ backup_data = {
             "Petal Dance"
           ],
           [
+            55,
+            "Heart Swap"
+          ],
+          [
             60,
             "Leaf Storm"
           ],
@@ -73162,6 +83192,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Flash",
@@ -73177,6 +83208,11 @@ backup_data = {
         "Chlorophyll",
         "Own Tempo",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        34,
+        20,
+        102
       ],
       "evos": [
         "Lilligant"
@@ -73269,6 +83305,10 @@ backup_data = {
             "Petal Dance"
           ],
           [
+            55,
+            "Heart Swap"
+          ],
+          [
             60,
             "Leaf Storm"
           ],
@@ -73293,6 +83333,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Giga Impact",
@@ -73310,6 +83351,11 @@ backup_data = {
         "Chlorophyll",
         "Own Tempo",
         "Leaf Guard"
+      ],
+      "abilityIds": [
+        34,
+        20,
+        102
       ]
     },
     "Basculin": {
@@ -73368,11 +83414,11 @@ backup_data = {
           ],
           [
             25,
-            "Ice Fang"
+            "Aurora Beam"
           ],
           [
             25,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             30,
@@ -73425,6 +83471,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -73439,6 +83486,11 @@ backup_data = {
         "Adaptability",
         "",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        104
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -73473,7 +83525,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -73563,7 +83615,7 @@ backup_data = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Stone Edge",
@@ -73579,6 +83631,11 @@ backup_data = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ],
       "evos": [
         "Krokorok"
@@ -73617,7 +83674,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -73710,7 +83767,7 @@ backup_data = {
           "Round",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -73730,6 +83787,11 @@ backup_data = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ],
       "evos": [
         "Krookodile"
@@ -73768,7 +83830,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Knock Off"
           ],
           [
             1,
@@ -73800,11 +83862,11 @@ backup_data = {
           ],
           [
             30,
-            "Fire Punch"
+            "Thunder Punch"
           ],
           [
             30,
-            "Thunder Punch"
+            "Fire Punch"
           ],
           [
             33,
@@ -73867,7 +83929,7 @@ backup_data = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -73889,6 +83951,11 @@ backup_data = {
         "Intimidate",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        22,
+        0,
+        110
       ]
     },
     "Darumaka": {
@@ -74005,6 +84072,11 @@ backup_data = {
         "Sheer Force",
         "Iron Fist",
         "Inner Focus"
+      ],
+      "abilityIds": [
+        125,
+        89,
+        39
       ],
       "evos": [
         "Darmanitan"
@@ -74146,6 +84218,11 @@ backup_data = {
         "",
         "Zen Mode"
       ],
+      "abilityIds": [
+        125,
+        0,
+        161
+      ],
       "baseForme": "Base",
       "otherFormes": [
         "Darmanitan-Zen"
@@ -74257,6 +84334,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Magical Leaf",
@@ -74270,6 +84348,11 @@ backup_data = {
         "Water Absorb",
         "Iron Barbs",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        160,
+        8
       ]
     },
     "Dwebble": {
@@ -74343,6 +84426,10 @@ backup_data = {
             "Earthquake"
           ],
           [
+            51,
+            "Stealth Rock"
+          ],
+          [
             54,
             "Stone Edge"
           ],
@@ -74368,6 +84455,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Rock Polish",
@@ -74389,6 +84477,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        133
       ],
       "evos": [
         "Crustle"
@@ -74474,6 +84567,10 @@ backup_data = {
             "Earthquake"
           ],
           [
+            51,
+            "Stealth Rock"
+          ],
+          [
             54,
             "Stone Edge"
           ],
@@ -74501,6 +84598,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Shadow Claw",
           "Giga Impact",
@@ -74523,6 +84621,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        133
       ]
     },
     "Scraggy": {
@@ -74638,6 +84741,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -74662,6 +84766,11 @@ backup_data = {
         "Intimidate",
         "Battle Armor",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        4,
+        22
       ],
       "evos": [
         "Scrafty"
@@ -74816,6 +84925,11 @@ backup_data = {
         "Intimidate",
         "Battle Armor",
         "Intimidate"
+      ],
+      "abilityIds": [
+        22,
+        4,
+        22
       ]
     },
     "Sigilyph": {
@@ -74951,6 +85065,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Tinted Lens"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        110
       ]
     },
     "Yamask": {
@@ -75046,7 +85165,7 @@ backup_data = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Magical Leaf",
@@ -75060,6 +85179,11 @@ backup_data = {
         "Mummy",
         "",
         ""
+      ],
+      "abilityIds": [
+        152,
+        0,
+        0
       ],
       "evos": [
         "Cofagrigus"
@@ -75169,7 +85293,7 @@ backup_data = {
           "Round",
           "Energy Ball",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -75185,6 +85309,11 @@ backup_data = {
         "Mummy",
         "",
         ""
+      ],
+      "abilityIds": [
+        152,
+        0,
+        0
       ]
     },
     "Tirtouga": {
@@ -75288,6 +85417,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Rock Polish",
@@ -75307,6 +85437,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        33
       ],
       "evos": [
         "Carracosta"
@@ -75423,6 +85558,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Scald",
@@ -75444,6 +85580,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Solid Rock"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        116
       ]
     },
     "Archen": {
@@ -75546,6 +85687,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Acrobatics",
           "Shadow Claw",
@@ -75566,6 +85708,11 @@ backup_data = {
         "Klutz",
         "",
         ""
+      ],
+      "abilityIds": [
+        103,
+        0,
+        0
       ],
       "evos": [
         "Archeops"
@@ -75681,6 +85828,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Acrobatics",
@@ -75705,6 +85853,11 @@ backup_data = {
         "Run Away",
         "",
         ""
+      ],
+      "abilityIds": [
+        50,
+        0,
+        0
       ]
     },
     "Trubbish": {
@@ -75814,6 +85967,11 @@ backup_data = {
         "",
         "Aftermath"
       ],
+      "abilityIds": [
+        85,
+        0,
+        106
+      ],
       "evos": [
         "Garbodor"
       ],
@@ -75824,7 +85982,7 @@ backup_data = {
         4
       ],
       "evoParams": [
-        36
+        35
       ]
     },
     "Garbodor": {
@@ -75941,6 +86099,11 @@ backup_data = {
         "Heatproof",
         "",
         "Aftermath"
+      ],
+      "abilityIds": [
+        85,
+        0,
+        106
       ]
     },
     "Zorua": {
@@ -76002,6 +86165,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Fake Out"
+          ],
+          [
             50,
             "Aura Sphere"
           ],
@@ -76038,7 +86205,7 @@ backup_data = {
           "Round",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swords Dance",
@@ -76054,6 +86221,11 @@ backup_data = {
         "Infiltrator",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        149
       ],
       "evos": [
         "Zoroark"
@@ -76127,6 +86299,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            45,
+            "Fake Out"
+          ],
+          [
             50,
             "Aura Sphere"
           ],
@@ -76168,7 +86344,7 @@ backup_data = {
           "Focus Blast",
           "Fling",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -76187,6 +86363,11 @@ backup_data = {
         "Infiltrator",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        149
       ]
     },
     "Minccino": {
@@ -76304,6 +86485,11 @@ backup_data = {
         "",
         "Skill Link"
       ],
+      "abilityIds": [
+        92,
+        0,
+        92
+      ],
       "evos": [
         "Cinccino"
       ],
@@ -76416,6 +86602,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -76434,6 +86621,11 @@ backup_data = {
         "Skill Link",
         "",
         "Skill Link"
+      ],
+      "abilityIds": [
+        92,
+        0,
+        92
       ]
     },
     "Gothita": {
@@ -76495,6 +86687,10 @@ backup_data = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -76545,7 +86741,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -76561,6 +86757,11 @@ backup_data = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ],
       "evos": [
         "Gothorita"
@@ -76634,6 +86835,10 @@ backup_data = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -76684,7 +86889,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Thunder Wave",
@@ -76700,6 +86905,11 @@ backup_data = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ],
       "evos": [
         "Gothitelle"
@@ -76773,6 +86983,10 @@ backup_data = {
             "Fake Tears"
           ],
           [
+            35,
+            "Psycho Shift"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -76826,7 +87040,7 @@ backup_data = {
           "Energy Ball",
           "Fling",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -76843,6 +87057,11 @@ backup_data = {
         "Magic Bounce",
         "",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        156,
+        0,
+        23
       ]
     },
     "Solosis": {
@@ -76904,6 +87123,10 @@ backup_data = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -76951,9 +87174,10 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -76970,6 +87194,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ],
       "evos": [
         "Duosion"
@@ -77043,6 +87272,10 @@ backup_data = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -77090,9 +87323,10 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Flash",
           "Thunder Wave",
@@ -77109,6 +87343,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ],
       "evos": [
         "Reuniclus"
@@ -77182,6 +87421,10 @@ backup_data = {
             "Gravity"
           ],
           [
+            34,
+            "Wonder Room"
+          ],
+          [
             37,
             "Psychic"
           ],
@@ -77230,11 +87473,12 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Explosion",
           "Giga Impact",
           "Flash",
@@ -77255,6 +87499,11 @@ backup_data = {
         "Magic Guard",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        98,
+        0,
+        144
       ]
     },
     "Ducklett": {
@@ -77350,6 +87599,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -77364,6 +87614,11 @@ backup_data = {
         "No Guard",
         "",
         "Hydration"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        93
       ],
       "evos": [
         "Swanna"
@@ -77472,6 +87727,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Giga Impact",
@@ -77487,6 +87743,11 @@ backup_data = {
         "No Guard",
         "",
         "Friend Guard"
+      ],
+      "abilityIds": [
+        99,
+        0,
+        132
       ]
     },
     "Vanillite": {
@@ -77571,6 +87832,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Frost Breath",
@@ -77582,8 +87844,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        133
       ],
       "evos": [
         "Vanillish"
@@ -77681,6 +87948,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Frost Breath",
@@ -77692,8 +87960,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        133
       ],
       "evos": [
         "Vanilluxe"
@@ -77726,7 +87999,7 @@ backup_data = {
         "df": 85,
         "sa": 120,
         "sd": 105,
-        "sp": 99
+        "sp": 104
       },
       "learnset_info": {
         "learnset": [
@@ -77793,6 +88066,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Explosion",
           "Giga Impact",
@@ -77805,8 +88079,13 @@ backup_data = {
       },
       "abs": [
         "Water Absorb",
-        "Weak Armor",
+        "Rattled",
         "Snow Cloak"
+      ],
+      "abilityIds": [
+        11,
+        155,
+        81
       ]
     },
     "Deerling": {
@@ -77907,6 +88186,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -77925,6 +88205,11 @@ backup_data = {
         "Adaptability",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        32
       ],
       "evos": [
         "Sawsbuck"
@@ -78038,6 +88323,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Energy Ball",
@@ -78060,6 +88346,11 @@ backup_data = {
         "Adaptability",
         "",
         "Serene Grace"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        32
       ]
     },
     "Emolga": {
@@ -78165,6 +88456,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Fling",
           "Charge Beam",
@@ -78183,6 +88475,11 @@ backup_data = {
         "Motor Drive",
         "",
         "Lightning Rod"
+      ],
+      "abilityIds": [
+        78,
+        0,
+        31
       ]
     },
     "Karrablast": {
@@ -78278,6 +88575,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "False Swipe",
@@ -78294,6 +88592,11 @@ backup_data = {
         "Infiltrator",
         "",
         "No Guard"
+      ],
+      "abilityIds": [
+        151,
+        0,
+        99
       ],
       "evos": [
         "Escavalier"
@@ -78403,6 +88706,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -78422,6 +88726,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ]
     },
     "Foongus": {
@@ -78527,6 +88836,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -78541,6 +88851,11 @@ backup_data = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ],
       "evos": [
         "Amoonguss"
@@ -78659,6 +88974,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Payback",
@@ -78674,6 +88990,11 @@ backup_data = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ]
     },
     "Frillish": {
@@ -78767,6 +89088,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Scald",
@@ -78786,6 +89108,11 @@ backup_data = {
         "Water Absorb",
         "Rain Dish",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        44,
+        6
       ],
       "evos": [
         "Jellicent"
@@ -78892,6 +89219,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Scald",
@@ -78912,6 +89240,11 @@ backup_data = {
         "Water Absorb",
         "Rain Dish",
         "Damp"
+      ],
+      "abilityIds": [
+        11,
+        44,
+        6
       ]
     },
     "Alomomola": {
@@ -79010,6 +89343,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Magical Leaf",
@@ -79024,6 +89358,11 @@ backup_data = {
         "Regenerator",
         "",
         "Regenerator"
+      ],
+      "abilityIds": [
+        144,
+        0,
+        144
       ]
     },
     "Joltik": {
@@ -79103,6 +89442,14 @@ backup_data = {
           [
             60,
             "U-turn"
+          ],
+          [
+            65,
+            "Volt Switch"
+          ],
+          [
+            67,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -79129,6 +89476,7 @@ backup_data = {
           "X-Scissor",
           "Poison Jab",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Wild Charge",
           "Cut"
@@ -79138,6 +89486,11 @@ backup_data = {
         "Compound Eyes",
         "Unnerve",
         "Swarm"
+      ],
+      "abilityIds": [
+        14,
+        127,
+        68
       ],
       "evos": [
         "Galvantula"
@@ -79233,6 +89586,10 @@ backup_data = {
           [
             65,
             "Volt Switch"
+          ],
+          [
+            67,
+            "Zap Cannon"
           ]
         ],
         "tms": [
@@ -79262,6 +89619,7 @@ backup_data = {
           "X-Scissor",
           "Poison Jab",
           "Swagger",
+          "U-turn",
           "Natural Gift",
           "Wild Charge",
           "Cut"
@@ -79271,6 +89629,11 @@ backup_data = {
         "Compound Eyes",
         "Unnerve",
         "Swarm"
+      ],
+      "abilityIds": [
+        14,
+        127,
+        68
       ]
     },
     "Ferroseed": {
@@ -79364,6 +89727,7 @@ backup_data = {
           "Double Team",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Energy Ball",
           "Explosion",
@@ -79383,6 +89747,11 @@ backup_data = {
         "Iron Barbs",
         "",
         ""
+      ],
+      "abilityIds": [
+        160,
+        0,
+        0
       ],
       "evos": [
         "Ferrothorn"
@@ -79492,6 +89861,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Energy Ball",
           "Explosion",
@@ -79518,6 +89888,11 @@ backup_data = {
         "Iron Barbs",
         "",
         ""
+      ],
+      "abilityIds": [
+        160,
+        0,
+        0
       ]
     },
     "Klink": {
@@ -79606,6 +89981,7 @@ backup_data = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -79623,6 +89999,11 @@ backup_data = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ],
       "evos": [
         "Klang"
@@ -79723,6 +90104,7 @@ backup_data = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -79740,6 +90122,11 @@ backup_data = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ],
       "evos": [
         "Klinklang"
@@ -79841,6 +90228,7 @@ backup_data = {
           "Sandstorm",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Charge Beam",
           "Payback",
@@ -79860,6 +90248,11 @@ backup_data = {
         "Levitate",
         "",
         "Clear Body"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        29
       ]
     },
     "Tynamo": {
@@ -79944,20 +90337,31 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
-        "tms": []
+        "tms": [
+          "Thief"
+        ]
       },
       "abs": [
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Eelektrik"
@@ -80024,11 +90428,11 @@ backup_data = {
           ],
           [
             30,
-            "Sludge Bomb"
+            "Poison Jab"
           ],
           [
             30,
-            "Poison Jab"
+            "Sludge Bomb"
           ],
           [
             35,
@@ -80055,12 +90459,16 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -80078,6 +90486,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
@@ -80095,6 +90504,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "evos": [
         "Eelektross"
@@ -80192,12 +90606,16 @@ backup_data = {
             "Volt Switch"
           ],
           [
-            60,
-            "Gunk Shot"
+            55,
+            "Gastro Acid"
           ],
           [
             60,
             "Sludge Wave"
+          ],
+          [
+            60,
+            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -80224,6 +90642,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Charge Beam",
           "Acrobatics",
@@ -80249,6 +90668,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Elgyem": {
@@ -80356,7 +90780,7 @@ backup_data = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Flash",
           "Volt Switch",
           "Thunder Wave",
@@ -80373,6 +90797,11 @@ backup_data = {
         "Levitate",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        148
       ],
       "evos": [
         "Beheeyem"
@@ -80493,7 +90922,7 @@ backup_data = {
           "Ally Switch",
           "Energy Ball",
           "Charge Beam",
-          "Embargo",
+          "Magic Room",
           "Giga Impact",
           "Flash",
           "Volt Switch",
@@ -80511,6 +90940,11 @@ backup_data = {
         "Levitate",
         "",
         "Analytic"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        148
       ]
     },
     "Litwick": {
@@ -80614,7 +91048,7 @@ backup_data = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -80627,6 +91061,11 @@ backup_data = {
         "Flash Fire",
         "Flame Body",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        49,
+        23
       ],
       "evos": [
         "Lampent"
@@ -80742,7 +91181,7 @@ backup_data = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Flash",
           "Dream Eater",
@@ -80755,6 +91194,11 @@ backup_data = {
         "Flash Fire",
         "Levitate",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        26,
+        23
       ],
       "evos": [
         "Chandelure"
@@ -80871,7 +91315,7 @@ backup_data = {
           "Energy Ball",
           "Incinerate",
           "Will-O-Wisp",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Flash",
@@ -80885,6 +91329,11 @@ backup_data = {
         "Flash Fire",
         "Levitate",
         "Shadow Tag"
+      ],
+      "abilityIds": [
+        18,
+        26,
+        23
       ]
     },
     "Axew": {
@@ -80993,6 +91442,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -81013,6 +91463,11 @@ backup_data = {
         "Unnerve",
         "Mold Breaker",
         "Unnerve"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        127
       ],
       "evos": [
         "Fraxure"
@@ -81134,6 +91589,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "False Swipe",
           "Fling",
@@ -81156,6 +91612,11 @@ backup_data = {
         "Unnerve",
         "Mold Breaker",
         "Unnerve"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        127
       ],
       "evos": [
         "Haxorus"
@@ -81280,6 +91741,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -81307,6 +91769,11 @@ backup_data = {
         "Unnerve",
         "Mold Breaker",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        127,
+        104,
+        125
       ]
     },
     "Cubchoo": {
@@ -81404,6 +91871,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Fling",
@@ -81422,6 +91890,11 @@ backup_data = {
         "Sheer Force",
         "Swift Swim",
         "Rattled"
+      ],
+      "abilityIds": [
+        125,
+        33,
+        155
       ],
       "evos": [
         "Beartic"
@@ -81537,6 +92010,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Echoed Voice",
           "Focus Blast",
@@ -81563,6 +92037,11 @@ backup_data = {
         "Sheer Force",
         "Swift Swim",
         "Swift Swim"
+      ],
+      "abilityIds": [
+        125,
+        33,
+        33
       ]
     },
     "Cryogonal": {
@@ -81648,6 +92127,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Acrobatics",
           "Explosion",
@@ -81663,6 +92143,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ]
     },
     "Shelmet": {
@@ -81759,6 +92244,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Struggle Bug",
@@ -81770,6 +92256,11 @@ backup_data = {
         "Shell Armor",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        75,
+        0,
+        142
       ],
       "evos": [
         "Accelgor"
@@ -81883,6 +92374,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -81897,6 +92389,11 @@ backup_data = {
         "Adaptability",
         "",
         "Illusion"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        149
       ]
     },
     "Stunfisk": {
@@ -81998,6 +92495,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Payback",
@@ -82015,6 +92513,11 @@ backup_data = {
         "Water Absorb",
         "",
         "Sand Veil"
+      ],
+      "abilityIds": [
+        11,
+        0,
+        8
       ]
     },
     "Mienfoo": {
@@ -82110,6 +92613,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -82134,6 +92638,11 @@ backup_data = {
         "Inner Focus",
         "Regenerator",
         "Reckless"
+      ],
+      "abilityIds": [
+        39,
+        144,
+        120
       ],
       "evos": [
         "Mienshao"
@@ -82242,6 +92751,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -82267,6 +92777,11 @@ backup_data = {
         "Inner Focus",
         "Regenerator",
         "Reckless"
+      ],
+      "abilityIds": [
+        39,
+        144,
+        120
       ]
     },
     "Druddigon": {
@@ -82328,28 +92843,32 @@ backup_data = {
             "Thunder Punch"
           ],
           [
+            35,
+            "Dragon Claw"
+          ],
+          [
             37,
             "Crunch"
           ],
           [
             40,
-            "Dragon Claw"
-          ],
-          [
-            44,
             "Submission"
           ],
           [
-            50,
+            44,
             "Close Combat"
+          ],
+          [
+            44,
+            "Dragon Rush"
+          ],
+          [
+            50,
+            "Stealth Rock"
           ],
           [
             55,
             "Superpower"
-          ],
-          [
-            65,
-            "Stealth Rock"
           ]
         ],
         "tms": [
@@ -82378,6 +92897,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Low Sweep",
           "Round",
           "Focus Blast",
@@ -82405,6 +92925,11 @@ backup_data = {
         "Rough Skin",
         "Solid Rock",
         "Mold Breaker"
+      ],
+      "abilityIds": [
+        24,
+        116,
+        104
       ]
     },
     "Golett": {
@@ -82533,6 +93058,11 @@ backup_data = {
         "Iron Fist",
         "No Guard",
         "No Guard"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        99
       ],
       "evos": [
         "Golurk"
@@ -82681,6 +93211,11 @@ backup_data = {
         "Iron Fist",
         "No Guard",
         "No Guard"
+      ],
+      "abilityIds": [
+        89,
+        99,
+        99
       ]
     },
     "Pawniard": {
@@ -82786,7 +93321,7 @@ backup_data = {
           "Round",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -82807,6 +93342,11 @@ backup_data = {
         "Defiant",
         "Inner Focus",
         "Pressure"
+      ],
+      "abilityIds": [
+        128,
+        39,
+        46
       ],
       "evos": [
         "Bisharp"
@@ -82926,7 +93466,7 @@ backup_data = {
           "Focus Blast",
           "False Swipe",
           "Fling",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -82949,6 +93489,11 @@ backup_data = {
         "Defiant",
         "Inner Focus",
         "Sturdy"
+      ],
+      "abilityIds": [
+        128,
+        39,
+        5
       ]
     },
     "Bouffalant": {
@@ -83042,6 +93587,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Payback",
           "Retaliate",
@@ -83065,6 +93611,11 @@ backup_data = {
         "Rock Head",
         "",
         "Soundproof"
+      ],
+      "abilityIds": [
+        69,
+        0,
+        43
       ]
     },
     "Rufflet": {
@@ -83162,6 +93713,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Sky Drop",
           "Shadow Claw",
@@ -83182,6 +93734,11 @@ backup_data = {
         "Rock Head",
         "Reckless",
         "Hustle"
+      ],
+      "abilityIds": [
+        69,
+        120,
+        55
       ],
       "evos": [
         "Braviary"
@@ -83292,6 +93849,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Sky Drop",
           "Shadow Claw",
@@ -83313,6 +93871,11 @@ backup_data = {
         "Rock Head",
         "Reckless",
         "Hustle"
+      ],
+      "abilityIds": [
+        69,
+        120,
+        55
       ]
     },
     "Vullaby": {
@@ -83378,6 +93941,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Foul Play"
           ],
@@ -83414,7 +93981,7 @@ backup_data = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Swagger",
@@ -83431,6 +93998,11 @@ backup_data = {
         "Shield Dust",
         "Prankster",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        19,
+        158,
+        133
       ],
       "evos": [
         "Mandibuzz"
@@ -83508,6 +94080,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            44,
+            "Aeroblast"
+          ],
+          [
             46,
             "Foul Play"
           ],
@@ -83545,7 +94121,7 @@ backup_data = {
           "Thief",
           "Round",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Retaliate",
           "Giga Impact",
@@ -83563,6 +94139,11 @@ backup_data = {
         "Shield Dust",
         "Prankster",
         "Weak Armor"
+      ],
+      "abilityIds": [
+        19,
+        158,
+        133
       ]
     },
     "Heatmor": {
@@ -83685,6 +94266,11 @@ backup_data = {
         "Flash Fire",
         "",
         "White Smoke"
+      ],
+      "abilityIds": [
+        18,
+        0,
+        73
       ]
     },
     "Durant": {
@@ -83780,6 +94366,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Energy Ball",
           "Shadow Claw",
@@ -83803,6 +94390,11 @@ backup_data = {
         "Swarm",
         "",
         "Hustle"
+      ],
+      "abilityIds": [
+        68,
+        0,
+        55
       ]
     },
     "Deino": {
@@ -83913,6 +94505,11 @@ backup_data = {
         "Sheer Force",
         "",
         ""
+      ],
+      "abilityIds": [
+        125,
+        0,
+        0
       ],
       "evos": [
         "Zweilous"
@@ -84035,6 +94632,11 @@ backup_data = {
         "Sheer Force",
         "",
         ""
+      ],
+      "abilityIds": [
+        125,
+        0,
+        0
       ],
       "evos": [
         "Hydreigon"
@@ -84175,6 +94777,11 @@ backup_data = {
         "Levitate",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        26,
+        0,
+        125
       ]
     },
     "Larvesta": {
@@ -84273,6 +94880,7 @@ backup_data = {
           "Facade",
           "Flame Charge",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -84289,6 +94897,11 @@ backup_data = {
         "Flash Fire",
         "Swarm",
         "Swarm"
+      ],
+      "abilityIds": [
+        18,
+        68,
+        68
       ],
       "evos": [
         "Volcarona"
@@ -84401,6 +95014,7 @@ backup_data = {
           "Facade",
           "Flame Charge",
           "Rest",
+          "Thief",
           "Round",
           "Overheat",
           "Incinerate",
@@ -84420,6 +95034,11 @@ backup_data = {
         "Flash Fire",
         "Swarm",
         "Drought"
+      ],
+      "abilityIds": [
+        18,
+        68,
+        70
       ]
     },
     "Cobalion": {
@@ -84519,6 +95138,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -84545,6 +95165,11 @@ backup_data = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Terrakion": {
@@ -84642,6 +95267,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "False Swipe",
@@ -84667,6 +95293,11 @@ backup_data = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Virizion": {
@@ -84767,6 +95398,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
+          "Thief",
           "Round",
           "Focus Blast",
           "Energy Ball",
@@ -84791,6 +95423,11 @@ backup_data = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Tornadus": {
@@ -84911,7 +95548,7 @@ backup_data = {
           "Sky Drop",
           "Incinerate",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Grass Knot",
@@ -84927,6 +95564,11 @@ backup_data = {
         "Prankster",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        128
       ]
     },
     "Thundurus": {
@@ -85049,7 +95691,7 @@ backup_data = {
           "Charge Beam",
           "Sky Drop",
           "Incinerate",
-          "Embargo",
+          "Magic Room",
           "Payback",
           "Giga Impact",
           "Volt Switch",
@@ -85069,6 +95711,11 @@ backup_data = {
         "Prankster",
         "",
         "Defiant"
+      ],
+      "abilityIds": [
+        158,
+        0,
+        128
       ]
     },
     "Reshiram": {
@@ -85206,6 +95853,11 @@ backup_data = {
         "Turboblaze",
         "",
         ""
+      ],
+      "abilityIds": [
+        163,
+        0,
+        0
       ]
     },
     "Zekrom": {
@@ -85344,6 +95996,11 @@ backup_data = {
         "Teravolt",
         "",
         ""
+      ],
+      "abilityIds": [
+        164,
+        0,
+        0
       ]
     },
     "Landorus": {
@@ -85483,6 +96140,11 @@ backup_data = {
         "Sand Force",
         "",
         "Sheer Force"
+      ],
+      "abilityIds": [
+        159,
+        0,
+        125
       ]
     },
     "Kyurem": {
@@ -85614,6 +96276,11 @@ backup_data = {
         "Pressure",
         "",
         ""
+      ],
+      "abilityIds": [
+        46,
+        0,
+        0
       ]
     },
     "Keldeo": {
@@ -85737,6 +96404,11 @@ backup_data = {
         "Justified",
         "",
         ""
+      ],
+      "abilityIds": [
+        154,
+        0,
+        0
       ]
     },
     "Meloetta": {
@@ -85853,7 +96525,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -85877,6 +96549,11 @@ backup_data = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseForme": "Base",
       "otherFormes": [
@@ -86030,6 +96707,11 @@ backup_data = {
         "Download",
         "",
         ""
+      ],
+      "abilityIds": [
+        88,
+        0,
+        0
       ]
     },
     "Deoxys-Attack": {
@@ -86167,6 +96849,11 @@ backup_data = {
         "Pressure",
         "",
         ""
+      ],
+      "abilityIds": [
+        46,
+        0,
+        0
       ],
       "baseSpecies": "Deoxys",
       "forme": "Attack"
@@ -86315,6 +97002,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseSpecies": "Deoxys",
       "forme": "Defense"
     },
@@ -86454,6 +97146,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        46,
+        0,
+        0
+      ],
       "baseSpecies": "Deoxys",
       "forme": "Speed"
     },
@@ -86514,6 +97211,10 @@ backup_data = {
           [
             40,
             "Earthquake"
+          ],
+          [
+            44,
+            "Trick Room"
           ]
         ],
         "tms": [
@@ -86553,6 +97254,11 @@ backup_data = {
         "Adaptability",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        142
       ],
       "baseSpecies": "Wormadam",
       "forme": "Sandy"
@@ -86616,6 +97322,10 @@ backup_data = {
             "Flash Cannon"
           ],
           [
+            44,
+            "Trick Room"
+          ],
+          [
             50,
             "Metal Burst"
           ]
@@ -86653,6 +97363,11 @@ backup_data = {
         "Overcoat",
         "",
         "Overcoat"
+      ],
+      "abilityIds": [
+        142,
+        0,
+        142
       ],
       "baseSpecies": "Wormadam",
       "forme": "Trash"
@@ -86757,6 +97472,11 @@ backup_data = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseSpecies": "Shaymin",
       "forme": "Sky"
@@ -86887,6 +97607,11 @@ backup_data = {
         "",
         "Levitate"
       ],
+      "abilityIds": [
+        26,
+        0,
+        26
+      ],
       "baseSpecies": "Giratina",
       "forme": "Origin"
     },
@@ -86990,6 +97715,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Heat"
@@ -87095,6 +97825,11 @@ backup_data = {
         "",
         "Drizzle"
       ],
+      "abilityIds": [
+        26,
+        0,
+        2
+      ],
       "baseSpecies": "Rotom",
       "forme": "Wash"
     },
@@ -87198,6 +97933,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Frost"
@@ -87303,6 +98043,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        78,
+        0,
+        0
+      ],
       "baseSpecies": "Rotom",
       "forme": "Fan"
     },
@@ -87406,6 +98151,11 @@ backup_data = {
         "Levitate",
         "",
         ""
+      ],
+      "abilityIds": [
+        26,
+        0,
+        0
       ],
       "baseSpecies": "Rotom",
       "forme": "Mow"
@@ -87522,6 +98272,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        59,
+        0,
+        0
+      ],
       "baseSpecies": "Castform",
       "forme": "Sunny"
     },
@@ -87636,6 +98391,11 @@ backup_data = {
         "Forecast",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        59,
+        0,
+        2
       ],
       "baseSpecies": "Castform",
       "forme": "Rainy"
@@ -87752,6 +98512,11 @@ backup_data = {
         "",
         ""
       ],
+      "abilityIds": [
+        59,
+        0,
+        0
+      ],
       "baseSpecies": "Castform",
       "forme": "Snowy"
     },
@@ -87811,11 +98576,11 @@ backup_data = {
           ],
           [
             25,
-            "Aurora Beam"
+            "Ice Fang"
           ],
           [
             25,
-            "Ice Fang"
+            "Aurora Beam"
           ],
           [
             30,
@@ -87868,6 +98633,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Attract",
+          "Thief",
           "Round",
           "Scald",
           "Swagger",
@@ -87882,6 +98648,11 @@ backup_data = {
         "Adaptability",
         "",
         "Drizzle"
+      ],
+      "abilityIds": [
+        91,
+        0,
+        2
       ],
       "baseSpecies": "Basculin",
       "forme": "Blue-Striped"
@@ -88042,6 +98813,11 @@ backup_data = {
         "",
         "Zen Mode"
       ],
+      "abilityIds": [
+        125,
+        0,
+        161
+      ],
       "baseSpecies": "Darmanitan",
       "forme": "Zen"
     },
@@ -88159,7 +98935,7 @@ backup_data = {
           "Fling",
           "Charge Beam",
           "Acrobatics",
-          "Embargo",
+          "Magic Room",
           "Shadow Claw",
           "Payback",
           "Retaliate",
@@ -88183,6 +98959,11 @@ backup_data = {
         "Serene Grace",
         "",
         ""
+      ],
+      "abilityIds": [
+        32,
+        0,
+        0
       ],
       "baseSpecies": "Meloetta",
       "forme": "Pirouette"
@@ -88212,11 +98993,12 @@ backup_data = {
         "moves": [
           "Tackle",
           "Poison Sting",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -88250,13 +99032,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 61 Pokefan Darcy": {
+      "Lvl 61 Pokéfan Darcy": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -88283,7 +99066,8 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Guts",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 62,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -88313,18 +99097,19 @@ backup_data = {
         "moves": [
           "Quick Attack",
           "Aqua Jet",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 61 Pokefan Darcy": {
+      "Lvl 61 Pokéfan Darcy": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -88351,7 +99136,8 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Unaware",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 109,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -88386,6 +99172,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -88419,6 +99206,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -88449,11 +99237,12 @@ backup_data = {
         "moves": [
           "Struggle Bug",
           "Vacuum Wave",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -88487,6 +99276,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -88517,11 +99307,12 @@ backup_data = {
         "moves": [
           "Pin Missile",
           "Pursuit",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Insomnia",
+        "abilityId": 15,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -88548,13 +99339,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Quirky",
         "moves": [
-          "Sucker Punch",
           "U-turn",
+          "Sucker Punch",
           "Rage Powder",
           "Crunch"
         ],
         "sub_index": 1,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -88584,12 +99376,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Struggle Bug",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -88623,6 +99416,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -88658,6 +99452,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -88691,6 +99486,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -88724,6 +99520,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -88759,6 +99556,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -88792,6 +99590,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -88825,6 +99624,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -88858,6 +99658,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -88891,6 +99692,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -88924,6 +99726,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -88954,11 +99757,12 @@ backup_data = {
         "moves": [
           "Spike Cannon",
           "Icicle Spear",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -88992,6 +99796,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -89027,6 +99832,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -89060,6 +99866,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -89093,6 +99900,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -89123,11 +99931,12 @@ backup_data = {
         "moves": [
           "Volt Switch",
           "Surf",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -89163,6 +99972,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -89196,6 +100006,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -89229,6 +100040,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/depot_agent.png",
         "form": 0,
         "evs": {
@@ -89264,6 +100076,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -89297,6 +100110,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -89332,6 +100146,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -89365,6 +100180,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -89398,6 +100214,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -89431,6 +100248,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -89464,6 +100282,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -89497,6 +100316,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -89532,6 +100352,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -89565,6 +100386,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -89598,6 +100420,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -89631,6 +100454,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -89664,6 +100488,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -89697,6 +100522,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -89730,6 +100556,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -89763,6 +100590,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -89798,6 +100626,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -89831,6 +100660,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -89864,6 +100694,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -89899,6 +100730,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -89932,6 +100764,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -89967,6 +100800,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -90002,6 +100836,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -90037,6 +100872,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -90070,6 +100906,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -90103,6 +100940,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -90138,6 +100976,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -90167,10 +101006,11 @@ backup_data = {
           "Sheer Cold",
           "Hydro Cannon",
           "Fake Out",
-          "Surf"
+          "Toxic"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -90206,6 +101046,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -90239,6 +101080,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -90272,6 +101114,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -90305,6 +101148,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -90340,6 +101184,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -90373,6 +101218,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -90406,6 +101252,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -90439,6 +101286,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -90472,6 +101320,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -90505,6 +101354,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -90538,6 +101388,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -90571,6 +101422,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/cyclist.png",
         "form": 0,
         "evs": {
@@ -90604,6 +101456,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -90637,6 +101490,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -90672,6 +101526,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
+        "abilityId": 133,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -90705,6 +101560,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
+        "abilityId": 133,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -90738,6 +101594,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
+        "abilityId": 133,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -90771,6 +101628,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -90803,7 +101661,8 @@ backup_data = {
           "Icy Wind"
         ],
         "sub_index": 2,
-        "ability": "Weak Armor",
+        "ability": "Rattled",
+        "abilityId": 155,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -90837,6 +101696,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -90870,6 +101730,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -90905,6 +101766,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -90938,6 +101800,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -90971,6 +101834,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91004,6 +101868,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -91039,6 +101904,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91072,6 +101938,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91105,6 +101972,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91138,6 +102006,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -91173,6 +102042,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91206,6 +102076,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -91239,6 +102110,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -91274,6 +102146,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91307,6 +102180,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91340,6 +102214,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -91373,6 +102248,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -91406,6 +102282,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91439,6 +102316,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91472,6 +102350,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -91507,6 +102386,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91540,6 +102420,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -91575,6 +102456,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91601,13 +102483,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Brave",
         "moves": [
-          "Flare Blitz",
+          "Helping Hand",
           "Wood Hammer",
-          "Rock Climb",
-          "Helping Hand"
+          "Flare Blitz",
+          "Rock Climb"
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -91643,6 +102526,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91676,6 +102560,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -91709,6 +102594,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -91742,6 +102628,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -91775,6 +102662,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91808,6 +102696,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -91841,6 +102730,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -91876,13 +102766,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Oblivious",
+        "abilityId": 12,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 64 Pokefan Colin": {
+      "Lvl 64 Pokéfan Colin": {
         "level": 64,
         "ai": 1,
         "noCh": false,
@@ -91909,7 +102800,8 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Oblivious",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 12,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -91944,6 +102836,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -91971,12 +102864,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Water Spout",
-          "Rock Blast",
-          "Bullet Seed",
-          "Ice Beam"
+          "Blast Burn",
+          "Spike Cannon",
+          "Rock Blast"
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -92012,6 +102906,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -92045,6 +102940,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -92078,6 +102974,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -92111,6 +103008,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -92144,6 +103042,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -92177,6 +103076,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -92210,6 +103110,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -92243,6 +103144,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -92277,7 +103179,8 @@ backup_data = {
           "Dark Pulse"
         ],
         "sub_index": 0,
-        "ability": "Soundproof",
+        "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92310,7 +103213,8 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 1,
-        "ability": "Soundproof",
+        "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/musician.png",
         "form": 0,
         "evs": {
@@ -92346,6 +103250,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92381,6 +103286,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92408,12 +103314,13 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Icicle Crash",
-          "Acrobatics",
+          "Aerial Ace",
           "Night Slash",
           "Imprison"
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -92447,6 +103354,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -92480,6 +103388,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -92513,6 +103422,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -92546,6 +103456,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -92581,6 +103492,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92614,13 +103526,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+      "Lvl 82 Elite Four Shauntal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -92647,6 +103560,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -92680,6 +103594,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -92713,6 +103628,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -92746,6 +103662,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -92779,14 +103696,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -92803,7 +103721,7 @@ backup_data = {
         "reward_item": "None",
         "item": "King's Rock",
         "gender": "Male",
-        "nature": "Bold",
+        "nature": "Rash",
         "moves": [
           "Sludge Wave",
           "Thunder",
@@ -92812,6 +103730,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -92847,6 +103766,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92880,6 +103800,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -92909,10 +103830,11 @@ backup_data = {
           "Fissure",
           "Brave Bird",
           "Earthquake",
-          "Rock Climb"
+          "Superpower"
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -92948,6 +103870,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Magnet Pull",
+        "abilityId": 42,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -92976,11 +103899,12 @@ backup_data = {
         "moves": [
           "Thunderbolt",
           "Flash Cannon",
-          "Supersonic",
-          "Magnet Rise"
+          "Screech",
+          "Toxic"
         ],
         "sub_index": 2,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -93014,6 +103938,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -93042,11 +103967,12 @@ backup_data = {
         "moves": [
           "Shock Wave",
           "Magnet Bomb",
-          "Tri Attack",
+          "Hyper Voice",
           "Mirror Coat"
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -93080,6 +104006,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -93114,7 +104041,8 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93147,7 +104075,8 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93180,7 +104109,8 @@ backup_data = {
           "Drill Run"
         ],
         "sub_index": 0,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93214,6 +104144,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93247,6 +104178,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93280,6 +104212,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93313,6 +104246,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -93340,12 +104274,13 @@ backup_data = {
         "nature": "Gentle",
         "moves": [
           "Brave Bird",
+          "Acrobatics",
           "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
+          "Blaze Kick"
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -93373,12 +104308,13 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Brave Bird",
+          "Acrobatics",
           "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
+          "Blaze Kick"
         ],
         "sub_index": 2,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -93406,12 +104342,13 @@ backup_data = {
         "nature": "Impish",
         "moves": [
           "Brave Bird",
+          "Acrobatics",
           "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
+          "Blaze Kick"
         ],
         "sub_index": 2,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -93444,7 +104381,8 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93477,7 +104415,8 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93510,7 +104449,8 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93544,6 +104484,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -93579,6 +104520,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93612,6 +104554,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93645,6 +104588,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93678,6 +104622,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93711,6 +104656,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93744,6 +104690,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93777,6 +104724,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -93812,6 +104760,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93845,6 +104794,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93878,6 +104828,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -93911,14 +104862,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 51,
+      "Lvl 52 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 52,
         "ai": 7,
         "noCh": false,
         "tr_id": 493,
@@ -93935,7 +104887,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fire Gem",
         "gender": "Male",
-        "nature": "Impish",
+        "nature": "Naive",
         "moves": [
           "Blaze Kick",
           "Night Slash",
@@ -93944,6 +104896,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -93977,6 +104930,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94010,6 +104964,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94043,14 +104998,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 77,
+      "Lvl 78 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 78,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
@@ -94067,7 +105023,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Bold",
+        "nature": "Jolly",
         "moves": [
           "Swords Dance",
           "Sucker Punch",
@@ -94076,6 +105032,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94109,6 +105066,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94142,6 +105100,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94177,6 +105136,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94210,6 +105170,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94243,14 +105204,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 51,
+      "Lvl 52 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 52,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
@@ -94267,7 +105229,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Water Gem",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Rash",
         "moves": [
           "Waterfall",
           "Sacred Sword",
@@ -94276,6 +105238,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94309,6 +105272,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94342,6 +105306,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94375,14 +105340,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 77,
+      "Lvl 78 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 78,
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
@@ -94399,7 +105365,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Gentle",
         "moves": [
           "Waterfall",
           "Shell Smash",
@@ -94408,6 +105374,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94441,6 +105408,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94474,6 +105442,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94509,6 +105478,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94542,6 +105512,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94575,6 +105546,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -94608,14 +105580,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 51,
+      "Lvl 52 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 52,
         "ai": 7,
         "noCh": false,
         "tr_id": 492,
@@ -94632,7 +105605,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Grass Gem",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Modest",
         "moves": [
           "Energy Ball",
           "Dragon Pulse",
@@ -94641,6 +105614,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94674,6 +105648,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94707,6 +105682,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94740,14 +105716,15 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 77,
+      "Lvl 78 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 78,
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
@@ -94764,7 +105741,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Lax",
+        "nature": "Bold",
         "moves": [
           "Energy Ball",
           "Dragon Pulse",
@@ -94773,6 +105750,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94806,6 +105784,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94839,6 +105818,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -94874,6 +105854,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -94907,6 +105888,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Cute Charm",
+        "abilityId": 56,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -94942,6 +105924,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Cute Charm",
+        "abilityId": 56,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -94975,6 +105958,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Cute Charm",
+        "abilityId": 56,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -95010,6 +105994,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overcoat",
+        "abilityId": 142,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -95045,6 +106030,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -95080,6 +106066,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -95113,6 +106100,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95146,6 +106134,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -95179,6 +106168,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -95212,6 +106202,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -95245,6 +106236,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95278,14 +106270,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 493,
@@ -95302,7 +106295,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Grass Gem",
         "gender": "Male",
-        "nature": "Sassy",
+        "nature": "Brave",
         "moves": [
           "Power Whip",
           "Focus Blast",
@@ -95311,6 +106304,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95344,6 +106338,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95377,6 +106372,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -95410,6 +106406,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -95443,6 +106440,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95476,6 +106474,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -95509,6 +106508,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95542,6 +106542,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95577,6 +106578,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -95610,6 +106612,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95643,6 +106646,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -95676,6 +106680,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -95709,6 +106714,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -95742,6 +106748,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95775,6 +106782,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95808,14 +106816,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
@@ -95832,7 +106841,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fire Gem",
         "gender": "Male",
-        "nature": "Sassy",
+        "nature": "Brave",
         "moves": [
           "Fire Blast",
           "Focus Blast",
@@ -95841,6 +106850,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95863,7 +106873,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Mystic Water",
+        "item": "Charcoal",
         "gender": "Male",
         "nature": "Brave",
         "moves": [
@@ -95874,6 +106884,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -95907,6 +106918,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -95940,6 +106952,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -95973,6 +106986,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -96006,6 +107020,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96039,6 +107054,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -96072,6 +107088,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96105,6 +107122,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96140,6 +107158,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -96173,6 +107192,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96206,6 +107226,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -96239,6 +107260,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -96272,6 +107294,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -96305,6 +107328,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -96338,6 +107362,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96371,14 +107396,15 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 492,
@@ -96395,7 +107421,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Water Gem",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Calm",
         "moves": [
           "Hydro Pump",
           "Focus Blast",
@@ -96404,6 +107430,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96437,6 +107464,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96470,6 +107498,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -96503,6 +107532,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -96536,6 +107566,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96569,6 +107600,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -96602,6 +107634,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96635,6 +107668,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Torrent",
+        "abilityId": 67,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -96670,6 +107704,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -96705,6 +107740,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -96740,6 +107776,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -96773,6 +107810,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -96807,7 +107845,8 @@ backup_data = {
           "Low Sweep"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -96835,12 +107874,13 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Retaliate",
+          "Fake Out",
           "Yawn",
-          "Bite",
-          "Leer"
+          "Bite"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -96876,6 +107916,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -96909,6 +107950,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -96944,6 +107986,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Klutz",
+        "abilityId": 103,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -96977,6 +108020,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Klutz",
+        "abilityId": 103,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -97012,6 +108056,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97047,6 +108092,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97080,6 +108126,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -97107,12 +108154,13 @@ backup_data = {
         "nature": "Hasty",
         "moves": [
           "Facade",
+          "Close Combat",
           "Submission",
-          "Vital Throw",
-          "Return"
+          "Vital Throw"
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -97148,6 +108196,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97176,11 +108225,12 @@ backup_data = {
         "moves": [
           "Retaliate",
           "Zen Headbutt",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -97214,6 +108264,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -97247,6 +108298,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -97280,6 +108332,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -97315,6 +108368,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97348,6 +108402,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -97381,6 +108436,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -97414,6 +108470,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -97447,6 +108504,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -97480,6 +108538,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -97515,6 +108574,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97548,6 +108608,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -97581,6 +108642,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -97614,6 +108676,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -97649,14 +108712,15 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Musician Preston - Route 5": {
-        "level": 50,
+      "Lvl 45 Musician Preston - Route 5": {
+        "level": 45,
         "ai": 7,
         "noCh": false,
         "tr_id": 46,
@@ -97673,7 +108737,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Gentle",
+        "nature": "Quiet",
         "moves": [
           "Horn Drill",
           "Double-Edge",
@@ -97682,6 +108746,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/musician.png",
         "form": 0,
         "evs": {
@@ -97713,8 +108778,9 @@ backup_data = {
           "Rock Tomb",
           "Bulldoze"
         ],
-        "sub_index": 5,
+        "sub_index": 4,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -97743,11 +108809,12 @@ backup_data = {
         "moves": [
           "Perish Song",
           "U-turn",
-          "Hyper Voice",
-          "X-Scissor"
+          "Twineedle",
+          "Hyper Voice"
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -97782,7 +108849,8 @@ backup_data = {
           "Torment"
         ],
         "sub_index": 3,
-        "ability": "Soundproof",
+        "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -97815,7 +108883,8 @@ backup_data = {
           "Taunt"
         ],
         "sub_index": 3,
-        "ability": "Soundproof",
+        "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -97848,7 +108917,8 @@ backup_data = {
           "Water Pulse"
         ],
         "sub_index": 0,
-        "ability": "Soundproof",
+        "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -97877,11 +108947,12 @@ backup_data = {
         "moves": [
           "Thunder",
           "Hurricane",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
-        "ability": "Soundproof",
+        "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -97909,12 +108980,13 @@ backup_data = {
         "nature": "Naughty",
         "moves": [
           "Heat Wave",
-          "Taunt",
+          "Aeroblast",
           "Chatter",
           "Thunderbolt"
         ],
         "sub_index": 0,
-        "ability": "Soundproof",
+        "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/musician.png",
         "form": 0,
         "evs": {
@@ -97950,14 +109022,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Dancer Brian - Route 5": {
-        "level": 50,
+      "Lvl 45 Dancer Brian - Route 5": {
+        "level": 45,
         "ai": 7,
         "noCh": false,
         "tr_id": 47,
@@ -97974,7 +109047,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Careful",
+        "nature": "Sassy",
         "moves": [
           "Hydro Pump",
           "Energy Ball",
@@ -97983,6 +109056,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -98016,6 +109090,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -98049,6 +109124,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -98082,6 +109158,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -98117,6 +109194,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98150,6 +109228,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -98183,6 +109262,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -98218,6 +109298,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98246,11 +109327,12 @@ backup_data = {
         "moves": [
           "Thunder Wave",
           "Air Slash",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -98284,6 +109366,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -98317,6 +109400,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -98352,6 +109436,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98385,6 +109470,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -98411,13 +109497,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
+          "Zap Cannon",
+          "Psycho Boost",
           "Helping Hand",
-          "Aura Sphere",
-          "Thunderbolt",
-          "Psychic"
+          "Aura Sphere"
         ],
         "sub_index": 1,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -98451,6 +109538,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -98485,7 +109573,8 @@ backup_data = {
           "Extrasensory"
         ],
         "sub_index": 2,
-        "ability": "Shield Dust",
+        "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98518,7 +109607,8 @@ backup_data = {
           "Water Pulse"
         ],
         "sub_index": 5,
-        "ability": "Shield Dust",
+        "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -98551,7 +109641,8 @@ backup_data = {
           "Shadow Ball"
         ],
         "sub_index": 2,
-        "ability": "Shield Dust",
+        "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -98587,6 +109678,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98620,6 +109712,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -98653,6 +109746,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -98686,6 +109780,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -98712,13 +109807,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
-          "Surf",
+          "Hydro Pump",
           "Thunder",
           "Hurricane",
           "Signal Beam"
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -98754,6 +109850,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98787,6 +109884,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -98820,6 +109918,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -98853,6 +109952,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -98888,6 +109988,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -98921,6 +110022,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -98954,6 +110056,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -98987,6 +110090,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99020,6 +110124,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99053,6 +110158,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -99086,6 +110192,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -99119,6 +110226,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -99152,6 +110260,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -99185,6 +110294,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99218,6 +110328,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99251,6 +110362,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99284,6 +110396,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -99317,6 +110430,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -99350,6 +110464,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -99383,6 +110498,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -99418,6 +110534,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -99451,6 +110568,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -99484,6 +110602,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -99517,6 +110636,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -99550,6 +110670,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -99583,6 +110704,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -99616,6 +110738,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -99649,6 +110772,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -99682,6 +110806,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -99717,6 +110842,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -99743,13 +110869,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Docile",
         "moves": [
-          "Bulldoze",
-          "Submission",
+          "Dig",
+          "Brick Break",
           "Sucker Punch",
-          "Stone Edge"
+          "Strength"
         ],
         "sub_index": 4,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -99783,6 +110910,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -99816,6 +110944,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -99849,6 +110978,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Arena Trap",
+        "abilityId": 71,
         "sprite": "./images/trainer_sprites/depot_agent.png",
         "form": 0,
         "evs": {
@@ -99884,6 +111014,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -99917,6 +111048,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -99950,6 +111082,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -99985,6 +111118,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -100012,12 +111146,13 @@ backup_data = {
         "nature": "Mild",
         "moves": [
           "Head Smash",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -100051,6 +111186,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -100084,6 +111220,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -100119,6 +111256,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -100152,14 +111290,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 44 Backpacker Kelsey - Desert Resort": {
-        "level": 44,
+      "Lvl 40 Backpacker Kelsey - Desert Resort": {
+        "level": 40,
         "ai": 7,
         "noCh": false,
         "tr_id": 236,
@@ -100176,15 +111315,16 @@ backup_data = {
         "reward_item": "Focus Band",
         "item": "Focus Band",
         "gender": "Male",
-        "nature": "Brave",
+        "nature": "Naive",
         "moves": [
           "Earthquake",
           "Iron Head",
           "Stone Edge",
-          "Swords Dance"
+          "Cross Poison"
         ],
         "sub_index": 0,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -100218,6 +111358,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -100251,6 +111392,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -100284,6 +111426,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -100317,6 +111460,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -100350,6 +111494,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -100383,6 +111528,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -100418,6 +111564,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Moxie",
+        "abilityId": 153,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -100451,6 +111598,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -100484,14 +111632,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
+      "Lvl 72 Ace Trainer Clara - Opelucid City": {
+        "level": 72,
         "ai": 135,
         "noCh": false,
         "tr_id": 266,
@@ -100508,7 +111657,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Choice Scarf",
         "gender": "Male",
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Outrage",
           "Sky Attack",
@@ -100517,6 +111666,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Moxie",
+        "abilityId": 153,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -100550,6 +111700,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -100585,6 +111736,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -100618,6 +111770,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -100651,6 +111804,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -100684,6 +111838,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -100717,6 +111872,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -100750,6 +111906,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/maid.png",
         "form": 0,
         "evs": {
@@ -100785,13 +111942,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+      "Lvl 82 Elite Four Shauntal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -100818,14 +111976,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drought",
+        "abilityId": 70,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
+      "Lvl 72 Ace Trainer Clara - Opelucid City": {
+        "level": 72,
         "ai": 135,
         "noCh": false,
         "tr_id": 266,
@@ -100842,22 +112001,23 @@ backup_data = {
         "reward_item": "None",
         "item": "Choice Specs",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Serious",
         "moves": [
           "Fiery Dance",
           "Bug Buzz",
           "Giga Drain",
           "Psychic"
         ],
-        "sub_index": 5,
+        "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 77 Champion Alder - Pokemon League": {
+      "Lvl 77 Champion Alder - Pokémon League": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -100884,6 +112044,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -100919,6 +112080,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -100952,6 +112114,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -100985,6 +112148,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -101013,11 +112177,12 @@ backup_data = {
         "moves": [
           "Psycho Boost",
           "Future Sight",
-          "Shadow Ball",
-          "Psychic"
+          "Wonder Room",
+          "Shadow Ball"
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -101053,6 +112218,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -101086,6 +112252,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -101119,6 +112286,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -101152,6 +112320,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -101185,6 +112354,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -101220,6 +112390,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Friend Guard",
+        "abilityId": 132,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -101253,6 +112424,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -101286,6 +112458,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -101319,6 +112492,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -101352,6 +112526,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -101385,6 +112560,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -101418,6 +112594,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -101451,6 +112628,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -101484,6 +112662,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -101519,6 +112698,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -101552,6 +112732,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -101585,6 +112766,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Contrary",
+        "abilityId": 126,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -101620,6 +112802,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Poison Point",
+        "abilityId": 38,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -101655,6 +112838,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -101688,6 +112872,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -101723,13 +112908,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Jude - Celestial Tower": {
+      "Lvl 58 Pokéfan Jude - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -101756,7 +112942,8 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Regenerator",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 144,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -101789,6 +112976,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -101822,6 +113010,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -101855,6 +113044,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -101888,6 +113078,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -101923,6 +113114,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -101956,6 +113148,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -101991,6 +113184,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -102024,6 +113218,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -102057,6 +113252,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -102092,6 +113288,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -102125,6 +113322,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -102160,6 +113358,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -102195,6 +113394,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -102228,6 +113428,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -102261,6 +113462,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -102294,6 +113496,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -102327,6 +113530,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -102360,13 +113564,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 71 Elite Four Marshal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -102393,6 +113598,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -102428,6 +113634,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -102461,6 +113668,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -102494,6 +113702,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -102527,6 +113736,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -102561,7 +113771,8 @@ backup_data = {
           "Howl"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -102595,6 +113806,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -102628,6 +113840,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -102661,6 +113874,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -102693,7 +113907,8 @@ backup_data = {
           "Sacred Fire"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -102726,7 +113941,8 @@ backup_data = {
           "Howl"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -102762,6 +113978,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -102795,6 +114012,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -102828,6 +114046,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -102861,6 +114080,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -102894,6 +114114,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -102929,13 +114150,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+      "Lvl 82 Elite Four Grimsley - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -102962,6 +114184,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -102995,6 +114218,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -103028,6 +114252,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rattled",
+        "abilityId": 155,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -103061,6 +114286,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -103095,14 +114321,15 @@ backup_data = {
           "Thunder Punch"
         ],
         "sub_index": 3,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Jude - Celestial Tower": {
+      "Lvl 58 Pokéfan Jude - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -103128,8 +114355,9 @@ backup_data = {
           "Psychic"
         ],
         "sub_index": 3,
-        "ability": "Inner Focus",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "ability": "Justified",
+        "abilityId": 154,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -103161,7 +114389,8 @@ backup_data = {
           "Psychic"
         ],
         "sub_index": 3,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -103194,7 +114423,8 @@ backup_data = {
           "Earthquake"
         ],
         "sub_index": 5,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -103227,7 +114457,8 @@ backup_data = {
           "Dark Pulse"
         ],
         "sub_index": 0,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -103260,7 +114491,8 @@ backup_data = {
           "Thunder Punch"
         ],
         "sub_index": 3,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -103293,7 +114525,8 @@ backup_data = {
           "Aura Sphere"
         ],
         "sub_index": 4,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -103329,6 +114562,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -103362,6 +114596,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -103395,6 +114630,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
@@ -103428,6 +114664,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -103461,6 +114698,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
@@ -103496,6 +114734,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -103531,6 +114770,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -103566,6 +114806,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -103599,6 +114840,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -103632,6 +114874,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -103667,6 +114910,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -103702,6 +114946,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -103735,6 +114980,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -103763,11 +115009,12 @@ backup_data = {
         "moves": [
           "Zap Cannon",
           "Electroweb",
-          "Muddy Water",
-          "Thunderbolt"
+          "Volt Switch",
+          "Muddy Water"
         ],
         "sub_index": 2,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -103803,6 +115050,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -103836,6 +115084,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Snow Warning",
+        "abilityId": 117,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -103865,10 +115114,11 @@ backup_data = {
           "Leaf Storm",
           "Avalanche",
           "Wood Hammer",
-          "Icicle Crash"
+          "Dragon Claw"
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -103904,6 +115154,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -103937,6 +115188,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -103970,6 +115222,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -104003,6 +115256,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -104036,13 +115290,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 71 Elite Four Marshal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -104069,6 +115324,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -104104,6 +115360,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -104137,6 +115394,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -104170,6 +115428,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -104203,6 +115462,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -104238,6 +115498,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -104266,11 +115527,12 @@ backup_data = {
         "moves": [
           "Brave Bird",
           "Guillotine",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
-        "sub_index": 3,
+        "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -104304,6 +115566,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104337,6 +115600,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104370,6 +115634,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -104405,6 +115670,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -104438,6 +115704,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104464,13 +115731,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Calm",
         "moves": [
+          "Fissure",
           "Slack Off",
-          "Rest",
-          "Earthquake",
-          "Crunch"
+          "Stealth Rock",
+          "Rest"
         ],
         "sub_index": 0,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -104506,6 +115774,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -104539,6 +115808,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104566,12 +115836,13 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Rollout",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -104605,6 +115876,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -104638,6 +115910,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -104673,6 +115946,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -104706,6 +115980,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -104739,6 +116014,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104771,7 +116047,8 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 2,
-        "ability": "Bad Dreams",
+        "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -104780,8 +116057,8 @@ backup_data = {
       }
     },
     "Darmanitan": {
-      "Lvl 75 Worker Cairn - Twist Mountain": {
-        "level": 75,
+      "Lvl 60 Worker Cairn - Twist Mountain": {
+        "level": 60,
         "ai": 7,
         "noCh": false,
         "tr_id": 38,
@@ -104798,7 +116075,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Jolly",
+        "nature": "Serious",
         "moves": [
           "Fire Punch",
           "Sky Uppercut",
@@ -104807,6 +116084,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -104840,6 +116118,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -104873,13 +116152,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+      "Lvl 82 Elite Four Caitlin - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -104906,6 +116186,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -104939,6 +116220,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -104972,6 +116254,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -105005,6 +116288,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -105038,6 +116322,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -105071,6 +116356,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -105104,6 +116390,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -105139,6 +116426,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -105172,6 +116460,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -105205,6 +116494,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -105232,12 +116522,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Scald",
-          "Aurora Beam",
           "Ice Fang",
+          "Aurora Beam",
           "Feint Attack"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -105271,6 +116562,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 1,
         "evs": {
@@ -105304,6 +116596,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 1,
         "evs": {
@@ -105331,12 +116624,13 @@ backup_data = {
         "nature": "Quiet",
         "moves": [
           "Scald",
-          "Aurora Beam",
           "Ice Fang",
+          "Aurora Beam",
           "Feint Attack"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
@@ -105363,13 +116657,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Docile",
         "moves": [
-          "Aurora Beam",
           "Ice Fang",
+          "Aurora Beam",
           "Feint Attack",
           "Snarl"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 1,
         "evs": {
@@ -105405,6 +116700,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -105438,6 +116734,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -105471,6 +116768,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -105504,6 +116802,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -105531,12 +116830,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Scald",
-          "Aurora Beam",
           "Ice Fang",
+          "Aurora Beam",
           "Feint Attack"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -105570,6 +116870,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -105603,6 +116904,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -105629,13 +116931,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Brave",
         "moves": [
-          "Aurora Beam",
           "Ice Fang",
+          "Aurora Beam",
           "Feint Attack",
           "Snarl"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -105671,6 +116974,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -105704,6 +117008,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -105737,6 +117042,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -105764,12 +117070,13 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Assist",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -105803,6 +117110,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -105836,6 +117144,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -105869,6 +117178,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -105902,6 +117212,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -105935,6 +117246,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -105970,6 +117282,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -106003,6 +117316,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -106036,6 +117350,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -106069,6 +117384,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -106102,6 +117418,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -106129,12 +117446,13 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Leaf Storm",
+          "Heart Swap",
           "Petal Dance",
-          "Earth Power",
-          "Weather Ball"
+          "Earth Power"
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -106162,20 +117480,21 @@ backup_data = {
         "nature": "Lonely",
         "moves": [
           "Leaf Storm",
+          "Heart Swap",
           "Petal Dance",
-          "Earth Power",
-          "Weather Ball"
+          "Earth Power"
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
@@ -106192,7 +117511,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Grass Gem",
         "gender": "Female",
-        "nature": "Quirky",
+        "nature": "Bold",
         "moves": [
           "Energy Ball",
           "Sleep Powder",
@@ -106201,6 +117520,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -106234,6 +117554,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -106269,6 +117590,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -106302,6 +117624,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -106335,6 +117658,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -106370,6 +117694,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -106403,14 +117728,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -106427,7 +117753,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Bright Powder",
         "gender": "Male",
-        "nature": "Adamant",
+        "nature": "Bashful",
         "moves": [
           "Earthquake",
           "Body Slam",
@@ -106436,6 +117762,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -106469,6 +117796,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/baker.png",
         "form": 0,
         "evs": {
@@ -106504,6 +117832,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -106537,13 +117866,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+      "Lvl 82 Elite Four Shauntal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -106570,6 +117900,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -106603,13 +117934,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 71 Elite Four Shauntal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -106636,6 +117968,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -106671,6 +118004,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -106698,12 +118032,13 @@ backup_data = {
         "nature": "Quiet",
         "moves": [
           "Assist",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -106737,6 +118072,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -106770,6 +118106,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -106805,6 +118142,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -106838,6 +118176,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -106871,6 +118210,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -106879,8 +118219,8 @@ backup_data = {
       }
     },
     "Mr. Mime": {
-      "Lvl 50 Harlequin Paul - Route 5": {
-        "level": 50,
+      "Lvl 45 Harlequin Paul - Route 5": {
+        "level": 45,
         "ai": 7,
         "noCh": false,
         "tr_id": 48,
@@ -106897,7 +118237,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Life Orb",
         "gender": "Male",
-        "nature": "Hardy",
+        "nature": "Hasty",
         "moves": [
           "Psystrike",
           "Focus Blast",
@@ -106906,6 +118246,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -106939,6 +118280,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -106972,6 +118314,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/dancer.png",
         "form": 0,
         "evs": {
@@ -107005,6 +118348,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -107038,6 +118382,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -107073,6 +118418,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Moody",
+        "abilityId": 141,
         "sprite": "./images/trainer_sprites/artist.png",
         "form": 0,
         "evs": {
@@ -107106,6 +118452,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Own Tempo",
+        "abilityId": 20,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -107139,6 +118486,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Own Tempo",
+        "abilityId": 20,
         "sprite": "./images/trainer_sprites/artist.png",
         "form": 0,
         "evs": {
@@ -107147,8 +118495,8 @@ backup_data = {
       }
     },
     "Cherrim": {
-      "Lvl 50 Baker Jenn - Route 5": {
-        "level": 50,
+      "Lvl 45 Baker Jenn - Route 5": {
+        "level": 45,
         "ai": 7,
         "noCh": false,
         "tr_id": 50,
@@ -107165,7 +118513,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Salac Berry",
         "gender": "Male",
-        "nature": "Serious",
+        "nature": "Brave",
         "moves": [
           "Sunny Day",
           "Flare Blitz",
@@ -107174,6 +118522,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flower Gift",
+        "abilityId": 122,
         "sprite": "./images/trainer_sprites/baker.png",
         "form": 0,
         "evs": {
@@ -107200,13 +118549,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Gentle",
         "moves": [
-          "Flare Blitz",
+          "Helping Hand",
           "Wood Hammer",
-          "Rock Climb",
-          "Helping Hand"
+          "Flare Blitz",
+          "Rock Climb"
         ],
         "sub_index": 2,
-        "ability": "Flower Gift",
+        "ability": "Sap Sipper",
+        "abilityId": 157,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -107242,6 +118592,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -107275,6 +118626,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -107308,6 +118660,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -107341,13 +118694,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 71 Elite Four Caitlin2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -107374,6 +118728,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -107409,6 +118764,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -107442,6 +118798,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -107475,6 +118832,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -107508,6 +118866,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -107541,6 +118900,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -107574,6 +118934,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107605,6 +118966,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107638,6 +119000,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107665,12 +119028,13 @@ backup_data = {
         "nature": "Quiet",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107704,6 +119068,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107735,6 +119100,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107768,6 +119134,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107795,12 +119162,13 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107834,6 +119202,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107865,6 +119234,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107898,6 +119268,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107925,12 +119296,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107965,7 +119337,8 @@ backup_data = {
           "Steel Wing"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107998,7 +119371,8 @@ backup_data = {
           "Steel Wing"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108031,7 +119405,8 @@ backup_data = {
           "Steel Wing"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108060,11 +119435,12 @@ backup_data = {
         "moves": [
           "Focus Blast",
           "Hurricane",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -108100,6 +119476,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Vital Spirit",
+        "abilityId": 72,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108133,6 +119510,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Vital Spirit",
+        "abilityId": 72,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108166,6 +119544,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Vital Spirit",
+        "abilityId": 72,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108201,6 +119580,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108236,6 +119616,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108271,6 +119652,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108306,6 +119688,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -108339,6 +119722,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -108366,12 +119750,13 @@ backup_data = {
         "nature": "Quiet",
         "moves": [
           "Sludge Wave",
-          "Toxic",
-          "Sludge Bomb",
-          "Bug Buzz"
+          "U-turn",
+          "Bug Buzz",
+          "Sludge Bomb"
         ],
         "sub_index": 1,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -108407,6 +119792,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -108440,6 +119826,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -108473,6 +119860,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -108507,7 +119895,8 @@ backup_data = {
           "Thunder Wave"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -108542,7 +119931,8 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 1,
-        "ability": "Bad Dreams",
+        "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -108575,7 +119965,8 @@ backup_data = {
           "Recover"
         ],
         "sub_index": 0,
-        "ability": "Bad Dreams",
+        "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -108611,6 +120002,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -108644,6 +120036,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -108677,6 +120070,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
@@ -108710,6 +120104,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sniper",
+        "abilityId": 97,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -108740,11 +120135,12 @@ backup_data = {
         "moves": [
           "Tackle",
           "Leer",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
-        "ability": "Vital Spirit",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108775,11 +120171,12 @@ backup_data = {
         "moves": [
           "Quick Attack",
           "Pursuit",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -108813,6 +120210,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -108846,6 +120244,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -108879,6 +120278,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -108912,6 +120312,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -108945,6 +120346,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -108978,6 +120380,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -109011,6 +120414,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109044,6 +120448,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109077,6 +120482,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109110,6 +120516,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109143,6 +120550,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109176,6 +120584,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109209,6 +120618,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -109242,6 +120652,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -109275,13 +120686,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 61 Pokefan Darcy": {
+      "Lvl 61 Pokéfan Darcy": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -109308,7 +120720,8 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Run Away",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 50,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -109341,6 +120754,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -109374,6 +120788,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109407,6 +120822,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109440,6 +120856,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109473,6 +120890,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109506,6 +120924,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109539,6 +120958,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109572,6 +120992,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -109605,6 +121026,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -109638,6 +121060,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109671,6 +121094,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109704,6 +121128,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -109737,6 +121162,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109770,6 +121196,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109803,6 +121230,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109836,6 +121264,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109869,6 +121298,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -109902,6 +121332,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/subway_boss.png",
         "form": 0,
         "evs": {
@@ -109937,6 +121368,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -109970,6 +121402,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sniper",
+        "abilityId": 97,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -110003,6 +121436,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -110038,6 +121472,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110071,6 +121506,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -110104,6 +121540,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -110131,12 +121568,13 @@ backup_data = {
         "nature": "Quirky",
         "moves": [
           "Assist",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -110170,6 +121608,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -110203,6 +121642,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -110236,6 +121676,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -110269,6 +121710,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -110302,6 +121744,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -110335,6 +121778,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -110368,6 +121812,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/cyclist.png",
         "form": 0,
         "evs": {
@@ -110401,13 +121846,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 71 Elite Four Grimsley2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -110434,6 +121880,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -110467,6 +121914,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110500,6 +121948,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110533,6 +121982,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110566,6 +122016,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -110599,6 +122050,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -110632,6 +122084,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -110667,6 +122120,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110700,6 +122154,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -110733,6 +122188,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -110766,6 +122222,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -110799,6 +122256,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -110834,6 +122292,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110867,6 +122326,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -110900,6 +122360,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -110931,8 +122392,9 @@ backup_data = {
           "Spore",
           "Rock Blast"
         ],
-        "sub_index": 4,
+        "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -110966,13 +122428,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 71 Elite Four Marshal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -110999,6 +122462,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -111034,6 +122498,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111067,6 +122532,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -111100,6 +122566,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -111135,6 +122602,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111168,6 +122636,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -111201,6 +122670,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -111234,6 +122704,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -111267,6 +122738,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -111300,6 +122772,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -111333,6 +122806,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -111366,6 +122840,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -111399,6 +122874,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -111434,6 +122910,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -111467,6 +122944,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111500,6 +122978,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -111533,6 +123012,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -111566,6 +123046,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111599,6 +123080,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111634,6 +123116,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -111669,13 +123152,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Georgia - Celestial Tower": {
+      "Lvl 58 Pokéfan Georgia - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -111702,7 +123186,8 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Mold Breaker",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 104,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -111735,6 +123220,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -111768,6 +123254,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111801,6 +123288,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -111836,6 +123324,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -111865,10 +123354,11 @@ backup_data = {
           "Snarl",
           "Wild Charge",
           "Crunch",
-          "Ice Fang"
+          "Head Charge"
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -111904,6 +123394,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -111937,6 +123428,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -111970,6 +123462,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -111999,12 +123492,13 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Discharge",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -112038,6 +123532,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -112071,6 +123566,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/twins.png",
         "form": 0,
         "evs": {
@@ -112104,6 +123600,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -112137,6 +123634,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -112170,6 +123668,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -112205,6 +123704,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -112238,6 +123738,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -112271,6 +123772,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -112306,6 +123808,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -112339,14 +123842,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 492,
@@ -112363,7 +123867,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Fire Gem",
         "gender": "Male",
-        "nature": "Lonely",
+        "nature": "Relaxed",
         "moves": [
           "Flame Charge",
           "Flare Blitz",
@@ -112372,6 +123876,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -112407,6 +123912,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -112440,6 +123946,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -112473,6 +123980,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -112508,6 +124016,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -112541,6 +124050,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
@@ -112574,6 +124084,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -112607,6 +124118,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -112640,6 +124152,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -112675,6 +124188,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Motor Drive",
+        "abilityId": 78,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 4,
         "evs": {
@@ -112710,6 +124224,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 2,
         "evs": {
@@ -112743,6 +124258,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 2,
         "evs": {
@@ -112776,6 +124292,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 2,
         "evs": {
@@ -112806,11 +124323,12 @@ backup_data = {
         "moves": [
           "Aurora Beam",
           "Shock Wave",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 3,
         "evs": {
@@ -112846,6 +124364,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 1,
         "evs": {
@@ -112879,7 +124398,42 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/worker.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 82 Elite Four Shauntal - Pokémon League": {
+        "level": 82,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 228,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "gender": "",
+        "nature": "Brave",
+        "moves": [
+          "Will-O-Wisp",
+          "Searing Shot",
+          "Thunderbolt",
+          "Nasty Plot"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "abilityId": 26,
+        "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 1,
         "evs": {
           "df": 0
@@ -112914,6 +124468,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 5,
         "evs": {
@@ -112945,10 +124500,11 @@ backup_data = {
           "Tailwind",
           "Screech",
           "Roost",
-          "Super Fang"
+          "Brave Bird"
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -112982,6 +124538,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -113015,6 +124572,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -113048,6 +124606,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -113081,6 +124640,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -113114,6 +124674,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -113149,6 +124710,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -113182,6 +124744,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -113215,6 +124778,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -113248,6 +124812,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -113283,6 +124848,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -113316,6 +124882,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -113349,6 +124916,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -113384,13 +124952,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 83 Elite Four Shauntal - Pokemon League": {
+      "Lvl 83 Elite Four Shauntal - Pokémon League": {
         "level": 83,
         "ai": 7,
         "noCh": false,
@@ -113417,6 +124986,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -113450,6 +125020,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -113483,6 +125054,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -113516,13 +125088,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 73 Elite Four Shauntal2 - Pokémon League": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -113549,6 +125122,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -113582,6 +125156,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -113615,6 +125190,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -113648,6 +125224,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -113683,6 +125260,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -113716,6 +125294,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -113744,45 +125323,13 @@ backup_data = {
         "moves": [
           "Stone Edge",
           "Rock Climb",
-          "Icicle Crash",
-          "Rock Slide"
+          "Superpower",
+          "Icicle Crash"
         ],
         "sub_index": 1,
-        "ability": "Intimidate",
+        "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 Hooligans Jim & Cas - Route 9": {
-        "level": 72,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 157,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Expert Belt",
-        "gender": "Male",
-        "nature": "Brave",
-        "moves": [
-          "Rock Slide",
-          "Icicle Crash",
-          "Drill Run",
-          "Zen Headbutt"
-        ],
-        "sub_index": 5,
-        "ability": "Intimidate",
-        "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -113810,11 +125357,12 @@ backup_data = {
         "moves": [
           "Icicle Crash",
           "Rock Slide",
-          "Earthquake",
+          "Explosion",
           "Flare Blitz"
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -113850,6 +125398,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -113883,6 +125432,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -113915,7 +125465,8 @@ backup_data = {
           "Swords Dance"
         ],
         "sub_index": 5,
-        "ability": "Vital Spirit",
+        "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -113948,15 +125499,16 @@ backup_data = {
           "Tailwind"
         ],
         "sub_index": 0,
-        "ability": "Vital Spirit",
+        "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
@@ -113973,7 +125525,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Leftovers",
         "gender": "Male",
-        "nature": "Impish",
+        "nature": "Modest",
         "moves": [
           "Hydro Pump",
           "Flash Cannon",
@@ -113981,7 +125533,8 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 4,
-        "ability": "Vital Spirit",
+        "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -114014,7 +125567,8 @@ backup_data = {
           "Agility"
         ],
         "sub_index": 2,
-        "ability": "Vital Spirit",
+        "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -114050,6 +125604,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -114083,6 +125638,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -114116,14 +125672,15 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 590,
@@ -114140,15 +125697,16 @@ backup_data = {
         "reward_item": "None",
         "item": "Choice Band",
         "gender": "Male",
-        "nature": "Hardy",
+        "nature": "Gentle",
         "moves": [
           "Flare Blitz",
           "High Jump Kick",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -114184,6 +125742,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -114212,11 +125771,12 @@ backup_data = {
         "moves": [
           "Stealth Rock",
           "Trick Room",
-          "Earth Power",
-          "Psychic"
+          "Wonder Room",
+          "Earth Power"
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -114250,6 +125810,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -114283,6 +125844,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -114318,6 +125880,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -114351,6 +125914,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -114384,6 +125948,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -114419,6 +125984,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -114452,6 +126018,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -114483,8 +126050,9 @@ backup_data = {
           "Force Palm",
           "Ice Shard"
         ],
-        "sub_index": 3,
+        "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -114518,6 +126086,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -114551,6 +126120,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -114584,6 +126154,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -114619,6 +126190,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -114652,6 +126224,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -114685,6 +126258,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -114718,6 +126292,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -114753,6 +126328,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Snow Cloak",
+        "abilityId": 81,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -114786,13 +126362,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Champion Alder - Pokemon League": {
+      "Lvl 75 Champion Alder - Pokémon League": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -114819,6 +126396,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -114852,6 +126430,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -114887,6 +126466,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -114920,6 +126500,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drought",
+        "abilityId": 70,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -114953,6 +126534,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -114986,6 +126568,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -115016,11 +126599,12 @@ backup_data = {
         "moves": [
           "Ice Punch",
           "Close Combat",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115054,6 +126638,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -115087,6 +126672,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -115122,6 +126708,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115155,6 +126742,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -115188,6 +126776,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -115223,6 +126812,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Forecast",
+        "abilityId": 59,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115256,6 +126846,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Forecast",
+        "abilityId": 59,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -115291,6 +126882,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115324,6 +126916,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -115357,50 +126950,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Colbur Berry",
-        "gender": "Female",
-        "nature": "Naive",
-        "moves": [
-          "Blizzard",
-          "Psychic",
-          "Aura Sphere",
-          "Lovely Kiss"
-        ],
-        "sub_index": 1,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 50,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -115423,17 +126984,18 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
-        "tr_id": 493,
+        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -115456,6 +127018,41 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 493,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Colbur Berry",
+        "gender": "Female",
+        "nature": "Docile",
+        "moves": [
+          "Blizzard",
+          "Psychic",
+          "Aura Sphere",
+          "Lovely Kiss"
+        ],
+        "sub_index": 1,
+        "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -115489,6 +127086,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -115522,6 +127120,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -115555,6 +127154,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -115590,6 +127190,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115623,6 +127224,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -115656,6 +127258,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -115689,6 +127292,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -115722,6 +127326,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -115755,6 +127360,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -115790,6 +127396,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115817,12 +127424,13 @@ backup_data = {
         "nature": "Serious",
         "moves": [
           "Water Spout",
-          "Rock Blast",
-          "Bullet Seed",
-          "Ice Beam"
+          "Blast Burn",
+          "Spike Cannon",
+          "Rock Blast"
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -115858,6 +127466,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Snow Cloak",
+        "abilityId": 81,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115891,13 +127500,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 71 Elite Four Shauntal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -115924,6 +127534,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -115959,6 +127570,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -115992,6 +127604,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -116025,6 +127638,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -116060,6 +127674,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116089,18 +127704,19 @@ backup_data = {
           "Sheer Cold",
           "Hydro Cannon",
           "Fake Out",
-          "Surf"
+          "Toxic"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 493,
@@ -116117,7 +127733,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Water Gem",
         "gender": "Male",
-        "nature": "Hasty",
+        "nature": "Quiet",
         "moves": [
           "Surf",
           "Ice Beam",
@@ -116126,6 +127742,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -116161,6 +127778,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116194,6 +127812,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -116220,13 +127839,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Bashful",
         "moves": [
+          "Psycho Shift",
           "Psycho Boost",
           "Psych Up",
-          "Imprison",
-          "Heat Wave"
+          "Imprison"
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -116262,6 +127882,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116295,6 +127916,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -116328,6 +127950,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -116361,6 +127984,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -116394,6 +128018,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -116429,6 +128054,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116462,6 +128088,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -116495,6 +128122,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -116530,13 +128158,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Jude - Celestial Tower": {
+      "Lvl 58 Pokéfan Jude - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -116563,13 +128192,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 39,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
+      "Lvl 82 Elite Four Marshal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -116596,6 +128226,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -116629,13 +128260,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 71 Elite Four Marshal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -116662,6 +128294,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -116695,6 +128328,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -116728,6 +128362,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -116761,6 +128396,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -116796,6 +128432,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Magnet Pull",
+        "abilityId": 42,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116831,6 +128468,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116864,6 +128502,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -116899,6 +128538,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -116934,6 +128574,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -116967,6 +128608,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -116995,11 +128637,12 @@ backup_data = {
         "moves": [
           "Retaliate",
           "Shadow Claw",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -117033,6 +128676,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -117068,6 +128712,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117101,14 +128746,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -117125,7 +128771,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Scope Lens",
         "gender": "Male",
-        "nature": "Mild",
+        "nature": "Docile",
         "moves": [
           "Nasty Plot",
           "Night Daze",
@@ -117134,6 +128780,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -117167,6 +128814,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117200,6 +128848,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Infiltrator",
+        "abilityId": 151,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117235,6 +128884,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117268,6 +128918,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -117301,6 +128952,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -117334,14 +128986,15 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rain Dish",
+        "abilityId": 44,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -117358,15 +129011,16 @@ backup_data = {
         "reward_item": "None",
         "item": "Focus Band",
         "gender": "Male",
-        "nature": "Naive",
+        "nature": "Naughty",
         "moves": [
           "Perish Song",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Rain Dish",
+        "abilityId": 44,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -117402,6 +129056,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117429,12 +129084,13 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Focus Blast",
-          "Stone Edge",
+          "Fire Blast",
           "Earthquake",
           "Shadow Punch"
         ],
         "sub_index": 5,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -117468,14 +129124,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
+      "Lvl 72 Ace Trainer Clara - Opelucid City": {
+        "level": 72,
         "ai": 135,
         "noCh": false,
         "tr_id": 266,
@@ -117492,7 +129149,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Sitrus Berry",
         "gender": "Male",
-        "nature": "Sassy",
+        "nature": "Gentle",
         "moves": [
           "Dynamic Punch",
           "Stone Edge",
@@ -117501,6 +129158,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -117534,6 +129192,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -117565,10 +129224,11 @@ backup_data = {
           "Head Charge",
           "Brave Bird",
           "Superpower",
-          ""
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -117602,6 +129262,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -117635,6 +129296,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -117670,6 +129332,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -117703,6 +129366,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -117736,6 +129400,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/cyclist.png",
         "form": 0,
         "evs": {
@@ -117769,6 +129434,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/cyclist.png",
         "form": 0,
         "evs": {
@@ -117803,7 +129469,8 @@ backup_data = {
           "Crunch"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -117836,7 +129503,8 @@ backup_data = {
           "Crunch"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -117869,7 +129537,8 @@ backup_data = {
           "Fire Fang"
         ],
         "sub_index": 3,
-        "ability": "Sand Rush",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -117902,7 +129571,8 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 4,
-        "ability": "Sand Rush",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -117935,7 +129605,8 @@ backup_data = {
           "Take Down"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -117968,7 +129639,8 @@ backup_data = {
           "Take Down"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -118001,7 +129673,8 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -118034,7 +129707,8 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -118067,7 +129741,8 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -118103,6 +129778,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118136,6 +129812,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -118171,6 +129848,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118204,6 +129882,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -118239,6 +129918,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118274,6 +129954,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118300,13 +129981,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hardy",
         "moves": [
+          "Brave Bird",
           "Earthquake",
-          "Rock Climb",
-          "Blaze Kick",
-          "Drill Peck"
+          "Superpower",
+          "Rock Climb"
         ],
         "sub_index": 2,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118342,6 +130024,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -118368,13 +130051,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
+          "Double Hit",
+          "Razor Wind",
           "Brave Bird",
-          "Heat Wave",
-          "Hyper Voice",
-          "Acrobatics"
+          "Heat Wave"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -118410,6 +130094,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -118443,6 +130128,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -118473,11 +130159,12 @@ backup_data = {
         "moves": [
           "Miracle Eye",
           "Psycho Cut",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118511,6 +130198,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
@@ -118544,6 +130232,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -118577,6 +130266,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -118612,6 +130302,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Insomnia",
+        "abilityId": 15,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118645,6 +130336,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Cursed Body",
+        "abilityId": 130,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -118678,6 +130370,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Insomnia",
+        "abilityId": 15,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -118713,6 +130406,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118746,6 +130440,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -118772,13 +130467,14 @@ backup_data = {
         "gender": "Female",
         "nature": "Adamant",
         "moves": [
-          "Outrage",
-          "Thrash",
-          "Last Resort",
-          "Flail"
+          "Flail",
+          "Dragon Rush",
+          "Crush Claw",
+          "Dragon Claw"
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -118807,11 +130503,12 @@ backup_data = {
         "moves": [
           "Thrash",
           "Outrage",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -118847,6 +130544,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -118880,6 +130578,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -118913,6 +130612,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -118946,6 +130646,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -118981,14 +130682,15 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Worker Rob - Twist Mountain": {
-        "level": 75,
+      "Lvl 60 Worker Rob - Twist Mountain": {
+        "level": 60,
         "ai": 7,
         "noCh": false,
         "tr_id": 122,
@@ -119014,6 +130716,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Hustle",
+        "abilityId": 55,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -119047,6 +130750,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -119080,6 +130784,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -119115,6 +130820,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -119148,6 +130854,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -119181,6 +130888,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -119214,6 +130922,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -119243,12 +130952,13 @@ backup_data = {
         "nature": "Bold",
         "moves": [
           "Retaliate",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -119282,6 +130992,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -119315,6 +131026,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -119342,12 +131054,13 @@ backup_data = {
         "nature": "Serious",
         "moves": [
           "Echoed Voice",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -119383,6 +131096,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -119416,6 +131130,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Simple",
+        "abilityId": 86,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -119451,6 +131166,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Huge Power",
+        "abilityId": 37,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -119484,6 +131200,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Huge Power",
+        "abilityId": 37,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -119517,6 +131234,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Huge Power",
+        "abilityId": 37,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -119550,6 +131268,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Huge Power",
+        "abilityId": 37,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -119583,6 +131302,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Huge Power",
+        "abilityId": 37,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -119618,6 +131338,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -119651,6 +131372,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -119686,6 +131408,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -119714,11 +131437,12 @@ backup_data = {
         "moves": [
           "Retaliate",
           "Close Combat",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -119747,11 +131471,12 @@ backup_data = {
         "moves": [
           "Mega Kick",
           "High Jump Kick",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -119785,6 +131510,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -119820,6 +131546,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -119853,6 +131580,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -119886,6 +131614,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -119919,13 +131648,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 71 Elite Four Grimsley2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -119952,6 +131682,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -119985,6 +131716,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -120020,6 +131752,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -120053,6 +131786,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -120086,6 +131820,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -120119,6 +131854,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -120152,6 +131888,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -120187,6 +131924,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120220,6 +131958,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120253,6 +131992,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120286,6 +132026,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -120319,6 +132060,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -120352,6 +132094,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -120385,6 +132128,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -120420,6 +132164,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120453,6 +132198,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120486,6 +132232,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -120519,6 +132266,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -120554,6 +132302,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120587,6 +132336,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -120620,6 +132370,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -120653,6 +132404,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/artist.png",
         "form": 0,
         "evs": {
@@ -120682,10 +132434,11 @@ backup_data = {
           "Flamethrower",
           "Earth Power",
           "Rock Polish",
-          "Self-Destruct"
+          "Focus Energy"
         ],
         "sub_index": 2,
         "ability": "Simple",
+        "abilityId": 86,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -120721,6 +132474,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -120754,6 +132508,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -120789,6 +132544,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -120822,6 +132578,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -120857,6 +132614,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -120890,6 +132648,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -120923,6 +132682,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -120956,6 +132716,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -120991,6 +132752,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -121024,6 +132786,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -121057,6 +132820,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -121092,6 +132856,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -121125,6 +132890,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -121158,6 +132924,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -121186,13 +132953,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naive",
         "moves": [
-          "Rock Climb",
-          "Dragon Claw",
-          "",
-          ""
+          "Rock Slide",
+          "Zen Headbutt",
+          "Crunch",
+          "Iron Head"
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -121226,13 +132994,14 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
+      "Lvl 82 Elite Four Marshal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -121259,14 +133028,15 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
+      "Lvl 72 Ace Trainer Clara - Opelucid City": {
+        "level": 72,
         "ai": 135,
         "noCh": false,
         "tr_id": 266,
@@ -121281,17 +133051,18 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Choice Band",
+        "item": "Hard Stone",
         "gender": "Male",
-        "nature": "Serious",
+        "nature": "Timid",
         "moves": [
           "Rock Slide",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -121327,6 +133098,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -121362,6 +133134,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -121395,6 +133168,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -121428,6 +133202,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -121461,6 +133236,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -121494,6 +133270,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -121527,6 +133304,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -121554,12 +133332,13 @@ backup_data = {
         "nature": "Adamant",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -121587,12 +133366,13 @@ backup_data = {
         "nature": "Lax",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -121620,12 +133400,13 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -121661,6 +133442,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -121694,6 +133476,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -121729,6 +133512,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -121758,10 +133542,11 @@ backup_data = {
           "Razor Wind",
           "Will-O-Wisp",
           "Roost",
-          "Tailwind"
+          "Aeroblast"
         ],
         "sub_index": 1,
         "ability": "Flare Boost",
+        "abilityId": 138,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -121795,13 +133580,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 71 Elite Four Shauntal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -121828,6 +133614,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Flare Boost",
+        "abilityId": 138,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -121857,12 +133644,13 @@ backup_data = {
         "nature": "Mild",
         "moves": [
           "Calm Mind",
-          "Scald",
+          "Muddy Water",
           "Psychic",
           "Ice Beam"
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -121896,6 +133684,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -121929,6 +133718,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -121962,6 +133752,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -121997,6 +133788,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122030,6 +133822,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122065,6 +133858,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122098,6 +133892,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122131,6 +133926,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -122164,6 +133960,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/baker.png",
         "form": 0,
         "evs": {
@@ -122197,6 +133994,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -122232,6 +134030,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122265,6 +134064,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -122298,6 +134098,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122331,6 +134132,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -122364,6 +134166,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -122399,6 +134202,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122432,6 +134236,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -122467,6 +134272,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122502,6 +134308,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122533,17 +134340,18 @@ backup_data = {
           "Drain Punch",
           "Shadow Punch",
           "Thunder Punch",
-          "Will-O-Wisp"
+          "Grudge"
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Georgia - Celestial Tower": {
+      "Lvl 58 Pokéfan Georgia - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -122570,7 +134378,8 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 26,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -122605,13 +134414,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Pokefan Georgia - Celestial Tower": {
+      "Lvl 58 Pokéfan Georgia - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -122638,7 +134448,8 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Chlorophyll",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 34,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -122671,6 +134482,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -122706,6 +134518,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122739,6 +134552,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -122774,6 +134588,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -122809,6 +134624,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -122842,6 +134658,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -122875,13 +134692,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
+      "Lvl 82 Elite Four Marshal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -122908,6 +134726,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -122941,6 +134760,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -122974,6 +134794,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -123007,6 +134828,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -123040,13 +134862,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 71 Elite Four Marshal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -123073,6 +134896,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -123108,6 +134932,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -123141,6 +134966,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -123174,6 +135000,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -123202,18 +135029,19 @@ backup_data = {
         "moves": [
           "Dragon Claw",
           "Hammer Arm",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Champion Alder - Pokemon League": {
+      "Lvl 75 Champion Alder - Pokémon League": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -123240,6 +135068,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -123275,6 +135104,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -123310,6 +135140,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -123343,6 +135174,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -123376,6 +135208,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -123409,6 +135242,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -123442,6 +135276,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -123475,6 +135310,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -123508,6 +135344,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -123541,6 +135378,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -123576,6 +135414,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -123609,6 +135448,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -123635,13 +135475,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Sassy",
         "moves": [
+          "Wonder Room",
           "Gravity",
           "Pain Split",
-          "Psyshock",
-          "Wake-Up Slap"
+          "Psyshock"
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -123668,13 +135509,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naive",
         "moves": [
+          "Wonder Room",
           "Gravity",
           "Pain Split",
-          "Psyshock",
-          "Wake-Up Slap"
+          "Psyshock"
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -123710,6 +135552,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -123742,6 +135585,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -123777,6 +135621,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -123810,6 +135655,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -123843,6 +135689,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -123876,6 +135723,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -123911,6 +135759,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mummy",
+        "abilityId": 152,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -123946,6 +135795,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -123979,6 +135829,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -124014,13 +135865,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+      "Lvl 82 Elite Four Grimsley - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -124047,6 +135899,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -124080,6 +135933,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -124113,6 +135967,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -124148,6 +136003,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -124175,12 +136031,13 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Assist",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -124214,6 +136071,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -124249,6 +136107,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -124282,6 +136141,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -124315,6 +136175,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -124348,6 +136209,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -124383,6 +136245,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -124418,6 +136281,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -124451,6 +136315,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -124484,6 +136349,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -124517,6 +136383,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -124550,6 +136417,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -124583,6 +136451,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -124616,6 +136485,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -124649,6 +136519,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -124682,6 +136553,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Simple",
+        "abilityId": 86,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -124715,6 +136587,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -124723,8 +136596,8 @@ backup_data = {
       }
     },
     "Durant": {
-      "Lvl 75 Worker Heath - Twist Mountain": {
-        "level": 75,
+      "Lvl 60 Worker Heath - Twist Mountain": {
+        "level": 60,
         "ai": 7,
         "noCh": false,
         "tr_id": 124,
@@ -124741,7 +136614,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Muscle Band",
         "gender": "Male",
-        "nature": "Impish",
+        "nature": "Sassy",
         "moves": [
           "Hone Claws",
           "Iron Head",
@@ -124750,6 +136623,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Hustle",
+        "abilityId": 55,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -124783,6 +136657,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Swarm",
+        "abilityId": 68,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -124816,6 +136691,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Hustle",
+        "abilityId": 55,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -124849,6 +136725,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Hustle",
+        "abilityId": 55,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -124882,6 +136759,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Hustle",
+        "abilityId": 55,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -124917,6 +136795,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -124950,6 +136829,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -124983,6 +136863,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -125016,6 +136897,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -125051,6 +136933,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125079,11 +136962,12 @@ backup_data = {
         "moves": [
           "Double-Edge",
           "Brave Bird",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -125119,6 +137003,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Keen Eye",
+        "abilityId": 51,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125152,6 +137037,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Keen Eye",
+        "abilityId": 51,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -125182,11 +137068,12 @@ backup_data = {
         "moves": [
           "Tailwind",
           "U-turn",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125222,6 +137109,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125255,6 +137143,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -125288,6 +137177,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -125321,50 +137211,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Toxic Orb",
-        "gender": "Male",
-        "nature": "Jolly",
-        "moves": [
-          "Facade",
-          "Close Combat",
-          "Quick Attack",
-          "Shadow Claw"
-        ],
-        "sub_index": 2,
-        "ability": "Toxic Boost",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 76,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -125387,17 +137245,18 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
-        "tr_id": 590,
+        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -125420,6 +137279,41 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Toxic Boost",
+        "abilityId": 137,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 590,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Toxic Orb",
+        "gender": "Male",
+        "nature": "Hardy",
+        "moves": [
+          "Facade",
+          "Close Combat",
+          "Quick Attack",
+          "Shadow Claw"
+        ],
+        "sub_index": 2,
+        "ability": "Toxic Boost",
+        "abilityId": 137,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -125455,40 +137349,8 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 33 Harlequin Rick - Castelia City": {
-        "level": 33,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 200,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "gender": "Female",
-        "nature": "Timid",
-        "moves": [
-          "Attack Order",
-          "Defend Order",
-          "Heal Order",
-          "Toxic"
-        ],
-        "sub_index": 1,
-        "ability": "Filter",
-        "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -125514,13 +137376,14 @@ backup_data = {
         "gender": "Female",
         "nature": "Lax",
         "moves": [
-          "Toxic",
           "Heal Order",
-          "Attack Order",
-          "Aeroblast"
+          "Toxic",
+          "Aeroblast",
+          "U-turn"
         ],
         "sub_index": 3,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -125556,6 +137419,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125589,6 +137453,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -125622,6 +137487,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -125652,11 +137518,12 @@ backup_data = {
         "moves": [
           "Close Combat",
           "Sky Attack",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125690,6 +137557,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hooligans.png",
         "form": 0,
         "evs": {
@@ -125723,6 +137591,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -125758,6 +137627,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -125791,6 +137661,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Synchronize",
+        "abilityId": 28,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -125826,6 +137697,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -125859,6 +137731,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -125885,13 +137758,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
+          "Draco Meteor",
+          "Hydro Cannon",
           "Yawn",
-          "Octazooka",
-          "Dragon Pulse",
-          "Scald"
+          "Muddy Water"
         ],
         "sub_index": 4,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -125927,6 +137801,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -125960,13 +137835,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Champion Alder - Pokemon League": {
+      "Lvl 75 Champion Alder - Pokémon League": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -125993,6 +137869,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -126026,6 +137903,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -126061,6 +137939,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126094,6 +137973,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -126127,6 +138007,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Natural Cure",
+        "abilityId": 30,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -126162,6 +138043,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126189,12 +138071,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Dragon Claw",
-          "Iron Tail",
-          "Close Combat",
+          "Iron Head",
+          "Fire Punch",
           "Swords Dance"
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126228,6 +138111,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Mold Breaker",
+        "abilityId": 104,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -126261,6 +138145,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -126294,6 +138179,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -126327,6 +138213,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -126360,6 +138247,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -126394,7 +138282,8 @@ backup_data = {
           "Fire Blast"
         ],
         "sub_index": 0,
-        "ability": "Sheer Force",
+        "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126428,6 +138317,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -126461,6 +138351,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -126496,6 +138387,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126529,6 +138421,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -126562,6 +138455,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -126595,6 +138489,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -126630,6 +138525,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -126663,6 +138559,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -126695,7 +138592,8 @@ backup_data = {
           "X-Scissor"
         ],
         "sub_index": 4,
-        "ability": "Technician",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -126724,19 +138622,20 @@ backup_data = {
         "moves": [
           "Leaf Storm",
           "Draco Meteor",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Overgrow",
+        "abilityId": 65,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
@@ -126753,15 +138652,16 @@ backup_data = {
         "reward_item": "None",
         "item": "Choice Band",
         "gender": "Male",
-        "nature": "Mild",
+        "nature": "Jolly",
         "moves": [
           "Dual Chop",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -126797,40 +138697,8 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/leader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 Roughneck Reese - Route 9": {
-        "level": 72,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 135,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Yache Berry",
-        "gender": "Male",
-        "nature": "Rash",
-        "moves": [
-          "Brave Bird",
-          "Dragon Claw",
-          "Earthquake",
-          "Flare Blitz"
-        ],
-        "sub_index": 2,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -126863,6 +138731,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Moxie",
+        "abilityId": 153,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -126890,12 +138759,13 @@ backup_data = {
         "nature": "Quirky",
         "moves": [
           "Brave Bird",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -126929,6 +138799,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -126962,6 +138833,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -126997,13 +138869,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
+      "Lvl 82 Elite Four Marshal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -127030,6 +138903,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -127063,6 +138937,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -127096,8 +138971,9 @@ backup_data = {
           "Wild Charge",
           "Fissure"
         ],
-        "sub_index": 4,
+        "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -127131,6 +139007,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -127164,6 +139041,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -127197,6 +139075,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -127230,8 +139109,9 @@ backup_data = {
           "Head Smash",
           "Megahorn"
         ],
-        "sub_index": 5,
+        "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -127265,6 +139145,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Soundproof",
+        "abilityId": 43,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127298,6 +139179,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127331,6 +139213,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -127364,13 +139247,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Champion Alder - Pokemon League": {
+      "Lvl 75 Champion Alder - Pokémon League": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -127397,6 +139281,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -127430,6 +139315,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -127465,6 +139351,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flare Boost",
+        "abilityId": 138,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -127498,6 +139385,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127533,6 +139421,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -127566,6 +139455,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Illusion",
+        "abilityId": 149,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -127599,6 +139489,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -127632,6 +139523,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127667,6 +139559,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -127675,7 +139568,7 @@ backup_data = {
       }
     },
     "Scyther": {
-      "Lvl 58 Pokefan Jude - Celestial Tower": {
+      "Lvl 58 Pokéfan Jude - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -127702,7 +139595,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 101,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -127735,6 +139629,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -127768,6 +139663,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127776,7 +139672,7 @@ backup_data = {
       }
     },
     "Magcargo": {
-      "Lvl 58 Pokefan Jude - Celestial Tower": {
+      "Lvl 58 Pokéfan Jude - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -127803,7 +139699,8 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 11,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -127836,6 +139733,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Simple",
+        "abilityId": 86,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -127869,6 +139767,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -127902,6 +139801,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -127935,6 +139835,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -127968,6 +139869,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -127976,7 +139878,7 @@ backup_data = {
       }
     },
     "Conkeldurr": {
-      "Lvl 58 Pokefan Georgia - Celestial Tower": {
+      "Lvl 58 Pokéfan Georgia - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -128003,7 +139905,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 125,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128036,13 +139939,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 83 Elite Four Marshal - Pokemon League": {
+      "Lvl 83 Elite Four Marshal - Pokémon League": {
         "level": 83,
         "ai": 7,
         "noCh": false,
@@ -128069,6 +139973,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -128102,6 +140007,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -128135,13 +140041,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal2 - Pokemon League": {
+      "Lvl 73 Elite Four Marshal2 - Pokémon League": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -128168,6 +140075,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -128176,7 +140084,7 @@ backup_data = {
       }
     },
     "Slowbro": {
-      "Lvl 58 Pokefan Georgia - Celestial Tower": {
+      "Lvl 58 Pokéfan Georgia - Celestial Tower": {
         "level": 58,
         "ai": 135,
         "noCh": false,
@@ -128203,7 +140111,8 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 75,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128236,13 +140145,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 64 Pokefan Colin": {
+      "Lvl 64 Pokéfan Colin": {
         "level": 64,
         "ai": 1,
         "noCh": false,
@@ -128269,7 +140179,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 75,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128304,6 +140215,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128337,6 +140249,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128370,6 +140283,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -128405,6 +140319,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128438,6 +140353,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128473,6 +140389,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Infiltrator",
+        "abilityId": 151,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128508,6 +140425,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128543,6 +140461,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -128576,6 +140495,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -128609,40 +140529,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/backers.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 33 Harlequin Rick - Castelia City": {
-        "level": 33,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 200,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Muscle Band",
-        "gender": "Male",
-        "nature": "Docile",
-        "moves": [
-          "Protect",
-          "Steamroller",
-          "Poison Jab",
-          "Aqua Tail"
-        ],
-        "sub_index": 2,
-        "ability": "Speed Boost",
-        "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128675,6 +140563,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -128708,6 +140597,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -128741,6 +140631,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -128774,6 +140665,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -128807,6 +140699,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -128840,6 +140733,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -128873,6 +140767,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -128906,6 +140801,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -128939,6 +140835,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -128972,6 +140869,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -129005,6 +140903,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -129040,6 +140939,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -129073,6 +140973,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -129099,13 +141000,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Adamant",
         "moves": [
+          "Psycho Boost",
           "Attack Order",
           "Rage Powder",
-          "Tailwind",
-          "Psychic"
+          "Tailwind"
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -129141,13 +141043,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flare Boost",
+        "abilityId": 138,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 62 Pokefan Elliot - Route 15": {
+      "Lvl 62 Pokéfan Elliot - Route 15": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -129170,11 +141073,12 @@ backup_data = {
           "Razor Wind",
           "Will-O-Wisp",
           "Roost",
-          "Tailwind"
+          "Aeroblast"
         ],
         "sub_index": 3,
         "ability": "Flare Boost",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 138,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -129208,7 +141112,8 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 2,
-        "ability": "Shield Dust",
+        "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -129244,6 +141149,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -129279,6 +141185,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -129312,6 +141219,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -129345,6 +141253,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -129380,6 +141289,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -129413,6 +141323,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -129442,12 +141353,13 @@ backup_data = {
         "nature": "Adamant",
         "moves": [
           "Self-Destruct",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Natural Cure",
+        "abilityId": 30,
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -129481,6 +141393,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Natural Cure",
+        "abilityId": 30,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -129514,6 +141427,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Natural Cure",
+        "abilityId": 30,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -129549,6 +141463,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -129575,20 +141490,21 @@ backup_data = {
         "gender": "Male",
         "nature": "Quiet",
         "moves": [
+          "Psycho Shift",
           "Future Sight",
           "Shadow Ball",
-          "Psystrike",
-          "Trick"
+          "Psystrike"
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+      "Lvl 82 Elite Four Caitlin - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -129615,6 +141531,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -129648,6 +141565,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -129681,6 +141599,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -129714,6 +141633,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -129740,13 +141660,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
+          "Psycho Shift",
           "Future Sight",
           "Shadow Ball",
-          "Psystrike",
-          "Trick"
+          "Psystrike"
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -129773,13 +141694,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
+          "Psycho Shift",
           "Future Sight",
           "Shadow Ball",
-          "Psystrike",
-          "Trick"
+          "Psystrike"
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -129806,13 +141728,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Timid",
         "moves": [
+          "Psycho Shift",
           "Future Sight",
           "Shadow Ball",
-          "Psystrike",
-          "Trick"
+          "Psystrike"
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -129839,20 +141762,21 @@ backup_data = {
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
+          "Psycho Shift",
           "Future Sight",
           "Shadow Ball",
-          "Psystrike",
-          "Trick"
+          "Psystrike"
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 71 Elite Four Caitlin2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -129879,6 +141803,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -129912,6 +141837,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -129945,6 +141871,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -129978,6 +141905,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -130007,12 +141935,13 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Minimize",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/nurse.png",
         "form": 0,
         "evs": {
@@ -130046,6 +141975,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -130079,6 +142009,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/nurse.png",
         "form": 0,
         "evs": {
@@ -130107,11 +142038,12 @@ backup_data = {
         "moves": [
           "Trick Room",
           "Self-Destruct",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -130147,6 +142079,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130180,6 +142113,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -130213,6 +142147,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -130246,6 +142181,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -130281,6 +142217,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130314,6 +142251,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -130347,6 +142285,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -130380,6 +142319,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -130413,6 +142353,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -130448,6 +142389,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130475,12 +142417,13 @@ backup_data = {
         "nature": "Hasty",
         "moves": [
           "Explosion",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -130514,6 +142457,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -130547,6 +142491,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -130582,6 +142527,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130610,11 +142556,12 @@ backup_data = {
         "moves": [
           "Earth Power",
           "Icy Wind",
-          "Surf",
+          "Scald",
           "Recover"
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -130650,6 +142597,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130683,6 +142631,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -130716,6 +142665,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -130751,13 +142701,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Marshal - Pokemon League": {
+      "Lvl 82 Elite Four Marshal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -130784,6 +142735,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -130816,7 +142768,8 @@ backup_data = {
           "Rock Slide"
         ],
         "sub_index": 2,
-        "ability": "Inner Focus",
+        "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -130849,7 +142802,8 @@ backup_data = {
           "Submission"
         ],
         "sub_index": 0,
-        "ability": "Inner Focus",
+        "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -130885,6 +142839,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -130918,6 +142873,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -130951,6 +142907,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -130986,6 +142943,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -131021,6 +142979,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -131056,6 +143015,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131089,6 +143049,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Air Lock",
+        "abilityId": 76,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -131122,6 +143083,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Air Lock",
+        "abilityId": 76,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -131157,6 +143119,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131190,6 +143153,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -131225,6 +143189,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131258,6 +143223,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -131291,6 +143257,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -131324,6 +143291,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -131357,6 +143325,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -131390,6 +143359,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131423,6 +143393,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131458,6 +143429,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131491,6 +143463,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
@@ -131526,6 +143499,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131559,13 +143533,14 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+      "Lvl 82 Elite Four Grimsley - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -131588,10 +143563,11 @@ backup_data = {
           "Surf",
           "Aeroblast",
           "Roost",
-          "Tailwind"
+          "Haze"
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -131625,6 +143601,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -131655,11 +143632,12 @@ backup_data = {
         "moves": [
           "Hyper Voice",
           "Hurricane",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131686,57 +143664,25 @@ backup_data = {
         "gender": "Male",
         "nature": "Careful",
         "moves": [
+          "Double Hit",
+          "Razor Wind",
           "Brave Bird",
-          "Heat Wave",
-          "Hyper Voice",
-          "Acrobatics"
+          "Heat Wave"
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "gender": "Male",
-        "nature": "Serious",
-        "moves": [
-          "Hurricane",
-          "Hyper Voice",
-          "Steel Wing",
-          "Heat Wave"
-        ],
-        "sub_index": 0,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 50,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -131759,17 +143705,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
-        "tr_id": 493,
+        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -131792,6 +143739,41 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 493,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "gender": "Male",
+        "nature": "Naughty",
+        "moves": [
+          "Hurricane",
+          "Hyper Voice",
+          "Steel Wing",
+          "Heat Wave"
+        ],
+        "sub_index": 0,
+        "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -131827,6 +143809,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -131860,6 +143843,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -131893,6 +143877,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -131928,6 +143913,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Run Away",
+        "abilityId": 50,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -131963,6 +143949,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -131996,6 +143983,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -132029,6 +144017,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -132055,13 +144044,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Modest",
         "moves": [
+          "Stealth Rock",
           "Fissure",
-          "Protect",
-          "Earthquake",
-          "Rock Climb"
+          "Rock Wrecker",
+          "Earthquake"
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -132097,6 +144087,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Mummy",
+        "abilityId": 152,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -132130,13 +144121,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Mummy",
+        "abilityId": 152,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 71 Elite Four Shauntal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -132163,6 +144155,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Mummy",
+        "abilityId": 152,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -132191,13 +144184,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Relaxed",
         "moves": [
-          "Sucker Punch",
           "U-turn",
+          "Sucker Punch",
           "Rage Powder",
           "Crunch"
         ],
         "sub_index": 0,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -132231,6 +144225,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Insomnia",
+        "abilityId": 15,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -132264,6 +144259,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -132292,47 +144288,15 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
+          "Beat Up",
           "Night Daze",
           "Double-Edge",
-          "Double Hit",
-          "Beat Up"
+          "Double Hit"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/clerk_m.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 Biker Phillip - Route 9": {
-        "level": 72,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 180,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Chople Berry",
-        "gender": "Male",
-        "nature": "Calm",
-        "moves": [
-          "Fake Out",
-          "Bite",
-          "Covet",
-          "Rock Smash"
-        ],
-        "sub_index": 2,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -132365,6 +144329,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -132400,6 +144365,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -132427,12 +144393,13 @@ backup_data = {
         "nature": "Gentle",
         "moves": [
           "Assist",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -132466,6 +144433,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -132499,6 +144467,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -132534,6 +144503,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -132566,7 +144536,8 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 2,
-        "ability": "Rough Skin",
+        "ability": "Rattled",
+        "abilityId": 155,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -132600,6 +144571,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -132633,6 +144605,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Poison Heal",
+        "abilityId": 90,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -132668,6 +144641,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Synchronize",
+        "abilityId": 28,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -132703,6 +144677,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -132736,6 +144711,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -132769,6 +144745,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -132804,6 +144781,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -132837,6 +144815,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -132870,6 +144849,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -132903,6 +144883,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -132936,6 +144917,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -132969,6 +144951,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -133002,6 +144985,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -133037,6 +145021,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -133070,6 +145055,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -133103,6 +145089,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133136,6 +145123,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133171,6 +145159,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Infiltrator",
+        "abilityId": 151,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133204,6 +145193,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133237,6 +145227,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -133270,6 +145261,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -133305,6 +145297,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133338,6 +145331,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -133371,6 +145365,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -133404,6 +145399,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -133437,6 +145433,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -133472,6 +145469,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133505,6 +145503,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -133538,6 +145537,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133571,6 +145571,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
         "evs": {
@@ -133600,12 +145601,13 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Explosion",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133639,6 +145641,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -133672,6 +145675,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133705,6 +145709,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -133738,6 +145743,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -133768,11 +145774,12 @@ backup_data = {
         "moves": [
           "Retaliate",
           "Hammer Arm",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133801,11 +145808,12 @@ backup_data = {
         "moves": [
           "Flail",
           "Reversal",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -133839,6 +145847,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/baker.png",
         "form": 0,
         "evs": {
@@ -133874,6 +145883,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133909,6 +145919,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drought",
+        "abilityId": 70,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -133942,6 +145953,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -133977,6 +145989,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134010,6 +146023,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -134045,6 +146059,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134078,6 +146093,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -134113,6 +146129,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134146,6 +146163,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -134179,6 +146197,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -134214,6 +146233,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134247,6 +146267,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -134282,6 +146303,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134315,6 +146337,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -134348,6 +146371,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -134383,6 +146407,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134416,14 +146441,15 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
@@ -134440,7 +146466,7 @@ backup_data = {
         "reward_item": "None",
         "item": "White Herb",
         "gender": "Male",
-        "nature": "Mild",
+        "nature": "Quirky",
         "moves": [
           "Shell Smash",
           "Wood Hammer",
@@ -134449,6 +146475,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -134484,6 +146511,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134517,6 +146545,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sand Rush",
+        "abilityId": 146,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -134550,6 +146579,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Blaze",
+        "abilityId": 66,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -134585,6 +146615,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drizzle",
+        "abilityId": 2,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 2,
         "evs": {
@@ -134620,6 +146651,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134647,12 +146679,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Leaf Storm",
+          "Trick Room",
           "Energy Ball",
-          "Bug Buzz",
-          "Giga Drain"
+          "Bug Buzz"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -134688,6 +146721,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -134721,14 +146755,15 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
+      "Lvl 72 Ace Trainer Clara - Opelucid City": {
+        "level": 72,
         "ai": 135,
         "noCh": false,
         "tr_id": 266,
@@ -134745,7 +146780,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Light Clay",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Reflect",
           "Light Screen",
@@ -134754,6 +146789,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -134787,6 +146823,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -134822,6 +146859,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Pressure",
+        "abilityId": 46,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -134857,6 +146895,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -134890,6 +146929,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -134923,6 +146963,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -134958,6 +146999,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -134991,6 +147033,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -135024,6 +147067,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -135059,6 +147103,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -135092,6 +147137,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -135125,6 +147171,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -135158,6 +147205,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -135184,13 +147232,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Docile",
         "moves": [
-          "Haze",
-          "Icy Wind",
+          "Endure",
           "Gunk Shot",
+          "Destiny Bond",
           "Aqua Tail"
         ],
         "sub_index": 1,
         "ability": "Iron Barbs",
+        "abilityId": 160,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -135221,11 +147270,12 @@ backup_data = {
         "moves": [
           "Zen Headbutt",
           "Meteor Mash",
-          "Agility",
+          "Shift Gear",
           "Earthquake"
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -135259,6 +147309,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -135292,13 +147343,14 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 83 Elite Four Caitlin - Pokemon League": {
+      "Lvl 83 Elite Four Caitlin - Pokémon League": {
         "level": 83,
         "ai": 7,
         "noCh": false,
@@ -135325,6 +147377,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -135358,6 +147411,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -135391,13 +147445,14 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 73 Elite Four Caitlin2 - Pokémon League": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -135424,6 +147479,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -135459,6 +147515,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -135492,6 +147549,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -135525,6 +147583,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -135560,6 +147619,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Overcoat",
+        "abilityId": 142,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 2,
         "evs": {
@@ -135593,6 +147653,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overcoat",
+        "abilityId": 142,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 2,
         "evs": {
@@ -135628,6 +147689,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -135661,6 +147723,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -135694,6 +147757,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -135702,8 +147766,8 @@ backup_data = {
       }
     },
     "Ninjask": {
-      "Lvl 33 Harlequin Rick - Castelia City": {
-        "level": 33,
+      "Lvl 40 Harlequin Rick - Castelia City": {
+        "level": 40,
         "ai": 7,
         "noCh": false,
         "tr_id": 200,
@@ -135718,17 +147782,18 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Choice Scarf",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Lax",
         "moves": [
-          "Feint Attack",
-          "Bug Bite",
-          "Wing Attack",
-          "Swords Dance"
+          "Final Gambit",
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -135762,6 +147827,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -135784,7 +147850,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Focus Band",
         "gender": "Male",
         "nature": "Relaxed",
         "moves": [
@@ -135795,6 +147861,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -135828,6 +147895,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Infiltrator",
+        "abilityId": 151,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -135861,75 +147929,8 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Crustle": {
-      "Lvl 33 Harlequin Rick - Castelia City": {
-        "level": 33,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 200,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "White Herb",
-        "gender": "Male",
-        "nature": "Careful",
-        "moves": [
-          "Shell Smash",
-          "X-Scissor",
-          "Rock Climb",
-          "Earthquake"
-        ],
-        "sub_index": 3,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/harlequin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Hiker Jeremiah - Route 18": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 460,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Chill Drive",
-        "item": "White Herb",
-        "gender": "Male",
-        "nature": "Bashful",
-        "moves": [
-          "Shell Smash",
-          "Stone Edge",
-          "X-Scissor",
-          "Earthquake"
-        ],
-        "sub_index": 3,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -135964,6 +147965,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -135997,6 +147999,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -136030,6 +148033,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -136065,6 +148069,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136093,11 +148098,12 @@ backup_data = {
         "moves": [
           "Stealth Rock",
           "Earth Power",
-          "Power Gem",
+          "Will-O-Wisp",
           "Shadow Ball"
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -136131,6 +148137,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -136164,6 +148171,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -136199,6 +148207,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136232,6 +148241,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Drought",
+        "abilityId": 70,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -136265,6 +148275,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -136300,6 +148311,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136333,6 +148345,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -136360,12 +148373,13 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Pursuit",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 5,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -136399,6 +148413,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Tinted Lens",
+        "abilityId": 110,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -136432,6 +148447,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -136465,13 +148481,14 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 71 Elite Four Grimsley2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -136498,6 +148515,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -136531,6 +148549,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -136564,6 +148583,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -136599,6 +148619,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136634,6 +148655,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136667,13 +148689,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+      "Lvl 82 Elite Four Caitlin - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -136700,6 +148723,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -136733,6 +148757,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -136766,13 +148791,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 71 Elite Four Caitlin2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -136798,7 +148824,8 @@ backup_data = {
           "Focus Blast"
         ],
         "sub_index": 3,
-        "ability": "",
+        "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -136834,6 +148861,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -136867,6 +148895,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -136900,6 +148929,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -136933,6 +148963,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -136966,6 +148997,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -137001,6 +149033,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Barbs",
+        "abilityId": 160,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -137034,6 +149067,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Iron Barbs",
+        "abilityId": 160,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -137067,6 +149101,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Iron Barbs",
+        "abilityId": 160,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -137100,6 +149135,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Iron Barbs",
+        "abilityId": 160,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -137135,6 +149171,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -137168,6 +149205,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -137201,6 +149239,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -137236,6 +149275,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -137269,6 +149309,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -137302,6 +149343,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -137337,6 +149379,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -137368,10 +149411,11 @@ backup_data = {
           "Night Daze",
           "Double-Edge",
           "Double Hit",
-          "Beat Up"
+          "Knock Off"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -137407,6 +149451,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -137442,40 +149487,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/socialite.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 73 Ace Trainer Clara - Opelucid City": {
-        "level": 73,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 266,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Muscle Band",
-        "gender": "Male",
-        "nature": "Lax",
-        "moves": [
-          "Poison Jab",
-          "Dragon Claw",
-          "Fire Fang",
-          "Glare"
-        ],
-        "sub_index": 4,
-        "ability": "Intimidate",
-        "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -137508,6 +149521,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -137541,6 +149555,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -137576,13 +149591,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 83 Elite Four Grimsley - Pokemon League": {
+      "Lvl 83 Elite Four Grimsley - Pokémon League": {
         "level": 83,
         "ai": 7,
         "noCh": false,
@@ -137609,6 +149625,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -137636,12 +149653,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Dark Pulse",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -137675,6 +149693,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -137708,13 +149727,14 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 71 Elite Four Grimsley2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -137741,6 +149761,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -137776,6 +149797,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -137809,6 +149831,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -137842,6 +149865,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -137877,6 +149901,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -137910,6 +149935,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -137943,6 +149969,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Ice Body",
+        "abilityId": 115,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -137976,6 +150003,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -138011,13 +150039,14 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+      "Lvl 82 Elite Four Caitlin - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -138044,6 +150073,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -138077,13 +150107,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 75 Champion Alder - Pokemon League": {
+      "Lvl 75 Champion Alder - Pokémon League": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -138110,6 +150141,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/champion.png",
         "form": 0,
         "evs": {
@@ -138145,6 +150177,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138178,6 +150211,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -138206,11 +150240,12 @@ backup_data = {
         "moves": [
           "Hydro Cannon",
           "Mist Ball",
-          "Hydro Pump",
-          "Heart Swap"
+          "Heart Swap",
+          "Hydro Pump"
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -138246,6 +150281,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138279,6 +150315,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -138312,6 +150349,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -138345,6 +150383,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -138378,6 +150417,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -138413,6 +150453,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138446,6 +150487,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -138481,6 +150523,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138514,6 +150557,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -138549,6 +150593,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138582,6 +150627,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -138615,6 +150661,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -138650,6 +150697,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sap Sipper",
+        "abilityId": 157,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -138683,6 +150731,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sap Sipper",
+        "abilityId": 157,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -138716,6 +150765,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sap Sipper",
+        "abilityId": 157,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -138751,6 +150801,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -138784,6 +150835,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -138817,6 +150869,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -138850,6 +150903,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -138885,6 +150939,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -138918,6 +150973,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -138953,6 +151009,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -138986,6 +151043,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -139019,6 +151077,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -139052,6 +151111,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -139085,6 +151145,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139120,6 +151181,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139153,6 +151215,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -139186,6 +151249,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -139219,6 +151283,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -139252,6 +151317,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -139285,50 +151351,18 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "gender": "Male",
-        "nature": "Careful",
-        "moves": [
-          "Drill Run",
-          "Rock Slide",
-          "Dragon Claw",
-          "Fire Fang"
-        ],
-        "sub_index": 0,
-        "ability": "Rough Skin",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 76,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -139351,17 +151385,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
-        "tr_id": 590,
+        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -139384,6 +151419,41 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rough Skin",
+        "abilityId": 24,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 590,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Scope Lens",
+        "gender": "Male",
+        "nature": "Timid",
+        "moves": [
+          "Drill Run",
+          "Rock Slide",
+          "Dragon Claw",
+          "Fire Fang"
+        ],
+        "sub_index": 0,
+        "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -139419,6 +151489,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139452,6 +151523,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -139485,6 +151557,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -139518,6 +151591,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139551,6 +151625,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139586,6 +151661,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139619,13 +151695,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 71 Elite Four Caitlin2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -139652,6 +151729,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -139685,6 +151763,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -139720,6 +151799,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -139753,14 +151833,15 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
@@ -139777,7 +151858,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Rindo Berry",
         "gender": "Male",
-        "nature": "Gentle",
+        "nature": "Naughty",
         "moves": [
           "Waterfall",
           "Drill Run",
@@ -139786,6 +151867,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -139821,6 +151903,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -139854,6 +151937,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -139887,6 +151971,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -139920,6 +152005,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -139949,12 +152035,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Needle Arm",
-          "Night Daze",
+          "Sucker Punch",
           "Focus Blast",
           "Destiny Bond"
         ],
         "sub_index": 1,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -139988,6 +152075,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -140021,6 +152109,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -140054,6 +152143,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -140062,7 +152152,7 @@ backup_data = {
       }
     },
     "Magmortar": {
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
+      "Lvl 82 Elite Four Shauntal - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -140089,6 +152179,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140122,141 +152213,8 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Banette": {
-      "Lvl 82 Elite Four Shauntal - Pokemon League": {
-        "level": 82,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 228,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "gender": "Male",
-        "nature": "Timid",
-        "moves": [
-          "Shadow Force",
-          "Crush Claw",
-          "Grudge",
-          "Shadow Sneak"
-        ],
-        "sub_index": 3,
-        "ability": "Shadow Tag",
-        "sprite": "./images/trainer_sprites/elite_four.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 58 Ace Trainer Kassandra - Celestial Tower": {
-        "level": 58,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 264,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "TM35",
-        "item": "Silk Scarf",
-        "gender": "Male",
-        "nature": "Impish",
-        "moves": [
-          "Fake Out",
-          "Shadow Claw",
-          "Slash",
-          "Brick Break"
-        ],
-        "sub_index": 3,
-        "ability": "Shadow Tag",
-        "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Psychic Future - Dreamyard": {
-        "level": 64,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 422,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "gender": "Male",
-        "nature": "Sassy",
-        "moves": [
-          "Endure",
-          "Shadow Force",
-          "Double-Edge",
-          "Shadow Claw"
-        ],
-        "sub_index": 2,
-        "ability": "Insomnia",
-        "sprite": "./images/trainer_sprites/psychic.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Veteran Chrille - Route 16": {
-        "level": 40,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 443,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Air Balloon",
-        "gender": "Male",
-        "nature": "Naive",
-        "moves": [
-          "Astonish",
-          "Headbutt",
-          "Fake Out",
-          "Knock Off"
-        ],
-        "sub_index": 2,
-        "ability": "Insomnia",
-        "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -140264,7 +152222,7 @@ backup_data = {
       }
     },
     "Bisharp": {
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+      "Lvl 82 Elite Four Grimsley - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -140291,6 +152249,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140324,6 +152283,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -140357,6 +152317,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -140390,13 +152351,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 73 Elite Four Grimsley2 - Pokémon League": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -140423,6 +152385,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140456,6 +152419,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140464,7 +152428,7 @@ backup_data = {
       }
     },
     "Drapion": {
-      "Lvl 82 Elite Four Grimsley - Pokemon League": {
+      "Lvl 82 Elite Four Grimsley - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -140491,6 +152455,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Sniper",
+        "abilityId": 97,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140524,13 +152489,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sniper",
+        "abilityId": 97,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Grimsley2 - Pokemon League": {
+      "Lvl 71 Elite Four Grimsley2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -140557,6 +152523,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140565,7 +152532,7 @@ backup_data = {
       }
     },
     "Spiritomb": {
-      "Lvl 82 Elite Four Caitlin - Pokemon League": {
+      "Lvl 82 Elite Four Caitlin - Pokémon League": {
         "level": 82,
         "ai": 7,
         "noCh": false,
@@ -140592,6 +152559,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -140625,6 +152593,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Wonder Guard",
+        "abilityId": 25,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -140658,6 +152627,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -140691,6 +152661,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140724,6 +152695,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -140756,7 +152728,8 @@ backup_data = {
           "Hypnosis"
         ],
         "sub_index": 3,
-        "ability": "Unnerve",
+        "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140792,6 +152765,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140825,6 +152799,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140858,6 +152833,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -140893,6 +152869,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -140926,6 +152903,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -140954,11 +152932,12 @@ backup_data = {
         "moves": [
           "Haze",
           "Draco Meteor",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -140992,6 +152971,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -141027,6 +153007,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Air Lock",
+        "abilityId": 76,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -141056,12 +153037,13 @@ backup_data = {
         "nature": "Docile",
         "moves": [
           "Hurricane",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -141095,6 +153077,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -141128,6 +153111,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Speed Boost",
+        "abilityId": 3,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -141163,6 +153147,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -141196,6 +153181,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Guard",
+        "abilityId": 98,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -141231,6 +153217,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -141264,6 +153251,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -141299,6 +153287,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -141332,6 +153321,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -141365,6 +153355,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -141373,8 +153364,8 @@ backup_data = {
       }
     },
     "Shuckle": {
-      "Lvl 44 Backpacker Liz - Desert Resort": {
-        "level": 44,
+      "Lvl 40 Backpacker Liz - Desert Resort": {
+        "level": 40,
         "ai": 7,
         "noCh": false,
         "tr_id": 238,
@@ -141391,7 +153382,7 @@ backup_data = {
         "reward_item": "Quick Claw",
         "item": "Quick Claw",
         "gender": "Male",
-        "nature": "Relaxed",
+        "nature": "Calm",
         "moves": [
           "Defense Curl",
           "Rollout",
@@ -141400,6 +153391,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -141433,6 +153425,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -141466,6 +153459,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sturdy",
+        "abilityId": 5,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -141501,6 +153495,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -141534,6 +153529,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -141562,11 +153558,12 @@ backup_data = {
         "moves": [
           "Earth Power",
           "Thunder",
-          "Surf",
+          "Muddy Water",
           "Pain Split"
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -141600,6 +153597,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -141629,12 +153627,13 @@ backup_data = {
         "nature": "Hardy",
         "moves": [
           "V-create",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -141668,6 +153667,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -141701,6 +153701,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -141734,6 +153735,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -141769,6 +153771,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -141802,6 +153805,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Snow Cloak",
+        "abilityId": 81,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -141835,6 +153839,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -141870,6 +153875,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -141903,6 +153909,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -141929,13 +153936,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Serious",
         "moves": [
-          "Explosion",
+          "Memento",
           "Poison Jab",
           "Crunch",
           "Fire Punch"
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -141969,6 +153977,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -142004,6 +154013,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -142037,6 +154047,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -142070,6 +154081,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -142105,6 +154117,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 1,
         "evs": {
@@ -142140,6 +154153,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Pressure",
+        "abilityId": 46,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142173,6 +154187,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -142201,13 +154216,14 @@ backup_data = {
         "gender": "",
         "nature": "Relaxed",
         "moves": [
-          "Dragon Tail",
+          "Dragon Claw",
           "Iron Tail",
           "Protect",
           "Weather Ball"
         ],
         "sub_index": 3,
         "ability": "Pressure",
+        "abilityId": 46,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142241,6 +154257,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -142276,6 +154293,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142309,6 +154327,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142342,6 +154361,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -142375,6 +154395,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -142408,6 +154429,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -142443,6 +154465,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Lightning Rod",
+        "abilityId": 31,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -142478,6 +154501,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Victory Star",
+        "abilityId": 162,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -142513,6 +154537,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 1,
         "evs": {
@@ -142548,6 +154573,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -142583,6 +154609,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -142616,6 +154643,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -142651,6 +154679,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142684,6 +154713,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -142719,6 +154749,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142752,6 +154783,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -142785,6 +154817,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -142818,6 +154851,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -142851,6 +154885,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -142884,6 +154919,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -142919,14 +154955,15 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -142943,7 +154980,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Swords Dance",
           "Earthquake",
@@ -142952,6 +154989,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -142985,6 +155023,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sand Force",
+        "abilityId": 159,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -143020,6 +155059,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Marvel Scale",
+        "abilityId": 63,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143049,12 +155089,13 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Perish Song",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143088,6 +155129,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -143121,6 +155163,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -143156,6 +155199,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143189,6 +155233,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143222,6 +155267,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -143255,6 +155301,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -143288,6 +155335,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -143321,7 +155369,112 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Banette": {
+      "Lvl 58 Ace Trainer Kassandra - Celestial Tower": {
+        "level": 58,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 264,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "TM35",
+        "item": "Silk Scarf",
+        "gender": "Male",
+        "nature": "Impish",
+        "moves": [
+          "Fake Out",
+          "Shadow Claw",
+          "Slash",
+          "Brick Break"
+        ],
+        "sub_index": 3,
+        "ability": "Shadow Tag",
+        "abilityId": 23,
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Psychic Future - Dreamyard": {
+        "level": 64,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 422,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "gender": "Male",
+        "nature": "Sassy",
+        "moves": [
+          "Endure",
+          "Shadow Force",
+          "Double-Edge",
+          "Shadow Claw"
+        ],
+        "sub_index": 2,
+        "ability": "Insomnia",
+        "abilityId": 15,
+        "sprite": "./images/trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Veteran Chrille - Route 16": {
+        "level": 40,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 443,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "gender": "Male",
+        "nature": "Naive",
+        "moves": [
+          "Astonish",
+          "Headbutt",
+          "Fake Out",
+          "Knock Off"
+        ],
+        "sub_index": 2,
+        "ability": "Insomnia",
+        "abilityId": 15,
+        "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -143351,11 +155504,12 @@ backup_data = {
         "moves": [
           "Perish Song",
           "Mean Look",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 4,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143389,6 +155543,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -143422,14 +155577,15 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -143446,7 +155602,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Quick Claw",
         "gender": "Female",
-        "nature": "Hasty",
+        "nature": "Lonely",
         "moves": [
           "Self-Destruct",
           "Mist Ball",
@@ -143455,13 +155611,14 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Caitlin2 - Pokemon League": {
+      "Lvl 71 Elite Four Caitlin2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -143488,6 +155645,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -143521,6 +155679,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/roughneck.png",
         "form": 0,
         "evs": {
@@ -143556,6 +155715,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143589,14 +155749,15 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 589,
@@ -143613,7 +155774,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Lum Berry",
         "gender": "Male",
-        "nature": "Quirky",
+        "nature": "Relaxed",
         "moves": [
           "Fire Blast",
           "Close Combat",
@@ -143622,6 +155783,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -143630,8 +155792,8 @@ backup_data = {
       }
     },
     "Dragonair": {
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -143648,7 +155810,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Rash",
+        "nature": "Careful",
         "moves": [
           "Dragon Pulse",
           "Flamethrower",
@@ -143657,6 +155819,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Marvel Scale",
+        "abilityId": 63,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143690,6 +155853,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Marvel Scale",
+        "abilityId": 63,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -143698,8 +155862,8 @@ backup_data = {
       }
     },
     "Pupitar": {
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -143716,7 +155880,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Timid",
+        "nature": "Modest",
         "moves": [
           "Earthquake",
           "Rock Climb",
@@ -143725,6 +155889,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143758,6 +155923,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -143766,8 +155932,8 @@ backup_data = {
       }
     },
     "Shelgon": {
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -143784,7 +155950,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Double-Edge",
           "Earthquake",
@@ -143793,6 +155959,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143801,8 +155968,8 @@ backup_data = {
       }
     },
     "Metang": {
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -143819,7 +155986,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "",
-        "nature": "Lax",
+        "nature": "Jolly",
         "moves": [
           "Iron Head",
           "Zen Headbutt",
@@ -143828,6 +155995,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143861,6 +156029,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -143869,8 +156038,8 @@ backup_data = {
       }
     },
     "Zweilous": {
-      "Lvl 80 Ace Trainer Webster - Opelucid City": {
-        "level": 80,
+      "Lvl 76 Ace Trainer Webster - Opelucid City": {
+        "level": 76,
         "ai": 7,
         "noCh": false,
         "tr_id": 270,
@@ -143887,7 +156056,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Eviolite",
         "gender": "Male",
-        "nature": "Jolly",
+        "nature": "Quiet",
         "moves": [
           "Dark Pulse",
           "Dragon Pulse",
@@ -143896,6 +156065,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143931,6 +156101,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -143964,6 +156135,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -143997,6 +156169,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144030,6 +156203,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -144063,6 +156237,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144098,6 +156273,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -144133,6 +156309,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rain Dish",
+        "abilityId": 44,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144166,6 +156343,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -144199,13 +156377,14 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 71 Elite Four Shauntal2 - Pokemon League": {
+      "Lvl 71 Elite Four Shauntal2 - Pokémon League": {
         "level": 71,
         "ai": 7,
         "noCh": false,
@@ -144232,6 +156411,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Rain Dish",
+        "abilityId": 44,
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -144265,6 +156445,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -144298,6 +156479,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -144333,6 +156515,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144366,6 +156549,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -144399,6 +156583,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144433,7 +156618,8 @@ backup_data = {
           "Feather Dance"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144466,7 +156652,8 @@ backup_data = {
           "Feather Dance"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144499,7 +156686,8 @@ backup_data = {
           "Feather Dance"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144535,6 +156723,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144568,6 +156757,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144601,6 +156791,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -144635,7 +156826,8 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 2,
-        "ability": "Rough Skin",
+        "ability": "Rattled",
+        "abilityId": 155,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -144669,6 +156861,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Immunity",
+        "abilityId": 17,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -144698,12 +156891,13 @@ backup_data = {
         "nature": "Naughty",
         "moves": [
           "Iron Head",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Serene Grace",
+        "abilityId": 32,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -144739,6 +156933,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -144772,6 +156967,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -144807,6 +157003,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -144842,6 +157039,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Unnerve",
+        "abilityId": 127,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144877,6 +157075,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144910,6 +157109,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -144945,6 +157145,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -144978,6 +157179,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -145013,6 +157215,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145046,6 +157249,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -145081,6 +157285,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145114,6 +157319,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -145149,6 +157355,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145182,6 +157389,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -145217,6 +157425,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145250,6 +157459,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
@@ -145280,11 +157490,12 @@ backup_data = {
         "moves": [
           "Tailwind",
           "U-turn",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Prankster",
+        "abilityId": 158,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145320,6 +157531,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145355,6 +157567,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145382,12 +157595,13 @@ backup_data = {
         "nature": "Lonely",
         "moves": [
           "Future Sight",
+          "Wonder Room",
           "Shadow Ball",
-          "Psychic",
-          "Perish Song"
+          "Psychic"
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -145418,11 +157632,12 @@ backup_data = {
         "moves": [
           "Fake Out",
           "Beat Up",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145456,6 +157671,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/striker.png",
         "form": 0,
         "evs": {
@@ -145490,7 +157706,8 @@ backup_data = {
           "Leaf Blade"
         ],
         "sub_index": 2,
-        "ability": "Unburden",
+        "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -145523,7 +157740,8 @@ backup_data = {
           "Night Slash"
         ],
         "sub_index": 4,
-        "ability": "Unburden",
+        "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145556,7 +157774,8 @@ backup_data = {
           "Leaf Blade"
         ],
         "sub_index": 1,
-        "ability": "Inner Focus",
+        "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -145581,7 +157800,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Expert Belt",
+        "item": "Life Orb",
         "gender": "Male",
         "nature": "Relaxed",
         "moves": [
@@ -145592,6 +157811,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -145625,6 +157845,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -145658,6 +157879,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -145693,6 +157915,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Solar Power",
+        "abilityId": 94,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -145726,6 +157949,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
+        "abilityId": 34,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -145761,6 +157985,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145794,6 +158019,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Flash Fire",
+        "abilityId": 18,
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
@@ -145829,6 +158055,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -145862,50 +158089,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren22 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren22 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
         "tr_id": 588,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "gender": "Male",
-        "nature": "Modest",
-        "moves": [
-          "Hyper Voice",
-          "Blizzard",
-          "Thunder",
-          "Fire Blast"
-        ],
-        "sub_index": 1,
-        "ability": "Compound Eyes",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 76 Pkmn Trainer Cheren23 - Route 10": {
-        "level": 76,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -145928,17 +158123,18 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 76 Pkmn Trainer Cheren24 - Route 10": {
-        "level": 76,
+      "Lvl 77 Pkmn Trainer Cheren23 - Route 10": {
+        "level": 77,
         "ai": 135,
         "noCh": false,
-        "tr_id": 590,
+        "tr_id": 589,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -145961,6 +158157,41 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Compound Eyes",
+        "abilityId": 14,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 Pkmn Trainer Cheren24 - Route 10": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 590,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "gender": "Male",
+        "nature": "Lonely",
+        "moves": [
+          "Hyper Voice",
+          "Blizzard",
+          "Thunder",
+          "Fire Blast"
+        ],
+        "sub_index": 1,
+        "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -145996,6 +158227,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146029,6 +158261,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -146064,6 +158297,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146097,6 +158331,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -146130,6 +158365,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146163,6 +158399,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Heatproof",
+        "abilityId": 85,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146198,6 +158435,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Sheer Force",
+        "abilityId": 125,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146233,6 +158471,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146268,6 +158507,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146301,6 +158541,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -146334,6 +158575,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -146367,6 +158609,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/biker.png",
         "form": 0,
         "evs": {
@@ -146400,6 +158643,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -146435,6 +158679,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146461,13 +158706,14 @@ backup_data = {
         "gender": "Female",
         "nature": "Calm",
         "moves": [
+          "Psycho Shift",
           "Fake Tears",
           "Follow Me",
-          "Psyshock",
-          "Charm"
+          "Psyshock"
         ],
         "sub_index": 1,
         "ability": "Magic Bounce",
+        "abilityId": 156,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -146503,6 +158749,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Trace",
+        "abilityId": 36,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146529,13 +158776,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Mild",
         "moves": [
+          "Heart Swap",
           "Future Sight",
           "Aura Sphere",
-          "Psychic",
-          "Shadow Ball"
+          "Psychic"
         ],
         "sub_index": 0,
         "ability": "Trace",
+        "abilityId": 36,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -146571,6 +158819,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146604,6 +158853,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -146637,6 +158887,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146670,6 +158921,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146705,6 +158957,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -146738,6 +158991,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -146771,6 +159025,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Unburden",
+        "abilityId": 84,
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -146806,6 +159061,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Static",
+        "abilityId": 9,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -146836,11 +159092,12 @@ backup_data = {
         "moves": [
           "Stealth Rock",
           "Trick Room",
-          "Earth Power",
-          "Psychic"
+          "Wonder Room",
+          "Earth Power"
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -146876,6 +159133,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Rock Head",
+        "abilityId": 69,
         "sprite": "./images/trainer_sprites/infielder.png",
         "form": 0,
         "evs": {
@@ -146911,6 +159169,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/hoopster.png",
         "form": 0,
         "evs": {
@@ -146939,13 +159198,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Naughty",
         "moves": [
+          "Hydro Cannon",
           "Yawn",
-          "Octazooka",
-          "Dragon Pulse",
-          "Scald"
+          "Muddy Water",
+          "Octazooka"
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -146981,6 +159241,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147016,6 +159277,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Unaware",
+        "abilityId": 109,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147051,6 +159313,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147086,6 +159349,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Rough Skin",
+        "abilityId": 24,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147121,6 +159385,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shadow Tag",
+        "abilityId": 23,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147156,6 +159421,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147191,6 +159457,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147226,6 +159493,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147261,6 +159529,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Sand Veil",
+        "abilityId": 8,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147296,6 +159565,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -147331,6 +159601,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/waiter.png",
         "form": 0,
         "evs": {
@@ -147366,6 +159637,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -147401,6 +159673,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Flare Boost",
+        "abilityId": 138,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -147435,7 +159708,8 @@ backup_data = {
           "Submission"
         ],
         "sub_index": 0,
-        "ability": "Inner Focus",
+        "ability": "Defiant",
+        "abilityId": 128,
         "sprite": "./images/trainer_sprites/black_belt.png",
         "form": 0,
         "evs": {
@@ -147471,6 +159745,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -147504,6 +159779,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Iron Fist",
+        "abilityId": 89,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -147512,7 +159788,7 @@ backup_data = {
       }
     },
     "Sentret": {
-      "Lvl 61 Pokefan Darcy": {
+      "Lvl 61 Pokéfan Darcy": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -147539,7 +159815,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Quick Feet",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 95,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -147547,7 +159824,7 @@ backup_data = {
       }
     },
     "Zigzagoon": {
-      "Lvl 61 Pokefan Darcy": {
+      "Lvl 61 Pokéfan Darcy": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -147574,7 +159851,8 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Scrappy",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 113,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -147602,13 +159880,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Impish",
         "moves": [
+          "Psycho Shift",
           "Psycho Boost",
           "Psych Up",
-          "Imprison",
-          "Heat Wave"
+          "Imprison"
         ],
         "sub_index": 0,
         "ability": "Compound Eyes",
+        "abilityId": 14,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -147643,7 +159922,8 @@ backup_data = {
           "Sacred Fire"
         ],
         "sub_index": 0,
-        "ability": "Intimidate",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/maid.png",
         "form": 0,
         "evs": {
@@ -147679,6 +159959,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/maid.png",
         "form": 0,
         "evs": {
@@ -147712,6 +159993,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -147745,6 +160027,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -147778,6 +160061,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -147811,6 +160095,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -147844,6 +160129,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/nursery_aide.png",
         "form": 0,
         "evs": {
@@ -147877,6 +160163,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
+        "abilityId": 92,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -147905,13 +160192,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Adamant",
         "moves": [
+          "Stealth Rock",
           "Fissure",
-          "Protect",
-          "Earthquake",
-          "Rock Climb"
+          "Rock Wrecker",
+          "Earthquake"
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -147940,13 +160228,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Sassy",
         "moves": [
+          "Stealth Rock",
           "Fissure",
-          "Protect",
-          "Earthquake",
-          "Rock Climb"
+          "Rock Wrecker",
+          "Earthquake"
         ],
         "sub_index": 1,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -147982,6 +160271,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Soundproof",
+        "abilityId": 43,
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -148016,7 +160306,8 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148049,7 +160340,8 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148082,7 +160374,8 @@ backup_data = {
           "Roost"
         ],
         "sub_index": 0,
-        "ability": "Quick Feet",
+        "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148116,6 +160409,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -148149,6 +160443,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -148177,11 +160472,12 @@ backup_data = {
         "moves": [
           "Focus Blast",
           "Hurricane",
-          "Featherdance",
+          "Feather Dance",
           "Thunder"
         ],
         "sub_index": 3,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -148211,12 +160507,13 @@ backup_data = {
         "nature": "Brave",
         "moves": [
           "Crush Claw",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148244,12 +160541,13 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Crush Claw",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148277,12 +160575,13 @@ backup_data = {
         "nature": "Docile",
         "moves": [
           "Crush Claw",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148316,6 +160615,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Truant",
+        "abilityId": 54,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -148350,7 +160650,8 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 0,
-        "ability": "Soundproof",
+        "ability": "Analytic",
+        "abilityId": 148,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -148386,6 +160687,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -148421,6 +160723,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -148450,10 +160753,11 @@ backup_data = {
           "Sucker Punch",
           "Leaf Blade",
           "Leech Seed",
-          "Poison Jab"
+          "Gastro Acid"
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/clerk_f.png",
         "form": 0,
         "evs": {
@@ -148489,6 +160793,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Synchronize",
+        "abilityId": 28,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -148524,6 +160829,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -148554,11 +160860,12 @@ backup_data = {
         "moves": [
           "Perish Song",
           "U-turn",
-          "Hyper Voice",
-          "X-Scissor"
+          "Twineedle",
+          "Hyper Voice"
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/socialite.png",
         "form": 0,
         "evs": {
@@ -148594,6 +160901,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Poison Point",
+        "abilityId": 38,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -148627,6 +160935,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Poison Point",
+        "abilityId": 38,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -148662,6 +160971,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -148691,12 +161001,13 @@ backup_data = {
         "nature": "Quirky",
         "moves": [
           "Leaf Storm",
+          "Trick Room",
           "Energy Ball",
-          "Bug Buzz",
-          "Giga Drain"
+          "Bug Buzz"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 1,
         "evs": {
@@ -148725,11 +161036,12 @@ backup_data = {
         "moves": [
           "Earthquake",
           "X-Scissor",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 1,
         "evs": {
@@ -148738,7 +161050,7 @@ backup_data = {
       }
     },
     "Gulpin": {
-      "Lvl 62 Pokefan Elliot - Route 15": {
+      "Lvl 62 Pokéfan Elliot - Route 15": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -148765,7 +161077,8 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 144,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -148773,7 +161086,7 @@ backup_data = {
       }
     },
     "Swablu": {
-      "Lvl 62 Pokefan Elliot - Route 15": {
+      "Lvl 62 Pokéfan Elliot - Route 15": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -148800,7 +161113,8 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Cloud Nine",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 13,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -148827,12 +161141,13 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148860,12 +161175,13 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148893,12 +161209,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Metronome",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Cloud Nine",
+        "abilityId": 13,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -148907,7 +161224,7 @@ backup_data = {
       }
     },
     "Spheal": {
-      "Lvl 62 Pokefan Elliot - Route 15": {
+      "Lvl 62 Pokéfan Elliot - Route 15": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -148934,7 +161251,8 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
-        "sprite": "./images/trainer_sprites/pokefan.png",
+        "abilityId": 47,
+        "sprite": "./images/trainer_sprites/pokfan.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -148969,6 +161287,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -149002,6 +161321,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -149037,6 +161357,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149072,6 +161393,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149107,6 +161429,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Clear Body",
+        "abilityId": 29,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149142,6 +161465,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149175,6 +161499,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149208,6 +161533,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149241,6 +161567,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149274,6 +161601,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149307,6 +161635,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149335,13 +161664,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Adamant",
         "moves": [
+          "Heart Swap",
           "Rest",
           "Mirror Coat",
-          "Muddy Water",
-          "Ice Beam"
+          "Muddy Water"
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149377,6 +161707,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -149408,10 +161739,11 @@ backup_data = {
           "Leaf Storm",
           "Avalanche",
           "Wood Hammer",
-          "Icicle Crash"
+          "Dragon Claw"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -149447,6 +161779,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Super Luck",
+        "abilityId": 105,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -149482,6 +161815,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -149517,6 +161851,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -149550,6 +161885,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -149583,6 +161919,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -149616,6 +161953,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -149649,6 +161987,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Pure Power",
+        "abilityId": 74,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -149684,6 +162023,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -149719,6 +162059,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
@@ -149754,6 +162095,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -149787,50 +162129,18 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca4 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca4 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 491,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Black Sludge",
-        "gender": "Female",
-        "nature": "Hardy",
-        "moves": [
-          "Earthquake",
-          "Poison Jab",
-          "Stone Edge",
-          "Hammer Arm"
-        ],
-        "sub_index": 2,
-        "ability": "Filter",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 Pkmn Trainer Bianca5 - Driftveil City": {
-        "level": 50,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -149853,17 +162163,18 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 50 Pkmn Trainer Bianca6 - Driftveil City": {
-        "level": 50,
+      "Lvl 51 Pkmn Trainer Bianca5 - Driftveil City": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
-        "tr_id": 493,
+        "tr_id": 492,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -149886,6 +162197,41 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Filter",
+        "abilityId": 111,
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Pkmn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 493,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Black Sludge",
+        "gender": "Female",
+        "nature": "Quiet",
+        "moves": [
+          "Earthquake",
+          "Poison Jab",
+          "Stone Edge",
+          "Hammer Arm"
+        ],
+        "sub_index": 2,
+        "ability": "Filter",
+        "abilityId": 111,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -149921,6 +162267,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
@@ -149954,6 +162301,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -149987,6 +162335,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -150021,7 +162370,8 @@ backup_data = {
           "Blaze Kick"
         ],
         "sub_index": 2,
-        "ability": "Inner Focus",
+        "ability": "Justified",
+        "abilityId": 154,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -150057,6 +162407,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -150092,6 +162443,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -150127,6 +162479,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Battle Armor",
+        "abilityId": 4,
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -150162,6 +162515,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Reckless",
+        "abilityId": 120,
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -150197,6 +162551,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Scrappy",
+        "abilityId": 113,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -150232,6 +162587,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Effect Spore",
+        "abilityId": 27,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -150261,12 +162617,13 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Facade",
+          "Close Combat",
           "Submission",
-          "Vital Throw",
-          "Return"
+          "Vital Throw"
         ],
         "sub_index": 2,
         "ability": "Quick Feet",
+        "abilityId": 95,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -150295,13 +162652,50 @@ backup_data = {
         "gender": "Male",
         "nature": "Impish",
         "moves": [
+          "Fissure",
           "Slack Off",
-          "Rest",
-          "Earthquake",
-          "Crunch"
+          "Stealth Rock",
+          "Rest"
         ],
         "sub_index": 0,
         "ability": "Filter",
+        "abilityId": 111,
+        "sprite": "./images/trainer_sprites/hiker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Crustle": {
+      "Lvl 64 Hiker Jeremiah - Route 18": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 460,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Chill Drive",
+        "item": "White Herb",
+        "gender": "Male",
+        "nature": "Bashful",
+        "moves": [
+          "Shell Smash",
+          "Stone Edge",
+          "X-Scissor",
+          "Earthquake"
+        ],
+        "sub_index": 3,
+        "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -150337,6 +162731,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -150372,6 +162767,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Technician",
+        "abilityId": 101,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -150407,6 +162803,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Levitate",
+        "abilityId": 26,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -150442,6 +162839,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
+        "abilityId": 91,
         "sprite": "./images/trainer_sprites/waitress.png",
         "form": 0,
         "evs": {
@@ -150472,11 +162870,12 @@ backup_data = {
         "moves": [
           "Leer",
           "Night Shade",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Serene Grace",
+        "abilityId": 32,
         "sprite": "./images/trainer_sprites/nurse.png",
         "form": 0,
         "evs": {
@@ -150512,6 +162911,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Guts",
+        "abilityId": 62,
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -150520,8 +162920,8 @@ backup_data = {
       }
     },
     "Arceus": {
-      "Lvl 65 Pilot Boom - Desert Resort": {
-        "level": 65,
+      "Lvl 50 Pilot Boom - Desert Resort": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 550,
@@ -150538,7 +162938,7 @@ backup_data = {
         "reward_item": "None",
         "item": "Chople Berry",
         "gender": "",
-        "nature": "Timid",
+        "nature": "Quirky",
         "moves": [
           "Swords Dance",
           "Extreme Speed",
@@ -150547,6 +162947,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Multitype",
+        "abilityId": 121,
         "sprite": "./images/trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -150575,13 +162976,14 @@ backup_data = {
         "gender": "Female",
         "nature": "Mild",
         "moves": [
-          "Toxic",
           "Heal Order",
-          "Attack Order",
-          "Aeroblast"
+          "Toxic",
+          "Aeroblast",
+          "U-turn"
         ],
         "sub_index": 0,
         "ability": "Honey Gather",
+        "abilityId": 118,
         "sprite": "./images/trainer_sprites/baker.png",
         "form": 0,
         "evs": {
@@ -150617,6 +163019,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -150650,6 +163053,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -150685,6 +163089,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -150718,6 +163123,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -150753,6 +163159,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "No Guard",
+        "abilityId": 99,
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -150783,11 +163190,12 @@ backup_data = {
         "moves": [
           "Zap Cannon",
           "Electroweb",
-          "Muddy Water",
-          "Thunderbolt"
+          "Volt Switch",
+          "Muddy Water"
         ],
         "sub_index": 1,
         "ability": "Volt Absorb",
+        "abilityId": 10,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -150816,13 +163224,14 @@ backup_data = {
         "gender": "Female",
         "nature": "Jolly",
         "moves": [
+          "Lucky Chant",
           "Shadow Ball",
           "Scald",
-          "Will-O-Wisp",
-          "Recover"
+          "Will-O-Wisp"
         ],
         "sub_index": 0,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/swimmer_f.png",
         "form": 0,
         "evs": {
@@ -150856,6 +163265,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -150891,6 +163301,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Overcoat",
+        "abilityId": 142,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -150925,6 +163336,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Shield Dust",
+        "abilityId": 19,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -150960,6 +163372,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
+        "abilityId": 75,
         "sprite": "./images/trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -150995,6 +163408,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
+        "abilityId": 116,
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -151030,6 +163444,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Inner Focus",
+        "abilityId": 39,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -151065,6 +163480,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Magnet Pull",
+        "abilityId": 42,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -151100,6 +163516,7 @@ backup_data = {
         ],
         "sub_index": 4,
         "ability": "Water Absorb",
+        "abilityId": 11,
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -151135,6 +163552,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Regenerator",
+        "abilityId": 144,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -151170,6 +163588,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Intimidate",
+        "abilityId": 22,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -151198,13 +163617,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Jolly",
         "moves": [
+          "Hydro Cannon",
           "Yawn",
-          "Octazooka",
-          "Dragon Pulse",
-          "Scald"
+          "Muddy Water",
+          "Octazooka"
         ],
         "sub_index": 0,
         "ability": "Swift Swim",
+        "abilityId": 33,
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
         "evs": {
@@ -151240,6 +163660,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Turboblaze",
+        "abilityId": 163,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -151275,6 +163696,7 @@ backup_data = {
         ],
         "sub_index": 5,
         "ability": "Teravolt",
+        "abilityId": 164,
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -151305,11 +163727,12 @@ backup_data = {
         "moves": [
           "Leer",
           "Growl",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
         "ability": "Natural Cure",
+        "abilityId": 30,
         "sprite": "./images/trainer_sprites/doctor.png",
         "form": 0,
         "evs": {
@@ -151338,11 +163761,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
-          "Growl",
-          "Tackle"
+          "-----",
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -151369,11 +163795,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
-          "Growl",
-          "Tackle"
+          "-----",
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -151400,11 +163829,14 @@ backup_data = {
         "gender": "Male",
         "nature": "Hasty",
         "moves": [
-          "Growl",
-          "Tackle"
+          "-----",
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Thick Fat",
+        "abilityId": 47,
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
