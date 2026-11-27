@@ -368,6 +368,7 @@
             if (!enabled()) return;
             refreshSide("p1", "L");
             refreshSide("p2", "R");
+            placeCounts();
             paintPickers();
             tagSwitchInfo();
             refreshBand();
@@ -828,6 +829,8 @@
             if (first) first.style.removeProperty("--g5-band-pad");
         });
         document.querySelectorAll("#calculator-view .g5-on").forEach(function (row) { row.classList.remove("g5-on"); });
+        document.querySelectorAll("#calculator-view .g5-dmg-wrap").forEach(function (row) { row.classList.remove("g5-dmg-wrap"); });
+        document.querySelectorAll("#calculator-view .g5-ko-off").forEach(function (cell) { cell.classList.remove("g5-ko-off"); });
         var view = document.getElementById("calculator-view");
         if (view) view.style.removeProperty("--g5-band-h");
     }
@@ -1736,6 +1739,49 @@
         return paren > 0 ? text.slice(0, paren) : text;
     }
 
+    // ---------- One line per move ----------
+    // A move row keeps its damage beside the move when the range fits there, and shows the KO chance under the range
+    // only when that fits on one line: when it doesn't, it's left out rather than given a second line. Only a row too
+    // narrow for the range itself puts the damage on a line of its own (gen5.css: g5-dmg-wrap, g5-ko-off). The widths
+    // are read once the page is laid out (at the end of a refresh, and after a resize), then the classes written.
+    var MOVE_ROW_LIST = ["p1", "p2"].map(function (side) {
+        return [1, 2, 3, 4].map(function (slot) { return "#" + side + " .move" + slot; }).join(", ");
+    }).join(", ");
+
+    function fitMoveRows() {
+        if (!root.classList.contains("g5-band")) return;
+        var plans = [];
+        document.querySelectorAll(MOVE_ROW_LIST).forEach(function (row) {
+            var cell = row.querySelector(":scope > .g5-move-dmg");
+            if (!cell || !row.offsetParent) return;
+            var range = cell.querySelector(":scope > b");
+            var ko = cell.querySelector(":scope > small");
+            var style = getComputedStyle(row);
+            var gap = parseFloat(style.columnGap) || 0;
+            var avail = row.clientWidth - (parseFloat(style.paddingLeft) || 0) - (parseFloat(style.paddingRight) || 0);
+            var used = 0;
+            var count = 0;
+            Array.prototype.forEach.call(row.children, function (child) {
+                if (child === cell) return;
+                var childStyle = getComputedStyle(child);
+                if (childStyle.display === "none" || childStyle.position === "absolute" || childStyle.position === "fixed") return;
+                used += child.getBoundingClientRect().width + (parseFloat(childStyle.marginLeft) || 0) + (parseFloat(childStyle.marginRight) || 0);
+                count++;
+            });
+            used += gap * Math.max(0, count - 1);
+            var room = avail - used - gap;
+            var rangeWidth = range ? range.scrollWidth : 0;
+            var koWidth = ko ? ko.scrollWidth : 0;
+            var wrap = !!range && rangeWidth > room + 0.5;
+            var showKo = !!ko && (wrap ? rangeWidth + 10 + koWidth <= avail + 0.5 : koWidth <= room + 0.5);
+            plans.push([row, cell, wrap, showKo]);
+        });
+        plans.forEach(function (plan) {
+            if (plan[0].classList.contains("g5-dmg-wrap") !== plan[2]) plan[0].classList.toggle("g5-dmg-wrap", plan[2]);
+            if (plan[1].classList.contains("g5-ko-off") === plan[3]) plan[1].classList.toggle("g5-ko-off", !plan[3]);
+        });
+    }
+
     function refreshBand() {
         if (!root.classList.contains("g5-band")) return;
         var checked = document.querySelector("#calculator-view .result-move:checked");
@@ -1752,6 +1798,7 @@
             if (field.pending === null && !field.editing) paintHp(field);
         });
         refreshBattleBar();
+        fitMoveRows();
         syncBand();
     }
 
@@ -1790,8 +1837,18 @@
         }
         if (typeof ResizeObserver === "undefined") return;
         var observer = new ResizeObserver(function () {
-            requestAnimationFrame(syncBand);
+            requestAnimationFrame(function () {
+                fitMoveRows();
+                syncBand();
+            });
         });
+        // The damage figures are set in the game's font, which may arrive after the first layout.
+        if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(function () {
+                fitMoveRows();
+                syncBand();
+            });
+        }
         ["p1", "p2"].forEach(function (id) {
             var fieldset = document.getElementById(id);
             if (fieldset) observer.observe(fieldset);
@@ -1936,16 +1993,37 @@
         Array.prototype.forEach.call(panels.querySelectorAll(MOVE_EXTRAS), function (select) {
             var row = select.closest(MOVE_ROWS);
             if (!row) return;
-            var group = row.querySelector(":scope > .g5-counts");
+            var group = countGroups.filter(function (one) { return one.g5Row === row; })[0];
             if (!group) {
                 group = document.createElement("span");
                 group.className = "g5-counts";
+                group.g5Row = row;
+                countGroups.push(group);
                 row.insertBefore(group, row.querySelector(":scope > .g5-move-dmg"));
             }
             attach(select, "count", group);
             if (select.classList.contains("metronome")) select.g5Picker.button.classList.add("g5-pick-metronome");
         });
+        placeCounts();
         paintPickers();
+    }
+
+    // In the wide layout a move's counts sit on the right end of its move button, so a multi-hit move takes no more
+    // room in its row than any other and its damage stays beside it. Elsewhere they follow C. The groups are kept here,
+    // not looked up: the calc can set its move pickers up again, replacing the button a group sat on.
+    var countGroups = [];
+
+    function placeCounts() {
+        var band = root.classList.contains("g5-band");
+        countGroups.forEach(function (group) {
+            var row = group.g5Row;
+            var plate = band ? row.querySelector(":scope > .select2-container.move-selector") : null;
+            if (plate) {
+                if (group.parentNode !== plate) plate.appendChild(group);
+            } else if (group.parentNode !== row) {
+                row.insertBefore(group, row.querySelector(":scope > .g5-move-dmg"));
+            }
+        });
     }
 
     function unmountPickers() {
@@ -1959,6 +2037,8 @@
         });
         pickers = [];
         document.querySelectorAll(".g5-counts").forEach(function (group) { group.remove(); });
+        countGroups.forEach(function (group) { group.remove(); });
+        countGroups = [];
     }
 
     // The choices, grouped as the select groups them (the left form select has Alt Forms and Evo Line).
