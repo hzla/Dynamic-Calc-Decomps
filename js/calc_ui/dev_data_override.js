@@ -459,6 +459,7 @@
                 key: getOverrideStorageKey(),
                 fileName: data.fileName || "backup_data.js",
                 sourceId: getCurrentSourceId(),
+                bridged: true,
                 text: scriptText,
                 updatedAt: Date.now()
             });
@@ -775,6 +776,7 @@
         refreshControlState();
     }
 
+    let activeBridgeData = null;
     window.devDataOverrides = {
         BLANK_SOURCE_ID,
         DEV_CONFIG_FIELDS,
@@ -790,6 +792,11 @@
         saveStoredDevConfig,
         clearStoredDevConfig,
         parseBackupDataScript,
+        getActiveBridgeData: () => activeBridgeData,
+        setActiveBridgeData(data, mechanics) {
+            activeBridgeData = { data, mechanics };
+            window.dispatchEvent(new Event("calc:bridge-data-ready"));
+        },
         refreshControlState
     };
 

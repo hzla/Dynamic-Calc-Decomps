@@ -637,6 +637,54 @@ input[type="file"] {
     color: #f1f1f1;
 }
 
+#publish-calc-dialog {
+    width: min(420px, calc(100% - 32px));
+    max-height: calc(100% - 32px);
+    padding: 0;
+    border: 1px solid #666;
+    border-radius: 8px;
+    background: #202020;
+    color: #f1f1f1;
+}
+
+#publish-calc-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+#publish-calc-dialog h2 {
+    font-size: 20px;
+}
+
+#publish-calc-form,
+#publish-calc-result:not([hidden]) {
+    display: grid;
+    gap: 10px;
+}
+
+#publish-calc-form {
+    padding: 16px;
+    justify-items: start;
+}
+
+#publish-calc-result,
+#published-calc-link {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+#publish-calc-name {
+    overflow-wrap: anywhere;
+}
+
+#publish-calc-verification {
+    max-width: 100%;
+}
+
+#publish-calc-status {
+    margin: 0;
+}
+
 .romhack-browser-close {
     border: 1px solid rgba(118, 118, 118, 0.8);
     background: rgba(255, 255, 255, 0.04);

@@ -50,7 +50,8 @@ const settings = {
 };
 
 const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
-const isBlankDevMode = settings.devMode && !params.get('data');
+const isSharedCalc = params.has("share");
+const isBlankDevMode = settings.devMode && !params.get('data') && !isSharedCalc;
 settings.blankDevMode = isBlankDevMode;
 const forceBlankConfig = getBool('forceBlankConfig');
 const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
@@ -1204,6 +1205,7 @@ async function tryLoadStoredDevOverride() {
 
     try {
         const overrideData = window.devDataOverrides.parseBackupDataScript(overrideRecord.text)
+        const bridgeSnapshot = overrideRecord.bridged && isBlankDevMode ? structuredClone(overrideData) : null
         if (!backupFiles[TITLE]) {
             prepareDynamicCalcData(overrideData, { skipGameSettings: isBlankDevMode })
         } else {
@@ -1213,6 +1215,14 @@ async function tryLoadStoredDevOverride() {
         }
         loadDataSource(overrideData)
         await loadTrainerOrderFallbackForCurrentTitle()
+        if (bridgeSnapshot) {
+            window.devDataOverrides.setActiveBridgeData(bridgeSnapshot, {
+                gen: settings.gen, dmgGen: settings.damageGen, types: settings.typeChart,
+                critGen: settings.critGen, switchIn: settings.gameSwitchIn,
+                evs: settings.hasEvs ? 1 : 0, psSplit: settings.physSpecSplit ? 1 : 0,
+                noSwitch: settings.noSwitch ? 1 : 0
+            })
+        }
         return true;
     } catch (error) {
         console.error("[DevDataOverride] Stored override was invalid, clearing it", error)
@@ -1231,6 +1241,18 @@ async function tryLoadStoredDevOverride() {
 $(document).ready(async function() {
   $('.genSelection').hide()
   console.log(TITLE)
+  if (isSharedCalc) {
+    try {
+      const { loadSharedCalc } = await import("./calc_ui/shared_calc.mjs");
+      const data = await loadSharedCalc(params.get("share"));
+      prepareDynamicCalcData(data);
+      loadDataSource(data);
+    } catch (error) {
+      console.error("Could not load shared calc:", error);
+      $("#mainResult").text("Could not load shared calc: " + error.message);
+    }
+    return;
+  }
   if (isBlankDevMode) {
     await window.blankDevDefaults.load()
   }
@@ -1303,7 +1325,11 @@ function setGameSettings(title) {
   $('.unbound-effects').hide()
   $('#maxL').next().remove()
   $('#maxR').next().remove() 
-  if (title == "Renegade Platinum") {
+  if (isSharedCalc) {
+    gameGen = settings.damageGen;
+    settings.gameSwitchIn = getNum("switchIn", gameGen);
+    settings.sourceType = "full";
+  } else if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {
@@ -1608,7 +1634,7 @@ function toggleGen3SwitchGuide() {
 
 INC_EM = false
 const requestedDataSourceId = params.get('data')
-if (!isBlankDevMode && requestedDataSourceId && SOURCES[requestedDataSourceId]) {
+if (!isBlankDevMode && !isSharedCalc && requestedDataSourceId && SOURCES[requestedDataSourceId]) {
     TITLE = SOURCES[requestedDataSourceId] || "NONE"
     INC_EM = TITLE.includes("Inclement Emerald")
     syncGameScopedSwitchSettings(TITLE);
@@ -1771,7 +1797,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?pokeweb-abilities1-inline1';
+  script.src= './js/shared_controls.js?lazy-moves1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);

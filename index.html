@@ -16,7 +16,7 @@
     </script>
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?trainer-lead1" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?shared-calc1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?splitcolors1" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -59,7 +59,7 @@
     <script src="./js/vendor/jquery.terminal-2.43.0.min.js"></script>
     <script src="./js/vendor/ai.min.js?30e82835"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/31.0.1/ag-grid-community.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="./css/gen5.css?pokeweb-abilities1-clear1-inline1-g5tabs1" />
+    <link type="text/css" rel="stylesheet" href="./css/gen5.css?pokeweb-abilities1-clear1-inline1-g5tabs1-se1-counts1-perf1" />
 
 
 </head>
@@ -415,6 +415,7 @@
                 <button type="button" class="main-view-tab" id="dev-upload-data">Upload Data</button>
                 <button type="button" class="main-view-tab" id="dev-open-configs">Calc Configs</button>
                 <button type="button" class="main-view-tab" id="dev-clear-data">Clear Data</button>
+                <button type="button" class="main-view-tab" id="open-publish-calc" aria-haspopup="dialog" aria-controls="publish-calc-dialog" hidden>Publish Calc</button>
                 <input id="dev-data-upload" type="file" accept=".js,application/javascript,text/javascript" hidden>
             </div>
         </div>
@@ -511,6 +512,23 @@
             More
         </button>
     </div>
+    <dialog id="publish-calc-dialog" aria-labelledby="publish-calc-title">
+        <div class="romhack-browser-header">
+            <h2 id="publish-calc-title">Publish Calc</h2>
+            <button type="button" class="romhack-browser-close" id="close-publish-calc" aria-label="Close publish dialog">&times;</button>
+        </div>
+        <form id="publish-calc-form">
+            <strong id="publish-calc-name"></strong>
+            <div id="publish-calc-verification"></div>
+            <button type="submit" class="btn" id="publish-calc-submit" disabled>Publish</button>
+            <p role="status" id="publish-calc-status"></p>
+            <div id="publish-calc-result" hidden>
+                <label for="published-calc-link">Share link</label>
+                <input type="url" id="published-calc-link" readonly>
+                <button type="button" class="btn" id="copy-published-calc">Copy Link</button>
+            </div>
+        </form>
+    </dialog>
     <div id="romhack-browser-modal" class="romhack-browser-modal" role="dialog" aria-modal="true" aria-labelledby="romhack-browser-title" hidden>
         <div class="romhack-browser-backdrop" data-close-romhack-modal></div>
         <div class="romhack-browser-dialog" role="document">
@@ -2630,7 +2648,7 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?imperium-preview1"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
     <script type="text/javascript" src="./js/calc_ui/menu_settings.js?tarnished-platinum1"></script>
-    <script type="text/javascript" src="./js/calc_ui/gen5_ui.js?9"></script>
+    <script type="text/javascript" src="./js/calc_ui/gen5_ui.js?20"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1-g5tabs1"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
@@ -2639,7 +2657,7 @@
     <script type="text/javascript" src="./js/calc_ui/box_view.js?g5tabs1"></script>
     <script src="./calc/mechanics/pokeweb-ability-catalog.js"></script>
     <script src="./calc/mechanics/pokeweb-ability-sync.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/dev_data_override.js?pokeweb-abilities1"></script>
+    <script type="text/javascript" src="./js/calc_ui/dev_data_override.js?shared-bridge1"></script>
     <script type="text/javascript" src="./js/calc_ui/custom_opponent_teams.js?4"></script>
     <script type="text/javascript" src="./js/calc_ui/vanilla_defaults.js?tarnished-platinum2"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js?badem"></script>
@@ -2648,7 +2666,8 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?frdeluxe1"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/hge_includes.js?72ac966b"></script>
-    <script type="text/javascript" src="./js/initialize.js?pokeweb-abilities1-inline1"></script>
+    <script type="module" src="./js/calc_ui/shared_calc.mjs?bridge1"></script>
+    <script type="text/javascript" src="./js/initialize.js?shared-calc-bridge1"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?tag-partner-label1"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
@@ -2751,8 +2770,8 @@
     <script type="text/javascript" src="./calc/result.js?pokeweb-abilities1"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?4025a2a4"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?trainer-lead1"></script>
-    <script type="text/javascript" src="./js/index_randoms_controls.js?valid-calc-selection1"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?lazy-moves1"></script>
+    <script type="text/javascript" src="./js/index_randoms_controls.js?move-select1"></script>
     <script type="text/javascript" src="./js/moveset_import.js?valid-calc-selection1"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?hide-zero-frags1"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>

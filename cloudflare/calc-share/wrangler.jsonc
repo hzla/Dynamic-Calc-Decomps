@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-calc-share",
+  "main": "index.mjs",
+  "compatibility_date": "2026-11-25",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [
+    { "binding": "CALCS", "bucket_name": "dynamic-calc-shares" }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "PUBLISH_QUOTA", "class_name": "CalcPublishQuota" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["CalcPublishQuota"] }
+  ],
+  "ratelimits": [
+    { "name": "UPLOAD_LIMIT", "namespace_id": "58241", "simple": { "limit": 5, "period": 60 } },
+    { "name": "TOTAL_UPLOAD_LIMIT", "namespace_id": "58242", "simple": { "limit": 25, "period": 60 } }
+  ],
+  "vars": {
+    "UPLOADS_ENABLED": "true",
+    "ALLOWED_ORIGINS": "https://hzla.github.io",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAGSwRrChw4ZB9t9F"
+  }
+}

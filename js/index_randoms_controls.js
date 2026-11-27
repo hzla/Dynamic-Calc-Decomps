@@ -243,7 +243,25 @@ function performCalculations() {
 			bestResult = $(resultLocations[fastestSide][bestMove].move);
 		}
 	}
-	if ($('.locked-move').length) {
+	// After a Pokémon changes, the selection stays where it was, except that a new Pokémon on the left, with one of the
+	// left's moves selected, selects the left's strongest move. A new Pokémon on the right keeps the same slot.
+	var setChange = pendingSetChange && Date.now() - pendingSetChange.at <= 3000 ? pendingSetChange : null;
+	var setChangeSelected = setChange && setChange.selected ? $("#" + setChange.selected) : $();
+	if (setChangeSelected.length) {
+		if (setChange.sides.p1 && setChange.selected.indexOf("resultMoveL") === 0) {
+			bestResult = $(resultLocations[0][p1.maxDamages[0].moveOrder].move);
+		} else {
+			bestResult = setChangeSelected;
+		}
+		stickyMoves.setSelectedMove(bestResult.prop("id"));
+		// Calculations already queued by the same change decide the same way; later ones go back to the usual rule.
+		if (!setChange.clearing) {
+			setChange.clearing = true;
+			setTimeout(function () {
+				if (pendingSetChange === setChange) pendingSetChange = null;
+			}, 0);
+		}
+	} else if ($('.locked-move').length) {
 		bestResult = $('.locked-move');
 	} else {
 		stickyMoves.setSelectedMove(bestResult.prop("id"));

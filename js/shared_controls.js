@@ -619,7 +619,8 @@ function getPokeInfoAbility(poke) {
 
 function isPokeInfoItemActive(poke) {
 	var itemToggle = $(poke).find(".itemToggle");
-	return !itemToggle.is(":visible") || itemToggle.is(":checked");
+	// Checked first: it needs no layout, while ":visible" makes the browser lay out the page after every change.
+	return itemToggle.is(":checked") || !itemToggle.is(":visible");
 }
 
 function getPokeInfoItem(poke) {
@@ -919,12 +920,28 @@ function renderPokeChipDamage(poke) {
 		return;
 	}
 
+	// The chips are worked out before the list is touched, and the list is rebuilt only when they change: a rebuild
+	// between the layout checks above (the item's checkbox) made the browser lay out the page again for each one, and
+	// the list is a live region, so screen readers announced every rebuild.
+	var chips = getChipDamageEntries(pokeObj).map(function (chip) {
+		return {
+			kind: chip.kind,
+			label: chip.label,
+			text: chip.text || ((chip.sign || "-") + chip.damage + " per turn")
+		};
+	});
+	var key = JSON.stringify(chips);
+	if (chipList.attr("data-chips") === key) {
+		return;
+	}
+
+	chipList.attr("data-chips", key);
 	chipList.empty();
-	getChipDamageEntries(pokeObj).forEach(function (chip) {
+	chips.forEach(function (chip) {
 		$("<span />", {
 			"class": "chip-damage chip-damage--" + chip.kind,
 			"title": chip.label
-		}).text(chip.text || ((chip.sign || "-") + chip.damage + " per turn")).appendTo(chipList);
+		}).text(chip.text).appendTo(chipList);
 	});
 }
 
@@ -1673,7 +1690,11 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	var pokeObj = $(moveObj).closest(".poke-info");
 	var useMoveTableHiddenPower = shouldUseEmeraldKaizoTypedHiddenPowerMove(moveName);
 	var inferredHiddenPower = useMoveTableHiddenPower ? null : getHiddenPowerDetailsFromIVs(pokeObj, moveName);
-	var pokemon = createPokemon(pokeObj);
+	// Building the Pokémon reads (and redraws) the whole panel, so it waits until something below needs it.
+	var builtPokemon = null;
+	function getPokemon() {
+		return builtPokemon || (builtPokemon = createPokemon(pokeObj));
+	}
 
 	if (inferredHiddenPower) {
 		moveGroupObj.children(".move-bp").val(inferredHiddenPower.power);
@@ -1689,7 +1710,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 			trueHP = true
 
 
-			var actual = calc.Stats.getHiddenPower(GENERATION, pokemon.ivs, trueHP);
+			var actual = calc.Stats.getHiddenPower(GENERATION, getPokemon().ivs, trueHP);
 			if (actual.type !== m[1]) {
 				
 				$(moveObj).val(`Hidden Power ${actual.type}`)
@@ -1735,7 +1756,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	let isCrit = false
 	if (typeof backup_moves != "undefined" && (typeof backup_moves[moveName] != 'undefined' || typeof backup_moves[cleanString(moveName)] != 'undefined')) {
 		var backupCritMove = backup_moves[moveName] || backup_moves[cleanString(moveName)];
-		isCrit = (backupCritMove.crit_stage >= 2 && pokemon.item == "Scope Lens") || move.willCrit === true;
+		isCrit = (backupCritMove.crit_stage >= 2 && getPokemon().item == "Scope Lens") || move.willCrit === true;
 	} else {
 		isCrit = move.willCrit === true;
 	}
@@ -2788,6 +2809,7 @@ $('#p1 .boost, #statusL1, #p1 .percent-hp').blur(function() {
 
 
 $(".set-selector").change(function () {
+	noteSetSelectorChange(this);
 	// lock this event from firing multiple times from one action
 	if (changingSets && !initializing) {
 		// console.log("prevented")
@@ -3404,6 +3426,13 @@ function selectHasOptionValue(select, value) {
 	}
 
 	var stringValue = String(value);
+	var lazyMatch = false;
+	select.each(function () {
+		if (ensureLazySelectOption(this, stringValue)) lazyMatch = true;
+	});
+	if (lazyMatch) {
+		return true;
+	}
 	return select.find("option").filter(function () {
 		return String($(this).val()) === stringValue;
 	}).length > 0;
@@ -3746,10 +3775,13 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 
 		var ability = pokeInfo.find(".ability").val();
 		var rawItem = pokeInfo.find(".item").val();
-		var itemOn = !pokeInfo.find(".itemToggle").is(":visible") || pokeInfo.find(".itemToggle").is(":checked");
+		var itemOn = pokeInfo.find(".itemToggle").is(":checked") || !pokeInfo.find(".itemToggle").is(":visible");
 		var item = itemOn ? rawItem : '';
 		var isDynamaxed = pokeInfo.find(".max").prop("checked");
 		pokeInfo.isDynamaxed = isDynamaxed;
+		// Read before calcHP writes the HP fields, so these layout checks share one layout.
+		var gender = pokeInfo.find(".gender").is(":visible") ? getGender(pokeInfo.find(".gender").val()) : "N";
+		var boostedStat = pokeInfo.find(".boostedStat:visible").val() || undefined;
 		calcHP(pokeInfo);
 		var curHP = ~~pokeInfo.find(".current-hp").val();
 		// FIXME the Pokemon constructor expects non-dynamaxed HP
@@ -3772,13 +3804,13 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			abilityOn: pokeInfo.find(".abilityToggle:not([data-effect-index])").is(":checked"),
 			item: item,
 			itemOn: itemOn,
-			gender: pokeInfo.find(".gender").is(":visible") ? getGender(pokeInfo.find(".gender").val()) : "N",
+			gender: gender,
 			nature: pokeInfo.find(".nature").val(),
 			ivs: ivs,
 			evs: evs,
 			isDynamaxed: isDynamaxed,
 			alliesFainted: parseInt(pokeInfo.find(".alliesFainted").val()),
-			boostedStat: pokeInfo.find(".boostedStat:visible").val() || undefined,
+			boostedStat: boostedStat,
 			boosts: boosts,
 			curHP: curHP,
 			status: CALC_STATUS[normalizedUiStatus],
@@ -3995,8 +4027,13 @@ function calcHP(poke) {
 	// NOTE: poke.find(".percent-hp").val() is a rounded value!
 	var prevPercentHP = 100 * prevCurrentHP / prevMaxHP;
 
-	$maxHP.text(total);
-	$maxHP.attr('data-prev', total);
+	// Unchanged values aren't written again: each write makes the next layout check lay out the page.
+	if ($maxHP.text() !== String(total)) {
+		$maxHP.text(total);
+	}
+	if ($maxHP.attr('data-prev') !== String(total)) {
+		$maxHP.attr('data-prev', total);
+	}
 
 	var newCurrentHP = calcCurrentHP(poke, total, prevPercentHP);
 	calcPercentHP(poke, total, newCurrentHP);
@@ -4103,7 +4140,10 @@ $(".gen").change(function () {
 	$("select.type1, select.move-type").find("option").remove().end().append(typeOptions);
 	$("select.type2").find("option").remove().end().append("<option value=\"\">(none)</option>" + typeOptions);
 	var moveOptions = getSelectOptions(Object.keys(moves), true);
-	$("select.move-selector").find("option").remove().end().append(moveOptions);
+	// The two sides' move lists start with only the moves their sets need, so the remembered sets show without
+	// waiting for ~8,000 options; the full lists fill in after the page has shown them (see setLazySelectOptions).
+	setLazySelectOptions($(LAZY_MOVE_SELECTS), moveOptions);
+	$("select.move-selector").not(LAZY_MOVE_SELECTS).find("option").remove().end().append(moveOptions);
 	var abilityOptions = getSelectOptions(abilities, true);
 	$("select.ability").find("option").remove().end().append("<option value=\"\">(other)</option>" + abilityOptions);
 	var itemOptions = getSelectOptions(items, true);
@@ -4254,6 +4294,108 @@ function getSetOptions(sets) {
 	return setOptions;
 }
 
+// ---------- Move lists that fill in after the page shows ----------
+// Each move picker on the two sides would hold every move (~970 options, ~8,000 over the eight pickers), which made
+// startup and every restyle of the panels slow. A lazy picker holds only the first move and the moves its sets have
+// used; its full list goes in after the page has shown the remembered sets, one picker per idle moment, or at once
+// when something needs it first (opening its dropdown). Code that picks a move doesn't notice: setting a value with
+// .val(), or asking selectHasOptionValue, adds that move's option first if the full list has it.
+var LAZY_MOVE_SELECTS = ["#p1", "#p2"].map(function (side) {
+	return [1, 2, 3, 4].map(function (slot) { return side + " .move" + slot + " > select.move-selector"; }).join(", ");
+}).join(", ");
+var lazySelectFillScheduled;
+
+function setLazySelectOptions(selects, html) {
+	var template = document.createElement("select");
+	template.innerHTML = html;
+	var group = { html: html, options: new Map() };
+	Array.prototype.forEach.call(template.options, function (option) {
+		if (!group.options.has(option.value)) group.options.set(option.value, option);
+	});
+	var first = template.options[0];
+	selects.each(function () {
+		this.__lazyOptions = group;
+		this.__lazyFilled = false;
+		$(this).find("option").remove();
+		// Replacing the list selects its first option, as filling the whole list did.
+		if (first) this.appendChild(first.cloneNode(true));
+	});
+	scheduleLazySelectFill();
+}
+
+// Adds the option for a value the full list has; true if the select is still lazy and now has it.
+function ensureLazySelectOption(select, value) {
+	var group = select && select.__lazyOptions;
+	if (!group || select.__lazyFilled) return false;
+	var option = group.options.get(String(value));
+	if (!option) return false;
+	for (var i = 0; i < select.options.length; i++) {
+		if (select.options[i].value === option.value) return true;
+	}
+	var index = select.selectedIndex;
+	select.appendChild(option.cloneNode(true));
+	// An added option can't change what is selected (a select with nothing selected would otherwise pick one).
+	if (select.selectedIndex !== index) select.selectedIndex = index;
+	return true;
+}
+
+function ensureFullSelectOptions(select) {
+	var group = select && select.__lazyOptions;
+	if (!group || select.__lazyFilled) return;
+	var index = select.selectedIndex;
+	var value = select.value;
+	select.innerHTML = group.html;
+	if (index === -1) {
+		select.selectedIndex = -1;
+	} else {
+		select.value = value;
+	}
+	select.__lazyFilled = true;
+}
+
+function scheduleLazySelectFill() {
+	if (lazySelectFillScheduled) return;
+	lazySelectFillScheduled = true;
+	var idle = window.requestIdleCallback ?
+		function (step) { window.requestIdleCallback(step, { timeout: 1000 }); } :
+		function (step) { setTimeout(step, 30); };
+	var fillNext = function () {
+		var next = $(LAZY_MOVE_SELECTS).filter(function () {
+			return this.__lazyOptions && !this.__lazyFilled;
+		})[0];
+		if (!next) {
+			lazySelectFillScheduled = false;
+			return;
+		}
+		ensureFullSelectOptions(next);
+		idle(fillNext);
+	};
+	// After the page has drawn the sets and run the calculation queued with them.
+	requestAnimationFrame(function () {
+		setTimeout(function () { idle(fillNext); }, 0);
+	});
+}
+
+(function () {
+	var hooks = jQuery.valHooks.select;
+	if (!hooks || hooks.lazyOptions) return;
+	var set = hooks.set;
+	hooks.set = function (select, value) {
+		if (select.__lazyOptions && !select.__lazyFilled) {
+			(Array.isArray(value) ? value : [value]).forEach(function (one) {
+				if (one != null) ensureLazySelectOption(select, one);
+			});
+		}
+		return set.apply(this, arguments);
+	};
+	hooks.lazyOptions = true;
+})();
+
+// A dropdown about to open lists every move.
+$(document).off("select2-opening.lazyOptions").on("select2-opening.lazyOptions", "select.move-selector", function () {
+	ensureFullSelectOptions(this);
+});
+
 function getSelectOptions(arr, sort, defaultOption) {
 	if (sort) {
 		arr.sort();
@@ -4264,6 +4406,20 @@ function getSelectOptions(arr, sort, defaultOption) {
 	}
 	return r;
 }
+// The side whose Pokémon just changed, with the move that was selected before, for the calculation that follows
+// (performCalculations in index_randoms_controls.js decides there what to select). It lapses after a few seconds in
+// case no calculation follows.
+var pendingSetChange = null;
+function noteSetSelectorChange(input) {
+	if (typeof initializing !== "undefined" && initializing) return;
+	var side = $(input).closest("#p1, #p2").attr("id");
+	if (!side) return;
+	if (!pendingSetChange || pendingSetChange.clearing || Date.now() - pendingSetChange.at > 3000) {
+		pendingSetChange = { sides: {}, selected: $(".result-move:checked").attr("id") || null, at: Date.now() };
+	}
+	pendingSetChange.sides[side] = true;
+}
+
 var stickyMoves = (function () {
 	var lastClicked = 'resultMoveL1';
 	$(".result-move").click(function () {

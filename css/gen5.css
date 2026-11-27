@@ -8,6 +8,11 @@
  * a BW2 ROM: move button frames, type labels, the system message frame; grids and hatching are its patterns.
  */
 
+/* Lengths gen5_ui.js measures and sets on the few elements that use them. They are not inherited: as inherited custom
+   properties on a side's panel, each change restyled everything inside it, thousands of list options included. */
+@property --g5-band-pad { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --g5-tags-extra { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
 @font-face { font-family: "G5 Menlo"; font-weight: 100 650; font-display: swap; src: local("Menlo-Regular"), local("Menlo Regular"), url("./fonts/dejavu-sans-mono-latin-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "G5 Menlo"; font-weight: 651 1000; font-display: swap; src: local("Menlo-Bold"), local("Menlo Bold"), url("./fonts/dejavu-sans-mono-latin-700-normal.woff2") format("woff2"); }
 
@@ -60,6 +65,14 @@ html.gen5ui img.trainer-pok-item {
 
 html.gen5ui #calculator-view :is(input, select, textarea, label.btn, button, .select2-choice, .notes-text) {
   box-sizing: border-box;
+}
+
+/* The calc's hidden checkboxes (crit, Z, the type toggles) stay beside their buttons. The console library's stylesheet
+   pins everything visually hidden to the top corner of its panel, so a click on a button, which focuses its checkbox,
+   scrolled the page up to the top of the panel. */
+html.gen5ui #calculator-view .visually-hidden {
+  top: auto;
+  left: auto;
 }
 
 html.gen5ui :is(#calculator-view, .header-settings) :is(input[type="text"], input[type="number"], input:not([type]), select, textarea),
@@ -155,7 +168,7 @@ html.gen5ui .select2-results .select2-highlighted {
 
 /* ---------- Buttons: the hexagonal command button ---------- */
 
-html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin)),
+html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-hp-num)),
 html.gen5ui .player-preview-add-actions button,
 html.gen5ui .opposing-preview-footer button,
 html.gen5ui #open-romhack-modal,
@@ -188,7 +201,7 @@ html.gen5ui #footer :is(button, .btn) {
   clip-path: var(--g5-hex);
 }
 
-html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin))::before,
+html.gen5ui #calculator-view :where(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #toggle-additional-field-options, #clearSets, #show-ai, #sync-battle, .result-crit-toggle, #exportL, #exportR, #exportAllL, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-hp-num))::before,
 html.gen5ui .player-preview-add-actions button::before,
 html.gen5ui .opposing-preview-footer button::before,
 html.gen5ui #open-romhack-modal::before,
@@ -242,11 +255,6 @@ html.gen5ui .wrapper {
   max-width: 1440px;
   margin: 18px auto 0 !important;
   padding: 0 24px;
-}
-
-/* The calculator runs wider, so partner battles show both trainers' teams up to six cards to a row. */
-html.gen5ui body.main-page-calculator-view :is(.wrapper, #footer) {
-  max-width: 1920px;
 }
 }
 
@@ -664,104 +672,9 @@ html.gen5ui #calculator-view .main-result-group .big-text {
   padding-right: 120px;
 }
 
-/* The pin, at the left of the result box: keeps the results at the top of the window while the page scrolls. */
 html.gen5ui #calculator-view .main-result-group {
   position: relative;
 }
-
-html.gen5ui #calculator-view .main-result-group > :is(.big-text, .small-text) {
-  padding-left: 58px;
-}
-
-html.gen5ui #calculator-view .g5-pin {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  z-index: 1;
-  display: grid;
-  place-items: center;
-  box-sizing: border-box;
-  width: 34px;
-  height: 34px;
-  margin: 0;
-  padding: 0;
-  border: 2px solid var(--g5-menu-edge);
-  border-radius: 0;
-  background: var(--g5-menu);
-  color: var(--g5-label);
-  cursor: pointer;
-  transform: translateY(-50%);
-}
-
-html.gen5ui #calculator-view .g5-pin:hover,
-html.gen5ui #calculator-view .g5-pin:focus-visible {
-  background: #474766;
-  color: var(--g5-text);
-  outline: none;
-}
-
-html.gen5ui #calculator-view .g5-pin[aria-pressed="true"] {
-  border-color: var(--g5-menu-on-edge);
-  background: var(--g5-menu-on);
-  color: var(--g5-text);
-}
-
-html.gen5ui #calculator-view .g5-pin svg {
-  display: block;
-  width: 24px;
-  height: 24px;
-}
-
-/* Pinned: the calculator stacks as a column, so the moves' band and the result box can stay at the top (a sticky
-   grid item stays within its own row); the rest keeps its order beneath. */
-html.gen5ui.g5-pin-results body.main-page-calculator-view #calculator-view {
-  display: flex !important;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-html.gen5ui.g5-pin-results #calculator-view::before {
-  display: none;
-}
-
-html.gen5ui.g5-pin-results #calculator-view .move-result-group {
-  order: 1;
-  position: sticky;
-  top: 0;
-  z-index: 60;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  column-gap: 20px;
-  align-items: start;
-  margin: 0 -16px;
-  padding: 0 14px 10px;
-  border: 2px solid var(--g5-black);
-  border-bottom: 0;
-  background: #000 url("../img/gen5/ui/grid-cross.svg");
-}
-
-html.gen5ui.g5-pin-results #calculator-view .main-result-group {
-  order: 2;
-  position: sticky;
-  top: var(--g5-pin-moves, 0px);
-  z-index: 60;
-  margin: 0 0 14px;
-  box-shadow: -16px 0 0 #000, 16px 0 0 #000, 0 14px 0 #000, -16px 14px 0 #000, 16px 14px 0 #000;
-}
-
-/* View AI rides on the result box: drawn after it in the column, lifted back over its right end and held there. */
-html.gen5ui.g5-pin-results #calculator-view #show-ai {
-  order: 3;
-  align-self: flex-end;
-  position: sticky;
-  top: calc(var(--g5-pin-moves, 0px) + var(--g5-pin-box, 0px) / 2 - 13px);
-  z-index: 61;
-  margin: calc(-14px - var(--g5-pin-box, 0px) / 2 - 13px) 12px calc(var(--g5-pin-box, 0px) / 2 + 1px) 0;
-}
-
-html.gen5ui.g5-pin-results #calculator-view #show-move-ai-preview { order: 4; align-self: flex-start; }
-html.gen5ui.g5-pin-results #calculator-view #ai-container { order: 5; }
-html.gen5ui.g5-pin-results #calculator-view .panel-wrapper { order: 6; }
 
 html.gen5ui #calculator-view #show-move-ai-preview {
   grid-row: 3;
@@ -1110,10 +1023,6 @@ html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) :is(th, t
   font-weight: 400;
 }
 
-html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) tbody tr :is(th, td) {
-  background: var(--g5-ground);
-}
-
 html.gen5ui #calculator-view .info-group:is(.left-table, .right-table) thead th {
   color: var(--g5-muted);
 }
@@ -1275,13 +1184,24 @@ html.gen5ui #calculator-view .info-group.hp-cntrl label {
 @media (min-width: 961px) {
 html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 6px;
+  gap: 4px 6px;
   margin: 0 0 4px;
 }
 
 html.gen5ui #calculator-view .move4 {
   margin-bottom: 14px;
+}
+
+/* A click on a row's empty space picks that move in the results bar (gen5_ui.js). */
+html.gen5ui #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) {
+  cursor: pointer;
+}
+
+/* The move's damage at the end of its row (gen5_ui.js fills it): shown on the widest panels only, below. */
+html.gen5ui #calculator-view .g5-move-dmg {
+  display: none;
 }
 
 html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .select2-container.move-selector {
@@ -1940,6 +1860,18 @@ html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos
 html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .ai-infos .g5-mv,
 html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .bp-infos > .bp-info.g5-hit {
   color: var(--g5-selected);
+}
+
+/* The classic marks on the enemy's moves, kept in every layout: a super-effective move in red (bold too, so the
+   mark doesn't rest on colour alone), and every line of a fainted Pokémon faded, its damage and matchup lines too. */
+html.gen5ui #calculator-view #p2 .trainer-pok-container .bp-info[data-strong="true"],
+html.gen5ui #calculator-view #p2 .ai-show .trainer-pok-container:has(> .ai-infos) .bp-infos > .bp-info[data-strong="true"] {
+  color: var(--g5-up);
+  font-weight: 600;
+}
+
+html.gen5ui #calculator-view #p2 .trainer-pok-container.fainted :is(.bp-info, .bp-info span, .switch-ai-info, .switch-ai-info span) {
+  color: var(--g5-muted) !important;
 }
 
 /* The orders: a label at the left and the number at the right, Post KO's in yellow. */
@@ -2616,6 +2548,61 @@ html.gen5ui #calculator-view .g5-pick-status[data-value="Healthy"] .g5-pick-text
   line-height: 20px;
 }
 
+/* Counts some moves add to their row (hits for a multi-hit move, uses in a row for one that lowers its user's
+   stats, Metronome's streak): "×N" in a field with a small arrow, the same width on every row so they line up
+   after C. The box that opens lists the full wording. */
+html.gen5ui #calculator-view .g5-pick-count {
+  flex: none;
+  justify-content: space-between;
+  gap: 4px;
+  width: 52px;
+  height: 28px;
+  padding: 0 5px 0 6px;
+  border: 2px solid var(--g5-edge);
+  background: var(--g5-black);
+  font: 400 14px/1 var(--g5-font);
+}
+
+html.gen5ui #calculator-view .g5-pick-count::after {
+  content: "";
+  flex: none;
+  width: 8px;
+  height: 5px;
+  background: var(--g5-menu-edge);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+html.gen5ui #calculator-view .g5-pick-count[hidden] {
+  display: none;
+}
+
+/* The counts sit in a group after C, as wide as the side needs (gen5_ui.js counts them into data-g5-extras), so
+   every row of a side keeps the same layout: the move's own count first, Metronome's in the second place. */
+html.gen5ui #calculator-view .g5-counts {
+  --g5-count-w: 52px;
+  display: none;
+  flex: none;
+  grid-template-columns: repeat(var(--g5-counts), var(--g5-count-w));
+  column-gap: 6px;
+  width: calc(var(--g5-counts) * var(--g5-count-w) + (var(--g5-counts) - 1) * 6px);
+}
+
+html.gen5ui #calculator-view [data-g5-extras="1"] .g5-counts { --g5-counts: 1; display: grid; }
+html.gen5ui #calculator-view [data-g5-extras="2"] .g5-counts { --g5-counts: 2; display: grid; }
+html.gen5ui #calculator-view .g5-counts:not(:has(> .g5-pick-count:not([hidden]))) { display: none; }
+html.gen5ui #calculator-view .g5-counts > .g5-pick-count { grid-row: 1; grid-column: 1; }
+html.gen5ui #calculator-view [data-g5-extras="2"] .g5-counts > .g5-pick-metronome { grid-column: 2; }
+
+html.gen5ui .g5-pop-count .g5-pop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+html.gen5ui .g5-pop-count .g5-pop-opt {
+  justify-content: flex-start;
+  padding: 3px 10px;
+}
+
 html.gen5ui .g5-pop-status .g5-pop-grid {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -2757,6 +2744,11 @@ html.gen5ui .g5-pop-name {
   html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) .move-pp {
     width: 44px;
   }
+
+  /* The move button takes whatever the fields leave, so the counts get a line of their own rather than squeeze it. */
+  html.gen5ui #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-counts {
+    flex-basis: 100%;
+  }
 }
 
 @container g5side (max-width: 440px) {
@@ -2871,7 +2863,7 @@ html.gen5ui .g5-pop-name {
     font-size: 20px;
   }
 
-  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-pin)) {
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.btn, .bs-btn, #learnset-show, #dex-show, #save-pok, #add-party-pok, #box-remove, #set-partner, .nav-tag, #clear-party, #edge, #clear-filters, #ai-tags > div, button:not(.select2-choice):not(.mobile-calc-side-tab):not(.g5-pick):not(.g5-hp-num)) {
     height: 34px;
     line-height: 34px !important;
     font-size: 20px !important;
@@ -2880,6 +2872,16 @@ html.gen5ui .g5-pop-name {
   html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick {
     height: 36px;
     font-size: 20px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-pick-count {
+    width: 64px;
+  }
+
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) .g5-counts {
+    --g5-count-w: 64px;
+    column-gap: 8px;
+    width: calc(var(--g5-counts) * var(--g5-count-w) + (var(--g5-counts) - 1) * 8px);
   }
 
   /* The set picker and the chips beneath it. */
@@ -2998,6 +3000,41 @@ html.gen5ui .g5-pop-name {
     width: 56px;
   }
 
+}
+
+/* Panels wide enough for one more column (from about a 1775px window, where a move row is 668px): each move's
+   damage as a share of the target's HP, the lowest roll on your side and the highest on the foe's. It is read-only,
+   so it has the fields' black but not their border. */
+@container g5side (min-width: 692px) {
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    display: block;
+    flex: none;
+    box-sizing: border-box;
+    width: 88px;
+    height: 36px;
+    margin-left: auto;
+    padding: 0 7px;
+    background: var(--g5-black);
+    color: var(--g5-text);
+    font: 400 20px/36px var(--g5-font);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Two count pickers on a row (Metronome held, and a move that needs a count of its own) leave no room for it. */
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) [data-g5-extras="2"] .g5-move-dmg {
+    display: none;
+  }
+}
+
+/* One count picker needs a 740px row for the damage column too (about a 1915px window); narrower, the side drops it. */
+@container g5side (max-width: 763.98px) {
+  html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) [data-g5-extras="1"] .g5-move-dmg {
+    display: none;
+  }
+}
+
+@container g5side (min-width: 660px) {
   /* The box's search and sort, and its filters. */
   html.gen5ui #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) #search-row #box-sort-select {
     flex: 0 0 230px;
@@ -3040,11 +3077,6 @@ html.gen5ui .g5-pop-name {
  * or behind tabs, the field below); this only dresses it, plus two changes from the mockup: each move button gets its
  * own row so the whole name fits, and the result rows mirror on the foe's side. */
 @media (max-width: 960px) {
-  /* The calculator keeps its results at the top on phones already, so the pin isn't offered. */
-  html.gen5ui #calculator-view .g5-pin {
-    display: none;
-  }
-
   html.gen5ui #calculator-view .main-result-group > :is(.big-text, .small-text) {
     padding-left: 12px;
   }
@@ -4773,4 +4805,1764 @@ html.gen5ui #fragsheet-shell .g5-log-split .battle-events-empty {
     grid-row: 2;
     grid-column: 1;
   }
+}
+
+/* ---------- Compact layout: two columns under a battle bar (desktop) ----------
+ * gen5_ui.js sets html.g5-band in any window wider than 960px. The results bar goes. A battle bar across the top
+ * holds the selected move's full result (pin, View AI) and the format, weather and field; Battle Notes opens as a
+ * window. Under it, your side and the foe's: each title bar has a Side Conditions button for that side's conditions, with
+ * the ones that are on named beside it. Each side shows its whole set at once: the set in a row of three columns, the
+ * moves across the panel (each ending in its damage and KO chance; a click on a row shows that move's full result),
+ * then your party and box or the foe's team. Read .sav, Sync and the Showdown import sit at the foot of the box.
+ * The calc's elements stay inside #p1, #p2 and .field-info; gen5_ui.js moves them into place and this lays them out. */
+html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
+  display: none;
+}
+
+/* Phones keep the results bar, so the move rows don't repeat the damage. */
+@media (max-width: 960px) {
+  html.gen5ui #calculator-view .g5-move-dmg {
+    display: none;
+  }
+}
+
+@media (min-width: 961px) {
+  /* The side panels stop answering the g5side width queries above; the g5band queries below size them instead. */
+  html.gen5ui.g5-band #calculator-view .panel-wrapper > .panel.third:not(.panel-mid) {
+    container: g5band / inline-size;
+  }
+
+  html.gen5ui.g5-band #calculator-view::before,
+  html.gen5ui.g5-band #calculator-view .mobile-calc-side-tabs,
+  html.gen5ui.g5-band #calculator-view .move-result-group,
+  html.gen5ui.g5-band #calculator-view .panel-wrapper > .panel-mid {
+    display: none !important;
+  }
+
+  /* The calculator as one column: the battle bar, the AI's view when it's open, then the two sides. */
+  html.gen5ui.g5-band body.main-page-calculator-view #calculator-view {
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  html.gen5ui.g5-band #calculator-view > .g5-battlebar { order: 1; }
+  html.gen5ui.g5-band #calculator-view > #ai-container { order: 2; }
+  html.gen5ui.g5-band #calculator-view > .panel-wrapper { order: 3; }
+
+  html.gen5ui.g5-band #calculator-view > #ai-container:not(:empty) {
+    margin-bottom: 16px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .panel-wrapper {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  html.gen5ui.g5-band #calculator-view .panel-wrapper > .mobile-side-panel-p1 { grid-row: 1; grid-column: 1; }
+  html.gen5ui.g5-band #calculator-view .panel-wrapper > .mobile-side-panel-p2 { grid-row: 1; grid-column: 2; }
+
+  /* ----- The battle bar: the result at the left, the field at the right, on the battle screen's cross grid. */
+  html.gen5ui.g5-band #calculator-view > .g5-battlebar {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 10px 16px;
+    margin: 0 -16px 14px;
+    padding: 10px 16px;
+    border: 2px solid var(--g5-black);
+    background: #000 url("../img/gen5/ui/grid-cross.svg");
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-result {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+    min-height: 64px;
+    border: 2px solid var(--g5-edge);
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-result > .main-result-group {
+    position: relative;
+    top: auto;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+    justify-content: center;
+    min-width: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-result > .main-result-group .big-text {
+    padding: 8px 12px 2px 14px;
+    font-size: 14px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-result > .main-result-group .small-text {
+    padding: 0 12px 8px 14px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-acts {
+    display: flex;
+    flex: none;
+    align-items: center;
+    gap: 6px;
+    padding-right: 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-acts > :is(#show-ai, #show-move-ai-preview, #sync-battle) {
+    position: static;
+    inset: auto;
+    top: auto;
+    order: 0;
+    align-self: auto;
+    justify-self: auto;
+    z-index: auto;
+    width: auto;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-bb-field {
+    min-width: 0;
+  }
+
+  /* The field: Format, Weather and Field rows, each a label and its buttons. */
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 6px 8px;
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info > :is(legend, hr, #mid-panel-layout-toggle),
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #pokeweb-opening-fields,
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .g5-off {
+    display: none !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-frow {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr);
+    align-items: center;
+    gap: 10px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-frow:not(:has(.g5-fbody > :not(.hide):not([hidden]):not([style*="display: none"]):not(.g5-off))) {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-flabel {
+    justify-self: end;
+    color: var(--g5-label);
+    font: 400 13px/1.3 var(--g5-font);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-fbody {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 10px;
+    min-width: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info :is(.g5-fbody > [role="radiogroup"], .g5-fbody > div[title="Is gravity in effect?"], #weather-bar, #weather-bar > div, #terrain-bar, .cascade-effects.cascade-effects-enabled):not(.hide):not([hidden]):not([style*="display: none"]) {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #weather-bar {
+    gap: 6px 10px;
+  }
+
+  /* The selected weather tints the two Pokémon title bars here, not the field. */
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info {
+    background-image: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2)[data-g5-weather="sun"] > legend { background-image: linear-gradient(rgba(168, 71, 0, 0.22), rgba(168, 71, 0, 0.22)); }
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2)[data-g5-weather="rain"] > legend { background-image: linear-gradient(rgba(26, 88, 174, 0.22), rgba(26, 88, 174, 0.22)); }
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2)[data-g5-weather="sand"] > legend { background-image: linear-gradient(rgba(120, 102, 0, 0.22), rgba(120, 102, 0, 0.22)); }
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2)[data-g5-weather="snow"] > legend { background-image: linear-gradient(rgba(92, 153, 153, 0.22), rgba(92, 153, 153, 0.22)); }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .cascade-effects:not(.cascade-effects-enabled) {
+    display: none;
+  }
+
+  /* More field: a button that opens the rarer conditions on both sides under the Field row. */
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #toggle-additional-field-options {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-size: 0 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #toggle-additional-field-options::after {
+    content: "More field";
+    font-size: 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #toggle-additional-field-options[aria-expanded="true"] {
+    --edge: var(--g5-menu-on-edge);
+    --face: var(--g5-menu-on);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #additional-field-options {
+    display: none !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info[data-g5-more] #additional-field-options {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    z-index: 70;
+    display: flex !important;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+    width: max-content;
+    max-width: min(420px, calc(100vw - 16px));
+    padding: 10px 12px 12px;
+    border: 2px solid var(--g5-menu-edge);
+    background: var(--g5-panel);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar .field-info[data-g5-more] #additional-field-options::before {
+    content: "Both sides of the field";
+    color: var(--g5-label);
+    font: 400 12px/1.3 var(--g5-font);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #additional-field-options > div:not(.hide):not([hidden]):not([style*="display: none"]):not(.g5-off) {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: auto !important;
+    margin: 0 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-battlebar #additional-field-options br {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#pokeweb-opening-global, #pokeweb-opening-side-l, #pokeweb-opening-side-r) label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--g5-text);
+    font-size: 13px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-btn {
+    --edge: var(--g5-bag);
+    align-self: center;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-btn[aria-pressed="true"] {
+    --face: #3a3010;
+  }
+
+  /* Narrower windows: the result across the bar, the field and Battle Notes under it. */
+  @media (max-width: 1279.98px) {
+    html.gen5ui.g5-band #calculator-view > .g5-battlebar {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    html.gen5ui.g5-band #calculator-view .g5-bb-result {
+      grid-column: 1 / -1;
+    }
+  }
+
+  /* ----- Each side's title bar: what's on its side of the field, and the button that opens it. */
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) > legend {
+    gap: 8px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) > legend::after {
+    margin-left: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-sidesum {
+    flex: 0 1 auto;
+    min-width: 0;
+    margin-left: auto;
+    overflow: hidden;
+    color: var(--g5-soft);
+    font: 400 13px/1.3 var(--g5-font);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-sidebtn {
+    flex: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-sidebtn[aria-expanded="true"] {
+    --edge: var(--g5-menu-on-edge);
+    --face: var(--g5-menu-on);
+  }
+
+  /* A side's field, one side of the calc's table at a time. */
+  html.gen5ui.g5-band #calculator-view #g5-sidepop {
+    position: absolute;
+    z-index: 70;
+    box-sizing: border-box;
+    width: min(460px, calc(100vw - 16px));
+    border: 2px solid var(--g5-menu-edge);
+    background: var(--g5-panel);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+    text-align: left;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop[hidden] {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-sidepop-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 34px;
+    padding: 0 6px 0 12px;
+    border-bottom: 2px solid var(--g5-text);
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-sidepop-head h2 {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    color: var(--g5-text);
+    font: 600 14px/1.25 var(--g5-font);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field {
+    display: block;
+    width: auto;
+    padding: 10px 12px 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field thead {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field tbody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field tr {
+    display: contents;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field td {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop[data-side="L"] table.field td:nth-child(2),
+  html.gen5ui.g5-band #calculator-view #g5-sidepop[data-side="R"] table.field td:first-child,
+  html.gen5ui.g5-band #calculator-view #g5-sidepop[data-side="L"] #pokeweb-opening-side-r,
+  html.gen5ui.g5-band #calculator-view #g5-sidepop[data-side="R"] #pokeweb-opening-side-l,
+  html.gen5ui.g5-band #calculator-view :is(#pokeweb-opening-side-l, #pokeweb-opening-side-r) > div:first-child {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field td > :is(.left, .right) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field td > :is(.left, .right) > :is(label.btn, button) {
+    flex: none;
+  }
+
+  /* Spikes read "Spikes 0 1 2 3" on both sides; LScreen is written out. */
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field [role="radiogroup"]:has(> input[name^="spikes"])::before {
+    content: "Spikes";
+    order: 0;
+    align-self: center;
+    margin-right: 2px;
+    color: var(--g5-label);
+    font: 400 12px/1 var(--g5-font);
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL0"], [for="spikesR0"]) { order: 1; }
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL1"], [for="spikesR1"]) { order: 2; }
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL2"], [for="spikesR2"]) { order: 3; }
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL3"], [for="spikesR3"]) { order: 4; }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL3"], [for="spikesR3"], [for="lightScreenL"], [for="lightScreenR"]) {
+    font-size: 0 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="spikesL3"], [for="spikesR3"])::after {
+    content: "3";
+    font-size: 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label:is([for="lightScreenL"], [for="lightScreenR"])::after {
+    content: "Light Screen";
+    font-size: 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field label[for^="spikes"].btn-wide {
+    flex-basis: auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop table.field tr.field-exports td {
+    flex-basis: 100%;
+    padding-top: 10px;
+    border-top: 2px solid var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-sidepop :is(#pokeweb-opening-side-l, #pokeweb-opening-side-r) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    padding: 0 12px 12px;
+  }
+
+  /* ----- Battle Notes: a window that moves by its title, minimises to a button at the bottom right. */
+  html.gen5ui.g5-band #calculator-view #g5-notes {
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 420px;
+    height: 340px;
+    min-width: 260px;
+    min-height: 160px;
+    max-width: calc(100vw - 16px);
+    max-height: calc(100vh - 16px);
+    overflow: hidden;
+    resize: both;
+    border: 2px solid var(--g5-menu-edge);
+    background: var(--g5-panel);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.45);
+  }
+
+  html.gen5ui.g5-band #calculator-view #g5-notes[hidden],
+  html.gen5ui.g5-band #calculator-view .g5-notes-pill[hidden] {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-head {
+    display: flex;
+    flex: none;
+    align-items: center;
+    gap: 6px;
+    min-height: 34px;
+    padding: 0 6px 0 12px;
+    border-bottom: 2px solid var(--g5-text);
+    background: var(--g5-black);
+    cursor: move;
+    touch-action: none;
+    user-select: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-title {
+    flex: 1 1 auto;
+    min-width: 0;
+    color: var(--g5-text);
+    font: 600 14px/1.25 var(--g5-font);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-head > button {
+    cursor: pointer;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-height: 0;
+    padding: 10px;
+    overflow: auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-body > fieldset {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* The window is for notes: the console stays out of it, even if it was opened before the Gen 5 UI was. */
+  html.gen5ui.g5-band #calculator-view .g5-notes-body > fieldset > legend,
+  html.gen5ui.g5-band #calculator-view .g5-notes-body .battle-console {
+    display: none !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-body #battle-notes,
+  html.gen5ui.g5-band #calculator-view .g5-notes-body #battle-notes > form {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-height: 0;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-body #battle-notes .notes-text {
+    flex: 1 1 auto;
+    min-height: 80px;
+    overflow: auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-notes-pill {
+    --edge: var(--g5-bag);
+    position: fixed;
+    right: 24px;
+    bottom: 18px;
+    z-index: 900;
+  }
+
+  /* ----- Import at the foot of the box: Read .sav, Sync, Download .sav and the Showdown import; Clear Imported Sets
+     and DeSmuME at the right. The Showdown text box and its Import button open beneath them. */
+  html.gen5ui.g5-band #calculator-view .poke-import.g5-emptied {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0 12px 12px;
+    padding: 12px 0 0;
+    border-top: 2px solid var(--g5-raised);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio #import-1_wrapper {
+    display: contents;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio #import-1_wrapper > :is(#read-save, #download-sav, #sync-master, #sync-lua, #import, #import-right),
+  html.gen5ui.g5-band #calculator-view .g5-boxio > .g5-paste-toggle {
+    flex: none;
+    min-width: 0;
+    height: 28px;
+    margin: 0;
+    padding: 0 14px;
+    line-height: 28px !important;
+    font-size: 13px !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio > .g5-paste-toggle { order: 1; }
+  html.gen5ui.g5-band #calculator-view .g5-boxio > .importedSetsOptions { order: 2; margin-left: auto; }
+  html.gen5ui.g5-band #calculator-view .g5-boxio > #desmume { order: 3; }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio > .g5-paste-toggle[aria-pressed="true"] {
+    --edge: var(--g5-menu-on-edge);
+    --face: var(--g5-menu-on);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio #clearSets {
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio #import-1_wrapper > form {
+    order: 20;
+    flex: 1 1 100%;
+    margin: 6px 0 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio #import-1_wrapper > :is(#import, #import-right) {
+    order: 21;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio:not(.g5-paste-open) #import-1_wrapper > :is(form, #import, #import-right) {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio .import-name-text {
+    box-sizing: border-box;
+    width: 100%;
+    height: 28px;
+    margin: 0 0 6px;
+    padding: 0 8px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-boxio textarea.import-team-text {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 160px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  /* ----- A side: the set picker with the form beside it (the calc's chips under both); the set in two columns; the
+     moves across the panel; then the party and box, or the foe's team. The first column (the outer one: the foe's is
+     mirrored) is the sprite box, with the held item, gender, types and level in its corners, then HP and nature,
+     ability and status; the second is the stat table. The calc's groups keep their places in the page, since its code
+     finds fields through them; the grid places them, the top group's rows one by one. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) {
+    display: grid;
+    align-items: start;
+    column-gap: 16px;
+    row-gap: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .player-panel-content {
+    --g5-c1: 1;
+    --g5-c2: 2 / -1;
+    --g5-sel: 1 / 3;
+    --g5-form: 3;
+    grid-template-columns: 200px minmax(0, 1fr) auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view .opposing-panel-content {
+    --g5-c1: 3;
+    --g5-c2: 1 / 3;
+    --g5-sel: 1;
+    --g5-form: 2 / 4;
+    grid-template-columns: minmax(0, 1fr) auto 200px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > * {
+    grid-column: 1 / -1;
+    min-width: 0;
+  }
+
+  /* The set picker and the form share the first line. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .select2-container.set-selector {
+    grid-column: var(--g5-sel);
+    grid-row: 1;
+    margin-bottom: calc(46px + var(--g5-tags-extra, 0px));
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-noforme] > .select2-container.set-selector {
+    grid-column: 1 / -1;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top {
+    display: contents;
+  }
+
+  /* The sprite box and its corners share one cell: the box first, the calc's own rows laid over it. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .g5-tile,
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:is(:nth-child(1), :nth-child(3), :nth-child(4)) {
+    grid-column: var(--g5-c1) !important;
+    grid-row: 2 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(2) { grid-column: var(--g5-form) !important; grid-row: 1 !important; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.hp-cntrl { grid-column: var(--g5-c1) !important; grid-row: 3 !important; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.info-selectors { grid-column: var(--g5-c1) !important; grid-row: 4 !important; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(5) { grid-column: var(--g5-c1) !important; grid-row: 5 !important; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group:is(.left-table, .right-table) { grid-column: var(--g5-c2) !important; grid-row: 2 / 6 !important; }
+  html.gen5ui.g5-band #calculator-view .player-panel-content > .info-group.left-table { justify-self: start; }
+  html.gen5ui.g5-band #calculator-view .opposing-panel-content > .info-group.right-table { justify-self: end; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .move1 { grid-row: 6; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .move2 { grid-row: 7; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .move3 { grid-row: 8; }
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .move4 { grid-row: 9; }
+
+  /* The top group's rows, each a line of its own. The calc shows and hides them with inline styles. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+    margin: 0 !important;
+    z-index: 1;
+  }
+
+  /* The fields name themselves here: their labels stay in the page for screen readers, out of sight. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:is(:nth-child(1), :nth-child(2), :nth-child(3)) > label,
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors > div > label:not(.switch) {
+    position: absolute !important;
+    width: 1px !important;
+    min-width: 0 !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  /* Types, bottom left: stacked, at one and a half times their size, in the margin the centred sprite leaves. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(1):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: end;
+    justify-self: start;
+    gap: 2px;
+    margin: 0 0 4px 4px !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(1) .g5-pick-type {
+    height: auto;
+    padding: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(1) .g5-pick-type :is(img, .g5-pick-text) {
+    width: 48px;
+    height: 18px;
+  }
+
+  /* Gender, top left. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(3):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    align-self: start;
+    justify-self: start;
+    margin: 2px 0 0 2px !important;
+  }
+
+  /* In a frame like the held item's across the box, so it reads against the sprite's backdrop. */
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(3) .g5-pick-gender {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    width: 32px;
+    min-width: 0;
+    height: 32px;
+    padding: 0;
+    border: 2px solid var(--g5-edge);
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(3) .g5-pick-gender:hover {
+    border-color: var(--g5-menu-edge);
+    background: var(--g5-menu);
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(3) .g5-pick-gender img {
+    height: 20px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top > div:nth-child(3) .g5-pick-gender .g5-pick-text {
+    width: auto;
+    height: auto;
+    font-size: 15px;
+  }
+
+  /* Level, bottom right: "Lv" and the number in one small field. With a level cap showing, the row moves under the
+     box, where it has room. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(4) {
+    align-self: end;
+    justify-self: end;
+    gap: 0 !important;
+    height: 28px;
+    margin: 0 4px 4px 0 !important;
+    padding: 0 2px 0 6px;
+    border: 2px solid var(--g5-edge);
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(4) > label {
+    flex: none;
+    width: auto !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    color: var(--g5-label);
+    font-size: 0 !important;
+  }
+
+  /* The calc sizes its labels in ems, which come to nothing at font-size 0, so they size to their new text. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(4) > label::before {
+    content: "Lv";
+    font-size: 12px;
+  }
+
+  /* The calc's fields all have a frame here; the level's frame is the row's. */
+  html.gen5ui.g5-band #calculator-view .info-group.top .level {
+    box-sizing: border-box;
+    width: 36px;
+    height: 24px;
+    margin: 0;
+    padding: 0 2px;
+    border: 0 !important;
+    background: none !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.top > div:nth-child(4) {
+    grid-row: 3 !important;
+    justify-self: start;
+    margin: 0 0 6px !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.hp-cntrl {
+    grid-row: 4 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.info-selectors {
+    grid-row: 5 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top #panel-lvl-cap {
+    box-sizing: border-box;
+    width: 42px;
+    height: 24px;
+    margin: 0;
+    padding: 0 4px;
+    border: 0 !important;
+    border-left: 2px solid var(--g5-edge) !important;
+    background: none !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  /* The form beside the set picker, its picker filling the space. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    justify-self: end;
+    width: 176px;
+    max-width: 100%;
+    height: 34px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(2) .g5-pick-forme {
+    flex: 1 1 auto;
+    height: 34px;
+    max-width: none;
+    font-size: 15px;
+  }
+
+  /* The sprite on the cross grid, the held item's button on its top right (the corner sprites leave clearest). */
+  html.gen5ui.g5-band #calculator-view .g5-tile {
+    position: relative;
+    display: grid;
+    place-items: end center;
+    box-sizing: border-box;
+    height: 112px;
+    margin: 0 0 6px;
+    border: 2px solid var(--g5-black);
+    background: #000 url("../img/gen5/ui/grid-cross.svg");
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > img.poke-sprite {
+    position: static;
+    inset: auto;
+    box-sizing: border-box;
+    width: 96px;
+    max-width: 100%;
+    height: 96px;
+    margin: 0 0 2px;
+    padding: 0;
+    border: 0;
+    background: none;
+    object-fit: contain;
+    object-position: center bottom;
+    visibility: visible;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 2px solid var(--g5-edge);
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn:hover {
+    border-color: var(--g5-menu-edge);
+    background: var(--g5-menu);
+    outline: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn:focus-visible {
+    outline: 2px solid var(--g5-selected);
+    outline-offset: 1px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn[aria-expanded="true"] {
+    border-color: var(--g5-menu-on-edge);
+    background: var(--g5-menu-on);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* The name is the button's tooltip and accessible name; the icon is what shows. */
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn .g5-item-name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn.g5-none {
+    border-style: dashed;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn .g5-noicon {
+    color: var(--g5-muted);
+    font: 600 18px/1 var(--g5-font);
+  }
+
+  /* Used up: the icon faded under a slash. */
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn.g5-used > img {
+    opacity: 0.4;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-tile > .g5-itembtn.g5-used::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: linear-gradient(to top right, transparent calc(50% - 1px), var(--g5-up) calc(50% - 1px), var(--g5-up) calc(50% + 1px), transparent calc(50% + 1px));
+  }
+
+  /* The calc's item list and its "held" checkbox stay laid out (the calc reads the checkbox only while it shows), out
+     of sight: the button on the sprite stands in for both. */
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors > .inline-toggle-field.g5-itemfield {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  html.gen5ui.g5-band #calculator-view input.itemToggle.g5-item-held {
+    position: absolute !important;
+    width: 1px !important;
+    min-width: 0 !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    clip-path: inset(50%);
+  }
+
+  /* HP: the calc's fields give way to one field (current over max, the percent, a gauge along its foot); the calc's
+     per-turn chip damage and healing shows under it. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.hp-cntrl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: auto;
+    gap: 4px;
+    margin: 0 0 6px;
+    font-size: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.hp-cntrl > :is(label:not(.btn), input.current-hp, .max-hp, input.percent-hp, br) {
+    display: none !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 34px;
+    padding: 0 6px 3px;
+    border: 2px solid var(--g5-edge);
+    background: var(--g5-black);
+    color: var(--g5-text);
+    font: 400 14px/1 var(--g5-font);
+    white-space: nowrap;
+    cursor: ew-resize;
+    touch-action: none;
+    user-select: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp:focus-visible,
+  html.gen5ui.g5-band #calculator-view .g5-hp.g5-hp-drag,
+  html.gen5ui.g5-band #calculator-view .g5-hp:focus-within:has(.g5-hp-edit) {
+    border-color: var(--g5-selected);
+    outline: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-label {
+    margin-right: 6px;
+    color: var(--g5-muted);
+    font-size: 13px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-num {
+    margin: 0;
+    padding: 0 1px;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: var(--g5-text);
+    font: 600 14px/22px var(--g5-font);
+    cursor: text;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-num:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-max {
+    color: var(--g5-muted);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-pct {
+    margin-left: auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-edit + .g5-hp-max,
+  html.gen5ui.g5-band #calculator-view .g5-hp-edit-pct {
+    margin-left: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-max + .g5-hp-edit-pct,
+  html.gen5ui.g5-band #calculator-view .g5-hp-pct[hidden] + .g5-hp-edit-pct {
+    margin-left: auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view input.g5-hp-edit {
+    box-sizing: border-box;
+    width: 46px;
+    height: 24px;
+    margin: 0;
+    padding: 0 3px;
+    border: 1px solid var(--g5-selected) !important;
+    border-radius: 0;
+    background: #000 !important;
+    color: var(--g5-text);
+    font: 600 14px/22px var(--g5-font);
+    text-align: right;
+  }
+
+  html.gen5ui.g5-band #calculator-view input.g5-hp-edit-pct {
+    width: 40px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background: var(--g5-raised);
+    pointer-events: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > :is(i, b) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > .g5-hp-green { background: var(--g5-mon); }
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > .g5-hp-yellow { background: var(--g5-bag); }
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > .g5-hp-red { background: var(--g5-fight); }
+
+  /* A turn's chip on the gauge: the HP it takes striped over the end of the fill, the HP it gives striped past it. */
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > .g5-hp-chip-down {
+    background: repeating-linear-gradient(90deg, var(--g5-black) 0 2px, transparent 2px 4px);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > .g5-hp-chip-up {
+    background: repeating-linear-gradient(90deg, var(--g5-mon) 0 2px, transparent 2px 4px);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-hp-gauge > b[hidden] {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.hp-cntrl > .chip-damage-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.hp-cntrl > .chip-damage-list:empty {
+    display: none;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.hp-cntrl .chip-damage {
+    min-height: 18px;
+    padding: 0 5px;
+    border-radius: 0;
+    font: 600 11px/18px var(--g5-font);
+  }
+
+  /* The stats and stat stages, in larger type and close together: short stat names at 15px, the fields at 15px,
+     the calculated stat at 19px, the columns named. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group:is(.left-table, .right-table) {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) table {
+    border-spacing: 0 3px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) :is(th, td) {
+    padding: 0 3px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) thead th {
+    font-size: 13px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tbody th {
+    padding-left: 0;
+    padding-right: 6px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tbody th label {
+    width: auto !important;
+    min-width: 0 !important;
+    font-size: 0 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tbody th label::after {
+    font-size: 15px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.hp th label::after { content: "HP"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.at th label::after { content: "Atk"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.df th label::after { content: "Def"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.sa th label::after { content: "SpA"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.sd th label::after { content: "SpD"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) tr.sp th label::after { content: "Spe"; }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) thead th:nth-last-child(2)::after { content: "Stat"; }
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) thead th:last-child::after { content: "Stage"; }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) thead th:last-child {
+    text-align: center;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) input {
+    width: 54px;
+    height: 32px;
+    font-size: 15px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) select {
+    width: 72px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group:is(.left-table, .right-table) .total {
+    min-width: 40px;
+    font-size: 19px;
+    line-height: 32px;
+  }
+
+  /* Nature, ability and status under HP, one to a line, in larger type. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.info-selectors {
+    position: static;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: auto;
+    max-width: none;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors > div:not(.hide) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 6px;
+    width: auto;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors .inline-toggle-field .ability-toggles {
+    order: 2;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors .g5-pick-status {
+    height: 32px;
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors .toxic-counter {
+    order: 2;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.info-selectors select:not(.g5-picked) {
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  /* Move rows: the move, its power, type and PP (all editable), crit and counts, then its damage and KO chance.
+     The row is a plate of the fields' black; the move whose result shows is in the menus' selection blue. The two
+     sides' first moves line up (gen5_ui.js puts the difference in --g5-band-pad on the first move). */
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) {
+    flex-wrap: wrap;
+    gap: 4px 5px;
+    box-sizing: border-box;
+    min-height: 44px;
+    margin: 0 0 4px;
+    padding: 3px 10px 3px 3px;
+    border: 2px solid transparent;
+    background: var(--g5-black);
+  }
+
+  html.gen5ui.g5-band #calculator-view #p2 :is(.move1, .move2, .move3, .move4) {
+    padding: 3px 3px 3px 10px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) > :is(.move-bp, .move-pp) {
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) .move1 {
+    margin-top: calc(12px + var(--g5-band-pad, 0px));
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4).g5-on {
+    border-color: var(--g5-menu-on-edge);
+    background: var(--g5-menu-on);
+  }
+
+  /* The damage takes what the row leaves, and its own line when that's too little to read. */
+  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    display: flex;
+    flex: 1 0 118px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 0;
+    margin-left: auto;
+    color: var(--g5-soft);
+    font: 400 12px/1.3 var(--g5-font);
+    text-align: right;
+  }
+
+  html.gen5ui.g5-band #calculator-view #p2 :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    order: -1;
+    align-items: flex-start;
+    margin: 0 auto 0 0;
+    text-align: left;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg > b {
+    color: var(--g5-text);
+    font: 600 16px/1.25 var(--g5-font);
+    white-space: nowrap;
+  }
+
+  /* A forced crit shows its damage in red, as the results bar did. */
+  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4):has(> input.move-crit:checked) > .g5-move-dmg > b {
+    color: var(--g5-up);
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg.g5-zero > b {
+    color: var(--g5-muted);
+    font-weight: 400;
+  }
+
+  /* The KO chance takes a second line rather than lose its end. */
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg > small {
+    display: -webkit-box;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 11px;
+    line-height: 1.2;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-counts {
+    flex: none;
+  }
+
+  /* The type at one and a half times its size, so the row keeps its damage beside it. */
+  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-pick-type :is(img, .g5-pick-text) {
+    width: 48px;
+    height: 18px;
+  }
+
+  /* The move and power fields at the width the panel leaves them. */
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector,
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    flex: none;
+    width: 176px !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) .move-bp {
+    width: 42px;
+  }
+
+  /* With Show Party Data off, the party is one row of icons; on, each card shows its moves, nature and ability as
+     in the classic layout (six to a row on a wide panel, see the g5band query below). */
+  html.gen5ui.g5-band body.hide-party-data #calculator-view #p1 .trainer-pok-list.player-party {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  html.gen5ui.g5-band body.hide-party-data #calculator-view #p1 .player-party .trainer-pok-container {
+    padding: 0;
+  }
+
+  html.gen5ui.g5-band body.hide-party-data #calculator-view #p1 .player-party .trainer-pok-container > img.trainer-pok {
+    height: 64px;
+    margin: 0;
+    padding: 6px 0;
+  }
+
+  html.gen5ui.g5-band body.hide-party-data #calculator-view #p1 .player-party .bp-info {
+    display: none;
+  }
+}
+
+/* A wide panel gives the move and power fields their full size, unless the side shows count pickers. */
+@container g5band (min-width: 764px) {
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2):not([data-g5-extras="1"], [data-g5-extras="2"]) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector,
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2):not([data-g5-extras="1"], [data-g5-extras="2"]) :is(.move1, .move2, .move3, .move4) .select2-container.move-selector .select2-choice {
+    width: 204px !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2):not([data-g5-extras="1"], [data-g5-extras="2"]) :is(.move1, .move2, .move3, .move4) .move-bp {
+    width: 50px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg > small {
+    font-size: 12px;
+  }
+}
+
+/* Where the row can't hold its damage too (a narrow panel, or count pickers on one under 770px), the damage takes
+   a second line: the range, then the KO chance. */
+@container g5band (max-width: 559.98px) {
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    order: 10;
+    flex: 1 1 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view #p2 :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    justify-content: flex-start;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg > small {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@container g5band (max-width: 769.98px) {
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2):is([data-g5-extras="1"], [data-g5-extras="2"]) :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    order: 10;
+    flex: 1 1 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+  }
+
+  html.gen5ui.g5-band #calculator-view #p2:is([data-g5-extras="1"], [data-g5-extras="2"]) :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
+    justify-content: flex-start;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(#p1, #p2):is([data-g5-extras="1"], [data-g5-extras="2"]) .g5-move-dmg > small {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+/* Your party and the foe's team six to a row when the panel gives each card 100px, as on the full-size panels. */
+@container g5band (min-width: 630px) {
+  html.gen5ui.g5-band #calculator-view :is(.trainer-pok-list.player-party, .trainer-pok-list.tag-partner-preview, #p2 .trainer-poks .trainer-pok-list, #p2 .trainer-preview-section) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+/* A panel too narrow for the stats beside the first column: the sprite box beside HP, nature, ability and status,
+   the stats under both. */
+@container g5band (max-width: 599.98px) {
+  html.gen5ui.g5-band #calculator-view .player-panel-content {
+    --g5-c2: 2 / -1;
+    grid-template-columns: 200px minmax(0, 1fr) auto;
+  }
+
+  html.gen5ui.g5-band #calculator-view .opposing-panel-content {
+    --g5-c2: 1 / 3;
+    grid-template-columns: minmax(0, 1fr) auto 200px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .g5-tile,
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:is(:nth-child(1), :nth-child(3), :nth-child(4)) {
+    grid-row: 2 / 4 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.hp-cntrl {
+    grid-column: var(--g5-c2) !important;
+    grid-row: 2 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.info-selectors {
+    grid-column: var(--g5-c2) !important;
+    grid-row: 3 !important;
+  }
+
+  /* The stats take both rows under the box, so the party, which the grid places itself, can't fall into an empty one. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group:is(.left-table, .right-table) {
+    grid-column: 1 / -1 !important;
+    grid-row: 4 / 6 !important;
+    justify-self: start;
+    margin-top: 6px;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group:is(.left-table, .right-table) {
+    grid-row: 5 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view .opposing-panel-content > .info-group.right-table {
+    justify-self: end;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content) > .info-group.top > div:nth-child(2):is(:not(.hide), [style*="display: block"]):not([style*="display: none"]) {
+    width: 140px;
+  }
+
+  /* The box is as tall as HP, nature, ability and status beside it, so its corners stay its own. */
+  html.gen5ui.g5-band #calculator-view .g5-tile {
+    align-self: stretch;
+    height: auto;
+    min-height: 112px;
+  }
+
+  /* With a level cap the level row goes under the box, in the first column. */
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.top > div:nth-child(4) {
+    grid-row: 4 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.hp-cntrl {
+    grid-row: 2 !important;
+  }
+
+  html.gen5ui.g5-band #calculator-view :is(.player-panel-content, .opposing-panel-content)[data-g5-cap] > .info-group.info-selectors {
+    grid-row: 3 !important;
+  }
+}
+
+/* ---------- The item picker ----------
+   The held items the calc's damage and stat code reads, as the game's bag icons at twice their size: the ones that
+   act on one type in a table under the types (a column is a type), the rest in rows by what they do, then a search
+   of every item the game has. */
+html.gen5ui .g5-pop.g5-pop-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: max-content;
+  max-width: calc(100vw - 16px);
+  padding: 0 0 12px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: var(--g5-panel);
+  font-size: 13px;
+}
+
+html.gen5ui .g5-item-head {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 4px 12px;
+  margin-bottom: 4px;
+  padding: 8px 12px 8px 8px;
+  border-bottom: 2px solid var(--g5-raised);
+  background: var(--g5-black);
+}
+
+html.gen5ui .g5-item-big {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  background: #000 url("../img/gen5/ui/grid-cross.svg");
+}
+
+html.gen5ui .g5-item-big img,
+html.gen5ui .g5-item-cell img {
+  width: 48px;
+  height: 48px;
+}
+
+html.gen5ui .g5-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+html.gen5ui .g5-item-info strong {
+  font: 600 15px/1.3 var(--g5-font);
+}
+
+html.gen5ui .g5-item-info span {
+  color: var(--g5-soft);
+  font-size: 12px;
+}
+
+html.gen5ui .g5-item-acts,
+html.gen5ui .g5-item-held-seg {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+html.gen5ui .g5-item-held-seg {
+  gap: 2px;
+}
+
+/* The game's hexagonal command buttons, as in the calculator. */
+html.gen5ui .g5-item-acts button {
+  --edge: var(--g5-menu-edge);
+  --face: var(--g5-menu);
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  height: 26px;
+  margin: 0;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 0;
+  background: var(--edge);
+  color: var(--g5-text);
+  font: 600 12px/26px var(--g5-font);
+  white-space: nowrap;
+  cursor: pointer;
+  clip-path: var(--g5-hex);
+}
+
+html.gen5ui .g5-item-acts button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: -1;
+  background: var(--face);
+  clip-path: var(--g5-hex-face);
+}
+
+html.gen5ui .g5-item-acts button:hover {
+  --face: #474766;
+}
+
+html.gen5ui .g5-item-acts button[aria-pressed="true"] {
+  --edge: var(--g5-menu-on-edge);
+  --face: var(--g5-menu-on);
+}
+
+html.gen5ui .g5-item-acts button[aria-pressed="false"] {
+  color: var(--g5-label);
+  font-weight: 500;
+}
+
+html.gen5ui .g5-item-acts button:focus-visible,
+html.gen5ui .g5-item-cell:focus-visible {
+  outline: 2px solid var(--g5-selected);
+  outline-offset: 1px;
+}
+
+html.gen5ui .g5-item-table {
+  display: grid;
+  grid-template-columns: 116px repeat(var(--g5-cols, 18), 52px);
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+}
+
+html.gen5ui .g5-item-table + .g5-item-table {
+  margin-top: 8px;
+}
+
+html.gen5ui .g5-item-type {
+  display: grid;
+  place-items: center;
+  height: 20px;
+}
+
+html.gen5ui .g5-item-type img {
+  width: 48px;
+  height: 18px;
+}
+
+html.gen5ui .g5-item-group {
+  color: var(--g5-label);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+html.gen5ui .g5-item-cell,
+html.gen5ui .g5-item-gap {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 52px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+html.gen5ui .g5-item-cell {
+  border: 2px solid transparent;
+  border-radius: 0;
+  background: #202020 url("../img/gen5/ui/grid-button.svg");
+  cursor: pointer;
+}
+
+html.gen5ui .g5-item-cell:hover {
+  border-color: var(--g5-menu-edge);
+}
+
+html.gen5ui .g5-item-cell[aria-pressed="true"] {
+  border-color: var(--g5-text);
+  background-color: var(--g5-menu-on);
+}
+
+html.gen5ui .g5-item-row {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+}
+
+html.gen5ui .g5-item-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+html.gen5ui .g5-item-noart {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 2px dashed var(--g5-edge);
+  color: var(--g5-label);
+  font: 600 12px/1 var(--g5-font);
+}
+
+html.gen5ui .g5-item-readout b {
+  color: var(--g5-text);
+  font-weight: 600;
+}
+
+html.gen5ui .g5-item-readout {
+  min-height: 18px;
+  margin: 0;
+  padding: 0 12px 0 132px;
+  color: var(--g5-soft);
+  font-size: 13px;
+}
+
+html.gen5ui .g5-item-search {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  align-items: start;
+  gap: 4px;
+  padding: 10px 12px 0;
+  border-top: 2px solid var(--g5-raised);
+}
+
+html.gen5ui .g5-item-search > .g5-item-group {
+  padding-top: 7px;
+}
+
+html.gen5ui .g5-item-search input {
+  box-sizing: border-box;
+  width: min(360px, 100%);
+  height: 30px;
+  margin: 0;
+  padding: 0 8px;
+  border: 2px solid var(--g5-edge);
+  border-radius: 0;
+  background: var(--g5-black);
+  color: var(--g5-text);
+  font: 400 13px/1 var(--g5-font);
+}
+
+html.gen5ui .g5-item-search input:focus-visible {
+  outline: 2px solid var(--g5-text);
+  outline-offset: 1px;
+}
+
+html.gen5ui .g5-item-results {
+  box-sizing: border-box;
+  width: min(360px, 100%);
+  margin: 4px 0 0;
+  padding: 0;
+  border: 2px solid var(--g5-menu-edge);
+  background: var(--g5-black);
+  list-style: none;
+}
+
+html.gen5ui .g5-item-results[hidden] {
+  display: none;
+}
+
+html.gen5ui .g5-item-results li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 30px;
+  padding: 0 8px;
+  color: var(--g5-text);
+  cursor: pointer;
+}
+
+html.gen5ui .g5-item-results li img {
+  width: 24px;
+  height: 24px;
+}
+
+html.gen5ui .g5-item-results li:hover {
+  background: #474766;
+}
+
+html.gen5ui .g5-item-results li[aria-selected="true"] {
+  background: var(--g5-menu-on);
 }
