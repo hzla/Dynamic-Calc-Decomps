@@ -1127,6 +1127,7 @@ const backupFileCacheKeys = {
     null12: "forms-20261026",
     null125: "forms-20261026",
     badem: "1.0.8.3-full",
+    pkv5h: "pk-parity1",
     ek: "cf296d42",
     ek2: "508955ac"
 };
@@ -1134,6 +1135,7 @@ const backupFileCacheKeys = {
 const trainerOrderFileCacheKeys = {
     frd: "20261028",
     frdnormal: "20261028",
+    pkv5h: "pk-parity1",
     ek2: "ff68841b"
 };
 
@@ -1797,7 +1799,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?hl-marks1';
+  script.src= './js/shared_controls.js?pk-parity1';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);

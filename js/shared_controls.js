@@ -1544,9 +1544,9 @@ function shouldInferHiddenPowerFromIVs(moveName) {
 	return typeof TITLE === "string" && TITLE.includes("Platinum");
 }
 
-function shouldUseEmeraldKaizoTypedHiddenPowerMove(moveName) {
+function shouldUseTypedHiddenPowerMoveData(moveName) {
 	return typeof TITLE === "string" &&
-		TITLE === "Emerald Kaizo" &&
+		(TITLE === "Emerald Kaizo" || TITLE === "Platinum Kaizo") &&
 		TYPED_HIDDEN_POWER_REGEX.test(moveName || "");
 }
 
@@ -1688,7 +1688,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 	var pokeObj = $(moveObj).closest(".poke-info");
-	var useMoveTableHiddenPower = shouldUseEmeraldKaizoTypedHiddenPowerMove(moveName);
+	var useMoveTableHiddenPower = shouldUseTypedHiddenPowerMoveData(moveName);
 	var inferredHiddenPower = useMoveTableHiddenPower ? null : getHiddenPowerDetailsFromIVs(pokeObj, moveName);
 	// Building the Pokémon reads (and redraws) the whole panel, so it waits until something below needs it.
 	var builtPokemon = null;
@@ -1702,7 +1702,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 
 	if (changingSets) {
 		var previousMoveName = $(moveObj).attr('data-prev');
-		var previousUseMoveTableHiddenPower = shouldUseEmeraldKaizoTypedHiddenPowerMove(previousMoveName);
+		var previousUseMoveTableHiddenPower = shouldUseTypedHiddenPowerMoveData(previousMoveName);
 		if (m && !inferredHiddenPower && !useMoveTableHiddenPower) {
 			
 
@@ -4118,6 +4118,9 @@ $(".gen").change(function () {
 	typeChart = calc.TYPE_CHART[settings.typeChart];
 	
 	items = calc.ITEMS[gen];
+	if (TITLE === "Platinum Kaizo") {
+		items = Array.from(new Set(items.concat(["RageCandyBar", "Pink Scarf", "Lucky Egg"])));
+	}
 	abilities = calc.ABILITIES[gen];
 
 	if (!DEFAULTS_LOADED) {
