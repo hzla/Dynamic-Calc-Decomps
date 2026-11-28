@@ -5679,6 +5679,24 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     visibility: visible;
   }
 
+  /* The level and cap fields in the box hold three digits: no spin buttons taking room beside them (the arrow keys
+     still step the number). */
+  html.gen5ui.g5-band #calculator-view .info-group.top :is(.level, #panel-lvl-cap) {
+    appearance: textfield;
+    -moz-appearance: textfield;
+  }
+
+  html.gen5ui.g5-band #calculator-view .info-group.top :is(.level, #panel-lvl-cap)::-webkit-inner-spin-button,
+  html.gen5ui.g5-band #calculator-view .info-group.top :is(.level, #panel-lvl-cap)::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+
+  /* The sprite stays under the box's corners (level, types, gender): the calc lifts it over the panel elsewhere. */
+  html.gen5ui.g5-band #calculator-view .g5-tile > img.poke-sprite {
+    z-index: auto;
+  }
+
   /* The foe's lead (the calc's purple mark) frames the whole sprite box rather than the picture. */
   html.gen5ui.g5-band #calculator-view .g5-tile > img.poke-sprite.lead {
     outline: none;
@@ -6041,7 +6059,7 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
   }
 
   /* Move rows: the move, its power, type and PP (all editable), crit and counts, then its damage and KO chance.
-     The row is a plate of the fields' black; the move whose result shows is in the menus' selection blue. The two
+     The row is a plate of the fields' black; the move whose result shows has a light frame. The two
      sides' first moves line up (gen5_ui.js puts the difference in --g5-band-pad on the first move). */
   html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4) {
     flex-wrap: wrap;
@@ -6066,9 +6084,9 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     margin-top: calc(12px + var(--g5-band-pad, 0px));
   }
 
+  /* The move whose result shows: its frame only, the row keeping the fields' black. */
   html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4).g5-on {
     border-color: var(--g5-menu-on-edge);
-    background: var(--g5-menu-on);
   }
 
   /* The damage takes what the row leaves, beside the move. gen5_ui.js measures each row: the KO chance shows under
@@ -6103,6 +6121,20 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
   /* A forced crit shows its damage in red, as the results bar did. */
   html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4):has(> input.move-crit:checked) > .g5-move-dmg > b {
     color: var(--g5-up);
+  }
+
+  /* Move Highlighting (a setting): a foe's move that can knock your Pokémon out has its damage framed in red, one that
+     can with a critical hit in yellow, as the classic layout frames its results. */
+  /* The frame is dotted, with room inside it; the figure's line is tightened by the frame's width, so a framed
+     row is no taller than the others. */
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg[data-g5-ko] > b {
+    padding: 0 10px;
+    border: 2px dotted var(--g5-bag);
+    line-height: 16px;
+  }
+
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg[data-g5-ko="kill"] > b {
+    border-color: var(--g5-up);
   }
 
   html.gen5ui.g5-band #calculator-view .g5-move-dmg.g5-zero > b {

@@ -1102,6 +1102,12 @@ function abv(s, containerSelector = '.player-party', maxLength = 13, force = fal
         return s
     }
 
+    // The Gen 5 UI shows the whole name and shortens it itself only when it overflows its card (gen5_ui.js), since its
+    // cards are sized differently from the ones this rule was made for.
+    if (!force && document.documentElement.classList.contains("gen5ui")) {
+        return s
+    }
+
     var container = $(containerSelector)
     var containerWidth = container.width() || container.parent().width() || $('.player-party').width() || $('.trainer-poks').first().width() || 0
     if (force || (containerWidth / s.length <= 50)) {

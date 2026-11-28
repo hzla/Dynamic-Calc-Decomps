@@ -15,6 +15,63 @@
         return root.classList.contains("gen5ui");
     }
 
+    // ---------- Party card text ----------
+    // In this layout the calc puts whole move names on party cards (abv in player_box.js), and a name too long for its
+    // card takes the calc's short form ("H Pump" for Hydro Pump) only then: the card's own width decides, and a wider
+    // card gets the whole name back. Names that still don't fit end in an ellipsis (gen5.css).
+    var PARTY_LISTS = "#calculator-view .trainer-pok-list:is(.player-party, .tag-partner-preview)";
+    var PARTY_MOVE_LINES = ":scope > .trainer-pok-container > .bp-info:not(.nature-info):not(.extra-info)";
+    var partyFitQueued = false;
+
+    function shortMoveName(name) {
+        var words = String(name).trim().split(/\s+/);
+        return words.length > 1 && words[0] ? words[0][0] + " " + words.slice(1).join(" ") : name;
+    }
+
+    function fitPartyText() {
+        partyFitQueued = false;
+        if (!enabled()) return;
+        var lines = [];
+        document.querySelectorAll(PARTY_LISTS).forEach(function (list) {
+            Array.prototype.push.apply(lines, list.querySelectorAll(PARTY_MOVE_LINES));
+        });
+        // Whole names first, then the ones that overflow take the short form.
+        lines.forEach(function (line) {
+            var shown = line.textContent;
+            var full = line.getAttribute("data-g5-full");
+            if (full === null || (shown !== full && shown !== shortMoveName(full))) {
+                full = shown;
+                line.setAttribute("data-g5-full", full);
+            }
+            if (shown !== full) line.textContent = full;
+        });
+        var overflowing = lines.filter(function (line) { return line.scrollWidth > line.clientWidth + 0.5; });
+        overflowing.forEach(function (line) {
+            var short = shortMoveName(line.getAttribute("data-g5-full"));
+            if (short !== line.textContent) line.textContent = short;
+        });
+    }
+
+    function queuePartyFit() {
+        if (partyFitQueued) return;
+        partyFitQueued = true;
+        requestAnimationFrame(fitPartyText);
+    }
+
+    function watchPartyText() {
+        var lists = document.querySelectorAll(PARTY_LISTS);
+        if (!lists.length) return;
+        if (typeof MutationObserver !== "undefined") {
+            var added = new MutationObserver(queuePartyFit);
+            lists.forEach(function (list) { added.observe(list, { childList: true }); });
+        }
+        if (typeof ResizeObserver !== "undefined") {
+            var resized = new ResizeObserver(queuePartyFit);
+            lists.forEach(function (list) { resized.observe(list); });
+        }
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(queuePartyFit);
+    }
+
     function setEnabled(on) {
         try {
             localStorage.setItem(STORAGE_KEY, on ? "1" : "0");
@@ -34,6 +91,13 @@
         }
         applyTabs(on);
         redrawTabs(on);
+        if (typeof displayParty === "function") {
+            try {
+                displayParty();
+            } catch (error) {
+                // The party is drawn again with the next change instead.
+            }
+        }
     }
 
     // ---------- Box, Fragsheet and Battle Log ----------
@@ -269,6 +333,29 @@
         return getComputedStyle(element).display !== "none";
     }
 
+    function highlightOn() {
+        try {
+            return localStorage.getItem("highlightMoves") === "1";
+        } catch (error) {
+            return false;
+        }
+    }
+
+    function highlightOf(slot) {
+        var result = document.getElementById("resultDamageR" + slot);
+        var mark = result ? result.getAttribute("data-highlight") : "";
+        return mark === "kill" || mark === "crit" ? mark : "";
+    }
+
+    // The setting takes effect at once rather than at the next calculation.
+    document.addEventListener("click", function (event) {
+        if (!enabled() || !event.target.closest || !event.target.closest("#toggle-hl-moves .slider")) return;
+        setTimeout(function () {
+            if (highlightOn() && typeof highlightMoves === "function" && window.damageResults) highlightMoves();
+            refresh();
+        }, 0);
+    });
+
     function refreshMoveDamage(panel, sideIndex) {
         var results = window.damageResults && window.damageResults[sideIndex];
         // The most count pickers any row on this side shows (0, 1 or 2): the stylesheet hides the side's damage
@@ -312,6 +399,13 @@
                     }
                     cell.classList.toggle("g5-zero", !!percents && Number(percents[1]) === 0);
                     cell.title = range ? range + (ko ? ", " + ko : "") : "";
+                }
+                // Move Highlighting (a setting): the calc marks the foe's moves that can knock your Pokémon out, or
+                // can with a critical hit, on its results; the row shows the same.
+                var mark = sideIndex === 1 && range && highlightOn() ? highlightOf(i) : "";
+                if ((cell.getAttribute("data-g5-ko") || "") !== mark) {
+                    if (mark) cell.setAttribute("data-g5-ko", mark);
+                    else cell.removeAttribute("data-g5-ko");
                 }
                 continue;
             }
@@ -1770,7 +1864,7 @@
             });
             used += gap * Math.max(0, count - 1);
             var room = avail - used - gap;
-            var rangeWidth = range ? range.scrollWidth : 0;
+            var rangeWidth = range ? range.offsetWidth : 0;
             var koWidth = ko ? ko.scrollWidth : 0;
             var wrap = !!range && rangeWidth > room + 0.5;
             var showKo = !!ko && (wrap ? rangeWidth + 10 + koWidth <= avail + 0.5 : koWidth <= room + 0.5);
@@ -2365,6 +2459,7 @@
     function init() {
         initToggle();
         watchTagRows();
+        watchPartyText();
         watchSwitchInfo();
         watchBand();
         if (enabled()) {
@@ -2374,7 +2469,7 @@
         }
         // Every calculation rewrites the results, so watching them catches set, move and nature changes alike.
         var results = document.querySelector(".move-result-group");
-        if (results) new MutationObserver(refresh).observe(results, { subtree: true, childList: true, characterData: true });
+        if (results) new MutationObserver(refresh).observe(results, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ["data-highlight"] });
         document.addEventListener("change", refresh, true);
         refresh();
     }

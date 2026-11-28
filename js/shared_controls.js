@@ -3352,15 +3352,16 @@ function highlightMoves() {
 		if (localStorage.highlightMoves) {
 			for (let idx of [1,2,3,4]) {
 				let resultText = $(`#resultDamageR${idx}`).text()
-				$(`#resultDamageR${idx}`).css('border', '')
+				// data-highlight says the same for layouts that show the damage elsewhere (the Gen 5 UI's move rows).
+				$(`#resultDamageR${idx}`).css('border', '').removeAttr('data-highlight')
 				if (resultText.includes(" - ")) {
 					let highRoll = parseInt(resultText.split(" - ")[1].replace("%", ""))
 
 					if (highRoll * critMult >= p1Hp && !["Shell Armor", "Battle Armor"].includes($('#abilityL1').val())) {
-						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(241,250,140,0.8)')
+						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(241,250,140,0.8)').attr('data-highlight', 'crit')
 					} 
 					if (highRoll >= p1Hp) {
-						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(255,85,85,0.8)')
+						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(255,85,85,0.8)').attr('data-highlight', 'kill')
 					} 
 				}
 			}
