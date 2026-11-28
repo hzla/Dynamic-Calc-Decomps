@@ -924,7 +924,6 @@
         });
         document.querySelectorAll("#calculator-view .g5-on").forEach(function (row) { row.classList.remove("g5-on"); });
         document.querySelectorAll("#calculator-view .g5-dmg-wrap").forEach(function (row) { row.classList.remove("g5-dmg-wrap"); });
-        document.querySelectorAll("#calculator-view .g5-ko-off").forEach(function (cell) { cell.classList.remove("g5-ko-off"); });
         var view = document.getElementById("calculator-view");
         if (view) view.style.removeProperty("--g5-band-h");
     }
@@ -1834,10 +1833,9 @@
     }
 
     // ---------- One line per move ----------
-    // A move row keeps its damage beside the move when the range fits there, and shows the KO chance under the range
-    // only when that fits on one line: when it doesn't, it's left out rather than given a second line. Only a row too
-    // narrow for the range itself puts the damage on a line of its own (gen5.css: g5-dmg-wrap, g5-ko-off). The widths
-    // are read once the page is laid out (at the end of a refresh, and after a resize), then the classes written.
+    // A move row keeps its damage range beside the move (its KO chance is in the tooltip); only a row too narrow for
+    // the range puts it on a line of its own (gen5.css: g5-dmg-wrap). The widths are read once the page is laid out (at
+    // the end of a refresh, and after a resize), then the classes written.
     var MOVE_ROW_LIST = ["p1", "p2"].map(function (side) {
         return [1, 2, 3, 4].map(function (slot) { return "#" + side + " .move" + slot; }).join(", ");
     }).join(", ");
@@ -1849,7 +1847,6 @@
             var cell = row.querySelector(":scope > .g5-move-dmg");
             if (!cell || !row.offsetParent) return;
             var range = cell.querySelector(":scope > b");
-            var ko = cell.querySelector(":scope > small");
             var style = getComputedStyle(row);
             var gap = parseFloat(style.columnGap) || 0;
             var avail = row.clientWidth - (parseFloat(style.paddingLeft) || 0) - (parseFloat(style.paddingRight) || 0);
@@ -1865,14 +1862,10 @@
             used += gap * Math.max(0, count - 1);
             var room = avail - used - gap;
             var rangeWidth = range ? range.offsetWidth : 0;
-            var koWidth = ko ? ko.scrollWidth : 0;
-            var wrap = !!range && rangeWidth > room + 0.5;
-            var showKo = !!ko && (wrap ? rangeWidth + 10 + koWidth <= avail + 0.5 : koWidth <= room + 0.5);
-            plans.push([row, cell, wrap, showKo]);
+            plans.push([row, !!range && rangeWidth > room + 0.5]);
         });
         plans.forEach(function (plan) {
-            if (plan[0].classList.contains("g5-dmg-wrap") !== plan[2]) plan[0].classList.toggle("g5-dmg-wrap", plan[2]);
-            if (plan[1].classList.contains("g5-ko-off") === plan[3]) plan[1].classList.toggle("g5-ko-off", !plan[3]);
+            if (plan[0].classList.contains("g5-dmg-wrap") !== plan[1]) plan[0].classList.toggle("g5-dmg-wrap", plan[1]);
         });
     }
 

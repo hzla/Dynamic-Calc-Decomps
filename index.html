@@ -8,9 +8,15 @@
     <script>
         // Gen 5 UI (css/gen5.css, js/calc_ui/gen5_ui.js): set before the page paints so the other look never flashes.
         try {
-            // ?gen5ui=1 or ?gen5ui=0 shows or hides it for this visit without changing the saved setting.
-            var gen5uiParam = new URLSearchParams(window.location.search).get("gen5ui");
-            var gen5uiOn = gen5uiParam === "1" || gen5uiParam === "0" ? gen5uiParam === "1" : localStorage.getItem("gen5ui") === "1";
+            // ?gen5ui=1 or ?gen5ui=0 shows or hides it for this visit without changing the saved setting. Otherwise the
+            // saved setting decides once the user has switched it on or off; until then a calc whose link has ?ui=unova
+            // opens in it, and every other calc in the classic look.
+            var gen5uiSearch = new URLSearchParams(window.location.search);
+            var gen5uiParam = gen5uiSearch.get("gen5ui");
+            var gen5uiSaved = localStorage.getItem("gen5ui");
+            var gen5uiOn = gen5uiParam === "1" || gen5uiParam === "0" ? gen5uiParam === "1"
+                : gen5uiSaved === "1" || gen5uiSaved === "0" ? gen5uiSaved === "1"
+                : String(gen5uiSearch.get("ui") || "").toLowerCase() === "unova";
             if (gen5uiOn) document.documentElement.classList.add("gen5ui");
         } catch (error) {}
     </script>
@@ -59,7 +65,7 @@
     <script src="./js/vendor/jquery.terminal-2.43.0.min.js"></script>
     <script src="./js/vendor/ai.min.js?30e82835"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/31.0.1/ag-grid-community.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="./css/gen5.css?pokeweb-abilities1-clear1-inline1-g5tabs1-se1-counts1-perf7" />
+    <link type="text/css" rel="stylesheet" href="./css/gen5.css?pokeweb-abilities1-clear1-inline1-g5tabs1-se1-counts1-perf8" />
 
 
 </head>
@@ -2648,7 +2654,7 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?imperium-preview1"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
     <script type="text/javascript" src="./js/calc_ui/menu_settings.js?tarnished-platinum1"></script>
-    <script type="text/javascript" src="./js/calc_ui/gen5_ui.js?23"></script>
+    <script type="text/javascript" src="./js/calc_ui/gen5_ui.js?24"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?mobilefrags1-g5tabs1"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>

@@ -6089,9 +6089,8 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     border-color: var(--g5-menu-on-edge);
   }
 
-  /* The damage takes what the row leaves, beside the move. gen5_ui.js measures each row: the KO chance shows under
-     the range only when it fits there on one line, and only a row too narrow for the range itself puts the damage on
-     a line of its own (g5-dmg-wrap). */
+  /* The damage takes what the row leaves, beside the move. gen5_ui.js measures each row: only a row too narrow for
+     the range puts the damage on a line of its own (g5-dmg-wrap). */
   html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-move-dmg {
     display: flex;
     flex: 1 1 0;
@@ -6112,9 +6111,10 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     text-align: left;
   }
 
+  /* The damage range alone, in large type (18px, 20px on a wide panel); the KO chance is in its tooltip. */
   html.gen5ui.g5-band #calculator-view .g5-move-dmg > b {
     color: var(--g5-text);
-    font: 600 16px/1.25 var(--g5-font);
+    font: 600 18px/26px var(--g5-font);
     white-space: nowrap;
   }
 
@@ -6130,7 +6130,7 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
   html.gen5ui.g5-band #calculator-view .g5-move-dmg[data-g5-ko] > b {
     padding: 0 10px;
     border: 2px dotted var(--g5-bag);
-    line-height: 16px;
+    line-height: 22px;
   }
 
   html.gen5ui.g5-band #calculator-view .g5-move-dmg[data-g5-ko="kill"] > b {
@@ -6142,24 +6142,11 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     font-weight: 400;
   }
 
-  /* The KO chance on one line, under the range; it doesn't widen the damage (the range alone decides what the row
-     needs), and when it doesn't fit it is left out whole rather than cut. */
   html.gen5ui.g5-band #calculator-view .g5-move-dmg > small {
-    display: block;
-    align-self: stretch;
-    overflow: hidden;
-    font-size: 11px;
-    line-height: 1.2;
-    white-space: nowrap;
-    contain: inline-size;
+    display: none;
   }
 
-  html.gen5ui.g5-band #calculator-view .g5-move-dmg.g5-ko-off > small {
-    height: 0;
-    visibility: hidden;
-  }
-
-  /* A row too narrow for the range: the damage on a line of its own, the range and KO chance side by side. */
+  /* A row too narrow for the range: the damage on a line of its own. */
   html.gen5ui.g5-band #calculator-view :is(#p1, #p2) :is(.move1, .move2, .move3, .move4).g5-dmg-wrap > .g5-move-dmg {
     order: 10;
     flex: 1 1 100%;
@@ -6172,18 +6159,6 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
 
   html.gen5ui.g5-band #calculator-view #p2 :is(.move1, .move2, .move3, .move4).g5-dmg-wrap > .g5-move-dmg {
     justify-content: flex-start;
-  }
-
-  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4).g5-dmg-wrap > .g5-move-dmg > small {
-    flex: 0 1 auto;
-    align-self: auto;
-    min-width: 0;
-    contain: none;
-  }
-
-  html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4).g5-dmg-wrap > .g5-move-dmg.g5-ko-off > small {
-    flex: none;
-    width: 0;
   }
 
   html.gen5ui.g5-band #calculator-view :is(.move1, .move2, .move3, .move4) > .g5-counts {
@@ -6270,8 +6245,8 @@ html.gen5ui #calculator-view :is(.g5-tile, .g5-battlebar) {
     width: 50px;
   }
 
-  html.gen5ui.g5-band #calculator-view .g5-move-dmg > small {
-    font-size: 12px;
+  html.gen5ui.g5-band #calculator-view .g5-move-dmg > b {
+    font-size: 20px;
   }
 }
 
